@@ -658,21 +658,13 @@ a:focus-visible {
     </div>
   </div>
 
-  <section class="newsletter-card" aria-labelledby="newsletterTitle">
-    <h2 id="newsletterTitle">Get the Daily Signal Digest</h2>
-    <form id="newsletterForm" method="post" action="#" novalidate data-substack-action="https://YOUR_SUBSTACK.substack.com/subscribe" data-beehiiv-action="https://YOUR_PUBLICATION.beehiiv.com/subscribe" data-convertkit-action="https://api.convertkit.com/v3/forms/YOUR_FORM_ID/subscribe" data-webhook="">
-      <div class="newsletter-fields">
-        <label class="visually-hidden" for="newsletterEmail">Email address</label>
-        <div class="newsletter-row">
-          <input id="newsletterEmail" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@example.com" required>
-          <button type="submit">Subscribe</button>
-        </div>
-        <p class="newsletter-trust">No spam. Unsubscribe anytime.</p>
-        <p class="newsletter-error" role="alert" hidden></p>
-      </div>
-      <p class="newsletter-success" role="status" hidden>You're subscribed to the Daily Signal!</p>
-    </form>
+  <section class="newsletter-card" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Get the Monday Signal Briefing — 5 key tech moves delivered every week.</h2>
+    <div style="width: 100%; min-height: 200px; display: flex; justify-content: center; align-items: center; margin-top: 12px; overflow: visible;">
+      <iframe src="https://subscribe-forms.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef" class="beehiiv-embed" data-test-id="beehiiv-embed" height="320" width="100%" frameborder="0" scrolling="no" style="border-radius: 8px; border: none; width: 100%; max-width: 100%; height: 320px; background: transparent; overflow: visible;"></iframe>
+    </div>
   </section>
+  <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
 </div>
 
 <script>
