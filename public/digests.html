@@ -568,14 +568,18 @@ a:focus-visible {
 <style id="page-align">
 /* The digest mast, title, archive list, and newsletter share one left edge.
    The article card keeps its own inner padding. */
+html,
+body {
+  overflow-x: clip;
+}
+
 .main-content > .mast > .wrap,
 .main-content > .wrap {
   width: 100% !important;
-  max-width: 1200px !important;
+  max-width: 100% !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  padding-left: 28px !important;
-  padding-right: 28px !important;
+  padding: 0 24px !important;
   box-sizing: border-box !important;
 }
 
@@ -586,12 +590,29 @@ a:focus-visible {
   margin-left: 0 !important;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .main-content > .mast > .wrap,
   .main-content > .wrap {
-    max-width: none !important;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    max-width: 100% !important;
+    padding: 0 16px !important;
+  }
+
+  .layout {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  .list {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)) !important;
+  }
+
+  .page-title {
+    font-size: 22px !important;
+  }
+
+  #digestContent {
+    padding: 16px !important;
   }
 }
 </style>
@@ -660,11 +681,10 @@ a:focus-visible {
 
   <section class="newsletter-card" id="newsletterCard" aria-labelledby="newsletterTitle">
     <h2 id="newsletterTitle">Get the Monday Signal Briefing — 5 key tech moves delivered every week.</h2>
-    <div style="width: 100%; min-height: 200px; display: flex; justify-content: center; align-items: center; margin-top: 12px; overflow: visible;">
-      <iframe src="https://subscribe-forms.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef" class="beehiiv-embed" data-test-id="beehiiv-embed" height="320" width="100%" frameborder="0" scrolling="no" style="border-radius: 8px; border: none; width: 100%; max-width: 100%; height: 320px; background: transparent; overflow: visible;"></iframe>
+    <div style="max-width: 600px; width: 100%; margin: 0 auto; height: 52px; border-radius: 8px; overflow: hidden;">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef" data-test-id="beehiiv-embed" height="52" width="100%" frameborder="0" scrolling="no" style="border: none; width: 100%; height: 52px; background: transparent;"></iframe>
     </div>
   </section>
-  <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
 </div>
 
 <script>
@@ -1720,20 +1740,30 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
   .cookie-banner-actions button { flex: 1; }
 }
 .newsletter-card {
-  margin: 28px 0 8px;
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 16px;
+  width: 100%;
+  max-width: 100%;
+  margin: 20px auto 12px;
+  padding: 4px 0 8px;
   box-sizing: border-box;
-  background: var(--panel, #ffffff);
+  background: transparent;
   color: var(--text, #202124);
-  border: 1px solid var(--line, #e5e7eb);
-  border-radius: 16px;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
 }
 .newsletter-card h2 {
-  margin: 0 0 14px;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
+  flex: 1 1 240px;
+  max-width: 420px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
 }
 .newsletter-card .visually-hidden {
   position: absolute;
