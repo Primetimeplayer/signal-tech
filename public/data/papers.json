@@ -1,70 +1,33 @@
 {
-  "updated": "2026-10-15T00:15:27.511Z",
+  "updated": "2026-10-15T06:21:38.584Z",
   "count": 20,
   "items": [
     {
-      "title": "ChunkAct: Action Chunking for Agentic Robotics",
-      "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency. Every primitive requires a round of LLM reasoning over the full interaction history, so the…",
-      "link": "http://arxiv.org/abs/2610.18874v1",
-      "published": "2026-10-13T17:59:57Z",
+      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight…",
+      "link": "http://arxiv.org/abs/2610.20606v1",
+      "published": "2026-10-14T17:59:52Z",
       "authors": [
-        "Bingxin Xu",
-        "Wenrui Bao",
-        "Xinxin Liu",
-        "Jiawei Zhou",
-        "Yuzhang Shang",
-        "Emilio Ferrara"
+        "Huixuan Cheng",
+        "Bike Zhang",
+        "Shankar Sastry",
+        "Koushil Sreenath"
       ],
       "categories": [
         "cs.RO",
         "cs.AI",
-        "cs.CL",
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
-      "summary": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across geometry families and collapses as observations become denser…",
-      "link": "http://arxiv.org/abs/2610.18871v1",
-      "published": "2026-10-13T17:59:53Z",
-      "authors": [
-        "Chih-Hai Su",
-        "Tsung-Wei Ke",
-        "Yu-Lun Liu"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.GR",
         "cs.LG"
       ]
     },
     {
-      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
-      "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we match demonstrations and training budgets. Additional…",
-      "link": "http://arxiv.org/abs/2610.18869v1",
-      "published": "2026-10-13T17:59:52Z",
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manipulation), a systematic framework for stable and sample-efficient real-world fine-tuning of complex…",
+      "link": "http://arxiv.org/abs/2610.20607v1",
+      "published": "2026-10-14T17:59:52Z",
       "authors": [
-        "Mingxuan Yan",
-        "Litian Gong",
-        "Dihong Huang",
-        "Zhixu Li",
-        "Tianyu Zhang",
-        "Wenqian Zhang",
+        "Zhefei Gong",
         "Hefeifei Jiang",
-        "Peihao Li",
-        "Jian Zhang",
-        "Mengfei Zhao",
-        "Yikai Tang",
-        "Hai Zhai",
         "Zehao Wang",
-        "Ruijian Liang",
-        "Yanjia Huang",
-        "Lin Shao",
-        "Changliu Liu",
-        "Kaiyu Hang",
-        "Zhiwen Fan",
-        "Masayoshi Tomizuka",
-        "Jianfei Yang",
         "Jiachen Li"
       ],
       "categories": [
@@ -74,131 +37,36 @@
       ]
     },
     {
-      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
-      "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks…",
-      "link": "http://arxiv.org/abs/2610.18868v1",
-      "published": "2026-10-13T17:59:51Z",
+      "title": "Co-Evolving Acting and Forecasting for Language Agents",
+      "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate steps largely unused. Prior work exploits this supervision through value targets that estimate per-step success probabilities or observation targets that fit environment response…",
+      "link": "http://arxiv.org/abs/2610.20597v1",
+      "published": "2026-10-14T17:59:28Z",
       "authors": [
-        "Wenbo Hu",
-        "Shraman Pramanick",
-        "Krishna Kumar Singh",
-        "Nanyun Peng",
-        "Kai-Wei Chang",
-        "Yong Jae Lee"
+        "Haofei Yu",
+        "Yixing Chen",
+        "Yining Zhao",
+        "Xuyan Ye",
+        "Yuxiang Liu",
+        "Zhigang Hua",
+        "Yan Xie",
+        "Shuang Yang",
+        "Jiaxuan You"
       ],
       "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CV",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Data Free Training of Diffusion Models for Lattice Field Theories",
-      "summary": "Sampling equilibrium field configurations remains a major computational bottleneck in lattice field theory, motivating the development of generative samplers that can produce independent configurations. Diffusion models are promising for this purpose, but their standard denoising score matching objective requires samples from the target distribution, seemingly reintroducing the original sampling…",
-      "link": "http://arxiv.org/abs/2610.18863v1",
-      "published": "2026-10-13T17:59:33Z",
-      "authors": [
-        "Dennis Grinwald",
-        "Ankur Singha",
-        "Khaled Kahouli",
-        "Karl Jansen",
-        "Shinichi Nakajima"
-      ],
-      "categories": [
-        "hep-lat",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
-      "summary": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopping early or banning words like \"wait\", which can reduce accuracy. We propose…",
-      "link": "http://arxiv.org/abs/2610.18862v1",
-      "published": "2026-10-13T17:59:32Z",
-      "authors": [
-        "Minghao Luo",
-        "Liang Chen"
-      ],
-      "categories": [
-        "cs.CL",
         "cs.AI",
         "cs.LG"
       ]
     },
     {
-      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
-      "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content…",
-      "link": "http://arxiv.org/abs/2610.18860v1",
-      "published": "2026-10-13T17:59:31Z",
+      "title": "Your Transformer Is Secretly Elastic",
+      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to commit to a model based on hardware and latency constraints. This rigidity is often suboptimal under varying query loads. We introduce a retraining-free method that elastifies…",
+      "link": "http://arxiv.org/abs/2610.20588v1",
+      "published": "2026-10-14T17:58:08Z",
       "authors": [
-        "Xin Gao",
-        "Yifan Yang",
-        "Xin Li",
-        "Pan Wang",
-        "Yan Li",
-        "Muzhao Tian",
-        "Mingxi Cheng",
-        "Bei Liu",
-        "Kai Qiu",
-        "Qi Dai",
-        "Dong Chen",
-        "Yue Dong",
-        "Leandros Tassiulas",
-        "Rex Ying",
-        "Ji Li",
-        "Chong Luo"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Hybrid Reasoning Agents",
-      "summary": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate…",
-      "link": "http://arxiv.org/abs/2610.18861v1",
-      "published": "2026-10-13T17:59:31Z",
-      "authors": [
-        "Jiaru Zou",
-        "Yunzhe Qi",
-        "Sirui Chen",
-        "Federico Bianchi",
-        "Shang Zhu",
-        "Pan Lu",
-        "Jingrui He",
-        "James Zou"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs",
-      "summary": "Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing topology-aware generative models rely on soft regularization, producing graphs whose PDs may only be approximately similar. We initiate a principled investigation of the generation problem: produce…",
-      "link": "http://arxiv.org/abs/2610.18856v1",
-      "published": "2026-10-13T17:59:19Z",
-      "authors": [
-        "Mattie Ji",
-        "Indradyumna Roy",
-        "Vikas Garg"
-      ],
-      "categories": [
-        "cs.LG",
-        "math.AT"
-      ]
-    },
-    {
-      "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately preserve progress per sample with one optimizer step per rollout, this rule is less understood in practical multi-step training. We develop a two-clock framework that separates the samples needed to…",
-      "link": "http://arxiv.org/abs/2610.18853v1",
-      "published": "2026-10-13T17:58:57Z",
-      "authors": [
-        "Yuante Li",
-        "Junwei Quan",
-        "Kai Qiu",
-        "Kate Zhang",
-        "Yicheng Tao"
+        "Walter Simoncini",
+        "Dheeraj Varghese",
+        "Gertjan J. Burghouts",
+        "Cees G. M. Snoek"
       ],
       "categories": [
         "cs.LG",
@@ -206,117 +74,31 @@
       ]
     },
     {
-      "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
-      "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while maintaining a similar overall structure. This process often requires iterative modifications guided by computational or experimental feedback. Recent large language model (LLM)-based methods have begun to explore this iterative…",
-      "link": "http://arxiv.org/abs/2610.18851v1",
-      "published": "2026-10-13T17:58:41Z",
+      "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
+      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs. First-price auctions (FPAs), in which the highest bidder pays its bid and receives the prompt, are a natural way to allocate prompts in such a market…",
+      "link": "http://arxiv.org/abs/2610.20587v1",
+      "published": "2026-10-14T17:57:57Z",
       "authors": [
-        "Trieu Nguyen",
-        "Frazier N. Baker",
-        "Ruoxi Gao",
-        "Daniel Adu-Ampratwum",
-        "Xia Ning"
+        "Shubhendu Trivedi",
+        "Jacob Eisenstein",
+        "Alekh Agarwal",
+        "Ian Gemp",
+        "Michael Kaisers",
+        "Adam Fisch"
       ],
       "categories": [
+        "cs.GT",
         "cs.AI",
-        "cs.LG",
-        "q-bio.QM"
+        "cs.LG"
       ]
     },
     {
-      "title": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement",
-      "summary": "Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cast as a harness and a verifier, where the harness defines what the agent may use and the verifier defines what counts as success. Every EO task can be made verifiable, through…",
-      "link": "http://arxiv.org/abs/2610.18845v1",
-      "published": "2026-10-13T17:57:51Z",
+      "title": "Continuum Attention",
+      "summary": "We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query induces an exponential relevance density along the curve. Integrating the density and interpolated values yields exact normalized attention from closed form exponential moments, including half token…",
+      "link": "http://arxiv.org/abs/2610.20586v1",
+      "published": "2026-10-14T17:57:40Z",
       "authors": [
-        "Sijie Zhao",
-        "Zeqi Zhou",
-        "Heli Qi",
-        "Xuanchao Fu",
-        "Zhuo Zheng",
-        "Junshi Xia",
-        "Junjue Wang",
-        "Weihao Xuan",
-        "Naoto Yokoya"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models",
-      "summary": "Robot policies are expected to generalize across deployment environments, including variations in the robot itself: cameras are bumped and remounted, calibrations drift, controllers run at different rates, and end-effector pads wear down. We present LIBERO-RIG, a benchmark that perturbs only the robot's hardware and setup while holding every LIBERO task fixed. The benchmark spans eleven…",
-      "link": "http://arxiv.org/abs/2610.18843v1",
-      "published": "2026-10-13T17:57:18Z",
-      "authors": [
-        "Andrea Yaoyun Cui",
-        "Hanyu Wang",
-        "Xinyi Wang",
-        "Bangzheng Li",
-        "Lin Zhang",
-        "Zhenggang Tang",
-        "Shyamal Buch",
-        "Dejia Xu",
-        "Matthew Tancik"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Who Improves the Robot? Toward Physical Recursive Self-Improvement",
-      "summary": "Robots are increasingly autonomous in task execution, yet their improvement remains largely human-driven. This study investigates Physical Recursive Self-Improvement (Physical RSI), in which physical experience guides lasting updates to both a robot's capabilities and its improvement procedure, making subsequent improvement more effective across tasks. Physical RSI faces challenges from noisy…",
-      "link": "http://arxiv.org/abs/2610.18842v1",
-      "published": "2026-10-13T17:57:04Z",
-      "authors": [
-        "Hai Zhou",
-        "Fan Yang",
-        "Zeyi Chen",
-        "Lejun Zhang",
-        "Chenyang Fu",
-        "Jianping Li",
-        "Jiayi Zhu",
-        "Xianyang Liu",
-        "Yingxuan Yang",
-        "Lili Meng",
-        "Lu Wang",
-        "Xinyang Han",
-        "Jiankai Sun",
-        "Weirui Ye",
-        "Guanchu Wang",
-        "Wanhua Li",
-        "Ming Zhou",
-        "Boyi Li",
-        "Ming Jin",
-        "Kun Shao",
-        "Muhao Chen",
-        "Guang Chen",
-        "Lei Ma",
-        "Joey Tianyi Zhou",
-        "Costas Spanos",
-        "Xia Hu",
-        "Mac Schwager",
-        "Weinan Zhang",
-        "Qian Feng",
-        "Shangding Gu"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.LG",
-        "cs.RO"
-      ]
-    },
-    {
-      "title": "Fast Rates for Offline Q-Learning with KL Regularization",
-      "summary": "This paper investigates offline Q-learning for finite-horizon Markov decision processes with Kullback-Leibler (KL) regularization. Recent studies have shown that KL regularization can yield fast rates in offline decision-making problems. However, it remains unclear whether Q-learning, which adopts incremental stochastic approximation updates, can achieve such fast rates in the offline setting. We…",
-      "link": "http://arxiv.org/abs/2610.18839v1",
-      "published": "2026-10-13T17:56:27Z",
-      "authors": [
-        "Yize Hao",
-        "Guangxin Jiang",
-        "Shuang Qiu"
+        "Afshin Khadangi"
       ],
       "categories": [
         "cs.LG",
@@ -324,13 +106,14 @@
       ]
     },
     {
-      "title": "Scaling Online Optimal Transport Minibatches for Flow Matching",
-      "summary": "A central challenge in scaling flow models is maintaining stability in training and integration. In flow matching, this stability depends critically on how source samples are paired with data. Independent random pairing introduces substantial stochasticity, motivating minibatch optimal transport (OT) to construct online source-target couplings that reduce this randomness (Tong et al., 2024)…",
-      "link": "http://arxiv.org/abs/2610.18838v1",
-      "published": "2026-10-13T17:56:26Z",
+      "title": "Learnable Hodge-Laplacian Driven Mixture of Experts for Steady-PDE Surrogates on Coarse Unstructured Meshes",
+      "summary": "Current approaches for steady partial differential equations surrogate models on unstructured meshes apply a single mixing mechanism to the whole solution. This paper proposes an architecture that partitions the solution among vanilla transformer experts, each focused on a different spectral scale. The partition is built from a discrete Hodge Laplacian $L_0=\\star_0^{-1} d_0^{\\top}\\star_1 d_0$…",
+      "link": "http://arxiv.org/abs/2610.20585v1",
+      "published": "2026-10-14T17:57:24Z",
       "authors": [
-        "Peter Chen",
-        "Sergey Levine"
+        "Stavros Nousias",
+        "Akis Nousias",
+        "Konstantinos Gkrispanis"
       ],
       "categories": [
         "cs.LG",
@@ -338,82 +121,250 @@
       ]
     },
     {
-      "title": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks",
-      "summary": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to…",
-      "link": "http://arxiv.org/abs/2610.18835v1",
-      "published": "2026-10-13T17:55:14Z",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game…",
+      "link": "http://arxiv.org/abs/2610.20584v1",
+      "published": "2026-10-14T17:57:12Z",
       "authors": [
-        "Kaiyuan Chen",
-        "Shuangyu Xie",
-        "Uksang Yoo",
-        "Xinyue Zhu",
-        "Cael Magner",
-        "Alvin Zhu",
-        "Daehwa Kim",
-        "Eric Heiden",
-        "Erwin Coumans",
-        "Miles Macklin",
-        "Spencer Huang",
-        "Ken Goldberg"
+        "Mingyu Ouyang",
+        "Yiran Wang",
+        "Siyuan Hu",
+        "Xingyilang Yin",
+        "Huiqiang Sun",
+        "Guangzhi Wang",
+        "Junfu Pu",
+        "Cheng Cheng",
+        "Honghao Chen",
+        "Ying Shan",
+        "Mike Zheng Shou",
+        "Hwee Tou Ng"
       ],
       "categories": [
-        "cs.RO",
+        "cs.CV",
         "cs.AI",
-        "cs.GR",
+        "cs.HC"
+      ]
+    },
+    {
+      "title": "Latent Compaction with Test-Time Training",
+      "summary": "Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Latent Compaction**, which learns a compact document-specific cache through test-time training. We initialize cache entries using reconstruction importance, teacher attention, and key-space diversity…",
+      "link": "http://arxiv.org/abs/2610.20582v1",
+      "published": "2026-10-14T17:57:01Z",
+      "authors": [
+        "Yingfa Chen",
+        "Xingyu Shen",
+        "Chaojun Xiao",
+        "Xu Han"
+      ],
+      "categories": [
+        "cs.CL",
         "cs.LG"
       ]
     },
     {
-      "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
-      "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and…",
-      "link": "http://arxiv.org/abs/2610.18829v1",
-      "published": "2026-10-13T17:54:22Z",
+      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+      "summary": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task unchanged yet make the agent worse at it. Scoring each sample independently means interface randomization only broadens this dependence from a single interface to the training…",
+      "link": "http://arxiv.org/abs/2610.20576v1",
+      "published": "2026-10-14T17:56:06Z",
       "authors": [
-        "Xuyang Liu",
-        "Shihao Wang",
-        "Xinyu Wei",
-        "Minghan Li",
-        "Zeqing Wang",
-        "Zuhao Yang",
-        "Zichen Wen",
-        "Lei Zhang"
+        "Artin Tajdini",
+        "Manpreet Kaur",
+        "Peng Qi"
       ],
       "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.MM"
-      ]
-    },
-    {
-      "title": "Joint Neural Posterior Estimation and Model Selection for Chemical Reaction Networks",
-      "summary": "Simulation-based Bayesian inference for Chemical Reaction Networks (CRNs) must simultaneously solve two computationally demanding problems: discriminating between overlapping reaction pathways and estimating reaction rate constants. Classical approaches, such as Sequential Monte Carlo ABC, rely on handcrafted summary statistics and scale poorly across large parameter spaces. To overcome this, we…",
-      "link": "http://arxiv.org/abs/2610.18825v1",
-      "published": "2026-10-13T17:52:39Z",
-      "authors": [
-        "J. Arturo Esquivel",
-        "Jorge A. Campos-Gonzalez-Angulo",
-        "Sergio Pablo-García",
-        "Alán Aspuru-Guzik",
-        "Vianey Leos-Barajas"
-      ],
-      "categories": [
-        "stat.ML",
         "cs.LG",
-        "physics.chem-ph"
+        "cs.AI",
+        "cs.CL"
       ]
     },
     {
-      "title": "Read the Room Before Your Model Generates",
-      "summary": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings and context or token-level calibration, rather than a geometrically interpretable representation of the communicative scenario. In this work, we introduce a simple and…",
-      "link": "http://arxiv.org/abs/2610.18820v1",
-      "published": "2026-10-13T17:51:18Z",
+      "title": "Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization",
+      "summary": "We introduce a novel method for verifying Lean formalizations that goes beyond LLM-judged faithfulness. Unlike most verification methods, which rely on LLMs or trained models, our method combines LLM-based semantic review with mechanical numerical and vacuity checks, providing checkable feedback and detecting errors missed by LLM judges. We apply this method, along with our Extract-Verify-Proof…",
+      "link": "http://arxiv.org/abs/2610.20573v1",
+      "published": "2026-10-14T17:54:48Z",
       "authors": [
-        "Muyao Kong",
-        "Zhihao Lin"
+        "Anna Mei",
+        "Michael R. Douglas"
+      ],
+      "categories": [
+        "cs.LO",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+      "summary": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using…",
+      "link": "http://arxiv.org/abs/2610.20572v1",
+      "published": "2026-10-14T17:54:34Z",
+      "authors": [
+        "Kaixiang Zhao",
+        "Tianrun Yu",
+        "Shangzhe Li",
+        "Yuxiao Yang",
+        "Amanda Hughes",
+        "Weitong Zhang",
+        "Taylor W. Killian"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Manacá-1B-Instruct-2: Reproducible Safety Alignment for a Native Brazilian-Portuguese LLM. Negative DPO Results, a Controlled Composition Scan, and a Silent Failure Mode of the LLM Judge",
+      "summary": "Brazilian Portuguese remains underserved by open-source language models, and the few that are safety-aligned rarely document what did not work or validate comparisons with statistical significance. We present Manacá-1B-Instruct-2, the second-generation post-training alignment of Manacá-1B (1.72B parameters, trained from scratch for PT-BR), with an SFT corpus of 291,223 examples. We document three…",
+      "link": "http://arxiv.org/abs/2610.20570v1",
+      "published": "2026-10-14T17:53:46Z",
+      "authors": [
+        "Bruno Leonardo Santos Menezes",
+        "Carlos Leonardo Souza Cardoso",
+        "Fabio André Machado Porto"
+      ],
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Scaling Discovery Requires Forgetting",
+      "summary": "Automated research with LLM agents has shown promising results in various domains. Through iterative refinement and scored verifiers, LLM agents are capable of discovering new ideas. There are different ways to scale automated research: let one agent iterate for longer, run several agents in parallel, or further let the parallel agents communicate and build on one another's candidates. However…",
+      "link": "http://arxiv.org/abs/2610.20563v1",
+      "published": "2026-10-14T17:49:37Z",
+      "authors": [
+        "Shangyin Tan",
+        "Ben Zhou",
+        "Lakshya A Agrawal",
+        "Jialin Zhang",
+        "Yilin Chen",
+        "Qiuyang Mang",
+        "Donghyun Lee",
+        "Dennis Jacob",
+        "Koushik Sen",
+        "Alex Dimakis",
+        "Matei Zaharia"
       ],
       "categories": [
         "cs.AI",
         "cs.CL"
+      ]
+    },
+    {
+      "title": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
+      "summary": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models. Previous methods either leverage large language models to directly predict object coordinates, or utilize generative diffusion priors to synthesize composite images for visual alignment, both of which rely on static priors in…",
+      "link": "http://arxiv.org/abs/2610.20560v1",
+      "published": "2026-10-14T17:47:24Z",
+      "authors": [
+        "Weichen Lyu",
+        "Chong Xia",
+        "Mingyu Dong",
+        "Long Xu",
+        "Shengjun Zhang",
+        "Yueqi Duan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
+      "summary": "Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments. Social intelligence comprises two aspects: cognitive intelligence, the ability to infer others' mental states, and behavioral intelligence, the ability to select appropriate social actions based on these inferences to achieve…",
+      "link": "http://arxiv.org/abs/2610.20548v1",
+      "published": "2026-10-14T17:39:35Z",
+      "authors": [
+        "Ali Zamani",
+        "Soroush Esfahanian",
+        "Erfan Shahabi",
+        "Mohammad Taher Pilehvar",
+        "Azadeh Shakery",
+        "Yadollah Yaghoobzadeh"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SI"
+      ]
+    },
+    {
+      "title": "Detection of Potato Plant Leaf Diseases using Convolutional Neural Networks",
+      "summary": "Potato is an important food-security crop in Ethiopia, but its production is affected by foliar diseases, particularly early blight and late blight. This study develops a lightweight convolutional neural network (CNN) to classify potato leaves into three categories: healthy, early blight, and late blight. The proposed model was trained using 2,215 images from the PlantVillage dataset and…",
+      "link": "http://arxiv.org/abs/2610.20544v1",
+      "published": "2026-10-14T17:36:33Z",
+      "authors": [
+        "Haimanot Bitew Alemayehu",
+        "Simachew Melaku Ayalew",
+        "Chilotie Desalew Mengesha",
+        "Ayisheshim Almaw Bogale",
+        "Anteneh Birhan Yenew",
+        "Abrham Tegegne Bogale"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+      "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone…",
+      "link": "http://arxiv.org/abs/2610.20538v1",
+      "published": "2026-10-14T17:32:54Z",
+      "authors": [
+        "Qiushi Sun",
+        "Jingyang Gong",
+        "Yang Liu",
+        "Qiaosheng Chen",
+        "Zhangyue Yin",
+        "Zixian Huang",
+        "Hanxu Hu",
+        "Jing Xiong",
+        "Fangzhi Xu",
+        "Haochen Tan",
+        "Haoli Bai",
+        "Lifeng Shang",
+        "Xiaoguang Li",
+        "Ben Kao",
+        "Qipeng Guo",
+        "Lingpeng Kong",
+        "Jiahui Gao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.SE"
+      ]
+    },
+    {
+      "title": "Revisiting Simple Baselines for Relational Deep Learning",
+      "summary": "Relational deep learning has emerged as a powerful paradigm for learning end-to-end predictive models over relational databases by representing them as temporal heterogeneous graphs. Recent advances based on graph neural networks and Transformers have achieved strong performance across diverse domains. However, the effectiveness of simpler relational baselines remains underexplored, making it…",
+      "link": "http://arxiv.org/abs/2610.20534v1",
+      "published": "2026-10-14T17:30:17Z",
+      "authors": [
+        "Viet The Nguyen",
+        "Vijay Prakash Dwivedi",
+        "Gunther Gust"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Generative Representation Learning for Scalable Latent Tokenization",
+      "summary": "We introduce an approach for self-supervised representation learning designed to be used as a tokenizer for generative modeling. Our objective supervises a representation loss by factorizing the pointwise mutual information of the data, which we estimate by taking information differences between conditional predictions from a learned generative model. We justify our algorithm theoretically and…",
+      "link": "http://arxiv.org/abs/2610.20533v1",
+      "published": "2026-10-14T17:29:09Z",
+      "authors": [
+        "Alan Baade",
+        "Kyle Sargent",
+        "Vincent Sitzmann",
+        "Eric Ryan Chan",
+        "Justin Johnson",
+        "Li Fei-Fei",
+        "Gordon Wetzstein"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
       ]
     }
   ]
