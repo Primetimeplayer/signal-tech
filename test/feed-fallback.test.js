@@ -360,8 +360,8 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
 
   const style = dom.window.getComputedStyle.bind(dom.window);
   assert.equal(style(hero).backgroundColor, 'rgb(243, 244, 246)');
-  assert.equal(style(hero).height, '248px');
   assert.equal(style(hero).objectFit, 'cover');
+  assert.equal(style(hero).height, '240px');
   assert.equal(style(rowFallback).width, '96px');
   assert.equal(style(rowFallback).height, '96px');
   assert.equal(style(rowFallback).objectFit, 'cover');

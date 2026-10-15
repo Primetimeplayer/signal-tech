@@ -390,24 +390,21 @@ border: 1px solid rgba(211, 217, 223, 0.55);
 padding: 1.5rem; }
 .card:first-child {
   grid-column: span 2;
-  min-height: 400px;
-  padding: 2rem;
-}
-.card:first-child {
-  border-top-width: 10px;
+  min-height: 420px;
+  padding: 2rem 2.2rem;
+  border-top: 6px solid var(--accent);
+  box-shadow: 0 18px 40px rgba(23, 33, 43, 0.14);
 }
 
 
   .card {
     position: relative;
-    background: rgba(255, 255, 255, 0.88);
-    backdrop-filter: blur(10px);
+    background: var(--panel-raised);
     border: 1px solid var(--line);
-    border-top: 5px solid var(--dot, var(--line));
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-    border-radius: 19px;
-    transition: transform 180ms ease, box-shadow 180ms ease; box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(23, 33, 43, 0.06);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     padding: 1.4rem 1.4rem 1.25rem;
@@ -415,9 +412,17 @@ padding: 1.5rem; }
   }
 
   .card:hover {
-  transform: translateY(-4px) scale(1.01);
-  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.24);
-}
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(23, 33, 43, 0.12);
+  }
+
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px 12px 0 0;
+  }
   .card.news { --dot: var(--news); }
   .card.papers { --dot: var(--papers); }
   .card.reviews { --dot: var(--reviews); }
@@ -442,15 +447,13 @@ padding: 1.5rem; }
 
   .card h2 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.2rem; line-height: 1.35; margin: 0 0 0.7rem; }
   .card:first-child h2 {
-  font-size: 1.8rem;
-  line-height: 1.2;
+  font-size: 1.9rem;
+  line-height: 1.25;
   letter-spacing: -0.02em;
 }
-.card:first-child {
-  padding: 1.75rem;
-}
-.card:first-child {
-  box-shadow: 0 22px 50px rgba(23, 33, 43, 0.24);
+.card:first-child .card-meta {
+  font-size: 0.85rem;
+  margin-bottom: 0.8rem;
 }
 .card:first-child p {
   font-size: 1.05rem;
@@ -7581,9 +7584,9 @@ footer,
 #feed .hero-media {
   display: block !important;
   width: 100% !important;
-  height: 248px !important;
-  min-height: 248px !important;
-  max-height: 248px !important;
+  height: 240px !important;
+  min-height: 240px !important;
+  max-height: 240px !important;
   overflow: hidden !important;
   border-radius: 8px !important;
   object-fit: cover !important;
@@ -7595,9 +7598,9 @@ footer,
 #feed .hero-media img {
   display: block !important;
   width: 100% !important;
-  height: 248px !important;
-  min-height: 248px !important;
-  max-height: 248px !important;
+  height: 240px !important;
+  min-height: 240px !important;
+  max-height: 240px !important;
   object-fit: cover !important;
   background: #f3f4f6 !important;
 }
@@ -7607,8 +7610,9 @@ footer,
   align-items: center !important;
   justify-content: center !important;
   width: 100% !important;
-  height: 248px !important;
-  min-height: 248px !important;
+  height: 240px !important;
+  min-height: 240px !important;
+  object-fit: cover !important;
   background: #f3f4f6 !important;
 }
 
@@ -7681,9 +7685,10 @@ footer,
   #feed .hero-thumb,
   #feed .hero-media img,
   #feed .hero-media .media-fallback {
-    height: 200px !important;
-    min-height: 200px !important;
-    max-height: 200px !important;
+    height: 240px !important;
+    min-height: 240px !important;
+    max-height: 240px !important;
+    object-fit: cover !important;
   }
 }
 </style>
@@ -7986,6 +7991,112 @@ main .grid,
   border-color: transparent !important;
   box-shadow: 0 4px 14px rgba(26, 115, 232, 0.28) !important;
   text-decoration: none !important;
+}
+</style>
+<style id="card-surface">
+/* Later sheets flatten .card. Repeat the base surface here so it wins,
+   including on the feed's more specific card types. */
+.card,
+#feed .card,
+main .grid .card,
+#feed .card.follow-card,
+#feed .card.pick-card,
+#feed .card.story-row,
+#feed .card.feature-card,
+#feed .card.hero-story,
+#feed .gn-col > .card.story-row,
+#feed .gn-col > .card.story-row:last-child,
+#feed .briefing-fill > .card.story-row,
+#feed .briefing-fill > .card.story-row:last-child,
+#feed .card.follow-card.is-hardware,
+#feed .card.pick-card.is-hardware,
+#feed .card.feature-card.is-hardware,
+#feed .gn-col > .card.story-row.is-hardware,
+#feed .gn-col > .card.story-row.is-hardware:last-child,
+#feed .briefing-fill > .card.story-row.is-hardware,
+#feed .briefing-fill > .card.story-row.is-hardware:last-child,
+:root[data-theme="dark"] #feed .card.follow-card,
+:root[data-theme="dark"] #feed .card.pick-card,
+:root[data-theme="dark"] #feed .card.story-row,
+:root[data-theme="dark"] #feed .card.feature-card,
+:root[data-theme="dark"] #feed .gn-col > .card.story-row,
+:root[data-theme="dark"] #feed .briefing-fill > .card.story-row,
+:root[data-theme="dark"] #feed .gn-col > .card.story-row.is-hardware,
+:root[data-theme="dark"] #feed .briefing-fill > .card.story-row.is-hardware {
+  background: var(--panel-raised) !important;
+  border: 1px solid var(--line) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 16px rgba(23, 33, 43, 0.06) !important;
+  transition: transform 180ms ease, box-shadow 180ms ease !important;
+  overflow: hidden !important;
+}
+
+.card:hover,
+#feed .card:hover,
+main .grid .card:hover,
+#feed .card.follow-card:hover,
+#feed .card.pick-card:hover,
+#feed .card.story-row:hover,
+#feed .card.feature-card:hover,
+#feed .card.hero-story:hover,
+#feed .gn-col > .card.story-row:hover,
+#feed .briefing-fill > .card.story-row:hover,
+:root[data-theme="dark"] #feed .card.follow-card:hover,
+:root[data-theme="dark"] #feed .card.pick-card:hover,
+:root[data-theme="dark"] #feed .card.story-row:hover,
+:root[data-theme="dark"] #feed .card.feature-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 32px rgba(23, 33, 43, 0.12) !important;
+}
+
+.card img,
+.grid .card img {
+  width: 100% !important;
+  height: 180px !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  display: block !important;
+  border-radius: 12px 12px 0 0 !important;
+}
+</style>
+<style id="hero-lead">
+/* Later feed sheets reset .card:first-child. The lead story is the hero,
+   so the same treatment is repeated here, where it wins. */
+#feed .briefing-card > .card.hero-story,
+#feed .briefing-card > .card.hero-story.is-hardware {
+  grid-column: span 2 !important;
+  min-height: 420px !important;
+  padding: 2rem 2.2rem !important;
+  border-top: 6px solid var(--accent) !important;
+  box-shadow: 0 18px 40px rgba(23, 33, 43, 0.14) !important;
+}
+
+#feed .briefing-card > .card.hero-story h2 {
+  font-size: 1.9rem !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.02em !important;
+}
+
+#feed .briefing-card > .card.hero-story .card-meta,
+#feed .briefing-card > .card.hero-story .card-meta .meta-time,
+#feed .briefing-card > .card.hero-story .card-meta .meta-author,
+#feed .briefing-card > .card.hero-story .card-meta .cat-label {
+  font-size: 0.85rem !important;
+}
+
+#feed .briefing-card > .card.hero-story .card-meta {
+  margin-bottom: 0.8rem !important;
+}
+
+#feed .hero-media,
+#feed .hero-thumb,
+#feed .hero-media img,
+#feed .hero-media .media-fallback {
+  width: 100% !important;
+  height: 240px !important;
+  min-height: 240px !important;
+  max-height: 240px !important;
+  object-fit: cover !important;
 }
 </style>
 </head>
