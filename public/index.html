@@ -384,7 +384,7 @@ backdrop-filter: blur(8px); }
 
   /* --- Card grid --- */
   main { padding: 2.5rem 0 4rem; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; background: rgba(255, 255, 255, 0.28);
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; background: rgba(255, 255, 255, 0.28);
 border-radius: 22px;
 border: 1px solid rgba(211, 217, 223, 0.55);
 padding: 1.5rem; }
@@ -394,6 +394,19 @@ padding: 1.5rem; }
   padding: 2rem 2.2rem;
   border-top: 6px solid var(--accent);
   box-shadow: 0 18px 40px rgba(23, 33, 43, 0.14);
+}
+
+@media (min-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card:first-child {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrap { max-width: 1320px; }
 }
 
 
@@ -7931,8 +7944,8 @@ main .grid,
 #feed .lower-grid.cols-2,
 #feed .lower-grid.cols-3 {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
-  gap: 16px !important;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)) !important;
+  gap: 1.25rem !important;
   align-items: stretch !important;
   width: 100% !important;
   max-width: 100% !important;
@@ -8097,6 +8110,33 @@ main .grid .card:hover,
   min-height: 240px !important;
   max-height: 240px !important;
   object-fit: cover !important;
+}
+</style>
+<style id="wide-grid">
+/* #feed stays a column (briefing, then sections). The card grid is
+   .lower-grid. Wide screens lock it to three tracks and let each
+   section's first card span two. The page measure caps at 1320px. */
+@media (min-width: 1100px) {
+  #feed .lower-grid,
+  #feed .lower-grid.cols-1,
+  #feed .lower-grid.cols-2,
+  #feed .lower-grid.cols-3 {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1.25rem !important;
+  }
+
+  #feed .lower-grid .card:first-child {
+    grid-column: span 2 !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrap,
+  .mast > .wrap,
+  body > .wrap {
+    max-width: 1320px !important;
+  }
 }
 </style>
 </head>
