@@ -107,6 +107,8 @@
     --focus: #1B355B;
     --live: #2F9A68;
     --skeleton: #E4EDF6;
+    --accent: #1A73E8;
+    --accent-soft: rgba(26, 115, 232, 0.12);
   }
 
   :root[data-theme="dark"] {
@@ -219,7 +221,7 @@
 }
 
 .wordmark span {
-  color: #1a73e8;
+  color: var(--accent);
 }
 
 .mast-right {
@@ -310,16 +312,18 @@ backdrop-filter: blur(10px); justify-content: center; }
     cursor: pointer; display: flex; align-items: center; gap: 0.5em;
     transition: border-color 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
   }
-  .filter:hover {
+  .filter:hover:not([aria-pressed="true"]) {
   color: var(--text);
-  border-color: var(--news);
-  transform: translateY(-1px) scale(1.02);;
-  box-shadow: 0 8px 20px rgba(23, 33, 43, 0.15);
+  background: var(--accent-soft);
+  border-color: transparent;
+  transform: none;
+  box-shadow: none;
 }
   .filter[aria-pressed="true"] {
-  color: var(--bg);
-  border-color: transparent;
-  box-shadow: 0 6px 18px rgba(23, 33, 43, 0.22), inset 0 0 0 1px rgba(255, 255, 255, 0.25); text-shadow: 0 1px 0 rgba(255, 255, 255, 0.18);
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.28);
 }
   .filter[aria-pressed="true"] .swatch {
   transform: scale(1.2);
@@ -332,29 +336,12 @@ backdrop-filter: blur(10px); justify-content: center; }
   .filter[data-cat="reddit"][aria-pressed="true"] { background: var(--reddit); }
   .filter.toggle-hw[aria-pressed="true"] { background: var(--hardware); }
   .filter.toggle-saved[aria-pressed="true"] { background: var(--saved); }
-  .filter.toggle-saved:hover {
-  color: var(--saved);
-  border-color: var(--saved);
-}
-.filter.toggle-hw:hover {
-  color: var(--hardware);
-  border-color: var(--hardware);
-}
-.filter[data-cat="news"]:hover {
-  color: var(--news);
-  border-color: var(--news);
-}
-.filter[data-cat="papers"]:hover {
-  color: var(--papers);
-  border-color: var(--papers);
-}
-.filter[data-cat="reviews"]:hover {
-  color: var(--reviews);
-  border-color: var(--reviews);
-}
-.filter[data-cat="reddit"]:hover {
-  color: var(--reddit);
-  border-color: var(--reddit);
+  .filter.toggle-saved:hover:not([aria-pressed="true"]),
+.filter.toggle-hw:hover:not([aria-pressed="true"]),
+.filter[data-cat]:hover:not([aria-pressed="true"]) {
+  color: var(--text);
+  background: var(--accent-soft);
+  border-color: transparent;
 }
   .filter[aria-pressed="true"] .swatch { background: var(--bg); }
   .divider-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--line); margin: 0 0.1rem; }
@@ -765,7 +752,7 @@ body {
 }
 
 .wordmark span {
-  color: #1a73e8;
+  color: var(--accent);
 }
 
 .mast > .wrap > .tagline {
@@ -858,18 +845,19 @@ body {
   border-radius: 20px;
 }
 
-.filter:hover {
-  background: #f1f3f4;
-  border-color: #c4c7c5;
+.filter:hover:not([aria-pressed="true"]) {
+  background: var(--accent-soft);
+  color: var(--text);
+  border-color: transparent;
   box-shadow: none;
   transform: none;
 }
 
 .filter[aria-pressed="true"] {
-  background: #e8f0fe !important;
-  color: #1967d2 !important;
-  border-color: #d2e3fc;
-  box-shadow: none;
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.28);
   text-shadow: none;
 }
 
@@ -902,14 +890,20 @@ body {
 }
 
 :root[data-theme="dark"] .filter[aria-pressed="true"] {
-  background: #174ea6 !important;
+  background: var(--accent) !important;
   color: #fff !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.28);
 }
 
 :root[data-theme="dark"] .mast-right a:hover,
-:root[data-theme="dark"] .theme-toggle:hover,
-:root[data-theme="dark"] .filter:hover {
+:root[data-theme="dark"] .theme-toggle:hover {
   background: #303134 !important;
+}
+
+:root[data-theme="dark"] .filter:hover:not([aria-pressed="true"]) {
+  background: var(--accent-soft) !important;
+  color: var(--text) !important;
 }
 /* =========================================================
    SIDEBAR — PROFESSIONAL NAVIGATION
@@ -6558,21 +6552,25 @@ main .grid {
   text-decoration: none !important;
 }
 
-#topicBar .top-nav-item:hover,
-#topicBar .filter:hover {
-  background: rgba(127, 127, 127, 0.12) !important;
+#topicBar .top-nav-item:hover:not([aria-pressed="true"]),
+#topicBar .filter:hover:not([aria-pressed="true"]) {
+  background: var(--accent-soft) !important;
   color: var(--text) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
   transform: none !important;
 }
 
 #topicBar .top-nav-item[aria-pressed="true"],
 #topicBar .filter[aria-pressed="true"] {
-  background: transparent !important;
-  color: var(--text) !important;
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.28) !important;
   font-weight: 650 !important;
-  text-decoration: underline !important;
-  text-underline-offset: 6px !important;
-  box-shadow: none !important;
+  text-decoration: none !important;
+  border-radius: 999px !important;
+  padding: 6px 10px !important;
 }
 
 #topicBar .search-row {
@@ -7851,6 +7849,9 @@ footer,
   white-space: nowrap;
   flex: 0 0 auto;
 }
+.wordmark span {
+  color: var(--accent) !important;
+}
 .mast > .wrap > .tagline {
   display: block !important;
   margin: 6px 0 2px !important;
@@ -7968,12 +7969,31 @@ main .grid,
   }
 }
 </style>
+<style id="accent-filters">
+/* Drawer topic buttons sit outside #topicBar. These beat the later
+   transparent nav-row rules so an active topic stays on the accent. */
+#filters .filter:hover:not([aria-pressed="true"]) {
+  background: var(--accent-soft) !important;
+  color: var(--text) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+#filters .filter[aria-pressed="true"] {
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.28) !important;
+  text-decoration: none !important;
+}
+</style>
 </head>
 <body>
 
 <noscript>
   <div class="mast"><div class="wrap">
-    <h1 class="wordmark">Signal Tech</h1>
+    <h1 class="wordmark">Signal <span>Tech</span></h1>
     <p class="tagline" data-i18n="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated hourly.</p>
     <p data-i18n="noscript" style="color: var(--text-muted); font-family: 'Space Grotesk', sans-serif; margin-top: 2rem;">This publication requires JavaScript to load and display articles. Please enable JavaScript to continue.</p>
   </div></div>
@@ -7982,7 +8002,7 @@ main .grid,
 <div class="mast">
   <div class="wrap">
     <div class="mast-row">
-      <h1 class="wordmark">Signal Tech</h1>
+      <h1 class="wordmark">Signal <span>Tech</span></h1>
       <div class="search-row">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <label for="search" class="visually-hidden" data-i18n="searchLabel">Search headlines and summaries</label>
