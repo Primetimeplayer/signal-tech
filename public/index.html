@@ -300,25 +300,38 @@
 
   /* --- Controls --- */
   .controls { padding: 1.1rem 0 0; display: flex; flex-direction: column; gap: 0.8rem; }
-  .filters { display: flex; gap: 0.6rem; flex-wrap: wrap; font-family: 'Space Grotesk', sans-serif; align-items: center; padding: 0.55rem 0.8rem;
-border-radius: 18px;
-background: rgba(255, 255, 255, 0.5);
-border: 1px solid rgba(211, 217, 223, 0.65);
-backdrop-filter: blur(10px); justify-content: center; }
+  .filters {
+    display: flex;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.4rem 0.6rem;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--line);
+    font-family: 'Space Grotesk', sans-serif;
+  }
 
   .filter {
-    background: transparent; background: rgba(255, 255, 255, 0.55); backdrop-filter: blur(8px); border: 1px solid var(--line); color: var(--text-muted);
-    padding: 0.65rem 1.1rem;; border-radius: 999px; font-size: 0.85rem; font-family: inherit;
-    cursor: pointer; display: flex; align-items: center; gap: 0.5em;
-    transition: border-color 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--text-muted);
+    padding: 0.45rem 0.95rem;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    transition: all 160ms ease;
   }
-  .filter:hover:not([aria-pressed="true"]) {
-  color: var(--text);
-  background: var(--accent-soft);
-  border-color: transparent;
-  transform: none;
-  box-shadow: none;
-}
+  .filter:not([aria-pressed="true"]):hover {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: transparent;
+  }
   .filter[aria-pressed="true"] {
   background: var(--accent) !important;
   color: #fff !important;
@@ -339,7 +352,7 @@ backdrop-filter: blur(10px); justify-content: center; }
   .filter.toggle-saved:hover:not([aria-pressed="true"]),
 .filter.toggle-hw:hover:not([aria-pressed="true"]),
 .filter[data-cat]:hover:not([aria-pressed="true"]) {
-  color: var(--text);
+  color: var(--accent);
   background: var(--accent-soft);
   border-color: transparent;
 }
@@ -861,9 +874,9 @@ body {
   border-radius: 20px;
 }
 
-.filter:hover:not([aria-pressed="true"]) {
+.filter:not([aria-pressed="true"]):hover {
   background: var(--accent-soft);
-  color: var(--text);
+  color: var(--accent);
   border-color: transparent;
   box-shadow: none;
   transform: none;
@@ -8137,6 +8150,51 @@ main .grid .card:hover,
   body > .wrap {
     max-width: 1320px !important;
   }
+}
+</style>
+<style id="tight-filters">
+/* Desktop #filters is the bar. The phone drawer keeps its own column. */
+@media (min-width: 801px) {
+  #filters {
+    display: flex !important;
+    gap: 0.45rem !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    padding: 0.4rem 0.6rem !important;
+    border-radius: 14px !important;
+    background: rgba(255, 255, 255, 0.6) !important;
+    border: 1px solid var(--line) !important;
+    box-sizing: border-box !important;
+  }
+
+  :root[data-theme="dark"] #filters {
+    background: rgba(41, 42, 45, 0.72) !important;
+  }
+}
+
+@media (max-width: 800px) {
+  #filters {
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+#topicBar .filter,
+#topicBar .filter[aria-pressed="true"],
+#filters .filter,
+#filters .filter[aria-pressed="true"] {
+  padding: 0.45rem 0.95rem !important;
+  border-radius: 999px !important;
+  font-size: 0.82rem !important;
+  font-weight: 500 !important;
+  transition: all 160ms ease !important;
+}
+
+#topicBar .filter:not([aria-pressed="true"]):hover,
+#filters .filter:not([aria-pressed="true"]):hover {
+  background: var(--accent-soft) !important;
+  color: var(--accent) !important;
+  border-color: transparent !important;
 }
 </style>
 </head>
