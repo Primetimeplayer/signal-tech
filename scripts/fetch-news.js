@@ -1,6 +1,6 @@
 // scripts/fetch-news.js
-// Pulls recent articles from a set of tech news RSS feeds and writes
-// them to data/news.json as a single, sorted, de-duplicated list.
+// Pulls recent articles from dedicated tech RSS feeds, keeps stories that
+// match the topic allow-list, and writes them to public/data/news.json.
 
 import Parser from 'rss-parser';
 import fs from 'fs';
@@ -8,7 +8,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { excerpt } from './lib/excerpt.js';
 import { storyImage } from './lib/story-image.js';
-import { applyLocaleParams, googleNewsUrl } from './lib/news-locale.js';
+import { applyLocaleParams } from './lib/news-locale.js';
 import { splitGoogleTitle } from './lib/parse-google-news.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -32,25 +32,83 @@ const parser = new Parser({
   },
 });
 
-// Add or remove feeds freely. Most news/blog sites publish an RSS feed
-// even if it isn't linked in the nav -- try /feed, /rss, or /rss.xml.
+// Dedicated tech sources only. Google News is not added here.
 const FEEDS = [
   { name: 'The Verge', category: 'news', url: 'https://www.theverge.com/rss/index.xml' },
   { name: 'Ars Technica', category: 'news', url: 'https://feeds.arstechnica.com/arstechnica/index' },
   { name: 'TechCrunch', category: 'news', url: 'https://techcrunch.com/feed/' },
   { name: 'Wired', category: 'news', url: 'https://www.wired.com/feed/rss' },
+  { name: 'The Register', category: 'news', url: 'https://www.theregister.com/headlines.atom' },
+  { name: 'MIT Technology Review', category: 'news', url: 'https://www.technologyreview.com/feed/' },
+  { name: "Tom's Hardware", category: 'news', url: 'https://www.tomshardware.com/feeds.xml' },
+  { name: 'NASA', category: 'news', url: 'https://www.nasa.gov/news-release/feed/' },
+  { name: 'Krebs on Security', category: 'news', url: 'https://krebsonsecurity.com/feed/' },
+  { name: 'GitHub Blog', category: 'news', url: 'https://github.blog/feed/' },
+  { name: 'SpaceNews', category: 'news', url: 'https://spacenews.com/feed/' },
+  { name: 'IEEE Spectrum', category: 'news', url: 'https://spectrum.ieee.org/feeds/feed.rss' },
+  { name: 'PC Gamer', category: 'news', url: 'https://www.pcgamer.com/feeds.xml' },
 ];
 
 export function buildNewsFeeds(region, language, baseFeeds = FEEDS) {
-  const localized = baseFeeds.map((feed) => ({
+  return baseFeeds.map((feed) => ({
     ...feed,
     url: applyLocaleParams(feed.url, region, language),
   }));
-  const googleUrl = googleNewsUrl(region, language);
-  if (!localized.some((feed) => feed.url === googleUrl)) {
-    localized.push({ name: 'Google News', category: 'news', url: googleUrl });
+}
+
+// Software, AI, chips, gaming, space, cybersecurity, hardware, technology.
+// Semiconductor is listed once. Short tokens are matched as words so "ai"
+// does not keep "email" and "arm" does not keep "farm". Longer terms match
+// from the start of a word so "cyber" keeps "cybersecurity".
+const TOPIC_TERMS = [
+  'software', 'developer', 'programming', 'code', 'open source', 'github', 'api',
+  'framework', 'library', 'devops', 'cloud',
+  'ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'claude', 'grok',
+  'neural', 'model', 'chatbot', 'generative',
+  'chip', 'semiconductor', 'silicon', 'gpu', 'cpu', 'tpu', 'nvidia', 'amd', 'intel',
+  'arm', 'foundry', 'wafer', 'process node',
+  'game', 'gaming', 'steam', 'playstation', 'xbox', 'nintendo', 'console', 'esports',
+  'space', 'rocket', 'satellite', 'nasa', 'spacex', 'orbit', 'launch',
+  'cyber', 'security', 'hack', 'breach', 'malware', 'ransomware', 'vulnerability', 'encryption',
+  'hardware', 'gadget', 'device', 'laptop', 'phone', 'smartphone', 'pc', 'server',
+  'data center', 'review',
+  'tech', 'technology', 'startup', 'funding', 'ipo', 'robotics', 'quantum',
+];
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function termMatcher(term) {
+  if (term === 'ai') return /\bai(?:'s|s)?\b|\bopenai\b|\ba\.i\.?\b/i;
+  if (term === 'arm') return /\barm(?:64|v\d+|\d+)?\b/i;
+  if (term === 'pc') return /\bpcs?\b|\bpcie\b/i;
+  if (term === 'gpt') return /gpt/i;
+  if (term === 'chip') return /\b(?:micro)?chips?(?:set)?\b/i;
+  if (term === 'phone') return /\b(?:i|smart)?phones?\b/i;
+  if (term === 'tech') return /tech/i;
+  if (term === 'library') return /\blibrar(?:y|ies)\b/i;
+  if (term === 'vulnerability') return /\bvulnerabilit(?:y|ies)\b/i;
+  if (term === 'esports') return /\be-?sports?\b/i;
+  if (term === 'api' || term === 'llm' || term === 'ipo' || term === 'amd') {
+    return new RegExp(`\\b${term}s?\\b`, 'i');
   }
-  return localized;
+  if (term === 'intel') return /\bintel\b/i;
+  if (term.includes(' ')) {
+    const words = term.split(/\s+/).map(escapeRegExp);
+    const last = words.pop();
+    const head = words.length ? `${words.join('[\\s-]+')}[\\s-]+` : '';
+    return new RegExp(`\\b${head}${last}s?\\b`, 'i');
+  }
+  return new RegExp(`\\b${escapeRegExp(term)}`, 'i');
+}
+
+const TOPIC_MATCHERS = TOPIC_TERMS.map(termMatcher);
+
+export function storyMatchesTopics(item) {
+  const title = item?.title || '';
+  const summary = item?.summary || '';
+  return TOPIC_MATCHERS.some((matcher) => matcher.test(title) || matcher.test(summary));
 }
 
 const ITEMS_PER_FEED = 12;
@@ -112,20 +170,20 @@ export async function runNewsFetcher({
   }
 
   const results = successfulFeeds.flat();
-  const deduped = dedupe(results).sort(
-    (a, b) => new Date(b.published ?? 0) - new Date(a.published ?? 0)
-  );
+  const items = dedupe(results)
+    .filter(storyMatchesTopics)
+    .sort((a, b) => new Date(b.published ?? 0) - new Date(a.published ?? 0));
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(
     outputPath,
     JSON.stringify(
-      { updated: now().toISOString(), count: deduped.length, items: deduped },
+      { updated: now().toISOString(), count: items.length, items },
       null,
       2
     )
   );
-  console.log(`[fetch-news] Wrote ${deduped.length} items to ${outputPath}`);
+  console.log(`[fetch-news] Wrote ${items.length} topic items to ${outputPath}`);
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

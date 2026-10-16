@@ -56,10 +56,13 @@ test('locale query is applied to publisher feeds and skipped for The Verge', () 
   assert.equal(wired.searchParams.get('gl'), 'GB');
   assert.equal(wired.searchParams.get('hl'), 'en-US');
 
-  assert.equal(byName['Google News'], googleNewsUrl('GB', 'en-US'));
+  assert.equal(byName['Google News'], undefined);
+  assert.equal(feeds.some((feed) => feed.url.includes('news.google.com')), false);
+  assert.equal(feeds.some((feed) => feed.name === 'NASA'), true);
+  assert.equal(feeds.some((feed) => feed.name === 'PC Gamer'), true);
 });
 
-test('news fetcher asks rss-parser for the locale-specific Google News URL', async (t) => {
+test('news fetcher asks rss-parser for dedicated tech feeds, not Google News', async (t) => {
   const { mkdtemp, rm } = await import('node:fs/promises');
   const os = await import('node:os');
   const path = await import('node:path');
@@ -79,9 +82,13 @@ test('news fetcher asks rss-parser for the locale-specific Google News URL', asy
     },
   });
 
-  assert.ok(urls.includes('https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja'));
+  const expected = buildNewsFeeds('JP', 'ja');
+  assert.equal(urls.some((url) => url.includes('news.google.com')), false);
+  assert.equal(urls.length, expected.length);
+  for (const feed of expected) {
+    assert.ok(urls.includes(feed.url), feed.name);
+  }
   assert.ok(urls.includes('https://www.theverge.com/rss/index.xml'));
-  assert.equal(urls.length, 5);
 });
 
 test('Google News RSS items drop the publisher suffix and link-list description', () => {

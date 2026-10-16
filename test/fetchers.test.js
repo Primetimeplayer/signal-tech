@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import Parser from 'rss-parser';
 
-import { runNewsFetcher } from '../scripts/fetch-news.js';
+import { runNewsFetcher, storyMatchesTopics } from '../scripts/fetch-news.js';
 import { runReviewsFetcher } from '../scripts/fetch-reviews.js';
 import { runRedditFetcher } from '../scripts/fetch-reddit.js';
 import { runPapersFetcher } from '../scripts/fetch-papers.js';
@@ -51,7 +51,7 @@ test('news preserves existing output when every feed request fails', async (t) =
   assert.equal(await readFile(outputPath, 'utf8'), sentinel);
 });
 
-test('news writes parsed fixture data after a successful feed request', async (t) => {
+test('news drops fixture stories that sit outside the topic allow-list', async (t) => {
   const { outputPath, sentinel } = await seedOutput(t, 'news.json');
   let requestedFeed;
 
@@ -69,11 +69,83 @@ test('news writes parsed fixture data after a successful feed request', async (t
   const result = await readJson(outputPath);
   assert.equal(requestedFeed.name, 'Fixture News');
   assert.equal(result.updated, FIXED_TIME);
-  assert.equal(result.count, 2);
-  assert.equal(result.items[0].title, 'Fixture article');
-  assert.equal(result.items[0].category, 'news');
-  assert.equal(result.items[0].link, 'https://fixture.example/articles/one');
-  assert.equal(result.items[0].summary, 'A short fixture description.');
+  assert.equal(result.count, 0);
+  assert.deepEqual(result.items, []);
+});
+
+test('news keeps topic stories, including a summary-only match, and sorts by date', async (t) => {
+  const outputPath = await createOutput(t, 'news.json');
+
+  await runNewsFetcher({
+    ...TEST_OPTIONS,
+    outputPath,
+    feeds: [{ name: 'Fixture News', category: 'news', url: 'https://fixture.invalid/rss' }],
+    parseFeed: async () => ({
+      items: [
+        {
+          title: 'Email from the farm',
+          link: 'https://fixture.example/articles/farm',
+          pubDate: 'Fri, 03 Jan 2025 18:00:00 GMT',
+          contentSnippet: 'A campaign said the army would remodel the barn.',
+        },
+        {
+          title: 'Weekly roundup',
+          link: 'https://fixture.example/articles/roundup',
+          pubDate: 'Fri, 03 Jan 2025 12:00:00 GMT',
+          contentSnippet: 'Ransomware hit a hospital network.',
+        },
+        {
+          title: 'OpenAI releases a coding model',
+          link: 'https://fixture.example/articles/ai',
+          pubDate: 'Wed, 01 Jan 2025 12:00:00 GMT',
+          contentSnippet: 'A short note about the model.',
+        },
+        {
+          title: 'Nvidia ships a new GPU',
+          link: 'https://fixture.example/articles/gpu',
+          pubDate: 'Tue, 31 Dec 2024 12:00:00 GMT',
+          contentSnippet: 'The chip is built for developers.',
+        },
+      ],
+    }),
+  });
+
+  const result = await readJson(outputPath);
+  assert.equal(result.updated, FIXED_TIME);
+  assert.equal(result.count, 3);
+  assert.deepEqual(result.items.map((item) => item.title), [
+    'Weekly roundup',
+    'OpenAI releases a coding model',
+    'Nvidia ships a new GPU',
+  ]);
+  assert.equal(result.items[0].summary, 'Ransomware hit a hospital network.');
+  assert.equal(result.items[2].category, 'news');
+  assert.equal(result.items[2].source, 'Fixture News');
+  assert.equal(result.items[2].link, 'https://fixture.example/articles/gpu');
+  assert.equal(result.items[2].summary, 'The chip is built for developers.');
+});
+
+test('topic allow-list matches words, not substrings inside unrelated words', () => {
+  const matches = (title, summary = '') => storyMatchesTopics({ title, summary });
+
+  assert.equal(matches('Email from the farm'), false);
+  assert.equal(matches('The army armed the camp'), false);
+  assert.equal(matches('A campaign said it was available'), false);
+  assert.equal(matches('Intelligence agencies remodel the encoder'), false);
+  assert.equal(matches('Barcode saxophone and chipotle'), false);
+  assert.equal(matches('Namespace spec for the card catalog'), false);
+
+  assert.equal(matches('OpenAI ships a model'), true);
+  assert.equal(matches('A.I. researchers train an LLM'), true);
+  assert.equal(matches('ChatGPT codes on ARM64 and PCIe'), true);
+  assert.equal(matches('Intel launches a CPU'), true);
+  assert.equal(matches('Cybersecurity teams patch vulnerabilities'), true);
+  assert.equal(matches('iPhone review covers the new chipset'), true);
+  assert.equal(matches('Open-source libraries for data centers'), true);
+  assert.equal(matches('E-sports league uses a quantum startup'), true);
+  assert.equal(matches('Fintech funding hits a new process node'), true);
+  assert.equal(matches('Weekly roundup', 'A ransomware breach'), true);
+  assert.equal(matches(''), false);
 });
 
 test('reviews preserves existing output when every feed request fails', async (t) => {
