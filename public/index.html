@@ -450,6 +450,7 @@ padding: 1.5rem; }
     object-fit: cover;
     display: block;
     border-radius: 12px 12px 0 0;
+    background: #f3f4f6;
   }
   .card.news { --dot: var(--news); }
   .card.papers { --dot: var(--papers); }
@@ -485,9 +486,9 @@ padding: 1.5rem; }
   }
   .card-meta .cat-label { color: var(--dot); }
 
-  .card h2 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.2rem; line-height: 1.35; margin: 0 0 0.7rem; }
+  .card h2 { font-family: 'Space Grotesk', sans-serif; font-weight: 650; font-size: 1.15rem; line-height: 1.32; margin: 0 0 0.7rem; }
   .card:first-child h2 {
-  font-size: 1.9rem;
+  font-size: 1.95rem;
   line-height: 1.25;
   letter-spacing: -0.02em;
 }
@@ -616,9 +617,9 @@ padding: 1.5rem; }
     margin-top: 1.5rem;
   }
   .skeleton-card {
-    background: var(--panel);
+    background: #f3f4f6;
     border: 1px solid var(--line);
-    border-radius: 18px;
+    border-radius: 16px;
     padding: 1.4rem 1.4rem 1.25rem;
     min-height: 220px;
   }
@@ -8109,6 +8110,7 @@ main .grid .card:hover,
   object-fit: cover !important;
   display: block !important;
   border-radius: 12px 12px 0 0 !important;
+  background: #f3f4f6 !important;
 }
 </style>
 <style id="hero-lead">
@@ -8124,7 +8126,7 @@ main .grid .card:hover,
 }
 
 #feed .briefing-card > .card.hero-story h2 {
-  font-size: 1.9rem !important;
+  font-size: 1.95rem !important;
   line-height: 1.25 !important;
   letter-spacing: -0.02em !important;
 }
@@ -8408,6 +8410,52 @@ main .grid .card:hover,
   flex: 0 0 16px !important;
   border-radius: 3px !important;
   object-fit: contain !important;
+}
+
+#feed .card h2,
+#feed .card h2 a,
+#feed .card.story-row h2,
+#feed .card.story-row h2 a,
+#feed .card.follow-card h2,
+#feed .card.follow-card h2 a,
+#feed .card.pick-card h2,
+#feed .card.pick-card h2 a,
+#feed .card.feature-card h2,
+#feed .gn-col > .card.story-row h2,
+#feed .briefing-fill > .card.story-row h2 {
+  font-size: 1.15rem !important;
+  line-height: 1.32 !important;
+  font-weight: 650 !important;
+}
+
+.card:first-child h2,
+#feed .briefing-card > .card:first-child h2,
+#feed .briefing-card > .card.hero-story h2,
+#feed .briefing-card > .card.hero-story h2 a {
+  font-size: 1.95rem !important;
+  line-height: 1.25 !important;
+}
+
+.skeleton-card,
+main .skeleton-grid .skeleton-card {
+  background: #f3f4f6 !important;
+  border-radius: 16px !important;
+}
+
+:root[data-theme="dark"] .skeleton-card,
+:root[data-theme="dark"] main .skeleton-grid .skeleton-card,
+:root[data-theme="dark"] .card img,
+:root[data-theme="dark"] .grid .card img {
+  background: var(--skeleton) !important;
+}
+
+@media (max-width: 800px) {
+  #feed .briefing-card > .card.hero-story h2,
+  #feed .briefing-card > .card.hero-story h2 a,
+  #feed .hero-story h2 {
+    font-size: 1.45rem !important;
+    line-height: 1.25 !important;
+  }
 }
 </style>
 </head>
