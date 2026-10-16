@@ -8355,14 +8355,30 @@ main .grid .card:hover,
     text-overflow: clip !important;
     white-space: nowrap !important;
   }
+
+  /* Hardware and Saved now sit in the topic row. This shell is only the
+     phone drawer, so it must not leave a second bar on desktop. */
+  #filters {
+    display: none !important;
+  }
 }
 
 @media (max-width: 800px) {
   #filters {
+    display: flex !important;
     flex-wrap: nowrap !important;
     overflow-x: hidden !important;
     overflow-y: auto !important;
     white-space: normal !important;
+  }
+
+  #topicBar,
+  #topicBar .top-nav,
+  #topicBar .top-nav-section {
+    flex-wrap: wrap !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    justify-content: flex-start !important;
   }
 }
 </style>
@@ -8562,6 +8578,8 @@ main .skeleton-grid .skeleton-card {
         <button type="button" class="filter top-nav-item" data-cat="news" data-i18n="catTechnology" aria-pressed="false">Technology</button>
         <button type="button" class="filter top-nav-item" data-cat="reviews" data-i18n="catReviews" aria-pressed="false">Reviews</button>
         <button type="button" class="filter top-nav-item" data-cat="reddit" data-i18n="catCommunity" aria-pressed="false">Community</button>
+        <button type="button" class="filter top-nav-item toggle-hw" id="hwToggle" data-i18n="hardware" aria-pressed="false">Hardware</button>
+        <button type="button" class="filter top-nav-item toggle-saved" id="savedToggle" data-i18n="saved" aria-pressed="false">Saved</button>
       </div>
     </nav>
   </div>
@@ -8588,21 +8606,8 @@ main .skeleton-grid .skeleton-card {
       <button type="button" class="filter top-nav-item" data-cat="news" data-i18n="catTechnology" aria-pressed="false">Technology</button>
       <button type="button" class="filter top-nav-item" data-cat="reviews" data-i18n="catReviews" aria-pressed="false">Reviews</button>
       <button type="button" class="filter top-nav-item" data-cat="reddit" data-i18n="catCommunity" aria-pressed="false">Community</button>
-    </div>
-    <div class="top-nav-section">
-      <span class="top-nav-label" data-i18n="library">Library</span>
-      <button class="top-nav-item toggle-hw" id="hwToggle" aria-pressed="false">
-        <span class="nav-emoji" aria-hidden="true">💻</span>
-        <span data-i18n="hardware">Hardware</span>
-      </button>
-      <button class="top-nav-item toggle-saved" id="savedToggle" aria-pressed="false">
-        <span class="nav-emoji" aria-hidden="true">🔖</span>
-        <span data-i18n="saved">Saved</span>
-      </button>
-      <a class="top-nav-item" id="digestsNav" href="digests.html">
-        <span class="nav-emoji" aria-hidden="true">🧵</span>
-        <span data-i18n="digests">Digests</span>
-      </a>
+      <button type="button" class="filter top-nav-item toggle-hw" data-i18n="hardware" aria-pressed="false">Hardware</button>
+      <button type="button" class="filter top-nav-item toggle-saved" data-i18n="saved" aria-pressed="false">Saved</button>
     </div>
 
     <div class="top-nav-divider"></div>
@@ -9099,7 +9104,10 @@ document.getElementById('syncSettingsBtn')?.addEventListener('click', () => {
     if (!btn) {
       // The card left the feed (un-saving inside the Saved view); keep focus
       // on the control that governs that view instead of dropping it.
-      if (giveFocus) savedToggleEl.focus({ preventScroll: true });
+      if (giveFocus) {
+        const savedToggle = Array.from(document.querySelectorAll('.toggle-saved')).find((el) => el.getClientRects().length) || savedToggleEl;
+        savedToggle.focus({ preventScroll: true });
+      }
       return;
     }
     btn.classList.add('save-pulse');
@@ -9666,8 +9674,8 @@ initAuth();
     visibleCount = PAGE_SIZE;
     clearTimeout(searchTimer);
 
-    hwToggleEl.setAttribute('aria-pressed', 'false');
-    savedToggleEl.setAttribute('aria-pressed', 'false');
+    document.querySelectorAll('.toggle-hw').forEach((el) => el.setAttribute('aria-pressed', 'false'));
+    document.querySelectorAll('.toggle-saved').forEach((el) => el.setAttribute('aria-pressed', 'false'));
     if (sourceFilterEl) sourceFilterEl.value = 'all';
     if (dateFilterEl) dateFilterEl.value = 'all';
     searchEl.value = '';
@@ -10427,17 +10435,20 @@ initAuth();
     if (dx <= -50 && Math.abs(dy) <= Math.abs(dx)) setSidebarOpen(false);
   }, { passive: true });
   filtersEl.addEventListener('touchcancel', () => { swipeStart = null; }, { passive: true });
-  hwToggleEl.addEventListener('click', () => {
-    hardwareOnly = !hardwareOnly;
-    hwToggleEl.setAttribute('aria-pressed', String(hardwareOnly));
+  document.addEventListener('click', (e) => {
+    const hw = e.target.closest('.toggle-hw');
+    const saved = e.target.closest('.toggle-saved');
+    if (!hw && !saved) return;
+    if (hw) {
+      hardwareOnly = !hardwareOnly;
+      document.querySelectorAll('.toggle-hw').forEach((el) => el.setAttribute('aria-pressed', String(hardwareOnly)));
+    } else {
+      savedOnly = !savedOnly;
+      document.querySelectorAll('.toggle-saved').forEach((el) => el.setAttribute('aria-pressed', String(savedOnly)));
+    }
     visibleCount = PAGE_SIZE;
     render();
-  });
-  savedToggleEl.addEventListener('click', () => {
-    savedOnly = !savedOnly;
-    savedToggleEl.setAttribute('aria-pressed', String(savedOnly));
-    visibleCount = PAGE_SIZE;
-    render();
+    if (document.body.classList.contains('sidebar-open')) setSidebarOpen(false);
   });
   function onLocaleChange() {
     persistLocale();
@@ -10690,8 +10701,8 @@ initAuth();
     document.querySelectorAll('.filter[data-cat], .top-nav-item[data-cat]').forEach((b) => {
       b.setAttribute('aria-pressed', b.dataset.cat === activeFilter ? 'true' : 'false');
     });
-    hwToggleEl.setAttribute('aria-pressed', String(hardwareOnly));
-    savedToggleEl.setAttribute('aria-pressed', String(savedOnly));
+    document.querySelectorAll('.toggle-hw').forEach((el) => el.setAttribute('aria-pressed', String(hardwareOnly)));
+    document.querySelectorAll('.toggle-saved').forEach((el) => el.setAttribute('aria-pressed', String(savedOnly)));
   }
 
   function applyHash(renderNow) {
