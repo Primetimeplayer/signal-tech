@@ -8551,6 +8551,91 @@ main .grid .card:first-child,
   margin: 0 !important;
 }
 </style>
+<style id="pair-rows">
+/* Wide screens used to stretch each section's first card across two
+   tracks, which left a long card and an empty column. That lead is now
+   two equal cards, and the three-column rows continue under it. */
+@media (min-width: 801px) {
+  #feed .lower-grid.pair-row {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1.25rem !important;
+    align-items: stretch !important;
+    width: 100% !important;
+  }
+
+  #feed .lower-grid.cols-3 {
+    align-items: stretch !important;
+  }
+
+  #feed .lower-grid.pair-row > .card,
+  #feed .lower-grid.cols-3 > .card,
+  #feed .lower-grid .card:first-child,
+  #feed .lower-grid > .card:only-child,
+  #feed .lower-grid > .gn-col:only-child {
+    grid-column: auto !important;
+    min-width: 0 !important;
+  }
+
+  #feed .lower-grid.pair-row > .card.story-row,
+  #feed .lower-grid.cols-3 > .card.story-row {
+    height: 100% !important;
+    align-self: stretch !important;
+  }
+
+  #feed .lower-section > .lower-grid + .lower-grid {
+    margin-top: 1.25rem !important;
+  }
+}
+
+@media (max-width: 800px) {
+  #feed .lower-grid.pair-row,
+  #feed .lower-grid.cols-3 {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  #feed .lower-grid.pair-row > .card,
+  #feed .lower-grid.cols-3 > .card,
+  #feed .lower-grid .card:first-child,
+  #feed .lower-grid > .card:only-child {
+    grid-column: auto !important;
+  }
+}
+
+/* Failed story photos hide. The replacement box matches the photo height,
+   stays light gray, and shows the source favicon instead of a broken icon. */
+#feed .hero-media .media-fallback .media-fallback-mark,
+#feed .story-media.media-fallback .media-fallback-mark,
+#feed .pick-media.media-fallback .media-fallback-mark {
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  flex: 0 0 32px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+  border-radius: 6px !important;
+  background: transparent !important;
+  display: block !important;
+}
+
+#feed .hero-media .media-fallback .media-fallback-mark {
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px !important;
+  min-height: 48px !important;
+  max-width: 48px !important;
+  max-height: 48px !important;
+  flex: 0 0 48px !important;
+}
+
+#feed .media-fallback .media-fallback-mark[hidden] {
+  display: none !important;
+}
+</style>
 </head>
 <body>
 
@@ -9394,18 +9479,33 @@ initAuth();
     return `<span class="card-media ${kind}-media media-fallback" data-category="${escapeAttr(category)}" aria-hidden="true">${categoryIconSvg(category)}</span>`;
   }
 
-  // Broken card images (404s and other load errors) swap to the same
-  // category placeholder used when the RSS item has no image.
+  // A failed story photo is removed so the broken-image icon never shows.
+  // The box that replaces it keeps the photo's height, stays light gray,
+  // and centers the publisher favicon.
   function signalImageFallback(img) {
     if (!img || img.dataset.fallbackApplied === '1') return;
     img.dataset.fallbackApplied = '1';
+    img.hidden = true;
     const category = storyCategory({ category: img.dataset.category });
     const kind = img.classList.contains('hero-thumb') ? 'hero' : img.classList.contains('pick-thumb') ? 'pick' : 'story';
     const holder = document.createElement('span');
     holder.className = `card-media ${kind}-media media-fallback`;
     holder.dataset.category = category;
     holder.setAttribute('aria-hidden', 'true');
-    holder.innerHTML = categoryIconSvg(category);
+    const host = img.dataset.sourceHost || '';
+    if (host) {
+      const mark = document.createElement('img');
+      mark.className = 'media-fallback-mark';
+      mark.alt = '';
+      mark.setAttribute('referrerpolicy', 'no-referrer');
+      mark.setAttribute('loading', 'eager');
+      mark.decoding = 'async';
+      mark.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=64`;
+      mark.addEventListener('error', () => {
+        mark.hidden = true;
+      });
+      holder.appendChild(mark);
+    }
     if (img.parentNode) img.replaceWith(holder);
   }
 
@@ -9413,17 +9513,19 @@ initAuth();
     const url = storyImageUrl(item);
     if (!url) return mediaPlaceholder(item, kind);
     const cls = kind === 'hero' ? 'hero-thumb' : kind === 'pick' ? 'pick-thumb' : 'story-thumb';
+    const host = publisherHost(item && item.link);
     // Text, tags, and timestamps are in the card markup. The photo URL stays
     // on data-src until the text has painted, with a reserved box so the
     // image cannot shift the card when it arrives.
-    return `<img class="${cls}" alt="" width="${width}" height="${height}" loading="lazy" decoding="async" data-src="${escapeAttr(url)}" data-category="${escapeAttr(storyCategory(item))}" onerror="signalImageFallback(this)">`;
+    return `<img class="${cls}" alt="" width="${width}" height="${height}" loading="eager" decoding="async" referrerpolicy="no-referrer" data-src="${escapeAttr(url)}" data-category="${escapeAttr(storyCategory(item))}" data-source-host="${escapeAttr(host)}" onerror="signalImageFallback(this)">`;
   }
 
   function mountCardImages(root) {
     if (!root) return;
     root.querySelectorAll('img[data-src]').forEach((img) => {
       if (img.getAttribute('src')) return;
-      img.setAttribute('loading', 'lazy');
+      img.setAttribute('loading', 'eager');
+      img.setAttribute('referrerpolicy', 'no-referrer');
       img.setAttribute('decoding', 'async');
       if (!img.getAttribute('width') || !img.getAttribute('height')) {
         if (img.classList.contains('hero-thumb')) {
@@ -9898,6 +10000,19 @@ initAuth();
       inLower.add(item.link);
       extraPlaced += 1;
     }
+    // A spotlight or feed section with one story leaves an empty track on
+    // the right. Pull the next unused story so that card has a partner.
+    const pullPartner = (list, donors) => {
+      if (list.length !== 1) return;
+      for (const donor of donors) {
+        if (!donor.length) continue;
+        list.push(donor.shift());
+        return;
+      }
+    };
+    pullPartner(silicon, [rest, tail]);
+    pullPartner(spaceItems, [rest, tail]);
+    pullPartner(rest, [tail]);
     silicon.concat(spaceItems, rest).forEach((item) => usedLinks.add(item.link));
 
     const storyFields = (item) => {
@@ -9957,17 +10072,49 @@ initAuth();
         ${storyThumb(item, 96, 96)}
       </article>`;
     };
+    // The old span-2 lead is a pair of equal cards. Full rows of three follow.
+    // A remainder of one or two stays a pair so a card is not left alone.
+    const packSection = (items) => {
+      const blocks = [];
+      const queue = items.slice();
+      if (!queue.length) return blocks;
+      if (queue.length === 1) {
+        blocks.push({ kind: 'pair', items: queue });
+        return blocks;
+      }
+      blocks.push({ kind: 'pair', items: queue.splice(0, 2) });
+      while (queue.length) {
+        if (queue.length === 1) {
+          const prev = blocks[blocks.length - 1];
+          if (prev && prev.kind === 'pair' && prev.items.length === 2) {
+            prev.kind = 'grid';
+            prev.items.push(queue.shift());
+          } else if (prev && prev.items.length > 2) {
+            const moved = prev.items.pop();
+            if (prev.kind === 'grid' && prev.items.length === 2) prev.kind = 'pair';
+            blocks.push({ kind: 'pair', items: [moved, queue.shift()] });
+          } else {
+            blocks.push({ kind: 'pair', items: queue.splice(0, 1) });
+          }
+        } else if (queue.length === 2 || queue.length === 4) {
+          blocks.push({ kind: 'pair', items: queue.splice(0, 2) });
+        } else if (queue.length % 3 === 1) {
+          blocks.push({ kind: 'grid', items: queue.splice(0, queue.length - 4) });
+        } else {
+          const remainder = queue.length % 3;
+          blocks.push({ kind: 'grid', items: queue.splice(0, queue.length - remainder) });
+        }
+      }
+      return blocks;
+    };
     const lowerSection = (title, sectionItems, extraClass) => {
       if (!sectionItems.length) return '';
-      const buckets = [[], [], []];
-      sectionItems.forEach((item, index) => {
-        buckets[index % 3].push(storyRow(item));
-      });
-      const filled = buckets.filter((parts) => parts.length);
-      const colClass = filled.length >= 3 ? 'cols-3' : filled.length === 2 ? 'cols-2' : 'cols-1';
-      const cols = filled.map((parts) => `<div class="gn-col">${parts.join('')}</div>`).join('');
+      const grids = packSection(sectionItems).map((block) => {
+        const colClass = block.kind === 'pair' ? 'pair-row' : 'cols-3';
+        return `<div class="lower-grid ${colClass}">${block.items.map(storyRow).join('')}</div>`;
+      }).join('');
       const sectionClass = extraClass ? `lower-section ${extraClass}` : 'lower-section';
-      return `<section class="${sectionClass}"><h2 class="feed-column-title">${escapeHtml(title)}</h2><div class="lower-grid ${colClass}">${cols}</div></section>`;
+      return `<section class="${sectionClass}"><h2 class="feed-column-title">${escapeHtml(title)}</h2>${grids}</section>`;
     };
     const storySections = [
       lowerSection(t('silicon'), silicon),

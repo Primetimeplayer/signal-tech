@@ -330,13 +330,18 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   const pickImg = pick.querySelector('.pick-thumb');
   if (pickImg) {
     assert.equal(pickImg.getAttribute('onerror'), 'signalImageFallback(this)');
+    assert.equal(pickImg.getAttribute('referrerpolicy'), 'no-referrer');
+    assert.equal(pickImg.getAttribute('loading'), 'eager');
     assert.equal(pickImg.getAttribute('width'), '72');
     assert.equal(pickImg.getAttribute('height'), '72');
     dom.window.signalImageFallback(pickImg);
   }
   const pickFallback = pick.querySelector('.pick-media.media-fallback');
   assert.ok(pickFallback);
-  assert.ok(pickFallback.querySelector('svg'));
+  const pickMark = pickFallback.querySelector('.media-fallback-mark');
+  assert.ok(pickMark);
+  assert.equal(pickMark.getAttribute('referrerpolicy'), 'no-referrer');
+  assert.match(pickMark.getAttribute('src'), /example\.test/);
   assert.equal(pickFallback.dataset.category, 'news');
   assert.equal(pick.querySelector('.pick-thumb'), null);
 
@@ -345,6 +350,8 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   const rowImg = row.querySelector('.story-thumb');
   if (rowImg) {
     assert.equal(rowImg.getAttribute('onerror'), 'signalImageFallback(this)');
+    assert.equal(rowImg.getAttribute('referrerpolicy'), 'no-referrer');
+    assert.equal(rowImg.getAttribute('loading'), 'eager');
     assert.equal(rowImg.getAttribute('width'), '96');
     assert.equal(rowImg.getAttribute('height'), '96');
     dom.window.signalImageFallback(rowImg);
@@ -352,7 +359,10 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   const rowFallback = row.querySelector('.story-media.media-fallback');
   assert.ok(rowFallback);
   assert.equal(rowFallback.dataset.category, 'reviews');
-  assert.ok(rowFallback.querySelector('svg'));
+  const rowMark = rowFallback.querySelector('.media-fallback-mark');
+  assert.ok(rowMark);
+  assert.equal(rowMark.getAttribute('referrerpolicy'), 'no-referrer');
+  assert.match(rowMark.getAttribute('src'), /example\.test/);
 
   const omitted = [...doc.querySelectorAll('#feed .story-row')].find((card) => card.textContent.includes('Harbor'));
   assert.ok(omitted.querySelector('.story-media.media-fallback svg'));
