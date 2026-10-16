@@ -57,22 +57,25 @@ export function buildNewsFeeds(region, language, baseFeeds = FEEDS) {
 }
 
 // Software, AI, chips, gaming, space, cybersecurity, hardware, technology.
-// Semiconductor is listed once. Short tokens are matched as words so "ai"
-// does not keep "email" and "arm" does not keep "farm". Longer terms match
-// from the start of a word so "cyber" keeps "cybersecurity".
+// A story is kept only when the title or summary clearly hits one of these.
+// Broad words (security, model, game, hack, phone, review, funding, launch)
+// are omitted so politics, crime, and lifestyle do not slip through.
 const TOPIC_TERMS = [
-  'software', 'developer', 'programming', 'code', 'open source', 'github', 'api',
-  'framework', 'library', 'devops', 'cloud',
-  'ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'claude', 'grok',
-  'neural', 'model', 'chatbot', 'generative',
+  'software', 'developer', 'programmer', 'programming', 'open source', 'github',
+  'devops', 'sdk', 'compiler', 'kubernetes', 'linux', 'api',
+  'ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'claude',
+  'grok', 'openai', 'chatbot', 'generative', 'neural network', 'language model',
   'chip', 'semiconductor', 'silicon', 'gpu', 'cpu', 'tpu', 'nvidia', 'amd', 'intel',
   'arm', 'foundry', 'wafer', 'process node',
-  'game', 'gaming', 'steam', 'playstation', 'xbox', 'nintendo', 'console', 'esports',
-  'space', 'rocket', 'satellite', 'nasa', 'spacex', 'orbit', 'launch',
-  'cyber', 'security', 'hack', 'breach', 'malware', 'ransomware', 'vulnerability', 'encryption',
-  'hardware', 'gadget', 'device', 'laptop', 'phone', 'smartphone', 'pc', 'server',
-  'data center', 'review',
-  'tech', 'technology', 'startup', 'funding', 'ipo', 'robotics', 'quantum',
+  'gaming', 'gamer', 'video game', 'steam', 'playstation', 'xbox', 'nintendo', 'esports',
+  'space', 'rocket', 'satellite', 'nasa', 'spacex', 'orbit', 'spacecraft', 'astronaut',
+  'space station', 'spaceflight',
+  'cybersecurity', 'cyber security', 'cyberattack', 'hacker', 'hacking', 'malware',
+  'ransomware', 'vulnerability', 'encryption', 'encrypted', 'infosec', 'zero-day',
+  'zero day', 'phishing', 'data breach',
+  'hardware', 'gadget', 'laptop', 'smartphone', 'iphone', 'android', 'macbook',
+  'data center', 'pc',
+  'technology', 'robotics', 'robot', 'quantum',
 ];
 
 function escapeRegExp(value) {
@@ -80,27 +83,31 @@ function escapeRegExp(value) {
 }
 
 function termMatcher(term) {
-  if (term === 'ai') return /\bai(?:'s|s)?\b|\bopenai\b|\ba\.i\.?\b/i;
+  if (term === 'ai') return /\bai(?:'s|s)?\b|\ba\.i\.?\b/i;
   if (term === 'arm') return /\barm(?:64|v\d+|\d+)?\b/i;
   if (term === 'pc') return /\bpcs?\b|\bpcie\b/i;
   if (term === 'gpt') return /gpt/i;
   if (term === 'chip') return /\b(?:micro)?chips?(?:set)?\b/i;
-  if (term === 'phone') return /\b(?:i|smart)?phones?\b/i;
-  if (term === 'tech') return /tech/i;
-  if (term === 'library') return /\blibrar(?:y|ies)\b/i;
+  if (term === 'technology') return /\b(?:fin|bio|clean|deep|high[- ])?tech(?:nolog(?:y|ies))?\b/i;
+  // "office space" and "parking space" are not the space topic.
+  if (term === 'space') {
+    return /\b(?<!office\s|green\s|safe\s|parking\s|breathing\s|white\s|public\s|floor\s|storage\s|shelf\s|crawl\s|personal\s|living\s|closet\s|retail\s)space(?:craft|flight|ship|suit|walk|s)?\b/i;
+  }
   if (term === 'vulnerability') return /\bvulnerabilit(?:y|ies)\b/i;
   if (term === 'esports') return /\be-?sports?\b/i;
-  if (term === 'api' || term === 'llm' || term === 'ipo' || term === 'amd') {
+  if (term === 'api' || term === 'llm' || term === 'amd' || term === 'intel') {
     return new RegExp(`\\b${term}s?\\b`, 'i');
   }
-  if (term === 'intel') return /\bintel\b/i;
   if (term.includes(' ')) {
     const words = term.split(/\s+/).map(escapeRegExp);
     const last = words.pop();
     const head = words.length ? `${words.join('[\\s-]+')}[\\s-]+` : '';
     return new RegExp(`\\b${head}${last}s?\\b`, 'i');
   }
-  return new RegExp(`\\b${escapeRegExp(term)}`, 'i');
+  if (term.endsWith('y')) {
+    return new RegExp(`\\b${escapeRegExp(term.slice(0, -1))}(?:y|ies)\\b`, 'i');
+  }
+  return new RegExp(`\\b${escapeRegExp(term)}s?\\b`, 'i');
 }
 
 const TOPIC_MATCHERS = TOPIC_TERMS.map(termMatcher);

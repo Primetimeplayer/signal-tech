@@ -6270,7 +6270,7 @@ main .grid {
 }
 
 #feed .briefing-card {
-  background: #ffffff;
+  background: transparent;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 16px;
@@ -6904,12 +6904,12 @@ body.feed-compact #feed .card.follow-card {
   }
 }
 
-/* Lower sections are one white panel with up to three vertical story columns.
-   Dividers run under each row. Dark mode replaces the forced white surface.
+/* Section wrappers stay transparent so story cards sit on the page
+   background. The cards themselves keep their own white surface.
    cols-* keeps a 1- or 2-column section from leaving an empty track. */
 #feed .lower-section,
 #feed .briefing-fill {
-  background: #ffffff !important;
+  background: transparent !important;
   border: 1px solid #e5e7eb !important;
   border-radius: 16px !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
@@ -8634,6 +8634,15 @@ main .grid .card:first-child,
 
 #feed .media-fallback .media-fallback-mark[hidden] {
   display: none !important;
+}
+
+/* The feed wrappers are not a second white panel. Cards keep #card-surface. */
+#feed.grid,
+main .grid,
+#feed .lower-section,
+#feed .briefing-fill,
+#feed .briefing-card {
+  background: transparent !important;
 }
 </style>
 </head>
