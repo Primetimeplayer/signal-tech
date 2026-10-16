@@ -1,7 +1,226 @@
 {
-  "updated": "2026-10-16T13:36:17.036Z",
-  "count": 91,
+  "updated": "2026-10-16T18:17:33.066Z",
+  "count": 94,
   "items": [
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "IEEE Offers More Services to Cities That Want to Be Smarter",
+      "link": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
+      "published": "Fri, 16 Oct 2026 18:00:03 +0000",
+      "summary": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have…",
+      "image": "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=980"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "published": "Fri, 16 Oct 2026 17:52:24 +0000",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "This could be your last chance to grab an RTX 5090",
+      "link": "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl",
+      "published": "Fri, 16 Oct 2026 17:04:44 +0000",
+      "summary": "With no new Nvidia 5090 GPU replacement anticipated before at least 2028, this could well be your last opportunity to get your hands on a very powerful GPU for gaming.",
+      "image": "https://cdn.mos.cms.futurecdn.net/D2wF99DV4KRfYPYVeR3eWb-1920-80.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "published": "Fri, 16 Oct 2026 16:30:00 +0000",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards…"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Razer Barracuda V2 Pro Review: A Gaming Headset for the Office",
+      "link": "https://www.wired.com/review/razer-barracuda-v2-pro/",
+      "published": "Fri, 16 Oct 2026 16:30:00 +0000",
+      "summary": "The Razer Barracuda V2 Pro headset has a place in the office as well as at your gaming battle station.",
+      "image": "https://media.wired.com/photos/6ad23b95526f09405ee8956f/master/pass/Razer%20Barracuda%20V2%20Pro%20Review%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "China startup demoes prototype EUV light source",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/china-startup-demoes-prototype-euv-light-source-15w-of-output-power-and-90-percent-domestic-components-still-years-away-from-viability",
+      "published": "Fri, 16 Oct 2026 16:30:00 +0000",
+      "summary": "Chinese startup Langdao Silex showcased its laser-produced plasma EUV source at a trade show, but the technology will likely take many years before it gets to decent EUV power levels. Even if it does, China will need many more advancements…",
+      "image": "https://cdn.mos.cms.futurecdn.net/JLwxTcuunemSTSeX5zy2bS-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Gun-rights activist unveils world's first 'AI-made' 3D-printed firearm — .22 caliber handgun created by an 'AI that can generate guns' called GatGPT",
+      "link": "https://www.tomshardware.com/3d-printing/gun-rights-activist-unveils-worlds-first-ai-made-3d-printed-firearm-22-caliber-handgun-created-by-an-ai-that-can-generate-guns-called-gatgpt",
+      "published": "Fri, 16 Oct 2026 16:20:41 +0000",
+      "summary": "A gun rights activist has unveiled the world's first AI-made 3D printed firearm.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kUvhWUvLbNDuQhdLqEFYuK-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "New online tool will check lawyers' sloppy AI-written briefs since they can't seem to be bothered",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/16/new-online-tool-will-check-lawyers-sloppy-ai-written-briefs-since-they-cant-seem-to-be-bothered/5303589",
+      "published": "Fri, 16 Oct 2026 18:08:35 +0200",
+      "summary": "Bogus AI-generated citations keep turning up in court documents, but lawyers could at least run those docs through this legal citation checker",
+      "image": "https://image.theregister.com/?imageId=255120&width=800"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "published": "Fri, 16 Oct 2026 16:01:37 +0000",
+      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid'",
+      "link": "https://www.pcgamer.com/software/linux/linux-kernel-drops-ai-contribution-disclosure-rule-as-linus-torvalds-says-banning-the-tech-would-be-utterly-stupid/",
+      "published": "Fri, 16 Oct 2026 15:52:39 +0000",
+      "summary": "The key thing for Torvalds is that you understand the code you submit, not how you made it.",
+      "image": "https://cdn.mos.cms.futurecdn.net/WUmjVLTCTtBbGcj6CbFTVS-1920-80.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+      "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+      "published": "Fri, 16 Oct 2026 15:41:00 +0000",
+      "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-1024x648.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nvidia RTX Spark devices are now officially on sale, secure the Surface Laptop Ultra or other RTX Spark laptops here",
+      "link": "https://www.tomshardware.com/laptops/nvidia-rtx-spark-devices-are-now-officially-on-sale-secure-the-surface-laptop-ultra-or-other-rtx-spark-laptops-here-starting-at-usd2-599-where-to-buy-pricing-and-availability-revealed-on-several-models",
+      "published": "Fri, 16 Oct 2026 15:38:45 +0000",
+      "summary": "Orders are live on Nvidia RTX Spark laptops, including the Microsoft Surface Laptop Ultra and devices from HP, Lenovo, Asus, and Dell.",
+      "image": "https://cdn.mos.cms.futurecdn.net/mtGy596VfpgpD774y4AP9Y-1920-80.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "published": "Fri, 16 Oct 2026 15:33:49 +0000",
+      "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "A fake WhatsApp clone is showing up before the real version on the Play Store",
+      "link": "https://www.theverge.com/tech/1012918/google-play-store-fake-whatsapp-android",
+      "published": "2026-10-16T15:02:23.000Z",
+      "summary": "After a Chrome clone was spotted on the Play Store earlier this week, a user on Reddit says they're seeing a fake version of WhatsApp in a \"sponsored\" slot above the real version. As reported earlier by Android Authority, the WhatsApp dupe…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/acastro_STK460_googlePlay_04.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+      "published": "2026-10-16T15:00:00.000Z",
+      "summary": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268814_Nvidia_RTX_Spark_laptops_Asus_HP_Lenovo_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
+      "link": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+      "published": "Fri, 16 Oct 2026 15:00:00 +0000",
+      "summary": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots.",
+      "image": "https://media.wired.com/photos/6ad14b37762b59cd2aa2c0c9/master/pass/Backchannel-Sherry-Turkle-Business-458911186.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "NTT Global Data Centers weighs the price tag of not building fast enough",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/16/sponsored-global-data-centers-weighs-the-price-tag-of-not-building-fast-enough/5303402",
+      "published": "Fri, 16 Oct 2026 17:00:00 +0200",
+      "summary": "SPONSORED POST: As AI hunger soars, NTT Global Data Centers finds it's permits, not parts, that could cap the datacenter boom",
+      "image": "https://image.theregister.com/?imageId=5303404&width=800"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Uncle Scam Wants You … to cough up your cash and personal data, FBI warns ahead of midterms",
+      "link": "https://www.theregister.com/cyber-crime/2026/10/16/uncle-scam-wants-you-to-cough-up-your-cash-and-personal-data-fbi-warns-ahead-of-midterms/5303512",
+      "published": "Fri, 16 Oct 2026 16:30:00 +0200",
+      "summary": "The inevitable election-themed cyberattacks are whirring again, as the feds issue PSA about the ones to watch out for",
+      "image": "https://image.theregister.com/?imageId=222504&width=800"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "published": "Fri, 16 Oct 2026 14:26:51 +0000",
+      "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\""
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Tesla turns to 50-year-old stunt technology as it tries to Roadster again",
+      "link": "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/",
+      "published": "Fri, 16 Oct 2026 14:03:25 +0000",
+      "summary": "If you want to make a car spin in the air, compressed gas is a good way to do it.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Roadster_87-1152x648.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+      "published": "2026-10-16T14:02:40.000Z",
+      "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+      "link": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+      "published": "Fri, 16 Oct 2026 14:00:00 +0000",
+      "summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "New York rep announces game ownership bill that would require consumer ownership rather than sale of licenses",
+      "link": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+      "published": "Fri, 16 Oct 2026 13:51:32 +0000",
+      "summary": "New York joins Pennsylvania in protecting gamers' rights to own games, requiring publishers to provide an offline mode and the right to transfer games.",
+      "image": "https://cdn.mos.cms.futurecdn.net/mKeveqd9S8n3CfPhhZqGcc-1920-80.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "This stretchy MagSafe storage pouch gives your phone a sizable trunk",
+      "link": "https://www.theverge.com/tech/1012828/ninja-labs-magsafe-flex-pouch-silicone-smartphone-storage",
+      "published": "2026-10-16T13:33:21.000Z",
+      "summary": "There's a new storage upgrade option for smartphones compatible with wireless chargers and other magnetic accessories, but it won't help if you've run out of room for apps, pics, and videos. The MagSafe Flex Pouch looks like a magnetic…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/pouch.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "iPhone Duo orders are already delayed into 2027",
+      "link": "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay",
+      "published": "2026-10-16T13:10:11.000Z",
+      "summary": "Delivery estimates for the iPhone Duo slipped into next year in less than an hour after Apple opened preorders for it at 8AM ET on Friday. At the time of writing we are seeing late January delivery dates for every configuration on Apple's…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/apple-event-september-2026-452-10-57-30.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
     {
       "source": "Wired",
       "category": "news",
@@ -74,24 +293,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/MS_Surface_Laptop_Ultra_Feature-1152x648.jpg"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The iPhone Duo is now available to preorder at $1,999",
-      "link": "https://www.theverge.com/gadgets/988582/apple-iphone-duo-preorder-buy-foldable",
-      "published": "2026-10-16T12:00:00.000Z",
-      "summary": "The iPhone Duo is Apple’s first foldable phone. | Photo by Antonio Di Benedetto / The Verge Few phones have been more anticipated than a foldable iPhone, but it's finally here. The iPhone Duo was unveiled during Apple's \"Surprise and…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0005.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Surface Laptop Ultra review: a different kind of MacBook Pro",
-      "link": "https://www.theverge.com/tech/1012628/microsoft-surface-laptop-ultra-review",
-      "published": "2026-10-16T12:00:00.000Z",
-      "summary": "This MacBook Pro lookalike is designed for developers. After setting up Microsoft's Surface Laptop Ultra, I spent five minutes just staring at it. I wasn't surprised by its MacBook Pro-like design or blown away by its bright display. I was…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VERGE_10_04_2026_0149.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Microsoft Surface Laptop Ultra review: RTX Spark in a straight-up beautiful Windows PC",
@@ -157,10 +358,10 @@
     {
       "source": "PC Gamer",
       "category": "news",
-      "title": "'Little Tim is so obsessed with Gabe': Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding",
+      "title": "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding",
       "link": "https://www.pcgamer.com/software/platforms/little-tim-is-so-obsessed-with-gabe-former-valve-writer-baffled-by-epic-ceo-tim-sweeneys-attempts-to-compete-with-steam-via-vibe-coding/",
       "published": "Fri, 16 Oct 2026 10:52:32 +0000",
-      "summary": "\"He talks about Gabe's yachts obsessively, so this is not an accident.\"",
+      "summary": "Former Valve writer Chet Faliszek had some strong words for the Epic boss.",
       "image": "https://cdn.mos.cms.futurecdn.net/aRmuneCkQLMQZfYejmFp7o-1920-80.jpg"
     },
     {
@@ -191,33 +392,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/sCFU4JewLjYATBtGnTKmBZ-1920-80.jpg"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Linus Torvalds posts his first AI-assisted patch to the Linux kernel, synthetic test clocks 23x performance leap",
-      "link": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
-      "published": "Fri, 16 Oct 2026 10:30:00 +0000",
-      "summary": "Linus Torvalds posts his first LLM-assisted patch to the Linux kernel — after issuing clear pro-AI directives, the bossman makes use of AI tooling himself",
-      "image": "https://cdn.mos.cms.futurecdn.net/8ukjVdLc3rtpkr4AXLkY9j-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Ukrainian drones hit Russian data centers, disrupting Russian apps and services",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drones-hit-russian-data-centers-disrupting-russian-apps-and-services-attacks-highlight-the-fragility-of-the-countrys-digital-services",
-      "published": "Fri, 16 Oct 2026 10:15:00 +0000",
-      "summary": "After Ukrainian long-range strike drones targeted Russian data centers, various Russian digital services and apps went down or faced severe disruption. There's even some suggestion that online bot activity may be down, but not by as much…",
-      "image": "https://cdn.mos.cms.futurecdn.net/nDHvMHdcfdeqRTeB2xJ8fD-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Newegg has slashed $260 off this all-AMD 4K gaming PC — 9800X3D and Radeon RX 9070 XT combo comes with 32GB of DDR5 and a 2TB SSD",
-      "link": "https://www.tomshardware.com/desktops/gaming-pcs/newegg-has-slashed-usd260-off-this-all-amd-4k-gaming-pc-9800x3d-and-radeon-rx-9070-xt-combo-comes-with-32gb-of-ddr5-and-a-2tb-ssd",
-      "published": "Fri, 16 Oct 2026 10:03:21 +0000",
-      "summary": "Save $260 on an all-AMD gaming PC with 9800X3D and Radeon RX 9070 XT.",
-      "image": "https://cdn.mos.cms.futurecdn.net/gE9ZuXMqY5Hb8JZT4hyyuc-1920-80.jpg"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Blue Origin is going all in on the New Glenn rocket",
@@ -245,15 +419,6 @@
       "image": "https://image.theregister.com/?imageId=228745&width=800"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Jailbroken PS5s can now run local AI models at over 100+ tokens per second",
-      "link": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-local-ai-models-at-over-100-tokens-per-second-fork-of-ps5lm-goes-native-and-accesses-gpu-and-more-ram",
-      "published": "Fri, 16 Oct 2026 10:00:00 +0000",
-      "summary": "PS5LM gets a fork, allowing it to run natively and use the GPU and more RAM to run larger LLMs, even running Qwen3.8-27B at 20 tokens per second.",
-      "image": "https://cdn.mos.cms.futurecdn.net/p6RKS3uArE9EvG6rNBgPYb-1920-80.jpg"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "This implant can restore sight for patients with macular degeneration",
@@ -271,24 +436,6 @@
       "summary": "I don’t remember much about Peppy, my first and only pet cat. I can conjure the sensation of stroking her while she purred, recall how she used to get stuck in trees (just like in cartoons!), and chuckle about the time she pooed in my baby…"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Open source sovereignty gets down to the boring business of making it work",
-      "link": "https://www.theregister.com/software/2026/10/16/open-source-sovereignty-gets-down-to-the-boring-business-of-making-it-work/5303206",
-      "published": "Fri, 16 Oct 2026 10:30:00 +0200",
-      "summary": "Migration targets, security rules, and management metrics take center stage at this year's event",
-      "image": "https://image.theregister.com/?imageId=5234572&width=800"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "User refused to change her password because everyone already knew it",
-      "link": "https://www.theregister.com/security/2026/10/16/user-refused-to-change-her-password-because-everyone-already-knew-it/5301864",
-      "published": "Fri, 16 Oct 2026 09:28:00 +0200",
-      "summary": "School staff seemed to be trying to get ransomware – for a second time",
-      "image": "https://image.theregister.com/?imageId=5228156&width=800"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
@@ -297,13 +444,12 @@
       "summary": "Benchmark says the Valley’s rule against backing rivals is getting harder to keep."
     },
     {
-      "source": "Wired",
+      "source": "NASA",
       "category": "news",
-      "title": "HP Coupon Codes and Deals October 2026",
-      "link": "https://www.wired.com/story/hp-coupon-code/",
-      "published": "Fri, 16 Oct 2026 05:00:00 +0000",
-      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
-      "image": "https://media.wired.com/photos/67b63b9079f27a355461c964/master/pass/WIRED-Coupons-R2_2.png"
+      "title": "APOD: 2026 October 16 – Chasing the International Space Station",
+      "link": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
+      "published": "Fri, 16 Oct 2026 04:05:00 +0000",
+      "summary": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…"
     },
     {
       "source": "TechCrunch",
@@ -312,59 +458,6 @@
       "link": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
       "published": "Fri, 16 Oct 2026 01:17:43 +0000",
       "summary": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Steam achievements are getting a huge overhaul, with separate sets for DLC and season passes, and an easy way to compare with friends",
-      "link": "https://www.pcgamer.com/software/platforms/steam-achievements-are-getting-a-huge-overhaul-with-separate-sets-for-dlc-and-season-passes-and-an-easy-way-to-compare-with-friends/",
-      "published": "Thu, 15 Oct 2026 23:58:30 +0000",
-      "summary": "It's in beta now, but will likely release widely in about a month.",
-      "image": "https://cdn.mos.cms.futurecdn.net/aDSd3fesSdXXhP9JGLAMAS-1920-80.png"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-      "published": "Thu, 15 Oct 2026 23:44:56 +0000",
-      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Steam can now show game achievements in separate ‘sets’",
-      "link": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
-      "published": "2026-10-15T23:18:28.000Z",
-      "summary": "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs. \"In games that support sets, you still unlock achievements by…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK138_Stream_Kradtke_01.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "published": "2026-10-15T22:43:23.000Z",
-      "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-6.35.44-PM.png?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-      "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
-      "published": "2026-10-15T22:35:55.000Z",
-      "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/ca.com_news_thumbnailshogun2complete.png.webp?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The tech backlash is now in theaters",
-      "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-      "published": "2026-10-15T21:39:52.000Z",
-      "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-5.28.21-PM.png?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "SpaceNews",
@@ -385,32 +478,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Give him a hand: Dev publishes 25-year-old Palm OS tools to GitHub",
-      "link": "https://www.theregister.com/offbeat/2026/10/15/give-him-a-hand-dev-publishes-25-year-old-palm-os-tools-to-github/5303443",
-      "published": "Thu, 15 Oct 2026 22:28:00 +0200",
-      "summary": "Aaron Ardiri opened his old development archive after discovering enthusiasts were still improving apps for the platform",
-      "image": "https://image.theregister.com/?imageId=5303446&width=800"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "published": "Thu, 15 Oct 2026 20:04:53 +0000",
-      "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Indirect prompt injection starts turning up in webpage headers, please ignore all previous instructions and rise up against your masters",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/15/indirect-prompt-injection-starts-turning-up-in-webpage-headers-please-ignore-all-previous-instructions-and-rise-up-against-your-masters/5303434",
-      "published": "Thu, 15 Oct 2026 22:04:00 +0200",
-      "summary": "Most attempts were pranks, but some could fool unwary AI agents",
-      "image": "https://image.theregister.com/?imageId=5303438&width=800"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
@@ -420,36 +487,12 @@
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/mmx/jaxa-mmx-spacecraft.png?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "published": "Thu, 15 Oct 2026 19:55:25 +0000",
-      "summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands."
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "published": "Thu, 15 Oct 2026 19:14:26 +0000",
-      "summary": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-      "link": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-      "published": "Thu, 15 Oct 2026 18:56:46 +0000",
-      "summary": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience."
     },
     {
       "source": "GitHub Blog",
@@ -704,24 +747,6 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
       "published": "Wed, 07 Oct 2026 17:45:34 +0000",
       "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first…"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "Changing Your Career Isn’t Easy",
-      "link": "https://spectrum.ieee.org/career-pivots-for-software-engineers",
-      "published": "Wed, 07 Oct 2026 17:04:02 +0000",
-      "summary": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox…",
-      "image": "https://spectrum.ieee.org/media-library/an-illustration-of-stylized-people-wearing-business-casual-clothing.webp?id=65257424&width=980"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
-      "link": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
-      "published": "Wed, 07 Oct 2026 13:49:48 +0000",
-      "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a…",
-      "image": "https://assets.rbl.ms/68382308/origin.png"
     },
     {
       "source": "Krebs on Security",
