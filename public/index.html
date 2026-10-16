@@ -8197,6 +8197,86 @@ main .grid .card:hover,
   border-color: transparent !important;
 }
 </style>
+<style id="feed-check">
+/* Story-row surface rules include :last-child and .is-hardware, which
+   outrank the shared .card:hover shadow. Repeat the lift at that
+   specificity so a hovered card actually leaves the soft resting shadow.
+   The hero keeps its own heavier shadow. */
+#feed .gn-col > .card.story-row:hover,
+#feed .gn-col > .card.story-row:last-child:hover,
+#feed .gn-col > .card.story-row.is-hardware:hover,
+#feed .gn-col > .card.story-row.is-hardware:last-child:hover,
+#feed .briefing-fill > .card.story-row:hover,
+#feed .briefing-fill > .card.story-row:last-child:hover,
+#feed .briefing-fill > .card.story-row.is-hardware:hover,
+#feed .briefing-fill > .card.story-row.is-hardware:last-child:hover,
+#feed .card.follow-card:hover,
+#feed .card.follow-card.is-hardware:hover,
+#feed .card.pick-card:hover,
+#feed .card.pick-card.is-hardware:hover,
+:root[data-theme="dark"] #feed .gn-col > .card.story-row:hover,
+:root[data-theme="dark"] #feed .gn-col > .card.story-row.is-hardware:hover,
+:root[data-theme="dark"] #feed .gn-col > .card.story-row.is-hardware:last-child:hover,
+:root[data-theme="dark"] #feed .briefing-fill > .card.story-row:hover,
+:root[data-theme="dark"] #feed .briefing-fill > .card.story-row.is-hardware:hover,
+:root[data-theme="dark"] #feed .briefing-fill > .card.story-row.is-hardware:last-child:hover,
+:root[data-theme="dark"] #feed .card.follow-card:hover,
+:root[data-theme="dark"] #feed .card.pick-card:hover,
+:root[data-theme="dark"] #feed .card.follow-card.is-hardware:hover,
+:root[data-theme="dark"] #feed .card.pick-card.is-hardware:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 32px rgba(23, 33, 43, 0.12) !important;
+}
+
+/* page-align's auto-fill grid is later than the older max-width:800px
+   one-column rules, so 769–800px still fit two 320px tracks. This sheet
+   is last, so phones stay one column and the hero cannot span a second
+   implicit track. */
+@media (max-width: 800px) {
+  #feed.grid,
+  main .grid,
+  #feed .feed-top,
+  #feed .feed-top:not(:has(.picks-col)),
+  #feed .lower-grid,
+  #feed .lower-grid.cols-1,
+  #feed .lower-grid.cols-2,
+  #feed .lower-grid.cols-3,
+  main .skeleton-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  #feed .lower-grid .card:first-child,
+  #feed .lower-grid > .gn-col:only-child,
+  #feed .lower-grid > .card:only-child,
+  #feed .briefing-card > .card.hero-story,
+  #feed .briefing-card > .card.hero-story.is-hardware,
+  main .grid .card:first-child,
+  main .skeleton-grid .skeleton-card:first-child {
+    grid-column: auto !important;
+  }
+
+  main .skeleton-grid .skeleton-card:first-child {
+    min-height: 220px !important;
+  }
+
+  #feed .card.hero-story,
+  #feed .briefing-card > .card.hero-story,
+  #feed .briefing-card > .card.hero-story.is-hardware {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    min-height: 0 !important;
+    padding: 1rem 1.1rem !important;
+  }
+
+  #feed .briefing-card > .card.hero-story h2,
+  #feed .hero-story h2 {
+    font-size: 1.45rem !important;
+    line-height: 1.25 !important;
+    letter-spacing: -0.02em !important;
+  }
+}
+</style>
 </head>
 <body>
 
