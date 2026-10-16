@@ -837,8 +837,13 @@ body {
 
 <section class="signup" aria-labelledby="newsletterTitle">
   <div class="wrap">
-    <h2 id="newsletterTitle">Get Signal Tech in your inbox</h2>
-    <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="52" width="100%" frameborder="0" scrolling="no"></iframe>
+    <div class="newsletter-card" id="newsletterCard">
+      <h2 id="newsletterTitle">Get Signal Tech in your inbox</h2>
+      <div class="newsletter-embed">
+        <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no"></iframe>
+        <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+      </div>
+    </div>
   </div>
 </section>
 <footer>
@@ -1658,7 +1663,7 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
 <style id="cookie-consent">
 .signup { padding: 8px 0 28px; }
 .signup h2 { margin: 0 0 12px; font-size: 18px; letter-spacing: -0.02em; }
-.signup iframe { display: block; width: 100%; max-width: 480px; height: 52px; border: 0; background: transparent; }
+.signup iframe { display: block; width: 100%; max-width: none; height: 70px; border: 0; background: transparent; }
 .footer-contact { margin: 0 0 10px; }
 .footer-contact a { color: var(--text-muted, #5f6368); font-weight: 600; text-decoration: none; }
 .footer-contact a:hover { color: #1a73e8; }
@@ -1754,23 +1759,81 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
   gap: 8px 16px;
   width: 100%;
   max-width: 100%;
-  margin: 20px auto 12px;
-  padding: 4px 0 8px;
+  margin: 8px auto 12px;
+  padding: 10px 16px;
   box-sizing: border-box;
-  background: transparent;
-  color: var(--text, #202124);
+  background: #3a3f45 !important;
+  color: #f3f4f6 !important;
   border: 0;
-  border-radius: 0;
+  border-radius: 12px;
   text-align: center;
+  overflow: hidden;
 }
 .newsletter-card h2 {
-  flex: 1 1 240px;
-  max-width: 420px;
+  flex: 0 1 auto;
+  max-width: 100%;
   margin: 0;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.01em;
   line-height: 1.35;
+  color: #f3f4f6;
+}
+.newsletter-embed {
+  position: relative;
+  flex: 1 1 280px;
+  width: 100%;
+  max-width: 600px;
+  height: 52px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  line-height: 0;
+  background: #3a3f45;
+}
+.newsletter-embed iframe {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: transparent;
+}
+.newsletter-embed::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: calc(100% - 100px);
+  box-sizing: border-box;
+  border: 3px solid #3a3f45;
+  border-radius: 6px 0 0 6px;
+  pointer-events: none;
+}
+.newsletter-subscribe {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: #3a3f45;
+  color: #f3f4f6;
+  border-radius: 0 6px 6px 0;
+  font: 600 14px/1 Inter, ui-sans-serif, system-ui, sans-serif;
+  pointer-events: none;
+  user-select: none;
 }
 .newsletter-card .visually-hidden {
   position: absolute;
@@ -1800,8 +1863,8 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
   padding: 0 18px;
   border: 0;
   border-radius: 999px;
-  background: #185abc;
-  color: #ffffff;
+  background: #3a3f45;
+  color: #f3f4f6;
   font: 600 14px/1 Inter, ui-sans-serif, system-ui, sans-serif;
   cursor: pointer;
 }
