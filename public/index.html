@@ -9984,7 +9984,14 @@ initAuth();
     feedEl.style.display = 'grid';
     loadMoreWrapEl.style.display = 'none';
 
-    const visible = items.slice(0, visibleCount);
+    // The large hero is the first story with a usable image URL. Earlier
+    // stories stay in the feed behind it. If none have an image, the
+    // first story stays the hero.
+    const heroIndex = items.findIndex((item) => storyImageUrl(item));
+    const ordered = heroIndex > 0
+      ? [items[heroIndex], ...items.slice(0, heroIndex), ...items.slice(heroIndex + 1)]
+      : items;
+    const visible = ordered.slice(0, visibleCount);
     const lead = visible[0];
     const related = pickRelated(lead, visible.slice(1));
     const usedLinks = new Set([lead.link, ...related.map((item) => item.link)]);

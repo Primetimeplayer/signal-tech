@@ -298,7 +298,7 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
     image,
   });
   const newsItems = ['Alpha', 'Bravo', 'Cedar', 'Delta', 'Eagle', 'Frost', 'Harbor'].map((title) => (
-    item(title, 'news', title === 'Bravo' ? 'https://example.test/missing-photo.jpg' : '')
+    item(title, 'news', title === 'Bravo' || title === 'Cedar' ? 'https://example.test/missing-photo.jpg' : '')
   ));
   const reviewItems = [item('Giant', 'reviews', 'https://example.test/missing-photo.jpg')];
   const fetchImpl = (url) => {
@@ -314,18 +314,26 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   t.after(() => dom.window.close());
 
   await waitFor(() => {
-    const card = dom.window.document.querySelector('#feed h2 a');
-    return card && card.textContent === 'Alpha' ? card : null;
+    const card = dom.window.document.querySelector('#feed .hero-story h2 a');
+    return card && card.textContent === 'Bravo' ? card : null;
   }, 2000);
 
   const doc = dom.window.document;
   const hero = doc.querySelector('#feed .hero-media');
   assert.ok(hero);
-  assert.ok(hero.querySelector('.media-fallback svg'));
-  assert.equal(hero.querySelector('.media-fallback').dataset.category, 'news');
-  assert.equal(hero.querySelector('img'), null);
+  const heroImg = hero.querySelector('.hero-thumb');
+  assert.ok(heroImg);
+  assert.equal(heroImg.getAttribute('onerror'), 'signalImageFallback(this)');
+  assert.equal(heroImg.getAttribute('referrerpolicy'), 'no-referrer');
+  assert.equal(heroImg.getAttribute('loading'), 'eager');
+  assert.match(heroImg.getAttribute('data-src'), /missing-photo\.jpg/);
+  dom.window.signalImageFallback(heroImg);
+  assert.equal(hero.querySelector('.hero-thumb'), null);
+  assert.ok(hero.querySelector('.media-fallback'));
+  assert.equal(doc.querySelector('#feed .hero-story h2 a').textContent, 'Bravo');
+  assert.ok([...doc.querySelectorAll('#feed h2 a')].some((card) => card.textContent === 'Alpha'));
 
-  const pick = [...doc.querySelectorAll('#feed .pick-card')].find((card) => card.textContent.includes('Bravo'));
+  const pick = [...doc.querySelectorAll('#feed .pick-card')].find((card) => card.textContent.includes('Cedar'));
   assert.ok(pick);
   const pickImg = pick.querySelector('.pick-thumb');
   if (pickImg) {
