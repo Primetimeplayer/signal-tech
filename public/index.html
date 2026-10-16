@@ -288,7 +288,7 @@
   .latest-card {
     flex: 0 0 auto; width: 300px; background: var(--panel-raised); scroll-snap-align: start;
     border: 1px solid var(--line); border-top: 3px solid var(--dot, var(--line));border-radius: 16px;box-shadow: 0 8px 24px rgba(23, 33, 43, 0.10);
-    padding: 1.25rem 1.25rem 1.15rem; text-decoration: none; color: var(--text);transition: transform 180ms ease, box-shadow 180ms ease;
+    padding: 0.9rem 1.1rem; text-decoration: none; color: var(--text);transition: transform 180ms ease, box-shadow 180ms ease;
   }
 
   .latest-card:hover {
@@ -406,7 +406,7 @@ padding: 1.5rem; }
 .card:first-child {
   grid-column: span 2;
   min-height: 420px;
-  padding: 2rem 2.2rem;
+  padding: 1.8rem 2rem 1.6rem;
   border-top: 6px solid var(--accent);
   box-shadow: 0 18px 40px rgba(23, 33, 43, 0.14);
 }
@@ -435,7 +435,7 @@ padding: 1.5rem; }
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding: 1.4rem 1.4rem 1.25rem;
+    padding: 1.25rem 1.4rem 1.15rem;
     min-height: 220px;
   }
 
@@ -8472,6 +8472,83 @@ main .skeleton-grid .skeleton-card {
     font-size: 1.45rem !important;
     line-height: 1.25 !important;
   }
+}
+</style>
+<style id="card-padding">
+/* Internal padding only. Later feed sheets had zeroed the side inset, so
+   titles sat on the card edge. These selectors are last and more specific,
+   and they do not change width, grid tracks, or outer margins. */
+.card,
+#feed .card,
+.grid .card,
+main .grid .card,
+#feed .card.follow-card,
+#feed .card.pick-card,
+#feed .card.story-row,
+#feed .card.feature-card,
+#feed .gn-col > .card.story-row,
+#feed .gn-col > .card.story-row:last-child,
+#feed .briefing-fill > .card.story-row,
+#feed .briefing-fill > .card.story-row:last-child,
+#feed .gn-col > .card.story-row.is-hardware,
+#feed .gn-col > .card.story-row.is-hardware:last-child,
+#feed .briefing-fill > .card.story-row.is-hardware,
+#feed .briefing-fill > .card.story-row.is-hardware:last-child,
+body.feed-compact #feed .card.follow-card,
+body.feed-compact #feed .card.pick-card,
+body.feed-compact #feed .card.story-row,
+body.feed-compact #feed .card.feature-card,
+body.feed-compact #feed .gn-col > .card.story-row,
+body.feed-compact #feed .briefing-fill > .card.story-row {
+  padding: 1.25rem 1.4rem 1.15rem !important;
+}
+
+.card:first-child,
+main .grid .card:first-child,
+#feed .briefing-card > .card.hero-story,
+#feed .briefing-card > .card.hero-story.is-hardware {
+  padding: 1.8rem 2rem 1.6rem !important;
+}
+
+@media (max-width: 800px) {
+  #feed .card.hero-story,
+  #feed .briefing-card > .card.hero-story,
+  #feed .briefing-card > .card.hero-story.is-hardware,
+  main .grid .card:first-child {
+    padding: 1.8rem 2rem 1.6rem !important;
+  }
+}
+
+.latest-card,
+#latestRow .latest-card {
+  padding: 0.9rem 1.1rem !important;
+}
+
+/* Copy and actions stay inside the card padding. Media stays in flow so a
+   thumbnail cannot pull the text back to the border. */
+#feed .card .story-copy,
+#feed .card .hero-copy,
+#feed .card .source-line,
+#feed .card .card-meta,
+#feed .card h2,
+#feed .card p,
+#feed .card .hero-dek,
+#feed .card .card-actions,
+.latest-card .cat,
+.latest-card h3 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#feed .card > .hero-media,
+#feed .card > .story-thumb,
+#feed .card > .story-media,
+#feed .card > .pick-thumb,
+#feed .card > .pick-media,
+#feed .card > .feature-media,
+#feed .card > img,
+#feed .card > .hero-media img {
+  margin: 0 !important;
 }
 </style>
 </head>
