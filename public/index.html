@@ -302,8 +302,10 @@
   .controls { padding: 1.1rem 0 0; display: flex; flex-direction: column; gap: 0.8rem; }
   .filters {
     display: flex;
-    gap: 0.45rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
+    overflow-x: auto;
+    white-space: nowrap;
     align-items: center;
     padding: 0.4rem 0.6rem;
     border-radius: 14px;
@@ -8157,8 +8159,10 @@ main .grid .card:hover,
 @media (min-width: 801px) {
   #filters {
     display: flex !important;
-    gap: 0.45rem !important;
-    flex-wrap: wrap !important;
+    gap: 0.35rem !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
     align-items: center !important;
     padding: 0.4rem 0.6rem !important;
     border-radius: 14px !important;
@@ -8277,6 +8281,65 @@ main .grid .card:hover,
   }
 }
 </style>
+<style id="topic-line">
+/* Desktop topic row and the library row stay one line. Short labels fit;
+   overflow scrolls instead of wrapping onto a second row. The phone drawer
+   stays a vertical column. Pressed pills keep the accent fill from the
+   earlier filter rules. */
+@media (min-width: 801px) {
+  .filters,
+  #filters {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    align-items: center !important;
+    gap: 0.35rem !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+  }
+
+  #filters .top-nav,
+  #topicBar,
+  #topicBar .top-nav,
+  #topicBar .top-nav-section {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0.35rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    scrollbar-width: thin !important;
+  }
+
+  #topicBar .filter,
+  #topicBar .top-nav-item,
+  #filters .top-nav-item,
+  #filters #hwToggle,
+  #filters #savedToggle,
+  #filters #digestsNav {
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
+    max-width: none !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: nowrap !important;
+  }
+}
+
+@media (max-width: 800px) {
+  #filters {
+    flex-wrap: nowrap !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    white-space: normal !important;
+  }
+}
+</style>
 </head>
 <body>
 
@@ -8371,13 +8434,13 @@ main .grid .card:hover,
     <nav class="top-nav" id="topNav" data-i18n-aria="topics" aria-label="Topics">
       <div class="top-nav-section">
         <button type="button" class="filter top-nav-item" data-cat="all" data-i18n="catAll" aria-pressed="true">All News</button>
-        <button type="button" class="filter top-nav-item" data-cat="software" data-i18n="catSoftware" aria-pressed="false">Software &amp; Dev</button>
-        <button type="button" class="filter top-nav-item" data-cat="papers" data-i18n="catPapers" aria-pressed="false">AI &amp; Research</button>
-        <button type="button" class="filter top-nav-item" data-cat="chips" data-i18n="catChips" aria-pressed="false">Chips &amp; Silicon</button>
-        <button type="button" class="filter top-nav-item" data-cat="gaming" data-i18n="catGaming" aria-pressed="false">Gaming &amp; Consoles</button>
-        <button type="button" class="filter top-nav-item" data-cat="space" data-i18n="catSpace" aria-pressed="false">Space &amp; Rockets</button>
+        <button type="button" class="filter top-nav-item" data-cat="software" data-i18n="catSoftware" aria-pressed="false">Software</button>
+        <button type="button" class="filter top-nav-item" data-cat="papers" data-i18n="catPapers" aria-pressed="false">AI</button>
+        <button type="button" class="filter top-nav-item" data-cat="chips" data-i18n="catChips" aria-pressed="false">Chips</button>
+        <button type="button" class="filter top-nav-item" data-cat="gaming" data-i18n="catGaming" aria-pressed="false">Gaming</button>
+        <button type="button" class="filter top-nav-item" data-cat="space" data-i18n="catSpace" aria-pressed="false">Space</button>
         <button type="button" class="filter top-nav-item" data-cat="security" data-i18n="catSecurity" aria-pressed="false">Cybersecurity</button>
-        <button type="button" class="filter top-nav-item" data-cat="gadgets" data-i18n="catGadgets" aria-pressed="false">Gadgets &amp; Hardware</button>
+        <button type="button" class="filter top-nav-item" data-cat="gadgets" data-i18n="catGadgets" aria-pressed="false">Hardware</button>
         <button type="button" class="filter top-nav-item" data-cat="news" data-i18n="catTechnology" aria-pressed="false">Technology</button>
         <button type="button" class="filter top-nav-item" data-cat="reviews" data-i18n="catReviews" aria-pressed="false">Reviews</button>
         <button type="button" class="filter top-nav-item" data-cat="reddit" data-i18n="catCommunity" aria-pressed="false">Community</button>
@@ -8397,13 +8460,13 @@ main .grid .card:hover,
     <div class="top-nav-section drawer-categories">
       <span class="top-nav-label" data-i18n="topics">Topics</span>
       <button type="button" class="filter top-nav-item" data-cat="all" data-i18n="catAll" aria-pressed="true">All News</button>
-      <button type="button" class="filter top-nav-item" data-cat="software" data-i18n="catSoftware" aria-pressed="false">Software &amp; Dev</button>
-      <button type="button" class="filter top-nav-item" data-cat="papers" data-i18n="catPapers" aria-pressed="false">AI &amp; Research</button>
-      <button type="button" class="filter top-nav-item" data-cat="chips" data-i18n="catChips" aria-pressed="false">Chips &amp; Silicon</button>
-      <button type="button" class="filter top-nav-item" data-cat="gaming" data-i18n="catGaming" aria-pressed="false">Gaming &amp; Consoles</button>
-      <button type="button" class="filter top-nav-item" data-cat="space" data-i18n="catSpace" aria-pressed="false">Space &amp; Rockets</button>
+      <button type="button" class="filter top-nav-item" data-cat="software" data-i18n="catSoftware" aria-pressed="false">Software</button>
+      <button type="button" class="filter top-nav-item" data-cat="papers" data-i18n="catPapers" aria-pressed="false">AI</button>
+      <button type="button" class="filter top-nav-item" data-cat="chips" data-i18n="catChips" aria-pressed="false">Chips</button>
+      <button type="button" class="filter top-nav-item" data-cat="gaming" data-i18n="catGaming" aria-pressed="false">Gaming</button>
+      <button type="button" class="filter top-nav-item" data-cat="space" data-i18n="catSpace" aria-pressed="false">Space</button>
       <button type="button" class="filter top-nav-item" data-cat="security" data-i18n="catSecurity" aria-pressed="false">Cybersecurity</button>
-      <button type="button" class="filter top-nav-item" data-cat="gadgets" data-i18n="catGadgets" aria-pressed="false">Gadgets &amp; Hardware</button>
+      <button type="button" class="filter top-nav-item" data-cat="gadgets" data-i18n="catGadgets" aria-pressed="false">Hardware</button>
       <button type="button" class="filter top-nav-item" data-cat="news" data-i18n="catTechnology" aria-pressed="false">Technology</button>
       <button type="button" class="filter top-nav-item" data-cat="reviews" data-i18n="catReviews" aria-pressed="false">Reviews</button>
       <button type="button" class="filter top-nav-item" data-cat="reddit" data-i18n="catCommunity" aria-pressed="false">Community</button>
