@@ -1160,7 +1160,6 @@ initAuth();
       <article class="card hero-story ${lead.category}${leadFields.hw ? ' is-hardware' : ''}">
         <a class="hero-media" href="${escapeAttr(lead.link)}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">${cardImage(lead, 'hero', 640, 248)}</a>
         <div class="story-copy hero-copy">
-          ${leadFields.hw ? `<div class="hw-badge">⚡ ${escapeHtml(t('hardwareBadge'))}</div>` : ''}
           ${sourceLine(lead)}
           <h2><a href="${escapeAttr(lead.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(lead.title)}">${escapeHtml(lead.title)}</a></h2>
           ${cardMeta(lead)}
@@ -1176,7 +1175,6 @@ initAuth();
       return `
       <article class="card follow-card ${item.category}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
-          ${fields.hw ? `<div class="hw-badge">⚡ ${escapeHtml(t('hardwareBadge'))}</div>` : ''}
           ${sourceLine(item)}
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(item.title)}">${escapeHtml(item.title)}</a></h2>
           ${cardMeta(item)}
@@ -1191,7 +1189,6 @@ initAuth();
       return `
       <article class="card story-row ${item.category}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
-          ${fields.hw ? `<div class="hw-badge">⚡ ${escapeHtml(t('hardwareBadge'))}</div>` : ''}
           ${sourceLine(item)}
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(item.title)}">${escapeHtml(item.title)}</a></h2>
           ${cardMeta(item)}
@@ -1274,7 +1271,6 @@ initAuth();
       return `
       <article class="card pick-card ${item.category}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
-          ${fields.hw ? `<div class="hw-badge">⚡ ${escapeHtml(t('hardwareBadge'))}</div>` : ''}
           ${sourceLine(item)}
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(item.title)}">${escapeHtml(item.title)}</a></h2>
           ${cardMeta(item)}

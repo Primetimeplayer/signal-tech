@@ -1035,7 +1035,6 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
           sidebarItem: probeText('.sidebar-item'),
           sidebarHeading: probeText('.sidebar-heading'),
           chip: probeText('#feed .chip'),
-          hwBadge: probeText('#feed .hw-badge'),
           latestCat: probeText('.latest-card .cat'),
           latestTitle: probeText('.latest-card h3')
         };
@@ -1926,7 +1925,6 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
     const readChips = () => driver.executeScript(`
       const root = getComputedStyle(document.documentElement);
       const chips = Array.from(document.querySelectorAll('#feed .card .card-chips .chip'));
-      const badges = Array.from(document.querySelectorAll('#feed .card .hw-badge'));
       const describe = (el) => {
         const s = getComputedStyle(el);
         return { color: s.color, background: s.backgroundColor, border: s.borderTopColor, text: el.textContent.trim() };
@@ -1936,8 +1934,7 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
         papersToken: root.getPropertyValue('--papers').trim(),
         lineToken: root.getPropertyValue('--line').trim(),
         panelToken: root.getPropertyValue('--panel').trim(),
-        chip: chips.length ? describe(chips[0]) : null,
-        badge: badges.length ? describe(badges[0]) : null
+        chip: chips.length ? describe(chips[0]) : null
       };
     `);
 
@@ -1970,7 +1967,7 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
     assert.equal(dark.chip.background, toRgb(dark.panelToken), 'Dark chip surface must use the --panel token');
   });
 
-  await t.test('Hardware chip still marks hardware cards after the restyle', async () => {
+  await t.test('Hardware filter still marks cards without a corner badge', async () => {
     await driver.setWindowRect(1280, 900);
     await driver.executeScript(`document.querySelector('.filter[data-cat="all"]').click();`);
     await sleep(300);
@@ -1979,10 +1976,7 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
       return { total: document.querySelectorAll('#feed .card').length, badges: document.querySelectorAll('#feed .card .hw-badge').length };
     `);
     assert.ok(beforeToggle.total > 0, 'Expected cards before the hardware filter');
-    assert.ok(
-      beforeToggle.badges < beforeToggle.total,
-      'Only hardware-related cards should carry the Hardware chip'
-    );
+    assert.equal(beforeToggle.badges, 0, 'Cards must not show a Hardware badge');
 
     const hwEl = await driver.findElement('#hwToggle');
     await driver.click(hwEl);
@@ -1994,16 +1988,14 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
         total: cards.length,
         badges: cards.filter(c => c.querySelector('.hw-badge')).length,
         hardwareClass: cards.filter(c => c.classList.contains('is-hardware')).length,
-        badgeText: cards.length && cards[0].querySelector('.hw-badge') ? cards[0].querySelector('.hw-badge').textContent.trim() : null,
         allLinksPresent: cards.every(c => !!c.querySelector('h2 a')),
         pressed: document.getElementById('hwToggle').getAttribute('aria-pressed')
       };
     `);
 
     assert.ok(filtered.total > 0, 'Hardware filter must show results');
-    assert.equal(filtered.badges, filtered.total, 'Every hardware-filtered card must keep its Hardware chip');
+    assert.equal(filtered.badges, 0, 'Hardware-filtered cards must not show a Hardware badge');
     assert.equal(filtered.hardwareClass, filtered.total, 'Hardware-filtered cards must keep the is-hardware class');
-    assert.match(filtered.badgeText, /Hardware/i, 'Hardware chip must keep its wording');
     assert.equal(filtered.pressed, 'true', 'Hardware toggle must report pressed state');
     assert.ok(filtered.allLinksPresent, 'Filtered cards must keep working links');
 

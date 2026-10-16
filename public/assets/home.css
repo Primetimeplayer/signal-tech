@@ -370,14 +370,6 @@ padding: 1.5rem; }
   box-shadow: 0 10px 28px rgba(23, 33, 43, 0.14), inset 0 0 0 1px var(--hardware) !important;
 }
 
-  .hw-badge {
-    position: absolute; top: 0; right: 12px;
-    transform: translateY(-50%);
-    background: var(--hardware); color: #1B1706;
-    font-family: 'Space Grotesk', sans-serif; font-size: 0.68rem; font-weight: 600;
-    padding: 0.15rem 0.5rem; border-radius: 999px;
-  }
-
   .card-meta {
     font-family: 'Space Grotesk', sans-serif;
     color: var(--text-muted);
@@ -2766,22 +2758,6 @@ main {
 .card.reddit .cat-label {
   color: #ea4335 !important;
 }
-.hw-badge {
-  display: inline-flex !important;
-  align-items: center !important;
-
-  margin-bottom: 8px !important;
-  padding: 3px 8px !important;
-
-  font-family: var(--font-sans) !important;
-  font-size: 10px !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.2px !important;
-
-  color: #8a5b00 !important;
-  background: #fef7e0 !important;
-  border-radius: 12px !important;
-}
 /* ACTIVE SIDEBAR STATE */
 
 .sidebar-item[aria-pressed="true"] {
@@ -3079,23 +3055,6 @@ main {
   background: transparent !important;
 }
 
-.hw-badge {
-  display: inline-flex !important;
-  align-items: center !important;
-
-  margin-bottom: 8px !important;
-  padding: 4px 9px !important;
-
-  font-family: var(--font-sans) !important;
-  font-size: 10px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.2px !important;
-
-  color: #8a5b00 !important;
-  background: #fff8e1 !important;
-  border: 1px solid #f9d77a !important;
-  border-radius: 999px !important;
-}
 html[data-theme="dark"] .card.is-hardware,
 body.dark .card.is-hardware {
   box-shadow: none !important;
@@ -4249,26 +4208,6 @@ html[data-theme] .latest-card:hover {
   color: var(--papers);
 }
 
-/* Keep the Hardware badge in the same chip language without changing its
-   markup, class or wording; the amber now comes from the theme token. */
-.card .hw-badge {
-  display: inline-flex !important;
-  align-items: center !important;
-
-  width: fit-content;
-  margin: 0 0 8px !important;
-  padding: 2px 8px !important;
-
-  font-family: 'Space Grotesk', sans-serif !important;
-  font-size: 0.68rem !important;
-  font-weight: 600 !important;
-  line-height: 1.5;
-
-  border: 1px solid var(--hardware) !important;
-  border-radius: 999px !important;
-  background: var(--panel) !important;
-  color: var(--hardware) !important;
-}
 /*__SHEET_BREAK__*/
 
 @media (max-width: 800px) {
@@ -6014,7 +5953,7 @@ body.feed-compact #feed .card.follow-card {
 }
 /*__SHEET_BREAK__*/
 
-/* Hardware story cards keep the Hardware chip and drop the amber left rail.
+/* Hardware story cards drop the amber left rail.
    Boxed cards use the same 1px #e5e7eb border as every other story card.
    Rows inside a lower section keep that section's divider and a transparent
    left edge. This block is last so it wins over the older accent rules. */
@@ -6148,7 +6087,6 @@ body.feed-compact #feed .card.follow-card {
 #latestCount,
 .section-heading h2,
 .feed-column-title,
-.hw-badge,
 .load-more,
 .clear-filters,
 .card-actions .icon-btn,
