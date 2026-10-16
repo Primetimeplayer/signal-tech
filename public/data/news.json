@@ -1,7 +1,232 @@
 {
-  "updated": "2026-10-16T06:20:55.024Z",
-  "count": 104,
+  "updated": "2026-10-16T12:20:54.049Z",
+  "count": 108,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Want your AI chats to stay private? Brave TEEs up end-to-end encryption",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+      "published": "Fri, 16 Oct 2026 14:15:00 +0200",
+      "summary": "Browser maker using trusted hardware to protect conversations with GLM 5.3 Flash",
+      "image": "https://image.theregister.com/?imageId=5303468&width=800"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The iPhone Duo is now available to preorder at $1,999",
+      "link": "https://www.theverge.com/gadgets/988582/apple-iphone-duo-preorder-buy-foldable",
+      "published": "2026-10-16T12:00:00.000Z",
+      "summary": "The iPhone Duo is Apple’s first foldable phone. | Photo by Antonio Di Benedetto / The Verge Few phones have been more anticipated than a foldable iPhone, but it's finally here. The iPhone Duo was unveiled during Apple's \"Surprise and…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0005.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Surface Laptop Ultra review: a different kind of MacBook Pro",
+      "link": "https://www.theverge.com/tech/1012628/microsoft-surface-laptop-ultra-review",
+      "published": "2026-10-16T12:00:00.000Z",
+      "summary": "This MacBook Pro lookalike is designed for developers. After setting up Microsoft's Surface Laptop Ultra, I spent five minutes just staring at it. I wasn't surprised by its MacBook Pro-like design or blown away by its bright display. I was…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VERGE_10_04_2026_0149.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Microsoft Surface Laptop Ultra review: RTX Spark in a straight-up beautiful Windows PC",
+      "link": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
+      "published": "Fri, 16 Oct 2026 12:00:00 +0000",
+      "summary": "Microsoft’s Surface Laptop Ultra is its most beautiful laptop ever, but using Windows on it is the same as ever. Only AI enthusiasts will get the most out of RTX Spark.",
+      "image": "https://cdn.mos.cms.futurecdn.net/2euXU5qSKhStmYNM3oz75j-1920-80.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "For just $40, I'd pick 8BitDo's Ultimate 3-mode controller over an Xbox one any day of the week - especially with a charging dock",
+      "link": "https://www.pcgamer.com/hardware/controllers/with-a-charging-dock-included-for-just-usd40-id-pick-8bitdos-ultimate-3-mode-controller-over-an-xbox-one-any-day-of-the-week/",
+      "published": "Fri, 16 Oct 2026 11:59:32 +0000",
+      "summary": "The polling rate is a little low, though.",
+      "image": "https://cdn.mos.cms.futurecdn.net/qhFNtNzaxiGbQf5kWFYMhf-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Capita set to miss legal deadline on 93,000 civil servants' pension fixes, claims union",
+      "link": "https://www.theregister.com/public-sector/2026/10/16/capita-set-to-miss-legal-deadline-on-93000-civil-servants-pension-fixes-claims-union/5303500",
+      "published": "Fri, 16 Oct 2026 13:51:39 +0200",
+      "summary": "PCS says outsourcer still stuck in design phase while retirees wait for McCloud corrections",
+      "image": "https://image.theregister.com/?imageId=256268&width=800"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Epic introduces an improved version of anti-cheat for Linux",
+      "link": "https://www.tomshardware.com/video-games/pc-gaming/epic-introduces-an-improved-version-of-anti-cheat-for-linux-eac-linux-v2-will-finally-allow-linux-gamers-to-play-fortnite",
+      "published": "Fri, 16 Oct 2026 11:30:00 +0000",
+      "summary": "Epic wants to work with developers and maintainers to find the best solution to making anti-cheat work seamlessly on Linux.",
+      "image": "https://cdn.mos.cms.futurecdn.net/TuUrJ7mPPTzDMN7HfGCwiA-1920-80.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Rocket Report: FAA eyes more Starbase traffic; India's Skyroot snares US customer",
+      "link": "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer/",
+      "published": "Fri, 16 Oct 2026 11:00:53 +0000",
+      "summary": "The pioneering reusable upper stage for Stoke Space's Nova rocket ships out for testing.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/stoke1-1152x648.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "AWOL Vision Aetherion Max RGB Laser UST Projector Review: A Top Buy",
+      "link": "https://www.wired.com/review/review-awol-vision-aetherion-max-rgb-laser-ust-projector/",
+      "published": "Fri, 16 Oct 2026 11:00:00 +0000",
+      "summary": "A top performer in both dark rooms and in bright sunshine, the AWOL Vision Aetherion Max RGB Laser UST Projector gives movie theaters a run for their money.",
+      "image": "https://media.wired.com/photos/6ad1311c8de176c462eacc57/master/pass/AWOL%20Vision%20Aetherion%20Max%20RGB%20Laser%20UST%20Projector%20review%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content",
+      "link": "https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/",
+      "published": "Fri, 16 Oct 2026 11:00:00 +0000",
+      "summary": "A network of AI-generated models is using comics’ material to funnel views to their OnlyFans and Fanvue accounts—and there’s not much comedians can do about it.",
+      "image": "https://media.wired.com/photos/6ad165ce87819d1c9639eaa6/master/pass/Business_ComediansAreGettingRippedOffByAIHotGirls-ezgif.com-video-to-gif-converter%20(2).gif"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Corsair's Vengeance RGB DDR5 32GB memory receives a $108 price cut",
+      "link": "https://www.tomshardware.com/pc-components/ddr5/corsairs-vengeance-rgb-ddr5-32gb-memory-receives-a-usd108-price-cut-the-cheapest-ddr5-5600-kit-available-to-buy-right-now",
+      "published": "Fri, 16 Oct 2026 10:55:27 +0000",
+      "summary": "Save $108 on Corsair's Vengeance RGB RAM and bag 32GB of DDR5 memory for your PC.",
+      "image": "https://cdn.mos.cms.futurecdn.net/PcujiayRN67apWAUfBPpHY-1920-80.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "'Little Tim is so obsessed with Gabe': Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding",
+      "link": "https://www.pcgamer.com/software/platforms/little-tim-is-so-obsessed-with-gabe-former-valve-writer-baffled-by-epic-ceo-tim-sweeneys-attempts-to-compete-with-steam-via-vibe-coding/",
+      "published": "Fri, 16 Oct 2026 10:52:32 +0000",
+      "summary": "\"He talks about Gabe's yachts obsessively, so this is not an accident.\"",
+      "image": "https://cdn.mos.cms.futurecdn.net/aRmuneCkQLMQZfYejmFp7o-1920-80.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+      "link": "https://www.pcgamer.com/games/strategy/peter-molyneux-explains-why-black-and-white-3-remains-mia-and-then-drops-a-tantalising-teaser-its-such-a-difficult-difficult-challenging-title-to-develop/",
+      "published": "Fri, 16 Oct 2026 10:34:30 +0000",
+      "summary": "The father of the god game genre speaks",
+      "image": "https://cdn.mos.cms.futurecdn.net/eEaxXEs4Ld3RZRw2WpgkJ7-1920-80.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "The Best Digital Wall Calendar (2026): Skylight, Everblog, Greenlight",
+      "link": "https://www.wired.com/story/are-digital-wall-calendars-worth-it/",
+      "published": "Fri, 16 Oct 2026 10:32:00 +0000",
+      "summary": "What originally looked like clutter turned out to be my new favorite gadget for organizing my family’s life.",
+      "image": "https://media.wired.com/photos/6ad0ff23409b08718ac6fdb4/master/pass/Are%20Digital%20Wall%20Calendars%20Worth%20It%20(Update)%20102026%20top%20art%20SOURCE%20Amazon-Skylight.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "New fear dropped: Amazon scammer seems to have delidded an $889 AMD chip, transplanted it on old Intel chip, and got it through return inspection",
+      "link": "https://www.pcgamer.com/hardware/processors/new-fear-dropped-amazon-scammer-seems-to-have-delidded-an-usd889-amd-chip-transplanted-it-on-old-intel-chip-and-got-it-through-return-inspection/",
+      "published": "Fri, 16 Oct 2026 10:30:59 +0000",
+      "summary": "The AMD Ryzen 9 9950X3D2 is not a cheap chip.",
+      "image": "https://cdn.mos.cms.futurecdn.net/sCFU4JewLjYATBtGnTKmBZ-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Linus Torvalds posts his first AI-assisted patch to the Linux kernel, synthetic test clocks 23x performance leap",
+      "link": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
+      "published": "Fri, 16 Oct 2026 10:30:00 +0000",
+      "summary": "Linus Torvalds posts his first LLM-assisted patch to the Linux kernel — after issuing clear pro-AI directives, the bossman makes use of AI tooling himself",
+      "image": "https://cdn.mos.cms.futurecdn.net/8ukjVdLc3rtpkr4AXLkY9j-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Ukrainian drones hit Russian data centers, disrupting Russian apps and services",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drones-hit-russian-data-centers-disrupting-russian-apps-and-services-attacks-highlight-the-fragility-of-the-countrys-digital-services",
+      "published": "Fri, 16 Oct 2026 10:15:00 +0000",
+      "summary": "After Ukrainian long-range strike drones targeted Russian data centers, various Russian digital services and apps went down or faced severe disruption. There's even some suggestion that online bot activity may be down, but not by as much…",
+      "image": "https://cdn.mos.cms.futurecdn.net/nDHvMHdcfdeqRTeB2xJ8fD-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Newegg has slashed $260 off this all-AMD 4K gaming PC — 9800X3D and Radeon RX 9070 XT combo comes with 32GB of DDR5 and a 2TB SSD",
+      "link": "https://www.tomshardware.com/desktops/gaming-pcs/newegg-has-slashed-usd260-off-this-all-amd-4k-gaming-pc-9800x3d-and-radeon-rx-9070-xt-combo-comes-with-32gb-of-ddr5-and-a-2tb-ssd",
+      "published": "Fri, 16 Oct 2026 10:03:21 +0000",
+      "summary": "Save $260 on an all-AMD gaming PC with 9800X3D and Radeon RX 9070 XT.",
+      "image": "https://cdn.mos.cms.futurecdn.net/gE9ZuXMqY5Hb8JZT4hyyuc-1920-80.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Blue Origin is going all in on the New Glenn rocket",
+      "link": "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket/",
+      "published": "Fri, 16 Oct 2026 10:00:54 +0000",
+      "summary": "The infrastructure is designed to support multiple flights per week by the end of the decade.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Blue-Origin-Upper-Stage-Facility-Still-Render-1152x648.png"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Googlebook review: Android on a laptop is still Android",
+      "link": "https://arstechnica.com/reviews/2026/10/googlebook-review-android-on-a-laptop-is-still-android/",
+      "published": "Fri, 16 Oct 2026 10:00:32 +0000",
+      "summary": "Android laptops are here, but Google has a lot of work ahead to make them good.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Googlebooks-1-1152x648.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Jabra Enhance Select M3 Review (2026): A Big Price for Small Wins",
+      "link": "https://www.wired.com/review/review-jabra-enhance-select-m3/",
+      "published": "Fri, 16 Oct 2026 10:00:00 +0000",
+      "summary": "This direct-to-consumer brand’s latest top-of-the-line devices work well but only showcase incremental improvements over previous models.",
+      "image": "https://media.wired.com/photos/6ad1031a254a54edd86f4f5e/master/pass/Review%20Jabra%20Enhance%20Select%20M3%20102025%20top%20art%20SOURCE%20Jabra.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "published": "Fri, 16 Oct 2026 12:00:00 +0200",
+      "summary": "Core devs revert up to 10 features, push release to November, and blame better tooling rather than vibe coding",
+      "image": "https://image.theregister.com/?imageId=228745&width=800"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Jailbroken PS5s can now run local AI models at over 100+ tokens per second",
+      "link": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-local-ai-models-at-over-100-tokens-per-second-fork-of-ps5lm-goes-native-and-accesses-gpu-and-more-ram",
+      "published": "Fri, 16 Oct 2026 10:00:00 +0000",
+      "summary": "PS5LM gets a fork, allowing it to run natively and use the GPU and more RAM to run larger LLMs, even running Qwen3.8-27B at 20 tokens per second.",
+      "image": "https://cdn.mos.cms.futurecdn.net/p6RKS3uArE9EvG6rNBgPYb-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Open source sovereignty gets down to the boring business of making it work",
+      "link": "https://www.theregister.com/software/2026/10/16/open-source-sovereignty-gets-down-to-the-boring-business-of-making-it-work/5303206",
+      "published": "Fri, 16 Oct 2026 10:30:00 +0200",
+      "summary": "Migration targets, security rules, and management metrics take center stage at this year's event",
+      "image": "https://image.theregister.com/?imageId=5234572&width=800"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "User refused to change her password because everyone already knew it",
+      "link": "https://www.theregister.com/security/2026/10/16/user-refused-to-change-her-password-because-everyone-already-knew-it/5301864",
+      "published": "Fri, 16 Oct 2026 09:28:00 +0200",
+      "summary": "School staff seemed to be trying to get ransomware – for a second time",
+      "image": "https://image.theregister.com/?imageId=5228156&width=800"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -9,6 +234,15 @@
       "link": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
       "published": "Fri, 16 Oct 2026 05:16:46 +0000",
       "summary": "Benchmark says the Valley’s rule against backing rivals is getting harder to keep."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Total Wireless Promo Codes & Deals: 50% Off Select Plans",
+      "link": "https://www.wired.com/story/total-wireless-promo-code/",
+      "published": "Fri, 16 Oct 2026 05:00:00 +0000",
+      "summary": "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.",
+      "image": "https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg"
     },
     {
       "source": "Wired",
@@ -27,15 +261,6 @@
       "published": "Fri, 16 Oct 2026 05:00:00 +0000",
       "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
       "image": "https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Total Wireless Promo Codes & Deals: 50% Off Select Plans",
-      "link": "https://www.wired.com/story/total-wireless-promo-code/",
-      "published": "Fri, 16 Oct 2026 05:00:00 +0000",
-      "summary": "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.",
-      "image": "https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg"
     },
     {
       "source": "Wired",
@@ -125,15 +350,6 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-5.28.21-PM.png?quality=90&strip=all&crop=0,0,100,100"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
-      "link": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-      "published": "Thu, 15 Oct 2026 21:18:15 +0000",
-      "summary": "This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
-      "image": "https://media.wired.com/photos/6acff05076c17d102a553f12/master/pass/Uncanny-Valley-Meta-Sexting-Business-2296314651.jpg"
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "Trump posts AI-edited photo to brag about White House restoration work",
@@ -141,15 +357,6 @@
       "published": "2026-10-15T21:09:33.000Z",
       "summary": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/27a4ed6e86bbf2cf-1.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
-      "link": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
-      "published": "Thu, 15 Oct 2026 21:00:28 +0000",
-      "summary": "Powerful AI models continue to cause chaos, but their targets aren’t widely seeking justice. Instead, they’re being encouraged to adopt those same tools.",
-      "image": "https://media.wired.com/photos/6ad00a8917414371d605a797/master/pass/Model-Behavior-Cybersecurity-Experts-Discuss-AI-Threats-Business.jpg"
     },
     {
       "source": "PC Gamer",
@@ -272,15 +479,6 @@
       "summary": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them."
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "Upgrade Your Thermostat for Winter With This Ecobee Deal for $120",
-      "link": "https://www.wired.com/story/ecobee-fall-sale-2026/",
-      "published": "Thu, 15 Oct 2026 19:00:49 +0000",
-      "summary": "You don’t need the fanciest model to make your heating routine smarter. A refurbished Ecobee we love is just $120 through October 21.",
-      "image": "https://media.wired.com/photos/6ad12208409b08718ac6feae/master/pass/Ecobee3%20Lite%20top%20art%20SOURCE%20Ecobee.jpg"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
@@ -296,15 +494,6 @@
       "published": "Thu, 15 Oct 2026 20:52:52 +0200",
       "summary": "Microsoft's Go rewrite gets some competition, with a developer claiming his port runs twice as fast",
       "image": "https://image.theregister.com/?imageId=5303422&width=800"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-      "published": "2026-10-15T18:15:36.000Z",
-      "summary": "The new Muse Spark Open AI model can work on M5 Ultra Mac Studios. | Photo: Amelia Holowaty Krales / The Verge Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268742_Mac_Studio_AKrales_0025.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "PC Gamer",
@@ -377,33 +566,6 @@
       "image": "https://image.theregister.com/?imageId=245728&width=800"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "GTA 5 finally measures up to the actual best GTA game now I've added a jetpack",
-      "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-5-finally-measures-up-to-the-actual-best-gta-game-now-ive-added-a-jetpack/",
-      "published": "Thu, 15 Oct 2026 17:00:00 +0000",
-      "summary": "Zoom.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ZXJ6aXUqYxt72Zefkog3BL-1920-80.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Neutron's first launch slips again amid trouble with carbon composites",
-      "link": "https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/",
-      "published": "Thu, 15 Oct 2026 16:57:24 +0000",
-      "summary": "Rocket Lab announced the Neutron rocket in 2021, aiming for a first flight in 2024.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/53194639182_2982a6d6de_h-1152x648.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Smartphone shipments plummet as memory crisis pumps up prices",
-      "link": "https://www.theregister.com/personal-tech/2026/10/15/smartphone-shipments-plummet-as-memory-crisis-pumps-up-prices/5303364",
-      "published": "Thu, 15 Oct 2026 18:45:00 +0200",
-      "summary": "AI's appetite for components hammers budget handsets, with analysts seeing little relief before 2028",
-      "image": "https://image.theregister.com/?imageId=257561&width=800"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
@@ -411,24 +573,6 @@
       "published": "Thu, 15 Oct 2026 16:42:10 +0000",
       "summary": "A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissions from animal…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "The AI bubble may not have burst yet, but $1 trillion worth of air appears to have escaped",
-      "link": "https://www.pcgamer.com/software/ai/the-ai-bubble-may-not-have-burst-yet-but-usd1-trillion-worth-of-air-appears-to-have-escaped/",
-      "published": "Thu, 15 Oct 2026 16:26:16 +0000",
-      "summary": "Not so much 'going out with a bang' as 'anticlimactic party balloon deflation'.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ScA4hWZiaXtX6nTERoaMZf-1920-80.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Workday wants a slice of customers' labour budget that its AI agents could replace",
-      "link": "https://www.theregister.com/saas/2026/10/15/workday-wants-a-slice-of-customers-labour-budget-that-its-ai-agents-could-replace/5303281",
-      "published": "Thu, 15 Oct 2026 18:15:00 +0200",
-      "summary": "CEO eyes usage-based billing as automation pushes HR software vendor beyond traditional IT spending",
-      "image": "https://image.theregister.com/?imageId=5245073&width=800"
     },
     {
       "source": "NASA",
@@ -448,33 +592,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2024/01/taking-in-the-view-surface-from-hls.webp?w=1280"
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
-      "link": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-      "published": "Thu, 15 Oct 2026 15:43:24 +0000",
-      "summary": "FTC may fine AI firms on par with companies that delay data breach reports.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2277824748-1024x648.jpg"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "79% of you think Razer's new gaming mouse feature counts as cheating",
-      "link": "https://www.pcgamer.com/hardware/gaming-mice/79-percent-of-you-think-razers-new-gaming-mouse-feature-counts-as-cheating/",
-      "published": "Thu, 15 Oct 2026 15:42:42 +0000",
-      "summary": "I doubt it will do a 180, though. Hey-hey!",
-      "image": "https://cdn.mos.cms.futurecdn.net/WCWEkMPXSJjjqpqAA4mqt-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Nvidia RTX 5090 disappears from Micro Center amid rumors of a production halt",
-      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-disappears-from-micro-center-amid-rumors-of-a-production-halt-retailer-flags-flagship-as-not-carried-as-stock-mysteriously-vanishes",
-      "published": "Thu, 15 Oct 2026 15:37:41 +0000",
-      "summary": "Micro Center has reclassified Nvidia GeForce RTX 5090 graphics cards as 'Not Carried,' and almost all units are out of stock at its stores.",
-      "image": "https://cdn.mos.cms.futurecdn.net/TqLyVxwJGqn4MccosMTiQc-1920-80.jpg"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "How NASA is thinking about a moon base",
@@ -482,24 +599,6 @@
       "published": "Thu, 15 Oct 2026 15:14:24 +0000",
       "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
-      "link": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-      "published": "Thu, 15 Oct 2026 15:12:58 +0000",
-      "summary": "The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/youtube-music-gen-ai-labels-fill2-1152x648.png"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Googlebooks from Dell, Lenovo, and HP tested: Nice hardware, but the OS isn't ready yet",
-      "link": "https://www.tomshardware.com/laptops/googlebooks-from-dell-lenovo-and-hp-tested-nice-hardware-but-the-os-isnt-ready-yet",
-      "published": "Thu, 15 Oct 2026 15:00:00 +0000",
-      "summary": "Googlebook OS needs a lot of love to feel like something other than Android on a PC.",
-      "image": "https://cdn.mos.cms.futurecdn.net/9YhAUUMuRikjp9uFbzUBxV-1920-80.png"
     },
     {
       "source": "NASA",
@@ -511,24 +610,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/combineda1anda2-heatshield4k.jpg?w=2048"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Spyware vendors found a way to make targeted ads even worse",
-      "link": "https://www.theregister.com/security/2026/10/15/spyware-vendors-found-a-way-to-make-targeted-ads-even-worse/5303334",
-      "published": "Thu, 15 Oct 2026 16:31:27 +0200",
-      "summary": "Israeli adtech outfit allegedly helped spyware vendors infect phones while enjoying Google's seal of approval",
-      "image": "https://image.theregister.com/?imageId=255186&width=800"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999",
-      "link": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
-      "published": "Thu, 15 Oct 2026 14:30:00 +0000",
-      "summary": "Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo.",
-      "image": "https://cdn.mos.cms.futurecdn.net/qJ8AzHF86C7AK4DgmNfWmf-1920-80.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "Chandra Finds Possible Origin of ‘Treble Clef’ Waves",
@@ -536,24 +617,6 @@
       "published": "Thu, 15 Oct 2026 14:19:06 +0000",
       "summary": "A formation of radio waves looks remarkably like a treble clef in this Oct. 14, 2026, image from NASA’s Chandra X-Ray Observatory. Researchers used Chandra to find that the Treble Clef is likely caused by an outburst from a supermassive…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/trebleclef-lg.jpg?w=2048"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Alienware AW3226Q 32-inch 4K OLED gaming monitor review: Sleek design with performance and value to match",
-      "link": "https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw3226q-32-inch-4k-oled-gaming-monitor-review",
-      "published": "Thu, 15 Oct 2026 13:00:00 +0000",
-      "summary": "Alienware rolls Tandem RGB Stripe OLED tech into a stylish 32-inch gaming monitor for a low price. The AW3226Q delivers 4K resolution, 165 Hz, Adaptive-Sync, HDR400 True Black, Dolby Vision, and wide-gamut color.",
-      "image": "https://cdn.mos.cms.futurecdn.net/GLRFWsQyCSTkaHrPBhGRkT-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Malicious Russian disinformation bot traffic barely flinches after Ukraine strikes Yandex data centers and auto-migration kicks in",
-      "link": "https://www.tomshardware.com/service-providers/network-providers/malicious-russian-disinformation-bot-traffic-barely-flinches-after-ukraine-strikes-yandex-data-centers-and-auto-migration-kicks-in-cloudflare-tracks-170-million-automated-attacks-shifting-to-alternate-cloud-hosts",
-      "published": "Thu, 15 Oct 2026 12:28:24 +0000",
-      "summary": "Ukraine's strikes on Russian data centers have caused legitimate bot traffic to go down, but malicious bots remain operational.",
-      "image": "https://cdn.mos.cms.futurecdn.net/cvrKM8CEZVoo8iapjUyEPZ-1920-80.png"
     },
     {
       "source": "MIT Technology Review",
@@ -565,15 +628,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/research-assistant3c.jpg?fit=2128,1196"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "We tested the RTX Spark Superchip in Microsoft's Surface Laptop Ultra",
-      "link": "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
-      "published": "Thu, 15 Oct 2026 12:00:21 +0000",
-      "summary": "We've tested Nvidia's RTX Spark against the latest and greatest from Apple and AMD to see how Nvidia's efforts to transform the PC for the agentic AI era stack up.",
-      "image": "https://cdn.mos.cms.futurecdn.net/xVBG4cA4gTfEi6s5iBT2i-1920-80.jpg"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
@@ -581,15 +635,6 @@
       "published": "Thu, 15 Oct 2026 12:00:00 +0000",
       "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/agile-space-industries-square-logo-scaled.png?fit=1024%2C1024&ssl=1"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Kids’ Content Is Deeply Broken. A New Platform Wants to Fix It",
-      "link": "https://www.wired.com/story/maka-streaming-platform-for-kids-fighting-against-ai-slop/",
-      "published": "Thu, 15 Oct 2026 11:00:00 +0000",
-      "summary": "Low-quality AI-generated content currently dominates children’s media. Maka, a streaming platform run by child development experts, is offering an alternative.",
-      "image": "https://media.wired.com/photos/6acfb4b1bca2b73e26f409dc/master/pass/Kids-Content-Deeply-Broken-Culture-Mockup_Gradient_Channels.jpg"
     },
     {
       "source": "IEEE Spectrum",
@@ -860,15 +905,6 @@
       "published": "Thu, 01 Oct 2026 15:06:43 +0000",
       "summary": "HOUSTON, Texas (September 30, 2026)— World Space Week events, beginning October 4 in 100 nations, will celebrate how launch innovation has stimulated the rapidly-growing space economy and enabled new uses […] The post World Space Week 2026…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/10/Copy-of-Copy-of-World-Space-Week-Association-01-1-scaled.png?fit=1024%2C1024&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Rethinking risk with electronics for space",
-      "link": "https://spacenews.com/rethinking-risk-with-electronics-for-space/",
-      "published": "Thu, 01 Oct 2026 14:51:34 +0000",
-      "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Ken Stoler, the space business development lead for Arrow. They discuss how spacecraft designers and operators have changed their attitudes toward risk, […] The post Rethinking risk with…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-arrow-2000-1500.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "Krebs on Security",
