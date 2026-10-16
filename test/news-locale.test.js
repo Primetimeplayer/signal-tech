@@ -111,7 +111,10 @@ test('Google News RSS items drop the publisher suffix and link-list description'
 });
 
 test('header region and language options match the feed locale list', async () => {
-  const html = await readFile(new URL('../public/index.html', import.meta.url), 'utf8');
+  const html = [
+    await readFile(new URL('../public/index.html', import.meta.url), 'utf8'),
+    await readFile(new URL('../public/assets/home.js', import.meta.url), 'utf8'),
+  ].join('\n');
   const regionBlock = html.split('id="regionSelect"')[1].split('</select>')[0];
   const languageBlock = html.split('id="languageSelect"')[1].split('</select>')[0];
   const values = (block) => [...block.matchAll(/value="([^"]+)"/g)].map((match) => match[1]);
@@ -127,7 +130,10 @@ test('header region and language options match the feed locale list', async () =
 test('dynamic Google News fetch gives up after six seconds', async () => {
   const worker = await readFile(new URL('../cloudflare-worker/worker.js', import.meta.url), 'utf8');
   const locale = await readFile(new URL('../scripts/lib/news-locale.js', import.meta.url), 'utf8');
-  const html = await readFile(new URL('../public/index.html', import.meta.url), 'utf8');
+  const html = [
+    await readFile(new URL('../public/index.html', import.meta.url), 'utf8'),
+    await readFile(new URL('../public/assets/home.js', import.meta.url), 'utf8'),
+  ].join('\n');
   assert.match(worker, /googleNewsUrl\(region, language\)/);
   assert.match(worker, /const deadline = Date\.now\(\) \+ 6000/);
   assert.match(worker, /AbortSignal\.timeout\(remaining\)/);

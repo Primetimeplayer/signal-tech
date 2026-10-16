@@ -38,7 +38,7 @@ Visitors get:
 - Region and language preferences saved in the browser
 - Skeleton placeholders while the first feed loads
 - Search, a light/dark theme, share-to-clipboard, and a weekly digest page with Markdown and thread export
-- An email card, “Get the Daily Signal Digest,” that validates the address and can POST new signups to a webhook
+- An email card, “Get the Signal Tech Digest,” that validates the address and can POST new signups to a webhook
 - A GDPR-style banner: Accept All loads analytics, Essential Only does not
 
 **100/100 SEO audit score.** *[Replace 100/100 with the score from the audit you attach. Delete this sentence if you are not attaching a report.]* The implementation behind that claim is a self-referencing canonical on each primary page, Open Graph and Twitter `summary_large_image` tags, a 1200×630 `og:image`, JSON-LD `WebSite` and `NewsMediaOrganization`, `robots.txt` allowing all agents, and `sitemap.xml` listing the home page and the digest page. A web app manifest and multi-size icons are included.

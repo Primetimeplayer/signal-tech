@@ -7,9 +7,15 @@ import { fileURLToPath } from 'node:url';
 import { JSDOM, VirtualConsole } from 'jsdom';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../public');
+const homeCss = await readFile(path.join(root, 'assets/home.css'), 'utf8');
+const inlineHomeCss = homeCss
+  .split('/*__SHEET_BREAK__*/')
+  .map((css) => `<style>${css}</style>`)
+  .join('\n');
 const pageHtml = (await readFile(path.join(root, 'index.html'), 'utf8'))
   .replace(/<link rel="preconnect"[^>]*>/g, '')
-  .replace(/<link href="https:\/\/fonts\.googleapis\.com[^>]*>/, '');
+  .replace(/<link href="https:\/\/fonts\.googleapis\.com[^>]*>/, '')
+  .replace('<link rel="stylesheet" href="assets/home.css">', inlineHomeCss);
 
 const staticStory = {
   source: 'The Verge',
@@ -359,7 +365,8 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   if (rowImg) {
     assert.equal(rowImg.getAttribute('onerror'), 'signalImageFallback(this)');
     assert.equal(rowImg.getAttribute('referrerpolicy'), 'no-referrer');
-    assert.equal(rowImg.getAttribute('loading'), 'eager');
+    assert.equal(rowImg.getAttribute('loading'), 'lazy');
+    assert.equal(rowImg.getAttribute('decoding'), 'async');
     assert.equal(rowImg.getAttribute('width'), '96');
     assert.equal(rowImg.getAttribute('height'), '96');
     dom.window.signalImageFallback(rowImg);
@@ -376,6 +383,10 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   assert.ok(omitted.querySelector('.story-media.media-fallback svg'));
   assert.equal(omitted.querySelector('.story-thumb'), null);
 
+  await waitFor(() => {
+    const media = doc.querySelector('#feed .hero-media');
+    return media && dom.window.getComputedStyle(media).height === '240px' ? media : null;
+  }, 2000);
   const style = dom.window.getComputedStyle.bind(dom.window);
   assert.equal(style(hero).backgroundColor, 'rgb(243, 244, 246)');
   assert.equal(style(hero).objectFit, 'cover');

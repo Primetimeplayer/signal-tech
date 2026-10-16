@@ -185,7 +185,7 @@ Each successful signup writes one record in that browser only:
 - Handler: `public/newsletter.js`
 - Pages: the card on `public/index.html` and `public/digests.html`
 
-Clearing browser data deletes the record. A returning visitor with a stored email and `consent: true` sees “You're subscribed to the Daily Signal!” and is not prompted again on that browser. The seller cannot export historical addresses, because they were never sent to a server.
+Clearing browser data deletes the record. A returning visitor with a stored email and `consent: true` sees “You're subscribed to Signal Tech!” and is not prompted again on that browser. The seller cannot export historical addresses, because they were never sent to a server.
 
 ### Connect a provider for new signups
 
@@ -208,7 +208,7 @@ The form posts to a webhook when `data-webhook` is a real `https://` URL. Placeh
 5. Submit one test address, confirm it lands on the provider list, and confirm an invalid address still shows “Enter a valid email address.” and is not stored.
 6. Update `public/privacy.html` so it names the provider, the purpose, and how to unsubscribe. The page currently says the address stays in the browser until a real destination replaces the placeholders.
 
-Provider-hosted embed forms are the other path: replace the card’s form with the embed snippet from Substack, Beehiiv, or ConvertKit, and keep the visible title “Get the Daily Signal Digest” if the product name should stay stable. An embed that loads the provider’s script should be covered by the cookie banner and the Privacy Policy.
+Provider-hosted embed forms are the other path: replace the card’s form with the embed snippet from Substack, Beehiiv, or ConvertKit, and keep the visible title “Get the Signal Tech Digest” if the product name should stay stable. An embed that loads the provider’s script should be covered by the cookie banner and the Privacy Policy.
 
 Local testing of the card does not require a provider. `npm run serve` and a valid email are enough to see the success state.
 

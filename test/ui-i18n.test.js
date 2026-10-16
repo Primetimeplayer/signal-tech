@@ -34,7 +34,11 @@ test('every language translates the same dashboard labels', async () => {
 });
 
 test('language changes translate the page without putting locale into the timestamp', async () => {
-  const html = await readFile(new URL('../public/index.html', import.meta.url), 'utf8');
+  const html = [
+    await readFile(new URL('../public/index.html', import.meta.url), 'utf8'),
+    await readFile(new URL('../public/assets/home.js', import.meta.url), 'utf8'),
+    await readFile(new URL('../public/assets/home.css', import.meta.url), 'utf8'),
+  ].join('\n');
   assert.match(html, /src="ui-i18n\.js"/);
   assert.match(html, /function applyI18n\(/);
   assert.match(html, /applyI18n\(\);\s*refresh\(\);/);

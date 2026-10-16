@@ -36,13 +36,13 @@
 <meta property="og:image" content="https://primetimeplayer.github.io/signal-tech/assets/og-preview.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="The Daily Signal by Signal Tech">
+<meta property="og:image:alt" content="Signal Tech">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Digests — Signal Tech">
 <meta name="twitter:description" content="Weekly auto-generated digests from Signal Tech.">
 <meta name="twitter:url" content="https://primetimeplayer.github.io/signal-tech/digests.html">
 <meta name="twitter:image" content="https://primetimeplayer.github.io/signal-tech/assets/og-preview.png">
-<meta name="twitter:image:alt" content="The Daily Signal by Signal Tech">
+<meta name="twitter:image:alt" content="Signal Tech">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -57,7 +57,7 @@
       "@type": "WebSite",
       "@id": "https://primetimeplayer.github.io/signal-tech/#website",
       "name": "Signal Tech",
-      "description": "The Daily Signal, a curated briefing on AI engineering, chips, and dev tools for tech leaders.",
+      "description": "Signal Tech, a curated briefing on AI engineering, chips, and dev tools for tech leaders.",
       "url": "https://primetimeplayer.github.io/signal-tech/",
       "publisher": {
         "@id": "https://primetimeplayer.github.io/signal-tech/#organization"
@@ -679,12 +679,6 @@ body {
     </div>
   </div>
 
-  <section class="newsletter-card" id="newsletterCard" aria-labelledby="newsletterTitle">
-    <h2 id="newsletterTitle">Get the Monday Signal Briefing — 5 key tech moves delivered every week.</h2>
-    <div style="max-width: 600px; width: 100%; margin: 0 auto; height: 52px; border-radius: 8px; overflow: hidden;">
-      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef" data-test-id="beehiiv-embed" height="52" width="100%" frameborder="0" scrolling="no" style="border: none; width: 100%; height: 52px; background: transparent;"></iframe>
-    </div>
-  </section>
 </div>
 
 <script>
@@ -841,7 +835,14 @@ body {
   init();
 </script>
 
+<section class="signup" aria-labelledby="newsletterTitle">
+  <div class="wrap">
+    <h2 id="newsletterTitle">Get Signal Tech in your inbox</h2>
+    <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="52" width="100%" frameborder="0" scrolling="no"></iframe>
+  </div>
+</section>
 <footer>
+  <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signal-tech" rel="me noopener">LinkedIn</a></p>
   <nav class="footer-legal" aria-label="Publication">
     <a href="about.html">About</a>
     <a href="editorial.html">Editorial</a>
@@ -1655,6 +1656,12 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
 </script>
 
 <style id="cookie-consent">
+.signup { padding: 8px 0 28px; }
+.signup h2 { margin: 0 0 12px; font-size: 18px; letter-spacing: -0.02em; }
+.signup iframe { display: block; width: 100%; max-width: 480px; height: 52px; border: 0; background: transparent; }
+.footer-contact { margin: 0 0 10px; }
+.footer-contact a { color: var(--text-muted, #5f6368); font-weight: 600; text-decoration: none; }
+.footer-contact a:hover { color: #1a73e8; }
 .digest-footer, footer {
   margin: 28px 0 12px;
   padding-top: 16px;
@@ -1815,7 +1822,6 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
   .newsletter-card button { width: 100%; }
 }
 </style>
-<script src="newsletter.js"></script>
 <div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
   <div>
     <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>

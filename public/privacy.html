@@ -8,6 +8,22 @@
 <meta name="description" content="How Signal Tech handles Google Analytics, cookies, RSS aggregation, local storage, and GDPR and CCPA rights.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://primetimeplayer.github.io/signal-tech/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Privacy Policy — Signal Tech">
+<meta property="og:description" content="How Signal Tech handles Google Analytics, cookies, RSS aggregation, local storage, and GDPR and CCPA rights.">
+<meta property="og:url" content="https://primetimeplayer.github.io/signal-tech/privacy.html">
+<meta property="og:image" content="https://primetimeplayer.github.io/signal-tech/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Signal Tech">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacy Policy — Signal Tech">
+<meta name="twitter:description" content="How Signal Tech handles Google Analytics, cookies, RSS aggregation, local storage, and GDPR and CCPA rights.">
+<meta name="twitter:url" content="https://primetimeplayer.github.io/signal-tech/privacy.html">
+<meta name="twitter:image" content="https://primetimeplayer.github.io/signal-tech/assets/og-preview.png">
+<meta name="twitter:image:alt" content="Signal Tech">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,6 +60,13 @@
   .footer-legal { display: flex; flex-wrap: wrap; gap: 8px 16px; }
   .footer-legal a { color: #5f6368; font-weight: 600; text-decoration: none; }
   .footer-legal a:hover { color: #1a73e8; }
+
+  .signup { padding: 8px 0 28px; }
+  .signup h2 { margin: 0 0 12px; }
+  .signup iframe { display: block; width: 100%; max-width: 480px; border: 0; background: transparent; }
+  .footer-contact { margin: 0 0 10px; }
+  .footer-contact a { color: #5f6368; font-weight: 600; text-decoration: none; }
+  .footer-contact a:hover { color: #1a73e8; }
 </style>
 </head>
 <body>
@@ -55,8 +78,11 @@
 </header>
 <article class="wrap">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated 10 October 2026</p>
+  <p class="updated">Last updated 16 October 2026</p>
   <p>Signal Tech is a personal tech dashboard at <a href="https://primetimeplayer.github.io/signal-tech/">https://primetimeplayer.github.io/signal-tech/</a>. It is operated by the maintainer of the <a href="https://github.com/Primetimeplayer/signal-tech">Signal Tech repository</a>. This policy explains what the site stores on your device, when Google Analytics runs, and the choices you have under the GDPR and the CCPA.</p>
+
+  <h2>Who is responsible for your data</h2>
+  <p>Mr Innocent Ncube, in Poland, is the controller for personal data on this site. Write to <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a>.</p>
 
   <h2>What the site does</h2>
   <p>Signal Tech aggregates publicly available tech news, AI papers, device reviews, and community discussion from publisher RSS feeds and APIs. A scheduled job saves titles, links, excerpts, and image addresses into static files on this site. Your browser then reads those files. Opening a story takes you to the publisher’s own site, which has its own privacy policy.</p>
@@ -85,8 +111,10 @@
     <li><code>signal-saved</code> — stories you save and the notes you attach.</li>
     <li><code>signal-auth-token</code> — present only after you sign in for saved-item sync.</li>
     <li><code>techDashboardRecents</code> — the last few stories you opened from this browser.</li>
-    <li><code>signal_tech_newsletter</code> — the email you type into “Get the Daily Signal Digest,” and the time you agreed to receive it. It stays in this browser. It is not sent to Substack, Beehiiv, or ConvertKit until those placeholder form addresses are replaced.</li>
   </ul>
+
+  <h2>Newsletter</h2>
+  <p>Signing up for the Monday Signal Briefing uses an embedded beehiiv form. beehiiv Inc. is the processor for the email address and subscription data you submit there. The legal basis is consent. Unsubscribe with the link in each email, or by writing to <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a>. That data is kept until you unsubscribe.</p>
 
   <h2>RSS aggregation and other requests</h2>
   <p>Loading the dashboard fetches its own pages and data files from GitHub Pages. A live news request may also go to the Signal sync worker, which proxies a Google News feed. Story images load from the publishers that supplied them, and the typeface loads from Google Fonts. Those requests include your IP address as part of ordinary web traffic. The site does not sell that information and does not add it to an advertising profile.</p>
@@ -97,7 +125,7 @@
 
   <h2>GDPR rights</h2>
   <p>If the GDPR applies to you, you can ask to access, correct, delete, or restrict personal data the operator holds, and you can object to processing or ask for a portable copy. You can withdraw analytics consent at any time, as described above. You can also lodge a complaint with your local supervisory authority. Browser-stored data is under your control: clearing site data for this host removes it from the device.</p>
-  <p>The legal bases are consent for analytics, and legitimate interests plus the steps needed to provide the dashboard for essential storage, feed display, and optional sync that you start yourself.</p>
+  <p>The legal bases are consent for analytics and for the newsletter, and legitimate interests plus the steps needed to provide the dashboard for essential storage, feed display, and optional sync that you start yourself.</p>
 
   <h2>CCPA rights</h2>
   <p>Signal Tech does not sell personal information and does not share it for cross-context behavioral advertising. If the CCPA applies to you, you may request to know, delete, or correct personal information the operator holds, and you will not be discriminated against for exercising those rights. Choosing Essential Only is an opt-out of analytics. The site does not offer a financial incentive tied to personal information.</p>
@@ -109,10 +137,17 @@
   <p>If this policy changes, the updated date at the top will change with it. Continued use of the site after that date means you have the new policy available on this page.</p>
 
   <h2>Contact</h2>
-  <p>Privacy requests can be opened on the <a href="contact.html">contact page</a> or the <a href="https://github.com/Primetimeplayer/signal-tech">GitHub repository</a>. For data that never leaves your browser, clearing site data for this host is the direct way to delete it.</p>
+  <p>Privacy requests start at <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a>. You can also use the <a href="contact.html">contact page</a> or the <a href="https://github.com/Primetimeplayer/signal-tech">GitHub repository</a>. For data that never leaves your browser, clearing site data for this host is the direct way to delete it.</p>
 </article>
+<section class="signup" aria-labelledby="newsletterTitle">
+  <div class="wrap">
+    <h2 id="newsletterTitle">Get Signal Tech in your inbox</h2>
+    <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="52" width="100%" frameborder="0" scrolling="no"></iframe>
+  </div>
+</section>
 <footer>
   <div class="wrap">
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signal-tech" rel="me noopener">LinkedIn</a></p>
     <nav class="footer-legal" aria-label="Publication">
       <a href="about.html">About</a>
       <a href="editorial.html">Editorial</a>

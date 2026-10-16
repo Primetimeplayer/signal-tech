@@ -8,6 +8,22 @@
 <meta name="description" content="Contact Signal Tech and send a news tip, correction, or sponsorship pitch.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://primetimeplayer.github.io/signal-tech/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Contact — Signal Tech">
+<meta property="og:description" content="Contact Signal Tech and send a news tip, correction, or sponsorship pitch.">
+<meta property="og:url" content="https://primetimeplayer.github.io/signal-tech/contact.html">
+<meta property="og:image" content="https://primetimeplayer.github.io/signal-tech/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Signal Tech">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact — Signal Tech">
+<meta name="twitter:description" content="Contact Signal Tech and send a news tip, correction, or sponsorship pitch.">
+<meta name="twitter:url" content="https://primetimeplayer.github.io/signal-tech/contact.html">
+<meta name="twitter:image" content="https://primetimeplayer.github.io/signal-tech/assets/og-preview.png">
+<meta name="twitter:image:alt" content="Signal Tech">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,6 +80,13 @@
   .footer-legal { display: flex; flex-wrap: wrap; gap: 8px 16px; }
   .footer-legal a { color: #5f6368; font-weight: 600; text-decoration: none; }
   .footer-legal a:hover { color: #1a73e8; }
+
+  .signup { padding: 8px 0 28px; }
+  .signup h2 { margin: 0 0 12px; }
+  .signup iframe { display: block; width: 100%; max-width: 480px; border: 0; background: transparent; }
+  .footer-contact { margin: 0 0 10px; }
+  .footer-contact a { color: #5f6368; font-weight: 600; text-decoration: none; }
+  .footer-contact a:hover { color: #1a73e8; }
 </style>
 </head>
 <body>
@@ -76,7 +99,7 @@
 <article class="wrap">
   <h1>Contact</h1>
   <p class="updated">Last updated 10 October 2026</p>
-  <p>Use this form for a general note, a news tip, a correction, or a sponsorship pitch. Sending it opens a GitHub issue on the Signal Tech repository with your message filled in. The Pages site does not store the form.</p>
+  <p>Email <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> is the main way to reach Signal Tech for a news tip, a correction, a privacy request, or a sponsorship. The form below opens a public GitHub issue on the Signal Tech repository. The Pages site does not store the form.</p>
 
   <form id="contactForm" method="post" action="https://github.com/Primetimeplayer/signal-tech/issues/new" novalidate>
     <div>
@@ -106,8 +129,15 @@
     <p class="form-note">You will review the issue on GitHub before it is filed. For a correction, include the Signal Tech URL and the original story URL.</p>
   </form>
 </article>
+<section class="signup" aria-labelledby="newsletterTitle">
+  <div class="wrap">
+    <h2 id="newsletterTitle">Get Signal Tech in your inbox</h2>
+    <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="52" width="100%" frameborder="0" scrolling="no"></iframe>
+  </div>
+</section>
 <footer>
   <div class="wrap">
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signal-tech" rel="me noopener">LinkedIn</a></p>
     <nav class="footer-legal" aria-label="Publication">
       <a href="about.html">About</a>
       <a href="editorial.html">Editorial</a>

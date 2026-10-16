@@ -18,7 +18,7 @@ Handover steps are in [TRANSFER.md](TRANSFER.md). Marketplace copy is in [LISTIN
 - SEO files, a web app manifest, favicons, and a 1200×630 social preview.
 - Google Analytics 4 measurement ID `G-X1DTQNYD9T`, loaded only after the visitor chooses Accept All.
 - A Privacy Policy, Terms of Service, and a GDPR-style cookie banner.
-- An email capture card, “Get the Daily Signal Digest,” ready for a webhook.
+- An email capture card, “Get the Signal Tech Digest,” ready for a webhook.
 - Three AdSense / sponsorship placeholders. The AdSense script is not loaded, and the client and slot IDs are placeholders.
 - An optional Cloudflare Worker for live Google News proxying and saved-item sync. That worker lives in a separate Cloudflare account and does not move when the GitHub repository is transferred.
 
@@ -79,7 +79,7 @@ While the first feed is loading, the dashboard shows a pulsing skeleton grid (`.
 
 ### Email subscriber widget
 
-Both pages include a card titled “Get the Daily Signal Digest,” an email field, a Subscribe button, and the line “No spam. Unsubscribe anytime.” `public/newsletter.js` checks the address in the browser. A valid address is stored as `signal_tech_newsletter` and the card shows “You're subscribed to the Daily Signal!”.
+Both pages include a card titled “Get the Signal Tech Digest,” an email field, a Subscribe button, and the line “No spam. Unsubscribe anytime.” `public/newsletter.js` checks the address in the browser. A valid address is stored as `signal_tech_newsletter` and the card shows “You're subscribed to Signal Tech!”.
 
 If `data-webhook` is an `https://` URL and does not contain `YOUR_`, the same submit also POSTs JSON `{ email, consent: true, source: "signal-tech" }`. The form’s Substack, Beehiiv, and ConvertKit `data-*-action` values are placeholders. The current script does not submit to those attributes. Connecting a provider is covered in [TRANSFER.md](TRANSFER.md).
 

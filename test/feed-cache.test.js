@@ -110,7 +110,10 @@ test('missing or invalid localStorage cache entries do not throw', async () => {
 });
 
 test('locale changes paint a fresh cache without the skeleton', async () => {
-  const html = await readFile(new URL('../public/index.html', import.meta.url), 'utf8');
+  const html = [
+    await readFile(new URL('../public/index.html', import.meta.url), 'utf8'),
+    await readFile(new URL('../public/assets/home.js', import.meta.url), 'utf8'),
+  ].join('\n');
   assert.match(html, /src="feed-cache\.js"/);
   assert.match(html, /SignalFeedCache\.read/);
   assert.match(html, /SignalFeedCache\.write/);
