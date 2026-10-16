@@ -7669,3 +7669,54 @@ main .grid,
 }
 .footer-contact { margin: 0 0 10px; }
 .footer-contact a { font-weight: 600; }
+/*__SHEET_BREAK__*/
+
+/* Phones only. Plain .card rules lose to later !important sheets, so the
+   same values are repeated on the story-card selectors that win. */
+@media (max-width: 800px) {
+  .grid .card,
+  .card {
+    min-height: auto;
+    padding: 0.9rem 1rem;
+  }
+  .grid .card img,
+  .card img {
+    height: 120px;
+    max-height: 120px;
+  }
+  .card h2 {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  #feed .card.story-row,
+  #feed .gn-col > .card.story-row,
+  #feed .gn-col > .card.story-row:last-child,
+  #feed .briefing-fill > .card.story-row,
+  #feed .briefing-fill > .card.story-row:last-child,
+  #feed .gn-col > .card.story-row.is-hardware,
+  #feed .gn-col > .card.story-row.is-hardware:last-child,
+  #feed .briefing-fill > .card.story-row.is-hardware,
+  #feed .briefing-fill > .card.story-row.is-hardware:last-child,
+  body.feed-compact #feed .card.story-row,
+  body.feed-compact #feed .gn-col > .card.story-row,
+  body.feed-compact #feed .briefing-fill > .card.story-row {
+    min-height: auto !important;
+    padding: 0.9rem 1rem !important;
+  }
+
+  #feed .card.story-row .story-thumb,
+  #feed .card.story-row .story-media {
+    height: 120px !important;
+    min-height: 120px !important;
+    max-height: 120px !important;
+  }
+
+  #feed .card.story-row h2,
+  #feed .card.story-row h2 a,
+  #feed .gn-col > .card.story-row h2,
+  #feed .briefing-fill > .card.story-row h2 {
+    font-size: 1rem !important;
+    line-height: 1.3 !important;
+  }
+}
