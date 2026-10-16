@@ -427,10 +427,10 @@ padding: 1.5rem; }
 
   .card {
     position: relative;
-    background: var(--panel-raised);
+    background: #ffffff;
     border: 1px solid var(--line);
     border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(23, 33, 43, 0.06);
+    box-shadow: 0 4px 18px rgba(23, 33, 43, 0.07);
     transition: transform 180ms ease, box-shadow 180ms ease;
     overflow: hidden;
     display: flex;
@@ -441,7 +441,7 @@ padding: 1.5rem; }
 
   .card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(23, 33, 43, 0.12);
+    box-shadow: 0 14px 36px rgba(23, 33, 43, 0.13);
   }
 
   .card img {
@@ -468,8 +468,20 @@ padding: 1.5rem; }
   }
 
   .card-meta {
-    font-family: 'Space Grotesk', sans-serif; font-size: 0.9rem; color: var(--text-muted);
-    display: flex; gap: 0.5em; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    font-size: 0.78rem;
+    margin-bottom: 0.45rem;
+  }
+  .card-meta img.favicon,
+  .card-meta img.source-favicon {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
   }
   .card-meta .cat-label { color: var(--dot); }
 
@@ -8051,12 +8063,24 @@ main .grid .card,
 :root[data-theme="dark"] #feed .briefing-fill > .card.story-row,
 :root[data-theme="dark"] #feed .gn-col > .card.story-row.is-hardware,
 :root[data-theme="dark"] #feed .briefing-fill > .card.story-row.is-hardware {
-  background: var(--panel-raised) !important;
+  background: #ffffff !important;
   border: 1px solid var(--line) !important;
   border-radius: 16px !important;
-  box-shadow: 0 4px 16px rgba(23, 33, 43, 0.06) !important;
+  box-shadow: 0 4px 18px rgba(23, 33, 43, 0.07) !important;
   transition: transform 180ms ease, box-shadow 180ms ease !important;
   overflow: hidden !important;
+}
+
+:root[data-theme="dark"] #feed .card.follow-card,
+:root[data-theme="dark"] #feed .card.pick-card,
+:root[data-theme="dark"] #feed .card.story-row,
+:root[data-theme="dark"] #feed .card.feature-card,
+:root[data-theme="dark"] #feed .gn-col > .card.story-row,
+:root[data-theme="dark"] #feed .briefing-fill > .card.story-row,
+:root[data-theme="dark"] #feed .gn-col > .card.story-row.is-hardware,
+:root[data-theme="dark"] #feed .briefing-fill > .card.story-row.is-hardware,
+:root[data-theme="dark"] #feed .card.hero-story {
+  background: var(--panel-raised) !important;
 }
 
 .card:hover,
@@ -8074,7 +8098,7 @@ main .grid .card:hover,
 :root[data-theme="dark"] #feed .card.story-row:hover,
 :root[data-theme="dark"] #feed .card.feature-card:hover {
   transform: translateY(-4px) !important;
-  box-shadow: 0 12px 32px rgba(23, 33, 43, 0.12) !important;
+  box-shadow: 0 14px 36px rgba(23, 33, 43, 0.13) !important;
 }
 
 .card img,
@@ -8229,7 +8253,7 @@ main .grid .card:hover,
 :root[data-theme="dark"] #feed .card.follow-card.is-hardware:hover,
 :root[data-theme="dark"] #feed .card.pick-card.is-hardware:hover {
   transform: translateY(-4px) !important;
-  box-shadow: 0 12px 32px rgba(23, 33, 43, 0.12) !important;
+  box-shadow: 0 14px 36px rgba(23, 33, 43, 0.13) !important;
 }
 
 /* page-align's auto-fill grid is later than the older max-width:800px
@@ -8338,6 +8362,52 @@ main .grid .card:hover,
     overflow-y: auto !important;
     white-space: normal !important;
   }
+}
+</style>
+<style id="story-cards">
+/* Regular cards. The hero keeps its larger meta, and row/pick thumbs keep
+   their own size. Favicons live in .source-line, not .card-meta. */
+#feed .card-meta,
+#feed .card.story-row .card-meta,
+#feed .card.follow-card .card-meta,
+#feed .card.pick-card .card-meta,
+#feed .card.feature-card .card-meta {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+  font-size: 0.78rem !important;
+  margin-bottom: 0.45rem !important;
+}
+
+#feed .card-meta .meta-time,
+#feed .card-meta .meta-author,
+#feed .card-meta .cat-label,
+#feed .card.story-row .card-meta .meta-time,
+#feed .card.story-row .card-meta .meta-author,
+#feed .card.story-row .card-meta .cat-label {
+  font-size: 0.78rem !important;
+}
+
+#feed .briefing-card > .card.hero-story .card-meta,
+#feed .briefing-card > .card.hero-story .card-meta .meta-time,
+#feed .briefing-card > .card.hero-story .card-meta .meta-author,
+#feed .briefing-card > .card.hero-story .card-meta .cat-label {
+  font-size: 0.85rem !important;
+  margin-bottom: 0.8rem !important;
+}
+
+.card-meta img.favicon,
+.card-meta img.source-favicon,
+#feed .source-favicon,
+#feed .card.story-row .source-favicon,
+#feed .card.pick-card .source-favicon {
+  width: 16px !important;
+  height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  flex: 0 0 16px !important;
+  border-radius: 3px !important;
+  object-fit: contain !important;
 }
 </style>
 </head>
