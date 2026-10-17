@@ -248,7 +248,7 @@ test('invalid RSS proxy JSON renders stale localStorage items and hides the skel
   assert.equal(dom.window.localStorage.getItem('feed_cache_US_en-US'), stale);
 });
 
-test('a six second RSS proxy timeout falls back to stale cache', async (t) => {
+test('a two and a half second news timeout falls back to stale cache', async (t) => {
   const server = await startServer();
   const { port } = server.address();
   t.after(() => new Promise((resolve) => server.close(resolve)));
@@ -282,8 +282,8 @@ test('a six second RSS proxy timeout falls back to stale cache', async (t) => {
   }, 9000);
   const elapsed = Date.now() - started;
   assert.ok(headline);
-  assert.ok(elapsed >= 5000, `timeout fallback returned in ${elapsed}ms`);
-  assert.ok(elapsed < 9000, `timeout fallback took ${elapsed}ms`);
+  assert.ok(elapsed >= 2000, `timeout fallback returned in ${elapsed}ms`);
+  assert.ok(elapsed < 6000, `timeout fallback took ${elapsed}ms`);
   assert.equal(dom.window.document.getElementById('skeleton').style.display, 'none');
   assert.equal(dom.window.document.getElementById('retryFeed'), null);
 });

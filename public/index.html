@@ -87,20 +87,62 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet"></noscript>
 <style>
-  html,body{margin:0;background:#f5f7f8;color:#202124;font-family:Inter,ui-sans-serif,system-ui,sans-serif}
+  :root{--accent:#1A73E8;--panel:#fff;--panel-raised:#fff;--text:#14294B;--text-muted:#5f6368;--line:#e5e7eb;--bg:#F3F8FC}
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,sans-serif}
   .wrap{box-sizing:border-box;width:100%;padding:0 24px}
+  .mast{background:#fff;border-bottom:1px solid #dadce0}
   .mast-row{display:flex;align-items:center;gap:16px;min-height:64px}
-  .wordmark{margin:0;font-weight:700;letter-spacing:-.04em;font-size:1.6rem}
-  .wordmark span{color:#1A73E8}
-  .search-row{height:40px;min-height:40px;flex:1}
+  .mast-right{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+  .wordmark{margin:0;color:#202124;font-weight:500;letter-spacing:-.03em;font-size:22px;white-space:nowrap}
+  .wordmark span{color:var(--accent)}
+  .mast .tagline{margin:6px 0 2px;font-size:14px;line-height:1.45}
+  .mast .search-row{display:flex;align-items:center;flex:1 1 auto;height:40px;min-height:40px;min-width:0}
+  .locale-controls select.locale-native{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
+  .menu-toggle,.sidebar-backdrop,#filters{display:none}
+  #topicBar{min-height:40px;margin:0 0 8px}
+  #topicBar .top-nav,#topicBar .top-nav-section{display:flex;flex-flow:row nowrap;align-items:center;gap:6px;overflow:hidden}
+  #topicBar .filter{flex:0 0 auto;white-space:nowrap}
   #latestSection{min-height:188px}
   #latestRow{min-height:120px}
-  #signalStrip{box-sizing:border-box;min-height:100px}
+  #signalStrip{display:flex;align-items:center;gap:16px;box-sizing:border-box;height:100px;min-height:100px;max-height:100px;margin:12px 0 0;padding:10px 18px;overflow:hidden;background:var(--panel-raised);color:var(--text);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px}
+  #signalStrip .signal-main{flex:1 1 auto;min-width:0}
+  #signalStrip .signal-kicker{margin:0;color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.04em;line-height:1.2;white-space:nowrap}
+  #signalStrip .signal-title{margin:0;font-size:18px;line-height:1.15;white-space:nowrap}
+  #signalStrip .signal-actions{display:flex;flex:0 0 auto;flex-direction:column;gap:6px}
   #newsletterCard{min-height:72px}
   .newsletter-embed{min-height:52px}
-  .hero-media,.hero-thumb{height:240px;object-fit:cover}
-  @media (max-width:767px){.mast .search-row{display:none}}
-  @media (max-width:640px){#signalStrip{min-height:240px}#latestSection{min-height:210px}}
+  #feed .hero-media,#feed .hero-thumb,#feed .hero-media img{display:block;width:100%;height:240px;min-height:240px;max-height:240px;object-fit:cover;background:#f3f4f6;box-sizing:border-box}
+  main .skeleton-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.25rem}
+  .skeleton-card{min-height:220px;box-sizing:border-box;background:#f3f4f6;border-radius:16px}
+  .skeleton-card:first-child{grid-column:span 2;min-height:400px}
+  .cookie-banner{position:fixed;z-index:800;left:16px;right:16px;bottom:16px;display:flex;align-items:center;justify-content:space-between;gap:16px 20px;width:min(760px,calc(100% - 32px));margin:0 auto;padding:16px 18px;box-sizing:border-box;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 28px rgba(23,33,43,.14);font-family:Inter,ui-sans-serif,system-ui,sans-serif}
+  .cookie-banner[hidden]{display:none !important}
+  .cookie-banner p{margin:0}
+  .cookie-banner-title{margin-bottom:4px;font-size:14px;font-weight:700;letter-spacing:-.01em}
+  .cookie-banner-copy{font-size:13px;line-height:1.45;color:var(--text-muted)}
+  .cookie-banner-copy a{color:#1a73e8}
+  .cookie-banner-actions{display:flex;flex:none;gap:8px}
+  .cookie-banner button{min-height:40px;padding:0 14px;border-radius:999px;font:600 13px/1 Inter,ui-sans-serif,system-ui,sans-serif;cursor:pointer}
+  .cookie-banner .cookie-essential{background:transparent;color:inherit;border:1px solid var(--line)}
+  .cookie-banner .cookie-accept{background:#185abc;color:#fff;border:1px solid #185abc}
+  @media (max-width:800px){
+    .wordmark{font-size:16px}
+    .menu-toggle{display:inline-flex;width:34px;height:34px}
+    main .skeleton-grid{grid-template-columns:minmax(0,1fr)}
+    .skeleton-card:first-child{grid-column:auto;min-height:220px}
+  }
+  @media (max-width:767px){
+    .mast .search-row{display:none}
+    #topicBar .top-nav-item:not(#digestsNav){display:none}
+  }
+  @media (max-width:640px){
+    #signalStrip{flex-direction:column;align-items:stretch;height:auto;min-height:240px;max-height:none;padding:14px 18px;gap:10px}
+    #signalStrip .signal-kicker,#signalStrip .signal-title{white-space:normal}
+    #latestSection{min-height:210px}
+    .cookie-banner{flex-direction:column;align-items:stretch}
+    .cookie-banner-actions{width:100%}
+    .cookie-banner-actions button{flex:1}
+  }
 </style>
 <script>
   (function () {
@@ -127,7 +169,8 @@
     }).catch(function () {});
   })();
 </script>
-<link rel="stylesheet" href="assets/home.css">
+<link rel="stylesheet" href="assets/home.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="assets/home.css"></noscript>
 
 <!-- LATEST STORIES — COMPACT CAROUSEL -->
 <!-- Placed last in <head> on purpose: the earlier style stack contains inert
@@ -428,8 +471,33 @@
     <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
   </div>
 </div>
-
-
+<script>
+(function () {
+  var KEY = 'signal_tech_cookie_consent';
+  var banner = document.getElementById('cookieBanner');
+  function read() {
+    try { return localStorage.getItem(KEY); } catch (e) { return null; }
+  }
+  function write(value) {
+    try { localStorage.setItem(KEY, value); } catch (e) {}
+  }
+  function hide() { if (banner) banner.hidden = true; }
+  var choice = read();
+  if (choice === 'all' || choice === 'essential') { hide(); return; }
+  if (banner) banner.hidden = false;
+  var accept = document.getElementById('cookieAccept');
+  var essential = document.getElementById('cookieEssential');
+  if (accept) accept.addEventListener('click', function () {
+    write('all');
+    if (window.loadSignalAnalytics) window.loadSignalAnalytics();
+    hide();
+  });
+  if (essential) essential.addEventListener('click', function () {
+    write('essential');
+    hide();
+  });
+})();
+</script>
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {

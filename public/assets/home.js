@@ -342,9 +342,23 @@ async function logoutAccount() {
   render();
 }
 
+function hasSessionCookie() {
+  try {
+    return /(?:^|; )signal_session=/.test(document.cookie || '');
+  } catch (e) {
+    return false;
+  }
+}
+
 async function initAuth() {
   await exchangeAuthCode();
-  await getAuthState();
+  // Logged-out visits have no token and no session cookie. Skip /api/me so
+  // the expected 401 does not show up as a console error.
+  if (authToken || hasSessionCookie()) {
+    await getAuthState();
+  } else {
+    authState = { authenticated: false, user: null };
+  }
 
   authReady = true;
 
@@ -713,18 +727,12 @@ initAuth();
     if (!url) return mediaPlaceholder(item, kind);
     const cls = kind === 'hero' ? 'hero-thumb' : kind === 'pick' ? 'pick-thumb' : 'story-thumb';
     const host = publisherHost(item && item.link);
-    const sized = resizedImage(url, kind === 'hero' ? 800 : 320);
-    // The phone hero sits below the fold, under Latest Stories and the Signal
-    // strip. Prioritizing it there delays the image that is already on screen.
-    const lead = kind === 'hero' && heroLeadsViewport();
-    if (lead) preloadHeroImage(url);
-    const loading = kind === 'hero' ? (lead ? 'eager' : 'lazy') : 'lazy';
-    const priority = lead ? ' fetchpriority="high"' : '';
-    // On a phone the hero is below the fold. Leave its src empty until after
-    // the on-screen photo has painted so the two downloads do not compete.
-    const srcAttr = kind === 'hero' && !lead
-      ? ''
-      : ` src="${escapeAttr(sized.src)}" srcset="${escapeAttr(sized.srcset)}"`;
+    // List thumbs request 80px (160px at 2x). The hero stays 800 / 1600.
+    const sized = resizedImage(url, kind === 'hero' ? 800 : 80);
+    if (kind === 'hero' && heroLeadsViewport()) preloadHeroImage(url);
+    const loading = kind === 'hero' ? 'eager' : 'lazy';
+    const priority = kind === 'hero' ? ' fetchpriority="high"' : '';
+    const srcAttr = ` src="${escapeAttr(sized.src)}" srcset="${escapeAttr(sized.srcset)}"`;
     return `<img class="${cls}" alt="" width="${width}" height="${height}" loading="${loading}" decoding="async" referrerpolicy="no-referrer"${priority}${srcAttr} data-src="${escapeAttr(url)}" data-category="${escapeAttr(storyCategory(item))}" data-source-host="${escapeAttr(host)}" onerror="signalImageFallback(this)">`;
   }
 
@@ -732,7 +740,6 @@ initAuth();
     if (!root) return;
     root.querySelectorAll('img[data-src]').forEach((img) => {
       if (img.getAttribute('src')) return;
-      if (img.classList.contains('hero-thumb') && !heroLeadsViewport()) return;
       const hero = img.classList.contains('hero-thumb');
       img.setAttribute('loading', hero ? 'eager' : 'lazy');
       img.setAttribute('referrerpolicy', 'no-referrer');
@@ -749,7 +756,7 @@ initAuth();
       }
       const original = img.dataset.src;
       if (original) {
-        const sized = resizedImage(original, hero ? 800 : 320);
+        const sized = resizedImage(original, hero ? 800 : 80);
         img.src = sized.src;
         img.srcset = sized.srcset;
         if (hero) preloadHeroImage(original);
@@ -1423,7 +1430,9 @@ initAuth();
     const run = () => {
       imgs.forEach((img) => {
         if (!img.isConnected || img.getAttribute('src')) return;
-        const sized = resizedImage(img.dataset.src, 480);
+        const sized = resizedImage(img.dataset.src, 800);
+        img.setAttribute('loading', 'eager');
+        img.setAttribute('fetchpriority', 'high');
         img.src = sized.src;
         img.srcset = sized.srcset;
       });
@@ -1673,15 +1682,16 @@ initAuth();
   }
 
   // Live Google News locale (`/api/news` → https://news.google.com/rss?hl=&gl=&ceid=).
-  // Both attempts share one 6 second budget. A timeout, a failed response,
-  // invalid JSON, or a disconnected Cloudflare worker returns null. The feed
-  // then stays on the static files in public/data/ (news.json, papers.json,
-  // reviews.json, reddit.json). Digests never call the worker: digests.html
-  // reads public/digests/*.json on its own.
+  // Static JSON paints immediately. Both live attempts share LIVE_FEED_MS;
+  // a later response is not swapped in. Static files still use LOCALE_FETCH_MS.
+  // A timeout, a failed response, invalid JSON, or a disconnected worker
+  // returns null and the feed stays on public/data/. Digests never call the
+  // worker: digests.html reads public/digests/*.json on its own.
   const LOCALE_FETCH_MS = 6000;
+  const LIVE_FEED_MS = 2500;
 
   async function loadLocalizedNews(region, language) {
-    const deadline = Date.now() + LOCALE_FETCH_MS;
+    const deadline = Date.now() + LIVE_FEED_MS;
     let lastError = null;
     for (let attempt = 0; attempt < 2; attempt++) {
       const remaining = deadline - Date.now();
@@ -1706,7 +1716,7 @@ initAuth();
         lastError = err;
       }
     }
-    console.error('Localized news feed failed; using static JSON', lastError);
+    console.warn('Localized news feed failed; using static JSON', lastError);
     return null;
   }
 
@@ -1759,8 +1769,9 @@ initAuth();
     // A region or language change paints a fresh cached edition immediately
     // and lets the Google News request finish behind that. Static JSON is
     // painted as soon as it arrives so a locale request cannot hold the
-    // skeleton until its 6 second timeout. The static JSON paints first.
-    // Live items replace it only when the top stories actually change.
+    // skeleton until the live request finishes. The static JSON paints first.
+    // A live result replaces it only when it arrives within LIVE_FEED_MS
+    // and the top stories actually change.
     // Expired localStorage items stay available for the failure path below.
     const quiet = options.quiet === true;
     const serial = ++refreshSerial;
@@ -2723,29 +2734,3 @@ initAuth();
     document.body.classList.remove('search-scrolled');
   }
 });
-
-(function () {
-  var KEY = 'signal_tech_cookie_consent';
-  var banner = document.getElementById('cookieBanner');
-  function read() {
-    try { return localStorage.getItem(KEY); } catch (e) { return null; }
-  }
-  function write(value) {
-    try { localStorage.setItem(KEY, value); } catch (e) {}
-  }
-  function hide() { if (banner) banner.hidden = true; }
-  var choice = read();
-  if (choice === 'all' || choice === 'essential') { hide(); return; }
-  if (banner) banner.hidden = false;
-  var accept = document.getElementById('cookieAccept');
-  var essential = document.getElementById('cookieEssential');
-  if (accept) accept.addEventListener('click', function () {
-    write('all');
-    if (window.loadSignalAnalytics) window.loadSignalAnalytics();
-    hide();
-  });
-  if (essential) essential.addEventListener('click', function () {
-    write('essential');
-    hide();
-  });
-})();
