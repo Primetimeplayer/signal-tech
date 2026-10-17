@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-17T00:14:57.725Z",
-  "count": 92,
+  "updated": "2026-10-17T04:59:46.132Z",
+  "count": 90,
   "items": [
     {
       "source": "PC Gamer",
@@ -23,7 +23,7 @@
     {
       "source": "The Verge",
       "category": "news",
-      "title": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
+      "title": "Apple’s updated App Store rules go after ‘nudify’ AI apps",
       "link": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
       "published": "2026-10-16T22:51:22.000Z",
       "summary": "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok…",
@@ -117,6 +117,14 @@
       "published": "Fri, 16 Oct 2026 18:00:03 +0000",
       "summary": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have…",
       "image": "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=980"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "published": "Fri, 16 Oct 2026 18:00:00 +0000",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic…"
     },
     {
       "source": "TechCrunch",
@@ -329,14 +337,6 @@
       "image": "https://media.wired.com/photos/6ad13db2947d3d6c92ec6bb7/master/pass/Review%20Surface%20Laptop%20Ultra%20102026%20top%20art%20SOURCE%20BH%20Photo.jpg"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
-      "link": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-      "published": "Fri, 16 Oct 2026 12:55:09 +0000",
-      "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions."
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "British watchdog seeks tougher terms around Microsoft's dominance of business software",
@@ -477,7 +477,7 @@
       "title": "This implant can restore sight for patients with macular degeneration",
       "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
       "published": "Fri, 16 Oct 2026 09:00:00 +0000",
-      "summary": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the…",
+      "summary": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/ND26-dl_mapped.png?w=840"
     },
     {
@@ -550,15 +550,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/irosa-rollout-20260909.mp4"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
-      "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
-      "published": "Thu, 15 Oct 2026 16:42:10 +0000",
-      "summary": "A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissions from animal…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "How NASA is thinking about a moon base",
@@ -619,15 +610,6 @@
       "published": "Wed, 14 Oct 2026 13:09:21 +0000",
       "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The Download: faking blood and the future of batteries",
-      "link": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/",
-      "published": "Wed, 14 Oct 2026 12:10:00 +0000",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopter carrying blood…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/crawl-data2.jpg?fit=2128,1196"
     },
     {
       "source": "Krebs on Security",

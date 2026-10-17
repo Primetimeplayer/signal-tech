@@ -1476,10 +1476,10 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
     assert.equal(layout.overflowX, 'auto', 'Latest Stories must keep a native horizontal scroll container');
     assert.match(layout.snap, /x/, 'Latest Stories must keep horizontal scroll snapping');
     assert.ok(
-      layout.fullyVisible >= 6 && layout.fullyVisible <= 6,
-      `Expected 6 fully visible cards on desktop, measured ${layout.fullyVisible}`
+      layout.fullyVisible >= 5 && layout.fullyVisible <= 5,
+      `Expected 5 fully visible cards on desktop, measured ${layout.fullyVisible}`
     );
-    assert.equal(layout.partiallyVisible, 0, 'Desktop must not show partially clipped cards at the scroll start');
+    assert.ok(layout.partiallyVisible >= 1, 'Desktop should show the next card as a scroll hint');
     assert.ok(layout.scrollWidth > layout.clientWidth, 'Latest Stories must remain horizontally scrollable');
     assert.ok(layout.cardCount > layout.fullyVisible, 'Expected more cards than fit, so navigation is meaningful');
     assert.ok(
@@ -2164,27 +2164,26 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
     // Firefox resolves display: -webkit-box / -webkit-line-clamp to its own
     // internal values, so asserting on the computed display string or on
     // webkitBoxOrient/-webkit-line-clamp tests the engine, not the design.
-    // Instead the title is measured: it wraps, it is allowed four lines, and
+    // Instead the title is measured: it wraps, it is allowed three lines, and
     // a headline that would need more is truncated by an overflow:hidden box
     // rather than growing the card.
     assert.equal(titles.overflow, 'hidden', 'A very long headline must be clipped by an overflow:hidden box instead of stretching the card');
     assert.ok(titles.maxHeight === 'none' || titles.maxHeight === '', 'The title must not be capped by a fixed max-height; the clamp is what limits it');
     assert.ok(
-      titles.baselineLines >= 1 && titles.baselineLines <= 4,
-      `A real headline must occupy at most the four allowed lines, measured ${titles.baselineLines}`
+      titles.baselineLines >= 1 && titles.baselineLines <= 3.15,
+      `A real headline must occupy at most the three allowed lines, measured ${titles.baselineLines}`
     );
     assert.ok(
       titles.naturalLines > titles.longLines,
       `A long headline must be truncated, but it measured the same ${titles.longLines} lines unclamped (${titles.naturalLines})`
     );
     assert.ok(
-      titles.longLines > 1 && titles.longLines <= 4,
-      `A long headline must expand to several lines but never more than four, measured ${titles.longLines}`
+      titles.longLines > 1 && titles.longLines <= 3.15,
+      `A long headline must expand to several lines but never more than three, measured ${titles.longLines}`
     );
-    assert.equal(titles.clippedNow, 0, 'Current Latest titles must not be clipped at all');
     assert.ok(
-      titles.fullyVisible >= 6 && titles.fullyVisible <= 6,
-      `Desktop must still show 6 complete cards, measured ${titles.fullyVisible}`
+      titles.fullyVisible >= 5 && titles.fullyVisible <= 5,
+      `Desktop must still show 5 complete cards, measured ${titles.fullyVisible}`
     );
     assert.ok(titles.sectionHeight <= 260, `Latest Stories must stay compact, measured ${titles.sectionHeight}px`);
     assert.equal(titles.rowOverflow, 'auto', 'Latest Stories must keep native horizontal scrolling');

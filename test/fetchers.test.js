@@ -10,6 +10,7 @@ import { runReviewsFetcher } from '../scripts/fetch-reviews.js';
 import { runRedditFetcher } from '../scripts/fetch-reddit.js';
 import { runPapersFetcher } from '../scripts/fetch-papers.js';
 import { excerpt } from '../scripts/lib/excerpt.js';
+import { decodeEntities } from '../scripts/lib/decode-entities.js';
 import { storyImage } from '../scripts/lib/story-image.js';
 
 const FIXED_TIME = '2025-01-02T03:04:05.000Z';
@@ -286,6 +287,14 @@ test('Reddit uses the vote line when a post has no body', async (t) => {
 
   const result = await readJson(outputPath);
   assert.equal(result.items[0].summary, '10 upvotes · 2 comments');
+});
+
+test('feed text decodes numeric and named HTML entities', () => {
+  assert.equal(decodeEntities('Apple&#8217;s'), 'Apple\u2019s');
+  assert.equal(decodeEntities('&#8216;nudify&#8217;'), '\u2018nudify\u2019');
+  assert.equal(decodeEntities('Tom &amp; Jerry'), 'Tom & Jerry');
+  assert.equal(decodeEntities('&amp;#8217;'), '\u2019');
+  assert.equal(excerpt('Apple&#8217;s &amp; <b>chips</b>'), 'Apple\u2019s & chips');
 });
 
 test('excerpts keep short text and only ellipsize real cutoffs', () => {

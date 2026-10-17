@@ -179,24 +179,8 @@
   backdrop-filter: none;
 }
   .latest-label { font-family: 'Space Grotesk', sans-serif; font-size: 0.9rem; color: var(--text-muted); margin: 0 0 0.6rem; color: #303A43;}
- .latest-row {
-  display: block !important;
-  width: 100% !important;
-  max-width: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  overflow: visible !important;
-  box-sizing: border-box !important;
-}
-.latest-card {
-  display: block !important;
-  width: 100% !important;
-  max-width: none !important;
-  box-sizing: border-box !important;
-  margin: 0 !important;
-}
   .latest-card {
-    flex: 0 0 auto; width: 300px; background: var(--panel-raised); scroll-snap-align: start;
+    background: var(--panel-raised);
     border: 1px solid var(--line); border-top: 3px solid var(--dot, var(--line));border-radius: 16px;box-shadow: 0 8px 24px rgba(23, 33, 43, 0.10);
     padding: 0.9rem 1.1rem; text-decoration: none; color: var(--text);transition: transform 180ms ease, box-shadow 180ms ease;
   }
@@ -761,7 +745,6 @@ body {
 }
 
 .latest-card {
-  width: 300px;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 12px;
@@ -1358,20 +1341,8 @@ main {
   letter-spacing: -0.2px;
 }
 
-.latest-row {
-  display: flex;
-  gap: 12px;
-  overflow-x: auto;
-  padding-bottom: 6px;
-}
-
 .latest-card {
-  flex: 0 0 280px;
-  width: 280px;
-  min-height: 100px;
-
   padding: 14px 16px;
-
   border-radius: 10px;
   box-shadow: none;
 }
@@ -1381,12 +1352,7 @@ main {
   transform: none;
 }
 
-@media (max-width: 800px) {
-  .latest-card {
-    flex-basis: 240px;
-    width: 240px;
-  }
-}
+
 /* =========================================================
    CATEGORY COLORS
    ========================================================= */
@@ -2232,24 +2198,9 @@ letter-spacing: -0.15px !important;
   color: #202124 !important;
 }
 
-.latest-row {
-  display: flex !important;
-  gap: 12px !important;
-
-  overflow-x: auto !important;
-
-  padding-bottom: 6px !important;
-}
-
 .latest-card {
-  flex: 0 0 280px !important;
-  width: 280px !important;
-  min-height: 100px !important;
-
   padding: 14px 16px !important;
-
   border-radius: 10px !important;
-
   box-shadow: none !important;
 }
 
@@ -2318,12 +2269,6 @@ main {
 
 .latest-row {
   width: 100% !important;
-}
-
-.latest-card {
-  flex: 1 1 0 !important;
-  width: auto !important;
-  min-width: 0 !important;
 }
 /* ALIGN LATEST WITH MAIN FEED */
 
@@ -2395,11 +2340,6 @@ main {
 }
 
 .latest-card {
-  display: block !important;
-  flex: 0 0 190px !important;
-  width: 190px !important;
-  min-width: 190px !important;
-  max-width: 190px !important;
   box-sizing: border-box !important;
   margin: 0 !important;
   padding: 13px !important;
@@ -2408,7 +2348,6 @@ main {
   border-top: 3px solid var(--dot, #438BFA) !important;
   border-radius: 12px !important;
   box-shadow: 0 3px 12px rgba(20, 41, 75, 0.05) !important;
-  scroll-snap-align: start;
 }
 /* TWO-COLUMN NEWS CARDS */
 
@@ -3930,7 +3869,7 @@ html[data-theme] .latest-card:hover {
 .latest {
   --latest-per-view: 6;
   --latest-gap: 8px;
-  --latest-nav-size: 28px;
+  --latest-nav-size: 36px;
 }
 
 .latest-label {
@@ -3944,31 +3883,7 @@ html[data-theme] .latest-card:hover {
   margin: 0 !important;
 }
 
-.latest-row {
-  gap: var(--latest-gap) !important;
-  overflow-x: auto !important;
-  overflow-y: hidden !important;
-  scroll-snap-type: x mandatory !important;
-}
-
-.latest-card {
-  flex: 0 0 calc((100% - (var(--latest-per-view) - 1) * var(--latest-gap)) / var(--latest-per-view)) !important;
-  width: calc((100% - (var(--latest-per-view) - 1) * var(--latest-gap)) / var(--latest-per-view)) !important;
-  min-width: 0 !important;
-  max-width: none !important;
-  scroll-snap-align: start !important;
-}
-
-/* Titles stay readable: four wrapped lines, ellipsis only when a headline
-   still overflows, so short headlines are never cut and long ones cannot
-   stretch the carousel. */
-.latest-card h3 {
-  display: -webkit-box !important;
-  -webkit-box-orient: vertical !important;
-  -webkit-line-clamp: 4 !important;
-  line-clamp: 4 !important;
-  overflow: hidden !important;
-}
+/* Card width, snap, and the three-line clamp live in the last sheet. */
 
 .latest-nav {
   display: flex;
@@ -3990,14 +3905,14 @@ html[data-theme] .latest-card:hover {
   border: 1px solid var(--line);
   border-radius: 50%;
   background: var(--panel-raised);
-  color: var(--text-muted);
+  color: var(--text);
   font: inherit;
   transition: background 120ms ease, color 120ms ease, opacity 120ms ease;
 }
 
 .latest-nav-btn svg {
-  width: 14px;
-  height: 14px;
+  width: 18px;
+  height: 18px;
   display: block;
 }
 
@@ -4014,6 +3929,7 @@ html[data-theme] .latest-card:hover {
 
 .latest-nav-btn:disabled {
   opacity: 0.35;
+  color: var(--text-muted);
   cursor: default;
 }
 
@@ -7921,5 +7837,103 @@ main .grid,
     font-size: 1.15rem !important;
     line-height: 1.32 !important;
     font-weight: 650 !important;
+  }
+}
+/*__SHEET_BREAK__*/
+
+/* Latest Stories. This is the only block that sets the row and card size.
+   Earlier .latest-row / .latest-card copies keep color and radius only. */
+#latestRow.latest-row {
+  display: flex !important;
+  align-items: stretch !important;
+  gap: 8px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 2px 0 0 !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-snap-type: x mandatory !important;
+  scrollbar-width: none !important;
+  box-sizing: border-box !important;
+}
+#latestRow.latest-row::-webkit-scrollbar {
+  display: none;
+  height: 0;
+}
+
+#latestRow .latest-card {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 0 0 230px !important;
+  width: 230px !important;
+  min-width: 230px !important;
+  max-width: 230px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0.9rem 1.1rem !important;
+  box-sizing: border-box !important;
+  scroll-snap-align: start !important;
+  text-decoration: none !important;
+}
+
+#latestRow .latest-card h3 {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 3 !important;
+  line-clamp: 3 !important;
+  overflow: hidden !important;
+  min-height: calc(1.4em * 3) !important;
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.latest-progress {
+  display: block !important;
+  height: 3px;
+  margin: 8px 0 2px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+#latestProgressBar {
+  display: block;
+  height: 100%;
+  width: 0;
+  margin-left: 0;
+  background: var(--text);
+  border-radius: inherit;
+  opacity: 0.55;
+}
+
+.latest-nav-btn {
+  width: 36px !important;
+  height: 36px !important;
+  color: var(--text) !important;
+  background: var(--panel-raised) !important;
+  border-color: var(--line) !important;
+}
+.latest-nav-btn svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+.latest-nav-btn:disabled {
+  opacity: 0.35 !important;
+  color: var(--text-muted) !important;
+}
+
+@media (max-width: 800px) {
+  .latest-nav { display: none !important; }
+}
+
+@media (max-width: 640px) {
+  #latestRow.latest-row {
+    overscroll-behavior-x: contain !important;
+  }
+  #latestRow .latest-card {
+    flex: 0 0 78vw !important;
+    width: 78vw !important;
+    min-width: 0 !important;
+    max-width: calc(100% - 40px) !important;
   }
 }

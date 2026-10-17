@@ -479,6 +479,37 @@ initAuth();
   function escapeAttr(str = '') {
     return str.replace(/"/g, '&quot;');
   }
+  // Cached JSON can still hold &#8217; or &amp;. Decode first, then escape,
+  // so the character shows and markup in the feed cannot run.
+  function decodeEntities(value = '') {
+    const named = {
+      amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+      hellip: '…', mdash: '—', ndash: '–', rsquo: '\u2019', lsquo: '\u2018',
+      rdquo: '\u201d', ldquo: '\u201c',
+    };
+    let text = String(value ?? '');
+    for (let pass = 0; pass < 3; pass += 1) {
+      const next = text.replace(/&(#x[0-9a-f]+|#\d+|[a-z][a-z0-9]+);/gi, (entity, body) => {
+        if (body.charAt(0) !== '#') {
+          const decoded = named[body.toLowerCase()];
+          return decoded === undefined ? entity : decoded;
+        }
+        const hex = body.charAt(1) === 'x' || body.charAt(1) === 'X';
+        const code = parseInt(body.slice(hex ? 2 : 1), hex ? 16 : 10);
+        if (!Number.isFinite(code) || code < 0 || code > 0x10FFFF || (code >= 0xD800 && code <= 0xDFFF)) return entity;
+        return String.fromCodePoint(code);
+      });
+      if (next === text) break;
+      text = next;
+    }
+    return text;
+  }
+  function textHtml(value = '') {
+    return escapeHtml(decodeEntities(value));
+  }
+  function textAttr(value = '') {
+    return escapeAttr(decodeEntities(value));
+  }
   function withinDateFilter(iso, filter) {
     if (filter === 'all' || !iso) return true;
     const ageMs = Date.now() - new Date(iso).getTime();
@@ -722,7 +753,7 @@ initAuth();
   }
 
   function sourceLine(item) {
-    const name = item && item.source ? `<span class="source-name">${escapeHtml(item.source)}</span>` : '';
+    const name = item && item.source ? `<span class="source-name">${textHtml(item.source)}</span>` : '';
     return `<div class="source-line">${sourceMark(item)}${name}</div>`;
   }
 
@@ -732,7 +763,7 @@ initAuth();
     const cat = catLabel(item.category);
     const source = (item && item.source) || '';
     const hasExtra = Boolean(when || author);
-    return `<div class="card-meta${hasExtra ? ' has-extra' : ''}"><span class="cat-label">${escapeHtml(cat)}</span><span class="meta-source visually-hidden" aria-hidden="true">${escapeHtml(source)}</span>${when ? `<span class="meta-time">${escapeHtml(when)}</span>` : ''}${author ? `<span class="meta-author">${escapeHtml(author)}</span>` : ''}</div>`;
+    return `<div class="card-meta${hasExtra ? ' has-extra' : ''}"><span class="cat-label">${escapeHtml(cat)}</span><span class="meta-source visually-hidden" aria-hidden="true">${textHtml(source)}</span>${when ? `<span class="meta-time">${escapeHtml(when)}</span>` : ''}${author ? `<span class="meta-author">${escapeHtml(author)}</span>` : ''}</div>`;
   }
 
   function pickThumb(item) {
@@ -797,12 +828,15 @@ initAuth();
     if (latestCountEl) {
       latestCountEl.textContent = latest.length === 1 ? t('newestOne') : t('newestMany', { n: latest.length });
     }
-    latestRowEl.innerHTML = latest.map((item) => `
-      <a class="latest-card ${item.category}" href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(item.title)}">
-        <div class="cat">${catLabel(item.category)} · ${timeAgo(item.published)}</div>
-        <h3>${escapeHtml(item.title)}</h3>
+    latestRowEl.innerHTML = latest.map((item) => {
+      const sourceName = (item.source && String(item.source).trim()) || catLabel(item.category);
+      return `
+      <a class="latest-card ${item.category}" href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">
+        <div class="cat">${textHtml(sourceName)} · ${timeAgo(item.published)}</div>
+        <h3>${textHtml(item.title)}</h3>
       </a>
-    `).join('');
+    `;
+    }).join('');
     syncLatestNav();
   }
 
@@ -813,6 +847,14 @@ initAuth();
     const max = latestRowEl.scrollWidth - latestRowEl.clientWidth;
     latestPrevEl.disabled = latestRowEl.scrollLeft <= 1;
     latestNextEl.disabled = max <= 1 || latestRowEl.scrollLeft >= max - 1;
+    const bar = document.getElementById('latestProgressBar');
+    if (!bar) return;
+    const total = latestRowEl.scrollWidth;
+    const view = latestRowEl.clientWidth;
+    const thumb = total > 0 ? Math.min(100, Math.max(8, (view / total) * 100)) : 100;
+    const ratio = max <= 1 ? 0 : Math.min(1, Math.max(0, latestRowEl.scrollLeft / max));
+    bar.style.width = `${thumb}%`;
+    bar.style.marginLeft = `${ratio * (100 - thumb)}%`;
   }
 
   function scrollLatest(dir) {
@@ -1161,11 +1203,11 @@ initAuth();
         <a class="hero-media" href="${escapeAttr(lead.link)}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">${cardImage(lead, 'hero', 640, 248)}</a>
         <div class="story-copy hero-copy">
           ${sourceLine(lead)}
-          <h2><a href="${escapeAttr(lead.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(lead.title)}">${escapeHtml(lead.title)}</a></h2>
+          <h2><a href="${escapeAttr(lead.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(lead.title)}">${textHtml(lead.title)}</a></h2>
           ${cardMeta(lead)}
           ${leadFields.chips.length ? `<div class="card-chips">${leadFields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
-          ${lead.summary ? `<p class="hero-dek">${escapeHtml(lead.summary)}</p>` : ''}
-          ${lead.whyItMatters ? `<div class="why"><b>${escapeHtml(t('whyItMatters'))}</b>${escapeHtml(lead.whyItMatters)}</div>` : ''}
+          ${lead.summary ? `<p class="hero-dek">${textHtml(lead.summary)}</p>` : ''}
+          ${lead.whyItMatters ? `<div class="why"><b>${escapeHtml(t('whyItMatters'))}</b>${textHtml(lead.whyItMatters)}</div>` : ''}
           ${cardActions(lead, leadFields.saved, leadFields.note)}
         </div>
       </article>`;
@@ -1176,7 +1218,7 @@ initAuth();
       <article class="card follow-card ${item.category}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
           ${sourceLine(item)}
-          <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(item.title)}">${escapeHtml(item.title)}</a></h2>
+          <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
@@ -1190,10 +1232,10 @@ initAuth();
       <article class="card story-row ${item.category}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
           ${sourceLine(item)}
-          <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(item.title)}">${escapeHtml(item.title)}</a></h2>
+          <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
-          ${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ''}
+          ${item.summary ? `<p>${textHtml(item.summary)}</p>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
         ${storyThumb(item, 96, 96)}
@@ -1272,7 +1314,7 @@ initAuth();
       <article class="card pick-card ${item.category}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
           ${sourceLine(item)}
-          <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${escapeAttr(item.title)}">${escapeHtml(item.title)}</a></h2>
+          <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}

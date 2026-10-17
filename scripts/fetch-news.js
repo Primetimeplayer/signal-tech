@@ -7,6 +7,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { excerpt } from './lib/excerpt.js';
+import { decodeEntities } from './lib/decode-entities.js';
 import { storyImage } from './lib/story-image.js';
 import { applyLocaleParams } from './lib/news-locale.js';
 import { splitGoogleTitle } from './lib/parse-google-news.js';
@@ -137,7 +138,7 @@ async function fetchFeed(feed, parseFeed) {
       return {
         source: headline.source,
         category: feed.category,
-        title: headline.title,
+        title: decodeEntities(headline.title),
         link: item.link,
         published: item.pubDate ?? item.isoDate ?? null,
         summary,

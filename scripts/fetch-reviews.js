@@ -7,6 +7,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { excerpt } from './lib/excerpt.js';
+import { decodeEntities } from './lib/decode-entities.js';
 import { storyImage } from './lib/story-image.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -48,7 +49,7 @@ async function fetchFeed(feed, parseFeed) {
       const image = storyImage(item);
       return {
         source: feed.name,
-        title: item.title?.trim() ?? '(untitled)',
+        title: decodeEntities(item.title?.trim() ?? '(untitled)'),
         link: item.link,
         published: item.pubDate ?? item.isoDate ?? null,
         summary: cleanSummary(item.contentSnippet ?? item.content ?? ''),

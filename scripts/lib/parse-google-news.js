@@ -3,18 +3,13 @@
 // rss-parser, then uses splitGoogleTitle for the publisher suffix.
 
 import { excerpt } from './excerpt.js';
+import { decodeEntities } from './decode-entities.js';
 
 const ITEM_LIMIT = 20;
 
 function decodeXml(value) {
-  return String(value || '')
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;|&apos;/g, "'")
-    .replace(/&amp;/g, '&')
-    .trim();
+  const unwrapped = String(value || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+  return decodeEntities(unwrapped).trim();
 }
 
 function tagText(block, tag) {
