@@ -1,7 +1,7 @@
 /* Signal Tech service worker.
    Paths are relative to the registration scope so the same file works at
    /signal-tech/ on GitHub Pages and at / when served locally. */
-const VERSION = 'signal-tech-v1';
+const VERSION = 'signal-tech-v2';
 const CACHE = VERSION;
 const IMAGE_CACHE = VERSION + '-images';
 const IMAGE_LIMIT = 60;
@@ -24,7 +24,9 @@ const SHELL = [
   './recent-items.js',
   './feed-cache.js',
   './site.webmanifest',
+  './assets/favicon.ico',
   './assets/favicon.svg',
+  './assets/favicon-16x16.png',
   './assets/favicon-32x32.png',
   './assets/apple-touch-icon.png',
   './assets/icon-192.png',
