@@ -1,7 +1,114 @@
 {
-  "updated": "2026-10-16T18:17:33.066Z",
-  "count": 94,
+  "updated": "2026-10-17T00:14:57.725Z",
+  "count": 92,
   "items": [
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood",
+      "link": "https://www.pcgamer.com/software/ai/tech-founder-vibe-codes-game-about-shooting-zombies-in-san-franciscos-poorest-neighborhood/",
+      "published": "Fri, 16 Oct 2026 23:53:11 +0000",
+      "summary": "City residents and leaders denounced the free web game, which was taken down.",
+      "image": "https://cdn.mos.cms.futurecdn.net/p9AmuwXbiHB432WuTdwcNi-1920-80.webp"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "All the news about the iPhone Duo",
+      "link": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
+      "published": "2026-10-16T23:36:26.000Z",
+      "summary": "Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
+      "link": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
+      "published": "2026-10-16T22:51:22.000Z",
+      "summary": "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK419_DEEPFAKE_3_CVIRGINIA_B.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "published": "Fri, 16 Oct 2026 21:22:28 +0000",
+      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "published": "Fri, 16 Oct 2026 20:59:01 +0000",
+      "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
+      "link": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
+      "published": "2026-10-16T20:49:04.000Z",
+      "summary": "After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that \"Despite its name, full self-driving is not fully autonomous. Technology does not relieve…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-16-at-4.42.00-PM.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Benchmarked: Nvidia's RTX Spark notebook delivers serious local AI compute, at a price",
+      "link": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
+      "published": "Fri, 16 Oct 2026 22:31:00 +0200",
+      "summary": "El Reg digs its claws into HP's N1X-powered OmniBook Ultra 16",
+      "image": "https://image.theregister.com/?imageId=5303643&width=800"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+      "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+      "published": "Fri, 16 Oct 2026 20:20:07 +0000",
+      "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Node.js creator ditches Deno to work on open source Cloudflare Workers",
+      "link": "https://www.theregister.com/devops/2026/10/16/nodejs-creator-ditches-deno-to-work-on-open-source-cloudflare-workers/5303662",
+      "published": "Fri, 16 Oct 2026 22:20:05 +0200",
+      "summary": "You're building servers 'wrong,' says Ryan Dahl as Cloudflare gobbles his Deno startup",
+      "image": "https://image.theregister.com/?imageId=5303681&width=800"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
+      "link": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
+      "published": "Fri, 16 Oct 2026 20:14:39 +0000",
+      "summary": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/steve-cash-photo.jpg?w=1638"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Katie Zacharia Was Linked to an AI Rare-Earths Startup. It’s Even Weirder Than It Sounds",
+      "link": "https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/",
+      "published": "Fri, 16 Oct 2026 20:05:08 +0000",
+      "summary": "The short-lived White House press secretary was listed as an adviser to a Kristi Noem–linked company that aims to use AI for mining. Both the company and she say she never worked there.",
+      "image": "https://media.wired.com/photos/6ad24f19ed303ecbe8441980/master/pass/GettyImages-2299989251.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
+      "link": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
+      "published": "Fri, 16 Oct 2026 19:41:18 +0000",
+      "summary": "There are still significant hurdles ahead, both technical and legislative.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Torres-headshot-1152x648.jpg"
+    },
     {
       "source": "IEEE Spectrum",
       "category": "news",
@@ -53,6 +160,15 @@
       "published": "Fri, 16 Oct 2026 16:30:00 +0000",
       "summary": "Chinese startup Langdao Silex showcased its laser-produced plasma EUV source at a trade show, but the technology will likely take many years before it gets to decent EUV power levels. Even if it does, China will need many more advancements…",
       "image": "https://cdn.mos.cms.futurecdn.net/JLwxTcuunemSTSeX5zy2bS-1920-80.jpg"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Artemis II Heat Shield After Splashdown",
+      "link": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+      "published": "Fri, 16 Oct 2026 16:28:01 +0000",
+      "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048"
     },
     {
       "source": "Tom's Hardware",
@@ -169,6 +285,15 @@
       "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\""
     },
     {
+      "source": "NASA",
+      "category": "news",
+      "title": "I Am Artemis: Allison Mjoen",
+      "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
+      "published": "Fri, 16 Oct 2026 14:24:29 +0000",
+      "summary": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0029.jpg?w=1025"
+    },
+    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Tesla turns to 50-year-old stunt technology as it tries to Roadster again",
@@ -176,15 +301,6 @@
       "published": "Fri, 16 Oct 2026 14:03:25 +0000",
       "summary": "If you want to make a car spin in the air, compressed gas is a good way to do it.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Roadster_87-1152x648.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Meta’s new terms may allow it to train AI on news sites for free",
-      "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-      "published": "2026-10-16T14:02:40.000Z",
-      "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "TechCrunch",
@@ -202,24 +318,6 @@
       "published": "Fri, 16 Oct 2026 13:51:32 +0000",
       "summary": "New York joins Pennsylvania in protecting gamers' rights to own games, requiring publishers to provide an offline mode and the right to transfer games.",
       "image": "https://cdn.mos.cms.futurecdn.net/mKeveqd9S8n3CfPhhZqGcc-1920-80.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "This stretchy MagSafe storage pouch gives your phone a sizable trunk",
-      "link": "https://www.theverge.com/tech/1012828/ninja-labs-magsafe-flex-pouch-silicone-smartphone-storage",
-      "published": "2026-10-16T13:33:21.000Z",
-      "summary": "There's a new storage upgrade option for smartphones compatible with wireless chargers and other magnetic accessories, but it won't help if you've run out of room for apps, pics, and videos. The MagSafe Flex Pouch looks like a magnetic…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/pouch.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "iPhone Duo orders are already delayed into 2027",
-      "link": "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay",
-      "published": "2026-10-16T13:10:11.000Z",
-      "summary": "Delivery estimates for the iPhone Duo slipped into next year in less than an hour after Apple opened preorders for it at 8AM ET on Friday. At the time of writing we are seeing late January delivery dates for every configuration on Apple's…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/apple-event-september-2026-452-10-57-30.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "Wired",
@@ -248,13 +346,13 @@
       "image": "https://image.theregister.com/?imageId=5303558&width=800"
     },
     {
-      "source": "The Verge",
+      "source": "NASA",
       "category": "news",
-      "title": "The Sony Xperia 10 VI won’t be getting a promised update to Android 17",
-      "link": "https://www.theverge.com/tech/1012789/sony-xperia-10-vi-smartphone-android-17-update-security",
-      "published": "2026-10-16T12:36:11.000Z",
-      "summary": "When the midrange Sony Xperia 10 VI was announced over two years ago with a Qualcomm Snapdragon 6 Gen 1 chipset and Android 14, Sony promised three major OS updates which would have included this year's Android 17 release. However…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/sonyxperia.jpg?quality=90&strip=all&crop=0,0,100,100"
+      "title": "NASA’s Hubble Spies Spiral’s Edge",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+      "published": "Fri, 16 Oct 2026 12:42:08 +0000",
+      "summary": "This NASA Hubble Space Telescope image features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove.",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1827_1_flat_FINAL.jpg?w=2048&h=1986&fit=clip&crop=faces%2Cfocalpoint"
     },
     {
       "source": "Tom's Hardware",
@@ -311,15 +409,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/qhFNtNzaxiGbQf5kWFYMhf-1920-80.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Capita set to miss legal deadline on 93,000 civil servants' pension fixes, claims union",
-      "link": "https://www.theregister.com/public-sector/2026/10/16/capita-set-to-miss-legal-deadline-on-93000-civil-servants-pension-fixes-claims-union/5303500",
-      "published": "Fri, 16 Oct 2026 13:51:39 +0200",
-      "summary": "PCS says outsourcer still stuck in design phase while retirees wait for McCloud corrections",
-      "image": "https://image.theregister.com/?imageId=256268&width=800"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Epic introduces an improved version of anti-cheat for Linux",
@@ -365,15 +454,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/aRmuneCkQLMQZfYejmFp7o-1920-80.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Microsoft bringing Defender to Linux desktops. Repeat: Microsoft bringing Defender to Linux desktops",
-      "link": "https://www.theregister.com/os-platforms/2026/10/16/microsoft-bringing-defender-to-linux-desktops-repeat-microsoft-bringing-defender-to-linux-desktops/5303477",
-      "published": "Fri, 16 Oct 2026 12:43:21 +0200",
-      "summary": "The year of Corporate Compliance on the Linux desktop is here",
-      "image": "https://image.theregister.com/?imageId=235221&width=800"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "The Best Digital Wall Calendar (2026): Skylight, Everblog, Greenlight",
@@ -381,15 +461,6 @@
       "published": "Fri, 16 Oct 2026 10:32:00 +0000",
       "summary": "What originally looked like clutter turned out to be my new favorite gadget for organizing my family’s life.",
       "image": "https://media.wired.com/photos/6ad0ff23409b08718ac6fdb4/master/pass/Are%20Digital%20Wall%20Calendars%20Worth%20It%20(Update)%20102026%20top%20art%20SOURCE%20Amazon-Skylight.jpg"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "New fear dropped: Amazon scammer seems to have delidded an $889 AMD chip, transplanted it on old Intel chip, and got it through return inspection",
-      "link": "https://www.pcgamer.com/hardware/processors/new-fear-dropped-amazon-scammer-seems-to-have-delidded-an-usd889-amd-chip-transplanted-it-on-old-intel-chip-and-got-it-through-return-inspection/",
-      "published": "Fri, 16 Oct 2026 10:30:59 +0000",
-      "summary": "The AMD Ryzen 9 9950X3D2 is not a cheap chip.",
-      "image": "https://cdn.mos.cms.futurecdn.net/sCFU4JewLjYATBtGnTKmBZ-1920-80.jpg"
     },
     {
       "source": "Ars Technica",
@@ -401,30 +472,12 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Blue-Origin-Upper-Stage-Facility-Still-Render-1152x648.png"
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Googlebook review: Android on a laptop is still Android",
-      "link": "https://arstechnica.com/reviews/2026/10/googlebook-review-android-on-a-laptop-is-still-android/",
-      "published": "Fri, 16 Oct 2026 10:00:32 +0000",
-      "summary": "Android laptops are here, but Google has a lot of work ahead to make them good.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Googlebooks-1-1152x648.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-      "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-      "published": "Fri, 16 Oct 2026 12:00:00 +0200",
-      "summary": "Core devs revert up to 10 features, push release to November, and blame better tooling rather than vibe coding",
-      "image": "https://image.theregister.com/?imageId=228745&width=800"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "This implant can restore sight for patients with macular degeneration",
       "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
       "published": "Fri, 16 Oct 2026 09:00:00 +0000",
-      "summary": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the…",
+      "summary": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/ND26-dl_mapped.png?w=840"
     },
     {
@@ -436,28 +489,12 @@
       "summary": "I don’t remember much about Peppy, my first and only pet cat. I can conjure the sensation of stroking her while she purred, recall how she used to get stuck in trees (just like in cartoons!), and chuckle about the time she pooed in my baby…"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
-      "link": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
-      "published": "Fri, 16 Oct 2026 05:16:46 +0000",
-      "summary": "Benchmark says the Valley’s rule against backing rivals is getting harder to keep."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "APOD: 2026 October 16 – Chasing the International Space Station",
       "link": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
       "published": "Fri, 16 Oct 2026 04:05:00 +0000",
       "summary": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
-      "link": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
-      "published": "Fri, 16 Oct 2026 01:17:43 +0000",
-      "summary": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas."
     },
     {
       "source": "SpaceNews",
@@ -467,15 +504,6 @@
       "published": "Thu, 15 Oct 2026 20:41:50 +0000",
       "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI to the GEOINT Mission appeared first on SpaceNews.",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500-scaled.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
-      "link": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
-      "published": "Thu, 15 Oct 2026 20:32:41 +0000",
-      "summary": "The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg"
     },
     {
       "source": "NASA",
@@ -531,23 +559,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Welcomes All Ages, Experience Levels for Space Apps Challenge",
-      "link": "https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/",
-      "published": "Thu, 15 Oct 2026 16:13:08 +0000",
-      "summary": "Registration is open for the 2026 NASA Space Apps Challenge, a two-day global event on Saturday, Nov. 14 and Sunday, Nov. 15, where teams work to create solutions inspired by NASA’s most ambitious exploration goals and making use of the…"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-      "link": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "published": "Thu, 15 Oct 2026 15:57:47 +0000",
-      "summary": "NASA has selected 12 U.S. institutions to receive $12 million to accelerate academic research and technology development in support of the agency’s priorities for exploring the Moon, Mars, and deep space. Through NASA’s Minority University…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2024/01/taking-in-the-view-surface-from-hls.webp?w=1280"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "How NASA is thinking about a moon base",
@@ -555,24 +566,6 @@
       "published": "Thu, 15 Oct 2026 15:14:24 +0000",
       "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
-      "published": "Thu, 15 Oct 2026 14:57:21 +0000",
-      "summary": "NASA’s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon’s surface. Additional engineering data analysis of the Orion spacecraft’s heat shield…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/combineda1anda2-heatshield4k.jpg?w=2048"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Chandra Finds Possible Origin of ‘Treble Clef’ Waves",
-      "link": "https://www.nasa.gov/image-article/chandra-finds-possible-origin-of-treble-clef-waves/",
-      "published": "Thu, 15 Oct 2026 14:19:06 +0000",
-      "summary": "A formation of radio waves looks remarkably like a treble clef in this Oct. 14, 2026, image from NASA’s Chandra X-Ray Observatory. Researchers used Chandra to find that the Treble Clef is likely caused by an outburst from a supermassive…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/trebleclef-lg.jpg?w=2048"
     },
     {
       "source": "MIT Technology Review",
@@ -782,15 +775,6 @@
       "published": "Mon, 05 Oct 2026 12:00:00 +0000",
       "summary": "DURANGO, Colo., Oct. 5, 2026 — Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His […] The post Agile Space…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/agile-space-industries-square-logo-scaled.png?fit=1024%2C1024&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "World Space Week 2026 Celebrates the “Rocket Revolution”",
-      "link": "https://spacenews.com/world-space-week-2026-celebrates-the-rocket-revolution/",
-      "published": "Thu, 01 Oct 2026 15:06:43 +0000",
-      "summary": "HOUSTON, Texas (September 30, 2026)— World Space Week events, beginning October 4 in 100 nations, will celebrate how launch innovation has stimulated the rapidly-growing space economy and enabled new uses […] The post World Space Week 2026…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/10/Copy-of-Copy-of-World-Space-Week-Association-01-1-scaled.png?fit=1024%2C1024&ssl=1"
     },
     {
       "source": "Krebs on Security",
