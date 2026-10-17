@@ -701,9 +701,10 @@ initAuth();
   }
 
   function resizedImage(url, width) {
-    const one = `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width}&output=webp`;
-    const two = `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width * 2}&output=webp`;
-    return { src: one, srcset: `${one} 1x, ${two} 2x` };
+    const one = `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width}&q=85&output=webp&we`;
+    const two = `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width * 2}&q=85&output=webp&we`;
+    const three = `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width * 3}&q=85&output=webp&we`;
+    return { src: one, srcset: `${one} 1x, ${two} 2x, ${three} 3x` };
   }
 
   function preloadHeroImage(url) {
@@ -727,7 +728,7 @@ initAuth();
     if (!url) return mediaPlaceholder(item, kind);
     const cls = kind === 'hero' ? 'hero-thumb' : kind === 'pick' ? 'pick-thumb' : 'story-thumb';
     const host = publisherHost(item && item.link);
-    // List thumbs request 80px (160px at 2x). The hero stays 800 / 1600.
+    // List thumbs request 80px (160px at 2x, 240px at 3x). The hero stays 800.
     const sized = resizedImage(url, kind === 'hero' ? 800 : 80);
     if (kind === 'hero' && heroLeadsViewport()) preloadHeroImage(url);
     const loading = kind === 'hero' ? 'eager' : 'lazy';

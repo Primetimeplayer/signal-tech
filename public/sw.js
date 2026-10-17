@@ -1,7 +1,7 @@
 /* Signal Tech service worker.
    Paths are relative to the registration scope so the same file works at
    /signal-tech/ on GitHub Pages and at / when served locally. */
-const VERSION = 'signal-tech-v4';
+const VERSION = 'signal-tech-v5';
 const CACHE = VERSION;
 const IMAGE_CACHE = VERSION + '-images';
 const IMAGE_LIMIT = 60;

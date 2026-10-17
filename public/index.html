@@ -159,13 +159,14 @@
         if (/^https?:\/\//i.test(candidate)) { raw = candidate; break; }
       }
       if (!raw || document.head.querySelector('link[data-hero-preload]')) return;
-      var one = 'https://wsrv.nl/?url=' + encodeURIComponent(raw) + '&w=800&output=webp';
-      var two = 'https://wsrv.nl/?url=' + encodeURIComponent(raw) + '&w=1600&output=webp';
+      var one = 'https://wsrv.nl/?url=' + encodeURIComponent(raw) + '&w=800&q=85&output=webp&we';
+      var two = 'https://wsrv.nl/?url=' + encodeURIComponent(raw) + '&w=1600&q=85&output=webp&we';
+      var three = 'https://wsrv.nl/?url=' + encodeURIComponent(raw) + '&w=2400&q=85&output=webp&we';
       var link = document.createElement('link');
       link.rel = 'preload';
       link.as = 'image';
       link.href = one;
-      link.setAttribute('imagesrcset', one + ' 1x, ' + two + ' 2x');
+      link.setAttribute('imagesrcset', one + ' 1x, ' + two + ' 2x, ' + three + ' 3x');
       link.setAttribute('fetchpriority', 'high');
       link.setAttribute('data-hero-preload', '1');
       document.head.appendChild(link);
