@@ -7824,3 +7824,102 @@ main .grid,
     display: none !important;
   }
 }
+/*__SHEET_BREAK__*/
+
+/* Main-feed wrappers are not a second panel. Picks cards already sit on the
+   page background; the briefing box and each lower section were still a
+   bordered, padded surface around the story cards. Cards keep their own
+   surface. Dark mode's panel fill is cleared at the same specificity. */
+:root #feed.grid,
+:root main .grid,
+:root #feed .feed-top,
+:root #feed .lower-feed,
+:root #feed .lower-section,
+:root #feed .lower-grid,
+:root #feed .briefing-col,
+:root #feed .briefing-card,
+:root #feed .briefing-fill,
+:root #feed .follow-ups,
+:root[data-theme="dark"] #feed.grid,
+:root[data-theme="dark"] main .grid,
+:root[data-theme="dark"] #feed .feed-top,
+:root[data-theme="dark"] #feed .lower-feed,
+:root[data-theme="dark"] #feed .lower-section,
+:root[data-theme="dark"] #feed .lower-grid,
+:root[data-theme="dark"] #feed .briefing-col,
+:root[data-theme="dark"] #feed .briefing-card,
+:root[data-theme="dark"] #feed .briefing-fill,
+:root[data-theme="dark"] #feed .follow-ups {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+:root #feed .lower-section,
+:root[data-theme="dark"] #feed .lower-section,
+:root #feed .briefing-card,
+:root[data-theme="dark"] #feed .briefing-card,
+:root #feed .briefing-fill,
+:root[data-theme="dark"] #feed .briefing-fill {
+  padding: 0 !important;
+}
+
+:root #feed .briefing-card:hover,
+:root[data-theme="dark"] #feed .briefing-card:hover {
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+@media (max-width: 800px) {
+  /* Match the cards under Picks: same padding, title size, and 72px image.
+     The hero keeps its own image and padding. Desktop story photos stay 96px. */
+  #feed .card.story-row,
+  #feed .gn-col > .card.story-row,
+  #feed .gn-col > .card.story-row:last-child,
+  #feed .briefing-fill > .card.story-row,
+  #feed .briefing-fill > .card.story-row:last-child,
+  #feed .gn-col > .card.story-row.is-hardware,
+  #feed .gn-col > .card.story-row.is-hardware:last-child,
+  #feed .briefing-fill > .card.story-row.is-hardware,
+  #feed .briefing-fill > .card.story-row.is-hardware:last-child,
+  body.feed-compact #feed .card.story-row,
+  body.feed-compact #feed .gn-col > .card.story-row,
+  body.feed-compact #feed .briefing-fill > .card.story-row,
+  #feed .card.follow-card,
+  #feed .card.follow-card.is-hardware,
+  body.feed-compact #feed .card.follow-card {
+    padding: 1.25rem 1.4rem 1.15rem !important;
+  }
+
+  #feed .card.story-row .story-thumb,
+  #feed .card.story-row .story-media,
+  #feed .gn-col > .card.story-row .story-thumb,
+  #feed .gn-col > .card.story-row .story-media,
+  #feed .briefing-fill > .card.story-row .story-thumb,
+  #feed .briefing-fill > .card.story-row .story-media {
+    width: 72px !important;
+    height: 72px !important;
+    min-width: 72px !important;
+    max-width: 72px !important;
+    min-height: 72px !important;
+    max-height: 72px !important;
+    flex: 0 0 72px !important;
+  }
+
+  #feed .card.story-row h2,
+  #feed .card.story-row h2 a,
+  #feed .gn-col > .card.story-row h2,
+  #feed .gn-col > .card.story-row h2 a,
+  #feed .briefing-fill > .card.story-row h2,
+  #feed .briefing-fill > .card.story-row h2 a,
+  #feed .card.follow-card h2,
+  #feed .card.follow-card h2 a {
+    font-size: 1.15rem !important;
+    line-height: 1.32 !important;
+    font-weight: 650 !important;
+  }
+}
