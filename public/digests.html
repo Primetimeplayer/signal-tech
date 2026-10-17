@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#ffffff">
-<meta name="theme-color" content="#202124" media="(prefers-color-scheme: dark)">
 <!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -76,7 +75,7 @@
 <link rel="manifest" href="site.webmanifest">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Signal Tech">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://lh3.googleusercontent.com">
@@ -1892,22 +1891,6 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
 @media (max-width: 640px) {
   .newsletter-row { flex-direction: column; }
   .newsletter-card button { width: 100%; }
-}
-.mast {
-  height: calc(64px + env(safe-area-inset-top)) !important;
-  padding-top: env(safe-area-inset-top) !important;
-  background: rgba(255, 255, 255, 0.8) !important;
-  -webkit-backdrop-filter: saturate(180%) blur(14px) !important;
-  backdrop-filter: saturate(180%) blur(14px) !important;
-}
-html[data-theme="dark"] .mast {
-  background: rgba(32, 33, 36, 0.8) !important;
-}
-footer {
-  padding-bottom: env(safe-area-inset-bottom);
-}
-.cookie-banner {
-  padding-bottom: calc(16px + env(safe-area-inset-bottom));
 }
 </style>
 <div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>

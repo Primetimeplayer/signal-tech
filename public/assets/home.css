@@ -8379,43 +8379,4 @@ main .grid,
   color: #8ab4f8;
 }
 
-/* Frosted sticky header. Earlier !important rules paint an opaque bar
-   and zero its padding; this block is last so it wins. Safe-area insets
-   are 0 outside a notched standalone window, so the bar stays put. */
-.mast {
-  position: sticky !important;
-  top: 0 !important;
-  z-index: 100 !important;
-  padding-top: env(safe-area-inset-top) !important;
-  background: rgba(255, 255, 255, 0.8) !important;
-  -webkit-backdrop-filter: saturate(180%) blur(14px) !important;
-  backdrop-filter: saturate(180%) blur(14px) !important;
-}
-html[data-theme="dark"] .mast,
-body.dark .mast {
-  background: rgba(41, 42, 45, 0.8) !important;
-}
-@media (min-width: 801px) {
-  .top-nav {
-    top: calc(64px + env(safe-area-inset-top));
-  }
-}
-/* overflow-x: hidden on body makes it the sticky containing block while
-   the document scrolls on html, so the mast scrolls away. Keep the
-   horizontal clip on html only. */
-html {
-  overflow-x: clip !important;
-  overflow-y: visible !important;
-}
-body {
-  overflow-x: visible !important;
-  overflow-y: visible !important;
-}
-footer {
-  padding-bottom: calc(32px + env(safe-area-inset-bottom)) !important;
-}
-.cookie-banner {
-  padding-bottom: calc(16px + env(safe-area-inset-bottom));
-}
-
 

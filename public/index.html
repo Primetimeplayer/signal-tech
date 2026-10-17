@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#ffffff">
-<meta name="theme-color" content="#292a2d" media="(prefers-color-scheme: dark)">
 <!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -83,7 +82,7 @@
 <link rel="manifest" href="site.webmanifest">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Signal Tech">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://wsrv.nl" crossorigin>
@@ -94,7 +93,7 @@
   :root{--accent:#1A73E8;--panel:#fff;--panel-raised:#fff;--text:#14294B;--text-muted:#5f6368;--line:#e5e7eb;--bg:#F3F8FC}
   html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,sans-serif}
   .wrap{box-sizing:border-box;width:100%;padding:0 24px}
-  .mast{position:sticky;top:0;z-index:100;padding-top:env(safe-area-inset-top);background:rgba(255,255,255,.8);-webkit-backdrop-filter:saturate(180%) blur(14px);backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid #dadce0}
+  .mast{background:#fff;border-bottom:1px solid #dadce0}
   .mast-row{display:flex;align-items:center;gap:16px;min-height:64px}
   .mast-right{display:flex;align-items:center;gap:8px;flex:0 0 auto}
   .wordmark{margin:0;color:#202124;font-weight:500;letter-spacing:-.03em;font-size:22px;white-space:nowrap}
@@ -119,7 +118,7 @@
   main .skeleton-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.25rem}
   .skeleton-card{min-height:220px;box-sizing:border-box;background:#f3f4f6;border-radius:16px}
   .skeleton-card:first-child{grid-column:span 2;min-height:400px}
-  .cookie-banner{position:fixed;z-index:800;left:16px;right:16px;bottom:16px;display:flex;align-items:center;justify-content:space-between;gap:16px 20px;width:min(760px,calc(100% - 32px));margin:0 auto;padding:16px 18px calc(16px + env(safe-area-inset-bottom));box-sizing:border-box;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 28px rgba(23,33,43,.14);font-family:Inter,ui-sans-serif,system-ui,sans-serif}
+  .cookie-banner{position:fixed;z-index:800;left:16px;right:16px;bottom:16px;display:flex;align-items:center;justify-content:space-between;gap:16px 20px;width:min(760px,calc(100% - 32px));margin:0 auto;padding:16px 18px;box-sizing:border-box;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 28px rgba(23,33,43,.14);font-family:Inter,ui-sans-serif,system-ui,sans-serif}
   .cookie-banner[hidden]{display:none !important}
   .cookie-banner p{margin:0}
   .cookie-banner-title{margin-bottom:4px;font-size:14px;font-weight:700;letter-spacing:-.01em}
