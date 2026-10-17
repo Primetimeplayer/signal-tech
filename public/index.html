@@ -77,6 +77,9 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="manifest" href="site.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Signal Tech">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://wsrv.nl" crossorigin>
@@ -312,7 +315,7 @@
     </button>
   </div>
 
-<div class="wrap latest-wrap">
+<div class="wrap latest-wrap" id="latest">
   <div class="latest" id="latestSection">
     <div class="latest-label">
   <h2 data-i18n="latestStories">Latest Stories</h2>
@@ -427,5 +430,12 @@
 </div>
 
 
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('./sw.js', { scope: './' });
+    });
+  }
+</script>
 </body>
 </html>

@@ -124,6 +124,8 @@
     langZh: 'Chinese',
     langIt: 'Italian',
     langNl: 'Dutch',
+    offlineMessage: "You're offline. Your saved stories are still here.",
+    offlineHome: 'Back to home',
   };
 
   const STRINGS = {
@@ -250,6 +252,8 @@
       langZh: 'Chino',
       langIt: 'Italiano',
       langNl: 'Neerlandés',
+      offlineMessage: 'Estás sin conexión. Tus historias guardadas siguen aquí.',
+      offlineHome: 'Volver al inicio',
     },
     fr: {
       searchPlaceholder: 'Rechercher des titres',
@@ -373,6 +377,8 @@
       langZh: 'Chinois',
       langIt: 'Italien',
       langNl: 'Néerlandais',
+      offlineMessage: 'Vous êtes hors ligne. Vos histoires enregistrées sont toujours ici.',
+      offlineHome: "Retour à l'accueil",
     },
     de: {
       searchPlaceholder: 'Schlagzeilen suchen',
@@ -496,6 +502,8 @@
       langZh: 'Chinesisch',
       langIt: 'Italienisch',
       langNl: 'Niederländisch',
+      offlineMessage: 'Du bist offline. Deine gespeicherten Geschichten sind noch hier.',
+      offlineHome: 'Zur Startseite',
     },
     ja: {
       searchPlaceholder: '見出しを検索',
@@ -619,6 +627,8 @@
       langZh: '中国語',
       langIt: 'イタリア語',
       langNl: 'オランダ語',
+      offlineMessage: 'オフラインです。保存したストーリーはまだここにあります。',
+      offlineHome: 'ホームに戻る',
     },
     'pt-BR': {
       searchPlaceholder: 'Buscar manchetes',
@@ -742,6 +752,8 @@
       langZh: 'Chinês',
       langIt: 'Italiano',
       langNl: 'Holandês',
+      offlineMessage: 'Você está offline. Suas histórias salvas ainda estão aqui.',
+      offlineHome: 'Voltar ao início',
     },
     hi: {
       searchPlaceholder: 'शीर्षक खोजें',
@@ -865,6 +877,8 @@
       langZh: 'चीनी',
       langIt: 'इतालवी',
       langNl: 'डच',
+      offlineMessage: 'आप ऑफ़लाइन हैं। आपकी सहेजी हुई कहानियाँ अभी भी यहाँ हैं।',
+      offlineHome: 'होम पर वापस जाएँ',
     },
     ko: {
       searchPlaceholder: '헤드라인 검색',
@@ -988,6 +1002,8 @@
       langZh: '중국어',
       langIt: '이탈리아어',
       langNl: '네덜란드어',
+      offlineMessage: '오프라인입니다. 저장한 스토리는 그대로 남아 있습니다.',
+      offlineHome: '홈으로 돌아가기',
     },
     'zh-CN': {
       searchPlaceholder: '搜索标题',
@@ -1111,6 +1127,8 @@
       langZh: '中文',
       langIt: '意大利语',
       langNl: '荷兰语',
+      offlineMessage: '你已离线。已保存的报道仍在这里。',
+      offlineHome: '返回首页',
     },
     it: {
       searchPlaceholder: 'Cerca titoli',
@@ -1234,6 +1252,8 @@
       langZh: 'Cinese',
       langIt: 'Italiano',
       langNl: 'Olandese',
+      offlineMessage: 'Sei offline. Le storie salvate sono ancora qui.',
+      offlineHome: 'Torna alla home',
     },
     nl: {
       searchPlaceholder: 'Koppen zoeken',
@@ -1357,6 +1377,8 @@
       langZh: 'Chinees',
       langIt: 'Italiaans',
       langNl: 'Nederlands',
+      offlineMessage: 'Je bent offline. Je opgeslagen verhalen staan hier nog.',
+      offlineHome: 'Terug naar home',
     },
   };
 
