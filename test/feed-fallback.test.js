@@ -359,31 +359,35 @@ test('missing and broken card images use a branded tile', async (t) => {
   assert.equal(pickFallback.dataset.category, 'news');
   assert.equal(pick.querySelector('.pick-thumb'), null);
 
-  const row = [...doc.querySelectorAll('#feed .story-row')].find((card) => card.textContent.includes('Giant'));
+  const row = [...doc.querySelectorAll('#feed .story-row, #feed .pick-card')].find((card) => card.textContent.includes('Giant'));
   assert.ok(row);
-  const rowImg = row.querySelector('.story-thumb');
-  if (rowImg) {
-    assert.equal(rowImg.getAttribute('onerror'), 'signalImageFallback(this)');
-    assert.equal(rowImg.getAttribute('referrerpolicy'), 'no-referrer');
-    assert.equal(rowImg.getAttribute('loading'), 'lazy');
-    assert.equal(rowImg.getAttribute('decoding'), 'async');
-    assert.equal(rowImg.getAttribute('width'), '96');
-    assert.equal(rowImg.getAttribute('height'), '72');
-    dom.window.signalImageFallback(rowImg);
-  }
-  const rowFallback = row.querySelector('.story-media.media-fallback');
+  const rowImg = row.querySelector('.story-thumb, .pick-thumb');
+  assert.ok(rowImg);
+  assert.equal(rowImg.getAttribute('onerror'), 'signalImageFallback(this)');
+  assert.equal(rowImg.getAttribute('referrerpolicy'), 'no-referrer');
+  assert.equal(rowImg.getAttribute('loading'), 'lazy');
+  assert.equal(rowImg.getAttribute('decoding'), 'async');
+  assert.equal(rowImg.getAttribute('width'), '96');
+  assert.equal(rowImg.getAttribute('height'), '72');
+  dom.window.signalImageFallback(rowImg);
+  const rowFallback = row.querySelector('.story-media.media-fallback, .pick-media.media-fallback');
   assert.ok(rowFallback);
   assert.equal(rowFallback.dataset.category, 'reviews');
   const rowMark = rowFallback.querySelector('.media-fallback-mark');
   assert.ok(rowMark);
   assert.equal(rowMark.getAttribute('referrerpolicy'), 'no-referrer');
   assert.match(rowMark.getAttribute('src'), /example\.test/);
+  assert.equal(row.querySelector('.story-thumb, .pick-thumb'), null);
 
   const omitted = [...doc.querySelectorAll('#feed .story-row')].find((card) => card.textContent.includes('Harbor'));
-  assert.ok(omitted.querySelector('.story-media.media-fallback.media-tile'));
-  assert.equal(omitted.querySelector('.media-tile-label').textContent, 'News');
-  assert.match(omitted.querySelector('.media-fallback-mark').getAttribute('src'), /example\.test/);
+  assert.ok(omitted);
   assert.equal(omitted.querySelector('.story-thumb'), null);
+  assert.equal(omitted.querySelector('.story-media'), null);
+  assert.equal(omitted.querySelector('.media-tile'), null);
+  assert.ok(omitted.querySelector('h2 a'));
+  for (const title of ['Alpha', 'Bravo', 'Cedar', 'Delta', 'Eagle', 'Frost', 'Harbor', 'Giant']) {
+    assert.ok([...doc.querySelectorAll('#feed h2 a')].some((card) => card.textContent === title), title);
+  }
 
   await waitFor(() => {
     const media = doc.querySelector('#feed .hero-media');

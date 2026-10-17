@@ -570,11 +570,12 @@ initAuth();
   }
 
   function sortItems(list) {
-    return list.slice().sort((a, b) => {
+    const byDate = list.slice().sort((a, b) => {
       const da = new Date(a.published || 0).getTime() || 0;
       const db = new Date(b.published || 0).getTime() || 0;
       return db - da;
     });
+    return withImageFirst(byDate);
   }
 
   // Contextual chips come only from fields the feed actually provides.
@@ -638,6 +639,19 @@ initAuth();
     return /^https?:\/\//i.test(url) ? url : '';
   }
 
+  // Pictured stories stay in their existing order, then stories with no
+  // picture. Nothing is removed. Latest, the hero, and the grid read this
+  // order so image-less Google News items do not fill those slots.
+  function withImageFirst(items) {
+    const pictured = [];
+    const textOnly = [];
+    (items || []).forEach((item) => {
+      if (storyImageUrl(item)) pictured.push(item);
+      else textOnly.push(item);
+    });
+    return pictured.concat(textOnly);
+  }
+
   function storyCategory(item) {
     const category = item && item.category;
     if (category === 'papers' || category === 'reviews' || category === 'reddit') return category;
@@ -650,8 +664,10 @@ initAuth();
     return `<img class="media-fallback-mark" alt="" width="28" height="28" loading="${loading}" decoding="async" referrerpolicy="no-referrer" src="${escapeAttr(src)}" onerror="this.hidden=true">`;
   }
 
-  // Stories with no photo get a brand-coloured tile: source favicon plus
-  // the category name. It is a deliberate stand-in, not a broken icon.
+  // The hero keeps a picture box, so a story with no photo gets a
+  // brand-coloured tile there: source favicon plus the category name.
+  // List cards omit the slot instead. A photo that fails to load still
+  // uses this tile from signalImageFallback.
   function mediaPlaceholder(item, kind) {
     const category = storyCategory(item);
     const host = publisherHost(item && item.link);
@@ -725,7 +741,7 @@ initAuth();
 
   function cardImage(item, kind, width, height) {
     const url = storyImageUrl(item);
-    if (!url) return mediaPlaceholder(item, kind);
+    if (!url) return kind === 'hero' ? mediaPlaceholder(item, kind) : '';
     const cls = kind === 'hero' ? 'hero-thumb' : kind === 'pick' ? 'pick-thumb' : 'story-thumb';
     const host = publisherHost(item && item.link);
     // List thumbs request 80px (160px at 2x, 240px at 3x). The hero stays 800.
@@ -1615,8 +1631,8 @@ initAuth();
 
   function composeFeed(localized, buckets) {
     const news = mergeNews(localized, buckets.news);
-    return dedupeByTitle([...news, ...buckets.papers, ...buckets.reviews, ...buckets.reddit]
-      .filter((item) => !isPromoItem(item)));
+    return withImageFirst(dedupeByTitle([...news, ...buckets.papers, ...buckets.reviews, ...buckets.reddit]
+      .filter((item) => !isPromoItem(item))));
   }
 
   function applyFeed(items, serial, savedAt, options = {}) {
@@ -1632,7 +1648,7 @@ initAuth();
     // that sit below those stories.
     const sameTop = options.quietSwap && paintedWithStatic && top && top === paintedTop && onScreen;
     if (!sameFeed && !sameTop) {
-      allItems = dedupeByTitle(items);
+      allItems = withImageFirst(dedupeByTitle(items));
       paintedSignature = signature;
       paintedTop = top;
       populateSources();
@@ -1738,7 +1754,8 @@ initAuth();
     if (!localized || !localized.length) return publisher;
     const seen = new Set(localized.map((item) => (item.title || '').toLowerCase().trim()).filter(Boolean));
     const rest = publisher.filter((item) => item.source !== 'Google News' && !seen.has((item.title || '').toLowerCase().trim()));
-    return [...localized, ...rest];
+    // Live items usually have no image and would otherwise lead the feed.
+    return withImageFirst([...localized, ...rest]);
   }
 
   async function loadJSON(file, category, mapFn) {
