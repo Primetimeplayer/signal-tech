@@ -1,7 +1,115 @@
 {
-  "updated": "2026-10-17T12:14:16.661Z",
-  "count": 89,
+  "updated": "2026-10-17T18:11:16.596Z",
+  "count": 86,
   "items": [
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "HyperX Cloud Alpha Air Review: Open-back and budget-friendly",
+      "link": "https://www.tomshardware.com/peripherals/gaming-headsets/hyperx-cloud-alpha-air-review",
+      "published": "Sat, 17 Oct 2026 15:40:00 +0000",
+      "summary": "The HyperX Cloud Alpha Air is the brand's first open-back gaming headset. It's lightweight and comfortable, and it sounds very good. But microphone pickup is low, and it doesn't seem to work with the brand's peripheral software (yet).",
+      "image": "https://cdn.mos.cms.futurecdn.net/vawnXZ8toNUPwKwGYDYpxh-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Quad 8-pin mod protects the $8,500 RTX 5090 you can’t replace from melting",
+      "link": "https://www.tomshardware.com/pc-components/gpus/quad-8-pin-mod-protects-the-usd8-500-rtx-5090-you-cant-replace-from-melting-modders-custom-power-solution-claims-to-fix-nvidia-16-pin-gpu-meltdowns",
+      "published": "Sat, 17 Oct 2026 15:20:00 +0000",
+      "summary": "Redditor showcases a new quad 8-pin power-conversion kit for the 16-pin power connector on Nvidia GeForce RTX graphics cards.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Jb5jmGv4igA8EhyHvpgbcV-1920-80.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "published": "2026-10-17T15:04:36.000Z",
+      "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_2_Meta.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update",
+      "link": "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale",
+      "published": "2026-10-17T15:00:00.000Z",
+      "summary": "Pikmin preparing to do battle with a Bulborb | Image: Nintendo If you’re wondering what video game to play this weekend, my colleague Sheena Vasani spotted a discounted Nintendo Switch title with instant digital delivery. Walmart has the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24018761/Nintendo_Direct_9.13.2022_60_17_screenshot.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nvidia reportedly insists the RTX 5090 isn't dead despite severe shortages and removed listings at multiple retailers",
+      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
+      "published": "Sat, 17 Oct 2026 14:38:18 +0000",
+      "summary": "Nvidia states that RTX 5090 isn't discontinued, only that supply is constrained — and yet the card is effectively gone from storefronts",
+      "image": "https://cdn.mos.cms.futurecdn.net/D2wF99DV4KRfYPYVeR3eWb-1920-80.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "SpaceX’s ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon",
+      "link": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
+      "published": "2026-10-17T14:00:00.000Z",
+      "summary": "Today, I’m talking with Walter Piecyk, a partner and analyst at LightShed Partners who covers tech, media, and telecom, about SpaceX’s recently announced plan to become a major wireless carrier. Last week, SpaceX agreed to buy a big chunk…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_SpaceX_Telecom.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Sandisk’s 512GB Switch 2-ready microSD Express card is a steal for $98 during sale",
+      "link": "https://www.tomshardware.com/pc-components/sandisks-512gb-switch-2-ready-microsd-express-card-is-a-steal-for-usd98-during-sale-rare-tech-deal-arrives-to-beat-the-storage-shortage",
+      "published": "Sat, 17 Oct 2026 13:39:06 +0000",
+      "summary": "Nintendo Switch 2 owners looking to download more games can take advantage of this deal on SanDisk’s officially licensed microSD Express card, which supports read speeds of up to 880 MB/s and offers 512GB of capacity.",
+      "image": "https://cdn.mos.cms.futurecdn.net/FU8d7YHmC7dfR8teRCJXrK-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+      "published": "Sat, 17 Oct 2026 13:21:20 +0000",
+      "summary": "HUMXN wants to pay for maintenance and repair services for homes in Minneapolis, Chicago, and Miami to gather data to train AI models and robots.",
+      "image": "https://cdn.mos.cms.futurecdn.net/neaZTrreV5EBmYCZpbZCoH-1920-80.png"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Websites are closing their doors to AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "published": "2026-10-17T13:00:00.000Z",
+      "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Bose’s new wired earbuds are simple in the best way",
+      "link": "https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review",
+      "published": "2026-10-17T13:00:00.000Z",
+      "summary": "Bose has me thinking I’m in my 20s again with its wired earbuds. After Apple courageously removed the headphone jack from the iPhone in 2016, most people switched to Bluetooth earbuds and never looked back. But their wired counterparts…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268806_Bose-Noise-Cancelling-Wired-Earbuds_1.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "This week on Tom's Hardware Premium: October 17, 2026",
+      "link": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-17-2026-packaging-roadmaps-chinese-dgx-spark-rival-emerges-and-digging-into-asmls-earnings",
+      "published": "Sat, 17 Oct 2026 13:00:00 +0000",
+      "summary": "This week, Tom's Hardware Premium subscribers can read our EMIB and Foveros roadmaps, the latest on Chinese competition in the local AI system space, and much more.",
+      "image": "https://cdn.mos.cms.futurecdn.net/GZMmaG88xhwUumeVf4ej55-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Taiwan targets illicit AI server exports to China with five-year prison terms",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid",
+      "published": "Sat, 17 Oct 2026 12:20:00 +0000",
+      "summary": "Taiwan is expanding the Foreign Trade Act to include AI servers and semiconductors in its list of controlled exports.",
+      "image": "https://cdn.mos.cms.futurecdn.net/7SnFY4DF33SPY5kRM8YR2e-1920-80.png"
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -75,15 +183,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/irSvo2gYDFsSuExgb6RG5X-1920-80.jpg"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "US Army to use 3D-printed rocket motors for low-cost cruise missiles",
-      "link": "https://www.tomshardware.com/3d-printing/us-army-to-use-3d-printed-rocket-motors-for-low-cost-cruise-missiles-additive-manufacturing-company-secures-deal-to-build-rocket-engines-for-the-arsenal-of-freedom",
-      "published": "Sat, 17 Oct 2026 10:30:00 +0000",
-      "summary": "X-Bow Systems has been tapped to 3D-print rocket motors for the U.S. Army's low-cost cruise missiles.",
-      "image": "https://cdn.mos.cms.futurecdn.net/xMSuicz7be2Tzn8jfHcNP4-1920-80.png"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
@@ -120,24 +219,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/p9AmuwXbiHB432WuTdwcNi-1920-80.webp"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "All the news about the iPhone Duo",
-      "link": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
-      "published": "2026-10-16T23:36:26.000Z",
-      "summary": "Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Apple’s updated App Store rules go after ‘nudify’ AI apps",
-      "link": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
-      "published": "2026-10-16T22:51:22.000Z",
-      "summary": "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK419_DEEPFAKE_3_CVIRGINIA_B.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Replit is no longer working with Anthropic, CEO says",
@@ -154,15 +235,6 @@
       "published": "Fri, 16 Oct 2026 20:59:01 +0000",
       "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
-      "link": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
-      "published": "2026-10-16T20:49:04.000Z",
-      "summary": "After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that \"Despite its name, full self-driving is not fully autonomous. Technology does not relieve…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-16-at-4.42.00-PM.png?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "The Register",
@@ -246,15 +318,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/india-cyber-attack.jpg?w=612"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "This could be your last chance to grab an RTX 5090",
-      "link": "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl",
-      "published": "Fri, 16 Oct 2026 17:04:44 +0000",
-      "summary": "With no new Nvidia 5090 GPU replacement anticipated before at least 2028, this could well be your last opportunity to get your hands on a very powerful GPU for gaming.",
-      "image": "https://cdn.mos.cms.futurecdn.net/D2wF99DV4KRfYPYVeR3eWb-1920-80.jpg"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
@@ -273,15 +336,6 @@
       "image": "https://media.wired.com/photos/6ad23b95526f09405ee8956f/master/pass/Razer%20Barracuda%20V2%20Pro%20Review%20102026%20top%20art%20SOURCE%20Amazon.jpg"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "China startup demoes prototype EUV light source",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/china-startup-demoes-prototype-euv-light-source-15w-of-output-power-and-90-percent-domestic-components-still-years-away-from-viability",
-      "published": "Fri, 16 Oct 2026 16:30:00 +0000",
-      "summary": "Chinese startup Langdao Silex showcased its laser-produced plasma EUV source at a trade show, but the technology will likely take many years before it gets to decent EUV power levels. Even if it does, China will need many more advancements…",
-      "image": "https://cdn.mos.cms.futurecdn.net/JLwxTcuunemSTSeX5zy2bS-1920-80.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "Artemis II Heat Shield After Splashdown",
@@ -289,15 +343,6 @@
       "published": "Fri, 16 Oct 2026 16:28:01 +0000",
       "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Gun-rights activist unveils world's first 'AI-made' 3D-printed firearm — .22 caliber handgun created by an 'AI that can generate guns' called GatGPT",
-      "link": "https://www.tomshardware.com/3d-printing/gun-rights-activist-unveils-worlds-first-ai-made-3d-printed-firearm-22-caliber-handgun-created-by-an-ai-that-can-generate-guns-called-gatgpt",
-      "published": "Fri, 16 Oct 2026 16:20:41 +0000",
-      "summary": "A gun rights activist has unveiled the world's first AI-made 3D printed firearm.",
-      "image": "https://cdn.mos.cms.futurecdn.net/kUvhWUvLbNDuQhdLqEFYuK-1920-80.jpg"
     },
     {
       "source": "The Register",
@@ -318,15 +363,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/image-1.png?resize=1200,675"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid'",
-      "link": "https://www.pcgamer.com/software/linux/linux-kernel-drops-ai-contribution-disclosure-rule-as-linus-torvalds-says-banning-the-tech-would-be-utterly-stupid/",
-      "published": "Fri, 16 Oct 2026 15:52:39 +0000",
-      "summary": "The key thing for Torvalds is that you understand the code you submit, not how you made it.",
-      "image": "https://cdn.mos.cms.futurecdn.net/WUmjVLTCTtBbGcj6CbFTVS-1920-80.jpg"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
@@ -334,15 +370,6 @@
       "published": "Fri, 16 Oct 2026 15:41:00 +0000",
       "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-1024x648.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Nvidia RTX Spark devices are now officially on sale, secure the Surface Laptop Ultra or other RTX Spark laptops here",
-      "link": "https://www.tomshardware.com/laptops/nvidia-rtx-spark-devices-are-now-officially-on-sale-secure-the-surface-laptop-ultra-or-other-rtx-spark-laptops-here-starting-at-usd2-599-where-to-buy-pricing-and-availability-revealed-on-several-models",
-      "published": "Fri, 16 Oct 2026 15:38:45 +0000",
-      "summary": "Orders are live on Nvidia RTX Spark laptops, including the Microsoft Surface Laptop Ultra and devices from HP, Lenovo, Asus, and Dell.",
-      "image": "https://cdn.mos.cms.futurecdn.net/mtGy596VfpgpD774y4AP9Y-1920-80.jpg"
     },
     {
       "source": "TechCrunch",
@@ -377,7 +404,8 @@
       "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
       "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
       "published": "Fri, 16 Oct 2026 14:26:51 +0000",
-      "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\""
+      "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55591094982_b63d06fba8_o.jpg?resize=1200,800"
     },
     {
       "source": "NASA",
@@ -398,23 +426,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Roadster_87-1152x648.jpg"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
-      "link": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
-      "published": "Fri, 16 Oct 2026 14:00:00 +0000",
-      "summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "New York rep announces game ownership bill that would require consumer ownership rather than sale of licenses",
-      "link": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
-      "published": "Fri, 16 Oct 2026 13:51:32 +0000",
-      "summary": "New York joins Pennsylvania in protecting gamers' rights to own games, requiring publishers to provide an offline mode and the right to transfer games.",
-      "image": "https://cdn.mos.cms.futurecdn.net/mKeveqd9S8n3CfPhhZqGcc-1920-80.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA’s Hubble Spies Spiral’s Edge",
@@ -422,15 +433,6 @@
       "published": "Fri, 16 Oct 2026 12:42:08 +0000",
       "summary": "This NASA Hubble Space Telescope image features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove.",
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1827_1_flat_FINAL.jpg?w=2048&h=1986&fit=clip&crop=faces%2Cfocalpoint"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Googlebooks are as poorly timed as Valve’s Steam Machine, and may suffer a similar fate",
-      "link": "https://www.tomshardware.com/laptops/googlebooks-are-as-poorly-timed-as-valves-steam-machine-and-may-suffer-a-similar-fate",
-      "published": "Fri, 16 Oct 2026 12:30:00 +0000",
-      "summary": "Google attempted to take its Chromebook platform upscale with Googlebooks. But the timing could not have been worse. Phone support at launch is extremely limited, and most people use Android phones and Chromebooks because they’re cheap.",
-      "image": "https://cdn.mos.cms.futurecdn.net/d9FqdWcJbbHePRhCjmgCPA-1920-80.png"
     },
     {
       "source": "MIT Technology Review",
@@ -449,24 +451,6 @@
       "published": "Fri, 16 Oct 2026 12:00:05 +0000",
       "summary": "Microsoft promises one machine for dev, AI, and gaming, and mostly gets there.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/MS_Surface_Laptop_Ultra_Feature-1152x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Rocket Report: FAA eyes more Starbase traffic; India's Skyroot snares US customer",
-      "link": "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer/",
-      "published": "Fri, 16 Oct 2026 11:00:53 +0000",
-      "summary": "The pioneering reusable upper stage for Stoke Space's Nova rocket ships out for testing.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/stoke1-1152x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Blue Origin is going all in on the New Glenn rocket",
-      "link": "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket/",
-      "published": "Fri, 16 Oct 2026 10:00:54 +0000",
-      "summary": "The infrastructure is designed to support multiple flights per week by the end of the decade.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Blue-Origin-Upper-Stage-Facility-Still-Render-1152x648.png"
     },
     {
       "source": "MIT Technology Review",
@@ -702,15 +686,6 @@
       "link": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
       "published": "Thu, 08 Oct 2026 17:02:52 +0000",
       "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "IEEE Report Predicts Tech That Will Transform Lives",
-      "link": "https://spectrum.ieee.org/ieee-report-predicts-tech",
-      "published": "Wed, 07 Oct 2026 18:00:02 +0000",
-      "summary": "By 2028, genetic engineering and gene therapy will be used frequently to treat a variety of diseases, thanks to advances in artificial intelligence, according to the recently released 2030 Technology Megatrends Report from IEEE. “We are…",
-      "image": "https://spectrum.ieee.org/media-library/line-drawing-of-an-ai-humanoid-surrounded-by-representations-of-biomedical-research-surveillance-and-pollution.jpg?id=68052574&width=980"
     },
     {
       "source": "GitHub Blog",
