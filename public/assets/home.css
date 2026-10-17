@@ -259,30 +259,11 @@
 border-radius: 16px;
 background: rgba(255, 255, 255, 0.35);
 backdrop-filter: blur(8px); }
-  select, .search-row {
+  select {
     font-family: 'Space Grotesk', sans-serif; font-size: 1rem; background: var(--input-bg);
     color: var(--text); border: 1px solid var(--line); border-radius: 14px; min-height: 48px; box-shadow: 0 8px 24px rgba(23, 33, 43, 0.12); transition: border-color 180ms ease, box-shadow 180ms ease;
   }
-
-  .search-row:focus-within {
-  border-color: var(--news);
-  box-shadow: 0 0 0 4px rgba(185, 116, 30, 0.10), 0 10px 28px rgba(23, 33, 43, 0.14);
-}
-
-.search-row:focus-within svg {
-  opacity: 1;
-  transform: scale(1.08) translateX(2px) rotate(-4deg);
-}
   select { padding: 0.7rem 1rem; cursor: pointer; }
-  .search-row { flex: 1; min-width: 220px; display: flex; align-items: center; padding: 0.15rem 0.35rem; }
-  .search-row svg {
-  margin: 0 0.6rem;
-  flex-shrink: 0;
-  opacity: 0.75;
-  transition: opacity 150ms ease, transform 150ms ease;
-}
-  #search { flex: 1; border: none; background: transparent; color: var(--text); font: inherit; padding: 0.65rem 0.35rem; outline: none; }
-  #search::placeholder { color: var(--text-muted); }
 
   .visually-hidden {
     position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
@@ -598,12 +579,6 @@ padding: 1.5rem; }
     outline: 2px solid var(--focus); outline-offset: 2px;
   }
 
-  /* --- Search hint --- */
-  .search-hint {
-    font-family: 'Space Grotesk', sans-serif; font-size: 0.7rem; color: var(--text-muted);
-    border: 1px solid var(--line); border-radius: 4px; padding: 0.1rem 0.35rem;
-    margin-right: 0.6rem; white-space: nowrap;
-  }
   @media (max-width: 700px) {
   .card:first-child {
     grid-column: span 1; .row2 {
@@ -611,9 +586,6 @@ padding: 1.5rem; }
   align-items: stretch;
 }
 
-.search-row {
-  width: 100%;
-}
   }
 }
 /* =========================================================
@@ -950,21 +922,14 @@ main {
   backdrop-filter: none;
 }
 
-select,
-.search-row {
+select {
   background: #fff;
   border: 1px solid #dadce0;
   box-shadow: none;
   border-radius: 8px;
 }
 
-.search-row {
-  flex: 1;
-  min-width: 280px;
-}
-
-select:hover,
-.search-row:hover {
+select:hover {
   border-color: #bdc1c6;
 }
 
@@ -1054,8 +1019,7 @@ select:hover,
     align-items: stretch;
   }
 
-  select,
-  .search-row {
+  select {
     width: 100%;
     min-width: 0;
   }
@@ -1544,78 +1508,8 @@ select {
   border-radius: 8px;
 }
 
-.search-row {
-  height: 40px;
-  display: flex;
-  align-items: center;
-
-  padding: 0 12px;
-
-  background: #fff;
-  border: 1px solid #dadce0;
-  border-radius: 8px;
-
-  box-shadow: none;
-}
-
-.search-row:focus-within {
-  border-color: #1a73e8;
-  box-shadow: 0 0 0 1px #1a73e8;
-}
-
-.search-row input,
-#search {
-  font-family: var(--font-sans);
-  font-size: 14px;
-  color: var(--text);
-}
-
-.search-row input::placeholder,
-#search::placeholder {
-  color: #80868b;
-}
 
 /* Result count is live feedback for the source/time/category filters. */
-/* =========================================================
-   SEARCH BAR
-   ========================================================= */
-
-.search-row {
-  min-height: 40px;
-  padding: 0 14px;
-
-  background: #f1f3f4;
-  border: 1px solid transparent;
-  border-radius: 20px;
-
-  box-shadow: none;
-}
-
-.search-row:hover {
-  background: #e8eaed;
-  border-color: transparent;
-}
-
-.search-row:focus-within {
-  background: #fff;
-  border-color: #1a73e8;
-  box-shadow: 0 0 0 1px #1a73e8;
-}
-
-.search-row input,
-#search {
-  background: transparent;
-  border: 0;
-  outline: 0;
-
-  font-family: var(--font-sans);
-  font-size: 14px;
-}
-
-.search-row input::placeholder,
-#search::placeholder {
-  color: var(--text-muted);
-}
 /* =========================================================
    FILTER DROPDOWNS
    ========================================================= */
@@ -2214,33 +2108,6 @@ letter-spacing: -0.15px !important;
   position: relative !important;
 }
 
-.row2 .search-row {
-
-transform: none !important;
-
-  width: 480px !important;
-  height: 40px !important;
-  min-height: 40px !important;
-
-  margin: 0 !important;
-  padding: 0 14px !important;
-
-  box-sizing: border-box !important;
-
-  background: #f1f3f4 !important;
-  border: 1px solid transparent !important;
-  border-radius: 20px !important;
-
-  box-shadow: none !important;
-
-  z-index: 2000 !important;
-}
-
-.row2 .search-row:focus-within {
-  background: #fff !important;
-  border-color: #1a73e8 !important;
-  box-shadow: 0 0 0 1px #1a73e8 !important;
-}
 /* FULL WIDTH CONTENT */
 
 .wrap {
@@ -2474,39 +2341,6 @@ main {
     display: none !important;
   }
 
-  .row2 .search-row {
-    position: static !important;
-    width: 100% !important;
-    margin-top: 8px !important;
-  }
-}
-/* SEARCH BAR POLISH */
-
-.row2 .search-row {
-  border: 1px solid var(--line) !important;
-  background: var(--input-bg) !important;
-  transition: background 120ms ease, border-color 120ms ease,
-              box-shadow 120ms ease !important;
-}
-
-.row2 .search-row:hover {
-  background: #fff !important;
-  border-color: #bdc1c6 !important;
-}
-
-.row2 .search-row:focus-within {
-  background: #fff !important;
-  border-color: #1a73e8 !important;
-  box-shadow: 0 0 0 1px #1a73e8 !important;
-}
-
-.row2 .search-row input {
-  outline: none !important;
-}
-
-.search-hint {
-  color: var(--text-muted) !important;
-  font-size: 11px !important;
 }
 /* FILTER CONTROLS POLISH */
 
@@ -2814,12 +2648,6 @@ html[data-theme="dark"] #dateFilter {
   border-color: var(--line) !important;
 }
 
-html[data-theme="dark"] .row2 .search-row,
-body.dark .row2 .search-row {
-  background: var(--input-bg) !important;
-  color: #e8eaed !important;
-  border-color: var(--line) !important;
-}
 /* SOFTER DARK MODE */
 
 html[data-theme="dark"] body,
@@ -2921,49 +2749,6 @@ body.dark .sidebar-item[aria-pressed="true"] {
 html[data-theme="dark"] .sidebar-home,
 body.dark .sidebar-home {
   color: #f1f3f4 !important;
-}
-/* SEARCH BAR — SCROLL TO CENTER */
-
-.row2 .search-row {
-  transition: left 220ms ease, transform 220ms ease, width 220ms ease !important;
-}
-
-body.search-scrolled .row2 .search-row {
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  width: 520px !important;
-}
-/* SCROLLED SEARCH — SOFT TRANSPARENCY */
-
-body.search-scrolled .row2 .search-row {
-  background: rgba(248, 249, 250, 0.82) !important;
-  border-color: rgba(218, 220, 224, 0.7) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-}
-
-body.search-scrolled .row2 .search-row input {
-  color: var(--text) !important;
-}
-/* MORE SEARCH TRANSPARENCY */
-
-body.search-scrolled .row2 .search-row {
-  background: rgba(248, 249, 250, 0.65) !important;
-}
-
-html[data-theme="dark"] body.search-scrolled .row2 .search-row,
-body.dark.search-scrolled .row2 .search-row {
-  background: rgba(60, 64, 67, 0.65) !important;
-}
-/* EXTRA SEARCH TRANSPARENCY */
-
-body.search-scrolled .row2 .search-row {
-  background: rgba(248, 249, 250, 0.45) !important;
-}
-
-html[data-theme="dark"] body.search-scrolled .row2 .search-row,
-body.dark.search-scrolled .row2 .search-row {
-  background: rgba(60, 64, 67, 0.45) !important;
 }
 /* BRING NEWS FEED CLOSER TO HEADER */
 
@@ -4208,17 +3993,6 @@ html[data-theme] .latest-card:hover {
     overscroll-behavior-x: contain;
   }
 
-  /* Tighter chrome and slightly smaller type so the placeholder stays inside
-     the field on a phone. */
-  .search-row {
-    padding: 0 12px !important;
-  }
-  #search {
-    font-size: 13px !important;
-  }
-  .search-hint {
-    margin-right: 0.4rem;
-  }
 }
 /*__SHEET_BREAK__*/
 
@@ -4245,53 +4019,6 @@ html[data-theme] .latest-card:hover {
   margin-left: auto !important;
 }
 
-.mast .search-row {
-  /* Desktop: the field takes every pixel the masthead has left over, so it
-     runs up to (and nearly touches) the Digests button instead of stopping
-     short with a dead gap. */
-  flex: 1 1 auto;
-  width: auto;
-  max-width: none;
-  min-width: 240px;/* Exactly the Digests/React pill height so the header reads as one row of
-   same-height controls. */
-  height: 34px;
-  min-height: 34px;
-  margin: 0;
-  align-self: center;
-}
-
-/* The field is only 34px tall now, so the input's original 0.72rem vertical
-   padding would make it overflow the pill. Keep the horizontal padding and
-   let the line box centre itself. */
-.mast .search-row #search {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  min-height: 0 !important;
-}
-
-/* The old toolbar rules hardcoded a light-grey pill for the search; the
-   field no longer sits inside .row2, so dark mode needs its own surface. */
-:root[data-theme="dark"] .mast .search-row {
-  background: var(--input-bg) !important;
-}
-
-:root[data-theme="dark"] .mast .search-row:hover {
-  background: var(--panel) !important;
-}
-
-@media (max-width: 800px) {
-  .mast-row { gap: 16px !important; }
-  /* Tablet/phone: let the field grow into the free space (capped, so it
-     never becomes a full-width bar beside the icon buttons). */
-  .mast .search-row { flex: 1 1 auto; width: auto; min-width: 160px; max-width: 420px; }
-}
-
-@media (max-width: 560px) {
-  .mast-row { gap: 16px !important; }
-  /* On a phone the field takes whatever room is left beside the wordmark
-     and the two icon buttons, so it never pushes the header sideways. */
-  .mast .search-row { flex: 1 1 auto; width: auto; min-width: 96px; max-width: none; }
-}
 
 /* ---------- One uniform page background ---------- */
 
@@ -4401,7 +4128,6 @@ html[data-theme] .latest-card:hover {
 /* The hidden filter-state selects get the same compliant boundary colour. */
 :root:not([data-theme="dark"]) #sourceFilter,
 :root:not([data-theme="dark"]) #dateFilter,
-:root:not([data-theme="dark"]) .mast .search-row,
 :root:not([data-theme="dark"]) .clear-filters,
 :root:not([data-theme="dark"]) .load-more,
 :root:not([data-theme="dark"]) .theme-toggle,
@@ -4413,7 +4139,6 @@ html[data-theme] .latest-card:hover {
 :root[data-theme="dark"] .row2 select,
 :root[data-theme="dark"] #sourceFilter,
 :root[data-theme="dark"] #dateFilter,
-:root[data-theme="dark"] .mast .search-row,
 :root[data-theme="dark"] .clear-filters,
 :root[data-theme="dark"] .load-more,
 :root[data-theme="dark"] .theme-toggle,
@@ -4631,19 +4356,6 @@ textarea:focus-visible,
   outline-offset: 2px !important;
 }
 
-/* The search no longer draws a square outline around its bare <input>:
-   the ring belongs to the whole rounded field, so a click or a Tab lights
-   up the entire pill. The inner input keeps no outline of its own, which
-   has to beat the universal input:focus-visible fallback above (hence the
-   ID and !important). */
-#search:focus-visible {
-  outline: none !important;
-}
-
-.mast .search-row:focus-within {
-  outline: 2px solid var(--focus) !important;
-  outline-offset: 2px !important;
-}
 
 .controls select:focus-visible,
 .row2 select:focus-visible,
@@ -4655,8 +4367,7 @@ textarea:focus-visible,
 /* Dark mode repaints these surfaces with its own higher-specificity rules, so
    the light-theme blue focus border is lost there. Re-point it at the token
    instead of touching the light-theme treatment. */
-:root[data-theme="dark"] .controls select:focus,
-:root[data-theme="dark"] .mast .search-row:focus-within {
+:root[data-theme="dark"] .controls select:focus {
   border-color: var(--focus) !important;
 }
 /*__SHEET_BREAK__*/
@@ -5377,35 +5088,6 @@ main .grid {
   padding: 6px 10px !important;
 }
 
-#topicBar .search-row {
-  flex: 0 0 220px !important;
-  width: 220px !important;
-  min-width: 0 !important;
-  max-width: 220px !important;
-  height: 36px !important;
-  min-height: 36px !important;
-  margin: 0 8px !important;
-  overflow: hidden !important;
-}
-
-#topicBar #search {
-  flex: 1 1 auto !important;
-  width: auto !important;
-  min-width: 0 !important;
-  height: 100% !important;
-  margin: 0 !important;
-  padding: 0 6px !important;
-  background: transparent !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-#topicBar .search-row:focus-within {
-  outline: 2px solid var(--focus) !important;
-  outline-offset: 2px !important;
-  border-color: var(--focus) !important;
-}
 
 #feed.grid,
 main .grid {
@@ -5594,9 +5276,6 @@ body.feed-compact #feed .card.follow-card {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35) !important;
 }
 
-:root[data-theme="dark"] #topicBar .search-row:focus-within {
-  border-color: var(--focus) !important;
-}
 
 @media (min-width: 801px) {
   .controls {
@@ -5656,12 +5335,6 @@ body.feed-compact #feed .card.follow-card {
     grid-column: auto !important;
   }
 
-  #topicBar .search-row {
-    flex-basis: 160px !important;
-    width: 160px !important;
-    min-width: 0 !important;
-    max-width: 160px !important;
-  }
 }
 
 /* Section wrappers stay transparent so story cards sit on the page
@@ -6152,23 +5825,6 @@ footer,
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
-.search-overlay .search-row {
-  display: flex !important;
-  align-items: center !important;
-  width: 100% !important;
-  max-width: none !important;
-  min-width: 0 !important;
-  height: 44px !important;
-  margin: 0 !important;
-  box-sizing: border-box !important;
-}
-
-.search-overlay .search-row input {
-  flex: 1 1 auto !important;
-  width: auto !important;
-  min-width: 0 !important;
-  font-size: 16px !important;
-}
 
 .locale-field {
   width: auto !important;
@@ -6309,11 +5965,6 @@ footer,
   color: #e8eaed;
 }
 
-:root[data-theme="dark"] .search-overlay .search-row {
-  background: var(--input-bg, #292a2d) !important;
-  color: #e8eaed !important;
-  border-color: #3c4043 !important;
-}
 
 :root[data-theme="dark"] .locale-option {
   color: #e8eaed;
@@ -6669,7 +6320,6 @@ footer,
 }
 @media (max-width: 800px) {
   .wordmark { font-size: 16px !important; }
-  .mast .search-row { min-width: 64px !important; }
 }
 /*__SHEET_BREAK__*/
 
@@ -7936,4 +7586,423 @@ main .grid,
     min-width: 0 !important;
     max-width: calc(100% - 40px) !important;
   }
+}
+
+/*__SHEET_BREAK__*/
+
+/* =========================================================
+   SEARCH BAR
+   Resting pill, Google News focus, and the suggestions panel.
+   This is the only block that paints .search-row / #search.
+   The phone rule that hides .mast .search-row stays earlier;
+   it is more specific, so the field still collapses under 768px.
+   ========================================================= */
+
+.search-row {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  align-self: center !important;
+  flex: 1 1 auto !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 240px !important;
+  height: 40px !important;
+  min-height: 40px !important;
+  margin: 0 !important;
+  padding: 0 10px 0 14px !important;
+  gap: 8px !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+  background: #f1f3f4 !important;
+  color: #202124 !important;
+  border: 0 !important;
+  border-radius: 20px !important;
+  box-shadow: none !important;
+  outline: none !important;
+  z-index: 1;
+  transition: background-color 150ms ease, box-shadow 150ms ease, border-radius 150ms ease !important;
+}
+
+.search-row > .search-icon {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  color: #5f6368;
+  opacity: 1;
+  transform: none;
+}
+
+#search {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #202124 !important;
+  font-family: var(--font-sans), 'Space Grotesk', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#search::placeholder {
+  color: #5f6368 !important;
+  opacity: 1 !important;
+}
+
+#search::-webkit-search-cancel-button,
+#search::-webkit-search-decoration,
+#search::-webkit-search-results-button,
+#search::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+.search-hint {
+  flex: 0 0 auto;
+  margin: 0 !important;
+  padding: 0 6px !important;
+  border: 1px solid #80868b !important;
+  border-radius: 4px !important;
+  background: transparent !important;
+  color: #3c4043 !important;
+  font-family: var(--font-sans), 'Space Grotesk', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  line-height: 18px !important;
+  white-space: nowrap;
+}
+
+.search-row:focus-within .search-hint,
+.search-row.has-value .search-hint {
+  display: none !important;
+}
+
+.search-clear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #3c4043;
+  cursor: pointer;
+}
+
+.search-clear[hidden] {
+  display: none !important;
+}
+
+.search-clear:hover {
+  background: rgba(60, 64, 67, 0.08);
+}
+
+.search-row:focus-within,
+.search-row.is-open {
+  background: #fff !important;
+  border: 0 !important;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15) !important;
+}
+
+.search-row.is-open {
+  border-radius: 20px 20px 0 0 !important;
+  z-index: 5 !important;
+}
+
+.search-row:has(#search:focus-visible) {
+  outline: 2px solid var(--focus) !important;
+  outline-offset: 2px !important;
+}
+
+.search-row.search-pointer:has(#search:focus-visible) {
+  outline: none !important;
+}
+
+#search:focus,
+#search:focus-visible {
+  outline: none !important;
+}
+
+.search-suggest {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% - 1px);
+  z-index: 2;
+  margin: 0;
+  padding: 6px 0 10px;
+  box-sizing: border-box;
+  background: #fff;
+  color: #202124;
+  border: 0;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+  max-height: min(420px, 70vh);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.search-suggest[hidden] {
+  display: none !important;
+}
+
+.search-suggest-label,
+.search-suggest-head {
+  margin: 0;
+  padding: 10px 16px 4px;
+  color: #3c4043;
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+.search-suggest-label {
+  border-top: 1px solid #e8eaed;
+  margin-top: 6px;
+}
+
+.search-suggest-label:first-child,
+.search-suggest-head:first-child {
+  border-top: 0;
+  margin-top: 0;
+}
+
+.search-option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  width: 100%;
+  margin: 0;
+  padding: 8px 16px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: left;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.search-recent {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+}
+
+.search-recent-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-recent-remove {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #3c4043;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.search-recent-remove:hover {
+  background: rgba(60, 64, 67, 0.1);
+}
+
+.search-clear-all {
+  width: auto;
+  margin: 0 8px;
+  padding: 8px 8px;
+  border-radius: 8px;
+  color: #185abc;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.search-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 4px 16px 8px;
+}
+
+.search-chip {
+  width: auto;
+  flex-direction: row;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #f1f3f4;
+  color: #202124;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.search-option:hover,
+.search-option.is-active,
+.search-chip:hover,
+.search-chip.is-active {
+  background: #e8eaed;
+}
+
+.search-hit-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  font-weight: 550;
+}
+
+.search-hit-snippet,
+.search-hit-meta {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  color: #3c4043;
+  font-size: 12px;
+  line-height: 1.35;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.search-suggest mark {
+  background: #fde293;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+.search-suggest-empty {
+  margin: 0;
+  padding: 12px 16px 14px;
+  color: #3c4043;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .mast .search-row {
+    min-width: 64px !important;
+  }
+}
+
+.search-overlay .search-row {
+  display: flex !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: 40px !important;
+  min-height: 40px !important;
+  margin: 0 !important;
+}
+
+.search-overlay #search {
+  font-size: 16px !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-row,
+  .search-suggest,
+  .search-option,
+  .search-clear {
+    transition: none !important;
+  }
+}
+
+/* =========================================================
+   SEARCH BAR — DARK MODE
+   The page surface is #303134. The pill sits one step lighter.
+   ========================================================= */
+
+:root[data-theme="dark"] .search-row {
+  background: #3c4043 !important;
+  color: #e8eaed !important;
+}
+
+:root[data-theme="dark"] .search-row > .search-icon,
+:root[data-theme="dark"] .search-clear,
+:root[data-theme="dark"] .search-recent-remove {
+  color: #e8eaed !important;
+}
+
+:root[data-theme="dark"] #search {
+  color: #e8eaed !important;
+}
+
+:root[data-theme="dark"] #search::placeholder,
+:root[data-theme="dark"] .search-hint,
+:root[data-theme="dark"] .search-suggest-label,
+:root[data-theme="dark"] .search-suggest-head,
+:root[data-theme="dark"] .search-hit-snippet,
+:root[data-theme="dark"] .search-hit-meta,
+:root[data-theme="dark"] .search-suggest-empty {
+  color: #e8eaed !important;
+}
+
+:root[data-theme="dark"] .search-hint {
+  border-color: #9aa0a6 !important;
+}
+
+:root[data-theme="dark"] .search-row:focus-within,
+:root[data-theme="dark"] .search-row.is-open,
+:root[data-theme="dark"] .search-suggest {
+  background: #48494c !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55), 0 4px 8px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+:root[data-theme="dark"] .search-suggest-label {
+  border-top-color: #80868b;
+}
+
+:root[data-theme="dark"] .search-chip {
+  background: #3c4043 !important;
+  color: #e8eaed !important;
+}
+
+:root[data-theme="dark"] .search-option:hover,
+:root[data-theme="dark"] .search-option.is-active,
+:root[data-theme="dark"] .search-chip:hover,
+:root[data-theme="dark"] .search-chip.is-active {
+  background: #5f6368 !important;
+  color: #e8eaed !important;
+}
+
+:root[data-theme="dark"] .search-clear-all {
+  color: #8ab4f8 !important;
+}
+
+:root[data-theme="dark"] .search-suggest mark {
+  background: #6d5a16;
+  color: #fff;
 }

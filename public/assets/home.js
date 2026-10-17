@@ -15,6 +15,7 @@
       statusEl.textContent = statusClock ? `${t('updated')} ${statusClock}` : t('loading');
     }
     syncLocaleMenus();
+    if (searchRowEl && searchRowEl.classList.contains('is-open')) renderSearchSuggest();
   }
   const skeletonEl = document.getElementById('skeleton');
   const statusEl = document.getElementById('status');
@@ -40,6 +41,8 @@
   const loadMoreWrapEl = document.getElementById('loadMoreWrap');
   const loadMoreBtnEl = document.getElementById('loadMoreBtn');
   const searchHintEl = document.getElementById('searchHint');
+  const searchClearEl = document.getElementById('searchClear');
+  const searchSuggestEl = document.getElementById('searchSuggest');
   const clearFiltersEl = document.getElementById('clearFilters');
 
 
@@ -75,6 +78,16 @@
   let hardwareOnly = false;
   let savedOnly = false;
   let searchTerm = '';
+  let searchSuggestIndex = -1;
+  const RECENT_SEARCH_KEY = 'signal-recent-searches';
+  const SEARCH_TOPICS = [
+    ['papers', 'catPapers'],
+    ['chips', 'catChips'],
+    ['software', 'catSoftware'],
+    ['security', 'catSecurity'],
+    ['space', 'catSpace'],
+    ['gaming', 'catGaming'],
+  ];
 
   let allItems = [];
   let visibleCount = PAGE_SIZE;
@@ -1023,7 +1036,7 @@ initAuth();
     if (sourceFilterEl) sourceFilterEl.value = 'all';
     if (dateFilterEl) dateFilterEl.value = 'all';
     searchEl.value = '';
-    searchHintEl.style.display = document.activeElement === searchEl ? 'none' : '';
+    syncSearchChrome();
     document.querySelectorAll('.filter[data-cat], .top-nav-item[data-cat]').forEach((b) => {
       b.setAttribute('aria-pressed', b.dataset.cat === activeFilter ? 'true' : 'false');
     });
@@ -1507,6 +1520,7 @@ initAuth();
       paintedSignature = signature;
       populateSources();
       renderAll();
+      if (isSearchSuggestOpen() && searchEl && searchEl.value.trim()) renderSearchSuggest();
     } else {
       renderErrorBanner();
     }
@@ -1794,6 +1808,17 @@ initAuth();
   });
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
+    if (isSearchSuggestOpen()) {
+      e.preventDefault();
+      closeSearchSuggest();
+      if (document.body.classList.contains('search-open')) {
+        setSearchOpen(false);
+        if (searchToggleEl) searchToggleEl.focus();
+      } else if (searchEl) {
+        searchEl.blur();
+      }
+      return;
+    }
     if (document.body.classList.contains('search-open')) {
       setSearchOpen(false);
       if (searchToggleEl) searchToggleEl.focus();
@@ -2000,9 +2025,9 @@ initAuth();
     if (show && searchOverlayBarEl && searchRowEl) {
       searchOverlayBarEl.appendChild(searchRowEl);
       searchEl.focus();
-      if (searchHintEl) searchHintEl.style.display = 'none';
     } else {
       parkSearchRow();
+      closeSearchSuggest();
     }
   }
 
@@ -2038,9 +2063,325 @@ initAuth();
     else searchEl.focus();
   });
 
-  // Debounced search
+  function readRecentSearches() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(RECENT_SEARCH_KEY) || '[]');
+      if (!Array.isArray(parsed)) return [];
+      return parsed.map((item) => String(item || '').trim()).filter(Boolean).slice(0, 5);
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function writeRecentSearches(list) {
+    try {
+      localStorage.setItem(RECENT_SEARCH_KEY, JSON.stringify(list.slice(0, 5)));
+    } catch (e) { /* storage can be blocked */ }
+  }
+
+  function rememberSearch(term) {
+    const value = String(term || '').trim();
+    if (!value) return;
+    const next = [value, ...readRecentSearches().filter((item) => item.toLowerCase() !== value.toLowerCase())];
+    writeRecentSearches(next);
+  }
+
+  function syncSearchChrome() {
+    const hasValue = !!(searchEl && searchEl.value);
+    if (searchRowEl) searchRowEl.classList.toggle('has-value', hasValue);
+    if (searchClearEl) searchClearEl.hidden = !hasValue;
+    if (searchHintEl) searchHintEl.style.removeProperty('display');
+  }
+
+  function isSearchSuggestOpen() {
+    return !!(searchRowEl && searchRowEl.classList.contains('is-open') && searchSuggestEl && !searchSuggestEl.hidden);
+  }
+
+  function suggestOptions() {
+    if (!searchSuggestEl) return [];
+    return Array.from(searchSuggestEl.querySelectorAll('[role="option"]'));
+  }
+
+  function setSearchSuggestIndex(index) {
+    const options = suggestOptions();
+    if (!options.length) index = -1;
+    else if (index < 0) index = 0;
+    else if (index >= options.length) index = options.length - 1;
+    searchSuggestIndex = index;
+    options.forEach((el, i) => {
+      const on = i === index;
+      el.classList.toggle('is-active', on);
+      el.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    if (index >= 0 && options[index]) {
+      searchEl.setAttribute('aria-activedescendant', options[index].id);
+      options[index].scrollIntoView({ block: 'nearest' });
+    } else {
+      searchEl.removeAttribute('aria-activedescendant');
+    }
+  }
+
+  function closeSearchSuggest() {
+    if (!searchSuggestEl || !searchRowEl) return;
+    searchRowEl.classList.remove('is-open');
+    searchSuggestEl.hidden = true;
+    searchSuggestEl.replaceChildren();
+    searchSuggestIndex = -1;
+    if (searchEl) {
+      searchEl.setAttribute('aria-expanded', 'false');
+      searchEl.removeAttribute('aria-activedescendant');
+    }
+    syncSearchChrome();
+  }
+
+  function openSearchSuggest() {
+    if (!searchSuggestEl || !searchRowEl || !searchEl) return;
+    searchRowEl.classList.add('is-open');
+    searchSuggestEl.hidden = false;
+    searchEl.setAttribute('aria-expanded', 'true');
+    renderSearchSuggest();
+    syncSearchChrome();
+  }
+
+  function highlightQuery(text, query) {
+    const decoded = decodeEntities(text || '');
+    const words = String(query || '').trim().toLowerCase().split(/\s+/).filter(Boolean).slice(0, 8);
+    if (!words.length) return escapeHtml(decoded);
+    const pattern = new RegExp(words.map((word) => word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'gi');
+    let html = '';
+    let last = 0;
+    decoded.replace(pattern, (match, offset) => {
+      html += escapeHtml(decoded.slice(last, offset));
+      html += `<mark>${escapeHtml(match)}</mark>`;
+      last = offset + match.length;
+      return match;
+    });
+    html += escapeHtml(decoded.slice(last));
+    return html;
+  }
+
+  function appendSuggestLabel(text) {
+    const label = document.createElement('div');
+    label.className = 'search-suggest-label';
+    label.setAttribute('role', 'presentation');
+    label.textContent = text;
+    searchSuggestEl.appendChild(label);
+  }
+
+  function prepareOption(el, index) {
+    el.id = `search-opt-${index}`;
+    el.setAttribute('role', 'option');
+    el.setAttribute('aria-selected', 'false');
+    return el;
+  }
+
+  function renderEmptySuggest() {
+    const recents = readRecentSearches();
+    let index = 0;
+    if (recents.length) {
+      const head = document.createElement('div');
+      head.className = 'search-suggest-head';
+      head.setAttribute('role', 'presentation');
+      const label = document.createElement('span');
+      label.textContent = 'Recent searches';
+      head.appendChild(label);
+      searchSuggestEl.appendChild(head);
+      recents.forEach((value) => {
+        const row = document.createElement('div');
+        row.className = 'search-option search-recent';
+        row.dataset.kind = 'recent';
+        row.dataset.value = value;
+        const text = document.createElement('span');
+        text.className = 'search-recent-text';
+        text.textContent = value;
+        const remove = document.createElement('button');
+        remove.type = 'button';
+        remove.className = 'search-recent-remove';
+        remove.tabIndex = -1;
+        remove.dataset.removeRecent = value;
+        remove.setAttribute('aria-label', `Remove ${value}`);
+        remove.textContent = '×';
+        row.append(text, remove);
+        prepareOption(row, index);
+        index += 1;
+        searchSuggestEl.appendChild(row);
+      });
+      const clearAll = document.createElement('button');
+      clearAll.type = 'button';
+      clearAll.className = 'search-option search-clear-all';
+      clearAll.dataset.kind = 'clear-all';
+      clearAll.textContent = 'Clear all';
+      prepareOption(clearAll, index);
+      index += 1;
+      searchSuggestEl.appendChild(clearAll);
+    }
+    appendSuggestLabel('Suggested topics');
+    const chips = document.createElement('div');
+    chips.className = 'search-chips';
+    chips.setAttribute('role', 'presentation');
+    SEARCH_TOPICS.forEach(([cat, key]) => {
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'search-option search-chip';
+      chip.dataset.kind = 'topic';
+      chip.dataset.cat = cat;
+      chip.textContent = t(key);
+      prepareOption(chip, index);
+      index += 1;
+      chips.appendChild(chip);
+    });
+    searchSuggestEl.appendChild(chips);
+  }
+
+  function renderMatchSuggest(query) {
+    const needle = query.toLowerCase();
+    const matches = allItems.filter((item) => {
+      if (!item || isPromoItem(item)) return false;
+      const title = decodeEntities(item.title || '').toLowerCase();
+      const summary = decodeEntities(item.summary || '').toLowerCase();
+      return title.includes(needle) || summary.includes(needle);
+    }).slice(0, 6);
+    if (!matches.length) {
+      const empty = document.createElement('p');
+      empty.className = 'search-suggest-empty';
+      empty.textContent = 'No matching headlines';
+      searchSuggestEl.appendChild(empty);
+      return;
+    }
+    matches.forEach((item, index) => {
+      const row = document.createElement('div');
+      row.className = 'search-option search-hit';
+      row.dataset.kind = 'headline';
+      row.dataset.link = item.link || '';
+      const title = document.createElement('span');
+      title.className = 'search-hit-title';
+      title.innerHTML = highlightQuery(item.title || '', query);
+      row.appendChild(title);
+      const titleHas = decodeEntities(item.title || '').toLowerCase().includes(needle);
+      if (!titleHas && item.summary) {
+        const snippet = document.createElement('span');
+        snippet.className = 'search-hit-snippet';
+        snippet.innerHTML = highlightQuery(item.summary, query);
+        row.appendChild(snippet);
+      }
+      const source = decodeEntities(item.source || '');
+      const when = timeAgo(item.published);
+      const meta = [source, when].filter(Boolean).join(' · ');
+      if (meta) {
+        const line = document.createElement('span');
+        line.className = 'search-hit-meta';
+        line.textContent = meta;
+        row.appendChild(line);
+      }
+      prepareOption(row, index);
+      searchSuggestEl.appendChild(row);
+    });
+  }
+
+  function renderSearchSuggest() {
+    if (!searchSuggestEl || searchSuggestEl.hidden) return;
+    searchSuggestEl.replaceChildren();
+    searchSuggestIndex = -1;
+    if (searchEl) searchEl.removeAttribute('aria-activedescendant');
+    const query = searchEl.value.trim();
+    if (!query) renderEmptySuggest();
+    else renderMatchSuggest(query);
+  }
+
+  function commitSearch() {
+    searchTerm = searchEl.value;
+    clearTimeout(searchTimer);
+    visibleCount = PAGE_SIZE;
+    render();
+    rememberSearch(searchTerm);
+    closeSearchSuggest();
+  }
+
+  function applySuggestTopic(cat) {
+    activeFilter = cat;
+    visibleCount = PAGE_SIZE;
+    syncCategoryPressed();
+    render();
+    closeSearchSuggest();
+    searchEl.blur();
+    if (document.body.classList.contains('sidebar-open')) setSidebarOpen(false);
+  }
+
+  function activateSuggestOption(el) {
+    if (!el) return;
+    const kind = el.dataset.kind;
+    if (kind === 'clear-all') {
+      writeRecentSearches([]);
+      renderSearchSuggest();
+      return;
+    }
+    if (kind === 'recent') {
+      const value = el.dataset.value || '';
+      searchEl.value = value;
+      searchTerm = value;
+      rememberSearch(value);
+      clearTimeout(searchTimer);
+      visibleCount = PAGE_SIZE;
+      syncSearchChrome();
+      render();
+      closeSearchSuggest();
+      return;
+    }
+    if (kind === 'topic') {
+      applySuggestTopic(el.dataset.cat);
+      return;
+    }
+    if (kind === 'headline' && el.dataset.link) {
+      rememberSearch(searchEl.value);
+      closeSearchSuggest();
+      window.open(el.dataset.link, '_blank', 'noopener');
+    }
+  }
+
+  function bindSearchSuggest() {
+    if (!searchEl || !searchRowEl || !searchSuggestEl) return;
+    searchRowEl.addEventListener('pointerdown', (e) => {
+      if (e.target.closest('.search-suggest, .search-clear')) return;
+      searchRowEl.classList.add('search-pointer');
+      openSearchSuggest();
+    });
+    searchSuggestEl.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+    });
+    searchSuggestEl.addEventListener('click', (e) => {
+      const remove = e.target.closest('[data-remove-recent]');
+      if (remove) {
+        const value = remove.dataset.removeRecent;
+        writeRecentSearches(readRecentSearches().filter((item) => item !== value));
+        renderSearchSuggest();
+        return;
+      }
+      const option = e.target.closest('[role="option"]');
+      if (option) activateSuggestOption(option);
+    });
+    if (searchClearEl) {
+      searchClearEl.addEventListener('mousedown', (e) => e.preventDefault());
+      searchClearEl.addEventListener('click', () => {
+        searchEl.value = '';
+        searchTerm = '';
+        clearTimeout(searchTimer);
+        visibleCount = PAGE_SIZE;
+        render();
+        syncSearchChrome();
+        if (document.activeElement === searchEl) openSearchSuggest();
+        else searchEl.focus();
+      });
+    }
+    document.addEventListener('mousedown', (e) => {
+      if (!searchRowEl.contains(e.target)) closeSearchSuggest();
+    });
+  }
+
+  // Debounced search. The feed waits 150ms; the suggestion list updates immediately.
   searchEl.addEventListener('input', (e) => {
     searchTerm = e.target.value;
+    syncSearchChrome();
+    if (document.activeElement === searchEl) openSearchSuggest();
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => { visibleCount = PAGE_SIZE; render(); }, SEARCH_DEBOUNCE_MS);
   });
@@ -2059,13 +2400,44 @@ initAuth();
 
     e.preventDefault();
     if (window.matchMedia('(max-width: 767px)').matches) setSearchOpen(true);
-    else {
-      searchEl.focus();
-      searchHintEl.style.display = 'none';
-    }
+    else searchEl.focus();
   });
-  searchEl.addEventListener('focus', () => { searchHintEl.style.display = 'none'; });
-  searchEl.addEventListener('blur', () => { if (!searchEl.value) searchHintEl.style.display = ''; });
+  searchEl.addEventListener('focus', () => {
+    syncSearchChrome();
+    openSearchSuggest();
+  });
+  searchEl.addEventListener('blur', () => {
+    if (searchRowEl) searchRowEl.classList.remove('search-pointer');
+    syncSearchChrome();
+    setTimeout(() => {
+      if (searchRowEl && !searchRowEl.contains(document.activeElement)) closeSearchSuggest();
+    }, 0);
+  });
+  searchEl.addEventListener('keydown', (e) => {
+    if (searchRowEl && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Tab')) {
+      searchRowEl.classList.remove('search-pointer');
+    }
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      if (!isSearchSuggestOpen()) return;
+      const options = suggestOptions();
+      if (!options.length) return;
+      e.preventDefault();
+      if (searchSuggestIndex < 0) setSearchSuggestIndex(e.key === 'ArrowDown' ? 0 : options.length - 1);
+      else setSearchSuggestIndex(e.key === 'ArrowDown' ? searchSuggestIndex + 1 : searchSuggestIndex - 1);
+      return;
+    }
+    if (e.key !== 'Enter') return;
+    const options = suggestOptions();
+    const current = searchSuggestIndex >= 0 ? options[searchSuggestIndex] : null;
+    if (current) {
+      e.preventDefault();
+      activateSuggestOption(current);
+      return;
+    }
+    e.preventDefault();
+    commitSearch();
+  });
+  bindSearchSuggest();
 
   // Load more button
   loadMoreBtnEl.addEventListener('click', () => {
