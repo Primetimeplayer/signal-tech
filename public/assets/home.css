@@ -7731,7 +7731,8 @@ main .grid,
   outline-offset: 2px !important;
 }
 
-.search-row.search-pointer:has(#search:focus-visible) {
+.search-row.search-pointer:has(#search:focus-visible),
+.search-row:has(#search:focus-visible):has(.search-option.is-active) {
   outline: none !important;
 }
 
@@ -7876,23 +7877,40 @@ main .grid,
   background: #e8eaed;
 }
 
-.search-hit-title {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+.search-hit {
+  min-width: 0;
+  max-width: 100%;
   overflow: hidden;
+}
+
+.search-hit-title,
+.search-hit-snippet {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.search-hit-title {
   font-weight: 550;
 }
 
 .search-hit-snippet,
 .search-hit-meta {
-  display: block;
-  max-width: 100%;
-  overflow: hidden;
   color: #3c4043;
   font-size: 12px;
   line-height: 1.35;
+}
+
+.search-hit-meta {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }

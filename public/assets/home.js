@@ -1503,11 +1503,35 @@ initAuth();
     return items.map((item) => `${item.category || ''}|${item.link || ''}|${item.title || ''}|${item.published || ''}`).join('\n');
   }
 
+  function titleKey(item) {
+    return decodeEntities((item && item.title) || '').trim().toLowerCase();
+  }
+
+  // Same decoded title from two sources (The Verge and The Verge Reviews)
+  // counts once. The newest copy wins. Untitled items stay.
+  function dedupeByTitle(items) {
+    const ranked = items.slice().sort((a, b) => {
+      const da = new Date(a.published || 0).getTime() || 0;
+      const db = new Date(b.published || 0).getTime() || 0;
+      return db - da;
+    });
+    const seen = new Set();
+    const kept = [];
+    ranked.forEach((item) => {
+      const key = titleKey(item);
+      if (key) {
+        if (seen.has(key)) return;
+        seen.add(key);
+      }
+      kept.push(item);
+    });
+    return kept;
+  }
+
   function composeFeed(localized, buckets) {
     const news = mergeNews(localized, buckets.news);
-    return [...news, ...buckets.papers, ...buckets.reviews, ...buckets.reddit]
-      .filter((item) => !isPromoItem(item))
-      .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0));
+    return dedupeByTitle([...news, ...buckets.papers, ...buckets.reviews, ...buckets.reddit]
+      .filter((item) => !isPromoItem(item)));
   }
 
   function applyFeed(items, serial, savedAt) {
@@ -1516,7 +1540,7 @@ initAuth();
     if (statusEl) statusEl.hidden = false;
     const signature = feedSignature(items);
     if (signature !== paintedSignature || feedEl.style.display !== 'grid') {
-      allItems = items;
+      allItems = dedupeByTitle(items);
       paintedSignature = signature;
       populateSources();
       renderAll();
@@ -1667,7 +1691,7 @@ initAuth();
     if (cached && staticBuckets) {
       applyFeed(composeFeed(cached.items, staticBuckets), serial, cached.savedAt);
     } else if (cached && cached.items && cached.items.length) {
-      const immediate = cached.items.filter((item) => !isPromoItem(item));
+      const immediate = dedupeByTitle(cached.items.filter((item) => !isPromoItem(item)));
       if (immediate.length) applyFeed(immediate, serial, cached.savedAt);
     } else if (!quiet) {
       if (statusEl) {
@@ -1739,7 +1763,7 @@ initAuth();
         }
         const fallbackItems = staticBuckets
           ? composeFeed(staleCached ? staleCached.items : null, staticBuckets)
-          : ((staleCached && staleCached.items) || []);
+          : dedupeByTitle((staleCached && staleCached.items) || []);
         if (fallbackItems.length) {
           applyFeed(fallbackItems, serial, staleCached ? staleCached.savedAt : Date.now());
           return;
@@ -2235,12 +2259,12 @@ initAuth();
 
   function renderMatchSuggest(query) {
     const needle = query.toLowerCase();
-    const matches = allItems.filter((item) => {
+    const matches = dedupeByTitle(allItems.filter((item) => {
       if (!item || isPromoItem(item)) return false;
       const title = decodeEntities(item.title || '').toLowerCase();
       const summary = decodeEntities(item.summary || '').toLowerCase();
       return title.includes(needle) || summary.includes(needle);
-    }).slice(0, 6);
+    })).slice(0, 6);
     if (!matches.length) {
       const empty = document.createElement('p');
       empty.className = 'search-suggest-empty';
@@ -2414,13 +2438,16 @@ initAuth();
     }, 0);
   });
   searchEl.addEventListener('keydown', (e) => {
-    if (searchRowEl && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Tab')) {
+    if (searchRowEl && e.key === 'Tab') {
       searchRowEl.classList.remove('search-pointer');
     }
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       if (!isSearchSuggestOpen()) return;
       const options = suggestOptions();
       if (!options.length) return;
+      // Arrowing through results keeps the white elevated bar. The highlighted
+      // row is the indicator, so the keyboard ring stays off.
+      if (searchRowEl) searchRowEl.classList.add('search-pointer');
       e.preventDefault();
       if (searchSuggestIndex < 0) setSearchSuggestIndex(e.key === 'ArrowDown' ? 0 : options.length - 1);
       else setSearchSuggestIndex(e.key === 'ArrowDown' ? searchSuggestIndex + 1 : searchSuggestIndex - 1);
