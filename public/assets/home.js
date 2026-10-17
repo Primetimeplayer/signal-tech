@@ -16,6 +16,7 @@
     }
     syncLocaleMenus();
     if (searchRowEl && searchRowEl.classList.contains('is-open')) renderSearchSuggest();
+    if (signalIssue) renderSignalIssue();
   }
   const skeletonEl = document.getElementById('skeleton');
   const statusEl = document.getElementById('status');
@@ -90,6 +91,7 @@
   ];
 
   let allItems = [];
+  let signalIssue = null;
   let visibleCount = PAGE_SIZE;
   let searchTimer = null;
   let fetchErrors = [];
@@ -2517,9 +2519,112 @@ initAuth();
   setInterval(renderAll, 60 * 1000);
   setInterval(() => refresh({ quiet: true }), AUTO_REFRESH_MS);
 
+  function formatSignalDate(value) {
+    const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(value || ''));
+    const date = match
+      ? new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]))
+      : new Date(value);
+    if (Number.isNaN(date.getTime())) return '';
+    const lang = document.documentElement.lang || 'en';
+    try {
+      return new Intl.DateTimeFormat(lang, { month: 'short', day: 'numeric', year: 'numeric' }).format(date);
+    } catch (err) {
+      return match ? `${match[1]}-${match[2]}-${match[3]}` : '';
+    }
+  }
+
+  function safeSignalUrl(value) {
+    try {
+      const url = new URL(String(value || ''), location.href);
+      if (url.protocol !== 'https:' && url.protocol !== 'http:') return '';
+      return url.href;
+    } catch (err) {
+      return '';
+    }
+  }
+
+  function renderSignalIssue() {
+    const strip = document.getElementById('signalStrip');
+    if (!strip || !signalIssue) return;
+    const titleEl = document.getElementById('signalTitle');
+    const metaEl = document.getElementById('signalMeta');
+    const storiesEl = document.getElementById('signalStories');
+    const readEl = document.getElementById('signalRead');
+    if (titleEl) titleEl.textContent = signalIssue.title;
+    if (metaEl) {
+      const when = formatSignalDate(signalIssue.date);
+      const issue = t('signalIssue', { n: signalIssue.issueNumber });
+      metaEl.textContent = when ? ` · ${issue} · ${when}` : ` · ${issue}`;
+    }
+    if (readEl) readEl.href = signalIssue.url;
+    if (storiesEl) {
+      storiesEl.replaceChildren();
+      signalIssue.stories.forEach((story) => {
+        const item = document.createElement('div');
+        item.className = 'signal-story';
+        const headline = document.createElement('p');
+        headline.className = 'signal-headline';
+        headline.textContent = story.headline;
+        const why = document.createElement('p');
+        why.className = 'signal-why';
+        why.textContent = story.whyItMatters;
+        item.append(headline, why);
+        storiesEl.appendChild(item);
+      });
+    }
+    strip.hidden = false;
+  }
+
+  async function loadSignalIssue() {
+    const strip = document.getElementById('signalStrip');
+    if (!strip) return;
+    try {
+      const res = await fetch('data/signal-issue.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('missing signal issue');
+      const data = await res.json();
+      const stories = Array.isArray(data && data.stories)
+        ? data.stories.filter((story) => story && String(story.headline || '').trim())
+        : [];
+      const url = safeSignalUrl(data && data.url);
+      const title = data && String(data.title || '').trim();
+      const issueNumber = data && data.issueNumber;
+      if (!title || !url || !stories.length || issueNumber == null || String(issueNumber).trim() === '') {
+        throw new Error('invalid signal issue');
+      }
+      signalIssue = {
+        issueNumber,
+        title,
+        date: data.date || '',
+        url,
+        stories: stories.slice(0, 3).map((story) => ({
+          headline: String(story.headline).trim(),
+          whyItMatters: String(story.whyItMatters || '').trim(),
+        })),
+      };
+      renderSignalIssue();
+    } catch (err) {
+      signalIssue = null;
+      strip.hidden = true;
+    }
+  }
+
+  function bindSignalStrip() {
+    const free = document.getElementById('signalFree');
+    if (!free) return;
+    free.addEventListener('click', (event) => {
+      const card = document.getElementById('newsletterCard');
+      if (!card) return;
+      event.preventDefault();
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      card.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
+    });
+  }
+
   applyHash(false);
   applySavedLocale();
   applyI18n();
+  bindSignalStrip();
+  loadSignalIssue();
   refresh();
   window.addEventListener('hashchange', () => applyHash(true));
   window.addEventListener('scroll', function () {
