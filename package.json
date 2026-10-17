@@ -1,6 +1,7 @@
 {
   "name": "tech-dashboard",
   "version": "1.0.0",
+  "private": true,
   "description": "Personal dashboard that pulls tech news, AI paper summaries, and device reviews from RSS/APIs into static JSON files.",
   "type": "module",
   "scripts": {
@@ -20,7 +21,7 @@
     "rss-parser": "^3.13.0",
     "xml2js": "^0.6.2"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "devDependencies": {
     "jsdom": "^26.1.0",
     "wrangler": "^4.142.0"

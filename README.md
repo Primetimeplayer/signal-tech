@@ -6,7 +6,7 @@ Live site: [https://primetimeplayer.github.io/signal-tech/](https://primetimepla
 
 Repository: [https://github.com/Primetimeplayer/signal-tech](https://github.com/Primetimeplayer/signal-tech)
 
-License: MIT (`package.json`). Publisher stories remain the property of their original outlets. The dashboard code is what the MIT license covers.
+License: all rights reserved. See [LICENSE](LICENSE). Publisher stories remain the property of their original outlets.
 
 Handover steps are in [TRANSFER.md](TRANSFER.md). Marketplace copy is in [LISTING_TEMPLATE.md](LISTING_TEMPLATE.md).
 
@@ -211,3 +211,7 @@ Connect the repository and set the publish directory to `public`. There is no fr
 Every bundled source uses RSS or a public API. Feeds are the stable way to aggregate these sites. Before adding a source that has no feed, read its `robots.txt` and terms, and keep the fetch interval on the order of hours.
 
 After a custom domain or a repository rename, update the absolute URLs in the canonical tags, `public/sitemap.xml`, `public/robots.txt`, Open Graph image tags, and the JSON-LD blocks. They currently use `https://primetimeplayer.github.io/signal-tech/`.
+
+## License
+
+Copyright (c) 2026 Signal Tech. All rights reserved. The source code, design, text, logo and branding in this repository may not be copied, modified, redistributed or used to create another website or product without prior written permission. Viewing the code on GitHub does not grant any licence. Contact: SignalTech.News@gmail.com

@@ -6,6 +6,8 @@
 <meta name="theme-color" content="#ffffff">
 <title>Terms of Service — Signal Tech</title>
 <meta name="description" content="Terms for using Signal Tech, including content aggregation, intellectual property, and limits on liability.">
+<meta name="copyright" content="Signal Tech">
+<meta name="author" content="Signal Tech">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://primetimeplayer.github.io/signal-tech/terms.html">
 <meta property="og:type" content="website">
@@ -154,6 +156,7 @@
   .footer-contact { margin: 0 0 10px; }
   .footer-contact a { color: #5f6368; font-weight: 600; text-decoration: none; }
   .footer-contact a:hover { color: #1a73e8; }
+  .footer-copy { margin: 12px 0 0; font-size: 12px; }
 </style>
 </head>
 <body>
@@ -186,7 +189,8 @@
   <p>Reading, linking, and saving stories are the uses this digital publication is built for.</p>
 
   <h2>Intellectual property</h2>
-  <p>Article text, headlines, and images remain the property of their publishers and authors. Signal Tech does not claim ownership of that material. The publication’s own interface and source code are made available under the MIT license in the repository. Trademarks, including publisher names, stay with their owners. “Signal Tech” is the name of this media asset.</p>
+  <p>All Signal Tech content, code, and design, and the Signal Tech name and logo, belong to Signal Tech. You may share links to this site and short quotes with attribution. Anything else, including copying this site or using its name, logo, or design to create another website or product, needs prior written permission. Write to <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a>.</p>
+  <p>Headlines, article text, and images collected from publishers remain the property of those publishers and authors. Publisher names and other third-party trademarks stay with their owners.</p>
 
   <h2>Saved items and sign-in</h2>
   <p>Saving a story stores it in your browser. Optional sign-in can copy saved stories to the sync worker so another browser can read them. You are responsible for the notes you write. Do not store secrets or someone else’s private information in a note. Signing out removes the token from that browser. See the Privacy Policy for what is stored.</p>
@@ -226,6 +230,7 @@
       <a href="terms.html">Terms of Service</a>
       <a href="index.html">Home</a>
     </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
   </div>
 </footer>
 <script>
@@ -234,6 +239,21 @@
       navigator.serviceWorker.register('./sw.js', { scope: './' });
     });
   }
+</script>
+<script>
+(function () {
+  function stamp() {
+    var year = String(new Date().getFullYear());
+    var nodes = document.querySelectorAll('[data-i18n="copyright"]');
+    for (var i = 0; i < nodes.length; i++) {
+      nodes[i].textContent = nodes[i].textContent.replace(/20\d{2}/, year);
+    }
+  }
+  stamp();
+  document.addEventListener('DOMContentLoaded', stamp);
+  var lang = document.getElementById('languageSelect');
+  if (lang) lang.addEventListener('change', function () { setTimeout(stamp, 0); });
+})();
 </script>
 </body>
 </html>

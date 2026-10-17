@@ -25,6 +25,7 @@
 <title>Digests — Signal Tech</title>
 <meta name="description" content="Weekly auto-generated digests from Signal Tech — newsletter-ready markdown and thread versions, copyable in one click.">
 <meta name="author" content="Signal Tech">
+<meta name="copyright" content="Signal Tech">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://primetimeplayer.github.io/signal-tech/digests.html">
 <meta property="og:type" content="website">
@@ -861,6 +862,7 @@ body {
     <a href="privacy.html">Privacy Policy</a>
     <a href="terms.html">Terms of Service</a>
   </nav>
+  <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
 </footer>
 
 </main>
@@ -1672,6 +1674,7 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
 .footer-contact { margin: 0 0 10px; }
 .footer-contact a { color: var(--text-muted, #5f6368); font-weight: 600; text-decoration: none; }
 .footer-contact a:hover { color: #1a73e8; }
+.footer-copy { margin: 12px 0 0; font-size: 12px; }
 .digest-footer, footer {
   margin: 28px 0 12px;
   padding-top: 16px;
@@ -1934,6 +1937,21 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
       navigator.serviceWorker.register('./sw.js', { scope: './' });
     });
   }
+</script>
+<script>
+(function () {
+  function stamp() {
+    var year = String(new Date().getFullYear());
+    var nodes = document.querySelectorAll('[data-i18n="copyright"]');
+    for (var i = 0; i < nodes.length; i++) {
+      nodes[i].textContent = nodes[i].textContent.replace(/20\d{2}/, year);
+    }
+  }
+  stamp();
+  document.addEventListener('DOMContentLoaded', stamp);
+  var lang = document.getElementById('languageSelect');
+  if (lang) lang.addEventListener('change', function () { setTimeout(stamp, 0); });
+})();
 </script>
 </body>
 </html>

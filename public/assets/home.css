@@ -7271,6 +7271,7 @@ main .grid,
 }
 .footer-contact { margin: 0 0 10px; }
 .footer-contact a { font-weight: 600; }
+.footer-copy { margin: 12px 0 0; font-size: 12px; }
 /*__SHEET_BREAK__*/
 
 /* Phones only. Plain .card rules lose to later !important sheets, so the

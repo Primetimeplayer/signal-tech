@@ -27,10 +27,8 @@ test('every language translates the same dashboard labels', async () => {
   assert.equal(translate('de', 'updated'), 'aktualisiert');
   assert.equal(translate('nope', 'save'), 'Save');
   assert.equal(translate('fr', 'resultCount', { n: 2, m: 9 }), '2 sur 9 éléments');
-  for (const lang of expected) {
-    assert.equal(STRINGS[lang].footer.includes('app-react.html'), false, `${lang} footer still links to React`);
-    assert.equal(/react/i.test(STRINGS[lang].footer), false, `${lang} footer still mentions React`);
-  }
+  assert.equal(translate('es-419', 'copyright'), '© 2026 Signal Tech. Todos los derechos reservados.');
+  assert.equal(Object.prototype.hasOwnProperty.call(STRINGS['en-US'], 'footer'), false);
 });
 
 test('language changes translate the page without putting locale into the timestamp', async () => {

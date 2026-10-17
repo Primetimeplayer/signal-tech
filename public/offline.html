@@ -6,6 +6,8 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="robots" content="noindex">
 <title>You're offline — Signal Tech</title>
+<meta name="copyright" content="Signal Tech">
+<meta name="author" content="Signal Tech">
 <link rel="icon" href="assets/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -30,6 +32,8 @@
   .wordmark span { color: #1a73e8; }
   main { padding: 48px 0; }
   p { margin: 0 0 16px; font-size: 15px; }
+  footer { margin-top: 12px; padding: 16px 0 28px; color: #5f6368; font-size: 12px; }
+  .footer-copy { margin: 0; font-size: 12px; }
 </style>
 </head>
 <body>
@@ -42,6 +46,11 @@
   <p data-i18n="offlineMessage">You're offline. Your saved stories are still here.</p>
   <p><a href="index.html" data-i18n="offlineHome">Back to home</a></p>
 </main>
+<footer>
+  <div class="wrap">
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </div>
+</footer>
 <script src="ui-i18n.js"></script>
 <script>
   (function () {
@@ -56,6 +65,21 @@
       navigator.serviceWorker.register('./sw.js', { scope: './' });
     });
   }
+</script>
+<script>
+(function () {
+  function stamp() {
+    var year = String(new Date().getFullYear());
+    var nodes = document.querySelectorAll('[data-i18n="copyright"]');
+    for (var i = 0; i < nodes.length; i++) {
+      nodes[i].textContent = nodes[i].textContent.replace(/20\d{2}/, year);
+    }
+  }
+  stamp();
+  document.addEventListener('DOMContentLoaded', stamp);
+  var lang = document.getElementById('languageSelect');
+  if (lang) lang.addEventListener('change', function () { setTimeout(stamp, 0); });
+})();
 </script>
 </body>
 </html>

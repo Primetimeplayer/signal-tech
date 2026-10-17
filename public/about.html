@@ -6,6 +6,8 @@
 <meta name="theme-color" content="#ffffff">
 <title>About — Signal Tech</title>
 <meta name="description" content="What Signal Tech is, how stories are chosen, and how aggregation works.">
+<meta name="copyright" content="Signal Tech">
+<meta name="author" content="Signal Tech">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://primetimeplayer.github.io/signal-tech/about.html">
 <meta property="og:type" content="website">
@@ -145,6 +147,7 @@
   .footer-contact { margin: 0 0 10px; }
   .footer-contact a { color: #5f6368; font-weight: 600; text-decoration: none; }
   .footer-contact a:hover { color: #1a73e8; }
+  .footer-copy { margin: 12px 0 0; font-size: 12px; }
 </style>
 </head>
 <body>
@@ -200,6 +203,7 @@
       <a href="terms.html">Terms of Service</a>
       <a href="index.html">Home</a>
     </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
   </div>
 </footer>
 <script>
@@ -208,6 +212,21 @@
       navigator.serviceWorker.register('./sw.js', { scope: './' });
     });
   }
+</script>
+<script>
+(function () {
+  function stamp() {
+    var year = String(new Date().getFullYear());
+    var nodes = document.querySelectorAll('[data-i18n="copyright"]');
+    for (var i = 0; i < nodes.length; i++) {
+      nodes[i].textContent = nodes[i].textContent.replace(/20\d{2}/, year);
+    }
+  }
+  stamp();
+  document.addEventListener('DOMContentLoaded', stamp);
+  var lang = document.getElementById('languageSelect');
+  if (lang) lang.addEventListener('change', function () { setTimeout(stamp, 0); });
+})();
 </script>
 </body>
 </html>
