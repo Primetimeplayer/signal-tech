@@ -8,7 +8,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { excerpt } from './lib/excerpt.js';
 import { decodeEntities } from './lib/decode-entities.js';
-import { storyImage } from './lib/story-image.js';
+import { enrichStoryImage } from './lib/story-image.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'reviews.json');
@@ -45,8 +45,8 @@ function cleanSummary(raw = '') {
 async function fetchFeed(feed, parseFeed) {
   try {
     const parsed = await parseFeed(feed);
-    return parsed.items.slice(0, ITEMS_PER_FEED).map((item) => {
-      const image = storyImage(item);
+    return Promise.all(parsed.items.slice(0, ITEMS_PER_FEED).map(async (item) => {
+      const image = await enrichStoryImage(item, item.link);
       return {
         source: feed.name,
         title: decodeEntities(item.title?.trim() ?? '(untitled)'),
@@ -55,7 +55,7 @@ async function fetchFeed(feed, parseFeed) {
         summary: cleanSummary(item.contentSnippet ?? item.content ?? ''),
         ...(image ? { image } : {}),
       };
-    });
+    }));
   } catch (err) {
     console.error(`[fetch-reviews] Failed to fetch ${feed.name}: ${err.message}`);
     return null;

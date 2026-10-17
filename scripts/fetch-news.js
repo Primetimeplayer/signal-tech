@@ -8,7 +8,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { excerpt } from './lib/excerpt.js';
 import { decodeEntities } from './lib/decode-entities.js';
-import { storyImage } from './lib/story-image.js';
+import { enrichStoryImage } from './lib/story-image.js';
 import { applyLocaleParams } from './lib/news-locale.js';
 import { splitGoogleTitle } from './lib/parse-google-news.js';
 
@@ -129,8 +129,8 @@ async function fetchFeed(feed, parseFeed) {
   try {
     const parsed = await parseFeed(feed);
     const google = feed.url.includes('news.google.com');
-    return parsed.items.slice(0, ITEMS_PER_FEED).map((item) => {
-      const image = storyImage(item);
+    return Promise.all(parsed.items.slice(0, ITEMS_PER_FEED).map(async (item) => {
+      const image = await enrichStoryImage(item, item.link);
       const rawTitle = item.title?.trim() || '(untitled)';
       const headline = google ? splitGoogleTitle(rawTitle) : { title: rawTitle, source: feed.name };
       const rawSummary = item.contentSnippet ?? item.content ?? '';
@@ -144,7 +144,7 @@ async function fetchFeed(feed, parseFeed) {
         summary,
         ...(image ? { image } : {}),
       };
-    });
+    }));
   } catch (err) {
     console.error(`[fetch-news] Failed to fetch ${feed.name}: ${err.message}`);
     return null;

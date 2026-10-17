@@ -630,25 +630,24 @@ initAuth();
     return 'news';
   }
 
-  function categoryIconSvg(category) {
-    const icons = {
-      news: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/>',
-      papers: '<path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5M8 13h8M8 17h5"/>',
-      reviews: '<path d="m12 3 2.2 4.6L19 8.2l-3.5 3.4.8 4.9L12 14.8 7.7 16.5l.8-4.9L5 8.2l4.8-.6L12 3z"/>',
-      reddit: '<path d="M5 6h14v9H8l-3 3V6z"/>',
-    };
-    const body = icons[category] || icons.news;
-    return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${body}</svg>`;
+  function faviconMark(host, loading) {
+    if (!host) return '';
+    const src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=64`;
+    return `<img class="media-fallback-mark" alt="" width="28" height="28" loading="${loading}" decoding="async" referrerpolicy="no-referrer" src="${escapeAttr(src)}" onerror="this.hidden=true">`;
   }
 
+  // Stories with no photo get a brand-coloured tile: source favicon plus
+  // the category name. It is a deliberate stand-in, not a broken icon.
   function mediaPlaceholder(item, kind) {
     const category = storyCategory(item);
-    return `<span class="card-media ${kind}-media media-fallback" data-category="${escapeAttr(category)}" aria-hidden="true">${categoryIconSvg(category)}</span>`;
+    const host = publisherHost(item && item.link);
+    const loading = kind === 'hero' ? 'eager' : 'lazy';
+    const label = catLabel(category);
+    return `<span class="card-media ${kind}-media media-fallback media-tile" data-category="${escapeAttr(category)}" aria-hidden="true">${faviconMark(host, loading)}<span class="media-tile-label">${escapeHtml(label)}</span></span>`;
   }
 
   // A failed story photo is removed so the broken-image icon never shows.
-  // The box that replaces it keeps the photo's height, stays light gray,
-  // and centers the publisher favicon.
+  // The replacement keeps the photo box and uses the same branded tile.
   function signalImageFallback(img) {
     if (!img || img.dataset.fallbackApplied === '1') return;
     img.dataset.fallbackApplied = '1';
@@ -656,7 +655,7 @@ initAuth();
     const category = storyCategory({ category: img.dataset.category });
     const kind = img.classList.contains('hero-thumb') ? 'hero' : img.classList.contains('pick-thumb') ? 'pick' : 'story';
     const holder = document.createElement('span');
-    holder.className = `card-media ${kind}-media media-fallback`;
+    holder.className = `card-media ${kind}-media media-fallback media-tile`;
     holder.dataset.category = category;
     holder.setAttribute('aria-hidden', 'true');
     const host = img.dataset.sourceHost || '';
@@ -664,16 +663,49 @@ initAuth();
       const mark = document.createElement('img');
       mark.className = 'media-fallback-mark';
       mark.alt = '';
+      mark.width = 28;
+      mark.height = 28;
       mark.setAttribute('referrerpolicy', 'no-referrer');
       mark.setAttribute('decoding', 'async');
-      mark.setAttribute('loading', kind === 'story' ? 'lazy' : 'eager');
+      mark.setAttribute('loading', kind === 'hero' ? 'eager' : 'lazy');
       mark.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=64`;
       mark.addEventListener('error', () => {
         mark.hidden = true;
       });
       holder.appendChild(mark);
     }
+    const label = document.createElement('span');
+    label.className = 'media-tile-label';
+    label.textContent = catLabel(category);
+    holder.appendChild(label);
     if (img.parentNode) img.replaceWith(holder);
+  }
+
+  function heroLeadsViewport() {
+    if (typeof window.matchMedia !== 'function') return true;
+    return !window.matchMedia('(max-width: 800px)').matches;
+  }
+
+  function resizedImage(url, width) {
+    const one = `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width}&output=webp`;
+    const two = `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width * 2}&output=webp`;
+    return { src: one, srcset: `${one} 1x, ${two} 2x` };
+  }
+
+  function preloadHeroImage(url) {
+    const sized = resizedImage(url, 800);
+    let link = document.head.querySelector('link[data-hero-preload]');
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.dataset.heroPreload = '1';
+      document.head.appendChild(link);
+    }
+    if (link.getAttribute('href') === sized.src) return;
+    link.href = sized.src;
+    link.setAttribute('imagesrcset', sized.srcset);
+    link.setAttribute('fetchpriority', 'high');
   }
 
   function cardImage(item, kind, width, height) {
@@ -681,34 +713,47 @@ initAuth();
     if (!url) return mediaPlaceholder(item, kind);
     const cls = kind === 'hero' ? 'hero-thumb' : kind === 'pick' ? 'pick-thumb' : 'story-thumb';
     const host = publisherHost(item && item.link);
-    // Text, tags, and timestamps are in the card markup. The photo URL stays
-    // on data-src until the text has painted, with a reserved box so the
-    // image cannot shift the card when it arrives.
-    const loading = (kind === 'hero' || kind === 'pick') ? 'eager' : 'lazy';
-    return `<img class="${cls}" alt="" width="${width}" height="${height}" loading="${loading}" decoding="async" referrerpolicy="no-referrer" data-src="${escapeAttr(url)}" data-category="${escapeAttr(storyCategory(item))}" data-source-host="${escapeAttr(host)}" onerror="signalImageFallback(this)">`;
+    const sized = resizedImage(url, kind === 'hero' ? 800 : 320);
+    // The phone hero sits below the fold, under Latest Stories and the Signal
+    // strip. Prioritizing it there delays the image that is already on screen.
+    const lead = kind === 'hero' && heroLeadsViewport();
+    if (lead) preloadHeroImage(url);
+    const loading = kind === 'hero' ? (lead ? 'eager' : 'lazy') : 'lazy';
+    const priority = lead ? ' fetchpriority="high"' : '';
+    // On a phone the hero is below the fold. Leave its src empty until after
+    // the on-screen photo has painted so the two downloads do not compete.
+    const srcAttr = kind === 'hero' && !lead
+      ? ''
+      : ` src="${escapeAttr(sized.src)}" srcset="${escapeAttr(sized.srcset)}"`;
+    return `<img class="${cls}" alt="" width="${width}" height="${height}" loading="${loading}" decoding="async" referrerpolicy="no-referrer"${priority}${srcAttr} data-src="${escapeAttr(url)}" data-category="${escapeAttr(storyCategory(item))}" data-source-host="${escapeAttr(host)}" onerror="signalImageFallback(this)">`;
   }
 
   function mountCardImages(root) {
     if (!root) return;
     root.querySelectorAll('img[data-src]').forEach((img) => {
       if (img.getAttribute('src')) return;
-      const loading = (img.classList.contains('hero-thumb') || img.classList.contains('pick-thumb')) ? 'eager' : 'lazy';
-      img.setAttribute('loading', loading);
+      if (img.classList.contains('hero-thumb') && !heroLeadsViewport()) return;
+      const hero = img.classList.contains('hero-thumb');
+      img.setAttribute('loading', hero ? 'eager' : 'lazy');
       img.setAttribute('referrerpolicy', 'no-referrer');
       img.setAttribute('decoding', 'async');
+      if (hero) img.setAttribute('fetchpriority', 'high');
       if (!img.getAttribute('width') || !img.getAttribute('height')) {
-        if (img.classList.contains('hero-thumb')) {
-          img.width = 640;
-          img.height = 248;
-        } else if (img.classList.contains('pick-thumb')) {
-          img.width = 72;
-          img.height = 72;
+        if (hero) {
+          img.width = 800;
+          img.height = 450;
         } else {
           img.width = 96;
-          img.height = 96;
+          img.height = 72;
         }
       }
-      img.src = img.dataset.src;
+      const original = img.dataset.src;
+      if (original) {
+        const sized = resizedImage(original, hero ? 800 : 320);
+        img.src = sized.src;
+        img.srcset = sized.srcset;
+        if (hero) preloadHeroImage(original);
+      }
     });
   }
 
@@ -718,7 +763,7 @@ initAuth();
     setTimeout(() => mountCardImages(root), 0);
   }
 
-  function storyThumb(item, width = 96, height = 96) {
+  function storyThumb(item, width = 96, height = 72) {
     return cardImage(item, 'story', width, height);
   }
 
@@ -782,7 +827,7 @@ initAuth();
   }
 
   function pickThumb(item) {
-    return cardImage(item, 'pick', 72, 72);
+    return cardImage(item, 'pick', 96, 72);
   }
 
   function titleTokens(title) {
@@ -1091,6 +1136,8 @@ initAuth();
     feedFailed = true;
     allItems = [];
     paintedSignature = '';
+    paintedTop = '';
+    paintedWithStatic = false;
     hideSkeletons();
     if (statusEl) {
       statusEl.textContent = '';
@@ -1238,6 +1285,7 @@ initAuth();
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
+        ${storyThumb(item, 96, 72)}
       </article>`;
     }).join('');
 
@@ -1253,7 +1301,7 @@ initAuth();
           ${item.summary ? `<p>${textHtml(item.summary)}</p>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
-        ${storyThumb(item, 96, 96)}
+        ${storyThumb(item, 96, 72)}
       </article>`;
     };
     // The old span-2 lead is a pair of equal cards. Full rows of three follow.
@@ -1354,6 +1402,7 @@ initAuth();
     placeNewsletterCard();
     wireFeed(feedEl);
     paintCardImages(feedEl);
+    hydrateDeferredHeroes(feedEl);
     balanceQueue = items.filter((item) => item && item.link && !usedLinks.has(item.link));
     balancedShown = extraPlaced;
     makeStoryRow = storyRow;
@@ -1366,6 +1415,20 @@ initAuth();
     } else {
       loadMoreWrapEl.style.display = 'none';
     }
+  }
+
+  function hydrateDeferredHeroes(root) {
+    const imgs = [...(root || document).querySelectorAll('img.hero-thumb[data-src]')].filter((img) => !img.getAttribute('src'));
+    if (!imgs.length) return;
+    const run = () => {
+      imgs.forEach((img) => {
+        if (!img.isConnected || img.getAttribute('src')) return;
+        const sized = resizedImage(img.dataset.src, 480);
+        img.src = sized.src;
+        img.srcset = sized.srcset;
+      });
+    };
+    setTimeout(run, 1600);
   }
 
   function renderAll() {
@@ -1476,6 +1539,8 @@ initAuth();
   let refreshSerial = 0;
   let staticBuckets = null;
   let paintedSignature = '';
+  let paintedTop = '';
+  let paintedWithStatic = false;
   const feedMemoryCache = new Map();
 
   function readFeedCache(region, language, allowStale) {
@@ -1503,6 +1568,14 @@ initAuth();
 
   function feedSignature(items) {
     return items.map((item) => `${item.category || ''}|${item.link || ''}|${item.title || ''}|${item.published || ''}`).join('\n');
+  }
+
+  function topStorySignature(items) {
+    return dedupeByTitle(items)
+      .filter((item) => !isPromoItem(item))
+      .slice(0, 8)
+      .map((item) => `${item.link || ''}|${titleKey(item)}`)
+      .join('\n');
   }
 
   function titleKey(item) {
@@ -1536,20 +1609,29 @@ initAuth();
       .filter((item) => !isPromoItem(item)));
   }
 
-  function applyFeed(items, serial, savedAt) {
+  function applyFeed(items, serial, savedAt, options = {}) {
     if (serial !== refreshSerial) return;
     feedFailed = false;
     if (statusEl) statusEl.hidden = false;
     const signature = feedSignature(items);
-    if (signature !== paintedSignature || feedEl.style.display !== 'grid') {
+    const top = topStorySignature(items);
+    const onScreen = feedEl.style.display === 'grid';
+    const sameFeed = signature === paintedSignature && onScreen;
+    // A live response that does not change the top stories stays quiet.
+    // The first paint of the static JSON still draws, including sections
+    // that sit below those stories.
+    const sameTop = options.quietSwap && paintedWithStatic && top && top === paintedTop && onScreen;
+    if (!sameFeed && !sameTop) {
       allItems = dedupeByTitle(items);
       paintedSignature = signature;
+      paintedTop = top;
       populateSources();
       renderAll();
       if (isSearchSuggestOpen() && searchEl && searchEl.value.trim()) renderSearchSuggest();
     } else {
       renderErrorBanner();
     }
+    if (options.markStatic) paintedWithStatic = true;
     statusClock = new Date(savedAt || Date.now()).toLocaleTimeString('en-US');
     statusEl.textContent = `${t('updated')} ${statusClock}`;
   }
@@ -1650,9 +1732,7 @@ initAuth();
 
   async function loadJSON(file, category, mapFn) {
     try {
-      const res = await fetch(`data/${file}?_t=${Date.now()}`, {
-        cache: 'no-store',
-        headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' },
+      const res = await fetch(`data/${file}`, {
         signal: AbortSignal.timeout(LOCALE_FETCH_MS),
       });
       if (!res.ok) throw new Error(`${file}: ${res.status}`);
@@ -1679,8 +1759,9 @@ initAuth();
     // A region or language change paints a fresh cached edition immediately
     // and lets the Google News request finish behind that. Static JSON is
     // painted as soon as it arrives so a locale request cannot hold the
-    // skeleton until its 6 second timeout. Expired localStorage items stay
-    // available for the failure path below.
+    // skeleton until its 6 second timeout. The static JSON paints first.
+    // Live items replace it only when the top stories actually change.
+    // Expired localStorage items stay available for the failure path below.
     const quiet = options.quiet === true;
     const serial = ++refreshSerial;
     const locale = currentLocale();
@@ -1691,7 +1772,7 @@ initAuth();
     fetchErrors = [];
     feedFailed = false;
     if (cached && staticBuckets) {
-      applyFeed(composeFeed(cached.items, staticBuckets), serial, cached.savedAt);
+      applyFeed(composeFeed(cached.items, staticBuckets), serial, cached.savedAt, { markStatic: true });
     } else if (cached && cached.items && cached.items.length) {
       const immediate = dedupeByTitle(cached.items.filter((item) => !isPromoItem(item)));
       if (immediate.length) applyFeed(immediate, serial, cached.savedAt);
@@ -1723,7 +1804,7 @@ initAuth();
       if (!localeSettled) {
         const interimNews = cached ? cached.items : null;
         const interim = composeFeed(interimNews, staticBuckets);
-        if (interim.length) applyFeed(interim, serial, cached ? cached.savedAt : Date.now());
+        if (interim.length) applyFeed(interim, serial, cached ? cached.savedAt : Date.now(), { markStatic: true });
       }
 
       const localized = await localizedPromise;
@@ -1751,7 +1832,8 @@ initAuth();
       applyFeed(
         items,
         serial,
-        localized ? Date.now() : (staleCached ? staleCached.savedAt : Date.now())
+        localized ? Date.now() : (staleCached ? staleCached.savedAt : Date.now()),
+        { markStatic: true, quietSwap: true }
       );
     } catch (err) {
       console.error('Feed refresh failed', err);
@@ -1767,7 +1849,10 @@ initAuth();
           ? composeFeed(staleCached ? staleCached.items : null, staticBuckets)
           : dedupeByTitle((staleCached && staleCached.items) || []);
         if (fallbackItems.length) {
-          applyFeed(fallbackItems, serial, staleCached ? staleCached.savedAt : Date.now());
+          applyFeed(fallbackItems, serial, staleCached ? staleCached.savedAt : Date.now(), {
+            markStatic: !!staticBuckets,
+            quietSwap: true,
+          });
           return;
         }
       } catch (fallbackErr) {
@@ -1988,10 +2073,14 @@ initAuth();
       if (!select || !menu || !trigger) return;
       if (badge) badge.textContent = localeBadge(select);
       trigger.classList.add('is-set');
-      const label = select.getAttribute('aria-label') || '';
-      if (label) {
-        trigger.setAttribute('aria-label', label);
-        trigger.setAttribute('title', select.getAttribute('title') || label);
+      const visible = (badge && badge.textContent.trim()) || localeBadge(select);
+      const described = select.getAttribute('aria-label') || '';
+      const accessible = visible
+        ? (described && described.indexOf(visible) !== 0 ? `${visible}, ${described}` : (described || visible))
+        : described;
+      if (accessible) {
+        trigger.setAttribute('aria-label', accessible);
+        trigger.setAttribute('title', accessible);
       }
       const open = trigger.getAttribute('aria-expanded') === 'true';
       renderLocaleMenu(select, menu);

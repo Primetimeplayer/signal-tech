@@ -11,7 +11,7 @@ import { runRedditFetcher } from '../scripts/fetch-reddit.js';
 import { runPapersFetcher } from '../scripts/fetch-papers.js';
 import { excerpt } from '../scripts/lib/excerpt.js';
 import { decodeEntities } from '../scripts/lib/decode-entities.js';
-import { storyImage } from '../scripts/lib/story-image.js';
+import { storyImage, enrichStoryImage, isUsableStoryImage, resetStoryImageLookups } from '../scripts/lib/story-image.js';
 
 const FIXED_TIME = '2025-01-02T03:04:05.000Z';
 const TEST_OPTIONS = { now: () => new Date(FIXED_TIME) };
@@ -332,6 +332,45 @@ test('story images keep http(s) pictures and drop everything else', () => {
     storyImage({ description: '<img src="https://cdn.example/d.jpg?a=1&#038;b=2">' }),
     'https://cdn.example/d.jpg?a=1&b=2'
   );
+});
+
+test('page lookup fills a missing image from og:image and caches the result', async (t) => {
+  const directory = await mkdtemp(path.join(os.tmpdir(), 'og-image-'));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  const cachePath = path.join(directory, 'og-images.json');
+  resetStoryImageLookups();
+  let fetches = 0;
+  const fetchImpl = async () => {
+    fetches += 1;
+    return {
+      ok: true,
+      text: async () => '<html><head><meta property="og:image" content="https://cdn.example/photos/story.jpg?w=1200"></head></html>',
+    };
+  };
+  const page = 'https://publisher.example.com/story';
+  const first = await enrichStoryImage({}, page, { fetchImpl, cachePath });
+  const second = await enrichStoryImage({}, page, { fetchImpl, cachePath });
+  assert.equal(first, 'https://cdn.example/photos/story.jpg?w=1200');
+  assert.equal(second, first);
+  assert.equal(fetches, 1);
+  assert.equal(isUsableStoryImage('https://cdn.example/logo.png'), false);
+  assert.equal(isUsableStoryImage('https://cdn.example/pixel.gif?w=1'), false);
+  assert.equal(
+    await enrichStoryImage(
+      { enclosure: { url: 'https://cdn.example/logo-mark.png', type: 'image/png' } },
+      'https://publisher.example.com/logo-story',
+      { fetchImpl, cachePath }
+    ),
+    first
+  );
+  assert.equal(fetches, 2);
+  const direct = await enrichStoryImage(
+    { 'media:content': { url: 'https://cdn.example/already.jpg' } },
+    'https://publisher.example.com/other',
+    { fetchImpl, cachePath }
+  );
+  assert.equal(direct, 'https://cdn.example/already.jpg');
+  assert.equal(fetches, 2);
 });
 
 test('papers writes a valid mocked arXiv response', async (t) => {

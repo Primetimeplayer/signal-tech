@@ -680,14 +680,21 @@ async function handleSaved(request, env) {
   );
 }
 
-function newsCorsHeaders() {
+function newsCorsHeaders(cacheControl = "no-store") {
   return {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Headers": "Content-Type",
     "Access-Control-Allow-Methods": "GET, OPTIONS",
-    "Cache-Control": "no-store",
+    "Cache-Control": cacheControl,
   };
 }
+
+// Google News answers the worker with 503 (datacenter block) and each try
+// can sit there until the isolate is killed, which is why /api/news took
+// ~26s and then 502'd. One attempt, aborted at 4s. Successes stay in
+// caches.default for 10 minutes so the next request does not wait on Google.
+const NEWS_UPSTREAM_MS = 4000;
+const NEWS_CACHE_SECONDS = 600;
 
 async function handleNewsFeed(request) {
   if (request.method !== "GET") {
@@ -701,39 +708,37 @@ async function handleNewsFeed(request) {
   const region = normalizeRegion(url.searchParams.get("region"));
   const language = normalizeLanguage(url.searchParams.get("language"));
   const feedUrl = googleNewsUrl(region, language);
+  const cacheKey = new Request(
+    `${url.origin}/api/news?region=${encodeURIComponent(region)}&language=${encodeURIComponent(language)}`,
+    { method: "GET" }
+  );
 
   try {
-    let response = null;
-    let lastStatus = 0;
-    // The page waits at most 6 seconds for this locale feed, then uses a
-    // stale localStorage copy or the statically built JSON. Stay inside that
-    // same budget, including retries.
-    const deadline = Date.now() + 6000;
-    for (let attempt = 0; attempt < 3; attempt++) {
-      const remaining = deadline - Date.now();
-      if (remaining <= 0) break;
-      try {
-        response = await fetch(feedUrl, {
-          redirect: "follow",
-          signal: AbortSignal.timeout(remaining),
-          headers: {
-            "User-Agent": "signal-personal-dashboard/1.0 (+https://github.com/Primetimeplayer/tech-dashboard)",
-            Accept: "application/rss+xml, application/xml, text/xml",
-          },
-        });
-      } catch (err) {
-        response = null;
-        lastStatus = 0;
-        break;
+    const cache = caches.default;
+    const hit = await cache.match(cacheKey);
+    if (hit) return hit;
+  } catch (err) {
+    // A cache miss is the normal path. Keep going to Google News.
+  }
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), NEWS_UPSTREAM_MS);
+
+  try {
+    const response = await fetch(feedUrl, {
+      redirect: "follow",
+      signal: controller.signal,
+      cf: { cacheTtl: 0 },
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; SignalTechBot/1.0; +https://primetimeplayer.github.io/signal-tech/)",
+        Accept: "application/rss+xml, application/xml, text/xml, */*",
+      },
+    });
+    if (!response.ok) {
+      if (response.body && response.body.cancel) {
+        try { await response.body.cancel(); } catch (cancelErr) { /* ignore */ }
       }
-      if (response.ok) break;
-      lastStatus = response.status;
-      await response.text();
-      response = null;
-      if (lastStatus !== 502 && lastStatus !== 503) break;
-    }
-    if (!response || !response.ok) {
-      throw new Error(`Google News ${lastStatus || "timed out"}`);
+      throw new Error(`Google News ${response.status}`);
     }
     const xml = await response.text();
     if (!/<(rss|feed|item)\b/i.test(xml)) {
@@ -748,28 +753,40 @@ async function handleNewsFeed(request) {
     if (!items.length) {
       throw new Error("Google News returned no items");
     }
-    return new Response(JSON.stringify({
+    const payload = JSON.stringify({
       updated: new Date().toISOString(),
       count: items.length,
       region,
       language,
       feedUrl,
       items,
-    }), {
+    });
+    const success = new Response(payload, {
       status: 200,
       headers: {
         "Content-Type": "application/json",
-        ...newsCorsHeaders(),
+        ...newsCorsHeaders(`public, max-age=${NEWS_CACHE_SECONDS}`),
       },
     });
+    try {
+      await caches.default.put(cacheKey, success.clone());
+    } catch (err) {
+      // Serving the fresh body matters more than storing it.
+    }
+    return success;
   } catch (err) {
-    return new Response(JSON.stringify({ error: err.message, feedUrl, region, language }), {
+    const message = err && err.name === "AbortError"
+      ? "Google News timed out"
+      : (err && err.message) || "Google News timed out";
+    return new Response(JSON.stringify({ error: message, feedUrl, region, language }), {
       status: 502,
       headers: {
         "Content-Type": "application/json",
         ...newsCorsHeaders(),
       },
     });
+  } finally {
+    clearTimeout(timer);
   }
 }
 

@@ -127,7 +127,7 @@ test('header region and language options match the feed locale list', async () =
   assert.match(html, /const LOCALE_LANGUAGE_KEY = 'language'/);
 });
 
-test('dynamic Google News fetch gives up after six seconds', async () => {
+test('dynamic Google News fetch aborts upstream after four seconds and caches success', async () => {
   const worker = await readFile(new URL('../cloudflare-worker/worker.js', import.meta.url), 'utf8');
   const locale = await readFile(new URL('../scripts/lib/news-locale.js', import.meta.url), 'utf8');
   const html = [
@@ -135,8 +135,10 @@ test('dynamic Google News fetch gives up after six seconds', async () => {
     await readFile(new URL('../public/assets/home.js', import.meta.url), 'utf8'),
   ].join('\n');
   assert.match(worker, /googleNewsUrl\(region, language\)/);
-  assert.match(worker, /const deadline = Date\.now\(\) \+ 6000/);
-  assert.match(worker, /AbortSignal\.timeout\(remaining\)/);
+  assert.match(worker, /const NEWS_UPSTREAM_MS = 4000/);
+  assert.match(worker, /setTimeout\(\(\) => controller\.abort\(\), NEWS_UPSTREAM_MS\)/);
+  assert.match(worker, /caches\.default/);
+  assert.match(worker, /const NEWS_CACHE_SECONDS = 600/);
   assert.match(worker, /Google News returned invalid XML/);
   assert.match(html, /const LOCALE_FETCH_MS = 6000/);
   assert.match(

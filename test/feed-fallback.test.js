@@ -15,7 +15,7 @@ const inlineHomeCss = homeCss
 const pageHtml = (await readFile(path.join(root, 'index.html'), 'utf8'))
   .replace(/<link rel="preconnect"[^>]*>/g, '')
   .replace(/<link href="https:\/\/fonts\.googleapis\.com[^>]*>/, '')
-  .replace('<link rel="stylesheet" href="assets/home.css">', inlineHomeCss);
+  .replace(/<link rel="stylesheet" href="assets\/home\.css"[^>]*>/, inlineHomeCss);
 
 const staticStory = {
   source: 'The Verge',
@@ -288,7 +288,7 @@ test('a six second RSS proxy timeout falls back to stale cache', async (t) => {
   assert.equal(dom.window.document.getElementById('retryFeed'), null);
 });
 
-test('missing and broken card images use a category SVG placeholder', async (t) => {
+test('missing and broken card images use a branded tile', async (t) => {
   const server = await startServer();
   const { port } = server.address();
   t.after(() => new Promise((resolve) => server.close(resolve)));
@@ -345,8 +345,8 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   if (pickImg) {
     assert.equal(pickImg.getAttribute('onerror'), 'signalImageFallback(this)');
     assert.equal(pickImg.getAttribute('referrerpolicy'), 'no-referrer');
-    assert.equal(pickImg.getAttribute('loading'), 'eager');
-    assert.equal(pickImg.getAttribute('width'), '72');
+    assert.equal(pickImg.getAttribute('loading'), 'lazy');
+    assert.equal(pickImg.getAttribute('width'), '96');
     assert.equal(pickImg.getAttribute('height'), '72');
     dom.window.signalImageFallback(pickImg);
   }
@@ -368,7 +368,7 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
     assert.equal(rowImg.getAttribute('loading'), 'lazy');
     assert.equal(rowImg.getAttribute('decoding'), 'async');
     assert.equal(rowImg.getAttribute('width'), '96');
-    assert.equal(rowImg.getAttribute('height'), '96');
+    assert.equal(rowImg.getAttribute('height'), '72');
     dom.window.signalImageFallback(rowImg);
   }
   const rowFallback = row.querySelector('.story-media.media-fallback');
@@ -380,7 +380,9 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   assert.match(rowMark.getAttribute('src'), /example\.test/);
 
   const omitted = [...doc.querySelectorAll('#feed .story-row')].find((card) => card.textContent.includes('Harbor'));
-  assert.ok(omitted.querySelector('.story-media.media-fallback svg'));
+  assert.ok(omitted.querySelector('.story-media.media-fallback.media-tile'));
+  assert.equal(omitted.querySelector('.media-tile-label').textContent, 'News');
+  assert.match(omitted.querySelector('.media-fallback-mark').getAttribute('src'), /example\.test/);
   assert.equal(omitted.querySelector('.story-thumb'), null);
 
   await waitFor(() => {
@@ -392,11 +394,11 @@ test('missing and broken card images use a category SVG placeholder', async (t) 
   assert.equal(style(hero).objectFit, 'cover');
   assert.equal(style(hero).height, '240px');
   assert.equal(style(rowFallback).width, '96px');
-  assert.equal(style(rowFallback).height, '96px');
+  assert.equal(style(rowFallback).height, '72px');
   assert.equal(style(rowFallback).objectFit, 'cover');
-  assert.equal(style(rowFallback).backgroundColor, 'rgb(243, 244, 246)');
-  assert.equal(style(pickFallback).width, '72px');
+  assert.equal(style(rowFallback).backgroundColor, 'rgb(26, 115, 232)');
+  assert.equal(style(pickFallback).width, '96px');
   assert.equal(style(pickFallback).height, '72px');
   assert.equal(style(pickFallback).objectFit, 'cover');
-  assert.equal(style(pickFallback).backgroundColor, 'rgb(243, 244, 246)');
+  assert.equal(style(pickFallback).backgroundColor, 'rgb(26, 115, 232)');
 });

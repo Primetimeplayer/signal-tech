@@ -2041,9 +2041,9 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
     for (const thumb of media.thumbs) {
       assert.match(thumb.src, /^https?:\/\//, 'Thumbnail src must be an http(s) image URL');
       assert.equal(thumb.width, 96, 'Feed thumbnail must be 96px wide');
-      assert.equal(thumb.height, 96, 'Feed thumbnail must be 96px tall');
+      assert.equal(thumb.height, 72, 'Feed thumbnail must be 72px tall');
       assert.equal(thumb.fit, 'cover', 'Feed thumbnail must use object-fit: cover');
-      assert.equal(thumb.radius, '12px', 'Feed thumbnail must use a 12px corner radius');
+      assert.equal(thumb.radius, '8px', 'Feed thumbnail must use an 8px corner radius');
       assert.equal(thumb.rightOfText, true, 'Feed thumbnail must sit to the right of the story text');
     }
     const picks = await driver.executeScript(`
@@ -2081,7 +2081,7 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
       assert.ok(pick.time.length > 0, 'Pick cards must show a relative timestamp');
       if (!pick.hasImg) continue;
       assert.match(pick.src, /^https?:\/\//, 'Pick thumbnail src must be an http(s) image URL');
-      assert.equal(pick.width, 72, 'Pick thumbnail must be 72px wide');
+      assert.equal(pick.width, 96, 'Pick thumbnail must be 96px wide');
       assert.equal(pick.height, 72, 'Pick thumbnail must be 72px tall');
       assert.equal(pick.fit, 'cover', 'Pick thumbnail must use object-fit: cover');
       assert.equal(pick.radius, '8px', 'Pick thumbnail must use an 8px corner radius');
