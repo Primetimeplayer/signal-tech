@@ -61,8 +61,88 @@
   .footer-legal a:hover { color: #1a73e8; }
 
   .signup { padding: 8px 0 28px; }
-  .signup h2 { margin: 0 0 12px; }
-  .signup iframe { display: block; width: 100%; max-width: 480px; border: 0; background: transparent; }
+  .newsletter-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px 16px;
+    width: 100%;
+    margin: 0;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    background: #3a3f45;
+    color: #f3f4f6;
+    border: 0;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .signup .newsletter-card h2 {
+    flex: 0 1 auto;
+    max-width: 100%;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.35;
+    color: #f3f4f6;
+  }
+  .newsletter-embed {
+    position: relative;
+    flex: 1 1 280px;
+    width: 100%;
+    max-width: 600px;
+    height: 52px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    line-height: 0;
+    background: #3a3f45;
+  }
+  .signup .newsletter-embed iframe {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background: transparent;
+  }
+  .newsletter-embed::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: calc(100% - 100px);
+    box-sizing: border-box;
+    border: 3px solid #3a3f45;
+    border-radius: 6px 0 0 6px;
+    pointer-events: none;
+  }
+  .newsletter-subscribe {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: #3a3f45;
+    color: #f3f4f6;
+    border-radius: 0 6px 6px 0;
+    font: 600 14px/1 Inter, ui-sans-serif, system-ui, sans-serif;
+    pointer-events: none;
+    user-select: none;
+  }
   .footer-contact { margin: 0 0 10px; }
   .footer-contact a { color: #5f6368; font-weight: 600; text-decoration: none; }
   .footer-contact a:hover { color: #1a73e8; }
@@ -117,13 +197,18 @@
 </article>
 <section class="signup" aria-labelledby="newsletterTitle">
   <div class="wrap">
-    <h2 id="newsletterTitle">Get Signal Tech in your inbox</h2>
-    <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="52" width="100%" frameborder="0" scrolling="no"></iframe>
+    <div class="newsletter-card">
+      <h2 id="newsletterTitle">Get Signal Tech in your inbox</h2>
+      <div class="newsletter-embed">
+        <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no"></iframe>
+        <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+      </div>
+    </div>
   </div>
 </section>
 <footer>
   <div class="wrap">
-    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signal-tech" rel="me noopener">LinkedIn</a></p>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
     <nav class="footer-legal" aria-label="Publication">
       <a href="about.html">About</a>
       <a href="editorial.html">Editorial</a>
