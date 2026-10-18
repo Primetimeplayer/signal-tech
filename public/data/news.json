@@ -1,7 +1,61 @@
 {
-  "updated": "2026-10-18T06:16:17.757Z",
-  "count": 85,
+  "updated": "2026-10-18T12:13:40.469Z",
+  "count": 80,
   "items": [
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "300-plus local data center bans have only delayed just three US projects",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/300-plus-local-data-center-bans-have-only-delayed-just-three-us-projects-bans-much-more-bark-than-bite-only-2-3-gigawatts-of-data-centers-are-held-up-versus-38-gigawatts-expected-online-in-2027",
+      "published": "Sun, 18 Oct 2026 11:45:00 +0000",
+      "summary": "SemiAnalysis mapped more than 300 local data center moratoriums against the US pipeline and found only three projects actually delayed.",
+      "image": "https://cdn.mos.cms.futurecdn.net/LRwmwu7XEdDMQkb8uQgofm-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "published": "Sun, 18 Oct 2026 11:25:00 +0000",
+      "summary": "Anthropic's proposal requires evaluators to report any imminent risk to the Department of Commerce within 72 hours, after which the Department must present the evidence to a federal judge and await an order.",
+      "image": "https://cdn.mos.cms.futurecdn.net/SVPa8KkaDwkeyAtLnMhyKW-1920-80.png"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Researchers train AI to detect concealed handguns using Wi-Fi signals",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-train-ai-to-detect-concealed-handguns-using-wi-fi-signals-open-source-wifirenet-achieves-precision-detection-on-older-802-11a-standard-by-analyzing-how-weapons-distort-wireless-signals",
+      "published": "Sun, 18 Oct 2026 11:00:00 +0000",
+      "summary": "Researchers have developed WiFireNet, an AI system that detects concealed handguns from Wi-Fi channel-state information, achieving 72.5% average precision in controlled indoor tests without cameras or metal detectors.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kfvNwDT4D6jpoBvqVwPdcE-1920-80.webp"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+      "link": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+      "published": "Sun, 18 Oct 2026 10:30:00 +0000",
+      "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+      "image": "https://media.wired.com/photos/6ad240695195eb0dd6087017/master/pass/101626_Naughty%20Meta%20Muse%20OnlyFans.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
+      "link": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
+      "published": "Sun, 18 Oct 2026 10:30:00 +0000",
+      "summary": "Amid a wave of backlash, some industry-friendly groups are employing creative and time-tested strategies to woo the youth.",
+      "image": "https://media.wired.com/photos/6ad250c5e76c5dde4c61ba83/master/pass/101626-Power%20Play.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Liquid Swords, developer of open-city crime sim Samson, has gone bankrupt following staff claims that they haven't been paid in two months",
+      "link": "https://www.pcgamer.com/gaming-industry/liquid-swords-developer-of-open-city-crime-sim-samson-has-gone-bankrupt-following-staff-claims-that-they-havent-been-paid-in-two-months/",
+      "published": "Sun, 18 Oct 2026 09:50:29 +0000",
+      "summary": "The administrator is currently seeking a buyer for the studio and its assets.",
+      "image": "https://cdn.mos.cms.futurecdn.net/c3XaG7583gHQj3hZfsQNXm-1920-80.jpg"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -111,15 +165,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/FU8d7YHmC7dfR8teRCJXrK-1920-80.jpg"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
-      "published": "Sat, 17 Oct 2026 13:21:20 +0000",
-      "summary": "HUMXN wants to pay for maintenance and repair services for homes in Minneapolis, Chicago, and Miami to gather data to train AI models and robots.",
-      "image": "https://cdn.mos.cms.futurecdn.net/neaZTrreV5EBmYCZpbZCoH-1920-80.png"
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "Websites are closing their doors to AI agents",
@@ -136,24 +181,6 @@
       "published": "2026-10-17T13:00:00.000Z",
       "summary": "Bose has me thinking I’m in my 20s again with its wired earbuds. After Apple courageously removed the headphone jack from the iPhone in 2016, most people switched to Bluetooth earbuds and never looked back. But their wired counterparts…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268806_Bose-Noise-Cancelling-Wired-Earbuds_1.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "This week on Tom's Hardware Premium: October 17, 2026",
-      "link": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-17-2026-packaging-roadmaps-chinese-dgx-spark-rival-emerges-and-digging-into-asmls-earnings",
-      "published": "Sat, 17 Oct 2026 13:00:00 +0000",
-      "summary": "This week, Tom's Hardware Premium subscribers can read our EMIB and Foveros roadmaps, the latest on Chinese competition in the local AI system space, and much more.",
-      "image": "https://cdn.mos.cms.futurecdn.net/GZMmaG88xhwUumeVf4ej55-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Taiwan targets illicit AI server exports to China with five-year prison terms",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid",
-      "published": "Sat, 17 Oct 2026 12:20:00 +0000",
-      "summary": "Taiwan is expanding the Foreign Trade Act to include AI servers and semiconductors in its list of controlled exports.",
-      "image": "https://cdn.mos.cms.futurecdn.net/7SnFY4DF33SPY5kRM8YR2e-1920-80.png"
     },
     {
       "source": "PC Gamer",
@@ -183,42 +210,6 @@
       "image": "https://media.wired.com/photos/6ad14bcb1efa7811b4f5a5a5/master/pass/Kernel-Panic-Encription-Being-Squeezed-to-Death-Security.jpg"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Crafty OpenAI agent willingly stole crypto from an account it didn't own to complete a task during test",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-took-eth-from-another-account-without-authorization-justified-stealing-in-its-chain-of-thought",
-      "published": "Sat, 17 Oct 2026 12:00:00 +0000",
-      "summary": "GPT5.6-Sol didn't have funds to deploy smart contracts, so it looked for exposed accounts with enough money to pay for the gas fees.",
-      "image": "https://cdn.mos.cms.futurecdn.net/hsZx5kEavBi3nnzHpf7DvC-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Game decompilation hub freezes leaderboard after AI turns progress into a hollow numbers game amid explosion of 'AI slop'",
-      "link": "https://www.tomshardware.com/video-games/retro-gaming/game-decompilation-tracker-decomp-dev-shuts-its-public-leaderboard-saying-ai-has-broken-the-community-its-creator-blames-forks-that-use-ai-to-finish-other-teams-projects-and-races-to-ship-rough-pc-ports",
-      "published": "Sat, 17 Oct 2026 11:30:00 +0000",
-      "summary": "decomp.dev has closed its public index of game decompilation projects, saying AI-driven forks and ports broke the community.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ncoxUFp5HXyLw8EqeEC8qN-1920-80.jpg"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles",
-      "link": "https://www.pcgamer.com/gaming-industry/funcom-is-laying-off-yet-more-developers-as-it-pivots-to-supporting-dune-awakening-and-conan-exiles/",
-      "published": "Sat, 17 Oct 2026 10:32:05 +0000",
-      "summary": "CEO Rui Casais to depart the company at the end of the year.",
-      "image": "https://cdn.mos.cms.futurecdn.net/irSvo2gYDFsSuExgb6RG5X-1920-80.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
-      "link": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
-      "published": "Sat, 17 Oct 2026 09:00:00 +0000",
-      "summary": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
-      "image": "https://media.wired.com/photos/6acf63d6b06331734b2e70d7/master/pass/Physical%20Genome%20cr-Samuel%20Velasco%20and%20Hannah%20Waters_Quanta%20Magazine-Lede.jpg"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Amazon wants you to Bee-lieve wearable AI can recall it all for you",
@@ -235,15 +226,6 @@
       "published": "Sat, 17 Oct 2026 09:29:00 +0200",
       "summary": "ClearSpace UK aims to be operational in 2029 with public's suggestion etched on the side of the spacecraft",
       "image": "https://image.theregister.com/?imageId=5303566&width=800"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood",
-      "link": "https://www.pcgamer.com/software/ai/tech-founder-vibe-codes-game-about-shooting-zombies-in-san-franciscos-poorest-neighborhood/",
-      "published": "Fri, 16 Oct 2026 23:53:11 +0000",
-      "summary": "City residents and leaders denounced the free web game, which was taken down.",
-      "image": "https://cdn.mos.cms.futurecdn.net/p9AmuwXbiHB432WuTdwcNi-1920-80.webp"
     },
     {
       "source": "Ars Technica",
@@ -291,15 +273,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/steve-cash-photo.jpg?w=1638"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "Katie Zacharia Was Linked to an AI Rare-Earths Startup. It’s Even Weirder Than It Sounds",
-      "link": "https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/",
-      "published": "Fri, 16 Oct 2026 20:05:08 +0000",
-      "summary": "The short-lived White House press secretary was listed as an adviser to a Kristi Noem–linked company that aims to use AI for mining. Both the company and she say she never worked there.",
-      "image": "https://media.wired.com/photos/6ad24f19ed303ecbe8441980/master/pass/GettyImages-2299989251.jpg"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
@@ -345,15 +318,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "Razer Barracuda V2 Pro Review: A Gaming Headset for the Office",
-      "link": "https://www.wired.com/review/razer-barracuda-v2-pro/",
-      "published": "Fri, 16 Oct 2026 16:30:00 +0000",
-      "summary": "The Razer Barracuda V2 Pro headset has a place in the office as well as at your gaming battle station.",
-      "image": "https://media.wired.com/photos/6ad23b95526f09405ee8956f/master/pass/Razer%20Barracuda%20V2%20Pro%20Review%20102026%20top%20art%20SOURCE%20Amazon.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "Artemis II Heat Shield After Splashdown",
@@ -397,15 +361,6 @@
       "published": "Fri, 16 Oct 2026 17:00:00 +0200",
       "summary": "SPONSORED POST: As AI hunger soars, NTT Global Data Centers finds it's permits, not parts, that could cap the datacenter boom",
       "image": "https://image.theregister.com/?imageId=5303404&width=800"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Uncle Scam Wants You … to cough up your cash and personal data, FBI warns ahead of midterms",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/16/uncle-scam-wants-you-to-cough-up-your-cash-and-personal-data-fbi-warns-ahead-of-midterms/5303512",
-      "published": "Fri, 16 Oct 2026 16:30:00 +0200",
-      "summary": "The inevitable election-themed cyberattacks are whirring again, as the feds issue PSA about the ones to watch out for",
-      "image": "https://image.theregister.com/?imageId=222504&width=800"
     },
     {
       "source": "NASA",
@@ -458,7 +413,7 @@
       "title": "This implant can restore sight for patients with macular degeneration",
       "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
       "published": "Fri, 16 Oct 2026 09:00:00 +0000",
-      "summary": "More than 5 million people around the world have an advanced form of age-related macular degeneration (AMD) called geographic atrophy, in which cells in the retinas die off. And until now, no treatment could restore their vision. The PRIMA…",
+      "summary": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/ND26-dl_mapped.png?w=840"
     },
     {
