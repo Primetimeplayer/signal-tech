@@ -1,15 +1,321 @@
 {
-  "updated": "2026-10-19T06:24:43.261Z",
-  "count": 78,
+  "updated": "2026-10-19T16:20:10.963Z",
+  "count": 82,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "People are using AI to make their smart TVs dumb again",
+      "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "published": "Mon, 19 Oct 2026 16:13:22 +0000",
+      "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/05/Google-TV.jpeg?w=1200"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "VBIOS on RTX cards can be modified without flashing thanks to a solo developer’s project",
+      "link": "https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration",
+      "published": "Mon, 19 Oct 2026 16:13:19 +0000",
+      "summary": "Flashing the VBIOS is risky and can brick a GPU, but this VBIOS configurator uses an Nvidia register key to override VBIOS settings without flashing.",
+      "image": "https://cdn.mos.cms.futurecdn.net/YFFrf4eYE3Q6QpkEfGBua5-1920-80.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Apple teases MacBook Pro event next week",
+      "link": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement",
+      "published": "2026-10-19T16:04:29.000Z",
+      "summary": "Apple has sent invites to a second product launch this month, and it's scheduled for October 28th at 1PM ET in Los Angeles. At the event, Apple is set to announce new Macs and a refreshed iPad Mini, according to Bloomberg. The big…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/pro.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+      "link": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+      "published": "Mon, 19 Oct 2026 16:00:00 +0000",
+      "summary": "Around 80 pages on WhatsApp’s website exposed instructions that were designed for its chatbot, including “WHAT NOT TO SAY.” Meta says a bug caused the issue.",
+      "image": "https://media.wired.com/photos/6ad61af88d7b5cce41c3ec77/master/pass/GettyImages-2262950720.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "published": "Mon, 19 Oct 2026 15:37:09 +0000",
+      "summary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2183848501.jpg?resize=1200,800"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "A Chinese hacker used AI agents to break into more than 100 company websites",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-chinese-hacker-used-ai-agents-to-break-into-more-than-100-company-websites-deere-and-sharkninja-among-websites-hit-by-open-source-ai-powered-problem-solving-platform-demo",
+      "published": "Mon, 19 Oct 2026 15:36:50 +0000",
+      "summary": "A Chinese hacker reportedly used a fleet of AI agents to break into more than 100 company websites, including farm equipment maker Deers and appliance outfit SharkNinja.",
+      "image": "https://cdn.mos.cms.futurecdn.net/A7Q3HWnLkUvNjuKTfUNdPA-1920-80.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "published": "Mon, 19 Oct 2026 14:45:43 +0000",
+      "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2018/06/getty-disney-1152x648.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
+      "link": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
+      "published": "Mon, 19 Oct 2026 14:35:01 +0000",
+      "summary": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/848413061_1584132123754825_2260017497965151960_n.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+      "link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "published": "2026-10-19T14:30:00.000Z",
+      "summary": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Major European mobile carriers are teaming up for a ‘direct’ satellite program without Starlink",
+      "link": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink",
+      "published": "2026-10-19T14:24:42.000Z",
+      "summary": "Deutsche Telekom, Orange, Telefónica, and Vodafone signed a letter of intent saying they're considering a joint bid for spectrum that would support European direct-to-device satellite competition for SpaceX's Starlink. The four telecom…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK450_EU_E.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Elon Musk promises to give one SpaceX share to every child in the US",
+      "link": "https://www.theverge.com/tech/1013667/elon-musk-space-x-shares-us-children",
+      "published": "2026-10-19T14:20:11.000Z",
+      "summary": "Elon Musk says he plans to give one of his SpaceX shares to every child in the US starting next year. With around 72 million children in the US as of July 2025, Musk would be giving away about $10.5 billion worth of shares, according to a…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_F.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "published": "2026-10-19T13:58:41.000Z",
+      "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Krebs on Security",
+      "category": "news",
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "published": "Mon, 19 Oct 2026 13:48:56 +0000",
+      "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations…",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shinywire-home.png"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "This is the first RTX 5060 Ti gaming PC I've seen for anywhere near $1,000 for quite a while, and I'd still pick it up despite the catch",
+      "link": "https://www.pcgamer.com/hardware/gaming-pcs/this-is-the-first-rtx-5060-ti-gaming-pc-ive-seen-for-anywhere-near-usd1-000-for-a-long-time-and-id-still-pick-it-up-despite-the-catch/",
+      "published": "Mon, 19 Oct 2026 13:35:55 +0000",
+      "summary": "It's still worth it if you're on a budget, despite the single stick of DDR4.",
+      "image": "https://cdn.mos.cms.futurecdn.net/bTiGbpx3qiE7Cq933mCNJF-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "French rioters ransack eSports team premises and are seen looting RAM sticks from PCs",
+      "link": "https://www.tomshardware.com/video-games/pc-gaming/french-rioters-ransack-esports-team-premises-and-are-seen-looting-ram-sticks-from-pcs-team-vitalitys-v-hive-paris-hq-was-wrecked-during-unrest",
+      "published": "Mon, 19 Oct 2026 13:32:42 +0000",
+      "summary": "Leading French eSports club Team Vitality has confirmed that its Paris HQ has been smashed up, with trophies, computer equipment, and more looted over the weekend.",
+      "image": "https://cdn.mos.cms.futurecdn.net/6hjhRxi7uiQjAYTCrxbcnK-1920-80.jpg"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "The Robot I Didn’t Expect to Build",
+      "link": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+      "published": "Mon, 19 Oct 2026 13:00:03 +0000",
+      "summary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing…",
+      "image": "https://spectrum.ieee.org/media-library/author-jonathan-hurst-a-tall-slim-white-man-wearing-a-black-long-sleeve-shirt-and-dark-jeans-stands-next-to-his-digit-5-humano.jpg?id=68441166&width=980"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Apple updates guidelines to ban nudify apps masquerading as regular apps to pass review",
+      "link": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
+      "published": "Mon, 19 Oct 2026 12:56:14 +0000",
+      "summary": "Apple said that it will ban AI apps that don't moderate offensive content.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/01/app-store-2024-v1.jpg?resize=1200,675"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
+      "link": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
+      "published": "Mon, 19 Oct 2026 12:42:55 +0000",
+      "summary": "That's more than $10 billion in shares, or around 1% of Musk's current net worth.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/elon-nasdaq-spacex-ipo.jpg?resize=1200,801"
+    },
     {
       "source": "The Register",
       "category": "news",
-      "title": "ICANN vows to work faster, improve transparency",
-      "link": "https://www.theregister.com/networks/2026/10/19/icann-vows-to-work-faster-improve-transparency/5303751",
-      "published": "Mon, 19 Oct 2026 05:28:34 +0200",
-      "summary": "Leaders expect AI and geopolitics will throw up more governance challenges and threats",
-      "image": "https://image.theregister.com/?imageId=252831&width=800"
+      "title": "Microsoft abandons UK AI supercomputer as grid struggles to keep up",
+      "link": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
+      "published": "Mon, 19 Oct 2026 14:15:48 +0200",
+      "summary": "Tech giant walks away from flagship Essex project as power connection delays threaten to leave nation's AI ambitions waiting until the 2030s",
+      "image": "https://image.theregister.com/?imageId=240959&width=800"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "link": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
+      "published": "Mon, 19 Oct 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James Temple In July…",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c9.png"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen",
+      "link": "https://www.pcgamer.com/hardware/ps5-exclusive-demons-souls-remake-not-only-runs-on-pc-now-its-running-at-twice-the-fps-cap-on-an-rtx-5070-with-frame-gen/",
+      "published": "Mon, 19 Oct 2026 12:01:04 +0000",
+      "summary": "It could be smoother but double the frames is nothing to sniff at.",
+      "image": "https://cdn.mos.cms.futurecdn.net/xhQmSwMGCL3T3ANrTdHzYb-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Claude Code AI agent caught a crypto miner hiding on a developer’s overheating Mac",
+      "link": "https://www.tomshardware.com/tech-industry/cryptomining/claude-code-ai-agent-caught-a-crypto-miner-hiding-on-a-developers-overheating-mac-xmrig-task-was-hogging-about-1175-percent-cpu-roughly-12-cores-pushing-temps-to-112-degrees",
+      "published": "Mon, 19 Oct 2026 11:36:20 +0000",
+      "summary": "A developer using Claude Code to help build a temperature monitor app was warned by the coding agent about a hidden crypto miner running on their system.",
+      "image": "https://cdn.mos.cms.futurecdn.net/QNNat83JqoZDqE7W9nvJfd-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Broadcom Wi-Fi bug turns sweet 16, still lets strangers hijack your router",
+      "link": "https://www.theregister.com/networks/2026/10/19/broadcom-wi-fi-bug-turns-sweet-16-still-lets-strangers-hijack-your-router/5303771",
+      "published": "Mon, 19 Oct 2026 13:28:16 +0200",
+      "summary": "Chip giant knew about the flaw in 2018, researcher claims, but millions of devices may still be vulnerable",
+      "image": "https://image.theregister.com/?imageId=5303787&width=800"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "RTX 5090 not dead, says Nvidia—but it's mysteriously vanished from the company's official marketplace",
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/rtx-5090-not-dead-says-nvidia-but-its-mysteriously-vanished-from-the-companys-official-marketplace/",
+      "published": "Mon, 19 Oct 2026 11:12:36 +0000",
+      "summary": "Another Schrödinger's graphics card?",
+      "image": "https://cdn.mos.cms.futurecdn.net/nZAQu9r9L63cUZYG8y4hsE-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Arm says its AGI CPU delivers nearly 2X the performance per rack of AMD EPYC 9755 in new agentic AI CPU tests",
+      "link": "https://www.tomshardware.com/pc-components/cpus/arm-claims-agi-cpu-delivers-double-the-performance-per-rack-of-amd-epyc-9755-in-independent-analysis-new-cpu-evaluation-methodology-developed-by-arm-evaluates-agentic-ai-performance-across-seven-workloads",
+      "published": "Mon, 19 Oct 2026 11:00:00 +0000",
+      "summary": "Arm claims its AGI CPU delivers nearly 2X the modeled rack performance of AMD’s EPYC 9755 across seven agentic AI workloads, using a new evaluation methodology developed with Fujitsu, Meta, and OpenAI",
+      "image": "https://cdn.mos.cms.futurecdn.net/WZWmFdfwr99E5o9CwZc6nM-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Score a budget gaming monitor with a blistering 200Hz refresh rate for just $79",
+      "link": "https://www.tomshardware.com/monitors/gaming-monitors/score-a-budget-gaming-monitor-with-a-blistering-200hz-refresh-rate-for-just-usd79-25-inch-ultragear-g5-reduced-by-a-staggering-47-percent-in-walmart-discount",
+      "published": "Mon, 19 Oct 2026 10:53:38 +0000",
+      "summary": "With 47% off the list price, LG's UltrGear G5 gaming monitor is the perfect impulse purchase at just $79. An IPS panel, a 200Hz refresh rate, and FHD resolution for an unbelievable price.",
+      "image": "https://cdn.mos.cms.futurecdn.net/5wbnAk2NV3Pe4HYsYz9bG3-1920-80.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "How the Xbox’s Disc-to-Digital Program Works",
+      "link": "https://www.wired.com/story/xbox-disc-to-digital/",
+      "published": "Mon, 19 Oct 2026 10:30:00 +0000",
+      "summary": "Microsoft is letting players digitize their game discs for free, but don't sell your physical collection just yet.",
+      "image": "https://media.wired.com/photos/6ac9144496a91d67fca310c1/master/pass/Xbox%20Disc.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Save $500 on this 1440p gaming PC with an RTX 5070, now under $1,800",
+      "link": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd500-on-this-1440p-gaming-pc-with-an-rtx-5070-now-under-usd1-800-abs-flux-ii-aqua-rig-ships-with-a-20-core-intel-cpu-32gb-ddr5-and-a-1tb-ssd",
+      "published": "Mon, 19 Oct 2026 10:01:38 +0000",
+      "summary": "This Newegg deal on an ABS Flux II Aqua gaming PC gives you a machine ready for 1440p and 4K gameplay for $1,799.99. This pre-built comes with a 20-core Intel Core i7-14700F CPU, an Nvidia GeForce RTX 5070, a 1TB SSD, and 32GB of DDR5 RAM.",
+      "image": "https://cdn.mos.cms.futurecdn.net/NFSxQrkqFyc5vtLLKu7Cx3-1920-80.png"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
+      "link": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/?utm_source=IEEE",
+      "published": "Mon, 19 Oct 2026 10:00:04 +0000",
+      "summary": "This white paper explains how edge AI and physical AI help cities move beyond passive monitoring. It shows how urban infrastructure can sense, reason, and act on real-time conditions across public safety, mobility, and infrastructure…",
+      "image": "https://assets.rbl.ms/68424848/origin.png"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Russian military satellite closes from 200 miles to 3 miles of US radar craft aiding Ukraine",
+      "link": "https://www.tomshardware.com/tech-industry/space/russian-military-satellite-closes-from-200-miles-to-3-miles-of-us-radar-satellite-aiding-ukraine-astronomer-says-it-may-be-the-first-unapproved-rendezvous-in-low-earth-orbit",
+      "published": "Mon, 19 Oct 2026 10:00:00 +0000",
+      "summary": "Russia’s Cosmos 2612 moved from more than 200 miles to about three miles from ICEYE-X36, a U.S.-owned radar satellite.",
+      "image": "https://cdn.mos.cms.futurecdn.net/hDYHoCwU9K6yfsUBaurBzf-1920-80.jpg"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "published": "Mon, 19 Oct 2026 09:08:05 +0000",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland_embed1.png?w=840"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
+      "link": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+      "published": "Mon, 19 Oct 2026 09:00:00 +0000",
+      "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
+      "image": "https://media.wired.com/photos/6acfe36ba2733753393886b8/master/pass/Disney-Asked-Character.AI-to-Go-Bankrupt-Business-1530260396.jpg"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "How far can we push computing?",
+      "link": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/",
+      "published": "Mon, 19 Oct 2026 09:00:00 +0000",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. On the evening of December 29, 1959, at an…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-90743946.jpg?w=840"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AI’s epic cash call is matched only by its ability to strangle revenue streams",
+      "link": "https://www.theregister.com/columnists/2026/10/19/ais-epic-cash-call-is-matched-only-by-its-ability-to-strangle-revenue-streams/5303493",
+      "published": "Mon, 19 Oct 2026 10:30:00 +0200",
+      "summary": "The first technology created with a self-disrupt button... But why oh why didn't they call Claude clone Fauxtoshop?",
+      "image": "https://image.theregister.com/?imageId=5270706&width=800"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AI inference is running into a memory bottleneck. Huawei wants to tackle it with OceanStor M900",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/19/sponsored-ai-inference-is-running-into-a-memory-bottleneck-huawei-wants-to-tackle-it-with-oceanstor-m900/5303543",
+      "published": "Mon, 19 Oct 2026 10:00:00 +0200",
+      "summary": "SPONSORED POST: The Context Memory Storage platform aims to improve the economics of large-scale AI inference",
+      "image": "https://image.theregister.com/?imageId=5303545&width=800"
     },
     {
       "source": "PC Gamer",
@@ -21,15 +327,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/FrgMgQ2p7MyoQneDwiatAg-1920-80.png"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
-      "link": "https://www.theregister.com/virtualization/2026/10/19/linux-kvm-guest-host-escape-rated-critical-may-represent-a-new-way-to-attack-penguin-powered-networking/5303744",
-      "published": "Mon, 19 Oct 2026 02:33:00 +0200",
-      "summary": "Party like it’s CVE-2026-99999 – a 9.3-rated nasty called PwnEscape",
-      "image": "https://image.theregister.com/?imageId=5265166&width=800"
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
@@ -39,15 +336,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/yLUJefzpgZfJpEoPzUUMXU-1920-80.jpg"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "A woman was arrested in Philly for blocking a delivery robot",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
-      "published": "2026-10-18T18:28:10.000Z",
-      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/avride-uber-delivery.webp?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Disney agrees to hire the majority of Character.AI’s workforce",
@@ -55,15 +343,6 @@
       "published": "Sun, 18 Oct 2026 16:30:00 +0000",
       "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
       "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Video game ownership bill introduced in Congress",
-      "link": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
-      "published": "2026-10-18T16:27:51.000Z",
-      "summary": "Rep. Ritchie Torres of New York's 15th congressional district in the Bronx introduced the Power To The Players Act this week. If passed, the bill would direct the Federal Trade Commission to establish regulations that guarantee consumers…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25544255/2162439650.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "Ars Technica",
@@ -80,7 +359,8 @@
       "title": "TechCrunch Mobility: Rivian’s next act",
       "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
       "published": "Sun, 18 Oct 2026 16:05:00 +0000",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it."
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Techcrunch-disrupt-RJ-Scaringe.jpg?resize=1200,801"
     },
     {
       "source": "Tom's Hardware",
@@ -92,123 +372,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/BeW2F22fUfKmgBpAPSsk2m-1920-80.jpg"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
-      "link": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale",
-      "published": "2026-10-18T15:00:00.000Z",
-      "summary": "The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS screen (1080p and up to 120Hz versus 800p and 90Hz…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/lenovo-legion-go-s-steamos-sean-hollister-331A1224.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts",
-      "link": "https://www.pcgamer.com/gaming-industry/there-were-a-lot-of-disagreements-across-the-place-former-marathon-director-joe-ziegler-on-leading-bungies-extraction-shooter-playing-path-of-exile-for-3-437-hours-and-why-hell-never-uninstall-kingdom-hearts/",
-      "published": "Sun, 18 Oct 2026 15:00:00 +0000",
-      "summary": "The former game director of both Marathon and Valorant guides us through the games on his PC.",
-      "image": "https://cdn.mos.cms.futurecdn.net/BDvidK6magBf2nfHxuXNgZ-1920-80.png"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Cinebench world record that stood for 12 years gets toppled",
-      "link": "https://www.tomshardware.com/pc-components/overclocking/cinebench-world-record-that-stood-for-12-years-gets-toppled-oc-expert-scores-10-8cb-in-cinebench-r11-5-using-an-intel-core-i5-4670k-at-6-3-ghz",
-      "published": "Sun, 18 Oct 2026 14:02:53 +0000",
-      "summary": "You don’t need the latest and greatest PC hardware to have fun or even break overclocking world records, as Luumi shows with an ancient Haswell system.",
-      "image": "https://cdn.mos.cms.futurecdn.net/5yLHMN7tWJcvq9LXXpfN5m-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Asus ROG Strix XG27AQGNV 27-inch G-Sync Pulsar gaming monitor review: Super smooth with unprecedented control",
-      "link": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-strix-xg27aqgnv-27-inch-g-sync-pulsar-gaming-monitor-review",
-      "published": "Sun, 18 Oct 2026 13:25:00 +0000",
-      "summary": "Asus delivers its take on G-Sync Pulsar with the ROG Strix XG27AQGNV. This 27-inch IPS panel sports smooth motion with 360 Hz, QHD resolution, HDR and wide gamut color.",
-      "image": "https://cdn.mos.cms.futurecdn.net/vPg2gdJvpXV3XvcUGrTzW6-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Nvidia RTX 5090 shipment worth $470,000 goes missing in Brazilian airport",
-      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-shipment-worth-usd470-000-goes-missing-in-brazilian-airport-two-pallets-disappear-distributor-seeks-explanations-but-met-with-zero-answers",
-      "published": "Sun, 18 Oct 2026 13:24:23 +0000",
-      "summary": "Brazilian electronics and IT distributor Oderço claims that two pallets of Zotac RTX 5090 GPUs have arrived at the airport but has since completely disappeared.",
-      "image": "https://cdn.mos.cms.futurecdn.net/g6GuNaVQYV63v7z4CrSphL-1920-80.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The best gadget I bought this year is a milk frother",
-      "link": "https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget",
-      "published": "2026-10-18T13:00:00.000Z",
-      "summary": "Back in February, I went to Los Angeles to take in some art and stayed in Koreatown. Down the street from my hotel, there was this little coffee shop - Stagger - that is, I think, best known for its matcha, which is good. But the drink I…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/96D2EEC6-09F7-402B-B1A3-F1030ADD0D90_1_105_c.jpeg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "How overhead projectors took over your classroom",
-      "link": "https://www.theverge.com/podcast/1013473/overhead-projector-version-history",
-      "published": "2026-10-18T12:55:01.000Z",
-      "summary": "It used to be so easy to get away with things in school. The teacher, after all, was always turned around writing at the chalkboard! But then came a bit of technology, previously mostly used for military purposes, called the overhead…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VRH_Overhead_Site.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Web-based chip fab engineering game goes viral in Taiwan",
-      "link": "https://www.tomshardware.com/video-games/pc-gaming/chip-fab-engineering-game-goes-viral-in-taiwan-realistic-and-stressful-simulation-is-basically-a-horror-game-say-some-players",
-      "published": "Sun, 18 Oct 2026 12:50:33 +0000",
-      "summary": "A new 3D web game where you live 'A Day in the Life of a Semiconductor Wafer Factory Worker' has gone viral in Taiwan, where it was developed.",
-      "image": "https://cdn.mos.cms.futurecdn.net/emSPKHqypgWdvGHE8rXasc-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Official DLSS 5 running on unsupported games delivers up to 90% better performance than the leaked version",
-      "link": "https://www.tomshardware.com/pc-components/gpus/modders-used-the-official-dlss-5-release-on-unsupported-games-and-are-seeing-up-to-90-percent-better-performance-than-the-leaked-dlss-5-nvidia-says-new-nr-model-uses-20-percent-less-vram-and-processes-neural-workloads-up-to-2x-faster",
-      "published": "Sun, 18 Oct 2026 12:45:00 +0000",
-      "summary": "Nvidia's latest DLSS Neural Renderer, extracted from NBA 2K27 (again), is being tested on unsupported games and shows up to a 90% performance gain over the previous NR model.",
-      "image": "https://cdn.mos.cms.futurecdn.net/D2wF99DV4KRfYPYVeR3eWb-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "MIT engineers build soft 3D shape-sensing skin for gaming and VR",
-      "link": "https://www.tomshardware.com/virtual-reality/mit-engineers-build-soft-3d-shape-sensing-skin-for-gaming-and-vr-tracks-3d-movement-and-touch-with-sub-half-centimeter-error",
-      "published": "Sun, 18 Oct 2026 12:25:00 +0000",
-      "summary": "MIT engineers embedded soft optical fibers in a silicone sheet that reconstructs its own 3D shape, aimed at gaming, VR, and physical therapy.",
-      "image": "https://cdn.mos.cms.futurecdn.net/AoiE9uB5AeDWhPjLmoTh43-1920-80.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Cities want to put the boot on robotaxis",
-      "link": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-      "published": "2026-10-18T12:00:00.000Z",
-      "summary": "AUSTIN, TEXAS - APRIL 8: Tesla Cybercabs are lined up on a lot at Tesla Giga Texas in Austin, Wednesday, April 8, 2026. | Image: Getty Images This is The Stepback, a weekly newsletter breaking down one essential story from the tech world…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2270749481.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "300-plus local data center bans have only delayed just three US projects",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/300-plus-local-data-center-bans-have-only-delayed-just-three-us-projects-bans-much-more-bark-than-bite-only-2-3-gigawatts-of-data-centers-are-held-up-versus-38-gigawatts-expected-online-in-2027",
-      "published": "Sun, 18 Oct 2026 11:45:00 +0000",
-      "summary": "SemiAnalysis mapped more than 300 local data center moratoriums against the US pipeline and found only three projects actually delayed.",
-      "image": "https://cdn.mos.cms.futurecdn.net/LRwmwu7XEdDMQkb8uQgofm-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "published": "Sun, 18 Oct 2026 11:25:00 +0000",
-      "summary": "Anthropic's proposal requires evaluators to report any imminent risk to the Department of Commerce within 72 hours, after which the Department must present the evidence to a federal judge and await an order.",
-      "image": "https://cdn.mos.cms.futurecdn.net/SVPa8KkaDwkeyAtLnMhyKW-1920-80.png"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
@@ -218,65 +381,13 @@
       "image": "https://media.wired.com/photos/6ad240695195eb0dd6087017/master/pass/101626_Naughty%20Meta%20Muse%20OnlyFans.jpg"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
-      "link": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
-      "published": "Sun, 18 Oct 2026 10:30:00 +0000",
-      "summary": "Amid a wave of backlash, some industry-friendly groups are employing creative and time-tested strategies to woo the youth.",
-      "image": "https://media.wired.com/photos/6ad250c5e76c5dde4c61ba83/master/pass/101626-Power%20Play.jpg"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Liquid Swords, developer of open-city crime sim Samson, has gone bankrupt following staff claims that they haven't been paid in two months",
-      "link": "https://www.pcgamer.com/gaming-industry/liquid-swords-developer-of-open-city-crime-sim-samson-has-gone-bankrupt-following-staff-claims-that-they-havent-been-paid-in-two-months/",
-      "published": "Sun, 18 Oct 2026 09:50:29 +0000",
-      "summary": "The administrator is currently seeking a buyer for the studio and its assets.",
-      "image": "https://cdn.mos.cms.futurecdn.net/c3XaG7583gHQj3hZfsQNXm-1920-80.jpg"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Meta removes language that raised scraping and AI training concerns",
       "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "published": "Sat, 17 Oct 2026 21:31:32 +0000",
-      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "published": "Sat, 17 Oct 2026 18:48:08 +0000",
-      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Encryption Is Getting Squeezed From All Sides",
-      "link": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
-      "published": "Sat, 17 Oct 2026 12:00:00 +0000",
-      "summary": "Canada’s planned surveillance law is the latest grim step in a series of threats to encryption that are spreading around the world.",
-      "image": "https://media.wired.com/photos/6ad14bcb1efa7811b4f5a5a5/master/pass/Kernel-Panic-Encription-Being-Squeezed-to-Death-Security.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Amazon wants you to Bee-lieve wearable AI can recall it all for you",
-      "link": "https://www.theregister.com/personal-tech/2026/10/17/amazon-wants-you-to-bee-lieve-wearable-ai-can-recall-it-all-for-you/5303569",
-      "published": "Sat, 17 Oct 2026 11:00:00 +0200",
-      "summary": "Would you like personalized shopping recommendations based on that conversation you just had?",
-      "image": "https://image.theregister.com/?imageId=5303573&width=800"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Get in the bin! UK Space Agency wants public to name its debris removal mission",
-      "link": "https://www.theregister.com/science/2026/10/17/get-in-the-bin-uk-space-agency-wants-public-to-name-its-debris-removal-mission/5303555",
-      "published": "Sat, 17 Oct 2026 09:29:00 +0200",
-      "summary": "ClearSpace UK aims to be operational in 2029 with public's suggestion etched on the side of the spacecraft",
-      "image": "https://image.theregister.com/?imageId=5303566&width=800"
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024"
     },
     {
       "source": "Ars Technica",
@@ -288,15 +399,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Benchmarked: Nvidia's RTX Spark notebook delivers serious local AI compute, at a price",
-      "link": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
-      "published": "Fri, 16 Oct 2026 22:31:00 +0200",
-      "summary": "El Reg digs its claws into HP's N1X-powered OmniBook Ultra 16",
-      "image": "https://image.theregister.com/?imageId=5303643&width=800"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
@@ -304,15 +406,6 @@
       "published": "Fri, 16 Oct 2026 20:20:07 +0000",
       "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Node.js creator ditches Deno to work on open source Cloudflare Workers",
-      "link": "https://www.theregister.com/devops/2026/10/16/nodejs-creator-ditches-deno-to-work-on-open-source-cloudflare-workers/5303662",
-      "published": "Fri, 16 Oct 2026 22:20:05 +0200",
-      "summary": "You're building servers 'wrong,' says Ryan Dahl as Cloudflare gobbles his Deno startup",
-      "image": "https://image.theregister.com/?imageId=5303681&width=800"
     },
     {
       "source": "NASA",
@@ -360,15 +453,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048"
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
-      "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
-      "published": "Fri, 16 Oct 2026 15:41:00 +0000",
-      "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-1024x648.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "I Am Artemis: Allison Mjoen",
@@ -376,15 +460,6 @@
       "published": "Fri, 16 Oct 2026 14:24:29 +0000",
       "summary": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0029.jpg?w=1025"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Tesla turns to 50-year-old stunt technology as it tries to Roadster again",
-      "link": "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/",
-      "published": "Fri, 16 Oct 2026 14:03:25 +0000",
-      "summary": "If you want to make a car spin in the air, compressed gas is a good way to do it.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Roadster_87-1152x648.jpg"
     },
     {
       "source": "NASA",
@@ -445,8 +520,7 @@
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
     },
     {
       "source": "GitHub Blog",
@@ -465,15 +539,6 @@
       "published": "Thu, 15 Oct 2026 15:14:24 +0000",
       "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
-      "published": "Thu, 15 Oct 2026 12:10:00 +0000",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/research-assistant3c.jpg?fit=2128,1196"
     },
     {
       "source": "SpaceNews",
@@ -550,8 +615,7 @@
       "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
-      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
     },
     {
       "source": "SpaceNews",
@@ -581,15 +645,6 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/dubrovsky-li.png"
     },
     {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "Master AI Chip Principles With New IEEE Design Program",
-      "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
-      "published": "Fri, 09 Oct 2026 18:00:02 +0000",
-      "summary": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “Revisiting Edge AI: Opportunities and Challenges.” The article examines the rapid growth of edge AI and the…",
-      "image": "https://spectrum.ieee.org/media-library/graphic-illustration-of-arrows-and-data-symbols-representing-a-neural-network.jpg?id=68060909&width=980"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "Hack the World: Why hackathons are still the best place to learn to build",
@@ -598,22 +653,12 @@
       "summary": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. The post Hack the World: Why hackathons are still the best place to learn to build appeared first on The GitHub Blog."
     },
     {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "We Need to Embed Ethics Into Our Engineering Courses",
-      "link": "https://spectrum.ieee.org/integrating-engineering-ethics-education",
-      "published": "Fri, 09 Oct 2026 12:00:02 +0000",
-      "summary": "In mid-September, Anthropic CEO Dario Amodei joined a growing group of researchers calling for the AI industry to slow down. While some have questioned these researchers’ motivation for voicing concerns about the rapid pace of development…",
-      "image": "https://spectrum.ieee.org/media-library/student-with-backpack-holding-a-map-before-entering-space-between-giant-circuit-boards.jpg?id=68389516&width=980"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How one bug bounty researcher chooses the features they investigate",
       "link": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
       "published": "Thu, 08 Oct 2026 17:02:52 +0000",
-      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…",
-      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
+      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…"
     },
     {
       "source": "GitHub Blog",
@@ -621,8 +666,7 @@
       "title": "Secret protection must scale with software",
       "link": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
       "published": "Wed, 07 Oct 2026 17:45:34 +0000",
-      "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first…",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-security-invertocat-blocks-copilot.png"
+      "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first…"
     },
     {
       "source": "Krebs on Security",
@@ -684,15 +728,6 @@
       "published": "Tue, 08 Sep 2026 21:44:22 +0000",
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/09/shutterstock_278764853.jpg"
-    },
-    {
-      "source": "Krebs on Security",
-      "category": "news",
-      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "published": "Thu, 27 Aug 2026 11:04:15 +0000",
-      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement…",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/teampcp-shai-hulud.png"
     }
   ]
 }
