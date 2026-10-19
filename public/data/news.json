@@ -1,14 +1,32 @@
 {
-  "updated": "2026-10-18T18:11:32.311Z",
-  "count": 75,
+  "updated": "2026-10-19T00:15:01.340Z",
+  "count": 72,
   "items": [
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
+      "link": "https://www.pcgamer.com/software/ai/leaked-ai-safety-bill-from-anthropic-only-lets-government-act-if-50-deaths-or-usd1-billion-are-on-the-line/",
+      "published": "Sun, 18 Oct 2026 18:44:11 +0000",
+      "summary": "Claude, finish drafting my single-use ray gun which can only vaporize $999 million worth of stuff and/or 49 people.",
+      "image": "https://cdn.mos.cms.futurecdn.net/yLUJefzpgZfJpEoPzUUMXU-1920-80.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "published": "2026-10-18T18:28:10.000Z",
+      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/avride-uber-delivery.webp?quality=90&strip=all&crop=0,0,100,100"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
       "title": "Disney agrees to hire the majority of Character.AI’s workforce",
       "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "published": "Sun, 18 Oct 2026 16:30:00 +0000",
-      "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first…",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
       "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675"
     },
     {
@@ -201,15 +219,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "TikTok bans Musk documentary account",
-      "link": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
-      "published": "2026-10-17T19:32:23.000Z",
-      "summary": "Tesla and SpaceX CEO Elon Musk gestures as he speaks during the inaugural parade inside Capitol One Arena, in Washington, DC, on January 20, 2025. (Photo by ANGELA WEISS / AFP) (Photo by ANGELA WEISS/AFP via Getty Images) | AFP via Getty…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/gettyimages-2194418432.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "Qualcomm wins $2 legal decision against fellow tech giant Arm, and that's not a typo",
@@ -237,6 +246,24 @@
       "image": "https://media.wired.com/photos/6ad14bcb1efa7811b4f5a5a5/master/pass/Kernel-Panic-Encription-Being-Squeezed-to-Death-Security.jpg"
     },
     {
+      "source": "The Register",
+      "category": "news",
+      "title": "Amazon wants you to Bee-lieve wearable AI can recall it all for you",
+      "link": "https://www.theregister.com/personal-tech/2026/10/17/amazon-wants-you-to-bee-lieve-wearable-ai-can-recall-it-all-for-you/5303569",
+      "published": "Sat, 17 Oct 2026 11:00:00 +0200",
+      "summary": "Would you like personalized shopping recommendations based on that conversation you just had?",
+      "image": "https://image.theregister.com/?imageId=5303573&width=800"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Get in the bin! UK Space Agency wants public to name its debris removal mission",
+      "link": "https://www.theregister.com/science/2026/10/17/get-in-the-bin-uk-space-agency-wants-public-to-name-its-debris-removal-mission/5303555",
+      "published": "Sat, 17 Oct 2026 09:29:00 +0200",
+      "summary": "ClearSpace UK aims to be operational in 2029 with public's suggestion etched on the side of the spacecraft",
+      "image": "https://image.theregister.com/?imageId=5303566&width=800"
+    },
+    {
       "source": "Ars Technica",
       "category": "news",
       "title": "OpenAI models hacked a crypto wallet and breached more websites",
@@ -246,6 +273,15 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg"
     },
     {
+      "source": "The Register",
+      "category": "news",
+      "title": "Benchmarked: Nvidia's RTX Spark notebook delivers serious local AI compute, at a price",
+      "link": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
+      "published": "Fri, 16 Oct 2026 22:31:00 +0200",
+      "summary": "El Reg digs its claws into HP's N1X-powered OmniBook Ultra 16",
+      "image": "https://image.theregister.com/?imageId=5303643&width=800"
+    },
+    {
       "source": "Ars Technica",
       "category": "news",
       "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
@@ -253,6 +289,15 @@
       "published": "Fri, 16 Oct 2026 20:20:07 +0000",
       "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Node.js creator ditches Deno to work on open source Cloudflare Workers",
+      "link": "https://www.theregister.com/devops/2026/10/16/nodejs-creator-ditches-deno-to-work-on-open-source-cloudflare-workers/5303662",
+      "published": "Fri, 16 Oct 2026 22:20:05 +0200",
+      "summary": "You're building servers 'wrong,' says Ryan Dahl as Cloudflare gobbles his Deno startup",
+      "image": "https://image.theregister.com/?imageId=5303681&width=800"
     },
     {
       "source": "NASA",
@@ -291,24 +336,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/MIT-TR-Roundtables_Oct-2-Thumbnail.png?resize=1200,600"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "published": "Fri, 16 Oct 2026 17:52:24 +0000",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/india-cyber-attack.jpg?w=612"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "published": "Fri, 16 Oct 2026 16:30:00 +0000",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards…",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "Artemis II Heat Shield After Splashdown",
@@ -316,6 +343,15 @@
       "published": "Fri, 16 Oct 2026 16:28:01 +0000",
       "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "New online tool will check lawyers' sloppy AI-written briefs since they can't seem to be bothered",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/16/new-online-tool-will-check-lawyers-sloppy-ai-written-briefs-since-they-cant-seem-to-be-bothered/5303589",
+      "published": "Fri, 16 Oct 2026 18:08:35 +0200",
+      "summary": "Bogus AI-generated citations keep turning up in court documents, but lawyers could at least run those docs through this legal citation checker",
+      "image": "https://image.theregister.com/?imageId=255120&width=800"
     },
     {
       "source": "Ars Technica",
@@ -389,15 +425,6 @@
       "summary": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…"
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Oct. 29: Applying AI to the GEOINT Mission",
-      "link": "https://spacenews.com/applying-ai-to-the-geoint-mission-event/",
-      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
-      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI to the GEOINT Mission appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500-scaled.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
@@ -433,15 +460,6 @@
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-is-underway/elnino_sen6_20260608_th.jpg?w=720&h=480&fit=clip&crop=faces%2Cfocalpoint"
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How NASA is thinking about a moon base",
-      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
-      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
-      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
@@ -449,14 +467,6 @@
       "published": "Thu, 15 Oct 2026 12:10:00 +0000",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/research-assistant3c.jpg?fit=2128,1196"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
-      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
-      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
-      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…"
     },
     {
       "source": "GitHub Blog",
@@ -483,15 +493,6 @@
       "published": "Wed, 14 Oct 2026 14:22:49 +0000",
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
-      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
-      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
-      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
     },
     {
       "source": "Krebs on Security",
@@ -526,15 +527,6 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
-      "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
-      "published": "Mon, 12 Oct 2026 13:00:00 +0000",
-      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/jenaoptronik.png?fit=719%2C719&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -612,23 +604,6 @@
       "link": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
       "published": "Tue, 06 Oct 2026 20:57:56 +0000",
       "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog."
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Resource competition intensifies with surge in megaconstellations",
-      "link": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
-      "published": "Mon, 05 Oct 2026 19:13:40 +0000",
-      "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering […] The post Resource competition…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Agile Space Industries Strengthens Board and Corporate Development to Support Continued Growth",
-      "link": "https://spacenews.com/agile-space-industries-strengthens-board-and-corporate-development-to-support-continued-growth/",
-      "published": "Mon, 05 Oct 2026 12:00:00 +0000",
-      "summary": "DURANGO, Colo., Oct. 5, 2026 — Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His […] The post Agile Space…"
     },
     {
       "source": "Krebs on Security",
