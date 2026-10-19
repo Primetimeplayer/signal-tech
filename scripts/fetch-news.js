@@ -195,8 +195,14 @@ export async function runNewsFetcher({
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  runNewsFetcher().catch((err) => {
-    console.error('[fetch-news] Failed:', err.message);
-    process.exit(1);
-  });
+  runNewsFetcher()
+    .then(() => {
+      // global fetch keeps undici sockets open after the file is written,
+      // so a finished run would sit until the pool times out.
+      process.exit(0);
+    })
+    .catch((err) => {
+      console.error('[fetch-news] Failed:', err.message);
+      process.exit(1);
+    });
 }
