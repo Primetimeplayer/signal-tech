@@ -40,6 +40,15 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function hasText(value) {
+  return typeof value === 'string' && value.trim() !== '';
+}
+
+// Re-runs should not spend a Groq call on an item that already has both notes.
+export function alreadySummarized(item) {
+  return hasText(item?.summary) && hasText(item?.whyItMatters);
+}
+
 function parseJsonLoose(text) {
   if (!text) return null;
   const match = text.match(/\{[\s\S]*\}/);
@@ -100,17 +109,27 @@ function pickProvider() {
   return null;
 }
 
-async function processFile(filename, provider) {
-  const filePath = path.join(DATA_DIR, filename);
+export async function processFile(filename, provider, options = {}) {
+  const dataDir = options.dataDir || DATA_DIR;
+  const sleepFn = options.sleep || sleep;
+  const maxItems = options.maxItems ?? MAX_ITEMS_PER_FILE;
+  const filePath = path.join(dataDir, filename);
   if (!fs.existsSync(filePath)) return;
 
   const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
   const items = data.items ?? [];
-  const n = Math.min(items.length, MAX_ITEMS_PER_FILE);
+  const n = Math.min(items.length, maxItems);
 
-  console.log(`[summarize] ${filename}: processing ${n} of ${items.length} items via ${provider.name}...`);
+  console.log(`[summarize] ${filename}: checking ${n} of ${items.length} items via ${provider.name}...`);
 
+  let called = 0;
+  let skipped = 0;
   for (let i = 0; i < n; i++) {
+    if (alreadySummarized(items[i])) {
+      skipped += 1;
+      continue;
+    }
+    called += 1;
     try {
       const result = await provider.call(items[i].title, items[i].summary);
       if (result?.summary) items[i].summary = result.summary;
@@ -118,11 +137,13 @@ async function processFile(filename, provider) {
     } catch (err) {
       console.error(`[summarize] Skipping "${items[i].title}": ${err.message}`);
     }
-    await sleep(DELAY_BETWEEN_CALLS_MS);
+    await sleepFn(DELAY_BETWEEN_CALLS_MS);
   }
 
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-  console.log(`[summarize] ${filename}: done.`);
+  if (called > 0) {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  }
+  console.log(`[summarize] ${filename}: done (${called} api calls, ${skipped} already summarized).`);
 }
 
 async function main() {
@@ -136,7 +157,10 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error('[summarize] Failed:', err.message);
-  process.exit(0); // don't fail the whole workflow over this optional step
-});
+const isMain = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (isMain) {
+  main().catch((err) => {
+    console.error('[summarize] Failed:', err.message);
+    process.exit(0); // don't fail the whole workflow over this optional step
+  });
+}

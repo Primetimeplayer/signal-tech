@@ -377,19 +377,23 @@ test('papers writes a valid mocked arXiv response', async (t) => {
   const { outputPath, sentinel } = await seedOutput(t, 'papers.json');
   const xml = await readFile(new URL('./fixtures/arxiv-success.xml', import.meta.url), 'utf8');
   let requestedUrl;
+  let requestedInit;
 
   await runPapersFetcher({
     ...TEST_OPTIONS,
     outputPath,
-    request: async (url) => {
+    request: async (url, init) => {
       requestedUrl = url;
+      requestedInit = init;
       return { ok: true, text: async () => xml };
     },
   });
 
   assert.notEqual(await readFile(outputPath, 'utf8'), sentinel);
   const result = await readJson(outputPath);
-  assert.match(requestedUrl, /^http:\/\/export\.arxiv\.org\/api\/query\?/);
+  assert.match(requestedUrl, /^https:\/\/export\.arxiv\.org\/api\/query\?/);
+  assert.equal(requestedInit.headers['User-Agent'], 'personal-dashboard/1.0');
+  assert.ok(requestedInit.signal instanceof AbortSignal);
   assert.equal(result.updated, FIXED_TIME);
   assert.equal(result.count, 1);
   assert.equal(result.items[0].title, 'Fixture paper title');
@@ -440,6 +444,42 @@ test('papers preserves existing output after an invalid result count', async (t)
       request: async () => ({ ok: true, text: async () => xml }),
     }),
     /invalid total result count/
+  );
+
+  assert.equal(await readFile(outputPath, 'utf8'), sentinel);
+});
+
+test('papers fails clearly when the arXiv request times out', async (t) => {
+  const { outputPath, sentinel } = await seedOutput(t, 'papers.json');
+  const abort = new Error('The operation was aborted.');
+  abort.name = 'AbortError';
+
+  await assert.rejects(
+    runPapersFetcher({
+      ...TEST_OPTIONS,
+      outputPath,
+      request: async () => {
+        throw abort;
+      },
+    }),
+    /arXiv request timed out after 15s/
+  );
+
+  assert.equal(await readFile(outputPath, 'utf8'), sentinel);
+});
+
+test('papers fails clearly on a network error', async (t) => {
+  const { outputPath, sentinel } = await seedOutput(t, 'papers.json');
+
+  await assert.rejects(
+    runPapersFetcher({
+      ...TEST_OPTIONS,
+      outputPath,
+      request: async () => {
+        throw new Error('connect ETIMEDOUT');
+      },
+    }),
+    /arXiv network error: connect ETIMEDOUT/
   );
 
   assert.equal(await readFile(outputPath, 'utf8'), sentinel);

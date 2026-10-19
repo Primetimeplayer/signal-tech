@@ -29,9 +29,15 @@ function buildUrl() {
   });
   // URLSearchParams encodes '+' as '%2B', which arXiv's query parser doesn't
   // like between cat: terms -- rebuild the query string manually instead.
-  return `http://export.arxiv.org/api/query?search_query=${encodeURIComponent(
+  // HTTPS: plain HTTP to export.arxiv.org can sit open and never answer.
+  return `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(
     query
   ).replace(/%2B/g, '+')}&sortBy=submittedDate&sortOrder=descending&max_results=${MAX_RESULTS}`;
+}
+
+function isTimeoutError(err) {
+  const names = [err?.name, err?.cause?.name];
+  return names.includes('TimeoutError') || names.includes('AbortError') || err?.type === 'aborted';
 }
 
 function clean(text = '') {
@@ -45,7 +51,18 @@ export async function runPapersFetcher({
   now = () => new Date(),
 } = {}) {
   console.log('[fetch-papers] Querying arXiv...');
-  const res = await request(buildUrl(), { headers: { 'User-Agent': 'personal-dashboard/1.0' } });
+  let res;
+  try {
+    res = await request(buildUrl(), {
+      headers: { 'User-Agent': 'personal-dashboard/1.0' },
+      signal: AbortSignal.timeout(15000),
+    });
+  } catch (err) {
+    if (isTimeoutError(err)) {
+      throw new Error('arXiv request timed out after 15s');
+    }
+    throw new Error(`arXiv network error: ${err?.message || err}`);
+  }
   if (!res.ok) {
     throw new Error(`arXiv API returned ${res.status}`);
   }

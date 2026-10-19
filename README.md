@@ -148,7 +148,7 @@ signal-tech/
 └── LISTING_TEMPLATE.md
 ```
 
-`npm run fetch:all` exits with an error only when the news fetch fails, so a later source error does not block the data commit. `fetch-papers.js` calls arXiv at `http://export.arxiv.org`.
+`npm run fetch:all` exits with an error only when the news fetch fails, so a later source error does not block the data commit. `fetch-papers.js` calls arXiv at `https://export.arxiv.org`.
 
 ## Local setup
 
