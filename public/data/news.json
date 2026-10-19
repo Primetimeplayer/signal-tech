@@ -1,7 +1,79 @@
 {
-  "updated": "2026-10-19T16:20:10.963Z",
-  "count": 82,
+  "updated": "2026-10-19T18:19:47.033Z",
+  "count": 76,
   "items": [
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Software",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
+      "published": "Mon, 19 Oct 2026 18:11:40 +0000",
+      "summary": "Research teams at NASA’s Glenn Research Center are involved in developing theory and software to predict the noise from aircraft engines. This software helps engineers to design and analyze new and improved aircraft propulsion systems…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/new-dual-stream-nozzle-chevron-hot-exhaust-jet-jet-noise-prediction-code-e1642003352433-300x300-1.jpg?w=300"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Experimental Facilities",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/",
+      "published": "Mon, 19 Oct 2026 18:08:52 +0000",
+      "summary": "Research teams at the NASA Glenn Research Center perform experiments in world-class facilities such as the 9- by 15-Foot Low-Speed Wind Tunnel (9 x15 LSWT), the Aero-Acoustic Propulsion Laboratory (AAPL), the Small Hot Jet Acoustic Rig…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2025/01/grc-2022-c-04045.jpg?w=2048"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
+      "link": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+      "published": "Mon, 19 Oct 2026 18:01:51 +0000",
+      "summary": "The four crew members in NASA’s simulated Mars mission have spent the past year living and working in isolation in a confined habitat at NASA’s Johnson Space Center in Houston.",
+      "image": "https://www.youtube.com/embed/2MONMgAmXNU"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "AI assistant startup Town nabs unicorn valuation four months after launch",
+      "link": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
+      "published": "Mon, 19 Oct 2026 18:00:39 +0000",
+      "summary": "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2294590819.jpg?resize=1200,675"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "IEEE Report Highlights How Members Are Engineering for Public Good",
+      "link": "https://spectrum.ieee.org/ieee-report-engineering-public-good",
+      "published": "Mon, 19 Oct 2026 18:00:03 +0000",
+      "summary": "Advancing technology for the benefit of humanity isn’t just the tagline for IEEE’s mission as a public charity. It’s something that the organization’s more than 500,000 members strive to do all the time. IEEE’s recently released 2025…",
+      "image": "https://spectrum.ieee.org/media-library/photo-grid-of-mobile-response-trucks-smiling-college-students-a-tabletop-fm-tower-model-and-a-group-of-teen-girls-at-a-museum.jpg?id=68452632&width=980"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Huge DMV data breach impacted current and former Florida residents",
+      "link": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+      "published": "Mon, 19 Oct 2026 16:38:13 +0000",
+      "summary": "Florida issues alerts after statewide DMV data breach linked to ShinyHunters.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1384284626-1152x648.jpg"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Instrumentation",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/",
+      "published": "Mon, 19 Oct 2026 16:37:45 +0000",
+      "summary": "To measure airflow and sound, research teams at the NASA Glenn Research Center use special instrumentation like particle image velocimetry, hot wire anemometry, Raman spectroscopy, microphones in phased arrays or continuously rotating…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/rotatingmicrophonerake.jpg?w=330"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "You can now modify the vBIOS on Nvidia gaming GPUs without flashing thanks to a solo developer’s project",
+      "link": "https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration",
+      "published": "Mon, 19 Oct 2026 16:30:39 +0000",
+      "summary": "Flashing the VBIOS is risky and can brick a GPU, but this VBIOS configurator uses an Nvidia register key to override VBIOS settings without flashing.",
+      "image": "https://cdn.mos.cms.futurecdn.net/YFFrf4eYE3Q6QpkEfGBua5-1920-80.jpg"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -12,15 +84,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2024/05/Google-TV.jpeg?w=1200"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "VBIOS on RTX cards can be modified without flashing thanks to a solo developer’s project",
-      "link": "https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration",
-      "published": "Mon, 19 Oct 2026 16:13:19 +0000",
-      "summary": "Flashing the VBIOS is risky and can brick a GPU, but this VBIOS configurator uses an Nvidia register key to override VBIOS settings without flashing.",
-      "image": "https://cdn.mos.cms.futurecdn.net/YFFrf4eYE3Q6QpkEfGBua5-1920-80.jpg"
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "Apple teases MacBook Pro event next week",
@@ -28,6 +91,15 @@
       "published": "2026-10-19T16:04:29.000Z",
       "summary": "Apple has sent invites to a second product launch this month, and it's scheduled for October 28th at 1PM ET in Los Angeles. At the event, Apple is set to announce new Macs and a refreshed iPad Mini, according to Bloomberg. The big…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/pro.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Martian Dawn",
+      "link": "https://www.nasa.gov/image-article/martian-dawn/",
+      "published": "Mon, 19 Oct 2026 16:03:51 +0000",
+      "summary": "NASA’s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view yet of distant, wind-carved Martian…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp?w=1837"
     },
     {
       "source": "Wired",
@@ -72,7 +144,7 @@
       "link": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
       "published": "Mon, 19 Oct 2026 14:35:01 +0000",
       "summary": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/848413061_1584132123754825_2260017497965151960_n.jpg"
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/848413061_1584132123754825_2260017497965151960_n-1152x648-1792421844.jpg"
     },
     {
       "source": "The Verge",
@@ -152,7 +224,7 @@
       "title": "Apple updates guidelines to ban nudify apps masquerading as regular apps to pass review",
       "link": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
       "published": "Mon, 19 Oct 2026 12:56:14 +0000",
-      "summary": "Apple said that it will ban AI apps that don't moderate offensive content.",
+      "summary": "The company updated its guidelines with strong language around AI and user-generated content, and how app developers should include enough preventative measures to moderate objectionable or offensive content.",
       "image": "https://techcrunch.com/wp-content/uploads/2024/01/app-store-2024-v1.jpg?resize=1200,675"
     },
     {
@@ -161,8 +233,26 @@
       "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
       "link": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
       "published": "Mon, 19 Oct 2026 12:42:55 +0000",
-      "summary": "That's more than $10 billion in shares, or around 1% of Musk's current net worth.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/elon-nasdaq-spacex-ipo.jpg?resize=1200,801"
+      "summary": "Musk's post came just a few hours after Anthropic promised to put 5% of its shares into a new \"public benefit fund,\" which it intends to use to make \"large donations to traditional nonprofits or direct distributions to specific…",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2198697259.jpg?resize=1200,800"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Vibe coding is turning the music gear world upside down",
+      "link": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
+      "published": "2026-10-19T12:30:00.000Z",
+      "summary": "If you spend any time on r/synthesizers or watch a lot of synth videos on YouTube, you've probably noticed the explosion of custom firmware for hardware synthesizers, samplers, and grooveboxes. What unites almost all of them is that they…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/elektron-model-cycles-model-samples-8.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "link": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "published": "Mon, 19 Oct 2026 12:30:00 +0000",
+      "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch…",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2274650383.jpg?resize=1200,840"
     },
     {
       "source": "The Register",
@@ -327,24 +417,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/FrgMgQ2p7MyoQneDwiatAg-1920-80.png"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
-      "link": "https://www.pcgamer.com/software/ai/leaked-ai-safety-bill-from-anthropic-only-lets-government-act-if-50-deaths-or-usd1-billion-are-on-the-line/",
-      "published": "Sun, 18 Oct 2026 18:44:11 +0000",
-      "summary": "Claude, finish drafting my single-use ray gun which can only vaporize $999 million worth of stuff and/or 49 people.",
-      "image": "https://cdn.mos.cms.futurecdn.net/yLUJefzpgZfJpEoPzUUMXU-1920-80.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-      "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-      "published": "Sun, 18 Oct 2026 16:30:00 +0000",
-      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Anthropic gives outside AI watchdog “employee-like” access",
@@ -352,15 +424,6 @@
       "published": "Sun, 18 Oct 2026 16:25:19 +0000",
       "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-1024x648.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "TechCrunch Mobility: Rivian’s next act",
-      "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
-      "published": "Sun, 18 Oct 2026 16:05:00 +0000",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Techcrunch-disrupt-RJ-Scaringe.jpg?resize=1200,801"
     },
     {
       "source": "Tom's Hardware",
@@ -379,15 +442,6 @@
       "published": "Sun, 18 Oct 2026 10:30:00 +0000",
       "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
       "image": "https://media.wired.com/photos/6ad240695195eb0dd6087017/master/pass/101626_Naughty%20Meta%20Muse%20OnlyFans.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "published": "Sat, 17 Oct 2026 21:31:32 +0000",
-      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024"
     },
     {
       "source": "Ars Technica",
@@ -444,33 +498,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/MIT-TR-Roundtables_Oct-2-Thumbnail.png?resize=1200,600"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "Artemis II Heat Shield After Splashdown",
-      "link": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
-      "published": "Fri, 16 Oct 2026 16:28:01 +0000",
-      "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "I Am Artemis: Allison Mjoen",
-      "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
-      "published": "Fri, 16 Oct 2026 14:24:29 +0000",
-      "summary": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0029.jpg?w=1025"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Hubble Spies Spiral’s Edge",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
-      "published": "Fri, 16 Oct 2026 12:42:08 +0000",
-      "summary": "This NASA Hubble Space Telescope image features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1827_1_flat_FINAL.jpg?w=2048&h=1986&fit=clip&crop=faces%2Cfocalpoint"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: failed social media bans, and extending pets’ lives",
@@ -498,29 +525,13 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AdobeStock_551902166.jpg?resize=1200,600"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "APOD: 2026 October 16 – Chasing the International Space Station",
-      "link": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
-      "published": "Fri, 16 Oct 2026 04:05:00 +0000",
-      "summary": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
-      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
-      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
-      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
     },
     {
       "source": "GitHub Blog",
@@ -530,23 +541,6 @@
       "published": "Thu, 15 Oct 2026 18:00:00 +0000",
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How NASA is thinking about a moon base",
-      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
-      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
-      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
-      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
-      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
-      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…"
     },
     {
       "source": "GitHub Blog",
@@ -573,15 +567,6 @@
       "published": "Wed, 14 Oct 2026 14:22:49 +0000",
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
-      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
-      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
-      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
     },
     {
       "source": "Krebs on Security",
@@ -616,24 +601,6 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
-      "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
-      "published": "Mon, 12 Oct 2026 13:00:00 +0000",
-      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/jenaoptronik.png?fit=719%2C719&ssl=1"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
-      "link": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
-      "published": "Mon, 12 Oct 2026 10:00:03 +0000",
-      "summary": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why adaptive, speed-aware…",
-      "image": "https://assets.rbl.ms/68382463/origin.png"
     },
     {
       "source": "Krebs on Security",
@@ -684,23 +651,6 @@
       "link": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
       "published": "Tue, 06 Oct 2026 20:57:56 +0000",
       "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog."
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Resource competition intensifies with surge in megaconstellations",
-      "link": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
-      "published": "Mon, 05 Oct 2026 19:13:40 +0000",
-      "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering […] The post Resource competition…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Agile Space Industries Strengthens Board and Corporate Development to Support Continued Growth",
-      "link": "https://spacenews.com/agile-space-industries-strengthens-board-and-corporate-development-to-support-continued-growth/",
-      "published": "Mon, 05 Oct 2026 12:00:00 +0000",
-      "summary": "DURANGO, Colo., Oct. 5, 2026 — Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His […] The post Agile Space…"
     },
     {
       "source": "Krebs on Security",
