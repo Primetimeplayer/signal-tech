@@ -1,128 +1,92 @@
 {
-  "updated": "2026-10-19T00:22:28.967Z",
+  "updated": "2026-10-19T06:29:33.497Z",
   "count": 20,
   "items": [
     {
-      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied…",
-      "link": "http://arxiv.org/abs/2610.22372v1",
-      "published": "2026-10-15T17:59:59Z",
+      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "summary": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\\boldsymbol{u}$-prediction) with clean image prediction…",
+      "link": "http://arxiv.org/abs/2610.23854v1",
+      "published": "2026-10-16T17:59:30Z",
       "authors": [
-        "Zhixu Li",
-        "Keqian Tang",
-        "Litian Gong",
-        "Jingyu Yao",
-        "Wenqian Zhang",
-        "Tianze Xu",
-        "Zehao Wang",
-        "Yuping Wang",
-        "Junge Zhang",
-        "Jiachen Li"
+        "Soumik Mukhopadhyay",
+        "Long Mai",
+        "Abhinav Shrivastava",
+        "Aniruddha Mahapatra"
       ],
       "categories": [
-        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+      "summary": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which fine-tuning on one brings out another, as a behavioral coupling…",
+      "link": "http://arxiv.org/abs/2610.23847v1",
+      "published": "2026-10-16T17:58:08Z",
+      "authors": [
+        "Dongyoon Hahm",
+        "Woogyeol Jin",
+        "Dennis Wei",
+        "Yi Zhou",
+        "Nathalie Baracaldo",
+        "Kimin Lee"
+      ],
+      "categories": [
+        "cs.CL",
         "cs.AI",
         "cs.LG"
       ]
     },
     {
-      "title": "Discovering state-of-the-art quantum circuits with large language models",
-      "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents…",
-      "link": "http://arxiv.org/abs/2610.22367v1",
-      "published": "2026-10-15T17:59:20Z",
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry…",
+      "link": "http://arxiv.org/abs/2610.23845v1",
+      "published": "2026-10-16T17:57:55Z",
       "authors": [
-        "Andi Gu",
-        "Alek H. Kemeny",
-        "Susanne F. Yelin",
-        "Mikhail D. Lukin"
+        "Shicheng Liu",
+        "Krista Opsahl-Ong",
+        "Andrew Drozdov",
+        "Julian Killingback",
+        "Arnav Singhvi",
+        "Ronak Pradeep",
+        "Michael Bendersky",
+        "James C. Dickerson",
+        "Monica S. Lam"
       ],
       "categories": [
-        "quant-ph",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
-      "summary": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules. We introduce T2-Z for test-time optimization of environment latents, which augments a robotic world model with a…",
-      "link": "http://arxiv.org/abs/2610.22364v1",
-      "published": "2026-10-15T17:59:11Z",
-      "authors": [
-        "Chenyuan Zhou",
-        "Yining Hong",
-        "Huang Huang",
-        "Yunfan Jiang",
-        "Wenlong Huang",
-        "David Held",
-        "Vitor Campagnolo Guizilini",
-        "Yue Wang",
-        "Li Fei-Fei",
-        "Jiajun Wu",
-        "Leonidas Guibas",
-        "Yejin Choi"
-      ],
-      "categories": [
-        "cs.RO",
         "cs.AI",
-        "cs.CV"
+        "cs.CL"
       ]
     },
     {
-      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
-      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA, a framework in which a simulation data engine and an action policy co-evolve through a shared heterogeneous memory of…",
-      "link": "http://arxiv.org/abs/2610.22362v1",
-      "published": "2026-10-15T17:59:02Z",
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "summary": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative…",
+      "link": "http://arxiv.org/abs/2610.23839v1",
+      "published": "2026-10-16T17:56:35Z",
       "authors": [
-        "Tianjiao Yu",
-        "Zhilin Ou",
-        "Yifan Shen",
-        "Xinzhuo Li",
-        "Yuanzhe Liu",
-        "Onkar Kishor Susladkar",
-        "Fan Wang",
-        "Ismini Lourentzou"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulative demand, peak load, and event timing, yet point and marginal scores do not reveal it. To model…",
-      "link": "http://arxiv.org/abs/2610.22358v1",
-      "published": "2026-10-15T17:58:45Z",
-      "authors": [
-        "Jiachen Yao",
-        "Xiyuan Zhang",
-        "Annan Yu",
-        "Boran Han",
-        "Abdul Fatir Ansari",
-        "Shuai Zhang",
-        "Michael Bohlke-Schneider",
-        "Bernie Wang"
-      ],
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
-      "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into…",
-      "link": "http://arxiv.org/abs/2610.22355v1",
-      "published": "2026-10-15T17:58:04Z",
-      "authors": [
-        "Bowei Liu",
-        "Xinchen Zhang",
-        "Xuhuan Li",
-        "Tianlin Zhang",
-        "Kaian Jiang",
-        "Jingwei Liu",
-        "Congyang Zhao",
-        "Yifei Qian",
-        "Junhong Liu",
-        "Zhiheng Li",
-        "Yujiu Yang",
-        "Yang Cai",
+        "Jianyuan Zhong",
+        "Chenwei Wu",
+        "Zhaochen Yu",
+        "Xixian Jiang",
+        "Xuewei Li",
+        "Hao Xiao",
+        "Xilin Dai",
+        "Junyang Wang",
+        "Jiaru Zou",
+        "Zhiqing Cui",
+        "Boyuan Zheng",
+        "Jing Xiong",
+        "Zhen Zhang",
+        "Qiang Gao",
+        "Michael Morley",
+        "Luis Nakayama",
+        "Qiang Xu",
+        "Liyue Shen",
+        "Tao Gui",
+        "Leo Anthony Celi",
+        "James Zou",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
         "Ling Yang"
       ],
       "categories": [
@@ -130,304 +94,294 @@
       ]
     },
     {
-      "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
-      "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The former increases expressiveness by enabling more expert combinations at a fixed activation ratio, and the latter introduces experts that are active for every token. We identify an…",
-      "link": "http://arxiv.org/abs/2610.22353v1",
-      "published": "2026-10-15T17:58:02Z",
+      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
+      "summary": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that specifies how the signal should be probed. We show that encoding…",
+      "link": "http://arxiv.org/abs/2610.23834v1",
+      "published": "2026-10-16T17:53:19Z",
       "authors": [
-        "Bingcong Li",
-        "Hao Ma",
-        "Michael Muehlebach",
-        "Niao He",
-        "Yi Ma"
+        "Felix Frohnert",
+        "Adrián Pérez-Salinas",
+        "Sebastian Lange",
+        "Marcus Schwaebisch",
+        "Evert van Nieuwenburg",
+        "Vedran Dunjko"
       ],
       "categories": [
-        "cs.LG",
-        "cs.AI"
+        "quant-ph",
+        "cs.LG"
       ]
     },
     {
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios…",
-      "link": "http://arxiv.org/abs/2610.22350v1",
-      "published": "2026-10-15T17:57:23Z",
+      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+      "summary": "A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision by considering both their intermediate content and their accessibility to the target learner. We introduce ReDiST, a student-conditioned trace-construction and distillation framework for…",
+      "link": "http://arxiv.org/abs/2610.23831v1",
+      "published": "2026-10-16T17:52:58Z",
       "authors": [
-        "Dongxu Yang",
-        "Hongda Yan",
-        "Renxin Wang",
-        "Baoli Zhang",
-        "Haojia Zuo",
-        "Ying Zhao",
-        "Youmin Chen",
-        "Xiaojian Liao",
-        "Congming Gao",
-        "Tianyang Jiang",
-        "Yixiao Chen",
-        "Qing Wang",
-        "Zhiguo Yu",
-        "Xiaqing Li",
-        "Yuhao Zhang",
-        "Jiawen Sun",
-        "Renzhe Xu",
-        "De Mi",
-        "Tiancheng Wu",
-        "Xianya Fu",
-        "Xuanlu Zhao",
-        "Bo Feng",
-        "Meixuan Ren",
-        "Guanming Lin",
-        "Ziheng Zhou",
-        "Xinhua Wang"
+        "Shaoang Li",
+        "Yanhang Shi",
+        "Yufei Li",
+        "Mingfu Liang",
+        "Frank Shyu",
+        "Sandeep Pandey",
+        "Luke Simon",
+        "Xi Liu",
+        "Jian Li"
       ],
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.SE"
-      ]
-    },
-    {
-      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-      "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon…",
-      "link": "http://arxiv.org/abs/2610.22344v1",
-      "published": "2026-10-15T17:56:32Z",
-      "authors": [
-        "Shangheng Du",
-        "Jinxin Shi",
-        "Shuaiyu Zhang",
-        "Yiming Wu",
-        "Junpeng Zhao",
-        "Shiyang Feng",
-        "Xin Li",
-        "Liang He",
-        "Xiangchao Yan",
-        "Bo Zhang"
-      ],
-      "categories": [
-        "cs.AI",
         "cs.CL",
         "cs.LG"
       ]
     },
     {
-      "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
-      "summary": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D…",
-      "link": "http://arxiv.org/abs/2610.22343v1",
-      "published": "2026-10-15T17:56:18Z",
+      "title": "Waiting Buys Exactly Two Moments: Endogenous Identification in Prediction-Driven Allocation",
+      "summary": "A planner with a fixed budget of preventive help must decide whom to help and when. Waiting reveals risk but removes intervention opportunities as higher-risk individuals leave first. We characterize this tradeoff under repeated noisy signals and risk-dependent attrition: in the canonical model, a length-$τ$ observation prefix identifies exactly the latent risk moments $m_j=\\mathbb E[p^j]$ for…",
+      "link": "http://arxiv.org/abs/2610.23830v1",
+      "published": "2026-10-16T17:52:57Z",
       "authors": [
-        "Hongchang Liu",
-        "Jian Liu",
-        "Yujuan Ding",
-        "Liang Peng",
-        "Xun Jiang",
-        "Fei Ma",
-        "Xing Xu",
-        "Yi Bin"
+        "Rama AlHamidi",
+        "Rasul Khanbayov",
+        "Erchin Serpedin",
+        "Hasan Kurban"
       ],
       "categories": [
-        "cs.CV",
-        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
+      "summary": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with…",
+      "link": "http://arxiv.org/abs/2610.23827v1",
+      "published": "2026-10-16T17:49:43Z",
+      "authors": [
+        "Anis Bekri",
+        "Amar Abane",
+        "Van Sy Mai",
+        "Abdella Battou",
+        "Saddek Bensalem"
+      ],
+      "categories": [
+        "quant-ph",
         "cs.LG",
+        "cs.NI"
+      ]
+    },
+    {
+      "title": "Self-Building Labs",
+      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We…",
+      "link": "http://arxiv.org/abs/2610.23826v1",
+      "published": "2026-10-16T17:48:29Z",
+      "authors": [
+        "Jiaru Bai",
+        "Yuchi Zhao",
+        "Han Hao",
+        "Miroslav Bogdanovic",
+        "Yang Cao",
+        "Varinia Bernales",
+        "Alán Aspuru-Guzik"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
         "cs.RO"
       ]
     },
     {
-      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
-      "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D…",
-      "link": "http://arxiv.org/abs/2610.22341v1",
-      "published": "2026-10-15T17:56:07Z",
+      "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
+      "summary": "The evidence, $\\mathcal{Z} = p(x | \\mathcal{M})$, of a data-generating model $\\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and goodness-of-fit assessment as an alternative to standard discrepancy statistics, e.g. $χ^2$. While versatile, the evidence is notoriously difficult to compute, even when the likelihood is available. In…",
+      "link": "http://arxiv.org/abs/2610.23825v1",
+      "published": "2026-10-16T17:48:26Z",
       "authors": [
-        "Yipeng Gao",
-        "Ziyao Zeng",
-        "Jinfa Huang",
-        "Yijiang Li",
-        "Haolin Xiong",
-        "Wang Qin",
-        "Xinlei Yu",
-        "Youheng Yao",
-        "Jie Zhang",
-        "Kun-Yu Lin",
-        "Rong Liu",
-        "Yinyuan Zhao",
-        "Yajie Zhao",
-        "Meiqi Guo",
-        "Jiebo Luo",
-        "Lei Shu",
-        "Yunhao Ge",
-        "Xinyu Hu",
-        "Laurent Itti"
+        "Kai Lehman",
+        "Jameson Dong",
+        "Carolina Cuesta-Lazaro",
+        "Niall Jeffrey",
+        "Benjamin D. Wandelt",
+        "Francisco Villaescusa-Navarro",
+        "Sven Krippendorf",
+        "Jochen Weller"
       ],
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Dexterity from Supervised Play",
-      "summary": "How can robots autonomously collect the contact-rich experience needed to learn dexterous manipulation? We present DSP: Dexterity from supervised play, a framework in which a robot learns a play policy from minutes of human play through behavior cloning, then deploys it autonomously to collect hours of interaction data to train a world model. During inference, the same play policy then guides…",
-      "link": "http://arxiv.org/abs/2610.22340v1",
-      "published": "2026-10-15T17:55:50Z",
-      "authors": [
-        "Botao He",
-        "Yiming Dou",
-        "Yiannis Aloimonos",
-        "Jitendra Malik",
-        "Akash Sharma",
-        "Ruoshi Liu"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Lean Graph Search for Formal Theorem Proving",
-      "summary": "Retrieving relevant lemmas is crucial for formal theorem proving, enabling provers to build machine-checkable proofs from established mathematical results. Recent retrieval systems match library declarations to a target theorem or its intermediate proof steps, but make limited use of multi-hop dependencies among declarations. These dependencies can reveal supporting lemmas that are not…",
-      "link": "http://arxiv.org/abs/2610.22339v1",
-      "published": "2026-10-15T17:55:21Z",
-      "authors": [
-        "Yihan Xu",
-        "Jia-Chen Gu",
-        "Junyi Zhang",
-        "Di Wu",
-        "Haikang Deng",
-        "Po-Nien Kung",
-        "Kai-Wei Chang",
-        "Amit Sahai",
-        "Wei Wang",
-        "Nanyun Peng"
-      ],
-      "categories": [
+        "stat.ML",
+        "astro-ph.CO",
         "cs.LG"
       ]
     },
     {
-      "title": "Robust Reinforcement Learning for Dynamic Treatment Regimes under Model and Measurement Uncertainty",
-      "summary": "We develop a robust reinforcement learning (RL) framework for learning adaptive treatment policies that generalize across patients and remain reliable under errors in the measured biomarker and shifts in the disease dynamics. By modeling the patient as a hidden context, we address generalization and robustness in a unified manner through robust contextual Markov decision processes. Applying our…",
-      "link": "http://arxiv.org/abs/2610.22336v1",
-      "published": "2026-10-15T17:54:13Z",
+      "title": "Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere",
+      "summary": "Many of the most important datasets in the physical sciences live natively on the sphere, and these data often carry no preferred position or orientation. Using methods that do not reflect this symmetry leads to far higher simulation requirements, which can be catastrophic for scientific analyses (forcing reliance on cheap, imperfect models that bias results). We present a novel spherical…",
+      "link": "http://arxiv.org/abs/2610.23821v1",
+      "published": "2026-10-16T17:45:43Z",
       "authors": [
-        "Chengze Xie",
-        "Xuan Wang",
-        "Ying Ding",
-        "Hairong Wang",
-        "Yan Li"
+        "Joshua Williamson",
+        "Niall Jeffrey",
+        "Lorne Whiteway"
       ],
       "categories": [
+        "stat.ML",
+        "astro-ph.CO",
         "cs.LG"
       ]
     },
     {
-      "title": "Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?",
-      "summary": "Large language models (LLMs) can often tell when they are being tested. This ability, known as evaluation awareness, can lead models to act more cautiously during safety evaluations than in real use. Existing work has studied evaluation awareness almost entirely in English, although models serve users in many languages. Indic languages are spoken by over a billion people, yet evaluation awareness…",
-      "link": "http://arxiv.org/abs/2610.22333v1",
-      "published": "2026-10-15T17:53:33Z",
+      "title": "CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning",
+      "summary": "Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by…",
+      "link": "http://arxiv.org/abs/2610.23820v1",
+      "published": "2026-10-16T17:43:25Z",
       "authors": [
-        "Trizal Garg",
-        "Sibayan Mitra",
-        "Arya Karanjkar",
-        "Advait Singh",
-        "Jagat Sesh Challa",
-        "Yash Sinha",
-        "Siddharth Mehrotra",
-        "Dhruv Kumar",
-        "Pratham Yogish Maliya"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "KnowGPO: Knowledge-Grouped Policy Optimization for Search Agents",
-      "summary": "Deep search agents solve knowledge-intensive tasks through long-horizon, multi-turn interactions, where assigning credit to individual search decisions is fundamentally difficult. Outcome-based reinforcement learning provides only a single terminal reward shared across an entire trajectory. Recent process-supervision methods aim to assign credit at finer granularity, but they typically anchor…",
-      "link": "http://arxiv.org/abs/2610.22331v1",
-      "published": "2026-10-15T17:52:33Z",
-      "authors": [
-        "Siqi Chen",
-        "Zhengxi Lu",
-        "Yuchen Yan",
-        "Xingyu Wu",
-        "Qipeng Chen",
-        "Xin Zhang",
-        "Aiting Liu",
-        "Chao Deng",
-        "Jie Liu",
-        "Jin Ma",
-        "Weiming Lu",
-        "Jun Xiao",
-        "Yongliang Shen"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Designing Transformers for Continuous Diffusion Language Models",
-      "summary": "Continuous diffusion language models (CDLMs) offer an alternative approach to parallel language generation; however, most existing studies directly use transformer architectures from either causal large language models (LLMs) or Diffusion Transformers (DiTs) for image generation, which were not optimized for CDLMs. In this paper, we conduct a systematic study on Transformer architectures for…",
-      "link": "http://arxiv.org/abs/2610.22330v1",
-      "published": "2026-10-15T17:52:31Z",
-      "authors": [
-        "Weijian Luo",
-        "Yujian Chen",
-        "Hao Jiang",
-        "Guang Cheng",
-        "Tianyang Hu"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
-      "summary": "Image editing models produce impressive results for individual edits, but their quality often deteriorates over multiple editing turns. Each editing turn introduces small distribution shifts that accumulate over successive edits, creating a gap between the input distributions encountered during the editor's original training and multi-turn inference. We introduce a training scheme that makes…",
-      "link": "http://arxiv.org/abs/2610.22328v1",
-      "published": "2026-10-15T17:52:24Z",
-      "authors": [
-        "Sara Dorfman",
-        "Nir Goren",
-        "Gal Barak",
-        "Daniel Cohen-Or",
-        "Or Patashnik"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ]
-    },
-    {
-      "title": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
-      "summary": "Time Series Language Models (TSLMs) enable language-based understanding and reasoning over temporal data, yet a fundamental question remains: what information should their time-series representations preserve, and what variation should they factor out? Existing TSLMs typically expose the language model to a single representation, imposing a fixed inductive bias across downstream tasks. We instead…",
-      "link": "http://arxiv.org/abs/2610.22327v1",
-      "published": "2026-10-15T17:52:18Z",
-      "authors": [
-        "Hedi Zisling",
-        "Liran Nochumsohn",
-        "Ilan Naiman",
-        "Mihir Parmar",
-        "Omri Azencot"
+        "Tianmeng Hu",
+        "Biao Luo",
+        "Ke Li"
       ],
       "categories": [
         "cs.LG",
-        "cs.AI",
+        "cs.MA"
+      ]
+    },
+    {
+      "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding",
+      "summary": "Speculative decoding typically characterizes speedup by draft tokens accepted per verification round. Lossless verification preserves the target model's output distribution and thus expected completion length, making this metric a meaningful efficiency proxy. Relaxed (lossy) verification accepts tokens that lossless verification would reject, potentially altering that distribution. We identify a…",
+      "link": "http://arxiv.org/abs/2610.23818v1",
+      "published": "2026-10-16T17:41:19Z",
+      "authors": [
+        "Chiatzen Wang",
+        "Bill Xu",
+        "Haochen Gu",
+        "Hongyang Zhang"
+      ],
+      "categories": [
         "cs.CL"
       ]
     },
     {
-      "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
-      "summary": "One of the first steps of a research pipeline is generating ideas. Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlooking diversity. In our work, we study document-grounded ideation, focusing on increasing the diversity of LLM generated ideas and ensuring they are high quality. Given prior…",
-      "link": "http://arxiv.org/abs/2610.22324v1",
-      "published": "2026-10-15T17:52:12Z",
+      "title": "Learning Personalized Memory Gating from Delayed One-Sided Feedback",
+      "summary": "Long-term memory enables language-model agents to personalize future interactions, but a finite memory bank cannot preserve every extracted fact. Existing memory gating policies are typically shared across users and therefore fail to account for user-specific patterns of future reuse. In this paper, we study memory gating at the fact level. We first propose a retrieval-based labeling strategy…",
+      "link": "http://arxiv.org/abs/2610.23812v1",
+      "published": "2026-10-16T17:34:45Z",
       "authors": [
-        "Manya Wadhwa",
-        "Pranav Narayanan Venkit",
-        "Hiroaki Hayashi",
-        "Yu Li",
-        "Tuhin Chakrabarty",
-        "Chien-Sheng Wu"
+        "Kaixuan Ji",
+        "Zixiang Chen",
+        "Wenting Zhao",
+        "Cheng Qian",
+        "Heng Wang",
+        "Weizhi Zhang",
+        "Jielin Qiu",
+        "Liangwei Yang",
+        "Quanquan Gu",
+        "Silvio Savarese",
+        "Shelby Heinecke",
+        "Huan Wang"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Explainable Machine Learning Analysis of Temperature Effects on Mechanical Strength of Fiber-Reinforced High-Performance Concrete",
+      "summary": "Predicting the compressive strength of fiber-reinforced high-performance concrete subjected to temperature exposure is challenging because to the intricate interdependencies of mixture composition, fiber properties, curing conditions, and temperature. A data-driven framework to predict compressive strength utilizing 1,204 experimental records containing a diverse array of material designs and…",
+      "link": "http://arxiv.org/abs/2610.23811v1",
+      "published": "2026-10-16T17:34:24Z",
+      "authors": [
+        "Jagaran Chakma",
+        "Zhiguang Zhou",
+        "Badhan Chakma",
+        "Priyanta Chakma"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Steering beyond Language: Improving Multilingual Training-Free Text Embeddings via Paired-Residual Subspace Removal",
+      "summary": "While deriving text embeddings directly from frozen LLMs has emerged as a promising direction, existing methods focus almost exclusively on English, leaving multilingual settings largely unexplored. In this work, we present the first systematic study of multilingual training-free text embeddings in LLMs. Our analysis reveals a language-conditioned embedding geometry in which semantically…",
+      "link": "http://arxiv.org/abs/2610.23807v1",
+      "published": "2026-10-16T17:30:43Z",
+      "authors": [
+        "Ailiang Lin",
+        "Zhuoyun Li",
+        "Yusong Wang",
+        "Keyu Mao",
+        "Kotaro Funakoshi",
+        "Manabu Okumura"
       ],
       "categories": [
         "cs.CL"
+      ]
+    },
+    {
+      "title": "Beyond SAEs: Consistent Concept Discovery with Sparse Coding",
+      "summary": "Sparse autoencoders (SAEs) explain foundation model representations by decomposing activations into sparse combinations of learned dictionary atoms. However, the learned dictionaries can vary across training runs, limiting the reliability and reproducibility of SAE-based analyses. We propose Consistent Sparse Dictionary Learning (ConSDL), which replaces the standard linear encoder with per-sample…",
+      "link": "http://arxiv.org/abs/2610.23801v1",
+      "published": "2026-10-16T17:25:11Z",
+      "authors": [
+        "Jinho Choi",
+        "Hyesu Lim",
+        "Jaegul Choo",
+        "Steffen Schneider"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Task-aware Kernel Stein certificates for Rényi differential privacy",
+      "summary": "Rènyi differential privacy, based on Rènyi divergence, has become a notion of choice for privacy guarantees. However, outside the Gaussian setting, Rènyi divergence can be difficult to compute. In particular, Rènyi differential privacy guarantees that exploit task-specific information, as in Rènyi Pufferfish privacy, can be challenging. Here we use kernel Stein discrepancies based on escort…",
+      "link": "http://arxiv.org/abs/2610.23798v1",
+      "published": "2026-10-16T17:24:09Z",
+      "authors": [
+        "Leoni Carla Wirth",
+        "Tara Trautwein",
+        "Gesine Reinert"
+      ],
+      "categories": [
+        "stat.ML",
+        "cs.CR",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+      "summary": "Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transformer block for NVIDIA Hopper GPUs. It applies CODA's GEMM-plus-epilogue approach to inference, adding direct KV-cache…",
+      "link": "http://arxiv.org/abs/2610.23796v1",
+      "published": "2026-10-16T17:22:01Z",
+      "authors": [
+        "Wei Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
+      "summary": "Computational drug discovery requires agents to compose scientific operations and adapt to changing evidence and constraints. Here we introduce DrugHarness, an evolvable agent harness coupling composable scientific execution with conditional skill induction. Its environment integrates over 80 scientific operations, biomedical resources and task-specific code, preserving associations among…",
+      "link": "http://arxiv.org/abs/2610.23791v1",
+      "published": "2026-10-16T17:20:19Z",
+      "authors": [
+        "Yuxing Chen",
+        "Zhisheng Zhang",
+        "Cheng Tang",
+        "Wei Li",
+        "Minghui Zhang",
+        "Ziyan Huang",
+        "Shaocong Wei",
+        "Jiawei Chen",
+        "Junru Hu",
+        "Hongze Zhu",
+        "Jianghan Shen",
+        "Min Cen",
+        "Xinyuan Zhu",
+        "Yaxue Zhao",
+        "Jubo Wang",
+        "Yuqiang Li",
+        "Chun-Mei Feng",
+        "Zongyuan Ge",
+        "Rui Su",
+        "Jie Xu",
+        "Yirong Chen",
+        "Xi Xu",
+        "Ming Hu"
+      ],
+      "categories": [
+        "cs.AI"
       ]
     }
   ]

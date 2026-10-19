@@ -1,7 +1,34 @@
 {
-  "updated": "2026-10-19T00:15:01.340Z",
-  "count": 72,
+  "updated": "2026-10-19T06:24:43.261Z",
+  "count": 78,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "ICANN vows to work faster, improve transparency",
+      "link": "https://www.theregister.com/networks/2026/10/19/icann-vows-to-work-faster-improve-transparency/5303751",
+      "published": "Mon, 19 Oct 2026 05:28:34 +0200",
+      "summary": "Leaders expect AI and geopolitics will throw up more governance challenges and threats",
+      "image": "https://image.theregister.com/?imageId=252831&width=800"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up",
+      "link": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/",
+      "published": "Mon, 19 Oct 2026 03:00:45 +0000",
+      "summary": "All the interesting Steam facts for the week ending October 18.",
+      "image": "https://cdn.mos.cms.futurecdn.net/FrgMgQ2p7MyoQneDwiatAg-1920-80.png"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
+      "link": "https://www.theregister.com/virtualization/2026/10/19/linux-kvm-guest-host-escape-rated-critical-may-represent-a-new-way-to-attack-penguin-powered-networking/5303744",
+      "published": "Mon, 19 Oct 2026 02:33:00 +0200",
+      "summary": "Party like it’s CVE-2026-99999 – a 9.3-rated nasty called PwnEscape",
+      "image": "https://image.theregister.com/?imageId=5265166&width=800"
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -53,8 +80,7 @@
       "title": "TechCrunch Mobility: Rivian’s next act",
       "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
       "published": "Sun, 18 Oct 2026 16:05:00 +0000",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Techcrunch-disrupt-RJ-Scaringe.jpg?resize=1200,801"
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it."
     },
     {
       "source": "Tom's Hardware",
@@ -215,17 +241,7 @@
       "title": "Meta removes language that raised scraping and AI training concerns",
       "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "published": "Sat, 17 Oct 2026 21:31:32 +0000",
-      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Qualcomm wins $2 legal decision against fellow tech giant Arm, and that's not a typo",
-      "link": "https://www.pcgamer.com/gaming-industry/qualcomm-wins-usd2-legal-decision-against-fellow-tech-giant-arm-and-thats-not-a-typo/",
-      "published": "Sat, 17 Oct 2026 19:30:53 +0000",
-      "summary": "It's not just the principle of the thing: There could be more money up for grabs.",
-      "image": "https://cdn.mos.cms.futurecdn.net/dWCr2RhPTciT8TceHkwqcY-1920-80.jpg"
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
     },
     {
       "source": "TechCrunch",
@@ -233,8 +249,7 @@
       "title": "Replit makes OpenAI its default over Anthropic, CEO says",
       "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "published": "Sat, 17 Oct 2026 18:48:08 +0000",
-      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800"
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform."
     },
     {
       "source": "Wired",
@@ -345,15 +360,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "New online tool will check lawyers' sloppy AI-written briefs since they can't seem to be bothered",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/16/new-online-tool-will-check-lawyers-sloppy-ai-written-briefs-since-they-cant-seem-to-be-bothered/5303589",
-      "published": "Fri, 16 Oct 2026 18:08:35 +0200",
-      "summary": "Bogus AI-generated citations keep turning up in court documents, but lawyers could at least run those docs through this legal citation checker",
-      "image": "https://image.theregister.com/?imageId=255120&width=800"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
@@ -425,13 +431,13 @@
       "summary": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…"
     },
     {
-      "source": "NASA",
+      "source": "SpaceNews",
       "category": "news",
-      "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
-      "link": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
-      "published": "Thu, 15 Oct 2026 19:58:08 +0000",
-      "summary": "NASA is playing an important role in JAXA’s (Japan Aerospace Exploration Agency) MMX (Martian Moons eXploration) mission, to advance our understanding of Mars’ moons and build on the agency’s long history of exploring the Red Planet. The…",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/mmx/jaxa-mmx-spacecraft.png?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint"
+      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
+      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
+      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
+      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "GitHub Blog",
@@ -439,7 +445,8 @@
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
     },
     {
       "source": "GitHub Blog",
@@ -451,13 +458,13 @@
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
     },
     {
-      "source": "NASA",
+      "source": "SpaceNews",
       "category": "news",
-      "title": "NASA Satellites Observe Historic 2026 El Niño",
-      "link": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/",
-      "published": "Thu, 15 Oct 2026 17:59:22 +0000",
-      "summary": "A phenomenon rarer than a solar eclipse and more powerful than any single storm system is unfolding this fall, and NASA is tracking it closely. El Niño is a natural climate pattern that emerges roughly every two to seven years marked by…",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-is-underway/elnino_sen6_20260608_th.jpg?w=720&h=480&fit=clip&crop=faces%2Cfocalpoint"
+      "title": "How NASA is thinking about a moon base",
+      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
+      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "MIT Technology Review",
@@ -467,6 +474,14 @@
       "published": "Thu, 15 Oct 2026 12:10:00 +0000",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/research-assistant3c.jpg?fit=2128,1196"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…"
     },
     {
       "source": "GitHub Blog",
@@ -493,6 +508,15 @@
       "published": "Wed, 14 Oct 2026 14:22:49 +0000",
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
+      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
+      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
     },
     {
       "source": "Krebs on Security",
@@ -526,7 +550,17 @@
       "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
-      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
+      "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
+      "published": "Mon, 12 Oct 2026 13:00:00 +0000",
+      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/jenaoptronik.png?fit=719%2C719&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -578,7 +612,8 @@
       "title": "How one bug bounty researcher chooses the features they investigate",
       "link": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
       "published": "Thu, 08 Oct 2026 17:02:52 +0000",
-      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…"
+      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…",
+      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
     },
     {
       "source": "GitHub Blog",
@@ -586,7 +621,8 @@
       "title": "Secret protection must scale with software",
       "link": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
       "published": "Wed, 07 Oct 2026 17:45:34 +0000",
-      "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first…"
+      "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first…",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-security-invertocat-blocks-copilot.png"
     },
     {
       "source": "Krebs on Security",
@@ -604,6 +640,23 @@
       "link": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
       "published": "Tue, 06 Oct 2026 20:57:56 +0000",
       "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog."
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Resource competition intensifies with surge in megaconstellations",
+      "link": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
+      "published": "Mon, 05 Oct 2026 19:13:40 +0000",
+      "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering […] The post Resource competition…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Agile Space Industries Strengthens Board and Corporate Development to Support Continued Growth",
+      "link": "https://spacenews.com/agile-space-industries-strengthens-board-and-corporate-development-to-support-continued-growth/",
+      "published": "Mon, 05 Oct 2026 12:00:00 +0000",
+      "summary": "DURANGO, Colo., Oct. 5, 2026 — Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His […] The post Agile Space…"
     },
     {
       "source": "Krebs on Security",
