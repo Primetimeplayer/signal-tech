@@ -9,6 +9,7 @@ import { fileURLToPath } from 'url';
 import { excerpt } from './lib/excerpt.js';
 import { decodeEntities } from './lib/decode-entities.js';
 import { enrichStoryImage } from './lib/story-image.js';
+import { isPromo } from './lib/promo-filter.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'reviews.json');
@@ -77,17 +78,20 @@ export async function runReviewsFetcher({
 
   const results = successfulFeeds.flat();
   results.sort((a, b) => new Date(b.published ?? 0) - new Date(a.published ?? 0));
+  const items = results.filter((item) => !isPromo(item.title));
+  const promoDropped = results.length - items.length;
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(
     outputPath,
     JSON.stringify(
-      { updated: now().toISOString(), count: results.length, items: results },
+      { updated: now().toISOString(), count: items.length, items },
       null,
       2
     )
   );
-  console.log(`[fetch-reviews] Wrote ${results.length} items to ${outputPath}`);
+  console.log(`[fetch-reviews] Dropped ${promoDropped} promo items`);
+  console.log(`[fetch-reviews] Wrote ${items.length} items to ${outputPath}`);
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

@@ -845,6 +845,7 @@ body {
   <div class="wrap">
     <div class="newsletter-card" id="newsletterCard">
       <h2 id="newsletterTitle">Get Signal Tech in your inbox</h2>
+      <p class="newsletter-note">One email every Friday at 9:00 (CET): 4 sourced stories and 1 practical takeaway in plain English. Free, and you can unsubscribe in one click. The digests on this page are auto-generated. The email is the hand-written Friday issue.</p>
       <div class="newsletter-embed">
         <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
         <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
@@ -1786,6 +1787,13 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
   letter-spacing: -0.01em;
   line-height: 1.35;
   color: #f3f4f6;
+}
+.newsletter-note {
+  flex: 1 0 100%;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text-muted, #5f6368);
 }
 .newsletter-embed {
   position: relative;

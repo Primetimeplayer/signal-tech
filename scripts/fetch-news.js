@@ -11,6 +11,7 @@ import { decodeEntities } from './lib/decode-entities.js';
 import { enrichStoryImage } from './lib/story-image.js';
 import { applyLocaleParams } from './lib/news-locale.js';
 import { splitGoogleTitle } from './lib/parse-google-news.js';
+import { isPromo } from './lib/promo-filter.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'news.json');
@@ -178,9 +179,11 @@ export async function runNewsFetcher({
   }
 
   const results = successfulFeeds.flat();
-  const items = dedupe(results)
+  const topicItems = dedupe(results)
     .filter(storyMatchesTopics)
     .sort((a, b) => new Date(b.published ?? 0) - new Date(a.published ?? 0));
+  const items = topicItems.filter((item) => !isPromo(item.title));
+  const promoDropped = topicItems.length - items.length;
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(
@@ -191,6 +194,7 @@ export async function runNewsFetcher({
       2
     )
   );
+  console.log(`[fetch-news] Dropped ${promoDropped} promo items`);
   console.log(`[fetch-news] Wrote ${items.length} topic items to ${outputPath}`);
 }
 
