@@ -1,7 +1,232 @@
 {
-  "updated": "2026-10-19T18:19:47.033Z",
-  "count": 76,
+  "updated": "2026-10-20T00:18:58.571Z",
+  "count": 94,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "DeepSeek deep-sixed at all US federal civilian agencies",
+      "link": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+      "published": "Tue, 20 Oct 2026 00:11:10 +0000",
+      "summary": "Order disallowing use of Chinese AI service is unhelpfully vague and broad",
+      "image": "https://image.theregister.com/?imageId=5304014&width=800"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way'",
+      "link": "https://www.pcgamer.com/gaming-industry/moonlighter-studio-wont-host-a-public-playtest-of-its-next-game-due-to-rampant-ai-led-cloning-we-know-were-not-the-only-developers-feeling-this-way/",
+      "published": "Mon, 19 Oct 2026 23:33:09 +0000",
+      "summary": "ReVamp will get a limited Discord playtest.",
+      "image": "https://cdn.mos.cms.futurecdn.net/YEp5Fzsbkhez5s74zCMPj6-1920-80.png"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "published": "Mon, 19 Oct 2026 22:49:27 +0000",
+      "summary": "AI labs have staked their reputations on model benchmarking — the supposedly neutral and accurate system of evaluations that are designed to measure whether one AI product is better than another. However, the methods behind these…",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_4993.jpeg?resize=1200,900"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Elon Musk’s proposed SpaceX stock giveaway would go into ‘Trump Accounts’",
+      "link": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account",
+      "published": "2026-10-19T22:30:42.000Z",
+      "summary": "President Donald Trump announced this afternoon that Elon Musk's SpaceX shares for children will be given through Trump Accounts. Musk said earlier today that he would give one of his SpaceX shares to \"every kid in America\" sometime next…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK022_ELON_MUSK_CVIRGINIA4_L.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "published": "Mon, 19 Oct 2026 22:04:28 +0000",
+      "summary": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The fossil fuel comeback is here",
+      "link": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+      "published": "2026-10-19T21:48:01.000Z",
+      "summary": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824781/STK438_CLIMATE_CHANGE_C.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+      "published": "2026-10-19T21:28:20.000Z",
+      "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\"…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "I tried a $99 plug that promises to track your car and send help when needed — without selling your data",
+      "link": "https://www.theverge.com/tech/1013918/miles-plug-vehicle-tracking-data-privacy-specs-price-launch-date",
+      "published": "2026-10-19T21:00:17.000Z",
+      "summary": "The Miles is a smart plug for your car. My 15-year-old daughter just got her learner's permit, so when I was pitched a new gadget tailored to teen drivers, I was intrigued. The Miles Plug is a small device that plugs into your car's OBD-II…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/LR6B6271.jpeg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Best Power Bank Deals: Laptops, MagSafe, and More",
+      "link": "https://www.wired.com/story/power-bank-deals-october-2026/",
+      "published": "Mon, 19 Oct 2026 20:55:15 +0000",
+      "summary": "You can never have too many portable chargers, especially when they’re this discounted.",
+      "image": "https://media.wired.com/photos/6ad6814fc2cc5f3eed50f4a6/master/pass/Power%20Bank%20Deals%20Post%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+      "link": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+      "published": "Mon, 19 Oct 2026 20:54:17 +0000",
+      "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ICEYE_assembling_satellite_06_3x2-1152x648.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'",
+      "link": "https://www.pcgamer.com/software/ai/xbox-biz-guy-deletes-his-x-account-less-than-24-hours-after-saying-game-devs-who-dont-embrace-ai-should-not-be-in-the-business-of-being-a-business/",
+      "published": "Mon, 19 Oct 2026 20:44:12 +0000",
+      "summary": "Business strategy manager Brandon Stirrup said he was \"happy to take the hit\" for his stance on AI, then left social media.",
+      "image": "https://cdn.mos.cms.futurecdn.net/nnXTHjAJbZ7bw4xzhZJCw-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Grocery giant Ahold Delhaize confirms cyberattack forced US and European systems offline",
+      "link": "https://www.theregister.com/security/2026/10/19/grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-and-european-systems-offline/5303970",
+      "published": "Mon, 19 Oct 2026 20:26:21 +0000",
+      "summary": "Second security snafu in two years",
+      "image": "https://image.theregister.com/?imageId=249284&width=800"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Amazon makes vague commitment to unproven nuclear tech to power Indiana datacenters",
+      "link": "https://www.theregister.com/offbeat/2026/10/19/amazon-makes-vague-commitment-to-unproven-nuclear-tech-to-power-indiana-datacenters/5303974",
+      "published": "Mon, 19 Oct 2026 20:22:47 +0000",
+      "summary": "Partner X-energy has not built a single working reactor yet",
+      "image": "https://image.theregister.com/?imageId=5303977&width=800"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "published": "Mon, 19 Oct 2026 20:21:53 +0000",
+      "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2214263510-1024x648.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "published": "Mon, 19 Oct 2026 20:09:24 +0000",
+      "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205217071.jpg?resize=1200,800"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Maxwell gives sub-optimal code a runtime glow-up",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/19/maxwell-gives-sub-optimal-code-a-runtime-glow-up/5303961",
+      "published": "Mon, 19 Oct 2026 19:57:49 +0000",
+      "summary": "Finally, your hardware has its own agent",
+      "image": "https://image.theregister.com/?imageId=5303967&width=800"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+      "link": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+      "published": "Mon, 19 Oct 2026 19:49:17 +0000",
+      "summary": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former OpenAI engineer’s release to a “blank check.”",
+      "image": "https://media.wired.com/photos/6ad6630343f8fc6e5c00cf7e/master/pass/open-ai-employee-court.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "PSA: Patch your Plex media server before someone hacks it",
+      "link": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+      "published": "Mon, 19 Oct 2026 19:39:19 +0000",
+      "summary": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/plex-media-server-1152x648.webp"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "published": "Mon, 19 Oct 2026 19:28:34 +0000",
+      "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing…",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/cyberatttack.jpg?w=612"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Improves Shock, Vibration Analysis",
+      "link": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
+      "published": "Mon, 19 Oct 2026 19:28:32 +0000",
+      "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predict how those…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260924-ph-rcr01-0036.jpg?w=1366"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "published": "Mon, 19 Oct 2026 19:00:12 +0000",
+      "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tolan.jpg?resize=1200,677"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+      "published": "Mon, 19 Oct 2026 18:49:04 +0000",
+      "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/wabi-ios-home.png?resize=1200,1200"
+    },
+    {
+      "source": "GitHub Blog",
+      "category": "news",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+      "published": "Mon, 19 Oct 2026 18:47:22 +0000",
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+      "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "published": "Mon, 19 Oct 2026 18:37:27 +0000",
+      "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/08/rnuUXh8kprc7HfoRAGgTvZ-1200-80.jpg?w=970"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Security patches need patches now that attackers have AI",
+      "link": "https://www.theregister.com/patches/2026/10/19/security-patches-need-patches-now-that-attackers-have-ai/5303927",
+      "published": "Mon, 19 Oct 2026 18:23:40 +0000",
+      "summary": "Terra finds sharp rise in GitHub security fixes reported broken within 90 days",
+      "image": "https://image.theregister.com/?imageId=5303945&width=800"
+    },
     {
       "source": "NASA",
       "category": "news",
@@ -32,7 +257,7 @@
     {
       "source": "TechCrunch",
       "category": "news",
-      "title": "AI assistant startup Town nabs unicorn valuation four months after launch",
+      "title": "AI assistant startup Town nabs unicorn valuation 4 months after launch",
       "link": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
       "published": "Mon, 19 Oct 2026 18:00:39 +0000",
       "summary": "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures.",
@@ -48,9 +273,36 @@
       "image": "https://spectrum.ieee.org/media-library/photo-grid-of-mobile-response-trucks-smiling-college-students-a-tabletop-fm-tower-model-and-a-group-of-teen-girls-at-a-museum.jpg?id=68452632&width=980"
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "published": "Mon, 19 Oct 2026 17:45:55 +0000",
+      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_LLMsNotcomplicated_V2.jpg?resize=1200,600"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Write bot-resistant code with KillSwitch, a programming language designed to confuse LLMs",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/19/write-bot-resistant-code-with-killswitch-a-programming-language-designed-to-confuse-llms/5303919",
+      "published": "Mon, 19 Oct 2026 17:10:47 +0000",
+      "summary": "Lies, lots of adverbs, and prosaic stories don't make for very machine-readable code, it turns out",
+      "image": "https://image.theregister.com/?imageId=226584&width=800"
+    },
+    {
       "source": "Ars Technica",
       "category": "news",
-      "title": "Huge DMV data breach impacted current and former Florida residents",
+      "title": "AI game clones are making indie developers afraid to show their work",
+      "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+      "published": "Mon, 19 Oct 2026 16:59:22 +0000",
+      "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ss_c6067e139d8dd2cbf79c41a9c4e41e3bb088c95a.1920x1080-1152x648.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Florida DMV hacked after police dept insecurely stored login info",
       "link": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
       "published": "Mon, 19 Oct 2026 16:38:13 +0000",
       "summary": "Florida issues alerts after statewide DMV data breach linked to ShinyHunters.",
@@ -64,6 +316,15 @@
       "published": "Mon, 19 Oct 2026 16:37:45 +0000",
       "summary": "To measure airflow and sound, research teams at the NASA Glenn Research Center use special instrumentation like particle image velocimetry, hot wire anemometry, Raman spectroscopy, microphones in phased arrays or continuously rotating…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/rotatingmicrophonerake.jpg?w=330"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
+      "link": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
+      "published": "Mon, 19 Oct 2026 16:31:12 +0000",
+      "summary": "SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified during the maiden flight of OSSIE-D, an orbital transfer vehicle (OTV) launched Oct. 1 aboard SpaceX’s Transporter-18 mission. At least […] The post UARX Space…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/rsz_uarx_ossie-d.png?fit=879%2C628&ssl=1"
     },
     {
       "source": "Tom's Hardware",
@@ -80,8 +341,17 @@
       "title": "People are using AI to make their smart TVs dumb again",
       "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
       "published": "Mon, 19 Oct 2026 16:13:22 +0000",
-      "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "summary": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
       "image": "https://techcrunch.com/wp-content/uploads/2024/05/Google-TV.jpeg?w=1200"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Red Hat helps teach about tech writing",
+      "link": "https://www.theregister.com/os-platforms/2026/10/19/red-hat-helps-teach-about-tech-writing/5303868",
+      "published": "Mon, 19 Oct 2026 16:11:00 +0000",
+      "summary": "But learns tough lessons about AI in the process",
+      "image": "https://image.theregister.com/?imageId=1682374&width=800"
     },
     {
       "source": "The Verge",
@@ -109,15 +379,6 @@
       "published": "Mon, 19 Oct 2026 16:00:00 +0000",
       "summary": "Around 80 pages on WhatsApp’s website exposed instructions that were designed for its chatbot, including “WHAT NOT TO SAY.” Meta says a bug caused the issue.",
       "image": "https://media.wired.com/photos/6ad61af88d7b5cce41c3ec77/master/pass/GettyImages-2262950720.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
-      "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
-      "published": "Mon, 19 Oct 2026 15:37:09 +0000",
-      "summary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2183848501.jpg?resize=1200,800"
     },
     {
       "source": "Tom's Hardware",
@@ -165,24 +426,6 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK450_EU_E.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Elon Musk promises to give one SpaceX share to every child in the US",
-      "link": "https://www.theverge.com/tech/1013667/elon-musk-space-x-shares-us-children",
-      "published": "2026-10-19T14:20:11.000Z",
-      "summary": "Elon Musk says he plans to give one of his SpaceX shares to every child in the US starting next year. With around 72 million children in the US as of July 2025, Musk would be giving away about $10.5 billion worth of shares, according to a…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_F.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "published": "2026-10-19T13:58:41.000Z",
-      "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
@@ -219,47 +462,11 @@
       "image": "https://spectrum.ieee.org/media-library/author-jonathan-hurst-a-tall-slim-white-man-wearing-a-black-long-sleeve-shirt-and-dark-jeans-stands-next-to-his-digit-5-humano.jpg?id=68441166&width=980"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Apple updates guidelines to ban nudify apps masquerading as regular apps to pass review",
-      "link": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
-      "published": "Mon, 19 Oct 2026 12:56:14 +0000",
-      "summary": "The company updated its guidelines with strong language around AI and user-generated content, and how app developers should include enough preventative measures to moderate objectionable or offensive content.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/01/app-store-2024-v1.jpg?resize=1200,675"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
-      "link": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
-      "published": "Mon, 19 Oct 2026 12:42:55 +0000",
-      "summary": "Musk's post came just a few hours after Anthropic promised to put 5% of its shares into a new \"public benefit fund,\" which it intends to use to make \"large donations to traditional nonprofits or direct distributions to specific…",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2198697259.jpg?resize=1200,800"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Vibe coding is turning the music gear world upside down",
-      "link": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
-      "published": "2026-10-19T12:30:00.000Z",
-      "summary": "If you spend any time on r/synthesizers or watch a lot of synth videos on YouTube, you've probably noticed the explosion of custom firmware for hardware synthesizers, samplers, and grooveboxes. What unites almost all of them is that they…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/elektron-model-cycles-model-samples-8.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "link": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-      "published": "Mon, 19 Oct 2026 12:30:00 +0000",
-      "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch…",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2274650383.jpg?resize=1200,840"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Microsoft abandons UK AI supercomputer as grid struggles to keep up",
       "link": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
-      "published": "Mon, 19 Oct 2026 14:15:48 +0200",
+      "published": "Mon, 19 Oct 2026 12:15:48 +0000",
       "summary": "Tech giant walks away from flagship Essex project as power connection delays threaten to leave nation's AI ambitions waiting until the 2030s",
       "image": "https://image.theregister.com/?imageId=240959&width=800"
     },
@@ -289,15 +496,6 @@
       "published": "Mon, 19 Oct 2026 11:36:20 +0000",
       "summary": "A developer using Claude Code to help build a temperature monitor app was warned by the coding agent about a hidden crypto miner running on their system.",
       "image": "https://cdn.mos.cms.futurecdn.net/QNNat83JqoZDqE7W9nvJfd-1920-80.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Broadcom Wi-Fi bug turns sweet 16, still lets strangers hijack your router",
-      "link": "https://www.theregister.com/networks/2026/10/19/broadcom-wi-fi-bug-turns-sweet-16-still-lets-strangers-hijack-your-router/5303771",
-      "published": "Mon, 19 Oct 2026 13:28:16 +0200",
-      "summary": "Chip giant knew about the flaw in 2018, researcher claims, but millions of devices may still be vulnerable",
-      "image": "https://image.theregister.com/?imageId=5303787&width=800"
     },
     {
       "source": "PC Gamer",
@@ -372,15 +570,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland_embed1.png?w=840"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
-      "link": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
-      "published": "Mon, 19 Oct 2026 09:00:00 +0000",
-      "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
-      "image": "https://media.wired.com/photos/6acfe36ba2733753393886b8/master/pass/Disney-Asked-Character.AI-to-Go-Bankrupt-Business-1530260396.jpg"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "How far can we push computing?",
@@ -390,42 +579,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-90743946.jpg?w=840"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI’s epic cash call is matched only by its ability to strangle revenue streams",
-      "link": "https://www.theregister.com/columnists/2026/10/19/ais-epic-cash-call-is-matched-only-by-its-ability-to-strangle-revenue-streams/5303493",
-      "published": "Mon, 19 Oct 2026 10:30:00 +0200",
-      "summary": "The first technology created with a self-disrupt button... But why oh why didn't they call Claude clone Fauxtoshop?",
-      "image": "https://image.theregister.com/?imageId=5270706&width=800"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI inference is running into a memory bottleneck. Huawei wants to tackle it with OceanStor M900",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/19/sponsored-ai-inference-is-running-into-a-memory-bottleneck-huawei-wants-to-tackle-it-with-oceanstor-m900/5303543",
-      "published": "Mon, 19 Oct 2026 10:00:00 +0200",
-      "summary": "SPONSORED POST: The Context Memory Storage platform aims to improve the economics of large-scale AI inference",
-      "image": "https://image.theregister.com/?imageId=5303545&width=800"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up",
-      "link": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/",
-      "published": "Mon, 19 Oct 2026 03:00:45 +0000",
-      "summary": "All the interesting Steam facts for the week ending October 18.",
-      "image": "https://cdn.mos.cms.futurecdn.net/FrgMgQ2p7MyoQneDwiatAg-1920-80.png"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Anthropic gives outside AI watchdog “employee-like” access",
-      "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-      "published": "Sun, 18 Oct 2026 16:25:19 +0000",
-      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-1024x648.jpg"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs",
@@ -433,51 +586,6 @@
       "published": "Sun, 18 Oct 2026 16:03:01 +0000",
       "summary": "Radeon GPUs get the full DLSS experience as solo project ports all the DLSS features for RDNA2-4 GPUs.",
       "image": "https://cdn.mos.cms.futurecdn.net/BeW2F22fUfKmgBpAPSsk2m-1920-80.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
-      "link": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
-      "published": "Sun, 18 Oct 2026 10:30:00 +0000",
-      "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
-      "image": "https://media.wired.com/photos/6ad240695195eb0dd6087017/master/pass/101626_Naughty%20Meta%20Muse%20OnlyFans.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "published": "Fri, 16 Oct 2026 20:59:01 +0000",
-      "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
-      "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-      "published": "Fri, 16 Oct 2026 20:20:07 +0000",
-      "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
-      "link": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
-      "published": "Fri, 16 Oct 2026 20:14:39 +0000",
-      "summary": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/steve-cash-photo.jpg?w=1638"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
-      "link": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
-      "published": "Fri, 16 Oct 2026 19:41:18 +0000",
-      "summary": "There are still significant hurdles ahead, both technical and legislative.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Torres-headshot-1152x648.jpg"
     },
     {
       "source": "IEEE Spectrum",
@@ -525,6 +633,15 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AdobeStock_551902166.jpg?resize=1200,600"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
+      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
+      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
+      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
@@ -541,6 +658,23 @@
       "published": "Thu, 15 Oct 2026 18:00:00 +0000",
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How NASA is thinking about a moon base",
+      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
+      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…"
     },
     {
       "source": "GitHub Blog",
@@ -567,6 +701,15 @@
       "published": "Wed, 14 Oct 2026 14:22:49 +0000",
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
+      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
+      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
     },
     {
       "source": "Krebs on Security",
@@ -601,6 +744,15 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
+      "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
+      "published": "Mon, 12 Oct 2026 13:00:00 +0000",
+      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/jenaoptronik.png?fit=719%2C719&ssl=1"
     },
     {
       "source": "Krebs on Security",
@@ -645,12 +797,21 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/Jeppesen.png"
     },
     {
-      "source": "GitHub Blog",
+      "source": "SpaceNews",
       "category": "news",
-      "title": "Building Git infrastructure for agent-scale development",
-      "link": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
-      "published": "Tue, 06 Oct 2026 20:57:56 +0000",
-      "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog."
+      "title": "Resource competition intensifies with surge in megaconstellations",
+      "link": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
+      "published": "Mon, 05 Oct 2026 19:13:40 +0000",
+      "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering […] The post Resource competition…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Agile Space Industries Strengthens Board and Corporate Development to Support Continued Growth",
+      "link": "https://spacenews.com/agile-space-industries-strengthens-board-and-corporate-development-to-support-continued-growth/",
+      "published": "Mon, 05 Oct 2026 12:00:00 +0000",
+      "summary": "DURANGO, Colo., Oct. 5, 2026 — Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His […] The post Agile Space…"
     },
     {
       "source": "Krebs on Security",
