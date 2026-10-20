@@ -1,15 +1,141 @@
 {
-  "updated": "2026-10-20T06:21:26.722Z",
-  "count": 91,
+  "updated": "2026-10-20T12:20:52.068Z",
+  "count": 79,
   "items": [
     {
-      "source": "The Register",
+      "source": "Tom's Hardware",
       "category": "news",
-      "title": "Sony updates the Walkman as a $5,900 gold-plated MP3 player",
-      "link": "https://www.theregister.com/personal-tech/2026/10/20/sony-updates-the-walkman-as-a-5900-gold-plated-mp3-player/5304051",
-      "published": "Tue, 20 Oct 2026 05:29:33 +0000",
-      "summary": "That price buys you an Android 16 device which can display an animated cassette",
-      "image": "https://image.theregister.com/?imageId=5304056&width=800"
+      "title": "China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports",
+      "link": "https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable",
+      "published": "Tue, 20 Oct 2026 12:10:00 +0000",
+      "summary": "$35 billion worth of Nvidia RTX Pro 5500 GPUs have been bought by Chinese trio Tencent, Alibaba and ByteDance, with demand far exceeding Nvidia's planned production, according to report.",
+      "image": "https://cdn.mos.cms.futurecdn.net/ZQ7uixLax7MyxKpVHFVxEC-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Modern software is built on the backs of low-paid maintainers, opening the door to potential threats",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/modern-software-is-built-on-the-backs-of-low-paid-maintainers-opening-the-door-to-potential-threats-report-details-critically-underfunded-projects-that-remain-understaffed-or-unfunded",
+      "published": "Tue, 20 Oct 2026 12:10:00 +0000",
+      "summary": "Modern computing remains vulnerable to the low bus factor of many open-source projects — continued lack of funding and manpower for voluntary-maintained infrastructure makes for a perennial threat",
+      "image": "https://cdn.mos.cms.futurecdn.net/zAKMPdMzn6uvTf3sxZsDgA-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Modal taps Nvidia Vera CPUs after firm's internal tests show 2x throughput over Intel and AMD chips",
+      "link": "https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel",
+      "published": "Tue, 20 Oct 2026 11:50:00 +0000",
+      "summary": "Nvidia's Vera CPU delivers twice the performance of Intel and AMD chips in AI agent workloads, Modal claims.",
+      "image": "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Intel asks FCC for waiver to buy foreign robots",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/intel-asks-fcc-for-waiver-to-buy-foreign-robots-chipmakers-automated-guided-vehicles-could-run-afoul-of-agencys-sweeping-robot-ban",
+      "published": "Tue, 20 Oct 2026 11:45:01 +0000",
+      "summary": "Intel is concerned that the sweeping ban on foreign-made robots means that it could not update or maintain its fleet of AGVs.",
+      "image": "https://cdn.mos.cms.futurecdn.net/qMfEcWXZUKrABwGqtRncud-1920-80.png"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Windows 98 SE users get a Thunderbolt 4 driver, thanks to AI assistance",
+      "link": "https://www.tomshardware.com/peripherals/thunderbolt/windows-98-se-users-get-a-thunderbolt-4-driver-thanks-to-ai-assistance-vibe-coded-xhci98-driver-works-in-microsoft-oses-up-to-windows-7",
+      "published": "Tue, 20 Oct 2026 11:30:00 +0000",
+      "summary": "Windows 98 devotees now have (experimental) support for USB4 and Thunderbolt 3/4. Vibe coded driver also supports Windows Me, XP, Vista, and 7.",
+      "image": "https://cdn.mos.cms.futurecdn.net/NoWyHSrvf9AM6sJicvFink-1920-80.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "link": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "published": "Tue, 20 Oct 2026 11:00:00 +0000",
+      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Yelp-waitlist.jpg?resize=1200,675"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+      "link": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "published": "Tue, 20 Oct 2026 11:00:00 +0000",
+      "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst’s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of…",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/Otter-feat.jpg?resize=1200,675"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Pick up this DDR5 gaming PC for only $899",
+      "link": "https://www.tomshardware.com/desktops/gaming-pcs/pick-up-this-ddr5-gaming-pc-for-only-usd899-save-usd300-off-the-ibuypower-slate-pc-with-10gb-of-graphics-vram",
+      "published": "Tue, 20 Oct 2026 10:37:47 +0000",
+      "summary": "Pick up a brand-new iBuypower Slate PC for just $899, a great entry-level gaming PC option for 1080p gaming.",
+      "image": "https://cdn.mos.cms.futurecdn.net/5opi3JffqzD7ufoKzCsxmR-1920-80.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "How ‘Final Fantasy VII Revelation’ Strikes the Balance Between Old and New",
+      "link": "https://www.wired.com/story/final-fantasy-vii-revelation/",
+      "published": "Tue, 20 Oct 2026 10:30:00 +0000",
+      "summary": "Game director Naoki Hamaguchi talks about scale and expectations for one of gaming’s most ambitious remakes.",
+      "image": "https://media.wired.com/photos/6ad5cb8405cc7ba4721d495c/master/pass/01_Cloud_re_FIX%20(1).png"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Google DeepMind claims four AI agents beat Minecraft in 27 hours by writing 2,783 programs of their own",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens",
+      "published": "Tue, 20 Oct 2026 10:25:00 +0000",
+      "summary": "Google DeepMind researchers say four Gemini 4 Argon agents beat Minecraft in 27 hours, writing 2,783 programs with no human help.",
+      "image": "https://cdn.mos.cms.futurecdn.net/8xm4j5uRLtAMLxQ7kgph8k-1920-80.png"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "5 Best AI Notetakers (2026), Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/best-ai-notetakers/",
+      "published": "Tue, 20 Oct 2026 10:00:00 +0000",
+      "summary": "A growing collection of pocket-size gadgets lets you easily make recordings and extract info from them. Here are our favorites.",
+      "image": "https://media.wired.com/photos/6ad696c9a81e4c7e1674b90b/master/pass/Best%20AI%20Notetakers%20(Update%20Oct%202026)%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Intel bringing faster upscaler to Valve's Proton - XMX accelerated XeSS could come to SteamOS in boost to future Intel-powered handheld gaming PCs",
+      "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/intel-bringing-faster-upscaler-to-valves-proton-xmx-accelerated-xess-could-come-to-steamos-in-boost-to-future-intel-powered-handheld-gaming-pcs/",
+      "published": "Tue, 20 Oct 2026 09:57:43 +0000",
+      "summary": "Intel giving SteamOS a little more love?",
+      "image": "https://cdn.mos.cms.futurecdn.net/9MJHAQihCEJpovFPTVxFoR-1920-80.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "New Steam Deck plugin means you can customise your Steam Achievement pop-ups to match Xbox, PlayStation, Nintendo, or anything your heart desires",
+      "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/new-steam-deck-plugin-means-you-can-customise-your-steam-achievement-pop-ups-to-match-xbox-playstation-nintendo-or-anything-your-heart-desires/",
+      "published": "Tue, 20 Oct 2026 09:38:16 +0000",
+      "summary": "The Achievement Customizer gives you full control over your wee pop-ups.",
+      "image": "https://cdn.mos.cms.futurecdn.net/MhUhVvM6DEEQVqXYfCpUiC-1920-80.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
+      "link": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
+      "published": "Tue, 20 Oct 2026 07:01:00 +0000",
+      "summary": "Blackwall has raised $100M at a $2.2B valuation to continue building security and filtering tools that help websites grapple with growing bot and AI traffic.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Blackwall-co-founders-l-r-Denis-Prochko-and-Nik-Rozenberg.png?resize=1200,800"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
+      "link": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
+      "published": "Tue, 20 Oct 2026 05:59:56 +0000",
+      "summary": "The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/52568167027_27ac36afb5_o-1152x648.jpg"
     },
     {
       "source": "The Verge",
@@ -21,15 +147,6 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/baseus1.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "ICANN testing tech to let law enforcement access non-public WHOIS info",
-      "link": "https://www.theregister.com/networks/2026/10/20/icann-testing-tech-to-let-law-enforcement-access-non-public-whois-info/5304036",
-      "published": "Tue, 20 Oct 2026 02:11:27 +0000",
-      "summary": "Single sign-on to help address imminent threats to life, critical infrastructure, or kids",
-      "image": "https://image.theregister.com/?imageId=5304041&width=800"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
@@ -37,15 +154,6 @@
       "published": "Tue, 20 Oct 2026 01:27:03 +0000",
       "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_1933.jpg?resize=1200,900"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "DeepSeek deep-sixed at all US federal civilian agencies",
-      "link": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
-      "published": "Tue, 20 Oct 2026 00:11:10 +0000",
-      "summary": "Order disallowing use of Chinese AI service is unhelpfully vague and broad",
-      "image": "https://image.theregister.com/?imageId=5304014&width=800"
     },
     {
       "source": "PC Gamer",
@@ -98,7 +206,7 @@
       "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
       "published": "2026-10-19T21:28:20.000Z",
-      "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\"…",
+      "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesday Chamath \"SPAC King\"…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
@@ -109,15 +217,6 @@
       "published": "2026-10-19T21:00:17.000Z",
       "summary": "The Miles is a smart plug for your car. My 15-year-old daughter just got her learner's permit, so when I was pitched a new gadget tailored to teen drivers, I was intrigued. The Miles Plug is a small device that plugs into your car's OBD-II…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/LR6B6271.jpeg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Best Power Bank Deals: Laptops, MagSafe, and More",
-      "link": "https://www.wired.com/story/power-bank-deals-october-2026/",
-      "published": "Mon, 19 Oct 2026 20:55:15 +0000",
-      "summary": "You can never have too many portable chargers, especially when they’re this discounted.",
-      "image": "https://media.wired.com/photos/6ad6814fc2cc5f3eed50f4a6/master/pass/Power%20Bank%20Deals%20Post%20102026%20top%20art%20SOURCE%20Amazon.jpg"
     },
     {
       "source": "Ars Technica",
@@ -138,24 +237,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/nnXTHjAJbZ7bw4xzhZJCw-1920-80.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Grocery giant Ahold Delhaize confirms cyberattack forced US and European systems offline",
-      "link": "https://www.theregister.com/security/2026/10/19/grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-and-european-systems-offline/5303970",
-      "published": "Mon, 19 Oct 2026 20:26:21 +0000",
-      "summary": "Second security snafu in two years",
-      "image": "https://image.theregister.com/?imageId=249284&width=800"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Amazon makes vague commitment to unproven nuclear tech to power Indiana datacenters",
-      "link": "https://www.theregister.com/offbeat/2026/10/19/amazon-makes-vague-commitment-to-unproven-nuclear-tech-to-power-indiana-datacenters/5303974",
-      "published": "Mon, 19 Oct 2026 20:22:47 +0000",
-      "summary": "Partner X-energy has not built a single working reactor yet",
-      "image": "https://image.theregister.com/?imageId=5303977&width=800"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
@@ -172,15 +253,6 @@
       "published": "Mon, 19 Oct 2026 20:09:24 +0000",
       "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
       "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205217071.jpg?resize=1200,800"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Maxwell gives sub-optimal code a runtime glow-up",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/19/maxwell-gives-sub-optimal-code-a-runtime-glow-up/5303961",
-      "published": "Mon, 19 Oct 2026 19:57:49 +0000",
-      "summary": "Finally, your hardware has its own agent",
-      "image": "https://image.theregister.com/?imageId=5303967&width=800"
     },
     {
       "source": "Ars Technica",
@@ -210,24 +282,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260924-ph-rcr01-0036.jpg?w=1366"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-      "published": "Mon, 19 Oct 2026 19:00:12 +0000",
-      "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tolan.jpg?resize=1200,677"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-      "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
-      "published": "Mon, 19 Oct 2026 18:49:04 +0000",
-      "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/wabi-ios-home.png?resize=1200,1200"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How to continue a GitHub Copilot app session in VS Code",
@@ -235,24 +289,6 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-      "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-      "published": "Mon, 19 Oct 2026 18:37:27 +0000",
-      "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/08/rnuUXh8kprc7HfoRAGgTvZ-1200-80.jpg?w=970"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Security patches need patches now that attackers have AI",
-      "link": "https://www.theregister.com/patches/2026/10/19/security-patches-need-patches-now-that-attackers-have-ai/5303927",
-      "published": "Mon, 19 Oct 2026 18:23:40 +0000",
-      "summary": "Terra finds sharp rise in GitHub security fixes reported broken within 90 days",
-      "image": "https://image.theregister.com/?imageId=5303945&width=800"
     },
     {
       "source": "MIT Technology Review",
@@ -291,15 +327,6 @@
       "image": "https://www.youtube.com/embed/2MONMgAmXNU"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "AI assistant startup Town nabs unicorn valuation 4 months after launch",
-      "link": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
-      "published": "Mon, 19 Oct 2026 18:00:39 +0000",
-      "summary": "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2294590819.jpg?resize=1200,675"
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "IEEE Report Highlights How Members Are Engineering for Public Good",
@@ -316,15 +343,6 @@
       "published": "Mon, 19 Oct 2026 17:45:55 +0000",
       "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_LLMsNotcomplicated_V2.jpg?resize=1200,600"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Write bot-resistant code with KillSwitch, a programming language designed to confuse LLMs",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/19/write-bot-resistant-code-with-killswitch-a-programming-language-designed-to-confuse-llms/5303919",
-      "published": "Mon, 19 Oct 2026 17:10:47 +0000",
-      "summary": "Lies, lots of adverbs, and prosaic stories don't make for very machine-readable code, it turns out",
-      "image": "https://image.theregister.com/?imageId=226584&width=800"
     },
     {
       "source": "Ars Technica",
@@ -363,24 +381,6 @@
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/rsz_uarx_ossie-d.png?fit=879%2C628&ssl=1"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "You can now modify the vBIOS on Nvidia gaming GPUs without flashing thanks to a solo developer’s project",
-      "link": "https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration",
-      "published": "Mon, 19 Oct 2026 16:30:39 +0000",
-      "summary": "Flashing the VBIOS is risky and can brick a GPU, but this VBIOS configurator uses an Nvidia register key to override VBIOS settings without flashing.",
-      "image": "https://cdn.mos.cms.futurecdn.net/YFFrf4eYE3Q6QpkEfGBua5-1920-80.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Red Hat helps teach about tech writing",
-      "link": "https://www.theregister.com/os-platforms/2026/10/19/red-hat-helps-teach-about-tech-writing/5303868",
-      "published": "Mon, 19 Oct 2026 16:11:00 +0000",
-      "summary": "But learns tough lessons about AI in the process",
-      "image": "https://image.theregister.com/?imageId=1682374&width=800"
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "Apple teases MacBook Pro event next week",
@@ -399,15 +399,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp?w=1837"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "A Chinese hacker used AI agents to break into more than 100 company websites",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-chinese-hacker-used-ai-agents-to-break-into-more-than-100-company-websites-deere-and-sharkninja-among-websites-hit-by-open-source-ai-powered-problem-solving-platform-demo",
-      "published": "Mon, 19 Oct 2026 15:36:50 +0000",
-      "summary": "A Chinese hacker reportedly used a fleet of AI agents to break into more than 100 company websites, including farm equipment maker Deers and appliance outfit SharkNinja.",
-      "image": "https://cdn.mos.cms.futurecdn.net/A7Q3HWnLkUvNjuKTfUNdPA-1920-80.jpg"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Disney found a way to buy Character.AI without buying its lawsuits",
@@ -417,24 +408,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2018/06/getty-disney-1152x648.jpg"
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
-      "link": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
-      "published": "Mon, 19 Oct 2026 14:35:01 +0000",
-      "summary": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/848413061_1584132123754825_2260017497965151960_n-1152x648-1792421844.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
-      "link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
-      "published": "2026-10-19T14:30:00.000Z",
-      "summary": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
@@ -442,24 +415,6 @@
       "published": "Mon, 19 Oct 2026 13:48:56 +0000",
       "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shinywire-home.png"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "This is the first RTX 5060 Ti gaming PC I've seen for anywhere near $1,000 for quite a while, and I'd still pick it up despite the catch",
-      "link": "https://www.pcgamer.com/hardware/gaming-pcs/this-is-the-first-rtx-5060-ti-gaming-pc-ive-seen-for-anywhere-near-usd1-000-for-a-long-time-and-id-still-pick-it-up-despite-the-catch/",
-      "published": "Mon, 19 Oct 2026 13:35:55 +0000",
-      "summary": "It's still worth it if you're on a budget, despite the single stick of DDR4.",
-      "image": "https://cdn.mos.cms.futurecdn.net/bTiGbpx3qiE7Cq933mCNJF-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "French rioters ransack eSports team premises and are seen looting RAM sticks from PCs",
-      "link": "https://www.tomshardware.com/video-games/pc-gaming/french-rioters-ransack-esports-team-premises-and-are-seen-looting-ram-sticks-from-pcs-team-vitalitys-v-hive-paris-hq-was-wrecked-during-unrest",
-      "published": "Mon, 19 Oct 2026 13:32:42 +0000",
-      "summary": "Leading French eSports club Team Vitality has confirmed that its Paris HQ has been smashed up, with trophies, computer equipment, and more looted over the weekend.",
-      "image": "https://cdn.mos.cms.futurecdn.net/6hjhRxi7uiQjAYTCrxbcnK-1920-80.jpg"
     },
     {
       "source": "IEEE Spectrum",
@@ -480,51 +435,6 @@
       "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c9.png"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen",
-      "link": "https://www.pcgamer.com/hardware/ps5-exclusive-demons-souls-remake-not-only-runs-on-pc-now-its-running-at-twice-the-fps-cap-on-an-rtx-5070-with-frame-gen/",
-      "published": "Mon, 19 Oct 2026 12:01:04 +0000",
-      "summary": "It could be smoother but double the frames is nothing to sniff at.",
-      "image": "https://cdn.mos.cms.futurecdn.net/xhQmSwMGCL3T3ANrTdHzYb-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Claude Code AI agent caught a crypto miner hiding on a developer’s overheating Mac",
-      "link": "https://www.tomshardware.com/tech-industry/cryptomining/claude-code-ai-agent-caught-a-crypto-miner-hiding-on-a-developers-overheating-mac-xmrig-task-was-hogging-about-1175-percent-cpu-roughly-12-cores-pushing-temps-to-112-degrees",
-      "published": "Mon, 19 Oct 2026 11:36:20 +0000",
-      "summary": "A developer using Claude Code to help build a temperature monitor app was warned by the coding agent about a hidden crypto miner running on their system.",
-      "image": "https://cdn.mos.cms.futurecdn.net/QNNat83JqoZDqE7W9nvJfd-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Arm says its AGI CPU delivers nearly 2X the performance per rack of AMD EPYC 9755 in new agentic AI CPU tests",
-      "link": "https://www.tomshardware.com/pc-components/cpus/arm-claims-agi-cpu-delivers-double-the-performance-per-rack-of-amd-epyc-9755-in-independent-analysis-new-cpu-evaluation-methodology-developed-by-arm-evaluates-agentic-ai-performance-across-seven-workloads",
-      "published": "Mon, 19 Oct 2026 11:00:00 +0000",
-      "summary": "Arm claims its AGI CPU delivers nearly 2X the modeled rack performance of AMD’s EPYC 9755 across seven agentic AI workloads, using a new evaluation methodology developed with Fujitsu, Meta, and OpenAI",
-      "image": "https://cdn.mos.cms.futurecdn.net/WZWmFdfwr99E5o9CwZc6nM-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Score a budget gaming monitor with a blistering 200Hz refresh rate for just $79",
-      "link": "https://www.tomshardware.com/monitors/gaming-monitors/score-a-budget-gaming-monitor-with-a-blistering-200hz-refresh-rate-for-just-usd79-25-inch-ultragear-g5-reduced-by-a-staggering-47-percent-in-walmart-discount",
-      "published": "Mon, 19 Oct 2026 10:53:38 +0000",
-      "summary": "With 47% off the list price, LG's UltrGear G5 gaming monitor is the perfect impulse purchase at just $79. An IPS panel, a 200Hz refresh rate, and FHD resolution for an unbelievable price.",
-      "image": "https://cdn.mos.cms.futurecdn.net/5wbnAk2NV3Pe4HYsYz9bG3-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Save $500 on this 1440p gaming PC with an RTX 5070, now under $1,800",
-      "link": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd500-on-this-1440p-gaming-pc-with-an-rtx-5070-now-under-usd1-800-abs-flux-ii-aqua-rig-ships-with-a-20-core-intel-cpu-32gb-ddr5-and-a-1tb-ssd",
-      "published": "Mon, 19 Oct 2026 10:01:38 +0000",
-      "summary": "This Newegg deal on an ABS Flux II Aqua gaming PC gives you a machine ready for 1440p and 4K gameplay for $1,799.99. This pre-built comes with a 20-core Intel Core i7-14700F CPU, an Nvidia GeForce RTX 5070, a 1TB SSD, and 32GB of DDR5 RAM.",
-      "image": "https://cdn.mos.cms.futurecdn.net/NFSxQrkqFyc5vtLLKu7Cx3-1920-80.png"
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
@@ -532,15 +442,6 @@
       "published": "Mon, 19 Oct 2026 10:00:04 +0000",
       "summary": "This white paper explains how edge AI and physical AI help cities move beyond passive monitoring. It shows how urban infrastructure can sense, reason, and act on real-time conditions across public safety, mobility, and infrastructure…",
       "image": "https://assets.rbl.ms/68424848/origin.png"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Russian military satellite closes from 200 miles to 3 miles of US radar craft aiding Ukraine",
-      "link": "https://www.tomshardware.com/tech-industry/space/russian-military-satellite-closes-from-200-miles-to-3-miles-of-us-radar-satellite-aiding-ukraine-astronomer-says-it-may-be-the-first-unapproved-rendezvous-in-low-earth-orbit",
-      "published": "Mon, 19 Oct 2026 10:00:00 +0000",
-      "summary": "Russia’s Cosmos 2612 moved from more than 200 miles to about three miles from ICEYE-X36, a U.S.-owned radar satellite.",
-      "image": "https://cdn.mos.cms.futurecdn.net/hDYHoCwU9K6yfsUBaurBzf-1920-80.jpg"
     },
     {
       "source": "MIT Technology Review",
@@ -559,15 +460,6 @@
       "published": "Mon, 19 Oct 2026 09:00:00 +0000",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. On the evening of December 29, 1959, at an…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-90743946.jpg?w=840"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs",
-      "link": "https://www.tomshardware.com/pc-components/gpus/amd-cards-now-run-all-dlss-features-thanks-to-one-developers-project-plans-to-match-native-nvidia-gpu-performance",
-      "published": "Sun, 18 Oct 2026 16:03:01 +0000",
-      "summary": "Radeon GPUs get the full DLSS experience as solo project ports all the DLSS features for RDNA2-4 GPUs.",
-      "image": "https://cdn.mos.cms.futurecdn.net/BeW2F22fUfKmgBpAPSsk2m-1920-80.jpg"
     },
     {
       "source": "IEEE Spectrum",
