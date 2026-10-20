@@ -1,7 +1,87 @@
 {
-  "updated": "2026-10-20T20:18:13.981Z",
-  "count": 93,
+  "updated": "2026-10-20T22:18:41.861Z",
+  "count": 92,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "link": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "published": "2026-10-20T22:11:34.000Z",
+      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
+      "link": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
+      "published": "2026-10-20T21:30:24.000Z",
+      "summary": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "SpaceX will try catching Starship and its booster for first time, Musk says",
+      "link": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
+      "published": "2026-10-20T21:02:53.000Z",
+      "summary": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "SpaceX’s AI business is beating expectations",
+      "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "published": "Tue, 20 Oct 2026 20:40:41 +0000",
+      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM.png?resize=1130,1200"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "link": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "published": "Tue, 20 Oct 2026 20:35:10 +0000",
+      "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg?resize=1200,800"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster",
+      "link": "https://www.pcgamer.com/games/action/after-talking-to-capcom-im-a-lot-more-optimistic-about-onimusha-3-getting-a-remaster/",
+      "published": "Tue, 20 Oct 2026 20:34:43 +0000",
+      "summary": "We need time-traveling Jean Reno on PC.",
+      "image": "https://cdn.mos.cms.futurecdn.net/hDaAszbiiMuDTtrpREy3GB-1920-80.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "SpaceX says big AI growth fueled revenue jump",
+      "link": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+      "published": "2026-10-20T20:26:58.000Z",
+      "summary": "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.\" While its Space…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_E.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+      "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+      "published": "Tue, 20 Oct 2026 20:07:58 +0000",
+      "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Astrolab’s upcoming rover will run the first LLMs on the moon",
+      "link": "https://www.technologyreview.com/2026/10/20/1147360/astrolab-upcoming-rover-llms-on-the-moon/",
+      "published": "Tue, 20 Oct 2026 20:07:21 +0000",
+      "summary": "Large language models are set to go lunar. A computer capable of running AI software is one of the payloads aboard Astrolab’s FLIP lunar rover, which is slated to head to Earth’s celestial companion as early as November 2026. The…"
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -17,7 +97,7 @@
       "title": "Logitech’s refurbished G Pro X2 Superstrike is 35 percent off",
       "link": "https://www.theverge.com/gadgets/1014764/logitech-x2-superstrike-haptics-wireless-gaming-mouse-deal-sale",
       "published": "2026-10-20T20:00:00.000Z",
-      "summary": "Looking for a way to try the haptics-equipped G Pro X2 Superstrike wireless gaming mouse without spending full price? You probably aren’t alone. Logitech’s now-last-gen right-handed mouse is a great PC gaming companion that mimics the feel…",
+      "summary": "The Superstrike looks similar to Logitech’s previous high-end gaming mice, but it has haptics-based sensors instead of switches. | Image: Cameron Faulkner / The Verge Looking for a way to try the haptics-equipped G Pro X2 Superstrike…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/PXL_20260213_153451513.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
@@ -30,22 +110,22 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/04/Gemini-google-vehicles.jpeg?w=1200"
     },
     {
-      "source": "The Verge",
+      "source": "Ars Technica",
       "category": "news",
-      "title": "Xbox CEO is reportedly planning three more rounds of layoffs",
-      "link": "https://www.theverge.com/games/1014700/xbox-ceo-asha-sharma-layoffs",
-      "published": "2026-10-20T19:06:40.000Z",
-      "summary": "Xbox CEO Asha Sharma is planning new rounds of layoffs for sometime this month, November, and January, according to Fortune. In July, as part of an organizational \"reset,\" Sharma announced planned layoffs affecting 3,200 staffers over the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK048_XBOX_2_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+      "title": "OpenBSD 8.0 arrives with security record still intact",
+      "link": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
+      "published": "Tue, 20 Oct 2026 19:57:18 +0000",
+      "summary": "OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/OpenBSD80Fish-e1792523267196.png"
     },
     {
-      "source": "The Verge",
+      "source": "Ars Technica",
       "category": "news",
-      "title": "Microsoft reportedly plans Xbox handheld in 2027, next-gen console in 2028",
-      "link": "https://www.theverge.com/news/1014666/xbox-project-helix-launch-2028-rumor",
-      "published": "2026-10-20T18:45:39.000Z",
-      "summary": "Microsoft is reportedly planning to launch an Xbox \"next-generation handheld device\" for the holiday season of 2027. The Xbox next-gen console, codename Project Helix, would then launch in the holidays of 2028, according to a new report…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25290359/STK048_XBOX_C.jpg?quality=90&strip=all&crop=0,0,100,100"
+      "title": "Does anyone actually want to win the medium-lift race in the United States?",
+      "link": "https://arstechnica.com/space/2026/10/does-anyone-actually-want-to-win-the-medium-lift-race-in-the-united-states/",
+      "published": "Tue, 20 Oct 2026 19:13:31 +0000",
+      "summary": "Ars Technica is here to help with a guide to the medium-lift space race.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/stoke-second-stage-1152x648.jpg"
     },
     {
       "source": "PC Gamer",
@@ -93,22 +173,13 @@
       "image": "https://cdn.mos.cms.futurecdn.net/4szPM7XMehsZ9c3J2mczjC-1920-80.jpg"
     },
     {
-      "source": "NASA",
+      "source": "Ars Technica",
       "category": "news",
-      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
-      "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
-      "published": "Tue, 20 Oct 2026 18:11:33 +0000",
-      "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonstrate nuclear…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg?w=1920"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "link": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-      "published": "2026-10-20T18:07:34.000Z",
-      "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_A.png?quality=90&strip=all&crop=0,0,100,100"
+      "title": "Quantum error correction goes well beyond breakeven",
+      "link": "https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven/",
+      "published": "Tue, 20 Oct 2026 18:08:57 +0000",
+      "summary": "A demo of error-corrected qubits shows big reductions in errors as they grow.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/helios-chip_top-1152x648.jpg"
     },
     {
       "source": "TechCrunch",
@@ -118,15 +189,6 @@
       "published": "Tue, 20 Oct 2026 17:55:12 +0000",
       "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/Eric-Schmidt.jpg?w=1024"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The $20,000 Voxel bot will help you find misplaced things around your home",
-      "link": "https://www.theverge.com/tech/1014533/tuesday-labs-voxel-series-1-home-robot-reservation",
-      "published": "2026-10-20T17:49:55.000Z",
-      "summary": "Tuesday Labs, a New York City-based robotics lab and design studio, has opened reservations for Voxel, its new bi-pedal robot designed to learn and take over routine tasks throughout your home. Similar to other robots like Weave Robotics'…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/voxel1.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "Tom's Hardware",
@@ -145,6 +207,15 @@
       "published": "Tue, 20 Oct 2026 17:41:58 +0000",
       "summary": "TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites.",
       "image": "https://media.wired.com/photos/6ad772c1fca8f52b99e9eedc/master/pass/GettyImages-2300075055.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+      "link": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+      "published": "Tue, 20 Oct 2026 17:40:20 +0000",
+      "summary": "Meta argues nobody “decided” to pirate books to train AI.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2273107915-1024x648.jpg"
     },
     {
       "source": "The Register",
@@ -200,15 +271,6 @@
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first…"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
-      "link": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
-      "published": "Tue, 20 Oct 2026 16:02:35 +0000",
-      "summary": "NASA researchers are developing the future of flight on Mars, laying the groundwork for helicopters with the ability to fly higher and farther while conducting science on the Red Planet. Using high-fidelity computer simulations and wind…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ingenuity-airfoil-clf5605.png"
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C",
@@ -254,15 +316,6 @@
       "image": "https://media.wired.com/photos/6ad2cc7064b24534a6bc5044/master/pass/culture_ai_agent_internet_research_listserv.jpg"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Provides Progress Update on Moon Base Rovers",
-      "link": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
-      "published": "Tue, 20 Oct 2026 15:00:10 +0000",
-      "summary": "As NASA works to build the Moon Base, crewed and robotic lunar rovers will play a crucial role during early development through technology demonstrations, astronaut transport, terrain mapping, scientific investigations, and resource…",
-      "image": "https://www.youtube.com/embed/Zezt6EsG9WE"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "How going dual-native means VM/container co-existence and sovereign security in the AI era",
@@ -270,24 +323,6 @@
       "published": "Tue, 20 Oct 2026 15:00:00 +0000",
       "summary": "SPONSORED FEATURE: Nutanix says running VMs and containers within the same operating environment shouldn’t be a brake on AI ambitions",
       "image": "https://image.theregister.com/?imageId=5303864&width=800"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat",
-      "link": "https://www.pcgamer.com/software/microsoft-wont-like-this-open-source-project-to-get-game-pass-working-on-steamos-and-linux-but-i-think-its-pretty-neat/",
-      "published": "Tue, 20 Oct 2026 14:45:35 +0000",
-      "summary": "If it doesn't exist, build it yourself.",
-      "image": "https://cdn.mos.cms.futurecdn.net/WC6bGUCypPXHqMYFTQMMSk-1920-80.jpg"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Webb Captures Stellar Jets",
-      "link": "https://www.nasa.gov/image-article/webb-captures-stellar-jets/",
-      "published": "Tue, 20 Oct 2026 14:44:09 +0000",
-      "summary": "An image from NASA’s James Webb Space Telescope released on Oct. 6, 2026, reveals a cauldron of cosmic creation. Webb has unveiled numerous stars formerly hidden by clouds of dust in a stellar nursery known as NGC 7129, which resides about…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/55572978759-545472774e-o.png?w=2048"
     },
     {
       "source": "The Register",
@@ -326,15 +361,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/F2eBRdr2oBGZeuWJZ9qPYQ-1920-80.jpg"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price",
-      "link": "https://www.pcgamer.com/hardware/vr-hardware/im-not-sure-if-the-steam-frame-hits-any-corners-in-this-bouncing-screensaver-but-maybe-if-i-watch-long-enough-the-headset-will-come-down-in-price/",
-      "published": "Tue, 20 Oct 2026 13:43:57 +0000",
-      "summary": "Jump around!",
-      "image": "https://cdn.mos.cms.futurecdn.net/vY4ztJVBw6dNr9Zr4sVMMT-1920-80.jpg"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "'Password1' and a forgotten test account land Welsh outfits in hot water",
@@ -351,15 +377,6 @@
       "published": "Tue, 20 Oct 2026 13:30:00 +0000",
       "summary": "The U.S. Army is developing a program to deploy autonomous AI agents that can navigate digital and network infrastructures, identify targets, and “neutralize” them.",
       "image": "https://cdn.mos.cms.futurecdn.net/HGtGAPrJEdQs4vEjEa2p98-1920-80.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
-      "link": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
-      "published": "Tue, 20 Oct 2026 13:17:36 +0000",
-      "summary": "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Autonomous-Flight_820-Autoland_2026-09.jpg?resize=1200,675"
     },
     {
       "source": "SpaceNews",
@@ -461,15 +478,6 @@
       "image": "https://media.wired.com/photos/6ad5cb8405cc7ba4721d495c/master/pass/01_Cloud_re_FIX%20(1).png"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "5 Best AI Notetakers (2026), Tested and Reviewed",
-      "link": "https://www.wired.com/gallery/best-ai-notetakers/",
-      "published": "Tue, 20 Oct 2026 10:00:00 +0000",
-      "summary": "A growing collection of pocket-size gadgets lets you easily make recordings and extract info from them. Here are our favorites.",
-      "image": "https://media.wired.com/photos/6ad696c9a81e4c7e1674b90b/master/pass/Best%20AI%20Notetakers%20(Update%20Oct%202026)%20102026%20top%20art%20SOURCE%20Amazon.jpg"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "A visit to Samsung’s massive new semiconductor hub",
@@ -477,42 +485,6 @@
       "published": "Tue, 20 Oct 2026 09:00:00 +0000",
       "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/map.png?w=840"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
-      "link": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
-      "published": "Tue, 20 Oct 2026 05:59:56 +0000",
-      "summary": "The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/52568167027_27ac36afb5_o-1152x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
-      "link": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
-      "published": "Mon, 19 Oct 2026 20:54:17 +0000",
-      "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ICEYE_assembling_satellite_06_3x2-1152x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-      "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-      "published": "Mon, 19 Oct 2026 20:21:53 +0000",
-      "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2214263510-1024x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "PSA: Patch your Plex media server before someone hacks it",
-      "link": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
-      "published": "Mon, 19 Oct 2026 19:39:19 +0000",
-      "summary": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/plex-media-server-1152x648.webp"
     },
     {
       "source": "NASA",
@@ -538,8 +510,7 @@
       "title": "Making the internet better for AI agents might make it worse for everyone else",
       "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
       "published": "Mon, 19 Oct 2026 18:22:47 +0000",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_Algo.jpg?resize=1200,600"
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites…"
     },
     {
       "source": "NASA",
@@ -549,6 +520,24 @@
       "published": "Mon, 19 Oct 2026 18:11:40 +0000",
       "summary": "Research teams at NASA’s Glenn Research Center are involved in developing theory and software to predict the noise from aircraft engines. This software helps engineers to design and analyze new and improved aircraft propulsion systems…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/new-dual-stream-nozzle-chevron-hot-exhaust-jet-jet-noise-prediction-code-e1642003352433-300x300-1.jpg?w=300"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Experimental Facilities",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/",
+      "published": "Mon, 19 Oct 2026 18:08:52 +0000",
+      "summary": "Research teams at the NASA Glenn Research Center perform experiments in world-class facilities such as the 9- by 15-Foot Low-Speed Wind Tunnel (9 x15 LSWT), the Aero-Acoustic Propulsion Laboratory (AAPL), the Small Hot Jet Acoustic Rig…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2025/01/grc-2022-c-04045.jpg?w=2048"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
+      "link": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+      "published": "Mon, 19 Oct 2026 18:01:51 +0000",
+      "summary": "The four crew members in NASA’s simulated Mars mission have spent the past year living and working in isolation in a confined habitat at NASA’s Johnson Space Center in Houston.",
+      "image": "https://www.youtube.com/embed/2MONMgAmXNU"
     },
     {
       "source": "IEEE Spectrum",
@@ -565,17 +554,16 @@
       "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
       "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
       "published": "Mon, 19 Oct 2026 17:45:55 +0000",
-      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_LLMsNotcomplicated_V2.jpg?resize=1200,600"
+      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head…"
     },
     {
-      "source": "Ars Technica",
+      "source": "NASA",
       "category": "news",
-      "title": "AI game clones are making indie developers afraid to show their work",
-      "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
-      "published": "Mon, 19 Oct 2026 16:59:22 +0000",
-      "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ss_c6067e139d8dd2cbf79c41a9c4e41e3bb088c95a.1920x1080-1152x648.jpg"
+      "title": "Instrumentation",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/",
+      "published": "Mon, 19 Oct 2026 16:37:45 +0000",
+      "summary": "To measure airflow and sound, research teams at the NASA Glenn Research Center use special instrumentation like particle image velocimetry, hot wire anemometry, Raman spectroscopy, microphones in phased arrays or continuously rotating…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/rotatingmicrophonerake.jpg?w=330"
     },
     {
       "source": "SpaceNews",
@@ -583,8 +571,17 @@
       "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
       "link": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
       "published": "Mon, 19 Oct 2026 16:31:12 +0000",
-      "summary": "SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified during the maiden flight of OSSIE-D, an orbital transfer vehicle (OTV) launched Oct. 1 aboard SpaceX’s Transporter-18 mission. At least […] The post UARX Space…",
+      "summary": "Correction: Dawn’s Docking and Fluid Transfer Port is not a hosted payload. UARX is testing it for future refueling missions. SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified […] The post UARX Space troubleshoots…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/rsz_uarx_ossie-d.png?fit=879%2C628&ssl=1"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Martian Dawn",
+      "link": "https://www.nasa.gov/image-article/martian-dawn/",
+      "published": "Mon, 19 Oct 2026 16:03:51 +0000",
+      "summary": "NASA’s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view yet of distant, wind-carved Martian…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp?w=1837"
     },
     {
       "source": "Krebs on Security",
@@ -777,7 +774,8 @@
       "title": "How one bug bounty researcher chooses the features they investigate",
       "link": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
       "published": "Thu, 08 Oct 2026 17:02:52 +0000",
-      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…"
+      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…",
+      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
     },
     {
       "source": "Krebs on Security",
@@ -796,14 +794,6 @@
       "published": "Mon, 05 Oct 2026 19:13:40 +0000",
       "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering […] The post Resource competition…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Agile Space Industries Strengthens Board and Corporate Development to Support Continued Growth",
-      "link": "https://spacenews.com/agile-space-industries-strengthens-board-and-corporate-development-to-support-continued-growth/",
-      "published": "Mon, 05 Oct 2026 12:00:00 +0000",
-      "summary": "DURANGO, Colo., Oct. 5, 2026 — Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His […] The post Agile Space…"
     },
     {
       "source": "Krebs on Security",
