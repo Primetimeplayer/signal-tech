@@ -1,7 +1,43 @@
 {
-  "updated": "2026-10-20T00:18:58.571Z",
-  "count": 94,
+  "updated": "2026-10-20T06:21:26.722Z",
+  "count": 91,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Sony updates the Walkman as a $5,900 gold-plated MP3 player",
+      "link": "https://www.theregister.com/personal-tech/2026/10/20/sony-updates-the-walkman-as-a-5900-gold-plated-mp3-player/5304051",
+      "published": "Tue, 20 Oct 2026 05:29:33 +0000",
+      "summary": "That price buys you an Android 16 device which can display an animated cassette",
+      "image": "https://image.theregister.com/?imageId=5304056&width=800"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Baseus’ new security camera has a spotlight that tracks and follows moving targets",
+      "link": "https://www.theverge.com/tech/1005073/baseus-security-primesentinel-u2-pro-outdoor-3k-dual-camera-tracking-spotlight",
+      "published": "2026-10-20T04:00:00.000Z",
+      "summary": "The bright spotlight’s focused beam improves the quality of video captured at night while scaring off unwanted visitors. | Image: Baseus Baseus announced a new addition to its lineup of AI-assisted security cameras that's more proactive…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/baseus1.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "ICANN testing tech to let law enforcement access non-public WHOIS info",
+      "link": "https://www.theregister.com/networks/2026/10/20/icann-testing-tech-to-let-law-enforcement-access-non-public-whois-info/5304036",
+      "published": "Tue, 20 Oct 2026 02:11:27 +0000",
+      "summary": "Single sign-on to help address imminent threats to life, critical infrastructure, or kids",
+      "image": "https://image.theregister.com/?imageId=5304041&width=800"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "published": "Tue, 20 Oct 2026 01:27:03 +0000",
+      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_1933.jpg?resize=1200,900"
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -26,7 +62,7 @@
       "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
       "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
       "published": "Mon, 19 Oct 2026 22:49:27 +0000",
-      "summary": "AI labs have staked their reputations on model benchmarking — the supposedly neutral and accurate system of evaluations that are designed to measure whether one AI product is better than another. However, the methods behind these…",
+      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have…",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_4993.jpeg?resize=1200,900"
     },
     {
@@ -44,7 +80,7 @@
       "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
       "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
       "published": "Mon, 19 Oct 2026 22:04:28 +0000",
-      "summary": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600"
     },
     {
@@ -147,15 +183,6 @@
       "image": "https://image.theregister.com/?imageId=5303967&width=800"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
-      "link": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
-      "published": "Mon, 19 Oct 2026 19:49:17 +0000",
-      "summary": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former OpenAI engineer’s release to a “blank check.”",
-      "image": "https://media.wired.com/photos/6ad6630343f8fc6e5c00cf7e/master/pass/open-ai-employee-court.jpg"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "PSA: Patch your Plex media server before someone hacks it",
@@ -226,6 +253,15 @@
       "published": "Mon, 19 Oct 2026 18:23:40 +0000",
       "summary": "Terra finds sharp rise in GitHub security fixes reported broken within 90 days",
       "image": "https://image.theregister.com/?imageId=5303945&width=800"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "published": "Mon, 19 Oct 2026 18:22:47 +0000",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_Algo.jpg?resize=1200,600"
     },
     {
       "source": "NASA",
@@ -336,15 +372,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/YFFrf4eYE3Q6QpkEfGBua5-1920-80.jpg"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "People are using AI to make their smart TVs dumb again",
-      "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
-      "published": "Mon, 19 Oct 2026 16:13:22 +0000",
-      "summary": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/05/Google-TV.jpeg?w=1200"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Red Hat helps teach about tech writing",
@@ -370,15 +397,6 @@
       "published": "Mon, 19 Oct 2026 16:03:51 +0000",
       "summary": "NASA’s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view yet of distant, wind-carved Martian…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp?w=1837"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
-      "link": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
-      "published": "Mon, 19 Oct 2026 16:00:00 +0000",
-      "summary": "Around 80 pages on WhatsApp’s website exposed instructions that were designed for its chatbot, including “WHAT NOT TO SAY.” Meta says a bug caused the issue.",
-      "image": "https://media.wired.com/photos/6ad61af88d7b5cce41c3ec77/master/pass/GettyImages-2262950720.jpg"
     },
     {
       "source": "Tom's Hardware",
@@ -417,15 +435,6 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Major European mobile carriers are teaming up for a ‘direct’ satellite program without Starlink",
-      "link": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink",
-      "published": "2026-10-19T14:24:42.000Z",
-      "summary": "Deutsche Telekom, Orange, Telefónica, and Vodafone signed a letter of intent saying they're considering a joint bid for spectrum that would support European direct-to-device satellite competition for SpaceX's Starlink. The four telecom…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK450_EU_E.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
@@ -462,15 +471,6 @@
       "image": "https://spectrum.ieee.org/media-library/author-jonathan-hurst-a-tall-slim-white-man-wearing-a-black-long-sleeve-shirt-and-dark-jeans-stands-next-to-his-digit-5-humano.jpg?id=68441166&width=980"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Microsoft abandons UK AI supercomputer as grid struggles to keep up",
-      "link": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
-      "published": "Mon, 19 Oct 2026 12:15:48 +0000",
-      "summary": "Tech giant walks away from flagship Essex project as power connection delays threaten to leave nation's AI ambitions waiting until the 2030s",
-      "image": "https://image.theregister.com/?imageId=240959&width=800"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
@@ -498,15 +498,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/QNNat83JqoZDqE7W9nvJfd-1920-80.jpg"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "RTX 5090 not dead, says Nvidia—but it's mysteriously vanished from the company's official marketplace",
-      "link": "https://www.pcgamer.com/hardware/graphics-cards/rtx-5090-not-dead-says-nvidia-but-its-mysteriously-vanished-from-the-companys-official-marketplace/",
-      "published": "Mon, 19 Oct 2026 11:12:36 +0000",
-      "summary": "Another Schrödinger's graphics card?",
-      "image": "https://cdn.mos.cms.futurecdn.net/nZAQu9r9L63cUZYG8y4hsE-1920-80.jpg"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Arm says its AGI CPU delivers nearly 2X the performance per rack of AMD EPYC 9755 in new agentic AI CPU tests",
@@ -523,15 +514,6 @@
       "published": "Mon, 19 Oct 2026 10:53:38 +0000",
       "summary": "With 47% off the list price, LG's UltrGear G5 gaming monitor is the perfect impulse purchase at just $79. An IPS panel, a 200Hz refresh rate, and FHD resolution for an unbelievable price.",
       "image": "https://cdn.mos.cms.futurecdn.net/5wbnAk2NV3Pe4HYsYz9bG3-1920-80.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "How the Xbox’s Disc-to-Digital Program Works",
-      "link": "https://www.wired.com/story/xbox-disc-to-digital/",
-      "published": "Mon, 19 Oct 2026 10:30:00 +0000",
-      "summary": "Microsoft is letting players digitize their game discs for free, but don't sell your physical collection just yet.",
-      "image": "https://media.wired.com/photos/6ac9144496a91d67fca310c1/master/pass/Xbox%20Disc.jpg"
     },
     {
       "source": "Tom's Hardware",
@@ -622,15 +604,6 @@
       "published": "Fri, 16 Oct 2026 09:00:00 +0000",
       "summary": "More than 5 million people around the world have an advanced form of age-related macular degeneration (AMD) called geographic atrophy, in which cells in the retinas die off. And until now, no treatment could restore their vision. The PRIMA…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/ND26-dl_mapped.png?w=840"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "Can’t bear to say goodbye to your pet? Biotech’s got you covered.",
-      "link": "https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/",
-      "published": "Fri, 16 Oct 2026 09:00:00 +0000",
-      "summary": "I don’t remember much about Peppy, my first and only pet cat. I can conjure the sensation of stroking her while she purred, recall how she used to get stuck in trees (just like in cartoons!), and chuckle about the time she pooed in my baby…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AdobeStock_551902166.jpg?resize=1200,600"
     },
     {
       "source": "SpaceNews",

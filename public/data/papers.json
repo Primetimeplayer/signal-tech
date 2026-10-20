@@ -1,17 +1,82 @@
 {
-  "updated": "2026-10-20T00:18:58.829Z",
+  "updated": "2026-10-20T06:21:27.236Z",
   "count": 20,
   "items": [
     {
-      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
-      "summary": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\\boldsymbol{u}$-prediction) with clean image prediction…",
-      "link": "http://arxiv.org/abs/2610.23854v1",
-      "published": "2026-10-16T17:59:30Z",
+      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+      "summary": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scratch on GPIC, a dataset of 100M image-text pairs. Halcyon-0.52B outperforms LlamaGen-XL/8 (48.0 vs…",
+      "link": "http://arxiv.org/abs/2610.26863v1",
+      "published": "2026-10-19T17:59:59Z",
       "authors": [
-        "Soumik Mukhopadhyay",
-        "Long Mai",
-        "Abhinav Shrivastava",
-        "Aniruddha Mahapatra"
+        "Keshigeyan Chandrasegaran",
+        "Yue Zhao",
+        "Armin W. Thomas",
+        "Ehsan Adeli",
+        "Jiajun Wu",
+        "Juan Carlos Niebles",
+        "Li Fei-Fei",
+        "Michael Poli"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements…",
+      "link": "http://arxiv.org/abs/2610.26860v1",
+      "published": "2026-10-19T17:59:58Z",
+      "authors": [
+        "Yu Zhou",
+        "Cheng-Fu Yang",
+        "Rui Sun",
+        "Di Wu",
+        "Sibo Peng",
+        "Mingyang Zhang",
+        "Zhen Yang",
+        "Ruiyi Zhang",
+        "Nanyun Peng",
+        "Zhe Gan",
+        "Kai-Wei Chang"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.MM"
+      ]
+    },
+    {
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "summary": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate…",
+      "link": "http://arxiv.org/abs/2610.26861v1",
+      "published": "2026-10-19T17:59:58Z",
+      "authors": [
+        "Wenqian Zhang",
+        "Yangyi Huang",
+        "Zigeng Xu",
+        "Weiyang Liu",
+        "Zhen Liu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.GR"
+      ]
+    },
+    {
+      "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+      "summary": "Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teacher equipped with an evidence-centered visual view. However, the resulting corrections may conflate…",
+      "link": "http://arxiv.org/abs/2610.26856v1",
+      "published": "2026-10-19T17:59:56Z",
+      "authors": [
+        "Shiao Xie",
+        "Siyu Chen",
+        "Jianwei Lv",
+        "Xiandong Li",
+        "Yujin Wang"
       ],
       "categories": [
         "cs.CV",
@@ -19,92 +84,194 @@
       ]
     },
     {
-      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
-      "summary": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which fine-tuning on one brings out another, as a behavioral coupling…",
-      "link": "http://arxiv.org/abs/2610.23847v1",
-      "published": "2026-10-16T17:58:08Z",
+      "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+      "summary": "Reinforcement learning enables mobile robots to make fast and scalable navigation decisions in constrained human-shared environments. However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate…",
+      "link": "http://arxiv.org/abs/2610.26852v1",
+      "published": "2026-10-19T17:59:49Z",
       "authors": [
-        "Dongyoon Hahm",
-        "Woogyeol Jin",
-        "Dennis Wei",
-        "Yi Zhou",
-        "Nathalie Baracaldo",
-        "Kimin Lee"
+        "Zehao Wang",
+        "Jianpeng Yao",
+        "Yuping Wang",
+        "Yiping Li",
+        "Jiaqi Li",
+        "Zhixu Li",
+        "Kanghoon Lee",
+        "Jinfeng Wang",
+        "Cong Liu",
+        "Zhaowei Tan",
+        "Jinkyoo Park",
+        "Jiachen Li"
       ],
       "categories": [
-        "cs.CL",
+        "cs.RO",
         "cs.AI",
         "cs.LG"
       ]
     },
     {
-      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
-      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry…",
-      "link": "http://arxiv.org/abs/2610.23845v1",
-      "published": "2026-10-16T17:57:55Z",
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "summary": "In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure. Different VLMs are evaluated on 18 manipulation tasks under a fixed interaction budget. The…",
+      "link": "http://arxiv.org/abs/2610.26848v1",
+      "published": "2026-10-19T17:59:30Z",
       "authors": [
-        "Shicheng Liu",
-        "Krista Opsahl-Ong",
-        "Andrew Drozdov",
-        "Julian Killingback",
-        "Arnav Singhvi",
-        "Ronak Pradeep",
-        "Michael Bendersky",
-        "James C. Dickerson",
-        "Monica S. Lam"
+        "Zekai Li",
+        "Jiayi Yu",
+        "Jinlu Zhang",
+        "Luyang Niu",
+        "Zekun Qi",
+        "Jun Zheng",
+        "Xuchuan Chen",
+        "Dairu Liu",
+        "Yintianrun Zhang",
+        "He Wang",
+        "Li Yi"
       ],
       "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "WeAct: Dynamic Weight Switching as Agent Actions",
+      "summary": "Long-horizon agents must learn heterogeneous capabilities from interleaved trajectories. Updating shared parameters to learn new capabilities can degrade previously acquired ones, resulting in catastrophic forgetting. As a trajectory unfolds, different stages may require different capabilities, yet conventional joint training and static adapter merging maintain a fixed parameter configuration…",
+      "link": "http://arxiv.org/abs/2610.26847v1",
+      "published": "2026-10-19T17:59:19Z",
+      "authors": [
+        "Rui Shi",
+        "Xunjian Yin",
+        "Jiacheng Sang",
+        "Zichuan Liu",
+        "Shuyan Zhou"
+      ],
+      "categories": [
+        "cs.LG",
         "cs.AI",
         "cs.CL"
       ]
     },
     {
-      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
-      "summary": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative…",
-      "link": "http://arxiv.org/abs/2610.23839v1",
-      "published": "2026-10-16T17:56:35Z",
+      "title": "Train An Imaginative Agent",
+      "summary": "A seemingly reasonable push in Sokoban can make the puzzle unsolvable. To avoid such mistakes, an agent has to anticipate the consequences of its actions before execution, especially when feedback from the real environment is sparse or actions are irreversible. We introduce Agentic Imagination (Agima), a training framework that trains an agent to imagine before acting, i.e. to be imaginative…",
+      "link": "http://arxiv.org/abs/2610.26845v1",
+      "published": "2026-10-19T17:59:12Z",
       "authors": [
-        "Jianyuan Zhong",
-        "Chenwei Wu",
-        "Zhaochen Yu",
-        "Xixian Jiang",
-        "Xuewei Li",
-        "Hao Xiao",
-        "Xilin Dai",
-        "Junyang Wang",
-        "Jiaru Zou",
-        "Zhiqing Cui",
-        "Boyuan Zheng",
-        "Jing Xiong",
-        "Zhen Zhang",
-        "Qiang Gao",
-        "Michael Morley",
-        "Luis Nakayama",
-        "Qiang Xu",
-        "Liyue Shen",
-        "Tao Gui",
-        "Leo Anthony Celi",
-        "James Zou",
-        "Zhenfei Yin",
-        "Yingcheng Wu",
-        "Ling Yang"
+        "Jiaxin Ge",
+        "Junyi Zhang",
+        "Tianning Chai",
+        "Hanjun Yoo",
+        "Chenyang Wang",
+        "Xiuyu Li",
+        "Weijia Shi",
+        "XuDong Wang",
+        "Sewon Min",
+        "Luke Zettlemoyer",
+        "Trevor Darrell",
+        "Haiwen Feng"
       ],
       "categories": [
-        "cs.CL"
+        "cs.AI"
       ]
     },
     {
-      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
-      "summary": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that specifies how the signal should be probed. We show that encoding…",
-      "link": "http://arxiv.org/abs/2610.23834v1",
-      "published": "2026-10-16T17:53:19Z",
+      "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+      "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage…",
+      "link": "http://arxiv.org/abs/2610.26844v1",
+      "published": "2026-10-19T17:59:05Z",
       "authors": [
-        "Felix Frohnert",
-        "Adrián Pérez-Salinas",
-        "Sebastian Lange",
-        "Marcus Schwaebisch",
-        "Evert van Nieuwenburg",
-        "Vedran Dunjko"
+        "Heejeong Nam",
+        "Divyat Mahajan",
+        "Quentin Le Lidec",
+        "Randall Balestriero",
+        "David Klindt"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "LatComm: Reusable Context Compression for Latent Communication between Large Language Models",
+      "summary": "Systems that combine several large language models (LLMs) often use one context for many questions. When the context is passed between models as text, the receiving model processes all of its tokens again for every question. Avoiding this cost requires a context representation that is compact, reusable across questions, and readable by a different LLM. Existing compression and latent…",
+      "link": "http://arxiv.org/abs/2610.26840v1",
+      "published": "2026-10-19T17:58:41Z",
+      "authors": [
+        "Huawei Lin",
+        "Jinting Liu",
+        "Tan Yu",
+        "Weijie Zhao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Newton-Based Methods for Bilevel Optimization Beyond Lower-Level Strong Convexity",
+      "summary": "Bilevel optimization provides a framework for machine learning tasks such as hyperparameter optimization, data reweighting, and meta-learning. Existing Newton-based bilevel methods typically rely on the classical hypergradient formula, which is generally unavailable when lower-level solutions are nonunique and the lower-level Hessian is singular. We develop two Newton-based methods beyond…",
+      "link": "http://arxiv.org/abs/2610.26839v1",
+      "published": "2026-10-19T17:58:34Z",
+      "authors": [
+        "Youran Dong",
+        "Junfeng Yang",
+        "Wei Yao",
+        "Jin Zhang"
+      ],
+      "categories": [
+        "math.OC",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "summary": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask where this costs accuracy with a real scientific tool: PHREEQC, a widely used geochemistry simulator from the USGS, whose reports reach 846.8k characters and whose determinism lets…",
+      "link": "http://arxiv.org/abs/2610.26836v1",
+      "published": "2026-10-19T17:57:41Z",
+      "authors": [
+        "Ke Zhang",
+        "Sahchit Chundur",
+        "Jerry Peprah Owusu",
+        "Mohammad Javad Abdolhosseini Qomi",
+        "Maziar Raissi"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Kronecker Delta Rule for Long Context Linear Attention",
+      "summary": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously…",
+      "link": "http://arxiv.org/abs/2610.26834v1",
+      "published": "2026-10-19T17:56:52Z",
+      "authors": [
+        "Anamaria-Roberta Hartl",
+        "Levente Zólyomi",
+        "Michael List",
+        "Günter Klambauer",
+        "Sebastian Böck",
+        "Sepp Hochreiter"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Supervised Learning with Quantum Hamiltonian Embeddings",
+      "summary": "Machine learning is widely regarded as a promising application in which quantum computing could offer a computational advantage. However, general quantum machine learning models with provable guarantees on performance, trainability, and efficient inference remain limited. In this work, we introduce quantum Hamiltonian embeddings, a supervised learning framework in which a classical training…",
+      "link": "http://arxiv.org/abs/2610.26833v1",
+      "published": "2026-10-19T17:56:44Z",
+      "authors": [
+        "Riccardo Molteni",
+        "Minjun Jeon",
+        "Paolo Braccia",
+        "Abhinav Deshpande",
+        "Vedran Dunjko",
+        "Liang Jiang",
+        "Su-un Lee",
+        "Swarnadeep Majumder",
+        "Javier Robledo Moreno",
+        "Parthasarathy Suryanarayanan",
+        "Kunal Sharma"
       ],
       "categories": [
         "quant-ph",
@@ -112,276 +279,190 @@
       ]
     },
     {
-      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
-      "summary": "A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision by considering both their intermediate content and their accessibility to the target learner. We introduce ReDiST, a student-conditioned trace-construction and distillation framework for…",
-      "link": "http://arxiv.org/abs/2610.23831v1",
-      "published": "2026-10-16T17:52:58Z",
+      "title": "Competing Learning in Hybrid Architectures",
+      "summary": "Many modern language models have adopted hybrid architectures that incorporate both linear-time recurrence and softmax attention. Modern recurrence layers provide a highly expressive mixing mechanism while ensuring high throughput by compressing contextual information into a fixed-size state, but underperform softmax attention in contextual information retrieval. In this paper, we reveal a…",
+      "link": "http://arxiv.org/abs/2610.26830v1",
+      "published": "2026-10-19T17:55:55Z",
       "authors": [
-        "Shaoang Li",
-        "Yanhang Shi",
-        "Yufei Li",
-        "Mingfu Liang",
-        "Frank Shyu",
-        "Sandeep Pandey",
-        "Luke Simon",
-        "Xi Liu",
-        "Jian Li"
+        "Xingyu Shen",
+        "Yingfa Chen",
+        "Ziqing Qiao",
+        "Chaojun Xiao",
+        "Xu Han",
+        "Zhiyuan Liu"
       ],
       "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "ProteinGeoBench: Frontier Structural-Biology Agents Are Fluent at Lookup but Lost in Geometry",
+      "summary": "Frontier agents retrieve structural metadata well and compute geometry from coordinates less reliably. We ask how much of a benchmark score reflects that gap and how much reflects the evaluation configuration around the model. We study ProteinGeoBench, a suite of 131 protein-structure tasks, using 4,249 rollouts from four frontier models and 4,486 further trials across 26 models. Three of the…",
+      "link": "http://arxiv.org/abs/2610.26829v1",
+      "published": "2026-10-19T17:55:38Z",
+      "authors": [
+        "Matt Turk",
+        "Brandon L. Neel",
+        "Diana M. Lopez",
+        "Zachary D. Smith",
+        "Grace N. Johnecheck",
+        "James B. Golden"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "q-bio.BM"
+      ]
+    },
+    {
+      "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+      "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general…",
+      "link": "http://arxiv.org/abs/2610.26828v1",
+      "published": "2026-10-19T17:55:35Z",
+      "authors": [
+        "Zhaoyang Wang",
+        "Qianhui Wu",
+        "Haorui Wang",
+        "Simon Yu",
+        "Baolin Peng",
+        "Canwen Xu",
+        "Hao Cheng",
+        "Wenlin Yao",
+        "Boyi Liu",
+        "Yite Wang",
+        "Jianfeng Gao",
+        "Huaxiu Yao"
+      ],
+      "categories": [
+        "cs.AI",
         "cs.CL",
         "cs.LG"
       ]
     },
     {
-      "title": "Waiting Buys Exactly Two Moments: Endogenous Identification in Prediction-Driven Allocation",
-      "summary": "A planner with a fixed budget of preventive help must decide whom to help and when. Waiting reveals risk but removes intervention opportunities as higher-risk individuals leave first. We characterize this tradeoff under repeated noisy signals and risk-dependent attrition: in the canonical model, a length-$τ$ observation prefix identifies exactly the latent risk moments $m_j=\\mathbb E[p^j]$ for…",
-      "link": "http://arxiv.org/abs/2610.23830v1",
-      "published": "2026-10-16T17:52:57Z",
+      "title": "KEEP-Bench: Evaluating Evidence Preservation in Context Compression",
+      "summary": "Context compression improves long-context efficiency but may introduce faithfulness issues through an information bottleneck. Existing evaluations rely on QA metrics, but a reader can still answer correctly from an unfaithful compression, so these metrics underestimate such loss. To bridge this gap, we introduce KEEP-Bench, a diagnostic benchmark that directly assesses compression faithfulness…",
+      "link": "http://arxiv.org/abs/2610.26827v1",
+      "published": "2026-10-19T17:55:18Z",
       "authors": [
-        "Rama AlHamidi",
-        "Rasul Khanbayov",
-        "Erchin Serpedin",
-        "Hasan Kurban"
+        "Ziqing Man",
+        "Di Wu",
+        "Jia-Chen Gu",
+        "Junyi Zhang",
+        "Kai-Wei Chang",
+        "Nanyun Peng"
       ],
       "categories": [
-        "cs.LG"
+        "cs.CL"
       ]
     },
     {
-      "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
-      "summary": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with…",
-      "link": "http://arxiv.org/abs/2610.23827v1",
-      "published": "2026-10-16T17:49:43Z",
+      "title": "RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development",
+      "summary": "Beyond basic tool use and coding skills, effectively incorporating visual references into agentic generation is equally essential for applying AI agents to real-world productivity tasks. We study this crucial capability through webpage development, a practical and readily evaluable setting in which existing benchmarks remain largely idealized: they typically focus on reconstructing visual targets…",
+      "link": "http://arxiv.org/abs/2610.26826v1",
+      "published": "2026-10-19T17:55:06Z",
       "authors": [
-        "Anis Bekri",
-        "Amar Abane",
-        "Van Sy Mai",
-        "Abdella Battou",
-        "Saddek Bensalem"
+        "Yuchi Wang",
+        "Rongyao Fang",
+        "Weihao Yu",
+        "Xilin Wei",
+        "Tiancheng Gu",
+        "Dingkang Yang",
+        "Hang Zhang",
+        "Dayiheng Liu",
+        "Hongsheng Li",
+        "Shuai Bai"
       ],
       "categories": [
-        "quant-ph",
-        "cs.LG",
-        "cs.NI"
-      ]
-    },
-    {
-      "title": "Self-Building Labs",
-      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We…",
-      "link": "http://arxiv.org/abs/2610.23826v1",
-      "published": "2026-10-16T17:48:29Z",
-      "authors": [
-        "Jiaru Bai",
-        "Yuchi Zhao",
-        "Han Hao",
-        "Miroslav Bogdanovic",
-        "Yang Cao",
-        "Varinia Bernales",
-        "Alán Aspuru-Guzik"
-      ],
-      "categories": [
+        "cs.CL",
         "cs.AI",
-        "cs.MA",
-        "cs.RO"
+        "cs.CV"
       ]
     },
     {
-      "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
-      "summary": "The evidence, $\\mathcal{Z} = p(x | \\mathcal{M})$, of a data-generating model $\\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and goodness-of-fit assessment as an alternative to standard discrepancy statistics, e.g. $χ^2$. While versatile, the evidence is notoriously difficult to compute, even when the likelihood is available. In…",
-      "link": "http://arxiv.org/abs/2610.23825v1",
-      "published": "2026-10-16T17:48:26Z",
+      "title": "MemT-1.0: Towards Memory-Native Evolution",
+      "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism…",
+      "link": "http://arxiv.org/abs/2610.26825v1",
+      "published": "2026-10-19T17:54:35Z",
       "authors": [
-        "Kai Lehman",
-        "Jameson Dong",
-        "Carolina Cuesta-Lazaro",
-        "Niall Jeffrey",
-        "Benjamin D. Wandelt",
-        "Francisco Villaescusa-Navarro",
-        "Sven Krippendorf",
-        "Jochen Weller"
+        "Zhiyu Li",
+        "Zeyu Zhang",
+        "Linyun Liu",
+        "Yiwei Bu",
+        "Chenyang Xi",
+        "Xichong Zhang",
+        "Yi Yu",
+        "Yu Yu",
+        "Zhichen Liu",
+        "Yuxiao Yi",
+        "Chunyu Li",
+        "Haoran Liu",
+        "Zhenkai Ding",
+        "Le Zhou",
+        "Juncheng Zhang",
+        "Boyu Chen",
+        "Zehao Lin",
+        "Guorui Li",
+        "Renyu Fu",
+        "Ji Li",
+        "Youyang Xia",
+        "Jiajun Shen",
+        "Harvey Li",
+        "Jingsong Zhou",
+        "Helan Hu",
+        "Tong Shen",
+        "Tianxiao Xu",
+        "Chenye Han",
+        "Weijie Li",
+        "Zhongquan Zhou",
+        "Hongming Xu",
+        "Yuekeng Li",
+        "Erenkai Zhu",
+        "Peng Yu",
+        "Wenhao Li",
+        "Jingyi Kang",
+        "Xixuan Hao",
+        "Xuzhou Zhu",
+        "Can Chen",
+        "Jiawei Liu",
+        "Chen Jiang",
+        "Tao Jiang",
+        "Fangwei Xiang",
+        "Zepeng Yao",
+        "Kai Chen",
+        "Guang Yang",
+        "Mingfei Lu",
+        "Chunhui Li",
+        "Zhengxuan Jiang",
+        "Bo Tang",
+        "Shiyu Zhan",
+        "Yihang Sun",
+        "Jie Chu",
+        "Wenjun Xiong",
+        "Zhenxiang Hua",
+        "Chen Lin",
+        "Detong Su",
+        "Dongyu Deng",
+        "Qiuping Ding",
+        "Guofeng Ding",
+        "Si Chen",
+        "Guohua Wen",
+        "Xu Chen",
+        "Zhi-Qin John Xu",
+        "Ying-Cong Chen",
+        "Ningyu Zhang",
+        "Haofen Wang",
+        "Muning Wen",
+        "Haotian Chen",
+        "Wentao Zhang",
+        "Xuanhe Zhou",
+        "Rita Zhang",
+        "Junchi Yan",
+        "Feiyu Xiong"
       ],
       "categories": [
-        "stat.ML",
-        "astro-ph.CO",
+        "cs.CL",
         "cs.LG"
-      ]
-    },
-    {
-      "title": "Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere",
-      "summary": "Many of the most important datasets in the physical sciences live natively on the sphere, and these data often carry no preferred position or orientation. Using methods that do not reflect this symmetry leads to far higher simulation requirements, which can be catastrophic for scientific analyses (forcing reliance on cheap, imperfect models that bias results). We present a novel spherical…",
-      "link": "http://arxiv.org/abs/2610.23821v1",
-      "published": "2026-10-16T17:45:43Z",
-      "authors": [
-        "Joshua Williamson",
-        "Niall Jeffrey",
-        "Lorne Whiteway"
-      ],
-      "categories": [
-        "stat.ML",
-        "astro-ph.CO",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning",
-      "summary": "Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by…",
-      "link": "http://arxiv.org/abs/2610.23820v1",
-      "published": "2026-10-16T17:43:25Z",
-      "authors": [
-        "Tianmeng Hu",
-        "Biao Luo",
-        "Ke Li"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.MA"
-      ]
-    },
-    {
-      "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding",
-      "summary": "Speculative decoding typically characterizes speedup by draft tokens accepted per verification round. Lossless verification preserves the target model's output distribution and thus expected completion length, making this metric a meaningful efficiency proxy. Relaxed (lossy) verification accepts tokens that lossless verification would reject, potentially altering that distribution. We identify a…",
-      "link": "http://arxiv.org/abs/2610.23818v1",
-      "published": "2026-10-16T17:41:19Z",
-      "authors": [
-        "Chiatzen Wang",
-        "Bill Xu",
-        "Haochen Gu",
-        "Hongyang Zhang"
-      ],
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "Learning Personalized Memory Gating from Delayed One-Sided Feedback",
-      "summary": "Long-term memory enables language-model agents to personalize future interactions, but a finite memory bank cannot preserve every extracted fact. Existing memory gating policies are typically shared across users and therefore fail to account for user-specific patterns of future reuse. In this paper, we study memory gating at the fact level. We first propose a retrieval-based labeling strategy…",
-      "link": "http://arxiv.org/abs/2610.23812v1",
-      "published": "2026-10-16T17:34:45Z",
-      "authors": [
-        "Kaixuan Ji",
-        "Zixiang Chen",
-        "Wenting Zhao",
-        "Cheng Qian",
-        "Heng Wang",
-        "Weizhi Zhang",
-        "Jielin Qiu",
-        "Liangwei Yang",
-        "Quanquan Gu",
-        "Silvio Savarese",
-        "Shelby Heinecke",
-        "Huan Wang"
-      ],
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Explainable Machine Learning Analysis of Temperature Effects on Mechanical Strength of Fiber-Reinforced High-Performance Concrete",
-      "summary": "Predicting the compressive strength of fiber-reinforced high-performance concrete subjected to temperature exposure is challenging because to the intricate interdependencies of mixture composition, fiber properties, curing conditions, and temperature. A data-driven framework to predict compressive strength utilizing 1,204 experimental records containing a diverse array of material designs and…",
-      "link": "http://arxiv.org/abs/2610.23811v1",
-      "published": "2026-10-16T17:34:24Z",
-      "authors": [
-        "Jagaran Chakma",
-        "Zhiguang Zhou",
-        "Badhan Chakma",
-        "Priyanta Chakma"
-      ],
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Steering beyond Language: Improving Multilingual Training-Free Text Embeddings via Paired-Residual Subspace Removal",
-      "summary": "While deriving text embeddings directly from frozen LLMs has emerged as a promising direction, existing methods focus almost exclusively on English, leaving multilingual settings largely unexplored. In this work, we present the first systematic study of multilingual training-free text embeddings in LLMs. Our analysis reveals a language-conditioned embedding geometry in which semantically…",
-      "link": "http://arxiv.org/abs/2610.23807v1",
-      "published": "2026-10-16T17:30:43Z",
-      "authors": [
-        "Ailiang Lin",
-        "Zhuoyun Li",
-        "Yusong Wang",
-        "Keyu Mao",
-        "Kotaro Funakoshi",
-        "Manabu Okumura"
-      ],
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "Beyond SAEs: Consistent Concept Discovery with Sparse Coding",
-      "summary": "Sparse autoencoders (SAEs) explain foundation model representations by decomposing activations into sparse combinations of learned dictionary atoms. However, the learned dictionaries can vary across training runs, limiting the reliability and reproducibility of SAE-based analyses. We propose Consistent Sparse Dictionary Learning (ConSDL), which replaces the standard linear encoder with per-sample…",
-      "link": "http://arxiv.org/abs/2610.23801v1",
-      "published": "2026-10-16T17:25:11Z",
-      "authors": [
-        "Jinho Choi",
-        "Hyesu Lim",
-        "Jaegul Choo",
-        "Steffen Schneider"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Task-aware Kernel Stein certificates for Rényi differential privacy",
-      "summary": "Rènyi differential privacy, based on Rènyi divergence, has become a notion of choice for privacy guarantees. However, outside the Gaussian setting, Rènyi divergence can be difficult to compute. In particular, Rènyi differential privacy guarantees that exploit task-specific information, as in Rènyi Pufferfish privacy, can be challenging. Here we use kernel Stein discrepancies based on escort…",
-      "link": "http://arxiv.org/abs/2610.23798v1",
-      "published": "2026-10-16T17:24:09Z",
-      "authors": [
-        "Leoni Carla Wirth",
-        "Tara Trautwein",
-        "Gesine Reinert"
-      ],
-      "categories": [
-        "stat.ML",
-        "cs.CR",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
-      "summary": "Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transformer block for NVIDIA Hopper GPUs. It applies CODA's GEMM-plus-epilogue approach to inference, adding direct KV-cache…",
-      "link": "http://arxiv.org/abs/2610.23796v1",
-      "published": "2026-10-16T17:22:01Z",
-      "authors": [
-        "Wei Wang"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
-      "summary": "Computational drug discovery requires agents to compose scientific operations and adapt to changing evidence and constraints. Here we introduce DrugHarness, an evolvable agent harness coupling composable scientific execution with conditional skill induction. Its environment integrates over 80 scientific operations, biomedical resources and task-specific code, preserving associations among…",
-      "link": "http://arxiv.org/abs/2610.23791v1",
-      "published": "2026-10-16T17:20:19Z",
-      "authors": [
-        "Yuxing Chen",
-        "Zhisheng Zhang",
-        "Cheng Tang",
-        "Wei Li",
-        "Minghui Zhang",
-        "Ziyan Huang",
-        "Shaocong Wei",
-        "Jiawei Chen",
-        "Junru Hu",
-        "Hongze Zhu",
-        "Jianghan Shen",
-        "Min Cen",
-        "Xinyuan Zhu",
-        "Yaxue Zhao",
-        "Jubo Wang",
-        "Yuqiang Li",
-        "Chun-Mei Feng",
-        "Zongyuan Ge",
-        "Rui Su",
-        "Jie Xu",
-        "Yirong Chen",
-        "Xi Xu",
-        "Ming Hu"
-      ],
-      "categories": [
-        "cs.AI"
       ]
     }
   ]
