@@ -1,7 +1,142 @@
 {
-  "updated": "2026-10-21T12:22:16.179Z",
-  "count": 82,
+  "updated": "2026-10-21T14:24:10.048Z",
+  "count": 87,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Apple says it only has ‘limited’ iPhone Duo units for in-store sales",
+      "link": "https://www.theverge.com/tech/1015372/apple-says-it-only-has-limited-iphone-duo-units-for-in-store-sales",
+      "published": "2026-10-21T14:22:59.000Z",
+      "summary": "Apple says it will have \"limited\" iPhone Duo models for sale in stores, according to a report from Reuters. The iPhone Duo launches on Friday, October 23rd, but online preorders quickly sold out, with some delivery estimates extending into…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1499.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+      "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "published": "Wed, 21 Oct 2026 14:00:00 +0000",
+      "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-157163369.jpg?resize=1200,900"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+      "link": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+      "published": "Wed, 21 Oct 2026 14:00:00 +0000",
+      "summary": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
+      "image": "https://media.wired.com/photos/6ad7cd65322aff8e01d3ff70/master/pass/Security_Claude%20Code's%20Guardrails%20Aren't%20Stopping%20Real-Life%20Attacks_v2.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "published": "2026-10-21T13:57:43.000Z",
+      "summary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_C.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Now Serato DJ works on your iPhone",
+      "link": "https://www.theverge.com/tech/1015319/serato-dj-for-ios",
+      "published": "2026-10-21T13:51:31.000Z",
+      "summary": "Serato DJ for iOS is finally bringing the company's pro-level DJ suite to the iPhone and iPad. Until now, the company had only dipped its toes into mobile software, with apps like Pyro that basically just added some autofades between songs…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DJ-for-iOS-iPhone-Handheld-1920x1080-1.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Trump announces mandate forcing AI data centers to pay energy dividends to the local community",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/trump-announces-mandate-for-data-centers-to-pay-dividends-to-the-local-community-hopes-to-win-more-data-center-supporters-through-dividend-scheme",
+      "published": "Wed, 21 Oct 2026 13:46:18 +0000",
+      "summary": "Trump's latest post on Truth Social announces his plans to make data centers more popular among local communities.",
+      "image": "https://cdn.mos.cms.futurecdn.net/mZPitqsyGmoeWJmLygFpZe-1920-80.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Heat pump tech is 170 years old. Pascal thinks it’s time for an update.",
+      "link": "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update/",
+      "published": "Wed, 21 Oct 2026 13:30:00 +0000",
+      "summary": "Refrigerants startup Pascal has a new take on heat pump and cooling tech using a sponge-like material that promises to be 20% more efficient.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/01/GettyImages-1418464846.jpg?resize=1200,774"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Nvidia’s latest GPU driver brings a new way to speed up PC games",
+      "link": "https://www.theverge.com/news/1015299/nvidia-driver-microsoft-advanced-shader-delivery-support",
+      "published": "2026-10-21T13:09:26.000Z",
+      "summary": "Nvidia is rolling out a new GPU driver today (621.01) that enables Microsoft's new Advanced Shader Delivery technology to speed up game launches. The technology also removes mid-game \"just-in-time\" shader compilation, reducing stuttering…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25728971/STK083_NVIDIA_2_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written",
+      "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "published": "Wed, 21 Oct 2026 13:00:02 +0000",
+      "summary": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup, a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines. When the cleanup began, AI writing was often…",
+      "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=980"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Mach9 raises $34M after pivoting to AI CAD software",
+      "link": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
+      "published": "Wed, 21 Oct 2026 13:00:00 +0000",
+      "summary": "The startup initially set out to build better, faster, and cheaper surveying hardware in 2021.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/mach9-founders.jpg?resize=1200,800"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Qualcomm to cut jobs globally in \"performance-based\" layoffs, as company pivots to AI data center and edge computing markets",
+      "link": "https://www.tomshardware.com/tech-industry/big-tech/qualcomm-to-cut-jobs-globally-in-performance-based-layoffs-ceo-says-move-will-build-stronger-performance-culture-as-company-pivots-to-ai-data-center-and-edge-products",
+      "published": "Wed, 21 Oct 2026 13:00:00 +0000",
+      "summary": "Qualcomm will begin performance-based layoffs worldwide in November as the chipmaker reallocates resources toward AI infrastructure, data centers, automotive, PCs, and edge computing, amid weaker consumer electronics demand.",
+      "image": "https://cdn.mos.cms.futurecdn.net/xM9joNiSgDVnMsdY8njzxC-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AI cuts coding time, but it's also filling open source's inbox with crap",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/21/ai-cuts-coding-time-but-its-also-filling-open-sources-inbox-with-crap/5304389",
+      "published": "Wed, 21 Oct 2026 12:43:00 +0000",
+      "summary": "Maintainers reckon a quarter of incoming pull requests are slop, rising to 31% on larger projects",
+      "image": "https://image.theregister.com/?imageId=4094141&width=800"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+      "link": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
+      "published": "Wed, 21 Oct 2026 12:35:00 +0000",
+      "summary": "The company is suspending the feature after security researchers discovered how easy it was to access sensitive information shared with the AI assistant.",
+      "image": "https://media.wired.com/photos/6ad7df7552635a2423fcfe8e/master/pass/GettyImages-2297134397.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "FADU puts the filesystem inside the SSD's flash to bypass host CPUs",
+      "link": "https://www.tomshardware.com/pc-components/ssds/fadu-puts-the-filesystem-inside-the-ssds-flash-to-bypass-host-cpus-file-semantic-pcie-6-0-ssd-delivers-460-000-ops-s-to-gpus-and-dpus-samples-due-by-q3-2027",
+      "published": "Wed, 21 Oct 2026 12:30:00 +0000",
+      "summary": "FADU’s FS-SSD carries NFSv3 file operations inside NVMe commands, letting GPUs, DPUs, and NICs read files without a host file system.",
+      "image": "https://cdn.mos.cms.futurecdn.net/FfxWhJKRcbYcywYyA2ctLL-1920-80.jpg"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
+      "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
+      "published": "Wed, 21 Oct 2026 12:17:58 +0000",
+      "summary": "From orbit, today’s space-based laser instruments measure Earth’s forests and terrain one narrow line at a time. Between those lines are enormous gaps that include millions of acres of land scientists never directly measure. NASA’s CASALS…",
+      "image": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/extratropical-cyclone-whips-past-iceland/icelandstorm_vir2_20261014_th.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -10,6 +145,15 @@
       "published": "2026-10-21T12:15:00.000Z",
       "summary": "I'm The Verge's senior smartphone reviewer and I've been using the iPhone Duo for the past week. I've unfolded it, flipped it, and folded it more times than I could count as I've been working on the review alongside our editor-in-chief…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_0082.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: introducing the Impossible issue",
+      "link": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
+      "published": "Wed, 21 Oct 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000"
     },
     {
       "source": "The Verge",
@@ -191,15 +335,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/a9PnCDMGTLXJaMnyvDyntF-1920-80.jpg"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Jensen Huang Nvidia GTC keynote disrupted by Greenpeace protest over chips in Russian drones",
-      "link": "https://www.tomshardware.com/tech-industry/jensen-huang-nvidia-gtc-keynote-disrupted-by-greenpeace-protest-over-chips-in-russian-drones-what-are-you-doing-about-that-heckler-demands-before-being-thrown-out",
-      "published": "Wed, 21 Oct 2026 09:57:06 +0000",
-      "summary": "Jensen Huang's Nvidia GTC keynote speech in Berlin was disrupted by a Greenpeace protest on Wednesday.",
-      "image": "https://cdn.mos.cms.futurecdn.net/tUqqa4kgj9Fjp8EAM8fysb-1920-80.jpg"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Happiness is the next AI KPI if Oxford boffins have their way",
@@ -218,15 +353,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/SPACESHIP-FINAL.jpg?resize=1200,600"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in the Way",
-      "link": "https://www.wired.com/story/europe-data-centers-climate-change/",
-      "published": "Wed, 21 Oct 2026 08:30:00 +0000",
-      "summary": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives.",
-      "image": "https://media.wired.com/photos/6ad7d5f6ceee34bd819fdbeb/master/pass/Business_Can%20Europe%20Build%20Data%20Centers%20Without%20Giving%20Up%20Its%20Climate%20Goals_v2.jpg"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "MPs urge UK government to play venture capitalist with taxpayer-funded tech",
@@ -234,15 +360,6 @@
       "published": "Wed, 21 Oct 2026 08:30:00 +0000",
       "summary": "Watchdog says Whitehall is too timid about taking stakes in British startups, leaving taxpayers at risk of missing out when they strike gold",
       "image": "https://image.theregister.com/?imageId=5282252&width=800"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
-      "published": "2026-10-20T23:04:19.000Z",
-      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "TechCrunch",
@@ -272,15 +389,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2025/11/clem-delangue.png?resize=1200,789"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Google’s more personalized Gemini AI is heading to your car",
-      "link": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-      "published": "2026-10-20T22:11:34.000Z",
-      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
@@ -288,24 +396,6 @@
       "published": "Tue, 20 Oct 2026 22:04:54 +0000",
       "summary": "\"I do think there's a lot of merit to combining the companies.\"",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-1152x648.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Auto tech startup claims it traced hack attempt back to rival's IP address",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
-      "published": "Tue, 20 Oct 2026 22:00:46 +0000",
-      "summary": "IQ.Lvbs implies that rival Comma.ai isn't playing fair",
-      "image": "https://image.theregister.com/?imageId=5304292&width=800"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
-      "link": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
-      "published": "2026-10-20T21:30:24.000Z",
-      "summary": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_D.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "Ars Technica",
@@ -324,15 +414,6 @@
       "published": "Tue, 20 Oct 2026 20:40:41 +0000",
       "summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM.png?resize=1130,1200"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Tens of thousands of Nvidia GPUs sit idle in Meta's Prometheus supercluster, just waiting for a failure",
-      "link": "https://www.theregister.com/systems/2026/10/20/tens-of-thousands-of-nvidia-gpus-sit-idle-in-metas-prometheus-supercluster-just-waiting-for-a-failure/5304269",
-      "published": "Tue, 20 Oct 2026 20:39:42 +0000",
-      "summary": "And other fun facts about how Zuckercorp aims to keep a million GPUs running long enough to train a model",
-      "image": "https://image.theregister.com/?imageId=5304288&width=800"
     },
     {
       "source": "TechCrunch",
@@ -389,24 +470,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/stoke-second-stage-1152x648.jpg"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-      "link": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-      "published": "Tue, 20 Oct 2026 18:38:24 +0000",
-      "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "ChatGPT now lets you lock your chats",
-      "link": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-      "published": "Tue, 20 Oct 2026 18:36:53 +0000",
-      "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them…",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
@@ -414,24 +477,6 @@
       "published": "Tue, 20 Oct 2026 18:11:33 +0000",
       "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonstrate nuclear…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg?w=1920"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "AMD's FSR 4.1 now works on Radeon RX 6000 cards, Xbox Series X and S, and Ryzen AI Max, AI 9, and Z2 SoCs",
-      "link": "https://www.tomshardware.com/pc-components/gpu-drivers/amds-fsr-4-1-now-works-on-radeon-rx-6000-gpus-xbox-series-x-and-s-and-ryzen-ai-max-ai-9-and-z2-socs-new-release-brings-cutting-edge-tech-to-older-hardware-with-a-small-performance-cost",
-      "published": "Tue, 20 Oct 2026 17:47:35 +0000",
-      "summary": "AMD has released a version of its cutting-edge FSR 4.1 upscaler that now works on Radeon RX 6000 GPUs, Xbox Series X and Series S consoles, and Ryzen AI Max, AI 9, and Z2 chips.",
-      "image": "https://cdn.mos.cms.futurecdn.net/FKEfLV3WiguWYAz37vRmyW-1920-80.png"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
-      "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
-      "published": "Tue, 20 Oct 2026 17:12:48 +0000",
-      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024"
     },
     {
       "source": "GitHub Blog",
