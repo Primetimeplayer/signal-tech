@@ -1,7 +1,79 @@
 {
-  "updated": "2026-10-21T20:18:02.143Z",
-  "count": 94,
+  "updated": "2026-10-21T22:18:11.062Z",
+  "count": 89,
   "items": [
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
+      "link": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+      "published": "Wed, 21 Oct 2026 22:06:07 +0000",
+      "summary": "Time-based a la carte charges come on top of the purchase price for the games themselves.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/xcloud3-1152x648.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
+      "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
+      "published": "Wed, 21 Oct 2026 21:48:52 +0000",
+      "summary": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-1024x648.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Meta to create a new class of shares to fund AI push",
+      "link": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+      "published": "2026-10-21T21:30:02.000Z",
+      "summary": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "published": "Wed, 21 Oct 2026 21:14:19 +0000",
+      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-finger-on-app-GettyImages-2293791808.jpg?w=1024"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+      "link": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+      "published": "Wed, 21 Oct 2026 20:57:40 +0000",
+      "summary": "Just 9 months after raising an $180 million seed round, Flapping Airplanes has landed $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\"",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/Flapping-Airplanes-founders-photo.jpg?resize=1200,821"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "PHP: The three letters that shut down sites all over the internet today",
+      "link": "https://www.theverge.com/tech/1015906/php2shell-vulnerability-october-2026",
+      "published": "2026-10-21T20:36:56.000Z",
+      "summary": "Two bugs found with AI are behind major issues today for 4chan, DeviantArt, Wikipedia, and the blog where the bar around the corner posts pictures of people's dogs. The \"critical vulnerabilities\" were discovered in the PHP programming…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+      "link": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+      "published": "Wed, 21 Oct 2026 20:33:09 +0000",
+      "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/tesla-opitmus-Getty.jpg?resize=1200,800"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "published": "Wed, 21 Oct 2026 20:27:41 +0000",
+      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2157738833.jpg?resize=1200,800"
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -44,7 +116,17 @@
       "title": "GM is betting compute and AI will help it compete with Chinese automakers",
       "link": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
       "published": "Wed, 21 Oct 2026 19:52:20 +0000",
-      "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ."
+      "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Row-of-pre-production-vehicles-at-PPO.jpg?resize=1200,801"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+      "published": "Wed, 21 Oct 2026 19:44:40 +0000",
+      "summary": "Opinion: In a world of AI slop, showing the human hands making things helps.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/apple-music-rebrand-icon-1152x648.jpg"
     },
     {
       "source": "Tom's Hardware",
@@ -61,7 +143,7 @@
       "title": "Walmart is inviting AI agents to shop for you",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
       "published": "2026-10-21T19:30:00.000Z",
-      "summary": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to connect your own AI agent to the site, with systems in place to let you approve and review purchases and set spending limits. The…",
+      "summary": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to use an AI agent on the site, with systems in place to let you approve and review purchases and set spending limits. The embrace of…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2247092603.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
@@ -70,7 +152,8 @@
       "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
       "link": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
       "published": "Wed, 21 Oct 2026 19:30:00 +0000",
-      "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals."
+      "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+      "image": "https://techcrunch.com/wp-content/uploads/2018/01/gettyimages-903923942.jpeg?resize=1200,800"
     },
     {
       "source": "TechCrunch",
@@ -78,7 +161,8 @@
       "title": "The internet is having a very bad cybersecurity day",
       "link": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
       "published": "Wed, 21 Oct 2026 19:03:28 +0000",
-      "summary": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week."
+      "summary": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/05/cybersecurity-data-sharing-2024-v1.jpg?resize=1200,675"
     },
     {
       "source": "The Register",
@@ -95,59 +179,26 @@
       "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
       "link": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
       "published": "Wed, 21 Oct 2026 18:51:56 +0000",
-      "summary": "Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion."
+      "summary": "Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2296593553.jpg?w=1024"
     },
     {
-      "source": "The Verge",
+      "source": "Ars Technica",
       "category": "news",
-      "title": "Cyberpunk 2077’s update for Edgerunners 2 brings mods to PS5, Switch 2, and Xbox",
-      "link": "https://www.theverge.com/games/1015755/cyberpunk-2077-2-5-edgerunners-mods-dual-wield",
-      "published": "2026-10-21T18:39:52.000Z",
-      "summary": "Cyberpunk 2077 is getting a big new 2.5 update that, among other features, brings cross-platform mod support to consoles and content inspired by the new season of the Cyberpunk: Edgerunners anime on Netflix. There's a lot to unpack in the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/videoframe_93290.png?quality=90&strip=all&crop=0,0,100,100"
+      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+      "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "published": "Wed, 21 Oct 2026 18:51:42 +0000",
+      "summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Google-cloud-IO-1152x648.jpg"
     },
     {
-      "source": "The Verge",
+      "source": "Ars Technica",
       "category": "news",
-      "title": "Xbox mandates a four-day return to office",
-      "link": "https://www.theverge.com/report/1015733/xbox-return-to-office-policy-four-days",
-      "published": "2026-10-21T18:31:15.000Z",
-      "summary": "Microsoft asked its employees to return to the office three days per week last year, and it's now upping this requirement to four days a week for most Xbox employees. An internal memo, seen by The Verge, describes the change as a \"need to…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485114/STK048_XBOX2__A.png?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Star Wars Zero Company is a must-play strategy game at 20 percent off",
-      "link": "https://www.theverge.com/gadgets/1015624/star-wars-zero-company-deal-sale",
-      "published": "2026-10-21T18:30:00.000Z",
-      "summary": "Zero Company will have you teaming up with some unlikely new allies. | Image: EA and Disney If you’ve been curious about Star Wars Zero Company, the XCOM-like strategy game set in the Star Wars universe, Amazon has both the PlayStation 5…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/SWZC_AnnGP_Screenshot_1_WM.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "GM promises smarter cars, faster updates, and autonomous dry-cleaning runs",
-      "link": "https://www.theverge.com/transportation/1014322/gm-onward-ai-ev-battery-compute-av",
-      "published": "2026-10-21T18:00:00.000Z",
-      "summary": "A vehicle is welded by robot arms as it goes through the assembly line at the General Motors Lansing Delta Township Assembly Plant March 10, 2010 in Lansing, Michigan. | Photo: Getty Images General Motors is still very much in the business…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/gettyimages-97616875.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "GM is giving OnStar an AI makeover",
-      "link": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/",
-      "published": "Wed, 21 Oct 2026 18:00:00 +0000",
-      "summary": "It's one of the biggest overhauls ever to the 30-year-old connected car product."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "PHP armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
-      "link": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-      "published": "Wed, 21 Oct 2026 17:59:12 +0000",
-      "summary": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI."
+      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+      "link": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+      "published": "Wed, 21 Oct 2026 18:20:40 +0000",
+      "summary": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/04/xAI-Thermal-Image-1152x648.jpg"
     },
     {
       "source": "The Register",
@@ -157,14 +208,6 @@
       "published": "Wed, 21 Oct 2026 17:30:00 +0000",
       "summary": "Forrester says only isolated wins are likely, while 'good enough' open-weight models soak up the tokens",
       "image": "https://image.theregister.com/?imageId=5240076&width=800"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
-      "link": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "published": "Wed, 21 Oct 2026 17:18:27 +0000",
-      "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion."
     },
     {
       "source": "PC Gamer",
@@ -183,15 +226,6 @@
       "published": "Wed, 21 Oct 2026 16:46:19 +0000",
       "summary": "\"We have had significant constructive engagement with the FAA.\"",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ-1152x648.jpg"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA to Conduct NCAA Flyover, Engage Fans at University of Alabama",
-      "link": "https://www.nasa.gov/news-release/nasa-to-conduct-ncaa-flyover-engage-fans-at-university-of-alabama/",
-      "published": "Wed, 21 Oct 2026 16:31:11 +0000",
-      "summary": "As part of the agency’s Inspiration Tour, NASA will conduct a flyover at the University of Alabama vs. Texas A&M football game in Tuscaloosa, Alabama, on Saturday, Oct. 24. NASA Administrator Jared Isaacman will pilot one of three F-5…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg?w=1920"
     },
     {
       "source": "PC Gamer",
@@ -226,26 +260,7 @@
       "title": "The bridge to agent-scale Git infrastructure",
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
-      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Tracks Along the Longest Drive on Another World",
-      "link": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
-      "published": "Wed, 21 Oct 2026 15:50:44 +0000",
-      "summary": "Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA’s Jet Propulsion Laboratory Oct. 12, 2026 Since the last blog update, Perseverance has achieved a major milestone on Mars. On Sol 2006 (Oct. 11, 2026), its odometer…",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_NLF_2006_0845030184_441ECM_N0911496NCAM03006_04_195J.jpg?w=1288&h=968&fit=clip&crop=faces%2Cfocalpoint"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "AMD has shipped FSR 4.1 early for RX 6000 graphics cards, and it's coming to Ryzen APUs, Vulkan, and Xbox too",
-      "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-has-shipped-fsr-4-1-early-for-rx-6000-graphics-cards-and-its-coming-to-ryzen-apus-vulkan-and-xbox-too/",
-      "published": "Wed, 21 Oct 2026 15:35:07 +0000",
-      "summary": "Better support is always a good thing.",
-      "image": "https://cdn.mos.cms.futurecdn.net/2bwNqPVYT4TbRfqCYevkV8-1920-80.jpg"
+      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…"
     },
     {
       "source": "Tom's Hardware",
@@ -281,15 +296,6 @@
       "published": "Wed, 21 Oct 2026 15:14:07 +0000",
       "summary": "OpenEvidence is booming despite questions about accuracy and ads.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/openevidencelist-1152x648.jpg"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "'You've taken us free cash flow negative as a company, so congratulations': Amazon has plenty of Nvidia GPUs, but not enough energy to power its AI boom",
-      "link": "https://www.pcgamer.com/software/ai/youve-taken-us-free-cash-flow-negative-as-a-company-so-congratulations-amazon-has-plenty-of-nvidia-gpus-but-not-enough-energy-to-power-its-ai-boom/",
-      "published": "Wed, 21 Oct 2026 15:09:46 +0000",
-      "summary": "Meanwhile, the RTX 5090 remains missing in action.",
-      "image": "https://cdn.mos.cms.futurecdn.net/qhwiqPJTwpeNLX9hs6DE3F-1920-80.jpg"
     },
     {
       "source": "NASA",
@@ -361,23 +367,6 @@
       "published": "Wed, 21 Oct 2026 14:26:19 +0000",
       "summary": "The PHP Foundation has revealed two serious vulnerabilities that could impact millions of websites. Security experts warn that failure to quickly patch the flaws could have dire consequences.",
       "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
-      "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-      "published": "Wed, 21 Oct 2026 14:00:00 +0000",
-      "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
-      "link": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
-      "published": "Wed, 21 Oct 2026 14:00:00 +0000",
-      "summary": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
-      "image": "https://media.wired.com/photos/6ad7cd65322aff8e01d3ff70/master/pass/Security_Claude%20Code's%20Guardrails%20Aren't%20Stopping%20Real-Life%20Attacks_v2.jpg"
     },
     {
       "source": "Tom's Hardware",
@@ -487,15 +476,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/MNAdzZLPoDR82bwxMK4iCk-1920-80.png"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Nvidia <span data-lab-text_size_desktop=\"42\" class=\"t42\">picks OpenShell to </span>tame AI gents",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-picks-openshell-to-tame-ai-gents/5304319",
-      "published": "Wed, 21 Oct 2026 11:30:00 +0000",
-      "summary": "Give your agents freedom to do useful work by locking them down",
-      "image": "https://image.theregister.com/?imageId=249195&width=800"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Why you don't need an audiophile headset for gaming — comfort, convenience, and a good mic win over pure audio fidelity",
@@ -514,24 +494,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/SPACESHIP-FINAL.jpg?resize=1200,600"
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
-      "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
-      "published": "Tue, 20 Oct 2026 22:04:54 +0000",
-      "summary": "\"I do think there's a lot of merit to combining the companies.\"",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-1152x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix",
-      "link": "https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/",
-      "published": "Tue, 20 Oct 2026 21:14:33 +0000",
-      "summary": "Xbox maker is also apparently planning its own gaming handheld for next year.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/07/xbox-dominoes-1152x648.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
@@ -539,24 +501,6 @@
       "published": "Tue, 20 Oct 2026 20:21:36 +0000",
       "summary": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-      "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-      "published": "Tue, 20 Oct 2026 20:07:58 +0000",
-      "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "OpenBSD 8.0 arrives with security record still intact",
-      "link": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
-      "published": "Tue, 20 Oct 2026 19:57:18 +0000",
-      "summary": "OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/OpenBSD80Fish-e1792523267196.png"
     },
     {
       "source": "NASA",
@@ -594,6 +538,24 @@
       "image": "https://www.youtube.com/embed/Zezt6EsG9WE"
     },
     {
+      "source": "NASA",
+      "category": "news",
+      "title": "Webb Captures Stellar Jets",
+      "link": "https://www.nasa.gov/image-article/webb-captures-stellar-jets/",
+      "published": "Tue, 20 Oct 2026 14:44:09 +0000",
+      "summary": "An image from NASA’s James Webb Space Telescope released on Oct. 6, 2026, reveals a cauldron of cosmic creation. Webb has unveiled numerous stars formerly hidden by clouds of dust in a stellar nursery known as NGC 7129, which resides about…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/55572978759-545472774e-o.png?w=2048"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
+      "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
+      "published": "Tue, 20 Oct 2026 14:21:42 +0000",
+      "summary": "The Republic of Uzbekistan became the 77th signatory of the Artemis Accords during a ceremony in Samarkand on Monday, committing to the practical principles that guide safe, transparent, and responsible civil space exploration. “Uzbekistan…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/artemis-accords-uzbekistan-77-101926.jpg?w=2048"
+    },
+    {
       "source": "SpaceNews",
       "category": "news",
       "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
@@ -608,8 +570,7 @@
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
-      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…"
     },
     {
       "source": "IEEE Spectrum",
@@ -680,8 +641,7 @@
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
     },
     {
       "source": "GitHub Blog",
@@ -767,8 +727,7 @@
       "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
-      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
     },
     {
       "source": "SpaceNews",
