@@ -1,7 +1,43 @@
 {
-  "updated": "2026-10-20T22:18:41.861Z",
-  "count": 92,
+  "updated": "2026-10-21T00:16:20.568Z",
+  "count": 86,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "published": "2026-10-20T23:04:19.000Z",
+      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "published": "Tue, 20 Oct 2026 23:01:23 +0000",
+      "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "SpaceX and Tesla boards form special committees to review merger",
+      "link": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+      "published": "Tue, 20 Oct 2026 22:57:57 +0000",
+      "summary": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "published": "Tue, 20 Oct 2026 22:24:02 +0000",
+      "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/11/clem-delangue.png?resize=1200,789"
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -12,6 +48,24 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&strip=all&crop=0,0,100,100"
     },
     {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+      "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
+      "published": "Tue, 20 Oct 2026 22:04:54 +0000",
+      "summary": "\"I do think there's a lot of merit to combining the companies.\"",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-1152x648.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Auto tech startup claims it traced hack attempt back to rival's IP address",
+      "link": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
+      "published": "Tue, 20 Oct 2026 22:00:46 +0000",
+      "summary": "IQ.Lvbs implies that rival Comma.ai isn't playing fair",
+      "image": "https://image.theregister.com/?imageId=5304292&width=800"
+    },
+    {
       "source": "The Verge",
       "category": "news",
       "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
@@ -19,6 +73,15 @@
       "published": "2026-10-20T21:30:24.000Z",
       "summary": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix",
+      "link": "https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/",
+      "published": "Tue, 20 Oct 2026 21:14:33 +0000",
+      "summary": "Xbox maker is also apparently planning its own gaming handheld for next year.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/07/xbox-dominoes-1152x648.jpg"
     },
     {
       "source": "The Verge",
@@ -37,6 +100,15 @@
       "published": "Tue, 20 Oct 2026 20:40:41 +0000",
       "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM.png?resize=1130,1200"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Tens of thousands of Nvidia GPUs sit idle in Meta's Prometheus supercluster, just waiting for a failure",
+      "link": "https://www.theregister.com/systems/2026/10/20/tens-of-thousands-of-nvidia-gpus-sit-idle-in-metas-prometheus-supercluster-just-waiting-for-a-failure/5304269",
+      "published": "Tue, 20 Oct 2026 20:39:42 +0000",
+      "summary": "And other fun facts about how Zuckercorp aims to keep a million GPUs running long enough to train a model",
+      "image": "https://image.theregister.com/?imageId=5304288&width=800"
     },
     {
       "source": "TechCrunch",
@@ -75,14 +147,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg"
     },
     {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "Astrolab’s upcoming rover will run the first LLMs on the moon",
-      "link": "https://www.technologyreview.com/2026/10/20/1147360/astrolab-upcoming-rover-llms-on-the-moon/",
-      "published": "Tue, 20 Oct 2026 20:07:21 +0000",
-      "summary": "Large language models are set to go lunar. A computer capable of running AI software is one of the payloads aboard Astrolab’s FLIP lunar rover, which is slated to head to Earth’s celestial companion as early as November 2026. The…"
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "What's the scariest PC horror game of all time? Nominate your favs and we'll pit them against each other",
@@ -90,15 +154,6 @@
       "published": "Tue, 20 Oct 2026 20:03:26 +0000",
       "summary": "Bracket coming the week of Halloween. For now, tell us which games should face off for the honor of scariest horror game ever.",
       "image": "https://cdn.mos.cms.futurecdn.net/AG94ag6uWbAZyRhy947S4P-1920-80.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Logitech’s refurbished G Pro X2 Superstrike is 35 percent off",
-      "link": "https://www.theverge.com/gadgets/1014764/logitech-x2-superstrike-haptics-wireless-gaming-mouse-deal-sale",
-      "published": "2026-10-20T20:00:00.000Z",
-      "summary": "The Superstrike looks similar to Logitech’s previous high-end gaming mice, but it has haptics-based sensors instead of switches. | Image: Cameron Faulkner / The Verge Looking for a way to try the haptics-equipped G Pro X2 Superstrike…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/PXL_20260213_153451513.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "TechCrunch",
@@ -173,6 +228,15 @@
       "image": "https://cdn.mos.cms.futurecdn.net/4szPM7XMehsZ9c3J2mczjC-1920-80.jpg"
     },
     {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+      "published": "Tue, 20 Oct 2026 18:11:33 +0000",
+      "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonstrate nuclear…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg?w=1920"
+    },
+    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Quantum error correction goes well beyond breakeven",
@@ -209,15 +273,6 @@
       "image": "https://media.wired.com/photos/6ad772c1fca8f52b99e9eedc/master/pass/GettyImages-2300075055.jpg"
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
-      "link": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
-      "published": "Tue, 20 Oct 2026 17:40:20 +0000",
-      "summary": "Meta argues nobody “decided” to pirate books to train AI.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2273107915-1024x648.jpg"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Palo Alto's firewall OS has been under attack from multiple ransomware groups since June",
@@ -245,15 +300,6 @@
       "image": "https://image.theregister.com/?imageId=258345&width=800"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’",
-      "link": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
-      "published": "Tue, 20 Oct 2026 16:20:06 +0000",
-      "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1404749040.jpg?resize=1200,675"
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "Asus ProArt P16 (H7607) RTX Spark laptop review",
@@ -271,22 +317,13 @@
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first…"
     },
     {
-      "source": "PC Gamer",
+      "source": "NASA",
       "category": "news",
-      "title": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C",
-      "link": "https://www.pcgamer.com/hardware/graphics-cards/dlss-swapper-now-lets-you-update-all-your-upscalers-in-multiple-games-at-once-adds-nvidias-new-frame-generation-preset-c/",
-      "published": "Tue, 20 Oct 2026 16:01:15 +0000",
-      "summary": "Everything, everywhere, all at once.",
-      "image": "https://cdn.mos.cms.futurecdn.net/zbdBTkeTBXsTxiNw7rTrJ3-1920-80.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "link": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
-      "published": "Tue, 20 Oct 2026 16:00:00 +0000",
-      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/electric-plant-bud-sensor.jpeg?resize=1200,800"
+      "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
+      "link": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
+      "published": "Tue, 20 Oct 2026 16:02:35 +0000",
+      "summary": "NASA researchers are developing the future of flight on Mars, laying the groundwork for helicopters with the ability to fly higher and farther while conducting science on the Red Planet. Using high-fidelity computer simulations and wind…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ingenuity-airfoil-clf5605.png"
     },
     {
       "source": "The Register",
@@ -298,15 +335,6 @@
       "image": "https://image.theregister.com/?imageId=5304155&width=800"
     },
     {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The new economics of enterprise AI",
-      "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
-      "published": "Tue, 20 Oct 2026 15:20:25 +0000",
-      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/HPE-iStock-1168748420.jpg?w=840"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
@@ -316,6 +344,15 @@
       "image": "https://media.wired.com/photos/6ad2cc7064b24534a6bc5044/master/pass/culture_ai_agent_internet_research_listserv.jpg"
     },
     {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Provides Progress Update on Moon Base Rovers",
+      "link": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
+      "published": "Tue, 20 Oct 2026 15:00:10 +0000",
+      "summary": "As NASA works to build the Moon Base, crewed and robotic lunar rovers will play a crucial role during early development through technology demonstrations, astronaut transport, terrain mapping, scientific investigations, and resource…",
+      "image": "https://www.youtube.com/embed/Zezt6EsG9WE"
+    },
+    {
       "source": "The Register",
       "category": "news",
       "title": "How going dual-native means VM/container co-existence and sovereign security in the AI era",
@@ -323,6 +360,15 @@
       "published": "Tue, 20 Oct 2026 15:00:00 +0000",
       "summary": "SPONSORED FEATURE: Nutanix says running VMs and containers within the same operating environment shouldn’t be a brake on AI ambitions",
       "image": "https://image.theregister.com/?imageId=5303864&width=800"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Webb Captures Stellar Jets",
+      "link": "https://www.nasa.gov/image-article/webb-captures-stellar-jets/",
+      "published": "Tue, 20 Oct 2026 14:44:09 +0000",
+      "summary": "An image from NASA’s James Webb Space Telescope released on Oct. 6, 2026, reveals a cauldron of cosmic creation. Webb has unveiled numerous stars formerly hidden by clouds of dust in a stellar nursery known as NGC 7129, which resides about…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/55572978759-545472774e-o.png?w=2048"
     },
     {
       "source": "The Register",
@@ -406,24 +452,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/jZKXZNanDyqWYzFxNBfimL-1920-80.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Bullhorn sees red after cyberattack knocks recruitment platform offline",
-      "link": "https://www.theregister.com/security/2026/10/20/bullhorn-sees-red-after-cyberattack-knocks-recruitment-platform-offline/5304114",
-      "published": "Tue, 20 Oct 2026 12:15:00 +0000",
-      "summary": "Staffing software giant calls in CrowdStrike as customers face login headaches and questions remain over possible data theft",
-      "image": "https://image.theregister.com/?imageId=5265729&width=800"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The Download: the claim shaking up AI and the internet’s agent problem",
-      "link": "https://www.technologyreview.com/2026/10/20/1147355/the-download-claim-shaking-up-ai-internet-agent-problem/",
-      "published": "Tue, 20 Oct 2026 12:10:00 +0000",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. “We were looking at it wrong”: The explosive claim that’s upended the AI world “I think I have good…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/AdobeStock_716372037.jpg?fit=2128,1196"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports",
@@ -440,15 +468,6 @@
       "published": "Tue, 20 Oct 2026 12:10:00 +0000",
       "summary": "Modern computing remains vulnerable to the low bus factor of many open-source projects — continued lack of funding and manpower for voluntary-maintained infrastructure makes for a perennial threat",
       "image": "https://cdn.mos.cms.futurecdn.net/zAKMPdMzn6uvTf3sxZsDgA-1920-80.jpg"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "AI adoption by industry shows what other sectors can learn",
-      "link": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
-      "published": "Tue, 20 Oct 2026 12:00:00 +0000",
-      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/TripleTen-MIT-cover.png?w=840"
     },
     {
       "source": "Tom's Hardware",
@@ -478,15 +497,6 @@
       "image": "https://media.wired.com/photos/6ad5cb8405cc7ba4721d495c/master/pass/01_Cloud_re_FIX%20(1).png"
     },
     {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "A visit to Samsung’s massive new semiconductor hub",
-      "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
-      "published": "Tue, 20 Oct 2026 09:00:00 +0000",
-      "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/map.png?w=840"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Improves Shock, Vibration Analysis",
@@ -501,16 +511,7 @@
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
-      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "Making the internet better for AI agents might make it worse for everyone else",
-      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-      "published": "Mon, 19 Oct 2026 18:22:47 +0000",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites…"
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…"
     },
     {
       "source": "NASA",
@@ -522,24 +523,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/new-dual-stream-nozzle-chevron-hot-exhaust-jet-jet-noise-prediction-code-e1642003352433-300x300-1.jpg?w=300"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "Experimental Facilities",
-      "link": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/",
-      "published": "Mon, 19 Oct 2026 18:08:52 +0000",
-      "summary": "Research teams at the NASA Glenn Research Center perform experiments in world-class facilities such as the 9- by 15-Foot Low-Speed Wind Tunnel (9 x15 LSWT), the Aero-Acoustic Propulsion Laboratory (AAPL), the Small Hot Jet Acoustic Rig…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2025/01/grc-2022-c-04045.jpg?w=2048"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
-      "link": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
-      "published": "Mon, 19 Oct 2026 18:01:51 +0000",
-      "summary": "The four crew members in NASA’s simulated Mars mission have spent the past year living and working in isolation in a confined habitat at NASA’s Johnson Space Center in Houston.",
-      "image": "https://www.youtube.com/embed/2MONMgAmXNU"
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "IEEE Report Highlights How Members Are Engineering for Public Good",
@@ -549,23 +532,6 @@
       "image": "https://spectrum.ieee.org/media-library/photo-grid-of-mobile-response-trucks-smiling-college-students-a-tabletop-fm-tower-model-and-a-group-of-teen-girls-at-a-museum.jpg?id=68452632&width=980"
     },
     {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-      "published": "Mon, 19 Oct 2026 17:45:55 +0000",
-      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head…"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Instrumentation",
-      "link": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/",
-      "published": "Mon, 19 Oct 2026 16:37:45 +0000",
-      "summary": "To measure airflow and sound, research teams at the NASA Glenn Research Center use special instrumentation like particle image velocimetry, hot wire anemometry, Raman spectroscopy, microphones in phased arrays or continuously rotating…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/rotatingmicrophonerake.jpg?w=330"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
@@ -573,15 +539,6 @@
       "published": "Mon, 19 Oct 2026 16:31:12 +0000",
       "summary": "Correction: Dawn’s Docking and Fluid Transfer Port is not a hosted payload. UARX is testing it for future refueling missions. SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified […] The post UARX Space troubleshoots…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/rsz_uarx_ossie-d.png?fit=879%2C628&ssl=1"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Martian Dawn",
-      "link": "https://www.nasa.gov/image-article/martian-dawn/",
-      "published": "Mon, 19 Oct 2026 16:03:51 +0000",
-      "summary": "NASA’s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view yet of distant, wind-carved Martian…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp?w=1837"
     },
     {
       "source": "Krebs on Security",
@@ -600,15 +557,6 @@
       "published": "Mon, 19 Oct 2026 13:00:03 +0000",
       "summary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing…",
       "image": "https://spectrum.ieee.org/media-library/author-jonathan-hurst-a-tall-slim-white-man-wearing-a-black-long-sleeve-shirt-and-dark-jeans-stands-next-to-his-digit-5-humano.jpg?id=68441166&width=980"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
-      "link": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
-      "published": "Mon, 19 Oct 2026 12:10:00 +0000",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James Temple In July…",
-      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c9.png"
     },
     {
       "source": "IEEE Spectrum",
@@ -643,8 +591,7 @@
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
     },
     {
       "source": "GitHub Blog",
@@ -739,8 +686,7 @@
       "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
-      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
     },
     {
       "source": "SpaceNews",
@@ -774,8 +720,7 @@
       "title": "How one bug bounty researcher chooses the features they investigate",
       "link": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
       "published": "Thu, 08 Oct 2026 17:02:52 +0000",
-      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…",
-      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
+      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they…"
     },
     {
       "source": "Krebs on Security",
