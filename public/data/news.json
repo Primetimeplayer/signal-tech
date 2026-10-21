@@ -1,7 +1,186 @@
 {
-  "updated": "2026-10-21T10:22:08.189Z",
-  "count": 80,
+  "updated": "2026-10-21T12:22:16.179Z",
+  "count": 82,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "I reviewed the iPhone Duo, ask me anything",
+      "link": "https://www.theverge.com/tech/1014316/iphone-duo-review-ama",
+      "published": "2026-10-21T12:15:00.000Z",
+      "summary": "I'm The Verge's senior smartphone reviewer and I've been using the iPhone Duo for the past week. I've unfolded it, flipped it, and folded it more times than I could count as I've been working on the review alongside our editor-in-chief…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_0082.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Spotify is busting free of CarPlay with the launch of its first native car app",
+      "link": "https://www.theverge.com/entertainment/1014261/spotify-native-car-app-audi-android-automotive-carplay",
+      "published": "2026-10-21T12:00:00.000Z",
+      "summary": "Spotify announced Wednesday the launch of its next-generation, fully native in-car app, built directly on Google's Android Automotive operating system. The standalone app, which is launching today in select Audi models, runs directly on…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Spotify-x-Audi-Image-2.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "I can’t get enough of the iPhone Duo’s matte inner display",
+      "link": "https://www.theverge.com/tech/1014709/iphone-duo-inner-screen-nano-texture-matte",
+      "published": "2026-10-21T12:00:00.000Z",
+      "summary": "Easy on the eyes. The iPhone Duo has all the messiness of a first-gen product. And while I'm not sure I love all of the decisions Apple made around its design, it got one thing right: the matte finish on the inner screen. I've been using…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_0055.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The iPhone Duo is a messy, expensive, good time",
+      "link": "https://www.theverge.com/tech/1015028/iphone-duo-review",
+      "published": "2026-10-21T12:00:00.000Z",
+      "summary": "The iPhone Duo is the riskiest Apple product in years. It's a huge rethink of what an iPhone is and could be, and it contains the seeds of many fascinating ideas that might be great in the future. But that future is yet to come. The iPhone…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1378.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Apple iPhone Duo Review: Is It Worth It?",
+      "link": "https://www.wired.com/review/apple-iphone-duo/",
+      "published": "Wed, 21 Oct 2026 12:00:00 +0000",
+      "summary": "Apple made an astonishingly good first foldable. Now iOS and third-party apps need time to catch up.",
+      "image": "https://media.wired.com/photos/6ad7940031b157a7a885ace4/master/pass/DSC_9923.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AI has 'potential' to turn script kiddies into sophisticated infrastructure attackers",
+      "link": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297",
+      "published": "Wed, 21 Oct 2026 12:00:00 +0000",
+      "summary": "Consider this the wake-up call",
+      "image": "https://image.theregister.com/?imageId=259070&width=800"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "AMD and Intel will work together to create a single PyTorch code path for AI inference on CPUs",
+      "link": "https://www.tomshardware.com/pc-components/cpus/amd-and-intel-will-work-together-to-create-a-single-pytorch-code-path-for-ai-inference-on-cpus-amd-zendnn-library-gets-folded-into-intel-onednn-to-make-cpu-ai-simpler",
+      "published": "Wed, 21 Oct 2026 12:00:00 +0000",
+      "summary": "AMD and Intel are working together to bring CPU inference optimizations for PyTorch under the unified oneDNN library.",
+      "image": "https://cdn.mos.cms.futurecdn.net/rYe5kJq2zmKffyrHqBDYkE-1920-80.jpg"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Solstar provides Wi-Fi connectivity for NASA proximity operations demonstration",
+      "link": "https://spacenews.com/solstar-provides-wi-fi-connectivity-for-nasa-proximity-operations-demonstration/",
+      "published": "Wed, 21 Oct 2026 12:00:00 +0000",
+      "summary": "SAN FRANCISCO – Wi-Fi technology from Solstar Space connected NASA’s R5-S10 cubesat with Momentus’ Vigoride-7 orbital service vehicle during proximity operations and relayed data to NASA’s Johnson Space Center, Solstar […] The post Solstar…"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Summer of Quantum: Building momentum for space-based QKD",
+      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
+      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
+      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Samsung and SK Hynix are upgrading Chinese factories to produce advanced RAM chips as AI data center competition ramps up",
+      "link": "https://www.tomshardware.com/pc-components/dram/samsung-and-sk-hynix-are-upgrading-chinese-factories-to-produce-advanced-ram-chips-as-ai-data-center-competition-ramps-up-big-players-move-to-fight-off-the-threat-from-cxmt-and-co",
+      "published": "Wed, 21 Oct 2026 11:49:44 +0000",
+      "summary": "Samsung and SK Hynix are reportedly upgrading their factories to produce more advanced RAM chips designed for AI data centers in an attempt to fend off competition from Chinese companies.",
+      "image": "https://cdn.mos.cms.futurecdn.net/MNAdzZLPoDR82bwxMK4iCk-1920-80.png"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "A critical PHP vulnerability may take websites down today",
+      "link": "https://www.theverge.com/tech/1015257/php-vulnerability-patch-website-security-wordpress",
+      "published": "2026-10-21T11:49:17.000Z",
+      "summary": "This PHP issue sounds like a pretty huge problem. | Illustration by Carlo Cadenas / The Verge Security patches for the PHP programming language, widely used to build websites and web apps, are expected to roll out today, with the goal of…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/VRG_ILLO_STK001_carlo_cadenas_cybersecurity_virus.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Nvidia <span data-lab-text_size_desktop=\"42\" class=\"t42\">picks OpenShell to </span>tame AI gents",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-picks-openshell-to-tame-ai-gents/5304319",
+      "published": "Wed, 21 Oct 2026 11:30:00 +0000",
+      "summary": "Give your agents freedom to do useful work by locking them down",
+      "image": "https://image.theregister.com/?imageId=249195&width=800"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Nvidia's grand plan for speeding up datacenter deployments: AI trailer parks",
+      "link": "https://www.theregister.com/on-prem/2026/10/21/nvidias-grand-plan-for-speeding-up-datacenter-deployments-ai-trailer-parks/5304303",
+      "published": "Wed, 21 Oct 2026 11:30:00 +0000",
+      "summary": "GPUzilla boasts modular bit barns could speed up deployments from six months to just two weeks",
+      "image": "https://image.theregister.com/?imageId=240698&width=800"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Why you don't need an audiophile headset for gaming — comfort, convenience, and a good mic win over pure audio fidelity",
+      "link": "https://www.tomshardware.com/peripherals/headphones-headsets/why-you-dont-need-an-audiophile-headset-for-gaming-comfort-convenience-and-a-good-mic-win-over-pure-audio-fidelity",
+      "published": "Wed, 21 Oct 2026 11:30:00 +0000",
+      "summary": "Headsets are mainly about audio, but that doesn't mean that the \"objectively\" best-sounding headset by audiophile standards translates to the best-sounding headset by gaming standards.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kLyDTo2avDpS2LPjQYD5Fn-1920-80.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "80% of Samsung's data center memory is already sold for 2027, meaning yet another double-digit price increase for RAM expected and more likely to come",
+      "link": "https://www.pcgamer.com/hardware/memory/80-percent-of-samsungs-data-center-memory-is-already-sold-for-2027-meaning-yet-another-double-digit-price-increase-for-ram-expected-and-more-likely-to-come/",
+      "published": "Wed, 21 Oct 2026 11:14:24 +0000",
+      "summary": "Next year isn't looking so hot for sensibly priced hardware upgrades either…",
+      "image": "https://cdn.mos.cms.futurecdn.net/LanFmJykroZiecWNLtRCh3-1920-80.png"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "EU wants Booking.com to check out of its scam problem",
+      "link": "https://www.theregister.com/security/2026/10/21/eu-wants-bookingcom-to-check-out-of-its-scam-problem/5304413",
+      "published": "Wed, 21 Oct 2026 11:10:55 +0000",
+      "summary": "Commission opens DSA probe into fake listings and phishing on the platform, says its fraud defenses 'absolutely substandard'",
+      "image": "https://image.theregister.com/?imageId=5304420&width=800"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Gaming Can’t Afford More Games the Size of ‘Grand Theft Auto VI’",
+      "link": "https://www.wired.com/story/make-big-games-smaller/",
+      "published": "Wed, 21 Oct 2026 11:00:00 +0000",
+      "summary": "Between crushing layoffs, ballooning budgets, and bland end products, video game makers need to stop chasing AAA glory.",
+      "image": "https://media.wired.com/photos/6ad7a0764809649ec79b3fcd/master/pass/Jason_and_Lucia_02.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Score a 1440p-ready gaming PC with an RTX 5060 Ti 16GB for under $1,500 right now, saving you $200",
+      "link": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1440p-ready-gaming-pc-with-an-rtx-5060-ti-16gb-for-under-usd1-500-right-now-saving-you-usd200-abs-cyclone-aqua-rig-ships-with-16gb-ddr5-1tb-ssd-and-a-20-core-intel-cpu",
+      "published": "Wed, 21 Oct 2026 10:50:14 +0000",
+      "summary": "You can pick up this ABS Cyclone Aqua gaming PC with an RTX 5060 Ti 16GB, Intel Core i7-14700F, 16GB DDR5, and a 1TB SS with a $200 discount, now $1,499.99.",
+      "image": "https://cdn.mos.cms.futurecdn.net/eUgRjvXWBf2G4ZLGTZkP7g-1920-80.png"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
+      "link": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+      "published": "Wed, 21 Oct 2026 10:30:00 +0000",
+      "summary": "It’s the latest in a growing wave of bets that AI companies are making on brain data.",
+      "image": "https://media.wired.com/photos/6ad7d54d2ae496685d93a3ef/master/pass/Science_OpenAI%20Invests%20in%20Startup%20That%20Uses%20Brain%20Implants%20to%20Detect%20Cancer_v1.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "HPE says it will run the first supercomputer benchmarks on the Moon",
+      "link": "https://www.tomshardware.com/tech-industry/supercomputers/hpe-says-it-will-run-the-first-supercomputer-benchmarks-on-the-moon-with-its-spaceborne-computer-4-system-will-ride-a-rover-to-the-lunar-south-pole-to-test-linpack-llms-and-lidar-mapping",
+      "published": "Wed, 21 Oct 2026 10:30:00 +0000",
+      "summary": "HPE’s Spaceborne Computer-4 will ride Astrolab’s FLIP rover to the Moon’s south pole to run HPL, HPCG, and AI tests.",
+      "image": "https://cdn.mos.cms.futurecdn.net/WNG7679dTQZh2Z5h75BuT3-1920-80.jpg"
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -30,9 +209,18 @@
       "image": "https://image.theregister.com/?imageId=262812&width=800"
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Nuclear-powered spaceships",
+      "link": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
+      "published": "Wed, 21 Oct 2026 09:00:00 +0000",
+      "summary": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/SPACESHIP-FINAL.jpg?resize=1200,600"
+    },
+    {
       "source": "Wired",
       "category": "news",
-      "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
+      "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in the Way",
       "link": "https://www.wired.com/story/europe-data-centers-climate-change/",
       "published": "Wed, 21 Oct 2026 08:30:00 +0000",
       "summary": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives.",
@@ -129,15 +317,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/07/xbox-dominoes-1152x648.jpg"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "SpaceX will try catching Starship and its booster for first time, Musk says",
-      "link": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
-      "published": "2026-10-20T21:02:53.000Z",
-      "summary": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "SpaceX’s AI business is beating expectations",
@@ -165,24 +344,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg?resize=1200,800"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster",
-      "link": "https://www.pcgamer.com/games/action/after-talking-to-capcom-im-a-lot-more-optimistic-about-onimusha-3-getting-a-remaster/",
-      "published": "Tue, 20 Oct 2026 20:34:43 +0000",
-      "summary": "We need time-traveling Jean Reno on PC.",
-      "image": "https://cdn.mos.cms.futurecdn.net/hDaAszbiiMuDTtrpREy3GB-1920-80.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "SpaceX says big AI growth fueled revenue jump",
-      "link": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
-      "published": "2026-10-20T20:26:58.000Z",
-      "summary": "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.\" While its Space…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_E.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
@@ -199,15 +360,6 @@
       "published": "Tue, 20 Oct 2026 20:07:58 +0000",
       "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "What's the scariest PC horror game of all time? Nominate your favs and we'll pit them against each other",
-      "link": "https://www.pcgamer.com/games/horror/whats-the-scariest-pc-horror-game-of-all-time-nominate-your-favs-and-well-pit-them-against-each-other/",
-      "published": "Tue, 20 Oct 2026 20:03:26 +0000",
-      "summary": "Bracket coming the week of Halloween. For now, tell us which games should face off for the honor of scariest horror game ever.",
-      "image": "https://cdn.mos.cms.futurecdn.net/AG94ag6uWbAZyRhy947S4P-1920-80.jpg"
     },
     {
       "source": "TechCrunch",
@@ -237,15 +389,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/stoke-second-stage-1152x648.jpg"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass'",
-      "link": "https://www.pcgamer.com/gaming-industry/founder-of-bankrupt-samson-studio-mulls-how-to-use-ai-for-his-next-attempt-cutting-corners-in-game-development-has-a-habit-of-coming-back-to-bite-you-in-the-ass/",
-      "published": "Tue, 20 Oct 2026 18:43:15 +0000",
-      "summary": "Christopher Sundberg said the goal for his next studio is to make \"a game we can afford to finish without needing every sales forecast to come true.\"",
-      "image": "https://cdn.mos.cms.futurecdn.net/XDWYfjRDYcAqUhXhck2X8D-1920-80.png"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
@@ -262,15 +405,6 @@
       "published": "Tue, 20 Oct 2026 18:36:53 +0000",
       "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them…",
       "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs",
-      "link": "https://www.pcgamer.com/games/third-person-shooter/helldivers-2-studio-warns-mods-may-break-as-it-switches-to-new-anti-cheat-and-the-negative-reviews-are-dropping-on-steam-like-hellbombs/",
-      "published": "Tue, 20 Oct 2026 18:19:34 +0000",
-      "summary": "Arrowhead says Easy Anti-Cheat will be more effective in combatting recent cheat mods, but the change has resulted in more than 1,000 negative user reviews on Steam in a single day.",
-      "image": "https://cdn.mos.cms.futurecdn.net/gfsxvNdYDyTKiyUdidRJJc-1920-80.png"
     },
     {
       "source": "NASA",
@@ -291,39 +425,13 @@
       "image": "https://cdn.mos.cms.futurecdn.net/FKEfLV3WiguWYAz37vRmyW-1920-80.png"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
-      "link": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
-      "published": "Tue, 20 Oct 2026 17:41:58 +0000",
-      "summary": "TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites.",
-      "image": "https://media.wired.com/photos/6ad772c1fca8f52b99e9eedc/master/pass/GettyImages-2300075055.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Palo Alto's firewall OS has been under attack from multiple ransomware groups since June",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
-      "published": "Tue, 20 Oct 2026 17:33:26 +0000",
-      "summary": "Unit 42 investigates network compromises across numerous industries",
-      "image": "https://image.theregister.com/?imageId=5304250&width=800"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
       "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
       "published": "Tue, 20 Oct 2026 17:12:48 +0000",
-      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Swamped curl maintainers take low-level flaws public to survive vulnerability 'avalanche'",
-      "link": "https://www.theregister.com/security/2026/10/20/swamped-curl-maintainers-take-low-level-flaws-public-to-survive-vulnerability-avalanche/5304198",
-      "published": "Tue, 20 Oct 2026 16:30:00 +0000",
-      "summary": "From October 26, only high and critical cases stay private as project seeks help sharing the workload",
-      "image": "https://image.theregister.com/?imageId=258345&width=800"
+      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024"
     },
     {
       "source": "GitHub Blog",
@@ -343,15 +451,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ingenuity-airfoil-clf5605.png"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "openEuler brings China's enterprise Linux ambitions to the desktop",
-      "link": "https://www.theregister.com/os-platforms/2026/10/20/openeuler-brings-chinas-enterprise-linux-ambitions-to-the-desktop/5304145",
-      "published": "Tue, 20 Oct 2026 15:30:00 +0000",
-      "summary": "CentOS roots give way to homegrown containers, AI tools, and a workstation edition we took for a spin",
-      "image": "https://image.theregister.com/?imageId=5304155&width=800"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Provides Progress Update on Moon Base Rovers",
@@ -359,15 +458,6 @@
       "published": "Tue, 20 Oct 2026 15:00:10 +0000",
       "summary": "As NASA works to build the Moon Base, crewed and robotic lunar rovers will play a crucial role during early development through technology demonstrations, astronaut transport, terrain mapping, scientific investigations, and resource…",
       "image": "https://www.youtube.com/embed/Zezt6EsG9WE"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "How going dual-native means VM/container co-existence and sovereign security in the AI era",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/20/sponsored-how-going-dual-native-means-vm/container-co-existence-and-sovereign-security-in-the-ai-era/5303862",
-      "published": "Tue, 20 Oct 2026 15:00:00 +0000",
-      "summary": "SPONSORED FEATURE: Nutanix says running VMs and containers within the same operating environment shouldn’t be a brake on AI ambitions",
-      "image": "https://image.theregister.com/?imageId=5303864&width=800"
     },
     {
       "source": "NASA",
@@ -388,24 +478,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/artemis-accords-uzbekistan-77-101926.jpg?w=2048"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Mysterious AMD Zen 6 APU with 24GB of LPDDR5 memory appears in benchmarks",
-      "link": "https://www.tomshardware.com/pc-components/cpus/mysterious-amd-zen-6-apu-with-24gb-of-lpddr5-memory-appears-in-benchmarks-chip-may-be-for-next-gen-steam-deck-or-gaming-handhelds",
-      "published": "Tue, 20 Oct 2026 13:59:43 +0000",
-      "summary": "The engineering sample features six CPU cores, 24GB of LPDDR5 memory running at 9,600 MT/s, and an integrated GPU clocked at 2.4 GHz, although its connection to a future Steam Deck remains unconfirmed.",
-      "image": "https://cdn.mos.cms.futurecdn.net/F2eBRdr2oBGZeuWJZ9qPYQ-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "U.S. Army developing program that would deploy AI agents to autonomously seek and destroy targets in enemy digital infrastructures",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-army-reportedly-developing-program-that-would-deploy-ai-agents-to-autonomously-seek-and-destroy-targets-in-enemy-digital-infrastructures-experts-warn-echotribble-program-could-have-disastrous-consequences",
-      "published": "Tue, 20 Oct 2026 13:30:00 +0000",
-      "summary": "The U.S. Army is developing a program to deploy autonomous AI agents that can navigate digital and network infrastructures, identify targets, and “neutralize” them.",
-      "image": "https://cdn.mos.cms.futurecdn.net/HGtGAPrJEdQs4vEjEa2p98-1920-80.jpg"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
@@ -413,51 +485,6 @@
       "published": "Tue, 20 Oct 2026 13:00:00 +0000",
       "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "US restarts three shut-down nuclear reactors to feed AI data centers",
-      "link": "https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors",
-      "published": "Tue, 20 Oct 2026 12:50:00 +0000",
-      "summary": "The U.S. government is helping fund projects to bring nuclear reactors back online in an attempt to provide more energy capacity to AI data centers.",
-      "image": "https://cdn.mos.cms.futurecdn.net/LcooCRpkUqJsx2v5ieXJcZ-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Oblivion gamer uses Claude AI to boost average FPS gains up to 48%, stutters slashed by 90%",
-      "link": "https://www.tomshardware.com/video-games/pc-gaming/oblivion-gamer-uses-claude-ai-to-boost-average-fps-gains-up-to-48-percent-stutters-slashed-by-90-percent-performance-mod-doesnt-change-game-assets-or-alter-visuals",
-      "published": "Tue, 20 Oct 2026 12:30:00 +0000",
-      "summary": "The new Oblivion Remastered Performance Fix mod is a pure code fix, with no changes to game assets or the game's visuals, yet it offers massive gains.",
-      "image": "https://cdn.mos.cms.futurecdn.net/jZKXZNanDyqWYzFxNBfimL-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports",
-      "link": "https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable",
-      "published": "Tue, 20 Oct 2026 12:10:00 +0000",
-      "summary": "$35 billion worth of Nvidia RTX Pro 5500 GPUs have been bought by Chinese trio Tencent, Alibaba and ByteDance, with demand far exceeding Nvidia's planned production, according to report.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ZQ7uixLax7MyxKpVHFVxEC-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Modern software is built on the backs of low-paid maintainers, opening the door to potential threats",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/modern-software-is-built-on-the-backs-of-low-paid-maintainers-opening-the-door-to-potential-threats-report-details-critically-underfunded-projects-that-remain-understaffed-or-unfunded",
-      "published": "Tue, 20 Oct 2026 12:10:00 +0000",
-      "summary": "Modern computing remains vulnerable to the low bus factor of many open-source projects — continued lack of funding and manpower for voluntary-maintained infrastructure makes for a perennial threat",
-      "image": "https://cdn.mos.cms.futurecdn.net/zAKMPdMzn6uvTf3sxZsDgA-1920-80.jpg"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Improves Shock, Vibration Analysis",
-      "link": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
-      "published": "Mon, 19 Oct 2026 19:28:32 +0000",
-      "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predict how those…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260924-ph-rcr01-0036.jpg?w=1366"
     },
     {
       "source": "GitHub Blog",
@@ -675,15 +702,6 @@
       "published": "Wed, 07 Oct 2026 13:48:45 +0000",
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/Jeppesen.png"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Resource competition intensifies with surge in megaconstellations",
-      "link": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
-      "published": "Mon, 05 Oct 2026 19:13:40 +0000",
-      "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering […] The post Resource competition…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1"
     },
     {
       "source": "Krebs on Security",
