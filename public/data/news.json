@@ -1,7 +1,52 @@
 {
-  "updated": "2026-10-21T08:24:45.861Z",
-  "count": 81,
+  "updated": "2026-10-21T10:22:08.189Z",
+  "count": 80,
   "items": [
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Chinese repair centre has received 7 melted 12+4-pin Nvidia GPUs in just the past two days alone",
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/chinese-repair-centre-has-received-7-melted-12-4-pin-nvidia-gpus-in-just-the-past-two-days-alone/",
+      "published": "Wed, 21 Oct 2026 10:00:07 +0000",
+      "summary": "This is not getting better, is it?",
+      "image": "https://cdn.mos.cms.futurecdn.net/a9PnCDMGTLXJaMnyvDyntF-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Jensen Huang Nvidia GTC keynote disrupted by Greenpeace protest over chips in Russian drones",
+      "link": "https://www.tomshardware.com/tech-industry/jensen-huang-nvidia-gtc-keynote-disrupted-by-greenpeace-protest-over-chips-in-russian-drones-what-are-you-doing-about-that-heckler-demands-before-being-thrown-out",
+      "published": "Wed, 21 Oct 2026 09:57:06 +0000",
+      "summary": "Jensen Huang's Nvidia GTC keynote speech in Berlin was disrupted by a Greenpeace protest on Wednesday.",
+      "image": "https://cdn.mos.cms.futurecdn.net/tUqqa4kgj9Fjp8EAM8fysb-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Happiness is the next AI KPI if Oxford boffins have their way",
+      "link": "https://www.theregister.com/offbeat/2026/10/21/happiness-is-the-next-ai-kpi-if-oxford-boffins-have-their-way/5304253",
+      "published": "Wed, 21 Oct 2026 09:15:00 +0000",
+      "summary": "Researchers say public subsidies for AI should be repaid in wellbeing, not just economic growth",
+      "image": "https://image.theregister.com/?imageId=262812&width=800"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
+      "link": "https://www.wired.com/story/europe-data-centers-climate-change/",
+      "published": "Wed, 21 Oct 2026 08:30:00 +0000",
+      "summary": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives.",
+      "image": "https://media.wired.com/photos/6ad7d5f6ceee34bd819fdbeb/master/pass/Business_Can%20Europe%20Build%20Data%20Centers%20Without%20Giving%20Up%20Its%20Climate%20Goals_v2.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "MPs urge UK government to play venture capitalist with taxpayer-funded tech",
+      "link": "https://www.theregister.com/public-sector/2026/10/21/mps-urge-uk-government-to-play-venture-capitalist-with-taxpayer-funded-tech/5304212",
+      "published": "Wed, 21 Oct 2026 08:30:00 +0000",
+      "summary": "Watchdog says Whitehall is too timid about taking stakes in British startups, leaving taxpayers at risk of missing out when they strike gold",
+      "image": "https://image.theregister.com/?imageId=5282252&width=800"
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -228,15 +273,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/gfsxvNdYDyTKiyUdidRJJc-1920-80.png"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist",
-      "link": "https://www.pcgamer.com/games/life-sim/i-played-20-cozy-game-demos-in-steam-next-fest-and-these-5-made-it-onto-my-wishlist/",
-      "published": "Tue, 20 Oct 2026 18:14:42 +0000",
-      "summary": "I swear they aren't all farm sims.",
-      "image": "https://cdn.mos.cms.futurecdn.net/4szPM7XMehsZ9c3J2mczjC-1920-80.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
@@ -278,8 +314,7 @@
       "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
       "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
       "published": "Tue, 20 Oct 2026 17:12:48 +0000",
-      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024"
+      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals."
     },
     {
       "source": "The Register",
@@ -317,15 +352,6 @@
       "image": "https://image.theregister.com/?imageId=5304155&width=800"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
-      "link": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
-      "published": "Tue, 20 Oct 2026 15:07:43 +0000",
-      "summary": "Hysteria over the agent's appearance in a 7,500-person group reveals that internet experts have outdated notions of privacy.",
-      "image": "https://media.wired.com/photos/6ad2cc7064b24534a6bc5044/master/pass/culture_ai_agent_internet_research_listserv.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Provides Progress Update on Moon Base Rovers",
@@ -353,15 +379,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/55572978759-545472774e-o.png?w=2048"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Enterprises blow nearly a third of software budgets on upgrades they never asked for",
-      "link": "https://www.theregister.com/software/2026/10/20/enterprises-blow-nearly-a-third-of-software-budgets-on-upgrades-they-never-asked-for/5304181",
-      "published": "Tue, 20 Oct 2026 14:43:00 +0000",
-      "summary": "Keeping vendors happy is costing businesses millions, even when everything was working fine in the first place",
-      "image": "https://image.theregister.com/?imageId=255776&width=800"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
@@ -371,15 +388,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/artemis-accords-uzbekistan-77-101926.jpg?w=2048"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "HPE to launch AI straight to the Moon",
-      "link": "https://www.theregister.com/science/2026/10/20/hpe-to-launch-ai-straight-to-the-moon/5303983",
-      "published": "Tue, 20 Oct 2026 14:00:00 +0000",
-      "summary": "Mystery silicon and mirrored SSDs set to touch down before year's end",
-      "image": "https://image.theregister.com/?imageId=5303988&width=800"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Mysterious AMD Zen 6 APU with 24GB of LPDDR5 memory appears in benchmarks",
@@ -387,15 +395,6 @@
       "published": "Tue, 20 Oct 2026 13:59:43 +0000",
       "summary": "The engineering sample features six CPU cores, 24GB of LPDDR5 memory running at 9,600 MT/s, and an integrated GPU clocked at 2.4 GHz, although its connection to a future Steam Deck remains unconfirmed.",
       "image": "https://cdn.mos.cms.futurecdn.net/F2eBRdr2oBGZeuWJZ9qPYQ-1920-80.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "'Password1' and a forgotten test account land Welsh outfits in hot water",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139",
-      "published": "Tue, 20 Oct 2026 13:35:00 +0000",
-      "summary": "ICO reprimands Ogi Networks and Data Cymru after ransomware breach exposes info of 3,300 people, mostly children",
-      "image": "https://image.theregister.com/?imageId=5294336&width=800"
     },
     {
       "source": "Tom's Hardware",
@@ -452,22 +451,13 @@
       "image": "https://cdn.mos.cms.futurecdn.net/zAKMPdMzn6uvTf3sxZsDgA-1920-80.jpg"
     },
     {
-      "source": "Tom's Hardware",
+      "source": "NASA",
       "category": "news",
-      "title": "Modal taps Nvidia Vera CPUs after firm's internal tests show 2x throughput over Intel and AMD chips",
-      "link": "https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel",
-      "published": "Tue, 20 Oct 2026 11:50:00 +0000",
-      "summary": "Nvidia's Vera CPU delivers twice the performance of Intel and AMD chips in AI agent workloads, Modal claims.",
-      "image": "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Intel asks FCC for waiver to buy foreign robots",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/intel-asks-fcc-for-waiver-to-buy-foreign-robots-chipmakers-automated-guided-vehicles-could-run-afoul-of-agencys-sweeping-robot-ban",
-      "published": "Tue, 20 Oct 2026 11:45:01 +0000",
-      "summary": "Intel is concerned that the sweeping ban on foreign-made robots means that it could not update or maintain its fleet of AGVs.",
-      "image": "https://cdn.mos.cms.futurecdn.net/qMfEcWXZUKrABwGqtRncud-1920-80.png"
+      "title": "NASA Improves Shock, Vibration Analysis",
+      "link": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
+      "published": "Mon, 19 Oct 2026 19:28:32 +0000",
+      "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predict how those…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260924-ph-rcr01-0036.jpg?w=1366"
     },
     {
       "source": "GitHub Blog",
