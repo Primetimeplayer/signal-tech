@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21T02:19:09.495Z",
-  "count": 85,
+  "updated": "2026-10-21T04:21:17.078Z",
+  "count": 91,
   "items": [
     {
       "source": "The Verge",
@@ -98,7 +98,7 @@
       "title": "SpaceX’s AI business is beating expectations",
       "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
       "published": "Tue, 20 Oct 2026 20:40:41 +0000",
-      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+      "summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM.png?resize=1130,1200"
     },
     {
@@ -145,6 +145,15 @@
       "published": "Tue, 20 Oct 2026 20:07:58 +0000",
       "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Astrolab’s upcoming rover will run the first LLMs on the moon",
+      "link": "https://www.technologyreview.com/2026/10/20/1147360/astrolab-upcoming-rover-llms-on-the-moon/",
+      "published": "Tue, 20 Oct 2026 20:07:21 +0000",
+      "summary": "Large language models are set to go lunar. A computer capable of running AI software is one of the payloads aboard Astrolab’s FLIP lunar rover, which is slated to head to Earth’s celestial companion as early as November 2026. The…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/flip-wheel.jpg?resize=1200,600"
     },
     {
       "source": "PC Gamer",
@@ -228,22 +237,13 @@
       "image": "https://cdn.mos.cms.futurecdn.net/4szPM7XMehsZ9c3J2mczjC-1920-80.jpg"
     },
     {
-      "source": "Ars Technica",
+      "source": "NASA",
       "category": "news",
-      "title": "Quantum error correction goes well beyond breakeven",
-      "link": "https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven/",
-      "published": "Tue, 20 Oct 2026 18:08:57 +0000",
-      "summary": "A demo of error-corrected qubits shows big reductions in errors as they grow.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/helios-chip_top-1152x648.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-      "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-      "published": "Tue, 20 Oct 2026 17:55:12 +0000",
-      "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Eric-Schmidt.jpg?w=1024"
+      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+      "published": "Tue, 20 Oct 2026 18:11:33 +0000",
+      "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonstrate nuclear…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg?w=1920"
     },
     {
       "source": "Tom's Hardware",
@@ -275,10 +275,11 @@
     {
       "source": "TechCrunch",
       "category": "news",
-      "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+      "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
       "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
       "published": "Tue, 20 Oct 2026 17:12:48 +0000",
-      "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals."
+      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024"
     },
     {
       "source": "The Register",
@@ -314,6 +315,15 @@
       "published": "Tue, 20 Oct 2026 15:30:00 +0000",
       "summary": "CentOS roots give way to homegrown containers, AI tools, and a workstation edition we took for a spin",
       "image": "https://image.theregister.com/?imageId=5304155&width=800"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The new economics of enterprise AI",
+      "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+      "published": "Tue, 20 Oct 2026 15:20:25 +0000",
+      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/HPE-iStock-1168748420.jpg?w=840"
     },
     {
       "source": "Wired",
@@ -433,6 +443,15 @@
       "image": "https://cdn.mos.cms.futurecdn.net/jZKXZNanDyqWYzFxNBfimL-1920-80.jpg"
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: the claim shaking up AI and the internet’s agent problem",
+      "link": "https://www.technologyreview.com/2026/10/20/1147355/the-download-claim-shaking-up-ai-internet-agent-problem/",
+      "published": "Tue, 20 Oct 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. “We were looking at it wrong”: The explosive claim that’s upended the AI world “I think I have good…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/AdobeStock_716372037.jpg?fit=2128,1196"
+    },
+    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports",
@@ -449,6 +468,15 @@
       "published": "Tue, 20 Oct 2026 12:10:00 +0000",
       "summary": "Modern computing remains vulnerable to the low bus factor of many open-source projects — continued lack of funding and manpower for voluntary-maintained infrastructure makes for a perennial threat",
       "image": "https://cdn.mos.cms.futurecdn.net/zAKMPdMzn6uvTf3sxZsDgA-1920-80.jpg"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "link": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "published": "Tue, 20 Oct 2026 12:00:00 +0000",
+      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/TripleTen-MIT-cover.png?w=840"
     },
     {
       "source": "Tom's Hardware",
@@ -478,6 +506,15 @@
       "image": "https://media.wired.com/photos/6ad5cb8405cc7ba4721d495c/master/pass/01_Cloud_re_FIX%20(1).png"
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "A visit to Samsung’s massive new semiconductor hub",
+      "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+      "published": "Tue, 20 Oct 2026 09:00:00 +0000",
+      "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/map.png?w=840"
+    },
+    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Improves Shock, Vibration Analysis",
@@ -492,7 +529,17 @@
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
-      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…"
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "published": "Mon, 19 Oct 2026 18:22:47 +0000",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_Algo.jpg?resize=1200,600"
     },
     {
       "source": "NASA",
@@ -504,15 +551,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/new-dual-stream-nozzle-chevron-hot-exhaust-jet-jet-noise-prediction-code-e1642003352433-300x300-1.jpg?w=300"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "Experimental Facilities",
-      "link": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/",
-      "published": "Mon, 19 Oct 2026 18:08:52 +0000",
-      "summary": "Research teams at the NASA Glenn Research Center perform experiments in world-class facilities such as the 9- by 15-Foot Low-Speed Wind Tunnel (9 x15 LSWT), the Aero-Acoustic Propulsion Laboratory (AAPL), the Small Hot Jet Acoustic Rig…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2025/01/grc-2022-c-04045.jpg?w=2048"
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "IEEE Report Highlights How Members Are Engineering for Public Good",
@@ -520,6 +558,15 @@
       "published": "Mon, 19 Oct 2026 18:00:03 +0000",
       "summary": "Advancing technology for the benefit of humanity isn’t just the tagline for IEEE’s mission as a public charity. It’s something that the organization’s more than 500,000 members strive to do all the time. IEEE’s recently released 2025…",
       "image": "https://spectrum.ieee.org/media-library/photo-grid-of-mobile-response-trucks-smiling-college-students-a-tabletop-fm-tower-model-and-a-group-of-teen-girls-at-a-museum.jpg?id=68452632&width=980"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "published": "Mon, 19 Oct 2026 17:45:55 +0000",
+      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_LLMsNotcomplicated_V2.jpg?resize=1200,600"
     },
     {
       "source": "SpaceNews",
@@ -547,6 +594,15 @@
       "published": "Mon, 19 Oct 2026 13:00:03 +0000",
       "summary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing…",
       "image": "https://spectrum.ieee.org/media-library/author-jonathan-hurst-a-tall-slim-white-man-wearing-a-black-long-sleeve-shirt-and-dark-jeans-stands-next-to-his-digit-5-humano.jpg?id=68441166&width=980"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "link": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
+      "published": "Mon, 19 Oct 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James Temple In July…",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c9.png"
     },
     {
       "source": "IEEE Spectrum",
@@ -581,7 +637,8 @@
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
     },
     {
       "source": "GitHub Blog",
