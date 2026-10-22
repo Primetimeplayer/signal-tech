@@ -1,7 +1,95 @@
 {
-  "updated": "2026-10-22T14:25:25.961Z",
-  "count": 93,
+  "updated": "2026-10-22T16:23:48.375Z",
+  "count": 78,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+      "link": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "published": "2026-10-22T16:16:15.000Z",
+      "summary": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets -…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/WILDWOOD-Curtis-Alexandra-Still-Credit_-LAIKA.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Microsoft shuts down its beloved maker space",
+      "link": "https://www.theverge.com/tech/1016389/microsoft-garage-closure-hackathon-notepad",
+      "published": "2026-10-22T16:00:00.000Z",
+      "summary": "Microsoft CEO Satya Nadella at a hackathon event in 2016. | Image: Microsoft Microsoft is closing down The Garage, a set of popular maker spaces where employees worked on experimental projects and collaborated on surprising new apps and…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/R_2016-Hackathon-Day2-064-1.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "published": "Thu, 22 Oct 2026 16:00:00 +0000",
+      "summary": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/wayve-uber-uk.jpg?resize=1200,800"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+      "link": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "published": "2026-10-22T15:50:30.000Z",
+      "summary": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "PHP: The three little letters wreaking havoc across the web",
+      "link": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
+      "published": "2026-10-22T15:12:27.000Z",
+      "summary": "Two vulnerabilities found in the programming language PHP put enormous swaths of the internet in danger. By some accounts, up to 70 percent of websites use PHP in some capacity. It powers Wikipedia, WordPress, Drupal, and a host of other…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/VRG_ILLO_STK001_carlo_cadenas_cybersecurity_virus.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Capcom confirms a data breach has affected over 11 million people, with emails, IP addresses, and birthdays caught up in the mix",
+      "link": "https://www.pcgamer.com/hardware/capcom-confirms-a-data-breach-has-affected-over-11-million-people-with-emails-ip-addresses-and-birthdays-caught-up-in-the-mix/",
+      "published": "Thu, 22 Oct 2026 15:11:26 +0000",
+      "summary": "Make sure to check your email.",
+      "image": "https://cdn.mos.cms.futurecdn.net/sup3NeFfkaLBS8tu9UTbFA-1920-80.png"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "link": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "published": "Thu, 22 Oct 2026 15:03:58 +0000",
+      "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "When the attacker becomes the user: Rethinking account takeover",
+      "link": "https://www.theregister.com/security/2026/10/22/sponsored-when-the-attacker-becomes-the-user-rethinking-account-takeover/5303913",
+      "published": "Thu, 22 Oct 2026 15:00:00 +0000",
+      "summary": "SPONSORED FEATURE: AI makes phishing easier than ever",
+      "image": "https://image.theregister.com/?imageId=5303915&width=800"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+      "link": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
+      "published": "Thu, 22 Oct 2026 14:59:28 +0000",
+      "summary": "Helion now has another $225 million to help speed development of its first fusion power plant, due to provide Microsoft with electricity in 2028."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Coolpad’s new $150 Android phone has a wider screen like the iPhone Duo, but doesn’t fold",
+      "link": "https://www.theverge.com/tech/1016544/coolpad-cool-x-wide-widescreen-android-16-smartphone-china",
+      "published": "2026-10-22T14:24:49.000Z",
+      "summary": "The design of widescreen folding phones like the Samsung Galaxy Z Fold 8, Huawei Pura X View, and now the iPhone Duo, is starting to influence traditional slab phones. Similar to the Huawei Pura X View that launched in China in August, the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/coolpad1.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -17,8 +105,7 @@
       "title": "Developer platform Railway urges ‘all users’ to revoke secret keys after cyberattack",
       "link": "https://techcrunch.com/2026/10/22/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after-cyberattack/",
       "published": "Thu, 22 Oct 2026 14:03:00 +0000",
-      "summary": "The vibe-coding platform said all of its customers should revoke and rotate their private keys, after hackers were able to decrypt some customer secrets.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/08/getty-keys-red-background-locks.jpg?resize=1200,800"
+      "summary": "The vibe-coding platform said all of its customers should revoke and rotate their private keys, after hackers were able to decrypt some customer secrets."
     },
     {
       "source": "The Verge",
@@ -35,8 +122,7 @@
       "title": "Claude Duet app is Anthropic’s bet on agents",
       "link": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
       "published": "Thu, 22 Oct 2026 13:53:26 +0000",
-      "summary": "Claude Duet is available through waitlist for Pro and Max plan users",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Claude-Duet.jpg?resize=1200,675"
+      "summary": "Claude Duet is available through waitlist for Pro and Max plan users."
     },
     {
       "source": "Tom's Hardware",
@@ -53,26 +139,7 @@
       "title": "Nirva raises $33M for a pendant that only listens to you",
       "link": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
       "published": "Thu, 22 Oct 2026 13:26:52 +0000",
-      "summary": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Nirva-pendant.jpg?resize=1200,675"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Apple will label apps that are ‘Made for iPhone Duo’",
-      "link": "https://www.theverge.com/tech/1016526/apple-made-for-iphone-duo-badge-app-store",
-      "published": "2026-10-22T13:20:37.000Z",
-      "summary": "Apple is rolling out a new badge in the App Store to indicate whether an app is optimized for its new foldable. The new \"Made for iPhone Duo\" badge will appear across apps and games that work with the device's extra screen real estate…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_0239.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The Atari VCS saga will come to an end next year when its software store closes",
-      "link": "https://www.theverge.com/tech/1016481/atari-vcs-console-shutting-down-software-store-2027",
-      "published": "2026-10-22T13:17:59.000Z",
-      "summary": "Following a decade long saga of delays, name changes, and Atari having to assure backers of a crowdfunding campaign that its retro console wasn't doomed, the Atari VCS platform is being retired early next year. On February 1st, 2027, the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/atarivcs.jpg?quality=90&strip=all&crop=0,0,100,100"
+      "summary": "Nirva will ship its $249 ambient AI pendant by the end of the year."
     },
     {
       "source": "Tom's Hardware",
@@ -89,8 +156,7 @@
       "title": "DeepSeek reportedly raises $15B days after US restrictions",
       "link": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
       "published": "Thu, 22 Oct 2026 13:11:13 +0000",
-      "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/01/deepseek-2.jpg?resize=1200,800"
+      "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns."
     },
     {
       "source": "The Register",
@@ -111,33 +177,6 @@
       "image": "https://spectrum.ieee.org/media-library/group-of-five-men-standing-outside-an-office-with-a-placard-that-reads-representative-greg-casar-texas-446.png?id=68486788&width=980"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Birdbuddy’s Nook is a compact smart bird feeder for small spaces and budgets",
-      "link": "https://www.theverge.com/tech/1015659/birdbuddy-smart-bird-feeder-2k-camera-home-nook-ai-identification",
-      "published": "2026-10-22T13:00:00.000Z",
-      "summary": "Birdbuddy is finally launching the new smart bird feeders it originally announced at CES 2026 earlier this year, but with new names. The Birdbuddy 2 Mini is now called the Birdbuddy Nook, and it is designed to be a smaller and more…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/birdbuddy1.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Googlebooks just aren’t ready",
-      "link": "https://www.theverge.com/tech/1015749/googlebook-hp-acer-lenovo-dell-asus-collective-laptop-review",
-      "published": "2026-10-22T13:00:00.000Z",
-      "summary": "The Acer Googlebook 14 (left), Lenovo Googlebook 15 (center), and HP Googlebook 14 (right). | Photo: Antonio G. Di Benedetto / The Verge EEvery Googlebook laptop we've tested so far has great hardware. The problem is the software. While…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268755_Googlebooks_Lenovo_HP_Acer_laptop_review_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "1Password lets AI agents use your passwords without seeing them",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
-      "published": "2026-10-22T13:00:00.000Z",
-      "summary": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all of your connected…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/STK442_Password_Manager_A_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
@@ -147,15 +186,6 @@
       "image": "https://media.wired.com/photos/6ad73249e71bc9cefa5d514d/master/pass/OKA_MORI_Companion_EveningWorkAtLaptop.jpg"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Just because Tesla’s Optimus is in production doesn’t mean it’s actually ready",
-      "link": "https://www.theverge.com/tech/1016492/tesla-optimus-robots-production-musk-q3-earnings",
-      "published": "2026-10-22T12:53:27.000Z",
-      "summary": "On Tesla's earnings call Wednesday, CEO Elon Musk announced that the company had begun early production of its humanoid robot on its high-volume line in Fremont, California. Then he laid out what still needs work: the robot's hands, its…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/258187_Are_humanoid_robots_just_hype_or_are_they_coming__CVirginia-1.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "AMD Ryzen 5 5500F review: Vermeer rides again for budget gaming PCs",
@@ -163,15 +193,6 @@
       "published": "Thu, 22 Oct 2026 12:40:00 +0000",
       "summary": "After years with the Cezanne-based 5500, AMD has finally updated its $100 CPU to the 5500F in the Vermeer family, adding a 200 MHz boost in clock speed and a PCIe 4.0 upgrade.",
       "image": "https://cdn.mos.cms.futurecdn.net/4WsiGMV9jZ5LQATHWz6S7h-1920-80.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "AI agents are ready to shop. Some retailers are wary.",
-      "link": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
-      "published": "2026-10-22T12:30:00.000Z",
-      "summary": "Using an AI agent to shop for you is a strange experience. Tech companies have marketed them as personal assistants - the democratizing of labor that ordinarily would only be available to the rich and powerful. In practice, at least for…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_A.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "PC Gamer",
@@ -318,15 +339,6 @@
       "image": "https://image.theregister.com/?imageId=5303797&width=800"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Philippine government suspends top tech official for alleged misconduct",
-      "link": "https://www.theregister.com/public-sector/2026/10/22/philippine-government-suspends-top-tech-official-for-alleged-misconduct/5304633",
-      "published": "Thu, 22 Oct 2026 03:04:20 +0000",
-      "summary": "Founder of offshore software development firm investigated for possibly giving his former outfit government contracts",
-      "image": "https://image.theregister.com/?imageId=250045&width=800"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
@@ -343,22 +355,6 @@
       "published": "Thu, 22 Oct 2026 00:00:16 +0000",
       "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall.",
       "image": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2024/05/rsch-phys-nasa-fox-dspoc-visit-ek-041824-007.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-      "link": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "published": "Wed, 21 Oct 2026 22:51:22 +0000",
-      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-      "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-      "published": "Wed, 21 Oct 2026 22:45:34 +0000",
-      "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services."
     },
     {
       "source": "Wired",
@@ -388,22 +384,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-1024x648.jpg"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Meta says Muse has over 10M users, with shopping a top activity",
-      "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "published": "Wed, 21 Oct 2026 21:14:19 +0000",
-      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
-      "link": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
-      "published": "Wed, 21 Oct 2026 20:57:40 +0000",
-      "summary": "Just 9 months after raising a $180 million seed round, Flapping Airplanes has landed a $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\""
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
@@ -411,14 +391,6 @@
       "published": "Wed, 21 Oct 2026 20:51:50 +0000",
       "summary": "NASA tested RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for almost eight-and-a-half minutes (500 seconds), the…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947h.jpg?w=1024"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Tesla starts Optimus robot production in California as profit falls 43%",
-      "link": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
-      "published": "Wed, 21 Oct 2026 20:33:09 +0000",
-      "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving."
     },
     {
       "source": "Ars Technica",
@@ -484,14 +456,6 @@
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_NLF_2006_0845030184_441ECM_N0911496NCAM03006_04_195J.jpg?w=1288&h=968&fit=clip&crop=faces%2Cfocalpoint"
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
-      "link": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
-      "published": "Wed, 21 Oct 2026 15:26:29 +0000",
-      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile…"
-    },
-    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -508,23 +472,6 @@
       "published": "Wed, 21 Oct 2026 15:05:08 +0000",
       "summary": "NASA astronaut and Expedition 75 flight engineer Jessica Watkins works inside the Kibo laboratory module’s Life Science Glovebox on Oct. 9, 2026, safely mixing living cell samples with a bioink and then filling a special cartridge with the…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/iss075e0190239orig.jpg?w=2048"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
-      "link": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
-      "published": "Wed, 21 Oct 2026 15:00:22 +0000",
-      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
-      "link": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
-      "published": "Wed, 21 Oct 2026 14:29:57 +0000",
-      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…"
     },
     {
       "source": "IEEE Spectrum",
@@ -554,23 +501,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000"
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Solstar provides Wi-Fi connectivity for NASA proximity operations demonstration",
-      "link": "https://spacenews.com/solstar-provides-wi-fi-connectivity-for-nasa-proximity-operations-demonstration/",
-      "published": "Wed, 21 Oct 2026 12:00:00 +0000",
-      "summary": "SAN FRANCISCO – Wi-Fi technology from Solstar Space connected NASA’s R5-S10 cubesat with Momentus’ Vigoride-7 orbital service vehicle during proximity operations and relayed data to NASA’s Johnson Space Center, Solstar […] The post Solstar…"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Summer of Quantum: Building momentum for space-based QKD",
-      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
-      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
-      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Nuclear-powered spaceships",
@@ -586,15 +516,6 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
       "published": "Tue, 20 Oct 2026 16:05:03 +0000",
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first…"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
-      "link": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
-      "published": "Tue, 20 Oct 2026 13:00:00 +0000",
-      "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
     },
     {
       "source": "GitHub Blog",
@@ -613,15 +534,6 @@
       "published": "Mon, 19 Oct 2026 18:00:03 +0000",
       "summary": "Advancing technology for the benefit of humanity isn’t just the tagline for IEEE’s mission as a public charity. It’s something that the organization’s more than 500,000 members strive to do all the time. IEEE’s recently released 2025…",
       "image": "https://spectrum.ieee.org/media-library/photo-grid-of-mobile-response-trucks-smiling-college-students-a-tabletop-fm-tower-model-and-a-group-of-teen-girls-at-a-museum.jpg?id=68452632&width=980"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
-      "link": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
-      "published": "Mon, 19 Oct 2026 16:31:12 +0000",
-      "summary": "Correction: Dawn’s Docking and Fluid Transfer Port is not a hosted payload. UARX is testing it for future refueling missions. SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified […] The post UARX Space troubleshoots…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/rsz_uarx_ossie-d.png?fit=879%2C628&ssl=1"
     },
     {
       "source": "Krebs on Security",
@@ -660,15 +572,6 @@
       "image": "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=980"
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
-      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
-      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
-      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
@@ -685,23 +588,6 @@
       "published": "Thu, 15 Oct 2026 18:00:00 +0000",
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How NASA is thinking about a moon base",
-      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
-      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
-      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
-      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
-      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
-      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…"
     },
     {
       "source": "GitHub Blog",
@@ -730,15 +616,6 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png"
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
-      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
-      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
-      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
-    },
-    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
@@ -763,15 +640,6 @@
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
       "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
-      "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
-      "published": "Mon, 12 Oct 2026 13:00:00 +0000",
-      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post…",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/jenaoptronik.png?fit=719%2C719&ssl=1"
     },
     {
       "source": "Krebs on Security",
