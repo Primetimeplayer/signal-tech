@@ -1,7 +1,24 @@
 {
-  "updated": "2026-10-22T00:15:38.542Z",
-  "count": 89,
+  "updated": "2026-10-22T02:24:52.713Z",
+  "count": 87,
   "items": [
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Faster to Science: A Letter to the Science Community",
+      "link": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
+      "published": "Thu, 22 Oct 2026 00:00:16 +0000",
+      "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "PHP blames supply chain security biz Chainguard for putting huge chunks of the web at risk",
+      "link": "https://www.theregister.com/security/2026/10/22/php-blames-supply-chain-security-biz-chainguard-for-putting-huge-chunks-of-the-web-at-risk/5304611",
+      "published": "Wed, 21 Oct 2026 23:02:57 +0000",
+      "summary": "'Coordinated vulnerability disclosure, unless there's evidence of active exploits in the wild,' Chainguard CEO tells The Reg",
+      "image": "https://image.theregister.com/?imageId=5304620&width=800"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -80,8 +97,7 @@
       "title": "Meta says Muse has over 10M users, with shopping a top activity",
       "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
       "published": "Wed, 21 Oct 2026 21:14:19 +0000",
-      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-finger-on-app-GettyImages-2293791808.jpg?w=1024"
+      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users."
     },
     {
       "source": "TechCrunch",
@@ -89,8 +105,7 @@
       "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
       "link": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
       "published": "Wed, 21 Oct 2026 20:57:40 +0000",
-      "summary": "Just 9 months after raising an $180 million seed round, Flapping Airplanes has landed $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\"",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/02/Flapping-Airplanes-founders-photo.jpg?resize=1200,821"
+      "summary": "Just 9 months after raising a $180 million seed round, Flapping Airplanes has landed a $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\""
     },
     {
       "source": "NASA",
@@ -116,8 +131,7 @@
       "title": "Tesla starts Optimus robot production in California as profit falls 43%",
       "link": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
       "published": "Wed, 21 Oct 2026 20:33:09 +0000",
-      "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/04/tesla-opitmus-Getty.jpg?resize=1200,800"
+      "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving."
     },
     {
       "source": "TechCrunch",
@@ -125,8 +139,7 @@
       "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
       "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
       "published": "Wed, 21 Oct 2026 20:27:41 +0000",
-      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2157738833.jpg?resize=1200,800"
+      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
     },
     {
       "source": "The Verge",
@@ -161,8 +174,7 @@
       "title": "GM is betting compute and AI will help it compete with Chinese automakers",
       "link": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
       "published": "Wed, 21 Oct 2026 19:52:20 +0000",
-      "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Row-of-pre-production-vehicles-at-PPO.jpg?resize=1200,801"
+      "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ."
     },
     {
       "source": "Ars Technica",
@@ -181,15 +193,6 @@
       "published": "Wed, 21 Oct 2026 19:35:53 +0000",
       "summary": "Intel makes progress on its manufacturing expansion in Arizona and Ohio as it continues to expand advanced semiconductor manufacturing capacity in the U.S.",
       "image": "https://cdn.mos.cms.futurecdn.net/WiCZu5vutwAgKdQUtoHSR7-1920-80.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-      "link": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-      "published": "Wed, 21 Oct 2026 19:30:00 +0000",
-      "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
-      "image": "https://techcrunch.com/wp-content/uploads/2018/01/gettyimages-903923942.jpeg?resize=1200,800"
     },
     {
       "source": "The Register",
@@ -264,15 +267,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg?w=1920"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "GOG taken offline for maintenance in wake of PHP security emergency",
-      "link": "https://www.pcgamer.com/software/security/gog-taken-offline-for-maintenance-in-wake-of-php-security-emergency/",
-      "published": "Wed, 21 Oct 2026 16:20:08 +0000",
-      "summary": "GOG and GOG Galaxy were taken offline following news of critical web vulnerabilities.",
-      "image": "https://cdn.mos.cms.futurecdn.net/M94SPZyBgjgWeUgfavg5b4-1920-80.png"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "4TB Samsung 990 Pro M.2 SSD falls 27%, hits 20 cents per gigabyte",
@@ -296,7 +290,8 @@
       "title": "The bridge to agent-scale Git infrastructure",
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
-      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…"
+      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
     },
     {
       "source": "NASA",
@@ -468,15 +463,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI has 'potential' to turn script kiddies into sophisticated infrastructure attackers",
-      "link": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297",
-      "published": "Wed, 21 Oct 2026 12:00:00 +0000",
-      "summary": "Consider this the wake-up call",
-      "image": "https://image.theregister.com/?imageId=259070&width=800"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "AMD and Intel will work together to create a single PyTorch code path for AI inference on CPUs",
@@ -539,15 +525,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
-      "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
-      "published": "Tue, 20 Oct 2026 18:11:33 +0000",
-      "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonstrate nuclear…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg?w=1920"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
@@ -570,7 +547,8 @@
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
-      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…"
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
     },
     {
       "source": "IEEE Spectrum",
@@ -641,7 +619,8 @@
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
     },
     {
       "source": "GitHub Blog",
@@ -727,7 +706,8 @@
       "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
-      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
     },
     {
       "source": "SpaceNews",
