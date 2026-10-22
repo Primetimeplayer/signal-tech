@@ -1,7 +1,43 @@
 {
-  "updated": "2026-10-22T08:27:14.745Z",
+  "updated": "2026-10-22T10:23:44.125Z",
   "count": 87,
   "items": [
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+      "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+      "published": "Thu, 22 Oct 2026 10:00:00 +0000",
+      "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
+      "image": "https://media.wired.com/photos/6ad9279b7f825128a68bc73a/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter.gif"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Google’s TPUs for AI workloads now run in Meta's data centers",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-tpus-for-ai-workloads-now-run-in-at-metas-data-centers-tpus-sold-to-external-customers-for-the-first-time-threaten-nvidias-market-dominance",
+      "published": "Thu, 22 Oct 2026 10:00:00 +0000",
+      "summary": "Google’s TPUs now serve AI in production at Meta, through new open-source engines that run PyTorch models natively on the chips.",
+      "image": "https://cdn.mos.cms.futurecdn.net/sBHypQ7oxsz8MjtC3KWH4o-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "480,000 phishing emails sent from a PC hidden behind a fridge in a Japanese hotel room",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/480-000-phishing-emails-sent-from-a-pc-hidden-behind-a-fridge-in-a-japanese-hotel-room-chinese-couple-arrested-over-fraud-operation-leaching-hotel-wi-fi",
+      "published": "Thu, 22 Oct 2026 09:30:00 +0000",
+      "summary": "Almost 500,000 phishing emails were sent from a PC hidden behind a fridge in a Kobe, Japan, hotel room.",
+      "image": "https://cdn.mos.cms.futurecdn.net/yDNeCSq2B7Gw4rG8r5e4E7-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Vendors asking forward deployed engineers to make good on trillion-dollar AI bet",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/22/vendors-asking-forward-deployed-engineers-to-make-good-on-trillion-dollar-ai-bet/5304366",
+      "published": "Thu, 22 Oct 2026 08:30:00 +0000",
+      "summary": "They might earn more than $200k but who do they work for? Tech buyers need to put some checks in place on FDEs",
+      "image": "https://image.theregister.com/?imageId=5304386&width=800"
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -39,15 +75,6 @@
       "image": "https://image.theregister.com/?imageId=5304630&width=800"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "Faster to Science: A Letter to the Science Community",
-      "link": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
-      "published": "Thu, 22 Oct 2026 00:00:16 +0000",
-      "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall.",
-      "image": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2024/05/rsch-phys-nasa-fox-dspoc-visit-ek-041824-007.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "PHP blames supply chain security biz Chainguard for putting huge chunks of the web at risk",
@@ -62,7 +89,8 @@
       "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
       "link": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
       "published": "Wed, 21 Oct 2026 22:51:22 +0000",
-      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters."
+      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55591561486_34813d39be_c.jpg?w=799"
     },
     {
       "source": "TechCrunch",
@@ -70,7 +98,8 @@
       "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
       "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
       "published": "Wed, 21 Oct 2026 22:45:34 +0000",
-      "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services."
+      "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800"
     },
     {
       "source": "Wired",
@@ -132,7 +161,8 @@
       "title": "Meta says Muse has over 10M users, with shopping a top activity",
       "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
       "published": "Wed, 21 Oct 2026 21:14:19 +0000",
-      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users."
+      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-finger-on-app-GettyImages-2293791808.jpg?w=1024"
     },
     {
       "source": "TechCrunch",
@@ -140,7 +170,8 @@
       "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
       "link": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
       "published": "Wed, 21 Oct 2026 20:57:40 +0000",
-      "summary": "Just 9 months after raising a $180 million seed round, Flapping Airplanes has landed a $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\""
+      "summary": "Just 9 months after raising a $180 million seed round, Flapping Airplanes has landed a $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\"",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/Flapping-Airplanes-founders-photo.jpg?resize=1200,821"
     },
     {
       "source": "NASA",
@@ -166,7 +197,8 @@
       "title": "Tesla starts Optimus robot production in California as profit falls 43%",
       "link": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
       "published": "Wed, 21 Oct 2026 20:33:09 +0000",
-      "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving."
+      "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/tesla-opitmus-Getty.jpg?resize=1200,800"
     },
     {
       "source": "TechCrunch",
@@ -174,7 +206,8 @@
       "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
       "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
       "published": "Wed, 21 Oct 2026 20:27:41 +0000",
-      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
+      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2157738833.jpg?resize=1200,800"
     },
     {
       "source": "The Verge",
@@ -209,7 +242,8 @@
       "title": "GM is betting compute and AI will help it compete with Chinese automakers",
       "link": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
       "published": "Wed, 21 Oct 2026 19:52:20 +0000",
-      "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ."
+      "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Row-of-pre-production-vehicles-at-PPO.jpg?resize=1200,801"
     },
     {
       "source": "Ars Technica",
@@ -266,24 +300,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/04/xAI-Thermal-Image-1152x648.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI will eat a fifth of tech budgets in 2027, but don't expect it to pay for itself",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/21/ai-will-eat-a-fifth-of-tech-budgets-in-2027-but-dont-expect-it-to-pay-for-itself/5304466",
-      "published": "Wed, 21 Oct 2026 17:30:00 +0000",
-      "summary": "Forrester says only isolated wins are likely, while 'good enough' open-weight models soak up the tokens",
-      "image": "https://image.theregister.com/?imageId=5240076&width=800"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "RIP BioWare: EA has shut down the legendary RPG developer",
-      "link": "https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/",
-      "published": "Wed, 21 Oct 2026 17:16:53 +0000",
-      "summary": "Bloomberg also reports that EA is cutting \"around 400 jobs\" across the company.",
-      "image": "https://cdn.mos.cms.futurecdn.net/vj466ettjps3vrm8mMDeQe-1920-80.jpg"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "SpaceX to attempt Starship catch on next flight, with eye on rapid cadence increase",
@@ -311,22 +327,12 @@
       "image": "https://cdn.mos.cms.futurecdn.net/2jKwK79ZpAZR9hDdZBDBD9-1920-80.jpg"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
-      "link": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
-      "published": "Wed, 21 Oct 2026 16:00:00 +0000",
-      "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
-      "image": "https://media.wired.com/photos/6ad8079d19d8dd7213438cc0/master/pass/business_ai_lab_recursive_improvement.jpg"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The bridge to agent-scale Git infrastructure",
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
-      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
+      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…"
     },
     {
       "source": "NASA",
@@ -380,15 +386,6 @@
       "published": "Wed, 21 Oct 2026 15:05:08 +0000",
       "summary": "NASA astronaut and Expedition 75 flight engineer Jessica Watkins works inside the Kibo laboratory module’s Life Science Glovebox on Oct. 9, 2026, safely mixing living cell samples with a bioink and then filling a special cartridge with the…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/iss075e0190239orig.jpg?w=2048"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Jensen Huang’s Vision for Europe Runs on Plug-In Data Centers",
-      "link": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
-      "published": "Wed, 21 Oct 2026 15:02:15 +0000",
-      "summary": "At Nvidia’s GTC in Berlin, Huang unveiled the company’s new plug-in data center—the DSX Pod—as the key to unlocking Europe’s AI infrastructure lag. Oh, and autonomous humanoid robotics.",
-      "image": "https://media.wired.com/photos/6ad8c8882adb51db52e1a235/master/pass/GettyImages-2301295306.jpg"
     },
     {
       "source": "SpaceNews",
@@ -506,15 +503,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/MNAdzZLPoDR82bwxMK4iCk-1920-80.png"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Why you don't need an audiophile headset for gaming — comfort, convenience, and a good mic win over pure audio fidelity",
-      "link": "https://www.tomshardware.com/peripherals/headphones-headsets/why-you-dont-need-an-audiophile-headset-for-gaming-comfort-convenience-and-a-good-mic-win-over-pure-audio-fidelity",
-      "published": "Wed, 21 Oct 2026 11:30:00 +0000",
-      "summary": "Headsets are mainly about audio, but that doesn't mean that the \"objectively\" best-sounding headset by audiophile standards translates to the best-sounding headset by gaming standards.",
-      "image": "https://cdn.mos.cms.futurecdn.net/kLyDTo2avDpS2LPjQYD5Fn-1920-80.jpg"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Nuclear-powered spaceships",
@@ -522,6 +510,24 @@
       "published": "Wed, 21 Oct 2026 09:00:00 +0000",
       "summary": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/SPACESHIP-FINAL.jpg?resize=1200,600"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+      "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "published": "Tue, 20 Oct 2026 20:21:36 +0000",
+      "summary": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+      "published": "Tue, 20 Oct 2026 18:11:33 +0000",
+      "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonstrate nuclear…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg?w=1920"
     },
     {
       "source": "GitHub Blog",
@@ -546,8 +552,7 @@
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
-      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…"
     },
     {
       "source": "IEEE Spectrum",
@@ -618,8 +623,7 @@
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…"
     },
     {
       "source": "GitHub Blog",
@@ -705,8 +709,7 @@
       "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
-      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…"
     },
     {
       "source": "SpaceNews",
