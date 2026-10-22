@@ -1,14 +1,86 @@
 {
-  "updated": "2026-10-22T20:18:53.310Z",
-  "count": 74,
+  "updated": "2026-10-22T22:19:09.695Z",
+  "count": 90,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "published": "Thu, 22 Oct 2026 22:08:24 +0000",
+      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the mostly highly valued private company ever.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "published": "2026-10-22T21:51:25.000Z",
+      "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Epic announces game jam where you have to use AI, then walks back the requirement",
+      "link": "https://www.pcgamer.com/software/ai/epic-announces-game-jam-where-you-have-to-use-ai/",
+      "published": "Thu, 22 Oct 2026 21:39:30 +0000",
+      "summary": "The Unreal Engine and Fortnite company has extended the public a many-fingered invitation.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kcoLy3wUGtqe8Xvfo3fa5U-1920-80.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
+      "link": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
+      "published": "2026-10-22T21:30:39.000Z",
+      "summary": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with earlier reports from IDC and Omdia. It's not just PCs…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_C.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Fall 2026 earnings watch",
+      "link": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
+      "published": "2026-10-22T21:15:16.000Z",
+      "summary": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to investor calls, and call out the latest wins and losses from…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKS501_STOCKS_CVIRGINIA_E.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Rivian buys world model startup to accelerate self-driving ambitions",
+      "link": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
+      "published": "Thu, 22 Oct 2026 21:05:05 +0000",
+      "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/12/Rivian-Universal-Hands-Free.jpg?resize=1200,900"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Meta’s AI could still scrape news sites, legal experts say",
+      "link": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "published": "2026-10-22T20:32:05.000Z",
+      "summary": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_1_Meta.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
+      "link": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
+      "published": "2026-10-22T20:23:48.000Z",
+      "summary": "On October 13th, Brendan Carr's FCC gave itself a new power - it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it's exercising that power for the first…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
       "title": "The secret to fast startup growth isn’t early sales, top names in tech say",
       "link": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say/",
       "published": "Thu, 22 Oct 2026 20:00:00 +0000",
-      "summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polska’s Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days.",
+      "summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polsia's Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/55593304916_918c404f7a_o.jpg?resize=1200,800"
     },
     {
@@ -27,7 +99,7 @@
       "link": "https://www.wired.com/story/aged-intelligence-society-interview/",
       "published": "Thu, 22 Oct 2026 19:56:32 +0000",
       "summary": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using frontier tools.”",
-      "image": "https://media.wired.com/photos/6ada51afd53570f6403f7150/master/pass/Model-Behavior-Illo-102226.jpg"
+      "image": "https://media.wired.com/photos/6ada7db9ecc44326fbe9e386/master/pass/Model-Behavior-Illo-102226-2.jpg"
     },
     {
       "source": "The Verge",
@@ -74,15 +146,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-12.17.11-PM-1.png?resize=1200,988"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Discord now formats Markdown previews right",
-      "link": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
-      "published": "2026-10-22T18:58:19.000Z",
-      "summary": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK062_03.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales",
@@ -90,6 +153,15 @@
       "published": "Thu, 22 Oct 2026 18:49:14 +0000",
       "summary": "Searches for Samsung foldables just happened to skyrocket following iPhone Duo unveiling.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Galaxy-Z8-1-1152x648.jpg"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Foundations of Scalable AI",
+      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "published": "Thu, 22 Oct 2026 18:48:04 +0000",
+      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png"
     },
     {
       "source": "TechCrunch",
@@ -101,15 +173,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1935915215.jpg?w=1024"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Refurbished PS5 consoles include second controller for an extra $18",
-      "link": "https://www.theverge.com/gadgets/1016959/refurbished-playstation-5-ps5-console-dualsense-deal-sale-bundle",
-      "published": "2026-10-22T18:38:50.000Z",
-      "summary": "A lot of people are snagging a PlayStation 5 ahead of Grand Theft Auto VI’s November 19th launch. You could pay full price at one of many retailers, but why do that when you can save $100 on a Sony-refurbished console that has the same…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072864/110923_new_Playstation_5_Slim_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
@@ -117,15 +180,6 @@
       "published": "Thu, 22 Oct 2026 18:38:47 +0000",
       "summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
       "image": "https://techcrunch.com/wp-content/uploads/2016/10/4528869007_4484c3d401_b-1.jpg?w=1024"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Delta can turn the iPhone Duo into your favorite folding handheld",
-      "link": "https://www.theverge.com/games/1016524/delta-2-version-ios-duo-gaming-emulator-update",
-      "published": "2026-10-22T18:30:00.000Z",
-      "summary": "The Duo has a Nintendo DS-like shape anyway, so Delta 2.0 is running with it. | Image: Riley Testut The Delta gaming emulator has been upgraded with a plethora of new goodies and support updates, which includes optimizing it for Apple's…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Delta-2.0-lineup-update.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "Ars Technica",
@@ -137,13 +191,13 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vorontsov-1152x648.jpg"
     },
     {
-      "source": "The Verge",
+      "source": "SpaceNews",
       "category": "news",
-      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
-      "link": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
-      "published": "2026-10-22T18:15:00.000Z",
-      "summary": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100"
+      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
+      "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
+      "published": "Thu, 22 Oct 2026 18:13:38 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Aalyria-2000-1500.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -179,15 +233,6 @@
       "published": "Thu, 22 Oct 2026 16:37:07 +0000",
       "summary": "Not so cool.",
       "image": "https://cdn.mos.cms.futurecdn.net/T5L8p43bCdF5hCrk2eQbcH-1920-80.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "published": "Thu, 22 Oct 2026 16:00:00 +0000",
-      "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/wayve-uber-uk.jpg?resize=1200,800"
     },
     {
       "source": "Ars Technica",
@@ -432,6 +477,14 @@
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_NLF_2006_0845030184_441ECM_N0911496NCAM03006_04_195J.jpg?w=1288&h=968&fit=clip&crop=faces%2Cfocalpoint"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
+      "link": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
+      "published": "Wed, 21 Oct 2026 15:26:29 +0000",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile…"
+    },
+    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -448,6 +501,23 @@
       "published": "Wed, 21 Oct 2026 15:05:08 +0000",
       "summary": "NASA astronaut and Expedition 75 flight engineer Jessica Watkins works inside the Kibo laboratory module’s Life Science Glovebox on Oct. 9, 2026, safely mixing living cell samples with a bioink and then filling a special cartridge with the…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/iss075e0190239orig.jpg?w=2048"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
+      "link": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
+      "published": "Wed, 21 Oct 2026 15:00:22 +0000",
+      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
+      "link": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
+      "published": "Wed, 21 Oct 2026 14:29:57 +0000",
+      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…"
     },
     {
       "source": "IEEE Spectrum",
@@ -477,6 +547,23 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Solstar provides Wi-Fi connectivity for NASA proximity operations demonstration",
+      "link": "https://spacenews.com/solstar-provides-wi-fi-connectivity-for-nasa-proximity-operations-demonstration/",
+      "published": "Wed, 21 Oct 2026 12:00:00 +0000",
+      "summary": "SAN FRANCISCO – Wi-Fi technology from Solstar Space connected NASA’s R5-S10 cubesat with Momentus’ Vigoride-7 orbital service vehicle during proximity operations and relayed data to NASA’s Johnson Space Center, Solstar […] The post Solstar…"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Summer of Quantum: Building momentum for space-based QKD",
+      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
+      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
+      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
+    },
+    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Nuclear-powered spaceships",
@@ -494,6 +581,15 @@
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first…"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
+      "link": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
+      "published": "Tue, 20 Oct 2026 13:00:00 +0000",
+      "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How to continue a GitHub Copilot app session in VS Code",
@@ -509,6 +605,15 @@
       "published": "Mon, 19 Oct 2026 18:00:03 +0000",
       "summary": "Advancing technology for the benefit of humanity isn’t just the tagline for IEEE’s mission as a public charity. It’s something that the organization’s more than 500,000 members strive to do all the time. IEEE’s recently released 2025…",
       "image": "https://spectrum.ieee.org/media-library/photo-grid-of-mobile-response-trucks-smiling-college-students-a-tabletop-fm-tower-model-and-a-group-of-teen-girls-at-a-museum.jpg?id=68452632&width=980"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
+      "link": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
+      "published": "Mon, 19 Oct 2026 16:31:12 +0000",
+      "summary": "Correction: Dawn’s Docking and Fluid Transfer Port is not a hosted payload. UARX is testing it for future refueling missions. SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified […] The post UARX Space troubleshoots…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/rsz_uarx_ossie-d.png?fit=879%2C628&ssl=1"
     },
     {
       "source": "Krebs on Security",
@@ -547,6 +652,15 @@
       "image": "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=980"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
+      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
+      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
+      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
@@ -562,6 +676,23 @@
       "published": "Thu, 15 Oct 2026 18:00:00 +0000",
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How NASA is thinking about a moon base",
+      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
+      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…"
     },
     {
       "source": "GitHub Blog",
@@ -588,6 +719,15 @@
       "published": "Wed, 14 Oct 2026 14:22:49 +0000",
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
+      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
+      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
     },
     {
       "source": "Krebs on Security",
