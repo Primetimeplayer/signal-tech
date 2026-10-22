@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-22T04:22:24.463Z",
-  "count": 87,
+  "updated": "2026-10-22T06:23:35.117Z",
+  "count": 88,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Philippine government suspends top tech official for alleged misconduct",
+      "link": "https://www.theregister.com/public-sector/2026/10/22/philippine-government-suspends-top-tech-official-for-alleged-misconduct/5304633",
+      "published": "Thu, 22 Oct 2026 03:04:20 +0000",
+      "summary": "Founder of offshore software development firm investigated for possibly giving his former outfit government contracts",
+      "image": "https://image.theregister.com/?imageId=250045&width=800"
+    },
     {
       "source": "Wired",
       "category": "news",
@@ -19,6 +28,15 @@
       "published": "Thu, 22 Oct 2026 00:54:33 +0000",
       "summary": "Signs Samsung to build substrates, bolsters spend with other players",
       "image": "https://image.theregister.com/?imageId=5304630&width=800"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Faster to Science: A Letter to the Science Community",
+      "link": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
+      "published": "Thu, 22 Oct 2026 00:00:16 +0000",
+      "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall.",
+      "image": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2024/05/rsch-phys-nasa-fox-dspoc-visit-ek-041824-007.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
     },
     {
       "source": "The Register",
@@ -519,15 +537,6 @@
       "published": "Tue, 20 Oct 2026 20:21:36 +0000",
       "summary": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo…",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
-      "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
-      "published": "Tue, 20 Oct 2026 18:11:33 +0000",
-      "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonstrate nuclear…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg?w=1920"
     },
     {
       "source": "GitHub Blog",
