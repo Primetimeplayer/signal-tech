@@ -1,7 +1,187 @@
 {
-  "updated": "2026-10-23T15:29:55.264Z",
-  "count": 94,
+  "updated": "2026-10-23T18:27:46.743Z",
+  "count": 99,
   "items": [
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "From Chip Lab to Center Stage",
+      "link": "https://spectrum.ieee.org/preethi-ashwath-chip-designer",
+      "published": "Fri, 23 Oct 2026 18:00:03 +0000",
+      "summary": "Preethi Ashwath, an analog IC designer at Analog Devices, has shifted from behind‑the‑scenes engineering to publicly discussing her work on hearable and wearable devices.",
+      "excerpt": "Many engineers are more comfortable working behind the scenes developing technology than speaking to consumers about products. But Preethi Ashwath has learned to take center stage, talking about the “hearable” and wearable devices she has had a hand in developing as an analog integrated circuit designer in the consumer electronics division at Analog Devices of Wilmington, Mass. The IEEE member is one of the few…",
+      "image": "https://spectrum.ieee.org/media-library/smiling-portrait-of-a-young-south-asian-woman-seated-in-front-of-her-work-computer.jpg?id=68453070&width=980",
+      "whyItMatters": "Her transition shows engineers can influence consumer tech perception, inspiring others to engage audiences beyond technical circles."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "'I'm forever grateful to BioWare': 16 game developers share the moment a BioWare game inspired them to join the industry",
+      "link": "https://www.pcgamer.com/gaming-industry/im-forever-grateful-to-bioware-16-game-developers-share-the-moment-a-bioware-game-inspired-them-to-join-the-industry/",
+      "published": "Fri, 23 Oct 2026 17:56:29 +0000",
+      "summary": "BioWare inspired 16 game developers to pursue careers in game development, highlighting its influence on the industry.",
+      "image": "https://cdn.mos.cms.futurecdn.net/5bSRVE6nkVSLTztwHnEjg6-1920-80.jpg",
+      "whyItMatters": "Shows how a single studio can shape future talent and industry trends."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Elon Musk’s dangerous grip on outer space",
+      "link": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
+      "published": "2026-10-23T17:35:15.000Z",
+      "summary": "Starshield, SpaceX’s military Starlink variant, was throttled, disabling Ukrainian interceptors against fast Russian drones, increasing vulnerability and casualties.",
+      "excerpt": "Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian army's interceptors, which counter Russian drones carrying bombs, suddenly stopped working at high speeds, making it easier for Russia to attack the country's energy infrastructure and leading to a reported two deaths and…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STKB355_SPACE_X_IPO_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Shows how tech throttling can directly influence battlefield outcomes and civilian safety."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+      "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+      "published": "Fri, 23 Oct 2026 17:18:31 +0000",
+      "summary": "Intel argues foreign-made robotic vehicles are essential for U.S. chip manufacturing and seeks a waiver from potential export restrictions.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Intel-fab-interior-1152x648.jpg",
+      "whyItMatters": "Tech readers should note how supply chain regulations could affect chip production and robotics innovation."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The iPhone Duo should have been an iPad",
+      "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "published": "2026-10-23T17:00:18.000Z",
+      "summary": "The Vergecast discusses whether the iPhone Duo deserves its 7/10 rating and how it might evolve over time.",
+      "excerpt": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay debate whether the Duo deserved the score it got, and try to work through how this device might change over time. Is the outer…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_102326_Site_attempt.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech readers should gauge Apple's new dual‑screen strategy and its impact on future iPhone designs."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
+      "link": "https://www.wired.com/gallery/iphone-buying-guide/",
+      "published": "Fri, 23 Oct 2026 17:00:00 +0000",
+      "summary": "Apple releases the folding iPhone Duo, 18 Pro, and 18 Pro Max, offering a full lineup to choose from.",
+      "image": "https://media.wired.com/photos/6adb8eb7c29fe197e204584d/master/pass/iPhone%20Buying%20Guide%20102026%20top%20art%20SOURCE%20Apple.jpg",
+      "whyItMatters": "Tech readers can decide which model best fits their needs and budget."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "published": "2026-10-23T16:52:55.000Z",
+      "summary": "Google updated its privacy policy to allow using Gmail, Drive, and Photos data for personalized ads when AI features are enabled.",
+      "excerpt": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous version simply said it wouldn't do that, as of October 16th, Google has added the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech users may see more tailored ads, raising privacy and data usage concerns."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
+      "link": "https://arstechnica.com/tech-policy/2026/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/",
+      "published": "Fri, 23 Oct 2026 16:51:59 +0000",
+      "summary": "The New York Knicks conducted a phishing test by sending employees fake championship ring offers, revealing security weaknesses.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/james-dolan-knicks-championship-1152x648-1792772606.jpg",
+      "whyItMatters": "It highlights how even high-profile organizations can fall prey to deceptive cyber attacks."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The first broken iPhone Duos are here",
+      "link": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen",
+      "published": "2026-10-23T16:37:03.000Z",
+      "summary": "Apple’s new iPhone Duo has begun selling, but early units are showing broken screens near the hinge with bright lines on the display.",
+      "excerpt": "The iPhone Duo officially goes on sale today, but a few units already have broken screens. According to posts on Reddit about the affected units, the issue appears to be happening at a similar spot on all of them: Some kind of problem shows up on the inner screen along the hinge and a strange bright line (or lines) across the right side of the display. Here's how one user in Australia described what happened to…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/20ruxzn728xh1.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech users should watch for potential hardware defects that could affect display quality and resale value."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Everybody panic: A Valve developer said \"HLX\" in public",
+      "link": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+      "published": "Fri, 23 Oct 2026 16:35:00 +0000",
+      "summary": "A Valve sound designer accidentally revealed the codename \"HLX\" during a public conference, sparking concern among fans.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2017/08/024-1152x648-1740609184.jpg",
+      "whyItMatters": "It hints at Valve’s next Half‑Life project, exciting the community and affecting expectations."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AI models think humans are a bunch of amoral sheep",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/23/ai-models-think-humans-are-a-bunch-of-amoral-sheep/5305123",
+      "published": "Fri, 23 Oct 2026 16:26:13 +0000",
+      "summary": "An experiment asked large language models to describe humanity, revealing that the models often portray humans as amoral and sheep-like.",
+      "image": "https://image.theregister.com/?imageId=5305178&width=800",
+      "whyItMatters": "It highlights how AI mirrors and amplifies human biases, raising concerns about trust and ethical use of language models."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+      "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
+      "published": "Fri, 23 Oct 2026 16:20:28 +0000",
+      "summary": "Commonwealth Fusion Systems secured $85M federal funding to develop advanced conductors for fusion power plants.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/CFS-Brandon-Sorbom-Disrupt-2026.jpg?resize=1200,800",
+      "whyItMatters": "It could accelerate fusion technology, boosting future clean energy and semiconductor innovation."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "AMD says the re-release of the Ryzen 7 5800X3D was 'like a final gift to our loyal [AM4] users' and it was CEO Dr. Lisa Su who first came up with the idea",
+      "link": "https://www.pcgamer.com/hardware/processors/amd-says-the-re-release-of-the-ryzen-7-5800x3d-was-like-a-final-gift-to-our-loyal-am4-users-and-it-was-ceo-dr-lisa-su-who-first-came-up-with-the-idea/",
+      "published": "Fri, 23 Oct 2026 16:11:07 +0000",
+      "summary": "It timed itself rather nicely with the deepening memory crisis, too.",
+      "image": "https://cdn.mos.cms.futurecdn.net/94RkNNoBUmy3PmPVpQQR2d-1920-80.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "AMD says its working on FSR's frame pacing issues, but there's still conspicuously no mention of Multi Frame Generation",
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-says-its-working-on-fsrs-frame-pacing-issues-but-theres-still-conspicuously-no-mention-of-multi-frame-generation/",
+      "published": "Fri, 23 Oct 2026 16:04:04 +0000",
+      "summary": "Smooth moves ahead?",
+      "image": "https://cdn.mos.cms.futurecdn.net/Nxw3o4ZQwF62mD9TtCzkEH-1920-80.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "What some of Anthropic’s backers are reportedly worth before its IPO",
+      "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
+      "published": "Fri, 23 Oct 2026 16:02:43 +0000",
+      "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2181797246.jpg?resize=1200,800"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Razer Basilisk V4 Pro Review: Tried and true and now with AI",
+      "link": "https://www.tomshardware.com/peripherals/gaming-mice/razer-basilisk-v4-pro-review",
+      "published": "Fri, 23 Oct 2026 16:00:00 +0000",
+      "summary": "Razer's Basilisk V4 Pro gaming mouse features an ergonomic shape, a lighter weight, and a couple of extra buttons, plus Razer's Focus Pro 50K optical sensor.",
+      "image": "https://cdn.mos.cms.futurecdn.net/WLV3Dh2bAiKLgohuRRaYY9-1920-80.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Michigan prof creates Python-like Jac language for AI agents",
+      "link": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
+      "published": "Fri, 23 Oct 2026 15:46:19 +0000",
+      "summary": "Stop burning $165K on AI rewrites; Jac is meant to \"gobble up\" your polyglot stack",
+      "image": "https://image.theregister.com/?imageId=5305120&width=800"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "SpaceX’s mobile carrier push reportedly involves tapping into 80,000 cell sites",
+      "link": "https://www.theverge.com/science/1017477/spacex-cell-sites-major-us-carrier",
+      "published": "2026-10-23T15:16:24.000Z",
+      "summary": "SpaceX plans to access at least 80,000 cell sites as part of efforts to compete directly with Verizon, T-Mobile, and AT&T, according to a report from Bloomberg. Sources tell the publication that SpaceX is in talks with Crown Castle Inc…",
+      "excerpt": "SpaceX plans to access at least 80,000 cell sites as part of efforts to compete directly with Verizon, T-Mobile, and AT&T, according to a report from Bloomberg. Sources tell the publication that SpaceX is in talks with Crown Castle Inc., one of the nation's largest cell tower owners. The move would give SpaceX access to half of the 158,500 cell towers currently operational in the US, according to Reuters. When asked…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1187777086.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -31,6 +211,16 @@
       "summary": "Philips unveiled the world’s first 36‑inch gaming monitor with a 260 Hz refresh rate.",
       "image": "https://cdn.mos.cms.futurecdn.net/zkJfqJuJFshsSF7f9nfBba-1920-80.jpg",
       "whyItMatters": "It offers gamers ultra‑smooth visuals, potentially improving competitive performance."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "published": "2026-10-23T14:47:41.000Z",
+      "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta…",
+      "excerpt": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow more time for us to explain to our partners and stakeholders what's changing and what's not.\"…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "PC Gamer",
@@ -85,26 +275,13 @@
       "whyItMatters": "Tech readers should note China’s cost‑driven limits on next‑gen chip scaling."
     },
     {
-      "source": "The Verge",
+      "source": "The Register",
       "category": "news",
-      "title": "People are vibe coding their way to better TVs",
-      "link": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
-      "published": "2026-10-23T13:00:00.000Z",
-      "summary": "Users use LLMs and open-source tools to remove ads, trim bloat, and redesign TV homescreens for cleaner, faster experiences.",
-      "excerpt": "Just imagine… a nice, clean homescreen with no ads, thanks to Claude. | Image: cleanyourtv Vibe coding has reached TVs. Social media is awash with posts from people using LLMs and open-source tools to remove ads and tracking, trim bloat so the OS runs faster, and even completely change the look and organization of their homescreens. While a lot of it is fun - one user turned their TV homescreen into a Pokémon town -…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/cleanyourtv-home-page.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech-savvy readers can improve TV performance and privacy with AI-driven customizations."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Brick’s new app blocker is designed for bedtime doomscrolling",
-      "link": "https://www.theverge.com/gadgets/1017383/brick-night-app-blocker-gadget-bluetooth-launch",
-      "published": "2026-10-23T12:50:17.000Z",
-      "summary": "Brick released the $129 Brick Night, a larger, pricier device that blocks phone apps to curb bedtime doomscrolling using location-based activation.",
-      "excerpt": "The Brick Night is considerably bigger then the OG Brick, and more than double the price. | Image: Brick Brick, the company behind the $59 gadget that blocks you from using apps on your phone, has launched a new device that's designed to help you cut back on doomscrolling in bed. The $129 Brick Night introduces a location-based element: instead of requiring you to tap your phone against the device, like the OG…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Brick-Night-app-blocker-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech-savvy users may value better sleep hygiene and device control for healthier nighttime habits."
+      "title": "Musk disputes NASA safety panel's lunar launch estimates",
+      "link": "https://www.theregister.com/science/2026/10/23/musk-disputes-nasa-safety-panels-lunar-launch-estimates/5304961",
+      "published": "Fri, 23 Oct 2026 12:29:00 +0000",
+      "summary": "Watchdog also warns retiring Falcon and Dragon could leave US access to orbit short of a backup",
+      "image": "https://image.theregister.com/?imageId=1684260&width=800"
     },
     {
       "source": "Tom's Hardware",
@@ -125,27 +302,6 @@
       "summary": "The FCC banned a HiSilicon dashcam and wireless video transmitter for containing an AI chip advertising face detection.",
       "image": "https://cdn.mos.cms.futurecdn.net/FhrgMpu9kjGuT5ZVpNWx6g-1920-80.jpg",
       "whyItMatters": "Tech readers should note rising regulatory scrutiny on AI chips in consumer devices."
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The Download: testing six tech promises and biotech’s blind spots",
-      "link": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
-      "published": "Fri, 23 Oct 2026 12:10:00 +0000",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too…",
-      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/06/SoundofDataFinal1f-thumb.jpeg?w=840"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Retro gaming is being overrun with AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
-      "published": "2026-10-23T12:00:00.000Z",
-      "summary": "AI tools enable hobbyists to remake classic games on unexpected platforms, sparking viral projects like browser Halo and iPhone Wind Waker.",
-      "excerpt": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as hobbyists take apart games and then rebuild them for new platforms. But while AI has supercharged the pace…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK465_VIDEO_GAMES_EMULATOR__CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It shows AI’s power to revive nostalgia and broaden gaming accessibility, but raises concerns about intellectual property and quality control."
     },
     {
       "source": "Tom's Hardware",
@@ -188,25 +344,6 @@
       "whyItMatters": "Tech enthusiasts may value its compact design and performance, though the premium cost could be a concern."
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "US banks scramble to restrict AI agent activity",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/us-banks-scramble-to-restrict-ai-agent-activity-agents-detected-accessing-customer-accounts-or-even-attempting-to-make-transactions-in-breach-of-policy",
-      "published": "Fri, 23 Oct 2026 11:30:00 +0000",
-      "summary": "U.S. banks are blocking AI agents from making transactions to prevent potential rogue activity and lack of transaction verification.",
-      "image": "https://cdn.mos.cms.futurecdn.net/pS86PgwskdTyusDMAhY3Qo-1920-80.png",
-      "whyItMatters": "Banks must safeguard against AI-driven fraud and maintain transaction integrity."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Consultant comes clean for sparking worldwide panic by accidentally breaking the PHP vulnerability embargo",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/devastated-forum-user-who-accidentally-broke-the-php-news-embargo-comes-clean-user-says-they-were-unaware-of-disclosure-restrictions-move-clearly-backfired-in-a-pretty-wild-fashion",
-      "published": "Fri, 23 Oct 2026 11:15:00 +0000",
-      "summary": "The user said that they only wanted to alert others about the importance of the upcoming CVE releases and weren't told about the embargo.",
-      "image": "https://cdn.mos.cms.futurecdn.net/treU54HC35g9uxgWUT2cYD-1920-80.png"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
@@ -215,17 +352,6 @@
       "summary": "Canada aims to launch satellites independently, seeking autonomy in space access.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/reaction-dynamics-1152x648.jpg",
       "whyItMatters": "It signals growing national space capabilities and competition in the global launch market."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Startup equips genetically enhanced dogs with Palmer Luckey’s military tech",
-      "link": "https://www.theverge.com/tech/1017343/warhound-palmer-luckey-anduril-colossal-war-dogs",
-      "published": "2026-10-23T10:58:03.000Z",
-      "summary": "A Texas startup plans to genetically enhance dogs and equip them with Anduril’s military tech for U.S. defense and police use.",
-      "excerpt": "The Warhound website calls this “a new breed of dominance.” | Image: Warhound A new Texas-based defense startup has a plan to improve military and police dogs in the US: it's going to genetically modify them and equip them with Anduril's military technology. Warhound is the brainchild of Anduril's Palmer Luckey and Ben Lamm, co-founder of Colossal Biosciences (the company that says it's trying to resurrect extinct…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Warhound-Palmer-Luckey-startup-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It blends biotech and defense tech, raising ethical and operational questions for tech‑savvy readers."
     },
     {
       "source": "Wired",
@@ -246,27 +372,6 @@
       "summary": "The piece references a conversation with Claude about being an idiot.",
       "image": "https://image.theregister.com/?imageId=5304926&width=800",
       "whyItMatters": "General commentary on tech interactions."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "No, the iPhone Duo isn’t a small phone",
-      "link": "https://www.theverge.com/tech/1017090/iphone-duo-screen-size-mini",
-      "published": "2026-10-23T10:00:00.000Z",
-      "summary": "The article clarifies that the iPhone Duo is not a small phone, despite its 5.4-inch screen, and debunks the misconception of it being a mini-to-tablet hybrid.",
-      "excerpt": "Don’t be fooled; only one of these is a truly small phone (it’s the iPhone 13 Mini on the left). When we published our review of the iPhone Duo, I got a lot of hopeful questions from my fellow Mini fans who took note of the cover screen's Mini-ish 5.4-inch size. \"Is this… a small phone that turns into a tablet?\" they asked. And I'm sorry to be the bearer of bad news, but no. The Duo is not the small phone we've been…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04350_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It informs Mini enthusiasts that the Duo isn’t a compact device, shaping expectations for size and functionality."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "A public outing of severe and unfixed Linux kernel vulnerabilities should have you thinking of updating your SteamOS or other distros to beta branches",
-      "link": "https://www.pcgamer.com/hardware/a-public-outing-of-severe-and-unfixed-linux-kernel-vulnerabilities-should-have-you-thinking-of-updating-your-steamos-or-other-distros-to-beta-branches/",
-      "published": "Fri, 23 Oct 2026 09:26:40 +0000",
-      "summary": "The article reports a public disclosure of severe, unpatched Linux kernel vulnerabilities with CVSS scores up to 9.",
-      "image": "https://cdn.mos.cms.futurecdn.net/7EimC87J9aoLbZEbfWBX9H-1920-80.jpg",
-      "whyItMatters": "Tech users should consider updating to beta branches to mitigate these critical security risks."
     },
     {
       "source": "Wired",
@@ -321,7 +426,7 @@
     {
       "source": "TechCrunch",
       "category": "news",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
       "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "published": "Fri, 23 Oct 2026 04:00:00 +0000",
       "summary": "inDrive will test Pony.ai robotaxis in Kazakhstan’s capital in early 2027.",
@@ -349,17 +454,6 @@
       "whyItMatters": "Shows AI creativity and adaptability, hinting at emergent behaviors beyond programmed goals."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Etsy is cracking down on AI slop listings",
-      "link": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
-      "published": "2026-10-23T00:09:58.000Z",
-      "summary": "Etsy is tightening rules to limit AI-generated content in listings, aiming to reduce misleading items and protect sellers’ work.",
-      "excerpt": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongside items that use AI in misleading ways,\" spurring the new policies and restrictions. Under the new policies, every…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-5.03.44-PM.png?quality=90&strip=all&crop=0,0,100,82.725656291205",
-      "whyItMatters": "Tech-savvy shoppers and creators will see clearer, more trustworthy listings and fairer competition."
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
@@ -368,16 +462,6 @@
       "summary": "Warhound, founded by Ben Lamm and Palmer Luckey, raises $200M to genetically engineer dogs for military and law enforcement use.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/Warhound.png?resize=1200,675",
       "whyItMatters": "It blends biotech and defense tech, raising questions about ethics, security, and future battlefield capabilities."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "My GOTY is $7 and has 253 Steam reviews",
-      "link": "https://www.pcgamer.com/games/racing/my-goty-is-usd7-and-has-253-steam-reviews/",
-      "published": "Thu, 22 Oct 2026 22:29:10 +0000",
-      "summary": "Stuntboost is a racing game that blends fast‑paced FPS movement with high‑speed stunts.",
-      "image": "https://cdn.mos.cms.futurecdn.net/Vo86zsDQwNRKRhdfHbVscG-1920-80.jpg",
-      "whyItMatters": "It offers a fresh, adrenaline‑filled experience for fans of arcade racing and shooter mechanics."
     },
     {
       "source": "Ars Technica",
@@ -396,6 +480,7 @@
       "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "published": "Thu, 22 Oct 2026 22:08:24 +0000",
       "summary": "OpenAI is pursuing a $30B funding round at a $1.25T valuation, potentially becoming the most valuable private company ever.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680",
       "whyItMatters": "It signals massive investor confidence and could reshape the AI industry’s competitive landscape."
     },
     {
@@ -430,55 +515,13 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?w=840"
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Comcast loses more customers, claims other ISPs' cheap prices are \"irrational\"",
-      "link": "https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/",
-      "published": "Thu, 22 Oct 2026 21:07:09 +0000",
-      "summary": "Comcast plans job cuts and more AI agents for its shrinking cable customer base.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/11/getty-comcast-van-1152x648.jpg"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Rivian buys world model startup to accelerate self-driving ambitions",
       "link": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
       "published": "Thu, 22 Oct 2026 21:05:05 +0000",
-      "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Human receives AI-designed virus for the first time",
-      "link": "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874",
-      "published": "Thu, 22 Oct 2026 20:31:39 +0000",
-      "summary": "Not to kill the human, of course – to kill the antibiotic-resistant bacteria causing their infection",
-      "image": "https://image.theregister.com/?imageId=178701&width=800"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "The secret to fast startup growth isn’t early sales, top names in tech say",
-      "link": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say/",
-      "published": "Thu, 22 Oct 2026 20:00:00 +0000",
-      "summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polsia's Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Backdoored robot tries its hand at finger chopping and cat cooking",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/22/backdoored-robot-tries-its-hand-at-finger-chopping-and-cat-cooking/5304870",
-      "published": "Thu, 22 Oct 2026 19:57:59 +0000",
-      "summary": "No actual digits or cats were harmed beyond the number crunching that went into this LLM poisoning experiment",
-      "image": "https://image.theregister.com/?imageId=5304880&width=800"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "link": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-      "published": "Thu, 22 Oct 2026 19:07:09 +0000",
-      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts."
+      "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/12/Rivian-Universal-Hands-Free.jpg?resize=1200,900"
     },
     {
       "source": "MIT Technology Review",
@@ -605,8 +648,7 @@
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
-      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
+      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog."
     },
     {
       "source": "SpaceNews",
@@ -677,6 +719,16 @@
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Nuclear-powered spaceships",
+      "link": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
+      "published": "Wed, 21 Oct 2026 09:00:00 +0000",
+      "summary": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly…",
+      "excerpt": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/SPACESHIP-FINAL.jpg?resize=1200,600"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
@@ -702,8 +754,7 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog."
     },
     {
       "source": "IEEE Spectrum",
@@ -771,8 +822,7 @@
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
+      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog."
     },
     {
       "source": "GitHub Blog",
@@ -866,8 +916,7 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog."
     },
     {
       "source": "SpaceNews",
