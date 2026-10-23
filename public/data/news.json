@@ -1,7 +1,38 @@
 {
-  "updated": "2026-10-23T11:53:48.014Z",
-  "count": 88,
+  "updated": "2026-10-23T12:29:10.801Z",
+  "count": 92,
   "items": [
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "FCC bans first two devices from the US under new chip-level rule",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/fcc-bans-first-two-devices-from-the-us-under-new-chip-level-rule-huawei-subsidiary-chip-boasts-face-detection-algorithm",
+      "published": "Fri, 23 Oct 2026 12:15:00 +0000",
+      "summary": "The FCC banned a HiSilicon dashcam and wireless video transmitter for containing an AI chip advertising face detection.",
+      "image": "https://cdn.mos.cms.futurecdn.net/FhrgMpu9kjGuT5ZVpNWx6g-1920-80.jpg",
+      "whyItMatters": "Tech readers should note rising regulatory scrutiny on AI chips in consumer devices."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Retro gaming is being overrun with AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "published": "2026-10-23T12:00:00.000Z",
+      "summary": "AI tools enable hobbyists to remake classic games on unexpected platforms, sparking viral projects like browser Halo and iPhone Wind Waker.",
+      "excerpt": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as hobbyists take apart games and then rebuild them for new platforms. But while AI has supercharged the pace…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK465_VIDEO_GAMES_EMULATOR__CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It shows AI’s power to revive nostalgia and broaden gaming accessibility, but raises concerns about intellectual property and quality control."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseeks-latest-ai-model-is-smarter-than-ever-but-its-low-running-costs-come-at-a-price-open-weight-model-is-fit-for-agentic-workloads-but-is-more-prone-to-hallucination-than-proprietary-competitors",
+      "published": "Fri, 23 Oct 2026 12:00:00 +0000",
+      "summary": "Deepseek 4.1 Flash 1017, an open‑weight model, cuts cost-per-task for agentic workloads, offering high performance at very low running costs.",
+      "image": "https://cdn.mos.cms.futurecdn.net/QzsaWZn9raSdwCW8ecQ7gi-1920-80.jpg",
+      "whyItMatters": "Tech users can deploy agentic AI cheaply, reducing infrastructure spend while maintaining performance."
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -11,6 +42,16 @@
       "summary": "Linus Torvalds says AI can help competent developers, but kernel maintainers will ignore AI usage if the code is high quality.",
       "image": "https://image.theregister.com/?imageId=5226908&width=800",
       "whyItMatters": "It signals AI’s growing role in critical open-source projects and the importance of code quality over tool provenance."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
+      "link": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+      "published": "Fri, 23 Oct 2026 11:30:22 +0000",
+      "summary": "Ukraine adapts drones and war tech to lessen dependence on Starlink.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Starlink-terminal-in-Ukraine-1152x648.jpg",
+      "whyItMatters": "Shows how tech shifts can sustain military operations amid satellite access uncertainties."
     },
     {
       "source": "Wired",
@@ -31,6 +72,16 @@
       "summary": "U.S. banks are blocking AI agents from making transactions to prevent potential rogue activity and lack of transaction verification.",
       "image": "https://cdn.mos.cms.futurecdn.net/pS86PgwskdTyusDMAhY3Qo-1920-80.png",
       "whyItMatters": "Banks must safeguard against AI-driven fraud and maintain transaction integrity."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
+      "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready/",
+      "published": "Fri, 23 Oct 2026 11:00:57 +0000",
+      "summary": "Canada aims to launch satellites independently, seeking autonomy in space access.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/reaction-dynamics-1152x648.jpg",
+      "whyItMatters": "It signals growing national space capabilities and competition in the global launch market."
     },
     {
       "source": "Tom's Hardware",
@@ -133,6 +184,16 @@
       "summary": "Apple’s first folding iPhone, the iPhone Duo, is now available and this article outlines key points to consider before buying.",
       "image": "https://media.wired.com/photos/6ada893690bbef8397f3e8ae/master/pass/DSC_9451.jpg",
       "whyItMatters": "Tech-savvy readers should know its unique design, performance, and potential impact on future Apple devices."
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "In the biotech world, you can’t see everything",
+      "link": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+      "published": "Fri, 23 Oct 2026 09:00:00 +0000",
+      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving…",
+      "excerpt": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/YCSE_NP_1_1.jpg?resize=1200,600"
     },
     {
       "source": "The Register",
@@ -388,15 +449,6 @@
       "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts."
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales",
-      "link": "https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/",
-      "published": "Thu, 22 Oct 2026 18:49:14 +0000",
-      "summary": "Searches for Samsung foldables just happened to skyrocket following iPhone Duo unveiling.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Galaxy-Z8-1-1152x648.jpg"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Foundations of Scalable AI",
@@ -405,15 +457,6 @@
       "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to…",
       "excerpt": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "US official: Russia's stalker satellite sure looks like an orbital weapon",
-      "link": "https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/",
-      "published": "Thu, 22 Oct 2026 18:29:39 +0000",
-      "summary": "The Russian official who called commercial satellites \"legitimate targets\" now says concerns are \"unfounded.\"",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vorontsov-1152x648.jpg"
     },
     {
       "source": "SpaceNews",
