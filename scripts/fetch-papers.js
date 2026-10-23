@@ -10,6 +10,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { excerpt } from './lib/excerpt.js';
+import { stripLatex } from './lib/strip-latex.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'papers.json');
@@ -94,8 +95,8 @@ export async function runPapersFetcher({
   }
 
   const papers = entries.map((entry) => ({
-    title: clean(entry.title?.[0]),
-    summary: excerpt(clean(entry.summary?.[0]), 400),
+    title: stripLatex(clean(entry.title?.[0])),
+    summary: excerpt(stripLatex(clean(entry.summary?.[0])), 400),
     link: entry.id?.[0],
     published: entry.published?.[0],
     authors: (entry.author ?? []).map((a) => a.name?.[0]).filter(Boolean),

@@ -21,7 +21,7 @@ export const steps = [
   { script: 'fetch-papers.js', required: false },
   { script: 'fetch-reviews.js', required: false },
   { script: 'fetch-reddit.js', required: false },
-  { script: 'summarize.js', required: false },
+  { script: 'summarize.js', required: false, timeoutMs: 180_000 },
 ];
 
 function formatDuration(ms) {

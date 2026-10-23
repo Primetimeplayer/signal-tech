@@ -136,6 +136,7 @@ async function fetchFeed(feed, parseFeed) {
       const headline = google ? splitGoogleTitle(rawTitle) : { title: rawTitle, source: feed.name };
       const rawSummary = item.contentSnippet ?? item.content ?? '';
       const summary = google ? '' : cleanSummary(rawSummary);
+      const longExcerpt = google ? '' : excerpt(rawSummary, 420);
       return {
         source: headline.source,
         category: feed.category,
@@ -143,6 +144,7 @@ async function fetchFeed(feed, parseFeed) {
         link: item.link,
         published: item.pubDate ?? item.isoDate ?? null,
         summary,
+        ...(longExcerpt && longExcerpt !== summary ? { excerpt: longExcerpt } : {}),
         ...(image ? { image } : {}),
       };
     }));
@@ -150,6 +152,22 @@ async function fetchFeed(feed, parseFeed) {
     console.error(`[fetch-news] Failed to fetch ${feed.name}: ${err.message}`);
     return null;
   }
+}
+
+// Keep the AI summary and "why it matters" from the previous run for the
+// same link, so summarize.js only pays for stories it has not seen.
+function carryOverNotes(items, outputPath) {
+  let previous = [];
+  try {
+    previous = JSON.parse(fs.readFileSync(outputPath, 'utf-8')).items || [];
+  } catch {
+    return items;
+  }
+  const byLink = new Map(previous.filter((p) => p && p.link && p.whyItMatters).map((p) => [p.link, p]));
+  return items.map((item) => {
+    const old = byLink.get(item.link);
+    return old ? { ...item, summary: old.summary || item.summary, whyItMatters: old.whyItMatters } : item;
+  });
 }
 
 function dedupe(items) {
@@ -182,8 +200,9 @@ export async function runNewsFetcher({
   const topicItems = dedupe(results)
     .filter(storyMatchesTopics)
     .sort((a, b) => new Date(b.published ?? 0) - new Date(a.published ?? 0));
-  const items = topicItems.filter((item) => !isPromo(item.title));
-  const promoDropped = topicItems.length - items.length;
+  const kept = topicItems.filter((item) => !isPromo(item.title));
+  const promoDropped = topicItems.length - kept.length;
+  const items = carryOverNotes(kept, outputPath);
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(

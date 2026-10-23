@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T04:21:13.656Z",
+  "updated": "2026-10-23T05:10:33.660Z",
   "count": 20,
   "items": [
     {
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "title": "Direct Pass@k Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
       "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the…",
       "link": "http://arxiv.org/abs/2610.31667v1",
       "published": "2026-10-22T17:59:48Z",
@@ -123,7 +123,7 @@
     },
     {
       "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-      "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in…",
+      "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in…",
       "link": "http://arxiv.org/abs/2610.31650v1",
       "published": "2026-10-22T17:57:04Z",
       "authors": [
@@ -259,7 +259,7 @@
     },
     {
       "title": "Efficient and Optimal Learning of Discrete Distributions with Person-Level Privacy",
-      "summary": "We study learning a discrete distribution under person-level differential privacy in the batched setting. Given $n$ users, each contributing $m$ i.i.d. samples from an unknown distribution $μ$ over $[k]$, we seek an estimate of $μ$ with total-variation error $α$. We give polynomial-time algorithms under both pure and approximate differential privacy. Under pure $(\\varepsilon,0)$-DP, we achieve $n…",
+      "summary": "We study learning a discrete distribution under person-level differential privacy in the batched setting. Given n users, each contributing m i.i.d. samples from an unknown distribution μ over $[k]$, we seek an estimate of μ with total-variation error α. We give polynomial-time algorithms under both pure and approximate differential privacy. Under pure (ε,0)-DP, we achieve n = widetilde O(k/(α^2…",
       "link": "http://arxiv.org/abs/2610.31612v1",
       "published": "2026-10-22T17:40:13Z",
       "authors": [

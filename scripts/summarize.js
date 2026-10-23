@@ -5,7 +5,7 @@
 //
 // Provider priority (first one with a key set wins):
 //   1. Groq       -- FREE tier, no credit card required. Get a key at
-//                    https://console.groq.com/keys (model: llama-3.1-8b-instant)
+//                    https://console.groq.com/keys (model: openai/gpt-oss-20b)
 //   2. Anthropic  -- paid, small per-article cost. Get a key at
 //                    https://console.anthropic.com/settings/keys
 //
@@ -26,7 +26,7 @@ const FILES = ['news.json', 'papers.json', 'reviews.json', 'reddit.json'];
 // rate-limited (30 requests/min at the time of writing). Increase once you
 // know your quota comfortably covers it.
 const MAX_ITEMS_PER_FILE = 12;
-const DELAY_BETWEEN_CALLS_MS = 2200; // stays safely under ~30 req/min
+const DELAY_BETWEEN_CALLS_MS = 3000; // stays safely under ~30 req/min
 
 const PROMPT_INSTRUCTIONS =
   'You are helping summarize tech/AI articles for a personal dashboard. ' +
@@ -68,7 +68,10 @@ async function callGroq(title, excerpt) {
       Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
     },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
+      model: 'openai/gpt-oss-20b',
+      reasoning_effort: 'low',
+      include_reasoning: false,
+      max_completion_tokens: 600,
       temperature: 0.3,
       response_format: { type: 'json_object' },
       messages: [
@@ -131,7 +134,7 @@ export async function processFile(filename, provider, options = {}) {
     }
     called += 1;
     try {
-      const result = await provider.call(items[i].title, items[i].summary);
+      const result = await provider.call(items[i].title, items[i].excerpt || items[i].summary);
       if (result?.summary) items[i].summary = result.summary;
       if (result?.why_it_matters) items[i].whyItMatters = result.why_it_matters;
     } catch (err) {

@@ -16,6 +16,7 @@ import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { stripLatex } from './lib/strip-latex.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'public', 'data');
@@ -75,7 +76,10 @@ async function callGroq(items) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${process.env.GROQ_API_KEY}` },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
+      model: 'openai/gpt-oss-20b',
+      reasoning_effort: 'low',
+      include_reasoning: false,
+      max_completion_tokens: 2000,
       temperature: 0.4,
       response_format: { type: 'json_object' },
       messages: [
@@ -206,11 +210,12 @@ async function main() {
   const dateRange = formatDateRange(start, end);
   const title = `Signal Weekly — ${dateRange}`;
   const markdown = buildMarkdown(title, dateRange, curated, digestData);
+  const cleanMarkdown = stripLatex(markdown); const cleanThread = (digestData.thread || []).map((tweet) => stripLatex(tweet));
 
   fs.mkdirSync(DIGESTS_DIR, { recursive: true });
   fs.writeFileSync(
     path.join(DIGESTS_DIR, `${id}.json`),
-    JSON.stringify({ id, title, dateRange, generatedAt: end.toISOString(), markdown, thread: digestData.thread || [] }, null, 2)
+    JSON.stringify({ id, title, dateRange, generatedAt: end.toISOString(), markdown: cleanMarkdown, thread: cleanThread }, null, 2)
   );
 
   const indexPath = path.join(DIGESTS_DIR, 'index.json');

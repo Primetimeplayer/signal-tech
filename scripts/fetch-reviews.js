@@ -33,7 +33,7 @@ const parser = new Parser({
 // Section-specific feeds tend to be cleaner than filtering a firehose feed
 // by keyword. Swap in whatever outlets you actually read.
 const FEEDS = [
-  { name: 'Engadget Reviews', url: 'https://www.engadget.com/rss.xml' },
+  { name: 'Engadget', url: 'https://www.engadget.com/rss.xml' },
   { name: 'The Verge Reviews', url: 'https://www.theverge.com/rss/reviews/index.xml' },
 ];
 
@@ -48,12 +48,16 @@ async function fetchFeed(feed, parseFeed) {
     const parsed = await parseFeed(feed);
     return Promise.all(parsed.items.slice(0, ITEMS_PER_FEED).map(async (item) => {
       const image = await enrichStoryImage(item, item.link);
+      const raw = item.contentSnippet ?? item.content ?? '';
+      const summary = cleanSummary(raw);
+      const longExcerpt = excerpt(raw, 420);
       return {
         source: feed.name,
         title: decodeEntities(item.title?.trim() ?? '(untitled)'),
         link: item.link,
         published: item.pubDate ?? item.isoDate ?? null,
-        summary: cleanSummary(item.contentSnippet ?? item.content ?? ''),
+        summary,
+        ...(longExcerpt && longExcerpt !== summary ? { excerpt: longExcerpt } : {}),
         ...(image ? { image } : {}),
       };
     }));
@@ -61,6 +65,22 @@ async function fetchFeed(feed, parseFeed) {
     console.error(`[fetch-reviews] Failed to fetch ${feed.name}: ${err.message}`);
     return null;
   }
+}
+
+// Keep the AI summary and "why it matters" from the previous run for the
+// same link, so summarize.js only pays for stories it has not seen.
+function carryOverNotes(items, outputPath) {
+  let previous = [];
+  try {
+    previous = JSON.parse(fs.readFileSync(outputPath, 'utf-8')).items || [];
+  } catch {
+    return items;
+  }
+  const byLink = new Map(previous.filter((p) => p && p.link && p.whyItMatters).map((p) => [p.link, p]));
+  return items.map((item) => {
+    const old = byLink.get(item.link);
+    return old ? { ...item, summary: old.summary || item.summary, whyItMatters: old.whyItMatters } : item;
+  });
 }
 
 export async function runReviewsFetcher({
@@ -78,8 +98,9 @@ export async function runReviewsFetcher({
 
   const results = successfulFeeds.flat();
   results.sort((a, b) => new Date(b.published ?? 0) - new Date(a.published ?? 0));
-  const items = results.filter((item) => !isPromo(item.title));
-  const promoDropped = results.length - items.length;
+  const filtered = results.filter((item) => !isPromo(item.title));
+  const promoDropped = results.length - filtered.length;
+  const items = carryOverNotes(filtered, outputPath);
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(
