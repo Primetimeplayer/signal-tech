@@ -103,3 +103,60 @@ export function applyLocaleParams(url, region, language) {
   parsed.searchParams.set('hl', hl);
   return parsed.toString();
 }
+
+// Feeds the update-data job fetches on the GitHub runner and pushes to the
+// worker (scripts/push-news-locales.js). Each region in its own language,
+// India also in Hindi, Canada also in French, and the US edition in every
+// language: 27 feeds. 27 KV writes x 12 runs a day stays under the Workers
+// KV free tier of 1,000 writes a day.
+export const REGION_LANGUAGE = {
+  US: 'en-US',
+  GB: 'en-US',
+  INT: 'en-US',
+  DE: 'de',
+  FR: 'fr',
+  JP: 'ja',
+  IN: 'en-US',
+  ES: 'es-419',
+  BR: 'pt-BR',
+  MX: 'es-419',
+  CA: 'en-US',
+  AU: 'en-US',
+  KR: 'ko',
+  IT: 'it',
+  NL: 'nl',
+};
+
+export const PREBUILT_NEWS_LOCALES = (() => {
+  const list = [];
+  const seen = new Set();
+  const add = (region, language) => {
+    const key = `${region}:${language}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    list.push({ region, language });
+  };
+  for (const region of REGIONS) add(region.id, REGION_LANGUAGE[region.id] || DEFAULT_LANGUAGE);
+  add('IN', 'hi');
+  add('CA', 'fr');
+  for (const language of LANGUAGES) add(DEFAULT_REGION, language.id);
+  return list;
+})();
+
+// KV keys the worker tries, in order, for a requested locale: the exact
+// feed, the US edition in the same language, the region in its own
+// language, then US English.
+export function newsLocaleFallbacks(region, language) {
+  const r = normalizeRegion(region);
+  const l = normalizeLanguage(language);
+  const keys = [];
+  const add = (a, b) => {
+    const key = `${a}:${b}`;
+    if (!keys.includes(key)) keys.push(key);
+  };
+  add(r, l);
+  add(DEFAULT_REGION, l);
+  add(r, REGION_LANGUAGE[r] || DEFAULT_LANGUAGE);
+  add(DEFAULT_REGION, DEFAULT_LANGUAGE);
+  return keys;
+}

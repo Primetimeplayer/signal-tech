@@ -11,6 +11,7 @@
     "fetch:reddit": "node scripts/fetch-reddit.js",
     "summarize": "node scripts/summarize.js",
     "digest": "node scripts/generate-digest.js",
+    "push:news": "node scripts/push-news-locales.js",
     "fetch:all": "node scripts/fetch-all.js",
     "test": "node --test",
     "test:browser": "node --test test/browser.test.js",

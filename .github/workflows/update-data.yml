@@ -29,6 +29,13 @@ jobs:
         run: node scripts/fetch-signal-issues.js
         continue-on-error: true
 
+      - name: Push Google News locale feeds to the worker
+        run: node scripts/push-news-locales.js
+        continue-on-error: true
+        env:
+          NEWS_INGEST_TOKEN: ${{ secrets.NEWS_INGEST_TOKEN }}
+          NEWS_INGEST_URL: ${{ vars.NEWS_INGEST_URL }}
+
       - name: Commit updated data
         run: |
           git config user.name "dashboard-bot"

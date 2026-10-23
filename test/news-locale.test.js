@@ -127,22 +127,23 @@ test('header region and language options match the feed locale list', async () =
   assert.match(html, /const LOCALE_LANGUAGE_KEY = 'language'/);
 });
 
-test('dynamic Google News fetch aborts upstream after four seconds and caches success', async () => {
+test('worker serves news from KV only and the update job pushes the feeds', async () => {
   const worker = await readFile(new URL('../cloudflare-worker/worker.js', import.meta.url), 'utf8');
-  const locale = await readFile(new URL('../scripts/lib/news-locale.js', import.meta.url), 'utf8');
+  const push = await readFile(new URL('../scripts/push-news-locales.js', import.meta.url), 'utf8');
+  const workflow = await readFile(new URL('../.github/workflows/update-data.yml', import.meta.url), 'utf8');
   const html = [
     await readFile(new URL('../public/index.html', import.meta.url), 'utf8'),
     await readFile(new URL('../public/assets/home.js', import.meta.url), 'utf8'),
   ].join('\n');
-  assert.match(worker, /googleNewsUrl\(region, language\)/);
-  assert.match(worker, /const NEWS_UPSTREAM_MS = 4000/);
-  assert.match(worker, /setTimeout\(\(\) => controller\.abort\(\), NEWS_UPSTREAM_MS\)/);
+  assert.doesNotMatch(worker, /news\.google\.com/);
+  assert.doesNotMatch(worker, /googleNewsUrl/);
+  assert.match(worker, /const NEWS_KV_PREFIX = "news:v1:"/);
   assert.match(worker, /caches\.default/);
-  assert.match(worker, /const NEWS_CACHE_SECONDS = 600/);
-  assert.match(worker, /Google News returned invalid XML/);
+  assert.match(worker, /const NEWS_CACHE_SECONDS = 300/);
+  assert.match(push, /googleNewsUrl\(region, language\)/);
+  assert.match(push, /PREBUILT_NEWS_LOCALES/);
+  assert.match(workflow, /node scripts\/push-news-locales\.js/);
+  assert.match(workflow, /NEWS_INGEST_TOKEN: \$\{\{ secrets\.NEWS_INGEST_TOKEN \}\}/);
   assert.match(html, /const LOCALE_FETCH_MS = 6000/);
-  assert.match(
-    locale,
-    /https:\/\/news\.google\.com\/rss\?hl=\$\{hl\}&gl=\$\{edition\}&ceid=\$\{edition\}:\$\{lang\}/
-  );
+  assert.match(html, /SITE_HOSTS\.includes\(location\.hostname\) \? location\.origin : WORKER_ORIGIN/);
 });

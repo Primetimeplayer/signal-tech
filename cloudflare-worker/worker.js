@@ -1,5 +1,4 @@
-import { googleNewsUrl, normalizeLanguage, normalizeRegion } from "../scripts/lib/news-locale.js";
-import { parseGoogleNewsXml } from "../scripts/lib/parse-google-news.js";
+import { newsLocaleFallbacks, normalizeLanguage, normalizeRegion } from "../scripts/lib/news-locale.js";
 
 const SESSION_DAYS = 30;
 const OAUTH_STATE_MINUTES = 10;
@@ -91,14 +90,31 @@ async function pkceChallenge(verifier) {
     .replace(/=+$/, "");
 }
 
+// ALLOWED_ORIGIN is a comma-separated list of site origins.
 function allowedOrigin(request, env) {
   const origin = request.headers.get("Origin");
+  const allowed = String(env.ALLOWED_ORIGIN || "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
 
-  if (origin && origin === env.ALLOWED_ORIGIN) {
+  if (origin && allowed.includes(origin)) {
     return origin;
   }
 
   return "";
+}
+
+// Where sign-in and sign-out send the reader back to.
+function siteUrl(env) {
+  return env.SITE_URL || "https://signaltechnews.com/";
+}
+
+// Google calls back on the host that started sign-in, so the oauth cookie
+// set by /auth/google is there. Both callback URLs must be listed in the
+// Google OAuth client.
+function callbackUrl(request) {
+  return `${new URL(request.url).origin}/auth/callback`;
 }
 
 function corsHeaders(request, env) {
@@ -180,8 +196,7 @@ async function handleGoogleLogin(request, env) {
     sameSite: "Lax",
   });
 
-  const redirectUri =
-    "https://signal-sync.primetimeplayer-signal-sync.workers.dev/auth/callback";
+  const redirectUri = callbackUrl(request);
 
   const params = new URLSearchParams({
     client_id: env.GOOGLE_CLIENT_ID,
@@ -247,8 +262,7 @@ async function handleGoogleCallback(request, env) {
     });
   }
 
-  const redirectUri =
-    "https://signal-sync.primetimeplayer-signal-sync.workers.dev/auth/callback";
+  const redirectUri = callbackUrl(request);
 
   const tokenResponse = await fetch(
     "https://oauth2.googleapis.com/token",
@@ -392,7 +406,7 @@ async function handleGoogleCallback(request, env) {
   );
 
   const response = redirect(
-    `${env.ALLOWED_ORIGIN}/tech-dashboard/?auth_code=${encodeURIComponent(authCode)}`
+    `${siteUrl(env)}?auth_code=${encodeURIComponent(authCode)}`
   );
 
   response.headers.append("Set-Cookie", clearOAuthCookie);
@@ -519,7 +533,7 @@ async function handleLogout(request, env) {
     return response;
   }
 
-  const response = redirect(`${env.ALLOWED_ORIGIN}/tech-dashboard/`);
+  const response = redirect(siteUrl(env));
   response.headers.append("Set-Cookie", cookie);
 
   return response;
@@ -689,14 +703,42 @@ function newsCorsHeaders(cacheControl = "no-store") {
   };
 }
 
-// Google News answers the worker with 503 (datacenter block) and each try
-// can sit there until the isolate is killed, which is why /api/news took
-// ~26s and then 502'd. One attempt, aborted at 4s. Successes stay in
-// caches.default for 10 minutes so the next request does not wait on Google.
-const NEWS_UPSTREAM_MS = 4000;
-const NEWS_CACHE_SECONDS = 600;
+// Google News does not answer requests from Cloudflare's network: every
+// live attempt from the worker timed out and /api/news returned 502. The
+// update-data GitHub Actions job now fetches the locale feeds on the runner
+// and pushes them here (POST /api/news/ingest). GET /api/news only reads
+// Workers KV, so it answers in milliseconds or fails fast with 503 and the
+// site keeps its static public/data/ feed.
+const NEWS_KV_PREFIX = "news:v1:";
+const NEWS_KV_TTL_SECONDS = 3 * 24 * 60 * 60;
+const NEWS_CACHE_SECONDS = 300;
+const NEWS_INGEST_MAX_BYTES = 1024 * 1024;
+const NEWS_INGEST_MAX_FEEDS = 40;
+const NEWS_INGEST_MAX_ITEMS = 50;
 
-async function handleNewsFeed(request) {
+function newsJson(body, status, cacheControl = "no-store", extraHeaders = {}) {
+  return new Response(typeof body === "string" ? body : JSON.stringify(body), {
+    status,
+    headers: {
+      "Content-Type": "application/json",
+      ...newsCorsHeaders(cacheControl),
+      ...extraHeaders,
+    },
+  });
+}
+
+function safeEqual(a, b) {
+  if (typeof a !== "string" || typeof b !== "string" || !a || a.length !== b.length) {
+    return false;
+  }
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) {
+    diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  }
+  return diff === 0;
+}
+
+async function handleNewsFeed(request, env) {
   if (request.method !== "GET") {
     return new Response("Method not allowed", {
       status: 405,
@@ -707,87 +749,107 @@ async function handleNewsFeed(request) {
   const url = new URL(request.url);
   const region = normalizeRegion(url.searchParams.get("region"));
   const language = normalizeLanguage(url.searchParams.get("language"));
-  const feedUrl = googleNewsUrl(region, language);
   const cacheKey = new Request(
     `${url.origin}/api/news?region=${encodeURIComponent(region)}&language=${encodeURIComponent(language)}`,
     { method: "GET" }
   );
 
   try {
-    const cache = caches.default;
-    const hit = await cache.match(cacheKey);
+    const hit = await caches.default.match(cacheKey);
     if (hit) return hit;
   } catch (err) {
-    // A cache miss is the normal path. Keep going to Google News.
+    // No edge cache (or a miss). Read KV below.
   }
 
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), NEWS_UPSTREAM_MS);
+  if (!env.SAVED_KV) {
+    return newsJson({ error: "News store is not configured", region, language }, 503);
+  }
 
-  try {
-    const response = await fetch(feedUrl, {
-      redirect: "follow",
-      signal: controller.signal,
-      cf: { cacheTtl: 0 },
-      headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; SignalTechBot/1.0; +https://primetimeplayer.github.io/signal-tech/)",
-        Accept: "application/rss+xml, application/xml, text/xml, */*",
-      },
-    });
-    if (!response.ok) {
-      if (response.body && response.body.cancel) {
-        try { await response.body.cancel(); } catch (cancelErr) { /* ignore */ }
-      }
-      throw new Error(`Google News ${response.status}`);
-    }
-    const xml = await response.text();
-    if (!/<(rss|feed|item)\b/i.test(xml)) {
-      throw new Error("Google News returned invalid XML");
-    }
-    let items;
+  for (const key of newsLocaleFallbacks(region, language)) {
+    let stored = null;
     try {
-      items = parseGoogleNewsXml(xml);
+      stored = await env.SAVED_KV.get(NEWS_KV_PREFIX + key);
     } catch (err) {
-      throw new Error("Google News returned invalid XML");
+      stored = null;
     }
-    if (!items.length) {
-      throw new Error("Google News returned no items");
+    if (!stored) continue;
+    const response = newsJson(stored, 200, `public, max-age=${NEWS_CACHE_SECONDS}`, {
+      "X-News-Locale": key,
+    });
+    try {
+      await caches.default.put(cacheKey, response.clone());
+    } catch (err) {
+      // Serving the stored feed matters more than caching it.
+    }
+    return response;
+  }
+
+  return newsJson({ error: "No news stored for this locale yet", region, language }, 503);
+}
+
+function cleanIngestItems(items) {
+  if (!Array.isArray(items)) return [];
+  return items
+    .filter((item) => item && typeof item.title === "string" && item.title.trim()
+      && typeof item.link === "string" && /^https?:\/\//i.test(item.link))
+    .slice(0, NEWS_INGEST_MAX_ITEMS);
+}
+
+async function handleNewsIngest(request, env) {
+  if (request.method !== "POST") {
+    return newsJson({ error: "Method not allowed" }, 405);
+  }
+  if (!env.NEWS_INGEST_TOKEN || !env.SAVED_KV) {
+    return newsJson({ error: "News ingest is not configured" }, 503);
+  }
+  if (!safeEqual(getBearerToken(request) || "", env.NEWS_INGEST_TOKEN)) {
+    return newsJson({ error: "Unauthorized" }, 401);
+  }
+
+  const text = await request.text();
+  if (text.length > NEWS_INGEST_MAX_BYTES) {
+    return newsJson({ error: "Payload too large" }, 413);
+  }
+
+  let body;
+  try {
+    body = JSON.parse(text);
+  } catch (err) {
+    return newsJson({ error: "Invalid JSON" }, 400);
+  }
+
+  const feeds = body && Array.isArray(body.feeds) ? body.feeds : null;
+  if (!feeds || !feeds.length || feeds.length > NEWS_INGEST_MAX_FEEDS) {
+    return newsJson({ error: `feeds must be an array of 1 to ${NEWS_INGEST_MAX_FEEDS} feeds` }, 400);
+  }
+
+  const stored = [];
+  const rejected = [];
+  for (const feed of feeds) {
+    const region = String((feed && feed.region) || "");
+    const language = String((feed && feed.language) || "");
+    const key = `${region}:${language}`;
+    const items = cleanIngestItems(feed && feed.items);
+    if (normalizeRegion(region) !== region || normalizeLanguage(language) !== language || !items.length) {
+      rejected.push(key);
+      continue;
     }
     const payload = JSON.stringify({
-      updated: new Date().toISOString(),
+      updated: typeof feed.updated === "string" ? feed.updated : new Date().toISOString(),
       count: items.length,
       region,
       language,
-      feedUrl,
+      feedUrl: typeof feed.feedUrl === "string" ? feed.feedUrl : "",
+      source: "prebuilt",
       items,
     });
-    const success = new Response(payload, {
-      status: 200,
-      headers: {
-        "Content-Type": "application/json",
-        ...newsCorsHeaders(`public, max-age=${NEWS_CACHE_SECONDS}`),
-      },
+    await env.SAVED_KV.put(NEWS_KV_PREFIX + key, payload, {
+      expirationTtl: NEWS_KV_TTL_SECONDS,
     });
-    try {
-      await caches.default.put(cacheKey, success.clone());
-    } catch (err) {
-      // Serving the fresh body matters more than storing it.
-    }
-    return success;
-  } catch (err) {
-    const message = err && err.name === "AbortError"
-      ? "Google News timed out"
-      : (err && err.message) || "Google News timed out";
-    return new Response(JSON.stringify({ error: message, feedUrl, region, language }), {
-      status: 502,
-      headers: {
-        "Content-Type": "application/json",
-        ...newsCorsHeaders(),
-      },
-    });
-  } finally {
-    clearTimeout(timer);
+    stored.push(key);
   }
+
+  return newsJson({ ok: rejected.length === 0, stored, rejected }, stored.length ? 200 : 400);
 }
 
 async function handleLegacySaved(request, env) {
@@ -845,8 +907,12 @@ export default {
       });
     }
 
+    if (url.pathname === "/api/news/ingest") {
+      return handleNewsIngest(request, env);
+    }
+
     if (url.pathname === "/api/news") {
-      return handleNewsFeed(request);
+      return handleNewsFeed(request, env);
     }
 
     if (url.pathname === "/auth/google") {

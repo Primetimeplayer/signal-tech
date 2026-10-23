@@ -140,7 +140,12 @@
   initTheme();
 
   // --- Saved items + account sync ---
-const AUTH_BASE = 'https://signal-sync.primetimeplayer-signal-sync.workers.dev';
+// On signaltechnews.com the worker is routed on the site's own origin
+// (/api/*, /auth/*). Anywhere else (the old GitHub Pages copy, pages.dev
+// previews, local servers) it is reached on workers.dev.
+const WORKER_ORIGIN = 'https://signal-sync.primetimeplayer-signal-sync.workers.dev';
+const SITE_HOSTS = ['signaltechnews.com', 'www.signaltechnews.com'];
+const AUTH_BASE = SITE_HOSTS.includes(location.hostname) ? location.origin : WORKER_ORIGIN;
 const AUTH_TOKEN_KEY = 'signal-auth-token';
 
 let authState = { authenticated: false, user: null };
