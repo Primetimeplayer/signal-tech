@@ -1,0 +1,128 @@
+/* Signal Tech — secondary pages (digests, issues).
+   Loaded after assets/home.css and only adds what those pages need; colours
+   come from the same surfaces home.css gives the home page. */
+
+.site-page .page-wrap { padding-top: 24px; }
+.site-page .mast .wordmark { text-decoration: none; color: inherit; }
+.site-page .page-main { display: block; min-width: 0; }
+.site-page footer { margin-top: 40px; }
+
+/* Header: keep the Digests link on phones (home moves it into the topic bar). */
+/* and keep the Log in icon (home moves it into the drawer, which these pages do not have). */
+@media (max-width: 800px) {
+  .site-page .mast-right .mast-link { display: inline-flex !important; align-items: center; }
+  .site-page .mast-right .mast-account { display: inline-flex; }
+}
+.site-page .mast-link[aria-current="page"] { text-decoration: underline; text-underline-offset: 4px; }
+
+/* Page heading */
+.page-head { margin: 0 0 20px; padding-top: 36px; }
+@media (max-width: 800px) { .page-head { padding-top: 20px; } }
+.page-kicker {
+  margin: 0 0 6px;
+  font: 700 12px/1.2 'Space Grotesk', Inter, ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #1558b0;
+}
+:root[data-theme="dark"] .page-kicker { color: #8ab4f8; }
+.page-title {
+  margin: 0;
+  font-size: clamp(24px, 3.2vw, 34px);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  min-height: 1.2em;
+}
+.page-sub { margin: 8px 0 0; min-height: 1.5em; font-size: 15px; line-height: 1.5; opacity: .8; }
+.page-sub-fixed { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.page-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; min-height: 36px; }
+.page-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 36px; padding: 0 14px;
+  border: 1px solid rgb(211, 217, 223); border-radius: 999px;
+  background: transparent; color: inherit;
+  font: 600 13px/1 Inter, ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none; cursor: pointer;
+}
+:root[data-theme="dark"] .page-btn { border-color: rgb(95, 99, 104); }
+.page-btn:hover { background: rgba(26, 115, 232, .08); }
+.page-btn-primary { background: #1a73e8; border-color: #1a73e8; color: #fff; }
+.page-btn-primary:hover { background: #185abc; }
+:root[data-theme="dark"] .page-btn-primary { background: #8ab4f8; border-color: #8ab4f8; color: #202124; }
+.page-btn[hidden] { display: none; }
+.page-status { font-size: 13px; opacity: .8; }
+
+/* Digests: archive list + content */
+.digest-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 32px; align-items: start; }
+.digest-dates { position: sticky; top: 16px; }
+.digest-dates-title {
+  margin: 0 0 10px;
+  font: 700 12px/1.2 'Space Grotesk', Inter, ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: .06em; text-transform: uppercase; opacity: .75;
+}
+.digest-chips { display: flex; flex-direction: column; gap: 6px; min-height: 36px; }
+.digest-chip {
+  display: block; padding: 8px 12px; border-radius: 10px;
+  border: 1px solid transparent; color: inherit; text-decoration: none;
+  font-size: 14px; line-height: 1.3; white-space: nowrap;
+}
+.digest-chip:hover { border-color: rgb(211, 217, 223); }
+:root[data-theme="dark"] .digest-chip:hover { border-color: rgb(95, 99, 104); }
+.digest-chip.is-active { background: #1a73e8; color: #fff; font-weight: 600; }
+:root[data-theme="dark"] .digest-chip.is-active { background: #8ab4f8; color: #202124; }
+.digest-chip.is-placeholder { opacity: .6; }
+
+/* Reserve a full screen so the footer never moves inside the viewport while the week loads (CLS). */
+.digest-content { min-height: 100vh; min-width: 0; }
+.digest-intro p, .digest-outro p { margin: 0 0 10px; font-size: 15px; line-height: 1.6; }
+.digest-outro { margin-top: 24px; opacity: .85; }
+.digest-section { margin: 0 0 28px; }
+.digest-section-title { margin: 20px 0 12px; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
+.digest-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.digest-grid .latest-card.digest-card {
+  display: flex; flex-direction: column;
+  width: auto !important; min-width: 0 !important; max-width: none !important;
+  flex: none !important; height: auto !important; min-height: 118px;
+  margin: 0 !important; text-decoration: none;
+}
+.digest-card h3 { margin: 0 0 6px; }
+.digest-card-summary {
+  margin: 0; font-size: 13px; line-height: 1.45; opacity: .8;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.digest-empty { margin: 0 0 20px; font-size: 15px; }
+.digest-skeleton { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; padding-top: 52px; }
+.digest-skeleton span { display: block; height: 140px; border-radius: 10px; background: rgba(128, 134, 139, .14); }
+
+/* Owner tools (only with ?tools) */
+.digest-tools { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.thread-box { flex: 1 0 100%; padding: 12px 14px; border: 1px dashed rgb(128, 134, 139); border-radius: 10px; font-size: 14px; line-height: 1.5; }
+.thread-box[hidden] { display: none; }
+.thread-item { margin: 0 0 8px; }
+.thread-item .n { font-weight: 700; margin-right: 4px; }
+
+/* Newsletter card after the first section: fixed height so it never flashes empty */
+.site-page .page-newsletter { margin: 8px 0 28px !important; height: 128px; min-height: 128px; align-content: center; }
+/* The card is dark in both themes; keep the note readable on it. */
+.site-page .page-newsletter .newsletter-note { color: #bdc1c6 !important; }
+@media (max-width: 640px) { .site-page .page-newsletter { height: 156px; min-height: 156px; } }
+
+/* Phones: the archive becomes a row of horizontal chips */
+@media (max-width: 800px) {
+  .digest-layout { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .digest-dates { position: static; min-width: 0; }
+  .digest-dates-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .digest-chips {
+    flex-direction: row; flex-wrap: nowrap; overflow-x: auto; gap: 8px;
+    margin: 0; padding: 2px 0 6px; scrollbar-width: none;
+    -webkit-overflow-scrolling: touch; scroll-snap-type: x proximity;
+  }
+  .digest-chips::-webkit-scrollbar { display: none; }
+  .digest-chip {
+    flex: 0 0 auto; padding: 8px 14px; border-radius: 999px; font-size: 13px;
+    border-color: rgb(211, 217, 223); scroll-snap-align: start;
+  }
+  :root[data-theme="dark"] .digest-chip { border-color: rgb(95, 99, 104); }
+  .digest-grid, .digest-skeleton { grid-template-columns: minmax(0, 1fr); }
+}
