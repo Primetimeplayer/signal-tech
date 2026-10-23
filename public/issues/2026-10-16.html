@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>Google&#39;s Argon lands (and your first Signal) — Signal Tech #1</title>
+<meta name="description" content="Signal Tech newsletter #1: Google ships Gemini 4 Argon. Cheap for now: API prices double after 30 Nov, so do your sums first.">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/issues/2026-10-16">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Google&#39;s Argon lands (and your first Signal) — Signal Tech #1">
+<meta property="og:description" content="Signal Tech newsletter #1: Google ships Gemini 4 Argon. Cheap for now: API prices double after 30 Nov, so do your sums first.">
+<meta property="og:url" content="https://signaltechnews.com/issues/2026-10-16">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="Google&#39;s Argon lands (and your first Signal) — Signal Tech #1">
+<meta name="twitter:description" content="Signal Tech newsletter #1: Google ships Gemini 4 Argon. Cheap for now: API prices double after 30 Nov, so do your sums first.">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://signaltechnews.com/issues/2026-10-16#article",
+      "headline": "Google's Argon lands (and your first Signal)",
+      "description": "Signal Tech newsletter #1: Google ships Gemini 4 Argon. Cheap for now: API prices double after 30 Nov, so do your sums first.",
+      "datePublished": "2026-10-16T08:00:00+01:00",
+      "dateModified": "2026-10-16T08:00:00+01:00",
+      "inLanguage": "en-GB",
+      "url": "https://signaltechnews.com/issues/2026-10-16",
+      "mainEntityOfPage": "https://signaltechnews.com/issues/2026-10-16",
+      "image": "https://signaltechnews.com/assets/og-preview.png",
+      "author": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "@id": "https://signaltechnews.com/issues#page",
+        "url": "https://signaltechnews.com/issues"
+      }
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page issue-page">
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a class="wordmark" href="/" aria-label="Signal Tech home">Signal <span>Tech</span></a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main">
+    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Signal newsletter · Issue #1</p>
+        <h1 class="page-title">Google&#39;s Argon lands (and your first Signal)</h1>
+        <p class="page-sub"><time datetime="2026-10-16">Friday, 16 October 2026</time></p>
+        <div class="page-actions">
+          <a class="page-btn page-btn-primary" href="#newsletterCard">Subscribe free</a>
+          <a class="page-btn" href="https://dailysignaltech.beehiiv.com/p/google-s-argon-lands-and-your-first-signal" rel="noopener">Read on beehiiv</a>
+        </div>
+      </header>
+<div class="issue-body">
+<p>Hello, and welcome to the very first Signal Tech! 👋</p><p>You&#x27;re one of our founding readers, and we&#x27;re chuffed to have you. Here&#x27;s the deal: every week we pick out the tech stories that actually matter in AI, chips and dev tools, explain them in plain English, and skip the hype. Five minutes, tops. Let&#x27;s get into it.</p><h2>📡 The Big Signal: Google finally ships Gemini 4 Argon</h2><p>On Tuesday (13 October), Google released Gemini 4 Argon, its new flagship AI model. It&#x27;s available now to developers and businesses through the Gemini API and AI Studio, and to Google AI Pro and Ultra subscribers in the Gemini app and AI Mode in Search. Google says Argon is built for &quot;deep work&quot;: long, complex jobs in coding, science, cybersecurity and agent-style tasks, with a 1-million-token limit via the API.</p><p>Why it matters: this is Google&#x27;s first major frontier release since Gemini 3 in late 2025, after months of watching OpenAI and Anthropic pull ahead. Reuters notes Google had already scrapped plans for Gemini 3.5 Pro. Pricing is the bit to watch if you build with it: $2 per million input tokens and $10 per million output tokens at launch, rising to $4 and $20 after 30 November. Try it now while it&#x27;s cheap, and do your sums before you commit.</p><p>Sources: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/" rel="noopener">Google</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon" rel="noopener">The Verge</a> · <a href="https://tech.yahoo.com/ai/gemini/articles/google-launches-flagship-ai-model-160147613.html" rel="noopener">Reuters via Yahoo</a></p><h2>⚡ Quick Hits</h2><p><strong>AI chip designers can write the code, not finish the job.</strong> ChipAgents and NVIDIA launched Build-A-Chip-Bench, which tests whether AI agents can take a chip from spec all the way to a finished physical layout. Tested agents passed functional checks on about 40% of tasks, but only around 10% hit their performance, power and area targets. <a href="https://chipagents.ai/newsroom/chipagents-nvidia-build-a-chip-bench" rel="noopener">ChipAgents</a></p><p><strong>NVIDIA wants AI running the fab, too.</strong> At SEMICON West on 14 October, NVIDIA announced cuPotential, an early-access library for simulating how atoms and molecules interact, which it says sped up already GPU-optimised workflows by a further 2-3x in testing. It also said the open-source NanoVDB library helped Lam Research run chipmaking simulations 30x faster. <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Semiconductor-Leaders-Advance-AI-Across-Chip-Design-and-Manufacturing-for-AI-Defined-Fabs/default.aspx" rel="noopener">NVIDIA</a></p><p><strong>A 24B model built to run on your laptop.</strong> Liquid AI released LFM2.5-24B-A2B, an open-weight model designed for on-device agents, with a 131,072-token context window and downloads on Hugging Face. Its demo showed the model calling tools on a MacBook Pro without any cloud API calls. <a href="https://ai.info/news/liquid-ai-lfm25-24b-local-agents" rel="noopener">AI.info</a></p><p><strong>Meta&#x27;s crowded week.</strong> Argon landed just a day after Meta announced its own frontier model, Muse Wonder Full. The takeaway: the AI race is very much not a two-horse affair any more. <a href="https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon" rel="noopener">The Verge</a></p><h2>🛠️ Tool of the Week: ML Drift</h2><p>Google has open-sourced ML Drift (Apache 2.0), the GPU engine behind its LiteRT on-device AI runtime. It hides the messy differences between OpenGL ES, OpenCL, Metal and WebGPU, so one model can run fast on Android, iOS, the web and desktop. If you still use the old TFLite GPU delegate, note that it won&#x27;t get new features any more. Google says ML Drift is fully backwards compatible, so switching should be painless.<br>👉 <a href="https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/" rel="noopener">Read the announcement</a></p><h2>💡 One Takeaway</h2><p><strong>Watch the &quot;introductory&quot; price tags.</strong> Argon&#x27;s API price doubles after 30 November. Before you build anything on a new model, put a rough cost estimate in your README (tokens per request × requests per day × price), then work it out again at the full price. If the numbers only add up during the discount, you want to know now, not at invoice time.</p><p>That&#x27;s issue #1! What did you think? <strong>Just hit reply</strong>: we read every message, and we&#x27;d love to know what you want more (or less) of.</p><p>And if Signal Tech saved you some scrolling this week, <strong>forward it to a friend</strong> who&#x27;d enjoy it. That&#x27;s how we grow.</p><p>Until next Friday,<br><strong>The Signal Tech team</strong> 📡<br><em>The tech that matters, minus the noise.</em></p>
+</div>
+      <p class="issue-source">First sent by email on Friday, 16 October 2026. <a href="https://dailysignaltech.beehiiv.com/p/google-s-argon-lands-and-your-first-signal" rel="noopener">View this issue on beehiiv</a>.</p>
+      <section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Friday Signal Briefing</h2>
+    <p class="newsletter-note">One email every Friday at 9:00 (CET): 4 sourced stories and 1 practical takeaway in plain English. Free, and you can unsubscribe in one click.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+  </section>
+      <nav class="page-actions issue-nav" aria-label="More issues">
+        <a class="page-btn" href="/issues">All issues</a>
+        <a class="page-btn" rel="next" href="/issues/2026-10-23">Issue #2 &rarr;</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+
+</body>
+</html>

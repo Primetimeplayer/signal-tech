@@ -1,6 +1,11 @@
 /* Signal Tech — weekly digests page.
-   Reads digests/index.json and digests/<id>.json and renders the stories in
-   the home page's Latest Stories card style. ?d=YYYY-MM-DD opens one week.
+   On /digests it reads /digests/index.json and /digests/<id>.json and renders
+   the latest week in the home page's Latest Stories card style (?d=YYYY-MM-DD
+   still opens an older week, for old links). The archive, Previous and Next
+   link to the static /digests/YYYY-MM-DD pages written by
+   scripts/build-static-pages.js. On those static pages (#digestContent has
+   data-digest-id) the content is already in the HTML, so this only wires up
+   Share and the tools.
    ?tools shows the copy-as-Markdown and thread tools (there is no owner
    login, so they are hidden from the public page rather than protected). */
 (function () {
@@ -8,7 +13,6 @@
 
   var listEl = document.getElementById('digestList');
   var contentEl = document.getElementById('digestContent');
-  var titleEl = document.querySelector('.page-title');
   var rangeEl = document.getElementById('digestRange');
   var prevEl = document.getElementById('digestPrev');
   var nextEl = document.getElementById('digestNext');
@@ -42,10 +46,9 @@
     } catch (e) {}
     return source || 'Source';
   }
+  var staticId = contentEl.getAttribute('data-digest-id');
   function linkFor(id) {
-    var p = new URLSearchParams(location.search);
-    p.set('d', id);
-    return location.pathname + '?' + p.toString();
+    return '/digests/' + encodeURIComponent(id) + (showTools ? '?tools' : '');
   }
 
   // Digest markdown: "# title", "*range*", intro lines, "## Section" blocks
@@ -137,6 +140,18 @@
     }
   }
 
+  function wireTools(data) {
+    var threadText = (data.thread || []).map(function (t, i) { return (i + 1) + '/ ' + t; }).join('\n\n');
+    document.getElementById('copyMd').addEventListener('click', function (e) { copyText(data.markdown || '', e.currentTarget); });
+    document.getElementById('copyThread').addEventListener('click', function (e) { copyText(threadText, e.currentTarget); });
+    document.getElementById('toggleThread').addEventListener('click', function (e) {
+      var box = document.getElementById('threadBox');
+      box.hidden = !box.hidden;
+      e.currentTarget.setAttribute('aria-expanded', box.hidden ? 'false' : 'true');
+      e.currentTarget.textContent = box.hidden ? 'Show thread version' : 'Hide thread version';
+    });
+  }
+
   function render(entry, data) {
     var d = parseDigest(data.markdown);
     var title = d.title || entry.title || 'Signal Weekly';
@@ -155,27 +170,16 @@
     if (d.outro.length) html += '<div class="digest-outro">' + d.outro.map(function (p) { return '<p>' + inline(p) + '</p>'; }).join('') + '</div>';
     contentEl.innerHTML = html;
 
-    if (showTools) {
-      var threadText = (data.thread || []).map(function (t, i) { return (i + 1) + '/ ' + t; }).join('\n\n');
-      document.getElementById('copyMd').addEventListener('click', function (e) { copyText(data.markdown || '', e.currentTarget); });
-      document.getElementById('copyThread').addEventListener('click', function (e) { copyText(threadText, e.currentTarget); });
-      document.getElementById('toggleThread').addEventListener('click', function (e) {
-        var box = document.getElementById('threadBox');
-        box.hidden = !box.hidden;
-        e.currentTarget.setAttribute('aria-expanded', box.hidden ? 'false' : 'true');
-        e.currentTarget.textContent = box.hidden ? 'Show thread version' : 'Hide thread version';
-      });
-    }
+    if (showTools) wireTools(data);
   }
 
-  function load(id, push) {
+  function load(id) {
     var entry = null;
     for (var k = 0; k < entries.length; k++) if (entries[k].id === id) entry = entries[k];
     if (!entry) return;
     current = entry;
     setNav(id);
-    if (push) history.pushState({ d: id }, '', linkFor(id));
-    return fetch('digests/' + encodeURIComponent(id) + '.json')
+    return fetch('/digests/' + encodeURIComponent(id) + '.json')
       .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
       .then(function (data) { if (current === entry) render(entry, data); })
       .catch(function () {
@@ -183,24 +187,9 @@
       });
   }
 
-  function onNavClick(e) {
-    var a = e.target.closest('a[data-id]');
-    if (!a || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
-    e.preventDefault();
-    load(a.dataset.id, true);
-    titleEl.scrollIntoView({ block: 'start' });
-  }
-
-  listEl.addEventListener('click', onNavClick);
-  prevEl.addEventListener('click', onNavClick);
-  nextEl.addEventListener('click', onNavClick);
-  window.addEventListener('popstate', function () {
-    var id = new URLSearchParams(location.search).get('d');
-    load(id && entries.some(function (e) { return e.id === id; }) ? id : entries[0].id, false);
-  });
-
   shareEl.addEventListener('click', function () {
-    var url = location.origin + location.pathname + (current ? '?d=' + current.id : '');
+    var id = staticId || (current && current.id);
+    var url = location.origin + (id ? '/digests/' + id : location.pathname);
     var title = current ? current.title : document.title;
     function say(msg) {
       shareStatusEl.textContent = msg;
@@ -215,7 +204,18 @@
     }
   });
 
-  fetch('digests/index.json')
+  if (staticId) {
+    current = { id: staticId, title: document.title.replace(/ — Signal Tech$/, '') };
+    if (showTools) {
+      fetch('/digests/' + encodeURIComponent(staticId) + '.json')
+        .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+        .then(function (data) { contentEl.insertAdjacentHTML('afterbegin', toolsHtml(data)); wireTools(data); })
+        .catch(function () {});
+    }
+    return;
+  }
+
+  fetch('/digests/index.json')
     .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
     .then(function (list) {
       entries = (Array.isArray(list) ? list : []).filter(function (e) {
@@ -231,7 +231,7 @@
       }).join('');
       var wanted = params.get('d');
       var start = entries.some(function (e) { return e.id === wanted; }) ? wanted : entries[0].id;
-      load(start, false);
+      load(start);
     })
     .catch(function () {
       listEl.innerHTML = '';

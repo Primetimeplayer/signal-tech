@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>Signal Weekly — Sep 28–Oct 5, 2026 — Signal Tech</title>
+<meta name="description" content="Signal Weekly — Sep 28–Oct 5, 2026: 14 of the week&#39;s most useful tech stories from the Signal Tech dashboard, grouped by section with the source for each.">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/digests/2026-10-05">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Signal Weekly — Sep 28–Oct 5, 2026 — Signal Tech">
+<meta property="og:description" content="Signal Weekly — Sep 28–Oct 5, 2026: 14 of the week&#39;s most useful tech stories from the Signal Tech dashboard, grouped by section with the source for each.">
+<meta property="og:url" content="https://signaltechnews.com/digests/2026-10-05">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="Signal Weekly — Sep 28–Oct 5, 2026 — Signal Tech">
+<meta name="twitter:description" content="Signal Weekly — Sep 28–Oct 5, 2026: 14 of the week&#39;s most useful tech stories from the Signal Tech dashboard, grouped by section with the source for each.">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://signaltechnews.com/digests/2026-10-05#article",
+      "headline": "Signal Weekly — Sep 28–Oct 5, 2026",
+      "description": "Signal Weekly — Sep 28–Oct 5, 2026: 14 of the week's most useful tech stories from the Signal Tech dashboard, grouped by section with the source for each.",
+      "datePublished": "2026-10-05T14:20:07.560Z",
+      "dateModified": "2026-10-05T14:20:07.560Z",
+      "inLanguage": "en-GB",
+      "url": "https://signaltechnews.com/digests/2026-10-05",
+      "mainEntityOfPage": "https://signaltechnews.com/digests/2026-10-05",
+      "image": "https://signaltechnews.com/assets/og-preview.png",
+      "author": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "@id": "https://signaltechnews.com/digests#page",
+        "url": "https://signaltechnews.com/digests"
+      }
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page digests-page">
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a class="wordmark" href="/" aria-label="Signal Tech home">Signal <span>Tech</span></a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main">
+    <header class="page-head">
+      <p class="page-kicker">Signal Weekly</p>
+      <h1 class="page-title">Signal Weekly — Sep 28–Oct 5, 2026</h1>
+      <p class="page-sub page-sub-fixed">Sep 28–Oct 5, 2026 · 14 stories</p>
+      <div class="page-actions">
+        <a class="page-btn" id="digestPrev" rel="prev" href="/digests/2026-09-28">&larr; Previous week</a>
+        <a class="page-btn" id="digestNext" rel="next" href="/digests/2026-10-12">Next week &rarr;</a>
+        <button type="button" class="page-btn page-btn-primary" id="digestShare">Share</button>
+        <span class="page-status" id="digestShareStatus" role="status" aria-live="polite"></span>
+      </div>
+    </header>
+
+    <div class="digest-layout">
+      <nav class="digest-dates" aria-label="Digest archive">
+        <h2 class="digest-dates-title">Archive</h2>
+        <div class="digest-chips" id="digestList"><a class="digest-chip" href="/digests/2026-10-19">Oct 12–Oct 19, 2026</a><a class="digest-chip" href="/digests/2026-10-12">Oct 5–Oct 12, 2026</a><a class="digest-chip is-active" aria-current="page" href="/digests/2026-10-05">Sep 28–Oct 5, 2026</a><a class="digest-chip" href="/digests/2026-09-28">Sep 21–Sep 28, 2026</a></div>
+      </nav>
+      <div class="digest-content digest-content-static" id="digestContent" data-digest-id="2026-10-05">
+<div class="digest-intro"><p>A roundup of what came through the dashboard this week, across 4 categories.</p></div>
+<section class="digest-section" aria-labelledby="digest-s0">
+<h2 class="digest-section-title" id="digest-s0">Tech news</h2>
+<div class="digest-grid">
+<a class="latest-card digest-card" href="https://www.theverge.com/entertainment/1002887/star-wars-galactic-racer-review" target="_blank" rel="noopener noreferrer"><div class="cat">The Verge · Tech news</div><h3>Star Wars: Galactic Racer is my childhood podracing dream come true</h3><p class="digest-card-summary">Yes, Sebulba is in the game. The podracing scene in The Phantom Menace is one of my favorite movie sequences ever. It&#39;s just so dang cool: The futuristic racers tear over treacherous Tatooine terrain while various Star Wars aliens bark at…</p></a>
+<a class="latest-card digest-card" href="https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents" target="_blank" rel="noopener noreferrer"><div class="cat">The Verge · Tech news</div><h3>AI hallucinations are making entitled customers even worse</h3><p class="digest-card-summary">Madison, a server in New York City, greets every table by asking about each diner&#39;s allergies. Lately, there have been some close calls. &quot;Sometimes people will tell me they have a shellfish allergy, and I&#39;ll come back, and they won&#39;t ask…</p></a>
+<a class="latest-card digest-card" href="https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry" target="_blank" rel="noopener noreferrer"><div class="cat">The Verge · Tech news</div><h3>If a data center is camouflaged in the woods, will anyone hate it?</h3><p class="digest-card-summary">San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that&#39;s changed in recent years, as data centers have grown into massive…</p></a>
+<a class="latest-card digest-card" href="https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning" target="_blank" rel="noopener noreferrer"><div class="cat">The Verge · Tech news</div><h3>Amazon writes scary blog warning communities not to block data centers</h3><p class="digest-card-summary">Amazon is calling for people to support AI data center projects, or risk irreparable harm to the US economy and national security. In a more than 3,000 word blog posted today, Amazon web services CEO Matt Garman pushed back on public…</p></a>
+<a class="latest-card digest-card" href="https://www.wired.com/story/amazon-says-it-is-going-to-stop-using-ndas-for-data-centers/" target="_blank" rel="noopener noreferrer"><div class="cat">Wired · Tech news</div><h3>Amazon Says It&#39;s No Longer Using NDAs for Data Centers</h3><p class="digest-card-summary">The company announced it has stopped using secret agreements with county officials and acknowledges community backlash is leading to data center moratoriums across the…</p></a>
+<a class="latest-card digest-card" href="https://www.wired.com/story/best-smart-cat-tracker/" target="_blank" rel="noopener noreferrer"><div class="cat">Wired · Tech news</div><h3>Best Smart Cat Trackers of 2026: Fi Mini vs. Tractive</h3><p class="digest-card-summary">After months of monitoring Basil’s activity and sleep, I found that Fi and Tractive cat trackers come with their own…</p></a>
+</div>
+</section>
+<section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Friday Signal Briefing</h2>
+    <p class="newsletter-note">One email every Friday at 9:00 (CET): 4 sourced stories and 1 practical takeaway in plain English. Free, and you can unsubscribe in one click.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+  </section>
+<section class="digest-section" aria-labelledby="digest-s1">
+<h2 class="digest-section-title" id="digest-s1">AI papers</h2>
+<div class="digest-grid">
+<a class="latest-card digest-card" href="http://arxiv.org/abs/2610.02207v1" target="_blank" rel="noopener noreferrer"><div class="cat">arXiv · AI papers</div><h3>One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars</h3><p class="digest-card-summary">3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a…</p></a>
+<a class="latest-card digest-card" href="http://arxiv.org/abs/2610.02206v1" target="_blank" rel="noopener noreferrer"><div class="cat">arXiv · AI papers</div><h3>KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards</h3><p class="digest-card-summary">LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts&#39; intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs&#39; ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely…</p></a>
+<a class="latest-card digest-card" href="http://arxiv.org/abs/2610.02204v1" target="_blank" rel="noopener noreferrer"><div class="cat">arXiv · AI papers</div><h3>Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents</h3><p class="digest-card-summary">Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and…</p></a>
+<a class="latest-card digest-card" href="http://arxiv.org/abs/2610.02203v1" target="_blank" rel="noopener noreferrer"><div class="cat">arXiv · AI papers</div><h3>Embedding Prediction Helps Image Generation</h3><p class="digest-card-summary">In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next continuous embedding in a sequence. In generation, the clean image follows the noisy image, so its…</p></a>
+</div>
+</section>
+<section class="digest-section" aria-labelledby="digest-s2">
+<h2 class="digest-section-title" id="digest-s2">Reviews</h2>
+<div class="digest-grid">
+<a class="latest-card digest-card" href="https://www.engadget.com/2275509/tesla-supercharger-emergency-drive-away-feature/" target="_blank" rel="noopener noreferrer"><div class="cat">Engadget Reviews · Reviews</div><h3>Tesla rolls out an emergency drive-away feature after Supercharger shooting</h3><p class="digest-card-summary">Tesla&#39;s new feature will let you drive away with the Supercharger still connected in case of…</p></a>
+<a class="latest-card digest-card" href="https://www.engadget.com/2275489/fda-approves-autus-size-adjustable-artificial-heart-valve-for-kids/" target="_blank" rel="noopener noreferrer"><div class="cat">Engadget Reviews · Reviews</div><h3>FDA approves artificial heart valve for kids that grows as they do</h3><p class="digest-card-summary">The FDA has approved a new artificial heart valve that eliminates the need for multiple surgeries in children with certain congenital heart…</p></a>
+<a class="latest-card digest-card" href="https://www.engadget.com/2275466/california-legalizes-balcony-plug-in-solar/" target="_blank" rel="noopener noreferrer"><div class="cat">Engadget Reviews · Reviews</div><h3>Balcony solar installations will soon be legal in America&#39;s most populous state</h3><p class="digest-card-summary">California has joined nine other US states in approving balcony solar…</p></a>
+<a class="latest-card digest-card" href="https://www.engadget.com/2275451/new-mexico-meta-40-billion-penalties-cambridge-analytica-lawsuit/" target="_blank" rel="noopener noreferrer"><div class="cat">Engadget Reviews · Reviews</div><h3>New Mexico wants Meta to pay $40 billion in penalties for Cambridge Analytica scandal</h3><p class="digest-card-summary">New Mexico&#39;s attorney argued that the penalties Meta has to pay need to be significant enough to make an impact on the…</p></a>
+</div>
+</section>
+<div class="digest-outro"><p>That is the week in Signal. See the full dashboard for everything else that came through.</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+<script src="/assets/digests.js" defer></script>
+</body>
+</html>

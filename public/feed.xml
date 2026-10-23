@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Signal Tech</title>
+    <link>https://signaltechnews.com/</link>
+    <description>The Signal Tech newsletter and weekly digests: AI engineering, chips and dev tools in plain English.</description>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 23 Oct 2026 07:00:00 GMT</lastBuildDate>
+    <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://signaltechnews.com/assets/icon-192.png</url>
+      <title>Signal Tech</title>
+      <link>https://signaltechnews.com/</link>
+    </image>
+    <item>
+      <title>Issue #2: AI found a PHP hole. Patch it today</title>
+      <link>https://signaltechnews.com/issues/2026-10-23</link>
+      <guid isPermaLink="true">https://signaltechnews.com/issues/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 07:00:00 GMT</pubDate>
+      <category>Newsletter</category>
+      <description>AI finds critical PHP flaws, and everyone needs to patch: Two serious security holes in PHP are now fixed. · Claude Duet wants to be your proactive co-worker: Anthropic launched an assistant that messages you first. · Tool of the week: VegaLoad: A free, open-source tool that checks your app copes with heavy traffic.</description>
+    </item>
+    <item>
+      <title>Signal Weekly — Oct 12–Oct 19, 2026</title>
+      <link>https://signaltechnews.com/digests/2026-10-19</link>
+      <guid isPermaLink="true">https://signaltechnews.com/digests/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 14:33:59 GMT</pubDate>
+      <category>Weekly digest</category>
+      <description>Oct 12–Oct 19, 2026: 14 of the week&#39;s most useful tech stories, grouped by section.</description>
+    </item>
+    <item>
+      <title>Issue #1: Google&#39;s Argon lands (and your first Signal)</title>
+      <link>https://signaltechnews.com/issues/2026-10-16</link>
+      <guid isPermaLink="true">https://signaltechnews.com/issues/2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 07:00:00 GMT</pubDate>
+      <category>Newsletter</category>
+      <description>Google ships Gemini 4 Argon: Cheap for now: API prices double after 30 Nov, so do your sums first. · AI chip designers hit a wall: Agents pass ~40% of checks, but only ~10% hit power and area targets. · ML Drift goes open source: Old TFLite GPU delegate is frozen. Plan your move to LiteRT.</description>
+    </item>
+    <item>
+      <title>Signal Weekly — Oct 5–Oct 12, 2026</title>
+      <link>https://signaltechnews.com/digests/2026-10-12</link>
+      <guid isPermaLink="true">https://signaltechnews.com/digests/2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 14:21:43 GMT</pubDate>
+      <category>Weekly digest</category>
+      <description>Oct 5–Oct 12, 2026: 14 of the week&#39;s most useful tech stories, grouped by section.</description>
+    </item>
+    <item>
+      <title>Signal Weekly — Sep 28–Oct 5, 2026</title>
+      <link>https://signaltechnews.com/digests/2026-10-05</link>
+      <guid isPermaLink="true">https://signaltechnews.com/digests/2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 14:20:07 GMT</pubDate>
+      <category>Weekly digest</category>
+      <description>Sep 28–Oct 5, 2026: 14 of the week&#39;s most useful tech stories, grouped by section.</description>
+    </item>
+    <item>
+      <title>Signal Weekly — Sep 21–Sep 28, 2026</title>
+      <link>https://signaltechnews.com/digests/2026-09-28</link>
+      <guid isPermaLink="true">https://signaltechnews.com/digests/2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 14:17:31 GMT</pubDate>
+      <category>Weekly digest</category>
+      <description>Sep 21–Sep 28, 2026: 14 of the week&#39;s most useful tech stories, grouped by section.</description>
+    </item>
+  </channel>
+</rss>

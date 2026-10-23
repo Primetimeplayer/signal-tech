@@ -28,6 +28,7 @@
 <meta name="copyright" content="Signal Tech">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://signaltechnews.com/">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -58,7 +59,18 @@
       "@type": "NewsMediaOrganization",
       "@id": "https://signaltechnews.com/#organization",
       "name": "Signal Tech",
-      "url": "https://signaltechnews.com/"
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
     },
     {
       "@type": "WebSite",
@@ -226,7 +238,7 @@
         <button type="button" class="menu-toggle" id="menuToggle" data-i18n-aria="openMenu" aria-label="Open navigation menu" aria-controls="filters" aria-expanded="false">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
         </button>
-        <a class="mast-link" href="digests.html" data-i18n="digests">Digests</a>
+        <a class="mast-link" href="/digests" data-i18n="digests">Digests</a>
         <div class="status" id="status">loading feed…</div>
         <div class="locale-controls" role="group" data-i18n-aria="localeGroup" aria-label="News region and language">
           <div class="locale-field">
@@ -313,7 +325,7 @@
         <button type="button" class="filter top-nav-item" data-cat="reddit" data-i18n="catCommunity" aria-pressed="false">Community</button>
         <button type="button" class="filter top-nav-item toggle-hw" id="hwToggle" data-i18n="hardware" aria-pressed="false">Hardware</button>
         <button type="button" class="filter top-nav-item toggle-saved" id="savedToggle" data-i18n="saved" aria-pressed="false">Saved</button>
-        <a class="filter top-nav-item digests-nav" id="digestsNav" href="digests.html" data-i18n="digests">Digests</a>
+        <a class="filter top-nav-item digests-nav" id="digestsNav" href="/digests" data-i18n="digests">Digests</a>
       </div>
     </nav>
   </div>
@@ -443,12 +455,13 @@
   <footer>
     <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
     <nav class="footer-legal" aria-label="Publication">
-      <a href="about.html">About</a>
-      <a href="editorial.html">Editorial</a>
-      <a href="advertise.html">Advertise</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms of Service</a>
+      <a href="/issues">Newsletter archive</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
     </nav>
     <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
   </footer>
@@ -481,7 +494,7 @@
 <div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
   <div>
     <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
-    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="privacy.html">Privacy Policy</a>.</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
   </div>
   <div class="cookie-banner-actions">
     <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>

@@ -126,3 +126,19 @@
   :root[data-theme="dark"] .digest-chip { border-color: rgb(95, 99, 104); }
   .digest-grid, .digest-skeleton { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* Newsletter issue pages (/issues/YYYY-MM-DD) and the archive (/issues). */
+.issue-article { max-width: 720px; }
+.issue-body { font-size: 17px; line-height: 1.7; overflow-wrap: anywhere; }
+.issue-body h2 { margin: 32px 0 8px; font-size: 22px; line-height: 1.3; font-weight: 700; }
+.issue-body h3 { margin: 24px 0 6px; font-size: 19px; line-height: 1.35; }
+.issue-body h4 { margin: 20px 0 6px; font-size: 17px; }
+.issue-body p, .issue-body ul, .issue-body ol, .issue-body blockquote { margin: 0 0 14px; }
+.issue-body ul, .issue-body ol { padding-left: 22px; }
+.issue-body hr { margin: 28px 0; border: 0; border-top: 1px solid rgba(127, 127, 127, .35); }
+.issue-body a, .issue-source a { color: #1558b0; text-decoration: underline; text-underline-offset: 2px; }
+:root[data-theme="dark"] .issue-body a, :root[data-theme="dark"] .issue-source a { color: #8ab4f8; }
+.issue-source { margin: 24px 0; font-size: 14px; opacity: .85; }
+.issue-nav { margin-top: 24px; }
+.issues-page .digest-grid { margin-top: 8px; }
+.digest-content-static { min-height: 0; }

@@ -37,6 +37,7 @@
 <meta name="copyright" content="Signal Tech">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://signaltechnews.com/digests">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Signal Tech">
 <meta property="og:locale" content="en_GB">
@@ -61,7 +62,18 @@
       "@type": "NewsMediaOrganization",
       "@id": "https://signaltechnews.com/#organization",
       "name": "Signal Tech",
-      "url": "https://signaltechnews.com/"
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
     },
     {
       "@type": "CollectionPage",
@@ -74,28 +86,29 @@
   ]
 }
 </script>
-<link rel="icon" href="assets/favicon.ico" sizes="48x48">
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="manifest" href="site.webmanifest">
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
-<link rel="preload" href="digests/index.json" as="fetch" crossorigin>
-<link rel="stylesheet" href="assets/home.css">
-<link rel="stylesheet" href="assets/pages.css">
+<link rel="preload" href="/digests/index.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
 </head>
 <body class="site-page digests-page">
 
+<!-- shared:mast (scripts/build-static-pages.js copies this block) -->
 <div class="mast">
   <div class="wrap">
     <div class="mast-row">
-      <a class="wordmark" href="index.html" aria-label="Signal Tech home">Signal <span>Tech</span></a>
+      <a class="wordmark" href="/" aria-label="Signal Tech home">Signal <span>Tech</span></a>
       <div class="mast-right">
-        <a class="mast-link" href="digests.html" aria-current="page">Digests</a>
+        <a class="mast-link" href="/digests" aria-current="page">Digests</a>
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
@@ -110,6 +123,7 @@
     <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
   </div>
 </div>
+<!-- /shared:mast -->
 
 <div class="wrap page-wrap">
   <main class="page-main" id="main">
@@ -136,18 +150,21 @@
     </div>
   </main>
 
+  <!-- shared:footer -->
   <footer>
     <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
     <nav class="footer-legal" aria-label="Publication">
-      <a href="about.html">About</a>
-      <a href="editorial.html">Editorial</a>
-      <a href="advertise.html">Advertise</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms of Service</a>
+      <a href="/issues">Newsletter archive</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
     </nav>
     <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
   </footer>
+  <!-- /shared:footer -->
 </div>
 
 <template id="newsletterTemplate">
@@ -161,17 +178,19 @@
   </section>
 </template>
 
+<!-- shared:cookie -->
 <div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
   <div>
     <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
-    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="privacy.html">Privacy Policy</a>.</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
   </div>
   <div class="cookie-banner-actions">
     <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
     <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
   </div>
 </div>
-<script src="assets/site-chrome.js" defer></script>
-<script src="assets/digests.js" defer></script>
+<!-- /shared:cookie -->
+<script src="/assets/site-chrome.js" defer></script>
+<script src="/assets/digests.js" defer></script>
 </body>
 </html>

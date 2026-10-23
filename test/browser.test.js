@@ -2328,7 +2328,7 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
 
     assert.ok(digests, '#digestsNav must exist in the sidebar');
     assert.equal(digests.tag, 'A', 'Digests entry must be a real link');
-    assert.match(digests.href, /digests\.html$/, 'Digests link must point at digests.html');
+    assert.match(digests.href, /\/digests$/, 'Digests link must point at the clean /digests URL');
     assert.match(digests.label, /Digests/i, 'Digests link must be labelled');
     assert.ok(digests.visible && digests.inViewport, 'Digests link must be visible on desktop');
   });
