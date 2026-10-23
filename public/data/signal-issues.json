@@ -1,0 +1,25 @@
+{
+  "updated": "2026-10-21T00:00:00.000Z",
+  "issues": [
+    {
+      "issueNumber": 1,
+      "title": "Google's Argon lands (and your first Signal)",
+      "date": "2026-10-16",
+      "url": "https://dailysignaltech.beehiiv.com/p/google-s-argon-lands-and-your-first-signal",
+      "stories": [
+        {
+          "headline": "Google ships Gemini 4 Argon",
+          "whyItMatters": "Cheap for now: API prices double after 30 Nov, so do your sums first."
+        },
+        {
+          "headline": "AI chip designers hit a wall",
+          "whyItMatters": "Agents pass ~40% of checks, but only ~10% hit power and area targets."
+        },
+        {
+          "headline": "ML Drift goes open source",
+          "whyItMatters": "Old TFLite GPU delegate is frozen. Plan your move to LiteRT."
+        }
+      ]
+    }
+  ]
+}

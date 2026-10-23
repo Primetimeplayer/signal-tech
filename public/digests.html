@@ -1906,6 +1906,36 @@ html, body { background: var(--bg) !important; color: var(--text) !important; fo
 .list-item { background: var(--panel) !important; color: var(--text) !important; border: 1px solid var(--line) !important; }
 .list-item:hover { border-color: var(--accent-text) !important; }
 .list-item.active { background: var(--accent-soft) !important; color: var(--accent-text) !important; border-color: var(--accent-text) !important; }
+/* DIGESTS — MOBILE HEADER
+   Phones: wordmark on the left, "Back to dashboard" and the theme toggle
+   together on the right, on one row. Desktop is unchanged. */
+@media (max-width: 800px) {
+  .mast-row {
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    gap: 12px !important;
+  }
+  .mast-row > .wordmark {
+    flex: 0 1 auto;
+    min-width: 0;
+    white-space: nowrap;
+  }
+  .mast-right {
+    flex: 0 0 auto;
+    justify-content: flex-end !important;
+    margin-left: auto !important;
+  }
+  .mast-right .back-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 374px) {
+  .wordmark { font-size: 19px !important; }
+  .mast-right .back-link { font-size: 12px !important; }
+}
 </style>
 <div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
   <div>

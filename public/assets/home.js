@@ -94,6 +94,8 @@
 
   let allItems = [];
   let signalIssue = null;
+  let signalIssues = [];
+  let signalIndex = 0;
   let visibleCount = PAGE_SIZE;
   let searchTimer = null;
   let fetchErrors = [];
@@ -2978,19 +2980,101 @@ initAuth();
     }
   }
 
+  // --- This week's Signal: issue stack ---
+  // data/signal-issues.json holds every issue, newest first. The newest sits
+  // on top and older ones peek out underneath (box-shadow layers in home.css).
+  // Swipe up on the card (or ↑ / the up arrow) brings the previous issue
+  // forward; swipe down (or ↓ / the down arrow) brings the newer one back.
+  // The card only claims a vertical swipe when there is an issue in that
+  // direction, the card is fully on screen and the page is not mid-scroll,
+  // so ordinary page scrolling over the card keeps working.
+  const SIGNAL_MAX_ISSUES = 12;
+  const SIGNAL_HINT_KEY = 'signal-stack-hint-seen';
+  let signalBusy = false;
+  let signalLastScroll = 0;
+
+  function normaliseSignalIssue(data) {
+    if (!data || typeof data !== 'object') return null;
+    const stories = Array.isArray(data.stories)
+      ? data.stories.filter((story) => story && String(story.headline || '').trim())
+      : [];
+    const url = safeSignalUrl(data.url);
+    const title = String(data.title || '').trim();
+    const issueNumber = data.issueNumber;
+    if (!title || !url || !stories.length || issueNumber == null || String(issueNumber).trim() === '') return null;
+    return {
+      issueNumber,
+      title,
+      date: data.date || '',
+      url,
+      stories: stories.slice(0, 3).map((story) => ({
+        headline: String(story.headline).trim(),
+        whyItMatters: String(story.whyItMatters || '').trim(),
+      })),
+    };
+  }
+
+  function signalIssueLabel(issue) {
+    const when = formatSignalDate(issue.date);
+    const label = t('signalIssue', { n: issue.issueNumber });
+    return when ? `${label} · ${when}` : label;
+  }
+
+  function signalReduceMotion() {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+
+  function renderSignalStack() {
+    const strip = document.getElementById('signalStrip');
+    if (!strip) return;
+    const total = signalIssues.length;
+    const older = total - 1 - signalIndex;
+    strip.classList.toggle('is-stack', total > 1);
+    strip.classList.toggle('has-older', older > 0);
+    strip.classList.toggle('has-older-2', older > 1);
+    strip.classList.toggle('has-newer', signalIndex > 0);
+    let nav = document.getElementById('signalNav');
+    if (total < 2) {
+      if (nav) nav.hidden = true;
+      return;
+    }
+    if (!nav) {
+      nav = document.createElement('div');
+      nav.className = 'signal-nav';
+      nav.id = 'signalNav';
+      nav.innerHTML = `
+        <button type="button" class="signal-nav-btn" data-signal-step="1"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 15 6-6 6 6"/></svg></button>
+        <button type="button" class="signal-nav-btn" data-signal-step="-1"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></button>
+        <span class="signal-live" id="signalLive" aria-live="polite"></span>`;
+      const actions = strip.querySelector('.signal-actions');
+      strip.insertBefore(nav, actions || null);
+    }
+    nav.hidden = false;
+    const [olderBtn, newerBtn] = nav.querySelectorAll('.signal-nav-btn');
+    olderBtn.setAttribute('aria-label', t('signalPrev'));
+    olderBtn.title = t('signalPrev');
+    olderBtn.disabled = older < 1;
+    newerBtn.setAttribute('aria-label', t('signalNewer'));
+    newerBtn.title = t('signalNewer');
+    newerBtn.disabled = signalIndex < 1;
+  }
+
   function renderSignalIssue() {
     const strip = document.getElementById('signalStrip');
     if (!strip || !signalIssue) return;
+    const kickerEl = document.getElementById('signalKickerLabel');
     const titleEl = document.getElementById('signalTitle');
     const metaEl = document.getElementById('signalMeta');
     const storiesEl = document.getElementById('signalStories');
     const readEl = document.getElementById('signalRead');
-    if (titleEl) titleEl.textContent = signalIssue.title;
-    if (metaEl) {
-      const when = formatSignalDate(signalIssue.date);
-      const issue = t('signalIssue', { n: signalIssue.issueNumber });
-      metaEl.textContent = when ? ` · ${issue} · ${when}` : ` · ${issue}`;
+    if (kickerEl) {
+      const key = signalIndex > 0 ? 'signalKickerPast' : 'signalKicker';
+      kickerEl.setAttribute('data-i18n', key);
+      kickerEl.textContent = t(key);
     }
+    if (titleEl) titleEl.textContent = signalIssue.title;
+    // The " · " separator before the label comes from CSS (.signal-kicker-meta::before).
+    if (metaEl) metaEl.textContent = signalIssueLabel(signalIssue);
     if (readEl) readEl.href = signalIssue.url;
     if (storiesEl) {
       storiesEl.replaceChildren();
@@ -3007,40 +3091,204 @@ initAuth();
         storiesEl.appendChild(item);
       });
     }
+    renderSignalStack();
     strip.hidden = false;
+  }
+
+  async function fetchSignalJson(path) {
+    try {
+      const res = await fetch(path, { cache: 'no-store' });
+      return res.ok ? await res.json() : null;
+    } catch (err) {
+      return null;
+    }
   }
 
   async function loadSignalIssue() {
     const strip = document.getElementById('signalStrip');
     if (!strip) return;
-    try {
-      const res = await fetch('data/signal-issue.json', { cache: 'no-store' });
-      if (!res.ok) throw new Error('missing signal issue');
-      const data = await res.json();
-      const stories = Array.isArray(data && data.stories)
-        ? data.stories.filter((story) => story && String(story.headline || '').trim())
-        : [];
-      const url = safeSignalUrl(data && data.url);
-      const title = data && String(data.title || '').trim();
-      const issueNumber = data && data.issueNumber;
-      if (!title || !url || !stories.length || issueNumber == null || String(issueNumber).trim() === '') {
-        throw new Error('invalid signal issue');
-      }
-      signalIssue = {
-        issueNumber,
-        title,
-        date: data.date || '',
-        url,
-        stories: stories.slice(0, 3).map((story) => ({
-          headline: String(story.headline).trim(),
-          whyItMatters: String(story.whyItMatters || '').trim(),
-        })),
-      };
-      renderSignalIssue();
-    } catch (err) {
-      signalIssue = null;
-      strip.hidden = true;
+    const many = await fetchSignalJson('data/signal-issues.json');
+    let list = (many && Array.isArray(many.issues) ? many.issues : []).map(normaliseSignalIssue).filter(Boolean);
+    if (!list.length) {
+      const one = normaliseSignalIssue(await fetchSignalJson('data/signal-issue.json'));
+      if (one) list = [one];
     }
+    list.sort((a, b) => String(b.date).localeCompare(String(a.date)) || (Number(b.issueNumber) - Number(a.issueNumber)));
+    signalIssues = list.slice(0, SIGNAL_MAX_ISSUES);
+    signalIndex = 0;
+    signalIssue = signalIssues[0] || null;
+    if (!signalIssue) {
+      strip.hidden = true;
+      return;
+    }
+    renderSignalIssue();
+    bindSignalStack();
+  }
+
+  // step 1 = older issue, -1 = newer issue. from = the card's current drag offset.
+  function stepSignal(step, from = 0) {
+    const strip = document.getElementById('signalStrip');
+    const next = signalIndex + step;
+    if (!strip || signalBusy || !signalIssues[next]) return false;
+    signalBusy = true;
+    const keepHeight = strip.offsetHeight;
+    const swap = () => {
+      signalIndex = next;
+      signalIssue = signalIssues[next];
+      renderSignalIssue();
+      // Phones size the card to its content; never let it shrink mid-browse.
+      if (strip.offsetHeight < keepHeight) strip.style.minHeight = `${keepHeight}px`;
+      const live = document.getElementById('signalLive');
+      if (live) live.textContent = `${signalIssueLabel(signalIssue)}: ${signalIssue.title}`;
+    };
+    const done = () => {
+      strip.style.transform = '';
+      signalBusy = false;
+    };
+    if (!strip.animate) {
+      swap();
+      done();
+      return true;
+    }
+    if (signalReduceMotion()) {
+      strip.animate({ opacity: [1, 0] }, { duration: 120, easing: 'linear' }).onfinish = () => {
+        swap();
+        strip.animate({ opacity: [0, 1] }, { duration: 150, easing: 'linear' }).onfinish = done;
+      };
+      return true;
+    }
+    const dir = step > 0 ? -1 : 1; // older: the card leaves upwards
+    const out = strip.animate([
+      { transform: `translateY(${from}px)`, opacity: 1 },
+      { transform: `translateY(${dir * 18}px) scale(0.97)`, opacity: 0 },
+    ], { duration: 120, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' });
+    out.onfinish = () => {
+      swap();
+      strip.style.transform = '';
+      out.cancel();
+      // A soft spring: slight overshoot, settles in ~240 ms.
+      strip.animate([
+        { transform: `translateY(${-dir * 14}px) scale(0.95)`, opacity: 0 },
+        { transform: 'translateY(0) scale(1)', opacity: 1 },
+      ], { duration: 240, easing: 'cubic-bezier(0.2, 1.25, 0.4, 1)' }).onfinish = done;
+    };
+    return true;
+  }
+
+  function snapSignalBack(strip, from) {
+    if (!from || !strip.animate || signalReduceMotion()) {
+      strip.style.transform = '';
+      return;
+    }
+    strip.style.transform = '';
+    strip.animate([{ transform: `translateY(${from}px)` }, { transform: 'translateY(0)' }], {
+      duration: 220,
+      easing: 'cubic-bezier(0.2, 1.25, 0.4, 1)',
+    });
+  }
+
+  function showSignalHint(strip) {
+    let seen = false;
+    try { seen = localStorage.getItem(SIGNAL_HINT_KEY) === '1'; } catch (err) { seen = true; }
+    if (seen || signalIssues.length < 2 || !('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver((entries) => {
+      if (!entries.some((entry) => entry.intersectionRatio >= 0.9)) return;
+      io.disconnect();
+      try { localStorage.setItem(SIGNAL_HINT_KEY, '1'); } catch (err) { /* private mode */ }
+      // The hint sits just under the card (a zero-height wrapper, so nothing
+      // moves), and the card gives one small lift to show the issue behind it.
+      const wrap = document.createElement('div');
+      wrap.className = 'signal-hint-wrap';
+      wrap.setAttribute('aria-hidden', 'true');
+      const hint = document.createElement('p');
+      hint.className = 'signal-hint';
+      const touch = window.matchMedia('(pointer: coarse)').matches;
+      hint.textContent = t(touch ? 'signalHintTouch' : 'signalHintKeys');
+      wrap.appendChild(hint);
+      strip.after(wrap);
+      requestAnimationFrame(() => hint.classList.add('is-visible'));
+      if (strip.animate && !signalReduceMotion() && !signalBusy) {
+        strip.animate([
+          { transform: 'translateY(0)' },
+          { transform: 'translateY(-6px)', offset: 0.35 },
+          { transform: 'translateY(0)' },
+        ], { duration: 650, delay: 250, easing: 'cubic-bezier(0.2, 1.25, 0.4, 1)' });
+      }
+      setTimeout(() => {
+        hint.classList.remove('is-visible');
+        setTimeout(() => wrap.remove(), 400);
+      }, 4000);
+    }, { threshold: [0.9] });
+    io.observe(strip);
+  }
+
+  function bindSignalStack() {
+    const strip = document.getElementById('signalStrip');
+    if (!strip || strip.dataset.stackBound === '1' || signalIssues.length < 2) return;
+    strip.dataset.stackBound = '1';
+    showSignalHint(strip);
+    strip.addEventListener('click', (event) => {
+      const btn = event.target.closest('[data-signal-step]');
+      if (!btn || btn.disabled) return;
+      stepSignal(Number(btn.dataset.signalStep));
+    });
+    strip.addEventListener('keydown', (event) => {
+      if (event.altKey || event.ctrlKey || event.metaKey) return;
+      const step = event.key === 'ArrowUp' ? 1 : event.key === 'ArrowDown' ? -1 : 0;
+      if (event.key === 'Home' && signalIndex > 0) {
+        event.preventDefault();
+        stepSignal(-signalIndex);
+        return;
+      }
+      if (!step || !signalIssues[signalIndex + step]) return;
+      event.preventDefault();
+      stepSignal(step);
+    });
+    window.addEventListener('scroll', () => { signalLastScroll = performance.now(); }, { passive: true });
+    let g = null;
+    strip.addEventListener('touchstart', (event) => {
+      g = null;
+      if (signalBusy || event.touches.length !== 1) return;
+      const rect = strip.getBoundingClientRect();
+      const onScreen = rect.top >= 0 && rect.bottom <= window.innerHeight;
+      const settled = performance.now() - signalLastScroll > 250;
+      if (!onScreen || !settled) return;
+      const touch = event.touches[0];
+      g = { x: touch.clientX, y: touch.clientY, mode: '', step: 0, dy: 0, vy: 0, t: performance.now() };
+    }, { passive: true });
+    strip.addEventListener('touchmove', (event) => {
+      if (!g || event.touches.length !== 1) return;
+      const touch = event.touches[0];
+      const dx = touch.clientX - g.x;
+      const dy = touch.clientY - g.y;
+      if (!g.mode) {
+        if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return;
+        g.step = dy < 0 ? 1 : -1;
+        const vertical = Math.abs(dy) > Math.abs(dx) * 1.2;
+        g.mode = vertical && signalIssues[signalIndex + g.step] ? 'stack' : 'page';
+      }
+      if (g.mode !== 'stack') return;
+      if (event.cancelable) event.preventDefault();
+      const now = performance.now();
+      g.vy = (dy - g.dy) / Math.max(1, now - g.t);
+      g.dy = dy;
+      g.t = now;
+      if (!signalReduceMotion()) {
+        const pull = Math.max(-28, Math.min(28, dy * 0.35));
+        strip.style.transform = `translateY(${pull}px) scale(${1 - Math.abs(pull) / 1400})`;
+      }
+    }, { passive: false });
+    const end = (cancelled) => {
+      if (!g || g.mode !== 'stack') { g = null; return; }
+      const pull = signalReduceMotion() ? 0 : Math.max(-28, Math.min(28, g.dy * 0.35));
+      const sameWay = (g.dy < 0 ? 1 : -1) === g.step;
+      const far = Math.abs(g.dy) > 44 || Math.abs(g.vy) > 0.4;
+      if (!cancelled && sameWay && far) stepSignal(g.step, pull);
+      else snapSignalBack(strip, pull);
+      g = null;
+    };
+    strip.addEventListener('touchend', () => end(false));
+    strip.addEventListener('touchcancel', () => end(true));
   }
 
   function bindSignalStrip() {

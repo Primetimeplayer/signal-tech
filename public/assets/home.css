@@ -8436,3 +8436,144 @@ main .grid,
 #feed .save-btn .save-icon { flex: none; }
 
 
+
+/* THIS WEEK'S SIGNAL — ISSUE STACK
+   Older issues peek out under the card as two thin, slightly narrower layers
+   (box-shadows with negative spread, so no extra elements or layout shift).
+   A newer issue, when you have stepped back, peeks out above. */
+#signalStrip.is-stack {
+  --signal-older-1: transparent;
+  --signal-older-1-edge: transparent;
+  --signal-older-2: transparent;
+  --signal-older-2-edge: transparent;
+  --signal-newer: transparent;
+  --signal-newer-edge: transparent;
+  position: relative;
+  box-shadow:
+    0 8px 0 -4px var(--signal-older-1),
+    0 8px 0 -3px var(--signal-older-1-edge),
+    0 17px 0 -9px var(--signal-older-2),
+    0 17px 0 -8px var(--signal-older-2-edge),
+    0 -8px 0 -4px var(--signal-newer),
+    0 -8px 0 -3px var(--signal-newer-edge);
+  transition: box-shadow 0.32s ease;
+  touch-action: pan-y;
+  will-change: transform;
+}
+#signalStrip.has-older {
+  --signal-older-1: var(--panel-raised);
+  --signal-older-1-edge: color-mix(in srgb, var(--line) 90%, transparent);
+}
+#signalStrip.has-older-2 {
+  --signal-older-2: color-mix(in srgb, var(--panel-raised) 60%, transparent);
+  --signal-older-2-edge: color-mix(in srgb, var(--line) 45%, transparent);
+}
+#signalStrip.has-newer {
+  --signal-newer: var(--panel-raised);
+  --signal-newer-edge: color-mix(in srgb, var(--line) 90%, transparent);
+}
+#signalStrip .signal-kicker-meta:not(:empty)::before {
+  content: ' · ';
+  white-space: pre;
+}
+#signalStrip .signal-nav {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+}
+#signalStrip .signal-nav[hidden] {
+  display: none;
+}
+#signalStrip .signal-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+}
+#signalStrip .signal-nav-btn:hover:not(:disabled) {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+#signalStrip .signal-nav-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+#signalStrip .signal-nav-btn:focus-visible {
+  outline: 2px solid var(--focus, var(--accent));
+  outline-offset: 2px;
+}
+#signalStrip .signal-live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.signal-hint-wrap {
+  position: relative;
+  z-index: 3;
+  height: 0;
+  pointer-events: none;
+}
+.signal-hint-wrap .signal-hint {
+  position: absolute;
+  top: 11px;
+  left: 50%;
+  margin: 0;
+  padding: 3px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  transform: translate(-50%, -4px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.signal-hint-wrap .signal-hint.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 640px) {
+  #signalStrip.is-stack .signal-kicker {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding-right: 68px;
+  }
+  #signalStrip.is-stack .signal-kicker-meta:not(:empty)::before {
+    content: none;
+  }
+  #signalStrip .signal-nav {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    flex-direction: row;
+  }
+  #signalStrip .signal-nav-btn {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #signalStrip.is-stack,
+  .signal-hint-wrap .signal-hint,
+  #signalStrip .signal-nav-btn {
+    transition: none;
+  }
+}
