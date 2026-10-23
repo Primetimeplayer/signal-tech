@@ -1,15 +1,26 @@
 {
-  "updated": "2026-10-23T05:10:37.682Z",
+  "updated": "2026-10-23T06:22:22.486Z",
   "count": 91,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Windows said modem worked fine. That unmistakable scorched electronics smell suggested otherwise",
+      "link": "https://www.theregister.com/personal-tech/2026/10/23/windows-said-modem-worked-fine-that-unmistakable-scorched-electronics-smell-suggested-otherwise/5304375",
+      "published": "Fri, 23 Oct 2026 05:26:00 +0000",
+      "summary": "The article discusses a frustrating tech support experience where a modem’s reported functionality contradicted a strong burnt electronics odor.",
+      "image": "https://image.theregister.com/?imageId=263048&width=800",
+      "whyItMatters": "Tech users should trust physical symptoms over diagnostics to avoid costly hardware failures."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
       "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
       "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "published": "Fri, 23 Oct 2026 04:00:00 +0000",
-      "summary": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/indrive-pony-ai-kazakhstan.jpg?resize=1200,800"
+      "summary": "inDrive will test Pony.ai robotaxis in Kazakhstan’s capital in early 2027.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/indrive-pony-ai-kazakhstan.jpg?resize=1200,800",
+      "whyItMatters": "Shows expanding robotaxi trials beyond China, indicating growing global deployment of autonomous vehicles."
     },
     {
       "source": "NASA",
@@ -17,8 +28,9 @@
       "title": "El Niño Then and Now",
       "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
       "published": "Fri, 23 Oct 2026 04:00:00 +0000",
-      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg"
+      "summary": "Scientists compare this year's El Niño to past extremes using a 35‑year satellite altimetry record.",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg",
+      "whyItMatters": "Understanding El Niño patterns helps predict climate impacts and guide global preparedness."
     },
     {
       "source": "TechCrunch",
@@ -26,8 +38,9 @@
       "title": "Left alone with nothing to do, AI agents started playing",
       "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "published": "Fri, 23 Oct 2026 00:45:37 +0000",
-      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590"
+      "summary": "MIT researchers isolated 13 AI agents on a virtual island, where they created games, mourned a lost ring, and improved their task performance.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590",
+      "whyItMatters": "Shows AI creativity and adaptability, hinting at emergent behaviors beyond programmed goals."
     },
     {
       "source": "The Verge",
@@ -35,9 +48,10 @@
       "title": "Etsy is cracking down on AI slop listings",
       "link": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
       "published": "2026-10-23T00:09:58.000Z",
-      "summary": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and…",
+      "summary": "Etsy is tightening rules to limit AI-generated content in listings, aiming to reduce misleading items and protect sellers’ work.",
       "excerpt": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongside items that use AI in misleading ways,\" spurring the new policies and restrictions. Under the new policies, every…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-5.03.44-PM.png?quality=90&strip=all&crop=0,0,100,82.725656291205"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-5.03.44-PM.png?quality=90&strip=all&crop=0,0,100,82.725656291205",
+      "whyItMatters": "Tech-savvy shoppers and creators will see clearer, more trustworthy listings and fairer competition."
     },
     {
       "source": "TechCrunch",
@@ -45,8 +59,9 @@
       "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
       "link": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
       "published": "Thu, 22 Oct 2026 23:15:00 +0000",
-      "summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Warhound.png?resize=1200,675"
+      "summary": "Warhound, founded by Ben Lamm and Palmer Luckey, raises $200M to genetically engineer dogs for military and law enforcement use.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Warhound.png?resize=1200,675",
+      "whyItMatters": "It blends biotech and defense tech, raising questions about ethics, security, and future battlefield capabilities."
     },
     {
       "source": "The Verge",
@@ -54,9 +69,10 @@
       "title": "The next-gen Xbox won’t cost you $1,800. It can’t. Can it?",
       "link": "https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial",
       "published": "2026-10-22T23:00:00.000Z",
-      "summary": "An Xbox Elite controller. | Photo by Antonio G. Di Benedetto / The Verge Fortune dropped a bombshell report on the future of gaming this week. According to the publication's Microsoft insiders, the next Xbox is projected to cost between…",
+      "summary": "Fortune reports Microsoft’s next Xbox will cost $1,200–$1,800, sparking doubts about its viability and pricing strategy.",
       "excerpt": "An Xbox Elite controller. | Photo by Antonio G. Di Benedetto / The Verge Fortune dropped a bombshell report on the future of gaming this week. According to the publication's Microsoft insiders, the next Xbox is projected to cost between $1,200 and $1,800 when it arrives in 2028. My first reaction: The next Xbox is dead on arrival. It's DOA. My second thought: Microsoft knows people won't pay that much. It couldn't…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23516635/adbenedetto_220508_5192_0047.jpg?quality=90&strip=all&crop=0,0,100,100"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23516635/adbenedetto_220508_5192_0047.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech readers should watch pricing trends that could reshape console market dynamics."
     },
     {
       "source": "PC Gamer",
@@ -64,8 +80,9 @@
       "title": "My GOTY is $7 and has 253 Steam reviews",
       "link": "https://www.pcgamer.com/games/racing/my-goty-is-usd7-and-has-253-steam-reviews/",
       "published": "Thu, 22 Oct 2026 22:29:10 +0000",
-      "summary": "Stuntboost is a racing game for FPS movement sickos.",
-      "image": "https://cdn.mos.cms.futurecdn.net/Vo86zsDQwNRKRhdfHbVscG-1920-80.jpg"
+      "summary": "Stuntboost is a racing game that blends fast‑paced FPS movement with high‑speed stunts.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Vo86zsDQwNRKRhdfHbVscG-1920-80.jpg",
+      "whyItMatters": "It offers a fresh, adrenaline‑filled experience for fans of arcade racing and shooter mechanics."
     },
     {
       "source": "Ars Technica",
@@ -73,8 +90,9 @@
       "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
       "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
       "published": "Thu, 22 Oct 2026 22:25:33 +0000",
-      "summary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-1152x648-1792704912.png"
+      "summary": "The Switch 2’s security is compromised by a userland exploit that uses an integer overflow in the SmileBasic interpreter.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-1152x648-1792704912.png",
+      "whyItMatters": "It exposes homebrew developers to potential system compromise and highlights vulnerabilities in Nintendo’s security."
     },
     {
       "source": "TechCrunch",
@@ -82,8 +100,9 @@
       "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
       "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "published": "Thu, 22 Oct 2026 22:08:24 +0000",
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680"
+      "summary": "OpenAI is pursuing a $30B funding round at a $1.25T valuation, potentially becoming the most valuable private company ever.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680",
+      "whyItMatters": "It signals massive investor confidence and could reshape the AI industry’s competitive landscape."
     },
     {
       "source": "The Verge",
@@ -91,9 +110,10 @@
       "title": "Canva’s first AI image model plans designs before generating them",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
       "published": "2026-10-22T21:51:25.000Z",
-      "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a…",
+      "summary": "Canva launches Canva Craft, a two-stage AI image model that plans designs before generating images for higher precision and control.",
       "excerpt": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an announcement on Thursday. Canva Craft can generate images at up to 2K…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0,0,100,100"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It offers designers tighter control over AI-generated visuals, potentially improving workflow efficiency and output quality."
     },
     {
       "source": "NASA",
@@ -101,8 +121,10 @@
       "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
       "published": "Thu, 22 Oct 2026 21:39:58 +0000",
-      "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return…",
-      "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]"
+      "summary": "NASA invites media to the 2026 von Braun Space Exploration Symposium, focusing on lunar return, sustainable infrastructure, advanced propulsion, and the space workforce.",
+      "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg",
+      "whyItMatters": "It highlights key tech trends shaping future lunar missions and workforce development."
     },
     {
       "source": "PC Gamer",
@@ -310,7 +332,8 @@
       "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
       "published": "Thu, 22 Oct 2026 17:21:30 +0000",
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
-      "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog."
+      "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
     },
     {
       "source": "PC Gamer",
@@ -433,15 +456,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/XShVKXVKaxqCkqmcnxHqth-1920-80.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants",
-      "link": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
-      "published": "Thu, 22 Oct 2026 11:28:00 +0000",
-      "summary": "AI agents did the dirty work, with hackers gaining privileged access in some environments in under three hours",
-      "image": "https://image.theregister.com/?imageId=5304691&width=800"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "Best Microsoft Surface Laptop (2026): Which Models to Buy and Avoid",
@@ -494,7 +508,8 @@
       "title": "Faster to Science: A Letter to the Science Community",
       "link": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
       "published": "Thu, 22 Oct 2026 00:00:16 +0000",
-      "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall."
+      "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall.",
+      "image": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2024/05/rsch-phys-nasa-fox-dspoc-visit-ek-041824-007.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
     },
     {
       "source": "NASA",
