@@ -8456,7 +8456,7 @@ main .grid,
     0 17px 0 -8px var(--signal-older-2-edge),
     0 -8px 0 -4px var(--signal-newer),
     0 -8px 0 -3px var(--signal-newer-edge);
-  transition: box-shadow 0.32s ease;
+  transition: box-shadow 0.16s ease;
   touch-action: pan-y;
   will-change: transform;
 }

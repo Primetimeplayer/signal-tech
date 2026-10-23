@@ -2990,7 +2990,6 @@ initAuth();
   // so ordinary page scrolling over the card keeps working.
   const SIGNAL_MAX_ISSUES = 12;
   const SIGNAL_HINT_KEY = 'signal-stack-hint-seen';
-  let signalBusy = false;
   let signalLastScroll = 0;
 
   function normaliseSignalIssue(data) {
@@ -3125,66 +3124,72 @@ initAuth();
     bindSignalStack();
   }
 
-  // step 1 = older issue, -1 = newer issue. from = the card's current drag offset.
+  // step 1 = older issue, -1 = newer issue. from = the card's drag offset in px
+  // at release (0 for buttons and keys). The new issue is drawn in the same
+  // frame as the release or press, then settles in 200 ms. Nothing is locked
+  // while it settles: a second swipe, tap or key press interrupts it at once.
+  function stopSignalMotion(strip) {
+    if (!strip.getAnimations) return;
+    strip.getAnimations().forEach((anim) => {
+      // Leave the CSS box-shadow transition (the peeking layers) alone.
+      if (typeof CSSTransition !== 'undefined' && anim instanceof CSSTransition) return;
+      anim.cancel();
+    });
+  }
+
   function stepSignal(step, from = 0) {
     const strip = document.getElementById('signalStrip');
     const next = signalIndex + step;
-    if (!strip || signalBusy || !signalIssues[next]) return false;
-    signalBusy = true;
+    if (!strip || !signalIssues[next]) return false;
+    stopSignalMotion(strip);
     const keepHeight = strip.offsetHeight;
-    const swap = () => {
-      signalIndex = next;
-      signalIssue = signalIssues[next];
-      renderSignalIssue();
-      // Phones size the card to its content; never let it shrink mid-browse.
-      if (strip.offsetHeight < keepHeight) strip.style.minHeight = `${keepHeight}px`;
-      const live = document.getElementById('signalLive');
-      if (live) live.textContent = `${signalIssueLabel(signalIssue)}: ${signalIssue.title}`;
-    };
-    const done = () => {
-      strip.style.transform = '';
-      signalBusy = false;
-    };
-    if (!strip.animate) {
-      swap();
-      done();
-      return true;
-    }
+    signalIndex = next;
+    signalIssue = signalIssues[next];
+    renderSignalIssue();
+    // Phones size the card to its content; never let it shrink mid-browse.
+    if (strip.offsetHeight < keepHeight) strip.style.minHeight = `${keepHeight}px`;
+    const live = document.getElementById('signalLive');
+    if (live) live.textContent = `${signalIssueLabel(signalIssue)}: ${signalIssue.title}`;
+    strip.style.transform = '';
+    strip.style.opacity = '';
+    if (!strip.animate) return true;
     if (signalReduceMotion()) {
-      strip.animate({ opacity: [1, 0] }, { duration: 120, easing: 'linear' }).onfinish = () => {
-        swap();
-        strip.animate({ opacity: [0, 1] }, { duration: 150, easing: 'linear' }).onfinish = done;
-      };
+      strip.animate({ opacity: [0.4, 1] }, { duration: 120, easing: 'linear' });
       return true;
     }
-    const dir = step > 0 ? -1 : 1; // older: the card leaves upwards
-    const out = strip.animate([
-      { transform: `translateY(${from}px)`, opacity: 1 },
-      { transform: `translateY(${dir * 18}px) scale(0.97)`, opacity: 0 },
-    ], { duration: 120, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' });
-    out.onfinish = () => {
-      swap();
-      strip.style.transform = '';
-      out.cancel();
-      // A soft spring: slight overshoot, settles in ~240 ms.
-      strip.animate([
-        { transform: `translateY(${-dir * 14}px) scale(0.95)`, opacity: 0 },
-        { transform: 'translateY(0) scale(1)', opacity: 1 },
-      ], { duration: 240, easing: 'cubic-bezier(0.2, 1.25, 0.4, 1)' }).onfinish = done;
-    };
+    // Older issue (swipe up / ▲): it rises from just behind the card.
+    // Newer issue (swipe down / ▼): it drops back on top from just above.
+    // A drag carries a little of its momentum into the entry.
+    const enter = step > 0 ? 14 : -14;
+    const carry = Math.max(-10, Math.min(10, -from * 0.1));
+    strip.animate([
+      { transform: `translateY(${enter + carry}px) scale(0.97)`, opacity: 0.35 },
+      { transform: 'none', opacity: 1 },
+    ], { duration: 200, easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)' });
     return true;
   }
 
   function snapSignalBack(strip, from) {
-    if (!from || !strip.animate || signalReduceMotion()) {
-      strip.style.transform = '';
-      return;
-    }
     strip.style.transform = '';
-    strip.animate([{ transform: `translateY(${from}px)` }, { transform: 'translateY(0)' }], {
-      duration: 220,
-      easing: 'cubic-bezier(0.2, 1.25, 0.4, 1)',
-    });
+    strip.style.opacity = '';
+    if (!from || !strip.animate || signalReduceMotion()) return;
+    const fade = signalDragFade(from);
+    strip.animate([
+      { transform: `translateY(${from}px) scale(${1 - Math.abs(from) / 2000})`, opacity: fade },
+      { transform: 'none', opacity: 1 },
+    ], { duration: 180, easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)' });
+  }
+
+  // While dragging, the card tracks the finger 1:1 for the first 120 px, then
+  // with resistance, and fades a little so the issue behind reads as "next".
+  function signalDragOffset(dy) {
+    const a = Math.abs(dy);
+    const d = a <= 120 ? a : 120 + (a - 120) * 0.3;
+    return Math.sign(dy) * d;
+  }
+
+  function signalDragFade(offset) {
+    return Math.max(0.55, 1 - Math.abs(offset) / 260);
   }
 
   function showSignalHint(strip) {
@@ -3207,7 +3212,7 @@ initAuth();
       wrap.appendChild(hint);
       strip.after(wrap);
       requestAnimationFrame(() => hint.classList.add('is-visible'));
-      if (strip.animate && !signalReduceMotion() && !signalBusy) {
+      if (strip.animate && !signalReduceMotion()) {
         strip.animate([
           { transform: 'translateY(0)' },
           { transform: 'translateY(-6px)', offset: 0.35 },
@@ -3248,10 +3253,12 @@ initAuth();
     let g = null;
     strip.addEventListener('touchstart', (event) => {
       g = null;
-      if (signalBusy || event.touches.length !== 1) return;
+      if (event.touches.length !== 1) return;
       const rect = strip.getBoundingClientRect();
       const onScreen = rect.top >= 0 && rect.bottom <= window.innerHeight;
-      const settled = performance.now() - signalLastScroll > 250;
+      // 100 ms is enough to tell a finger that has just stopped a fling from
+      // one still riding it; 250 ms swallowed real swipes right after a scroll.
+      const settled = performance.now() - signalLastScroll > 100;
       if (!onScreen || !settled) return;
       const touch = event.touches[0];
       g = { x: touch.clientX, y: touch.clientY, mode: '', step: 0, dy: 0, vy: 0, t: performance.now() };
@@ -3266,29 +3273,34 @@ initAuth();
         g.step = dy < 0 ? 1 : -1;
         const vertical = Math.abs(dy) > Math.abs(dx) * 1.2;
         g.mode = vertical && signalIssues[signalIndex + g.step] ? 'stack' : 'page';
+        // Grab the card where it is: stop any settle animation still running.
+        if (g.mode === 'stack') stopSignalMotion(strip);
       }
       if (g.mode !== 'stack') return;
       if (event.cancelable) event.preventDefault();
       const now = performance.now();
-      g.vy = (dy - g.dy) / Math.max(1, now - g.t);
+      // Smoothed velocity (px/ms) so one uneven frame can't fake or kill a flick.
+      const v = (dy - g.dy) / Math.max(1, now - g.t);
+      g.vy = g.vy ? g.vy * 0.4 + v * 0.6 : v;
       g.dy = dy;
       g.t = now;
       if (!signalReduceMotion()) {
-        const pull = Math.max(-28, Math.min(28, dy * 0.35));
-        strip.style.transform = `translateY(${pull}px) scale(${1 - Math.abs(pull) / 1400})`;
+        const pull = signalDragOffset(dy);
+        strip.style.transform = `translateY(${pull}px) scale(${1 - Math.abs(pull) / 2000})`;
+        strip.style.opacity = String(signalDragFade(pull));
       }
     }, { passive: false });
     const end = (cancelled) => {
       if (!g || g.mode !== 'stack') { g = null; return; }
-      const pull = signalReduceMotion() ? 0 : Math.max(-28, Math.min(28, g.dy * 0.35));
+      const pull = signalReduceMotion() ? 0 : signalDragOffset(g.dy);
       const sameWay = (g.dy < 0 ? 1 : -1) === g.step;
-      const far = Math.abs(g.dy) > 44 || Math.abs(g.vy) > 0.4;
+      const far = Math.abs(g.dy) > 40 || (Math.abs(g.vy) > 0.35 && Math.abs(g.dy) > 12);
       if (!cancelled && sameWay && far) stepSignal(g.step, pull);
       else snapSignalBack(strip, pull);
       g = null;
     };
-    strip.addEventListener('touchend', () => end(false));
-    strip.addEventListener('touchcancel', () => end(true));
+    strip.addEventListener('touchend', () => end(false), { passive: true });
+    strip.addEventListener('touchcancel', () => end(true), { passive: true });
   }
 
   function bindSignalStrip() {
