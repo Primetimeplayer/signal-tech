@@ -1,7 +1,88 @@
 {
-  "updated": "2026-10-23T10:21:25.416Z",
-  "count": 78,
+  "updated": "2026-10-23T11:53:48.014Z",
+  "count": 88,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Torvalds: AI is fine for competent devs, but spare us the 'drive-by' patches",
+      "link": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+      "published": "Fri, 23 Oct 2026 11:31:00 +0000",
+      "summary": "Linus Torvalds says AI can help competent developers, but kernel maintainers will ignore AI usage if the code is high quality.",
+      "image": "https://image.theregister.com/?imageId=5226908&width=800",
+      "whyItMatters": "It signals AI’s growing role in critical open-source projects and the importance of code quality over tool provenance."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
+      "link": "https://www.wired.com/review/samsung-galazy-z-flip8/",
+      "published": "Fri, 23 Oct 2026 11:30:00 +0000",
+      "summary": "Samsung’s Galaxy Z Flip8 offers a tiny, solid‑performing foldable phone with good camera, but at a higher price than its predecessor.",
+      "image": "https://media.wired.com/photos/6ada7f3c75ce8d8c38ba9dad/master/pass/Review%20Samsung%20Galaxy%20Z%20Flip8%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "whyItMatters": "Tech enthusiasts may value its compact design and performance, though the premium cost could be a concern."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "US banks scramble to restrict AI agent activity",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/us-banks-scramble-to-restrict-ai-agent-activity-agents-detected-accessing-customer-accounts-or-even-attempting-to-make-transactions-in-breach-of-policy",
+      "published": "Fri, 23 Oct 2026 11:30:00 +0000",
+      "summary": "U.S. banks are blocking AI agents from making transactions to prevent potential rogue activity and lack of transaction verification.",
+      "image": "https://cdn.mos.cms.futurecdn.net/pS86PgwskdTyusDMAhY3Qo-1920-80.png",
+      "whyItMatters": "Banks must safeguard against AI-driven fraud and maintain transaction integrity."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Claude and Grok among AI agents used to automate attacks on Latin American institutions",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
+      "published": "Fri, 23 Oct 2026 11:00:00 +0000",
+      "summary": "Claude and Grok AI agents are being used by CyberCartel to automate attacks on Latin American banks and payment apps.",
+      "image": "https://cdn.mos.cms.futurecdn.net/vRpHVXiNv3LEuAqzNwhCkY-1920-80.jpg",
+      "whyItMatters": "Tech-savvy readers should monitor these threats to safeguard financial infrastructure."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Startup equips genetically enhanced dogs with Palmer Luckey’s military tech",
+      "link": "https://www.theverge.com/tech/1017343/warhound-palmer-luckey-anduril-colossal-war-dogs",
+      "published": "2026-10-23T10:58:03.000Z",
+      "summary": "A Texas startup plans to genetically enhance dogs and equip them with Anduril’s military tech for U.S. defense and police use.",
+      "excerpt": "The Warhound website calls this “a new breed of dominance.” | Image: Warhound A new Texas-based defense startup has a plan to improve military and police dogs in the US: it's going to genetically modify them and equip them with Anduril's military technology. Warhound is the brainchild of Anduril's Palmer Luckey and Ben Lamm, co-founder of Colossal Biosciences (the company that says it's trying to resurrect extinct…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Warhound-Palmer-Luckey-startup-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It blends biotech and defense tech, raising ethical and operational questions for tech‑savvy readers."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
+      "link": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
+      "published": "Fri, 23 Oct 2026 10:45:00 +0000",
+      "summary": "The review says the Turtle Beach Vulcan II XP is good for typing but falls short in gaming due to many compromises.",
+      "image": "https://media.wired.com/photos/6ada67244d7b986a1aaead4e/master/pass/Turtle%20Beach%20Vulcan%20XP%20II%20SOURCE%20Matt%20Kamen.jpg",
+      "whyItMatters": "Tech-savvy readers should know it may not meet high-performance gaming expectations."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "China-aligned hackers deploy AI agents in massive ConnectWise supply chain attack",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/microsoft-says-china-aligned-hackers-used-ai-agents-in-connectwise-supply-chain-attack-agents-attempted-sign-ins-at-more-than-2-250-microsoft-365-tenants-with-some-of-the-groups-attacks-reaching-privileged-access-in-under-three-hours",
+      "published": "Fri, 23 Oct 2026 10:30:00 +0000",
+      "summary": "China-aligned Storm-0940 used the ARTEX AI agent framework to launch a massive ConnectWise supply chain attack on Microsoft’s Cloud Backup service.",
+      "image": "https://cdn.mos.cms.futurecdn.net/wA2Noe6WhknviBc6VQJqFo-1920-80.jpg",
+      "whyItMatters": "Shows AI-driven tools can amplify supply‑chain threats, raising security stakes for cloud‑based backup solutions."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "BOFH: I talked to Claude and he says you're an idiot",
+      "link": "https://www.theregister.com/bofh/2026/10/23/bofh-i-talked-to-claude-and-he-says-youre-an-idiot/5304921",
+      "published": "Fri, 23 Oct 2026 10:27:00 +0000",
+      "summary": "The piece references a conversation with Claude about being an idiot.",
+      "image": "https://image.theregister.com/?imageId=5304926&width=800",
+      "whyItMatters": "General commentary on tech interactions."
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -172,7 +253,6 @@
       "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "published": "Thu, 22 Oct 2026 22:08:24 +0000",
       "summary": "OpenAI is pursuing a $30B funding round at a $1.25T valuation, potentially becoming the most valuable private company ever.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680",
       "whyItMatters": "It signals massive investor confidence and could reshape the AI industry’s competitive landscape."
     },
     {
@@ -261,8 +341,7 @@
       "title": "Rivian buys world model startup to accelerate self-driving ambitions",
       "link": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
       "published": "Thu, 22 Oct 2026 21:05:05 +0000",
-      "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/12/Rivian-Universal-Hands-Free.jpg?resize=1200,900"
+      "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator."
     },
     {
       "source": "The Verge",
@@ -284,23 +363,12 @@
       "image": "https://image.theregister.com/?imageId=178701&width=800"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
-      "link": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-      "published": "2026-10-22T20:23:48.000Z",
-      "summary": "On October 13th, Brendan Carr's FCC gave itself a new power - it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it's exercising that power for the first…",
-      "excerpt": "On October 13th, Brendan Carr's FCC gave itself a new power - it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it's exercising that power for the first time, blocking two gadgets because they contain \"foreign surveillance chips,\" the FCC claims. The agency doesn't say which specific gadgets it blocked, and it didn't immediately…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "The secret to fast startup growth isn’t early sales, top names in tech say",
       "link": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say/",
       "published": "Thu, 22 Oct 2026 20:00:00 +0000",
-      "summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polsia's Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55593304916_918c404f7a_o.jpg?resize=1200,800"
+      "summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polsia's Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days."
     },
     {
       "source": "The Register",
@@ -312,31 +380,12 @@
       "image": "https://image.theregister.com/?imageId=5304880&width=800"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "The Social Society Helping Women Join the AI Boom",
-      "link": "https://www.wired.com/story/aged-intelligence-society-interview/",
-      "published": "Thu, 22 Oct 2026 19:56:32 +0000",
-      "summary": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using frontier tools.”",
-      "image": "https://media.wired.com/photos/6ada7db9ecc44326fbe9e386/master/pass/Model-Behavior-Illo-102226-2.jpg"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
       "link": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
       "published": "Thu, 22 Oct 2026 19:07:09 +0000",
-      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/AI-agents.jpg?resize=1200,675"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Inside the Exclusive Nathan Fielder Interview",
-      "link": "https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/",
-      "published": "Thu, 22 Oct 2026 19:06:37 +0000",
-      "summary": "This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspicious letters sent to US election offices.",
-      "image": "https://media.wired.com/photos/6ad948eb213049c1e3561565/master/pass/business-Uncanny-Valley-Nathan-Fielder.jpg"
+      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts."
     },
     {
       "source": "Ars Technica",
@@ -365,6 +414,16 @@
       "published": "Thu, 22 Oct 2026 18:29:39 +0000",
       "summary": "The Russian official who called commercial satellites \"legitimate targets\" now says concerns are \"unfounded.\"",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vorontsov-1152x648.jpg"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
+      "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
+      "published": "Thu, 22 Oct 2026 18:13:38 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with…",
+      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with Aalyria’s Brian Barritt appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Aalyria-2000-1500.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -396,34 +455,6 @@
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_DESI194.5345+03.5358_74_flat_FINALok.tif?w=2048"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "When the attacker becomes the user: Rethinking account takeover",
-      "link": "https://www.theregister.com/security/2026/10/22/sponsored-when-the-attacker-becomes-the-user-rethinking-account-takeover/5303913",
-      "published": "Thu, 22 Oct 2026 15:00:00 +0000",
-      "summary": "SPONSORED FEATURE: AI makes phishing easier than ever",
-      "image": "https://image.theregister.com/?imageId=5303915&width=800"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "One easy change makes Microsoft's Surface Laptop Ultra with RTX Spark a better gaming system",
-      "link": "https://www.tomshardware.com/video-games/pc-gaming/one-easy-change-makes-microsofts-surface-laptop-ultra-with-rtx-spark-a-better-gaming-system-custom-resolutions-make-dlss-easier-on-the-device",
-      "published": "Thu, 22 Oct 2026 13:30:00 +0000",
-      "summary": "Microsoft's Surface Laptop Ultra with RTX Spark might not be a gaming laptop first and foremost, but it certainly wants to game. We found that creating a custom 1920x1080-equivalent resolution for its 3:2 screen, missing from its…",
-      "excerpt": "Microsoft's Surface Laptop Ultra with RTX Spark might not be a gaming laptop first and foremost, but it certainly wants to game. We found that creating a custom 1920x1080-equivalent resolution for its 3:2 screen, missing from its out-of-the-box config, makes for a better experience.",
-      "image": "https://cdn.mos.cms.futurecdn.net/eaoVZGZzRqzXmF7J97SBbE-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Leaked private keys for eight CA certificates let any attacker impersonate any domain",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/leaked-private-keys-for-eight-ca-certificates-let-any-attacker-impersonate-any-domain-billions-of-older-devices-and-software-installations-may-be-vulnerable-after-round-of-fixes-patch-yours-immediately",
-      "published": "Thu, 22 Oct 2026 13:14:20 +0000",
-      "summary": "Leaked private keys for eight CA certificates let any attacker impersonate any domain — billions of older devices and software installations may be vulnerable after round of fixes, patch yours immediately",
-      "image": "https://cdn.mos.cms.futurecdn.net/9ayjX5pnSftEeACZ5V7XaP-1920-80.jpg"
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "Why Engineers Should Brave Capitol Hill",
@@ -434,15 +465,6 @@
       "image": "https://spectrum.ieee.org/media-library/group-of-five-men-standing-outside-an-office-with-a-placard-that-reads-representative-greg-casar-texas-446.png?id=68486788&width=980"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "AMD Ryzen 5 5500F review: Vermeer rides again for budget gaming PCs",
-      "link": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-5-5500f-review",
-      "published": "Thu, 22 Oct 2026 12:40:00 +0000",
-      "summary": "After years with the Cezanne-based 5500, AMD has finally updated its $100 CPU to the 5500F in the Vermeer family, adding a 200 MHz boost in clock speed and a PCIe 4.0 upgrade.",
-      "image": "https://cdn.mos.cms.futurecdn.net/4WsiGMV9jZ5LQATHWz6S7h-1920-80.jpg"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: computing’s next leap and permafrost’s climate threat",
@@ -451,24 +473,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a…",
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is no physical…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/ai-hitpiece.jpg?fit=1456,818"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Micron pulls the plug on future 4F² DRAM after two decades of research in dramatic shift",
-      "link": "https://www.tomshardware.com/pc-components/dram/micron-pulls-the-plug-on-future-4f2-dram-after-two-decades-of-research-in-dramatic-shift-company-says-architecture-offers-no-meaningful-density-advantages-increases-manufacturing-complexity-and-costs-and-has-fundamental-scaling-limitations",
-      "published": "Thu, 22 Oct 2026 12:00:00 +0000",
-      "summary": "Micron believes that more advanced process technologies will present more benefits in terms of DRAM bit density than smaller memory cells.",
-      "image": "https://cdn.mos.cms.futurecdn.net/nWhyKE8ofwr2FTG2DecjpN-1920-80.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Retro Atari VCS platform will end with the closure of its software store in February 2027",
-      "link": "https://www.tomshardware.com/video-games/retro-gaming/retro-atari-vcs-platform-will-end-with-the-closure-of-its-software-store-in-february-2027-os-update-will-be-released-removing-reliance-on-atari-servers-and-opening-up-homebrew-development",
-      "published": "Thu, 22 Oct 2026 11:45:00 +0000",
-      "summary": "The modern Atari VCS is being officially retired with the firm’s decision to shut down the Linux-based AMD APU-powered machine's software store early next year.",
-      "image": "https://cdn.mos.cms.futurecdn.net/XShVKXVKaxqCkqmcnxHqth-1920-80.jpg"
     },
     {
       "source": "MIT Technology Review",
@@ -526,7 +530,17 @@
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
-      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog."
+      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
+      "link": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
+      "published": "Wed, 21 Oct 2026 15:26:29 +0000",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile…",
+      "excerpt": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner appeared first on SpaceNews."
     },
     {
       "source": "Krebs on Security",
@@ -537,6 +551,25 @@
       "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected…",
       "excerpt": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shutterstock-codeonscreenphp.png"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
+      "link": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
+      "published": "Wed, 21 Oct 2026 15:00:22 +0000",
+      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to…",
+      "excerpt": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to Reach $145 Billion by 2035 appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
+      "link": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
+      "published": "Wed, 21 Oct 2026 14:29:57 +0000",
+      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…",
+      "excerpt": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller appeared first on SpaceNews."
     },
     {
       "source": "IEEE Spectrum",
@@ -559,6 +592,16 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Summer of Quantum: Building momentum for space-based QKD",
+      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
+      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
+      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
+      "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
+    },
+    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Nuclear-powered spaceships",
@@ -578,13 +621,24 @@
       "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog."
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
+      "link": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
+      "published": "Tue, 20 Oct 2026 13:00:00 +0000",
+      "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
+      "excerpt": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural […] The post AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog."
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
     },
     {
       "source": "IEEE Spectrum",
@@ -637,13 +691,23 @@
       "image": "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=980"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
+      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
+      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
+      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog."
+      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
     },
     {
       "source": "GitHub Blog",
@@ -653,6 +717,25 @@
       "published": "Thu, 15 Oct 2026 18:00:00 +0000",
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How NASA is thinking about a moon base",
+      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
+      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
+      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…",
+      "excerpt": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to Seattle Area with New Bellevue Office appeared first on SpaceNews."
     },
     {
       "source": "GitHub Blog",
@@ -683,6 +766,16 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
+      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
+      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
+      "excerpt": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more quickly bring new tech to Europe, and to orbit appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
+    },
+    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
@@ -708,7 +801,18 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog."
+      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
+      "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
+      "published": "Mon, 12 Oct 2026 13:00:00 +0000",
+      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post…",
+      "excerpt": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission. appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/jenaoptronik.png?fit=719%2C719&ssl=1"
     },
     {
       "source": "Krebs on Security",
