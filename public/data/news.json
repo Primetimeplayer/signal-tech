@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-23T00:18:16.072Z",
+  "updated": "2026-10-23T02:18:54.628Z",
   "count": 93,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "published": "Fri, 23 Oct 2026 00:45:37 +0000",
+      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590"
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -147,6 +156,15 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_1_Meta.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
+      "source": "The Register",
+      "category": "news",
+      "title": "Human receives AI-designed virus for the first time",
+      "link": "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874",
+      "published": "Thu, 22 Oct 2026 20:31:39 +0000",
+      "summary": "Not to kill the human, of course – to kill the antibiotic-resistant bacteria causing their infection",
+      "image": "https://image.theregister.com/?imageId=178701&width=800"
+    },
+    {
       "source": "The Verge",
       "category": "news",
       "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
@@ -215,7 +233,8 @@
       "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
       "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
       "published": "Thu, 22 Oct 2026 19:00:00 +0000",
-      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?"
+      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-12.17.11-PM-1.png?resize=1200,988"
     },
     {
       "source": "Ars Technica",
@@ -241,15 +260,8 @@
       "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
       "link": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
       "published": "Thu, 22 Oct 2026 18:43:53 +0000",
-      "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
-      "link": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
-      "published": "Thu, 22 Oct 2026 18:38:47 +0000",
-      "summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks."
+      "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1935915215.jpg?w=1024"
     },
     {
       "source": "Ars Technica",
@@ -284,7 +296,8 @@
       "title": "How bug bounty sharpens one researcher’s security skills",
       "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
       "published": "Thu, 22 Oct 2026 17:21:30 +0000",
-      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…"
+      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
+      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
     },
     {
       "source": "PC Gamer",
@@ -438,15 +451,6 @@
       "published": "Thu, 22 Oct 2026 10:59:58 +0000",
       "summary": "Save 33% on a new Alienware 16X Aurora gaming laptop at Best Buy. RTX 5070 graphics and a sharp OLED panel are highlights of this laptop build.",
       "image": "https://cdn.mos.cms.futurecdn.net/HtneRksdLP4Pz5KrSNSdUe-1920-80.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Veteran ESA probe rolls out welcome mat for Japan's Phobos mission",
-      "link": "https://www.theregister.com/science/2026/10/22/veteran-esa-probe-rolls-out-welcome-mat-for-japans-phobos-mission/5304684",
-      "published": "Thu, 22 Oct 2026 10:45:27 +0000",
-      "summary": "Mars Express could support MMX's 2027 arrival as another 'last ever' extension keeps old spacecraft in flight",
-      "image": "https://image.theregister.com/?imageId=254666&width=800"
     },
     {
       "source": "MIT Technology Review",
