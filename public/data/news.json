@@ -1,16 +1,140 @@
 {
-  "updated": "2026-10-23T12:29:10.801Z",
-  "count": 92,
+  "updated": "2026-10-23T15:29:55.264Z",
+  "count": 94,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Lab testing giant Quest Diagnostics confirms patients’ personal and health data was compromised during breach",
+      "link": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
+      "published": "Fri, 23 Oct 2026 15:00:09 +0000",
+      "summary": "Quest Diagnostics confirmed a breach exposing patients’ personal and health data.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/quest-862530304.jpg?resize=1200,743",
+      "whyItMatters": "Healthcare data breaches threaten privacy and trust, impacting patient security and regulatory compliance."
+    },
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "FCC bans first two devices from the US under new chip-level rule",
+      "title": "Gigabyte Z890M Aorus Elite WiFi7 Motherboard Review: Icy-white SFF board offers full-size features for Intel",
+      "link": "https://www.tomshardware.com/pc-components/motherboards/gigabyte-z890m-aorus-elite-wifi7-motherboard-review",
+      "published": "Fri, 23 Oct 2026 15:00:00 +0000",
+      "summary": "The $209 Gigabyte Z890M Aorus Elite WiFi7 Micro‑ATX board sports an icy‑white design and full heatsink coverage for premium Intel builds.",
+      "image": "https://cdn.mos.cms.futurecdn.net/3H68kTuxq7PEgdfpZT2XPm-1920-80.jpg",
+      "whyItMatters": "Its aesthetic and cooling make it appealing for stylish, high‑performance Intel SFF setups."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "In a rare instance of good news, Philips has announced the world's first 36-inch, 260 Hz gaming monitor. So that's nice",
+      "link": "https://www.pcgamer.com/hardware/gaming-monitors/in-a-rare-instance-of-good-news-philips-has-announced-the-worlds-first-36-inch-260-hz-gaming-monitor-so-thats-nice/",
+      "published": "Fri, 23 Oct 2026 14:55:41 +0000",
+      "summary": "Philips unveiled the world’s first 36‑inch gaming monitor with a 260 Hz refresh rate.",
+      "image": "https://cdn.mos.cms.futurecdn.net/zkJfqJuJFshsSF7f9nfBba-1920-80.jpg",
+      "whyItMatters": "It offers gamers ultra‑smooth visuals, potentially improving competitive performance."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "LG UltraGear Evo 52G930B Evo gaming monitor review",
+      "link": "https://www.pcgamer.com/hardware/gaming-monitors/lg-ultragear-evo-52g930b-review/",
+      "published": "Fri, 23 Oct 2026 14:31:50 +0000",
+      "summary": "LG's 52‑inch ultrawide 5K2K monitor is surprisingly old‑school in design and features.",
+      "image": "https://cdn.mos.cms.futurecdn.net/UvxifFiGG6tWy5R9jXnv8E-1920-80.jpg",
+      "whyItMatters": "Its massive size and high resolution make it a standout for immersive gaming and productivity."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Our best tips for using the iPhone Duo",
+      "link": "https://www.theverge.com/tech/1017157/iphone-duo-tips-touch-id-magsafe",
+      "published": "2026-10-23T14:00:00.000Z",
+      "summary": "The article offers practical tips for navigating the new iPhone Duo, highlighting its unique design and learning curve for first-time users.",
+      "excerpt": "It’s been a long time since we had to rethink how to use an iPhone. | Photo: Amelia Holowaty Krales / The Verge The Duo is an entirely new kind of iPhone, so it comes with a bit of a learning curve. That's a wild thing to imagine, since the iPhone has had very few fundamental changes since its inception. But the Duo is built different. If you won the preorder lottery and managed to get your hands on one today…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1057.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy readers will appreciate guidance on leveraging the Duo’s distinct features and optimizing their experience."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Amazon bows to local backlash over AI data centers, scraps plans to build four new facilities in Northern Virginia",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/amazon-bows-to-local-backlash-over-ai-data-centers-scraps-plans-to-build-four-new-facilities-in-northern-virginia-site-to-be-repurposed-for-mixed-use-and-residential-development",
+      "published": "Fri, 23 Oct 2026 13:36:50 +0000",
+      "summary": "Amazon canceled four planned AI data centers in Loudoun County, Virginia, after local opposition, opting to repurpose the land for mixed and residential use.",
+      "image": "https://cdn.mos.cms.futurecdn.net/eUBbKqSoTbmPLiP7oLHcvh-1920-80.jpg",
+      "whyItMatters": "Shows how community pushback can reshape tech infrastructure plans and influence regional development."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Graphics card wholesale prices are on the rise once again in China, so it's time to brace yourself for even more GPU pricing pain",
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/graphics-card-wholesale-prices-are-on-the-rise-once-again-in-china-so-its-time-to-brace-yourself-for-even-more-gpu-pricing-pain/",
+      "published": "Fri, 23 Oct 2026 13:36:34 +0000",
+      "summary": "GPU wholesale prices in China are climbing again.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Hjb6HkSyfSfeMhcaps2vXR-1920-80.jpg",
+      "whyItMatters": "Tech readers should anticipate higher GPU costs."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "China can make advanced chips without EUV, but the bill keeps growing",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/china-can-make-advanced-chips-without-euv-but-the-bill-keeps-growing-duv-multiple-patterning-means-bigger-dies-lower-yields-and-longer-manufacturing-times",
+      "published": "Fri, 23 Oct 2026 13:30:00 +0000",
+      "summary": "China extends DUV lithography with multiple patterning to near 5nm, but cost and yield limits future progress.",
+      "excerpt": "China has stretched older DUV lithography far further than expected, using multiple patterning to approach 5nm-class without EUV. But experts say the trade-offs in cost, yield, and die size mean further advancements are unlikely to be economically viable.",
+      "image": "https://cdn.mos.cms.futurecdn.net/ZdNHVUmd5uG5inBMbnkzDU-1920-80.webp",
+      "whyItMatters": "Tech readers should note China’s cost‑driven limits on next‑gen chip scaling."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "People are vibe coding their way to better TVs",
+      "link": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
+      "published": "2026-10-23T13:00:00.000Z",
+      "summary": "Users use LLMs and open-source tools to remove ads, trim bloat, and redesign TV homescreens for cleaner, faster experiences.",
+      "excerpt": "Just imagine… a nice, clean homescreen with no ads, thanks to Claude. | Image: cleanyourtv Vibe coding has reached TVs. Social media is awash with posts from people using LLMs and open-source tools to remove ads and tracking, trim bloat so the OS runs faster, and even completely change the look and organization of their homescreens. While a lot of it is fun - one user turned their TV homescreen into a Pokémon town -…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/cleanyourtv-home-page.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy readers can improve TV performance and privacy with AI-driven customizations."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Brick’s new app blocker is designed for bedtime doomscrolling",
+      "link": "https://www.theverge.com/gadgets/1017383/brick-night-app-blocker-gadget-bluetooth-launch",
+      "published": "2026-10-23T12:50:17.000Z",
+      "summary": "Brick released the $129 Brick Night, a larger, pricier device that blocks phone apps to curb bedtime doomscrolling using location-based activation.",
+      "excerpt": "The Brick Night is considerably bigger then the OG Brick, and more than double the price. | Image: Brick Brick, the company behind the $59 gadget that blocks you from using apps on your phone, has launched a new device that's designed to help you cut back on doomscrolling in bed. The $129 Brick Night introduces a location-based element: instead of requiring you to tap your phone against the device, like the OG…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Brick-Night-app-blocker-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy users may value better sleep hygiene and device control for healthier nighttime habits."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Illegal Nvidia Blackwell Ultra B300 GPUs found inside state-owned China Telecom's network",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor",
+      "published": "Fri, 23 Oct 2026 12:26:23 +0000",
+      "summary": "Security firm uncovered 32 Nvidia Blackwell Ultra B300 AI chips in China Telecom’s network, but their physical location remains unknown.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kPWDNNZTPJyoeQtTCpMqQi-1920-80.jpg",
+      "whyItMatters": "Highlights potential export‑control violations and risks of unauthorized high‑performance AI hardware in state networks."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "FCC issues first bans under new chip-level rule",
       "link": "https://www.tomshardware.com/tech-industry/cyber-security/fcc-bans-first-two-devices-from-the-us-under-new-chip-level-rule-huawei-subsidiary-chip-boasts-face-detection-algorithm",
       "published": "Fri, 23 Oct 2026 12:15:00 +0000",
       "summary": "The FCC banned a HiSilicon dashcam and wireless video transmitter for containing an AI chip advertising face detection.",
       "image": "https://cdn.mos.cms.futurecdn.net/FhrgMpu9kjGuT5ZVpNWx6g-1920-80.jpg",
       "whyItMatters": "Tech readers should note rising regulatory scrutiny on AI chips in consumer devices."
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: testing six tech promises and biotech’s blind spots",
+      "link": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+      "published": "Fri, 23 Oct 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/06/SoundofDataFinal1f-thumb.jpeg?w=840"
     },
     {
       "source": "The Verge",
@@ -74,6 +198,15 @@
       "whyItMatters": "Banks must safeguard against AI-driven fraud and maintain transaction integrity."
     },
     {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Consultant comes clean for sparking worldwide panic by accidentally breaking the PHP vulnerability embargo",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/devastated-forum-user-who-accidentally-broke-the-php-news-embargo-comes-clean-user-says-they-were-unaware-of-disclosure-restrictions-move-clearly-backfired-in-a-pretty-wild-fashion",
+      "published": "Fri, 23 Oct 2026 11:15:00 +0000",
+      "summary": "The user said that they only wanted to alert others about the importance of the upcoming CVE releases and weren't told about the embargo.",
+      "image": "https://cdn.mos.cms.futurecdn.net/treU54HC35g9uxgWUT2cYD-1920-80.png"
+    },
+    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
@@ -82,16 +215,6 @@
       "summary": "Canada aims to launch satellites independently, seeking autonomy in space access.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/reaction-dynamics-1152x648.jpg",
       "whyItMatters": "It signals growing national space capabilities and competition in the global launch market."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Claude and Grok among AI agents used to automate attacks on Latin American institutions",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
-      "published": "Fri, 23 Oct 2026 11:00:00 +0000",
-      "summary": "Claude and Grok AI agents are being used by CyberCartel to automate attacks on Latin American banks and payment apps.",
-      "image": "https://cdn.mos.cms.futurecdn.net/vRpHVXiNv3LEuAqzNwhCkY-1920-80.jpg",
-      "whyItMatters": "Tech-savvy readers should monitor these threats to safeguard financial infrastructure."
     },
     {
       "source": "The Verge",
@@ -115,16 +238,6 @@
       "whyItMatters": "Tech-savvy readers should know it may not meet high-performance gaming expectations."
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "China-aligned hackers deploy AI agents in massive ConnectWise supply chain attack",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/microsoft-says-china-aligned-hackers-used-ai-agents-in-connectwise-supply-chain-attack-agents-attempted-sign-ins-at-more-than-2-250-microsoft-365-tenants-with-some-of-the-groups-attacks-reaching-privileged-access-in-under-three-hours",
-      "published": "Fri, 23 Oct 2026 10:30:00 +0000",
-      "summary": "China-aligned Storm-0940 used the ARTEX AI agent framework to launch a massive ConnectWise supply chain attack on Microsoft’s Cloud Backup service.",
-      "image": "https://cdn.mos.cms.futurecdn.net/wA2Noe6WhknviBc6VQJqFo-1920-80.jpg",
-      "whyItMatters": "Shows AI-driven tools can amplify supply‑chain threats, raising security stakes for cloud‑based backup solutions."
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "BOFH: I talked to Claude and he says you're an idiot",
@@ -144,26 +257,6 @@
       "excerpt": "Don’t be fooled; only one of these is a truly small phone (it’s the iPhone 13 Mini on the left). When we published our review of the iPhone Duo, I got a lot of hopeful questions from my fellow Mini fans who took note of the cover screen's Mini-ish 5.4-inch size. \"Is this… a small phone that turns into a tablet?\" they asked. And I'm sorry to be the bearer of bad news, but no. The Duo is not the small phone we've been…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04350_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "It informs Mini enthusiasts that the Duo isn’t a compact device, shaping expectations for size and functionality."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Wolves roam into Finnish villages after Google destroys 1,300 acres of forest for AI data centers",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/wolves-roam-into-finnish-villages-after-google-destroys-1-300-acres-of-forest-for-ai-data-centers-forest-where-wolf-packs-used-to-live-are-now-an-expanse-of-mud",
-      "published": "Fri, 23 Oct 2026 10:00:00 +0000",
-      "summary": "Wolves are entering Finnish villages after Google cleared 1,300 acres for AI data centers.",
-      "image": "https://cdn.mos.cms.futurecdn.net/jdtik9ACK8EYqi9fwXEuH9-1920-80.jpg",
-      "whyItMatters": "It shows how tech infrastructure can disrupt wildlife habitats, raising concerns for local ecosystems and community safety."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Extremely rare and 'previously undocumented' Pokémon Red prototype cartridge surfaces at auction, starting at $25,000",
-      "link": "https://www.tomshardware.com/video-games/nintendo/extremely-rare-and-previously-undocumented-pokemon-red-prototype-cartridge-surfaces-at-auction-starting-at-usd25-000-nintendo-game-boy-dev-board-from-1998-features-32kb-of-readable-memory-fully-identical-to-the-final-game-release",
-      "published": "Fri, 23 Oct 2026 09:40:00 +0000",
-      "summary": "A rare Pokémon Red prototype Game Boy cartridge is auctioning, with a $25,000 bid already placed.",
-      "image": "https://cdn.mos.cms.futurecdn.net/bRePQqamXmnTdUoDtvAvv-1920-80.jpg",
-      "whyItMatters": "Collectors and gaming historians value such unique artifacts for their historical significance."
     },
     {
       "source": "PC Gamer",
@@ -277,17 +370,6 @@
       "whyItMatters": "It blends biotech and defense tech, raising questions about ethics, security, and future battlefield capabilities."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The next-gen Xbox won’t cost you $1,800. It can’t. Can it?",
-      "link": "https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial",
-      "published": "2026-10-22T23:00:00.000Z",
-      "summary": "Fortune reports Microsoft’s next Xbox will cost $1,200–$1,800, sparking doubts about its viability and pricing strategy.",
-      "excerpt": "An Xbox Elite controller. | Photo by Antonio G. Di Benedetto / The Verge Fortune dropped a bombshell report on the future of gaming this week. According to the publication's Microsoft insiders, the next Xbox is projected to cost between $1,200 and $1,800 when it arrives in 2028. My first reaction: The next Xbox is dead on arrival. It's DOA. My second thought: Microsoft knows people won't pay that much. It couldn't…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23516635/adbenedetto_220508_5192_0047.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech readers should watch pricing trends that could reshape console market dynamics."
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "My GOTY is $7 and has 253 Steam reviews",
@@ -317,17 +399,6 @@
       "whyItMatters": "It signals massive investor confidence and could reshape the AI industry’s competitive landscape."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Canva’s first AI image model plans designs before generating them",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-      "published": "2026-10-22T21:51:25.000Z",
-      "summary": "Canva launches Canva Craft, a two-stage AI image model that plans designs before generating images for higher precision and control.",
-      "excerpt": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an announcement on Thursday. Canva Craft can generate images at up to 2K…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It offers designers tighter control over AI-generated visuals, potentially improving workflow efficiency and output quality."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
@@ -337,15 +408,6 @@
       "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg",
       "whyItMatters": "It highlights key tech trends shaping future lunar missions and workforce development."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Epic announces game jam where you have to use AI, then walks back the requirement",
-      "link": "https://www.pcgamer.com/software/ai/epic-announces-game-jam-where-you-have-to-use-ai/",
-      "published": "Thu, 22 Oct 2026 21:39:30 +0000",
-      "summary": "The Unreal Engine and Fortnite company has extended the public a many-fingered invitation.",
-      "image": "https://cdn.mos.cms.futurecdn.net/kcoLy3wUGtqe8Xvfo3fa5U-1920-80.jpg"
     },
     {
       "source": "NASA",
@@ -358,16 +420,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/hubble-ngc1827-1-flat-final.jpg?w=2048"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
-      "link": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
-      "published": "2026-10-22T21:30:39.000Z",
-      "summary": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with earlier reports from IDC and Omdia. It's not just PCs…",
-      "excerpt": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with earlier reports from IDC and Omdia. It's not just PCs, either - that same quarter, smartphone shipments also hit a 14-year low. Counterpoint linked the decline in PC shipments to higher component prices. Up until Q2 2026, PC shipments had…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_C.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Designing an AI serving harness built to last",
@@ -376,16 +428,6 @@
       "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model…",
       "excerpt": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?w=840"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Fall 2026 earnings watch",
-      "link": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
-      "published": "2026-10-22T21:15:16.000Z",
-      "summary": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to investor calls, and call out the latest wins and losses from…",
-      "excerpt": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to investor calls, and call out the latest wins and losses from around the tech sector and what it means for where the companies go next. Sure, let’s smoosh SpaceX and Tesla together, who cares Just because Tesla’s Optimus is in production doesn’t…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKS501_STOCKS_CVIRGINIA_E.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "Ars Technica",
@@ -403,16 +445,6 @@
       "link": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
       "published": "Thu, 22 Oct 2026 21:05:05 +0000",
       "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Meta’s AI could still scrape news sites, legal experts say",
-      "link": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "published": "2026-10-22T20:32:05.000Z",
-      "summary": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to…",
-      "excerpt": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape entire sites,\" James Grimmelmann, a professor of digital and information law at…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_1_Meta.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "The Register",
@@ -643,16 +675,6 @@
       "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
       "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "Nuclear-powered spaceships",
-      "link": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
-      "published": "Wed, 21 Oct 2026 09:00:00 +0000",
-      "summary": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly…",
-      "excerpt": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/SPACESHIP-FINAL.jpg?resize=1200,600"
     },
     {
       "source": "GitHub Blog",
