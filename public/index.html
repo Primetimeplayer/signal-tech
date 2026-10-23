@@ -277,6 +277,10 @@
         <button class="theme-toggle" id="themeToggle" data-i18n-aria="themeToggle" data-i18n-title="themeTitle" aria-label="Toggle light and dark theme" title="Toggle theme">
           <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
         </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn data-i18n-aria="logInSync" data-i18n-title="signInGoogle" aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+          <span class="account-label" data-i18n="logIn">Log in</span>
+        </button>
       </div>
     </div>
     <p class="tagline" data-i18n="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
@@ -336,6 +340,15 @@
       <button type="button" class="filter top-nav-item" data-cat="reddit" data-i18n="catCommunity" aria-pressed="false">Community</button>
       <button type="button" class="filter top-nav-item toggle-hw" data-i18n="hardware" aria-pressed="false">Hardware</button>
       <button type="button" class="filter top-nav-item toggle-saved" data-i18n="saved" aria-pressed="false">Saved</button>
+    </div>
+
+    <div class="top-nav-divider"></div>
+
+    <div class="top-nav-section sidebar-account">
+      <button type="button" class="top-nav-item" id="syncSettingsBtn" data-account-btn data-i18n-aria="logInSync" data-i18n-title="signInGoogle" aria-label="Log in to sync saved stories" title="Sign in with Google">
+        <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        <span class="account-label" data-i18n="logIn">Log in</span>
+      </button>
     </div>
 
     <div class="top-nav-divider"></div>

@@ -341,12 +341,7 @@ async function logoutAccount() {
   authState = { authenticated: false, user: null };
   authReady = true;
 
-  const accountBtn = document.getElementById('syncSettingsBtn');
-
-  if (accountBtn) {
-    setAccountLabel('login');
-    accountBtn.title = t('signInGoogle');
-  }
+  setAccountLabel('login');
 
   render();
 }
@@ -371,13 +366,8 @@ async function initAuth() {
 
   authReady = true;
 
-  const accountBtn = document.getElementById('syncSettingsBtn');
-
   if (authState.authenticated) {
-    if (accountBtn) {
-      setAccountLabel('logout');
-      accountBtn.title = authState.user?.email || t('logOut');
-    }
+    setAccountLabel('logout');
 
     try {
       await migrateLocalSavedToCloud();
@@ -386,34 +376,47 @@ async function initAuth() {
       console.error('Saved Stories sync failed:', e.message);
     }
   } else {
-    if (accountBtn) {
-      setAccountLabel('login');
-      accountBtn.title = t('signInGoogle');
-    }
+    setAccountLabel('login');
   }
 }
 
-// Keeps the account icon and updates only its visible/accessible label.
+// Two account buttons share one state: #accountBtn in the masthead (desktop)
+// and #syncSettingsBtn in the navigation drawer (phones). Only the icon is
+// kept; the label, aria-label and tooltip follow the signed-in state, and the
+// data-i18n keys let a language switch re-translate them.
 function setAccountLabel(label) {
-  const btn = document.getElementById('syncSettingsBtn');
-  if (!btn) return;
-  let textNode = btn.querySelector('.account-label');
-  if (!textNode) {
-    textNode = document.createElement('span');
-    textNode.className = 'account-label';
-    btn.appendChild(textNode);
-  }
   const mode = label === 'logout' || label === 'Log out' ? 'logout' : 'login';
-  textNode.textContent = mode === 'logout' ? t('logOut') : t('logIn');
-  btn.setAttribute('aria-label', mode === 'logout' ? t('logOutAccount') : t('logInSync'));
+  document.querySelectorAll('[data-account-btn]').forEach((btn) => {
+    let textNode = btn.querySelector('.account-label');
+    if (!textNode) {
+      textNode = document.createElement('span');
+      textNode.className = 'account-label';
+      btn.appendChild(textNode);
+    }
+    const labelKey = mode === 'logout' ? 'logOut' : 'logIn';
+    const ariaKey = mode === 'logout' ? 'logOutAccount' : 'logInSync';
+    textNode.setAttribute('data-i18n', labelKey);
+    textNode.textContent = t(labelKey);
+    btn.setAttribute('data-i18n-aria', ariaKey);
+    btn.setAttribute('aria-label', t(ariaKey));
+    if (mode === 'logout') {
+      btn.removeAttribute('data-i18n-title');
+      btn.title = authState.user?.email || t('logOut');
+    } else {
+      btn.setAttribute('data-i18n-title', 'signInGoogle');
+      btn.title = t('signInGoogle');
+    }
+  });
 }
 
-document.getElementById('syncSettingsBtn')?.addEventListener('click', () => {
-  if (authState.authenticated) {
-    logoutAccount();
-  } else {
-    window.location.href = `${AUTH_BASE}/auth/google`;
-  }
+document.querySelectorAll('[data-account-btn]').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    if (authState.authenticated) {
+      logoutAccount();
+    } else {
+      window.location.href = `${AUTH_BASE}/auth/google`;
+    }
+  });
 });
 
   // render() rebuilds the cards, so the button that was clicked is gone by the
@@ -2942,7 +2945,7 @@ initAuth();
     visibleCount = PAGE_SIZE;
     syncCategoryPressed();
     if (renderNow) render();
-    if (hash === 'settings') document.getElementById('syncSettingsBtn')?.focus();
+    if (hash === 'settings') document.getElementById(window.matchMedia('(max-width: 800px)').matches ? 'syncSettingsBtn' : 'accountBtn')?.focus();
   }
 
   const FILTER_TO_HASH = { news: 'technology', papers: 'ai', reddit: 'community' };
