@@ -54,6 +54,7 @@
 
   const SUN_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>';
   const MOON_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+  const BOOKMARK_SVG = '<svg class="save-icon" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false"><path d="M6 3h12v18l-6-4-6 4z" fill="FILL" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>';
 
   const VERTICALS = {
     software: ['software', 'developer', 'programming', 'github', 'linux', 'windows', 'open source', 'open-source', 'javascript', 'python'],
@@ -62,6 +63,7 @@
     space: ['spacex', 'nasa', 'rocket', 'rockets', 'satellite', 'orbit', 'lunar', 'astronaut', 'apollo'],
     security: ['security', 'cybersecurity', 'ransomware', 'vulnerability', 'malware', 'breach', 'encrypt', 'encryption'],
     gadgets: ['laptop', 'smartphone', 'iphone', 'android', 'tablet', 'macbook', 'ipad', 'headphone', 'wearable', 'gadget'],
+    ai: ['ai', 'a.i.', 'artificial intelligence', 'machine learning', 'deep learning', 'neural network', 'llm', 'llms', 'large language model', 'language model', 'generative', 'genai', 'chatbot', 'chatgpt', 'gpt', 'openai', 'anthropic', 'claude', 'gemini', 'copilot', 'grok', 'xai', 'deepseek', 'mistral', 'llama', 'perplexity', 'hugging face', 'agentic', 'ai agent', 'ai agents', 'ai model', 'ai models', 'ai chip', 'ai chips'],
   };
 
   const HARDWARE_KEYWORDS = [
@@ -500,7 +502,7 @@ initAuth();
     return t('daysAgo', { n: Math.floor(hrs / 24) });
   }
   function catLabel(cat) {
-    return { news: t('catNews'), papers: t('catPaper'), reviews: t('catReview'), reddit: t('catReddit') }[cat] || cat;
+    return { news: t('catNews'), papers: t('catPaper'), reviews: t('catReview'), review: t('catReview'), guide: t('catGuide'), reddit: t('catReddit') }[cat] || cat;
   }
   function escapeHtml(str = '') {
     return str.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -559,11 +561,34 @@ initAuth();
     });
   }
 
+  const REVIEW_TITLE_RE = /\breview(?:s|ed)?\b|\btested\b|\bhands[- ]on\b|\bfirst look\b|\bi tried\b|\ba (?:week|month) with\b|\b\d+ best\b|\bbest\b.*\b(?:for|of) 20\d\d\b|\(20\d\d\)|\bvs\.?\s(?!code\b)|\bversus\b/i;
+  const GUIDE_TITLE_RE = /^how to\b|\bhow to\b|\b\d+ ways to\b|\btips\b|\bguide\b|\bwhat (?:do|does|is)\b.*\bmean\b/i;
+  const REVIEW_SOURCES = new Set(['The Verge Reviews']);
+  // 'news' | 'review' | 'guide' | 'papers' | 'reddit', from the article itself.
+  function storyKind(item) {
+    if (!item) return 'news';
+    if (item.category === 'papers' || item.category === 'reddit') return item.category;
+    const title = decodeEntities(item.title || '');
+    if (REVIEW_SOURCES.has(item.source) || REVIEW_TITLE_RE.test(title)) return 'review';
+    if (GUIDE_TITLE_RE.test(title)) return 'guide';
+    return 'news';
+  }
+  // Colour class for a card: reviews purple, everything else as before.
+  function kindClass(item) {
+    const kind = storyKind(item);
+    return kind === 'review' ? 'reviews' : kind === 'guide' ? 'news' : kind;
+  }
+
   function matchesVertical(item, filter) {
     if (!filter || filter === 'all') return true;
-    if (filter === 'news' || filter === 'papers' || filter === 'reviews' || filter === 'reddit') {
-      return item.category === filter;
+    if (filter === 'papers') {
+      // AI = every paper plus any news/review whose HEADLINE is about AI.
+      // Title only: summaries mention "AI" too loosely.
+      return item.category === 'papers' || (item.category !== 'reddit' && matchesKeywords({ title: item.title }, VERTICALS.ai));
     }
+    if (filter === 'reviews') return storyKind(item) === 'review';
+    if (filter === 'news') return item.category !== 'papers' && item.category !== 'reddit' && storyKind(item) !== 'review';
+    if (filter === 'reddit') return item.category === 'reddit';
     if (filter === 'gadgets') return isHardware(item) || matchesKeywords(item, VERTICALS.gadgets);
     const words = VERTICALS[filter];
     return words ? matchesKeywords(item, words) : item.category === filter;
@@ -844,7 +869,7 @@ initAuth();
   function cardMeta(item) {
     const when = relativeDate(item.published);
     const author = storyAuthor(item);
-    const cat = catLabel(item.category);
+    const cat = catLabel(storyKind(item));
     const source = (item && item.source) || '';
     const hasExtra = Boolean(when || author);
     return `<div class="card-meta${hasExtra ? ' has-extra' : ''}"><span class="cat-label">${escapeHtml(cat)}</span><span class="meta-source visually-hidden" aria-hidden="true">${textHtml(source)}</span>${when ? `<span class="meta-time">${escapeHtml(when)}</span>` : ''}${author ? `<span class="meta-author">${escapeHtml(author)}</span>` : ''}</div>`;
@@ -884,8 +909,9 @@ initAuth();
   function cardActions(item, saved, note) {
     return `
           <div class="card-actions">
-            <button class="icon-btn save-btn${saved ? ' active' : ''}" data-link="${escapeAttr(item.link)}" aria-pressed="${saved ? 'true' : 'false'}">${saved ? `★ ${escapeHtml(t('savedStar'))}` : `☆ ${escapeHtml(t('save'))}`}</button>
+            <button class="icon-btn save-btn${saved ? ' active' : ''}" data-link="${escapeAttr(item.link)}" aria-pressed="${saved ? 'true' : 'false'}">${saved ? `${BOOKMARK_SVG.replace('FILL', 'currentColor')} ${escapeHtml(t('savedStar'))}` : `${BOOKMARK_SVG.replace('FILL', 'none')} ${escapeHtml(t('save'))}`}</button>
             <button class="icon-btn share-btn" data-link="${escapeAttr(item.link)}">⇪ ${escapeHtml(t('share'))}</button>
+            <button type="button" class="icon-btn preview-btn" data-link="${escapeAttr(item.link)}">⤢ ${escapeHtml(t('preview'))}</button>
           </div>
           ${saved ? `
           <div class="note-box">
@@ -1178,6 +1204,7 @@ initAuth();
   }
 
   function render() {
+    cancelPreview();
     if (newsletterCardEl && feedEl.contains(newsletterCardEl)) newsletterCardEl.remove();
     const items = sortItems(getFilteredItems());
     visibleCount = Math.min(visibleCount, items.length || PAGE_SIZE);
@@ -1189,6 +1216,8 @@ initAuth();
     // The reset control only exists while something is actually narrowed down,
     // so the default, unfiltered view stays exactly what it was before.
     clearFiltersEl.hidden = !hasActiveFilters();
+    const latestWrapEl = document.getElementById('latest');
+    if (latestWrapEl) latestWrapEl.classList.toggle('is-filtered-out', hasActiveFilters());
 
     // A failed load is not an empty filter result. Drop the skeleton and the
     // "loading feed…" line, and leave the retry banner as the status.
@@ -1201,6 +1230,7 @@ initAuth();
         statusEl.hidden = true;
       }
       placeNewsletterCard();
+      syncHash();
       return;
     }
 
@@ -1214,6 +1244,7 @@ initAuth();
       feedEl.innerHTML = `<div class="empty">${escapeHtml(t('empty'))}</div>`;
       feedEl.style.display = 'block';
       placeNewsletterCard();
+      syncHash();
       return;
     }
 
@@ -1285,7 +1316,7 @@ initAuth();
 
     const leadFields = storyFields(lead);
     const hero = `
-      <article class="card hero-story ${lead.category}${leadFields.hw ? ' is-hardware' : ''}">
+      <article class="card hero-story ${kindClass(lead)}${leadFields.hw ? ' is-hardware' : ''}">
         <a class="hero-media" href="${escapeAttr(lead.link)}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">${cardImage(lead, 'hero', 640, 248)}</a>
         <div class="story-copy hero-copy">
           ${sourceLine(lead)}
@@ -1301,7 +1332,7 @@ initAuth();
     const followUps = related.map((item) => {
       const fields = storyFields(item);
       return `
-      <article class="card follow-card ${item.category}${fields.hw ? ' is-hardware' : ''}">
+      <article class="card follow-card ${kindClass(item)}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
           ${sourceLine(item)}
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
@@ -1316,7 +1347,7 @@ initAuth();
     const storyRow = (item) => {
       const fields = storyFields(item);
       return `
-      <article class="card story-row ${item.category}${fields.hw ? ' is-hardware' : ''}">
+      <article class="card story-row ${kindClass(item)}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
           ${sourceLine(item)}
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
@@ -1398,7 +1429,7 @@ initAuth();
     const pickCards = picks.map((item) => {
       const fields = storyFields(item);
       return `
-      <article class="card pick-card ${item.category}${fields.hw ? ' is-hardware' : ''}">
+      <article class="card pick-card ${kindClass(item)}${fields.hw ? ' is-hardware' : ''}">
         <div class="story-copy">
           ${sourceLine(item)}
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
@@ -1439,6 +1470,7 @@ initAuth();
     } else {
       loadMoreWrapEl.style.display = 'none';
     }
+    syncHash();
   }
 
   function hydrateDeferredHeroes(root) {
@@ -1484,6 +1516,278 @@ initAuth();
       ta.addEventListener('change', () => updateNote(ta.dataset.link, ta.value));
     });
   }
+
+  // --- Story preview popover ---
+  // Desktop (hover + fine pointer): resting on a card for 1s opens a large
+  // preview beside it. Keyboard: focusing a card headline for 1s does the same.
+  // Touch: the card's "Preview" button opens it as a bottom sheet.
+  // Opening plays a "genie" effect: the popup pours out of the card through a
+  // pinched funnel (clip-path + transform only); closing sucks it back in.
+  const PREVIEW_DELAY_MS = 1000;
+  const PREVIEW_GRACE_MS = 250;
+  const GENIE_OPEN_MS = 300;
+  const GENIE_SHEET_MS = 280;
+  const GENIE_CLOSE_MS = 200;
+  const hoverQuery = window.matchMedia('(hover: hover) and (pointer: fine)');
+  const reduceMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let previewEl = null;
+  let previewBackdropEl = null;
+  let previewTimer = null;
+  let previewHideTimer = null;
+  let previewCard = null;
+  let previewScrollY = 0;
+  let previewAnim = null;
+  let previewGenie = null; // { side, at } saved at open so close can reverse it
+
+  function previewItemFor(card) {
+    const link = card && card.querySelector('h2 a[href]');
+    const href = link && link.getAttribute('href');
+    return href ? allItems.find((i) => i.link === href) || null : null;
+  }
+
+  function previewImageSrc(item) {
+    const url = storyImageUrl(item);
+    return url ? resizedImage(url, 520).src : '';
+  }
+
+  function previewIsOpen() {
+    return !!previewEl && !previewEl.hidden && !previewEl.classList.contains('is-closing');
+  }
+
+  function ensurePreviewEl() {
+    if (previewEl) return previewEl;
+    previewBackdropEl = document.createElement('div');
+    previewBackdropEl.className = 'story-preview-backdrop';
+    previewBackdropEl.hidden = true;
+    document.body.appendChild(previewBackdropEl);
+    previewEl = document.createElement('div');
+    previewEl.id = 'storyPreview';
+    previewEl.className = 'story-preview';
+    previewEl.setAttribute('role', 'dialog');
+    previewEl.setAttribute('aria-labelledby', 'storyPreviewTitle');
+    previewEl.hidden = true;
+    previewEl.addEventListener('mouseenter', () => clearTimeout(previewHideTimer));
+    previewEl.addEventListener('mouseleave', () => schedulePreviewHide());
+    previewEl.addEventListener('click', (e) => {
+      if (e.target.closest('.story-preview-close')) hidePreview(true);
+    });
+    document.body.appendChild(previewEl);
+    return previewEl;
+  }
+
+  // Which popup edge faces the source (card or Preview button), and where
+  // along that edge (0-100%) the funnel's narrow end should sit.
+  function genieAnchor(popupRect, sourceRect, sheet) {
+    const cx = sourceRect.left + sourceRect.width / 2;
+    const cy = sourceRect.top + sourceRect.height / 2;
+    const along = (value, start, size) => Math.max(6, Math.min(94, ((value - start) / size) * 100));
+    if (sheet) return { side: 'bottom', at: along(cx, popupRect.left, popupRect.width) };
+    if (popupRect.left >= sourceRect.right - 2) return { side: 'left', at: along(cy, popupRect.top, popupRect.height) };
+    if (popupRect.right <= sourceRect.left + 2) return { side: 'right', at: along(cy, popupRect.top, popupRect.height) };
+    const side = cy < popupRect.top + popupRect.height / 2 ? 'top' : 'bottom';
+    return { side, at: along(cx, popupRect.left, popupRect.width) };
+  }
+
+  // Keyframes for a soft genie. Each frame clips the popup to a gentle funnel:
+  // a wide neck (about 45% of the edge) at the side facing the source that
+  // flares slightly towards the far edge. The far edge opens first and the
+  // neck last, while the popup grows a short way out of the source.
+  function genieFrames({ side, at }) {
+    const lerp = (a, b, k) => a + (b - a) * k;
+    const ease = (k) => { const c = Math.max(0, Math.min(1, k)); return c * c * (3 - 2 * c); };
+    const rows = [0, 0.12, 0.25, 0.4, 0.55, 0.7, 0.85, 1]; // 0 = source edge, 1 = far edge
+    const frames = [];
+    for (let f = 0; f <= 9; f += 1) {
+      const t = f / 9;
+      const lo = [];
+      const hi = [];
+      rows.forEach((u) => {
+        const open = ease(t * 1.5 - (1 - u) * 0.5);
+        const neckLo = Math.max(0, Math.min(at, 77.5) - 22.5);
+        lo.push(lerp(neckLo, 0, open).toFixed(2));
+        hi.push(lerp(neckLo + 45, 100, open).toFixed(2));
+      });
+      const reach = lerp(0.6, 1, ease(t * 1.15)).toFixed(3);
+      let pts;
+      let transform;
+      let origin;
+      if (side === 'left' || side === 'right') {
+        const x = (u) => (side === 'left' ? u * 100 : 100 - u * 100).toFixed(2);
+        pts = rows.map((u, n) => `${x(u)}% ${lo[n]}%`).concat(rows.map((u, n) => `${x(u)}% ${hi[n]}%`).reverse());
+        transform = `scaleX(${reach})`;
+        origin = `${side === 'left' ? 0 : 100}% ${at}%`;
+      } else {
+        const y = (u) => (side === 'top' ? u * 100 : 100 - u * 100).toFixed(2);
+        pts = rows.map((u, n) => `${lo[n]}% ${y(u)}%`).concat(rows.map((u, n) => `${hi[n]}% ${y(u)}%`).reverse());
+        transform = `scaleY(${reach})`;
+        origin = `${at}% ${side === 'top' ? 0 : 100}%`;
+      }
+      frames.push({ offset: t, clipPath: `polygon(${pts.join(', ')})`, transform, transformOrigin: origin, opacity: Math.min(1, t * 4) });
+    }
+    return frames;
+  }
+
+  function playPreviewAnim(opening) {
+    if (previewAnim) previewAnim.cancel();
+    const reduce = reduceMotionQuery.matches || !previewEl.animate;
+    if (reduce) {
+      if (!previewEl.animate) return null;
+      previewAnim = previewEl.animate({ opacity: opening ? [0, 1] : [1, 0] }, { duration: 150, easing: 'linear' });
+      return previewAnim;
+    }
+    const frames = genieFrames(previewGenie || { side: 'bottom', at: 50 });
+    previewAnim = previewEl.animate(opening ? frames : frames.slice().reverse().map((f) => ({ ...f, offset: 1 - f.offset })), {
+      duration: opening ? (previewEl.classList.contains('is-sheet') ? GENIE_SHEET_MS : GENIE_OPEN_MS) : GENIE_CLOSE_MS,
+      easing: opening ? 'cubic-bezier(0.25, 0.1, 0.25, 1)' : 'cubic-bezier(0.4, 0, 0.7, 0.2)',
+    });
+    return previewAnim;
+  }
+
+  function hidePreview(restoreFocus) {
+    clearTimeout(previewHideTimer);
+    if (!previewIsOpen()) { previewCard = null; return; }
+    const el = previewEl;
+    const wasSheet = el.classList.contains('is-sheet');
+    const card = previewCard;
+    previewCard = null;
+    el.classList.add('is-closing');
+    if (previewBackdropEl) previewBackdropEl.classList.remove('is-visible');
+    const finish = () => {
+      if (!el.classList.contains('is-closing')) return; // reopened meanwhile
+      el.hidden = true;
+      el.classList.remove('is-closing', 'is-sheet');
+      if (previewBackdropEl) previewBackdropEl.hidden = true;
+    };
+    const anim = playPreviewAnim(false);
+    if (anim) anim.onfinish = finish; else finish();
+    if (restoreFocus && card) {
+      const focusTarget = (wasSheet && card.querySelector('.preview-btn')) || card.querySelector('h2 a');
+      if (focusTarget) focusTarget.focus({ preventScroll: true });
+    }
+  }
+
+  // Cancels a pending open as well as closing an open preview.
+  function cancelPreview() {
+    clearTimeout(previewTimer);
+    hidePreview(false);
+  }
+
+  function schedulePreviewHide() {
+    clearTimeout(previewHideTimer);
+    if (previewEl && previewEl.classList.contains('is-sheet')) return;
+    previewHideTimer = setTimeout(() => hidePreview(false), PREVIEW_GRACE_MS);
+  }
+
+  function showPreview(card, sheet, source) {
+    const item = previewItemFor(card);
+    if (!item) return;
+    const body = String(item.excerpt || item.summary || '').trim();
+    const why = String(item.whyItMatters || '').trim();
+    if (!body && !why) return;
+    const el = ensurePreviewEl();
+    const img = previewImageSrc(item);
+    const when = relativeDate(item.published);
+    el.innerHTML = `
+      <button type="button" class="story-preview-close" aria-label="${escapeAttr(t('closePreview'))}">×</button>
+      ${img ? `<img class="story-preview-img" src="${escapeAttr(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}
+      <div class="story-preview-body">
+        <p class="story-preview-meta">${textHtml(item.source || '')}${when ? ` · ${escapeHtml(when)}` : ''}</p>
+        <h3 class="story-preview-title" id="storyPreviewTitle">${textHtml(item.title)}</h3>
+        ${body ? `<p class="story-preview-summary">${textHtml(body)}</p>` : ''}
+        ${why ? `<p class="story-preview-why"><b>${escapeHtml(t('whyItMatters'))}</b> ${textHtml(why)}</p>` : ''}
+        <a class="story-preview-open" href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${escapeHtml(t('openOriginal'))} ↗</a>
+      </div>`;
+    previewCard = card;
+    previewScrollY = window.scrollY;
+    el.classList.remove('is-closing');
+    el.classList.toggle('is-sheet', !!sheet);
+    el.style.left = '';
+    el.style.top = '';
+    el.hidden = false;
+    if (sheet) {
+      previewBackdropEl.hidden = false;
+      requestAnimationFrame(() => previewBackdropEl.classList.add('is-visible'));
+    } else {
+      const rect = card.getBoundingClientRect();
+      const gap = 12;
+      const width = el.offsetWidth;
+      const height = el.offsetHeight;
+      let left;
+      if (rect.right + gap + width <= window.innerWidth - 16) left = rect.right + gap;
+      else if (rect.left - gap - width >= 16) left = rect.left - gap - width;
+      else left = rect.left + (rect.width - width) / 2;
+      left = Math.max(16, Math.min(left, window.innerWidth - width - 16));
+      const top = Math.max(16, Math.min(rect.top, window.innerHeight - height - 16));
+      el.style.left = `${Math.round(left)}px`;
+      el.style.top = `${Math.round(top)}px`;
+    }
+    // One layout read for the geometry, then the animation runs on the
+    // compositor (transform, clip-path, opacity only).
+    const sourceRect = (source || card).getBoundingClientRect();
+    previewGenie = genieAnchor(el.getBoundingClientRect(), sourceRect, sheet);
+    playPreviewAnim(true);
+    if (sheet) el.querySelector('.story-preview-close').focus({ preventScroll: true });
+  }
+
+  function armPreview(card) {
+    if (!card || card === previewCard) { clearTimeout(previewHideTimer); return; }
+    clearTimeout(previewTimer);
+    // Start loading the picture now so it is there when the popup opens.
+    const item = previewItemFor(card);
+    const src = item && previewImageSrc(item);
+    if (src) new Image().src = src;
+    previewTimer = setTimeout(() => showPreview(card, false), PREVIEW_DELAY_MS);
+  }
+
+  function bindPreview() {
+    if (!feedEl || feedEl.dataset.previewBound === '1') return;
+    feedEl.dataset.previewBound = '1';
+    feedEl.addEventListener('mouseover', (e) => {
+      if (!hoverQuery.matches) return;
+      const card = e.target.closest('article.card');
+      if (card && !card.contains(e.relatedTarget)) armPreview(card);
+    });
+    feedEl.addEventListener('mouseout', (e) => {
+      if (!hoverQuery.matches) return;
+      const card = e.target.closest('article.card');
+      if (!card || card.contains(e.relatedTarget)) return;
+      if (previewEl && previewEl.contains(e.relatedTarget)) return;
+      if (card === previewCard) schedulePreviewHide();
+      else clearTimeout(previewTimer);
+    });
+    feedEl.addEventListener('focusin', (e) => {
+      const link = e.target.closest('article.card h2 a');
+      if (link) armPreview(link.closest('article.card'));
+    });
+    feedEl.addEventListener('focusout', (e) => {
+      if (previewEl && previewEl.contains(e.relatedTarget)) return;
+      if (previewEl && previewEl.classList.contains('is-sheet')) return;
+      cancelPreview();
+    });
+    feedEl.addEventListener('click', (e) => {
+      const btn = e.target.closest('.preview-btn');
+      if (!btn) return;
+      e.preventDefault();
+      showPreview(btn.closest('article.card'), true, btn);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      clearTimeout(previewTimer);
+      if (previewIsOpen()) hidePreview(true);
+    });
+    document.addEventListener('click', (e) => {
+      if (!previewIsOpen()) return;
+      if (previewEl.contains(e.target) || e.target.closest('.preview-btn')) return;
+      cancelPreview();
+    });
+    window.addEventListener('scroll', () => {
+      if (previewEl && previewEl.classList.contains('is-sheet')) return;
+      if (previewIsOpen() && Math.abs(window.scrollY - previewScrollY) < 40) return;
+      cancelPreview();
+    }, { passive: true });
+    window.addEventListener('resize', cancelPreview);
+  }
+  bindPreview();
 
   // The 3-column sections stay full width. Extra story rows fill only the
   // hole beside Picks, and a card that would overshoot by more than the gap
@@ -2634,7 +2938,20 @@ initAuth();
     if (hash === 'settings') document.getElementById('syncSettingsBtn')?.focus();
   }
 
-  setInterval(renderAll, 60 * 1000);
+  const FILTER_TO_HASH = { news: 'technology', papers: 'ai', reddit: 'community' };
+  // Mirror the current tab in the URL so a reload (or a shared link) lands on it.
+  // Only filter hashes are rewritten; anchors like #newsletterCard are left alone.
+  function syncHash() {
+    const current = (location.hash || '').replace(/^#/, '').toLowerCase();
+    if (current && !HASH_FILTERS[current] && !['all', 'home', 'hardware', 'saved'].includes(current)) return;
+    const name = savedOnly ? 'saved'
+      : hardwareOnly ? 'hardware'
+      : activeFilter !== 'all' ? (FILTER_TO_HASH[activeFilter] || activeFilter) : '';
+    if (name === current) return;
+    history.replaceState(null, '', location.pathname + location.search + (name ? `#${name}` : ''));
+  }
+
+  setInterval(() => { if (!previewIsOpen()) renderAll(); }, 60 * 1000);
   setInterval(() => refresh({ quiet: true }), AUTO_REFRESH_MS);
 
   function formatSignalDate(value) {

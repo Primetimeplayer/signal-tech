@@ -624,43 +624,13 @@ body {
 </style>
 </head>
 <body>
-<button type="button" class="sidebar-backdrop" id="sidebarBackdrop" tabindex="-1" aria-label="Close navigation menu"></button>
-<aside class="sidebar" id="filters">
-  <div class="sidebar-drawer-head">
-    <div class="sidebar-label sidebar-drawer-title">Navigation</div>
-    <button type="button" class="sidebar-drawer-close" id="sidebarClose" aria-label="Close navigation menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
-    </button>
-  </div>
-  <a class="sidebar-home" href="index.html">Home</a>
-  <div class="sidebar-label">TOPICS</div>
-  <a class="sidebar-item" href="index.html#all">All News</a>
-  <a class="sidebar-item" href="index.html#software">Software</a>
-  <a class="sidebar-item" href="index.html#ai">AI</a>
-  <a class="sidebar-item" href="index.html#chips">Chips</a>
-  <a class="sidebar-item" href="index.html#gaming">Gaming</a>
-  <a class="sidebar-item" href="index.html#space">Space</a>
-  <a class="sidebar-item" href="index.html#security">Cybersecurity</a>
-  <a class="sidebar-item" href="index.html#gadgets">Gadgets</a>
-  <a class="sidebar-item" href="index.html#technology">Technology</a>
-  <a class="sidebar-item" href="index.html#reviews">Reviews</a>
-  <a class="sidebar-item" href="index.html#community">Community</a>
-  <div class="sidebar-label">LIBRARY</div>
-  <a class="sidebar-item" href="index.html#hardware"><span class="nav-emoji" aria-hidden="true">💻</span>Hardware</a>
-  <a class="sidebar-item" href="index.html#saved"><span class="nav-emoji" aria-hidden="true">🔖</span>Saved</a>
-  <a class="sidebar-item active" href="digests.html"><span class="nav-emoji" aria-hidden="true">🧵</span>Digests</a>
-  <div class="sidebar-recents"><div class="sidebar-label">RECENTS</div><div id="recentArticles"></div></div>
-</aside>
 <main class="main-content">
 
 <div class="mast">
   <div class="wrap">
     <div class="mast-row">
-      <a class="wordmark" href="index.html">Signal<span>.</span> Digests</a>
+      <a class="wordmark" href="index.html">Signal <span>Tech</span></a>
       <div class="mast-right">
-        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-controls="filters" aria-expanded="false">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-        </button>
         <a class="back-link" href="index.html">← Back to dashboard</a>
         <button class="theme-toggle" id="digestThemeToggle" type="button" aria-label="Switch to light theme" title="Switch to light theme">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -670,6 +640,9 @@ body {
   </div>
 </div>
 
+<div class="wrap"><nav class="digest-topics" aria-label="Topics">
+  <a href="index.html#all">All News</a><a href="index.html#software">Software</a><a href="index.html#ai">AI</a><a href="index.html#chips">Chips</a><a href="index.html#gaming">Gaming</a><a href="index.html#space">Space</a><a href="index.html#security">Cybersecurity</a><a href="index.html#gadgets">Gadgets</a><a href="index.html#technology">Technology</a><a href="index.html#reviews">Reviews</a><a href="index.html#community">Community</a><a href="index.html#hardware">Hardware</a><a href="index.html#saved">Saved</a><a href="digests.html" aria-current="page">Digests</a>
+</nav></div>
 <div class="wrap">
   <h1 class="page-title">Weekly digests</h1>
   <p class="sub">Auto-generated every week from the dashboard's own data — newsletter-ready markdown and a thread version, both copyable below.</p>
@@ -1900,6 +1873,39 @@ html[data-theme="dark"] .digest-ad .adsbygoogle {
   .newsletter-row { flex-direction: column; }
   .newsletter-card button { width: 100%; }
 }
+/* DIGESTS — MATCH THE HOME PAGE
+   Same colour tokens, font and pill navigation as index.html. Last in the
+   cascade on purpose; earlier blocks set their own palette. */
+:root,
+:root[data-theme="light"] {
+  --bg: #EEF2F5; --panel: #FFFFFF; --panel-raised: #FCFDFE; --line: #D3D9DF;
+  --text: #17212B; --text-muted: #5F6B77; --accent: #1A73E8;
+  --accent-soft: rgba(26, 115, 232, 0.12); --accent-text: #1A73E8;
+}
+:root[data-theme="dark"] {
+  --bg: #202124; --panel: #292a2d; --panel-raised: #292a2d; --line: #3c4043;
+  --text: #e8eaed; --text-muted: #bdc1c6; --accent: #1A73E8;
+  --accent-soft: rgba(138, 180, 248, 0.16); --accent-text: #8ab4f8;
+}
+html, body { background: var(--bg) !important; color: var(--text) !important; font-family: var(--font-sans) !important; }
+.main-content { margin: 0 !important; padding: 0 !important; width: auto !important; max-width: none !important; background: transparent !important; }
+.main-content > .mast > .wrap,
+.main-content > .wrap { max-width: 1280px !important; margin: 0 auto !important; padding-left: 24px !important; padding-right: 24px !important; }
+.mast { background: var(--panel) !important; border-bottom: 1px solid var(--line) !important; }
+.wordmark { font-family: var(--font-sans) !important; font-size: 22px !important; font-weight: 500 !important; letter-spacing: -0.03em !important; color: var(--text) !important; }
+.wordmark span { color: var(--accent-text) !important; }
+.digest-topics { display: flex; gap: 6px; overflow-x: auto; padding: 10px 0 4px; scrollbar-width: none; }
+.digest-topics::-webkit-scrollbar { display: none; }
+.digest-topics a { flex: 0 0 auto; padding: 6px 12px; border-radius: 999px; font: 500 13px/1.2 var(--font-sans); color: var(--text-muted); text-decoration: none; }
+.digest-topics a:hover { background: var(--accent-soft); color: var(--text); }
+.digest-topics a[aria-current="page"] { background: var(--accent); color: #fff; }
+.digest-body p,
+.digest-body li { font-family: var(--font-sans) !important; font-size: 15px !important; line-height: 1.65 !important; color: var(--text) !important; }
+.digest-body a { color: var(--accent-text) !important; }
+.digest-body h2 { color: var(--text) !important; border-bottom-color: var(--line) !important; }
+.list-item { background: var(--panel) !important; color: var(--text) !important; border: 1px solid var(--line) !important; }
+.list-item:hover { border-color: var(--accent-text) !important; }
+.list-item.active { background: var(--accent-soft) !important; color: var(--accent-text) !important; border-color: var(--accent-text) !important; }
 </style>
 <div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
   <div>
