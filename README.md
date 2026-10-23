@@ -2,7 +2,7 @@
 
 Signal Tech is a turn-key news aggregation dashboard for technology, AI research, device reviews, and community discussion. The published site is static HTML, CSS, and vanilla JavaScript. Scheduled Node scripts write JSON into the repository, GitHub Actions deploys the `public/` directory, and the pages read that JSON in the browser. There is no application server and no database in the Pages site.
 
-Live site: [https://signaltechnews.com/](https://signaltechnews.com/) (Cloudflare Pages). The old GitHub Pages copy at https://primetimeplayer.github.io/signal-tech/ is kept until the redirect step.
+Live site: [https://signaltechnews.com/](https://signaltechnews.com/) (Cloudflare Pages). The old address https://primetimeplayer.github.io/signal-tech/ now redirects there (`scripts/build-ghpages-redirect.js`).
 
 Repository: [https://github.com/Primetimeplayer/signal-tech](https://github.com/Primetimeplayer/signal-tech)
 

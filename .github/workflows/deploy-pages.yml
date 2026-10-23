@@ -1,12 +1,14 @@
 name: Deploy to GitHub Pages
 
+# The site lives at https://signaltechnews.com/ (Cloudflare Pages). GitHub
+# Pages now only serves redirect pages for the old
+# primetimeplayer.github.io/signal-tech/ URLs; see
+# scripts/build-ghpages-redirect.js.
+
 on:
   push:
     branches: [main]
   workflow_dispatch: {}
-  workflow_run:
-    workflows: ["Update Dashboard Data", "Generate Weekly Digest"]
-    types: [completed]
 
 permissions:
   contents: read
@@ -19,7 +21,6 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -27,8 +28,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/build-ghpages-redirect.js _ghpages
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: _ghpages
       - id: deployment
         uses: actions/deploy-pages@v4
