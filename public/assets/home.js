@@ -382,8 +382,9 @@ async function initAuth() {
 
 // Two account buttons share one state: #accountBtn in the masthead (desktop)
 // and #syncSettingsBtn in the navigation drawer (phones). Only the icon is
-// kept; the label, aria-label and tooltip follow the signed-in state, and the
-// data-i18n keys let a language switch re-translate them.
+// kept; the label, aria-label, tooltip and the .is-signed-in dot follow the
+// signed-in state, and the data-i18n keys let a language switch re-translate
+// them.
 function setAccountLabel(label) {
   const mode = label === 'logout' || label === 'Log out' ? 'logout' : 'login';
   document.querySelectorAll('[data-account-btn]').forEach((btn) => {
@@ -397,6 +398,7 @@ function setAccountLabel(label) {
     const ariaKey = mode === 'logout' ? 'logOutAccount' : 'logInSync';
     textNode.setAttribute('data-i18n', labelKey);
     textNode.textContent = t(labelKey);
+    btn.classList.toggle('is-signed-in', mode === 'logout');
     btn.setAttribute('data-i18n-aria', ariaKey);
     btn.setAttribute('aria-label', t(ariaKey));
     if (mode === 'logout') {

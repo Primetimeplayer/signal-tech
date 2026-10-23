@@ -8579,32 +8579,52 @@ main .grid,
 }
 
 /* ---------- Account (Log in / Log out) ---------- */
-/* Desktop: a small pill at the far right of the masthead, after the theme
-   toggle, styled like the Digests pill. Phones: the masthead is full, so the
-   same action lives in the navigation drawer (#syncSettingsBtn) instead. */
+/* Desktop: a 36px icon button at the far right of the masthead, after the
+   theme toggle and styled like it. On hover (mouse) or keyboard focus the
+   inner .account-pill widens leftwards over its neighbours to show the label.
+   The button itself stays 36px, so nothing in the masthead ever moves.
+   Phones: the masthead is full, so the same action lives in the navigation
+   drawer (#syncSettingsBtn) instead. */
 .mast-right .mast-account {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  flex: 0 0 auto;
+  position: relative;
+  display: block;
+  flex: 0 0 36px;
+  width: 36px;
   height: 36px;
   margin: 0;
-  padding: 0 14px 0 11px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  color: var(--text);
+  cursor: pointer;
+}
+.mast-account .account-pill {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 36px;
+  min-width: 36px;
+  padding: 0 9px;
   background: #fff;
   border: 1px solid #75828F;
   border-radius: 999px;
-  color: var(--text);
+  color: inherit;
   font: 500 13px/1 var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);
   white-space: nowrap;
-  cursor: pointer;
+  transition: padding .2s ease, background-color .2s ease, border-color .2s ease;
 }
-.mast-right .mast-account:hover {
-  background: #f1f3f4;
-  border-color: var(--news);
-}
-.mast-right .mast-account:focus-visible {
-  outline: 2px solid var(--focus, #1A73E8);
-  outline-offset: 2px;
+.mast-account .account-label {
+  display: inline-block;
+  max-width: 0;
+  margin-left: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-width .2s ease, margin-left .2s ease, opacity .2s ease;
 }
 .mast-account .account-icon,
 #syncSettingsBtn .account-icon {
@@ -8612,14 +8632,79 @@ main .grid,
   height: 16px;
   flex: none;
 }
-:root[data-theme="dark"] .mast-right .mast-account {
+/* Expanded look: hover only where a real pointer can hover, and always on
+   keyboard focus. Touch screens keep the icon and tap straight through. */
+@media (hover: hover) {
+  .mast-right .mast-account:hover .account-pill {
+    padding: 0 14px 0 11px;
+    background: #f1f3f4;
+    border-color: var(--news);
+    z-index: 3;
+  }
+  .mast-right .mast-account:hover .account-label {
+    max-width: 12em;
+    margin-left: 6px;
+    opacity: 1;
+  }
+}
+/* The ring is drawn on the visible pill rather than the fixed 36px box. */
+.mast-right .mast-account:focus-visible {
+  outline: none !important;
+}
+.mast-right .mast-account:focus-visible .account-pill {
+  padding: 0 14px 0 11px;
+  border-color: var(--news);
+  outline: 2px solid var(--focus, #1A73E8) !important;
+  outline-offset: 2px !important;
+  z-index: 3;
+}
+.mast-right .mast-account:focus-visible .account-label {
+  max-width: 12em;
+  margin-left: 6px;
+  opacity: 1;
+}
+/* Signed in: a small dot on the icon's top-right edge. */
+.mast-account.is-signed-in .account-pill::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--news, #1A73E8);
+  box-shadow: 0 0 0 2px #fff;
+}
+/* The expanded label already says "Log out", so the dot steps aside. */
+.mast-right .mast-account:focus-visible .account-pill::after {
+  opacity: 0;
+}
+@media (hover: hover) {
+  .mast-right .mast-account:hover .account-pill::after {
+    opacity: 0;
+  }
+}
+:root[data-theme="dark"] .mast-account .account-pill {
   background: var(--panel);
   border-color: #80858A;
-  color: var(--text);
 }
-:root[data-theme="dark"] .mast-right .mast-account:hover {
-  background: #303134;
+:root[data-theme="dark"] .mast-account.is-signed-in .account-pill::after {
+  box-shadow: 0 0 0 2px var(--panel);
+}
+@media (hover: hover) {
+  :root[data-theme="dark"] .mast-right .mast-account:hover .account-pill {
+    background: #303134;
+    border-color: var(--news);
+  }
+}
+:root[data-theme="dark"] .mast-right .mast-account:focus-visible .account-pill {
   border-color: var(--news);
+}
+@media (prefers-reduced-motion: reduce) {
+  .mast-account .account-pill,
+  .mast-account .account-label {
+    transition: none;
+  }
 }
 @media (max-width: 800px) {
   .mast-right .mast-account {
@@ -8634,26 +8719,9 @@ main .grid,
     display: none !important;
   }
 }
-/* Small laptops and tablets in landscape: icon only, the same 36px circle as
-   the theme toggle, so the search box keeps its room. */
+/* Small laptops and tablets in landscape: the search box gives up a little
+   width so the icon still fits on the row at 801px. */
 @media (min-width: 801px) and (max-width: 1099px) {
-  .mast-right .mast-account {
-    justify-content: center;
-    width: 36px;
-    padding: 0;
-    border-radius: 50%;
-  }
-  .mast-right .mast-account .account-label {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-  }
   .mast .search-row {
     min-width: 196px !important;
   }
