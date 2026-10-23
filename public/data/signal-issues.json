@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-21T00:00:00.000Z",
+  "updated": "2026-10-23T08:25:10.280Z",
   "issues": [
+    {
+      "issueNumber": 2,
+      "title": "AI found a PHP hole. Patch it today",
+      "date": "2026-10-23",
+      "url": "https://dailysignaltech.beehiiv.com/p/ai-found-a-php-hole-patch-it-today",
+      "stories": [
+        {
+          "headline": "AI finds critical PHP flaws, and everyone needs to patch",
+          "whyItMatters": "In short: two serious security holes in PHP, the language behind a huge share of websites, are now fixed."
+        },
+        {
+          "headline": "Claude Duet wants to be your proactive co-worker",
+          "whyItMatters": "Anthropic opened a waitlist research preview of Claude Duet, an app built around Claude Opus 5.5 that sends…"
+        },
+        {
+          "headline": "Tool of the week: VegaLoad",
+          "whyItMatters": "In short: a free, open-source tool that checks your app copes with heavy traffic."
+        }
+      ]
+    },
     {
       "issueNumber": 1,
       "title": "Google's Argon lands (and your first Signal)",
