@@ -1,7 +1,10 @@
 /* Signal Tech service worker.
    Paths are relative to the registration scope so the same file works at
-   /signal-tech/ on GitHub Pages and at / when served locally. */
-const VERSION = 'signal-tech-v7';
+   / on signaltechnews.com (Cloudflare Pages), at /signal-tech/ on GitHub
+   Pages, and at / when served locally. Cloudflare Pages answers /page.html
+   with a 308 to /page, so redirects are passed through to the browser and
+   cached copies are stored without the redirected flag. */
+const VERSION = 'signal-tech-v8';
 const CACHE = VERSION;
 const IMAGE_CACHE = VERSION + '-images';
 const IMAGE_LIMIT = 60;
@@ -42,6 +45,35 @@ const SHELL = [
 
 function scopeUrl(path) {
   return new URL(path, self.registration.scope);
+}
+
+// A response that followed a redirect cannot answer a navigation, so keep a
+// copy without the redirected flag.
+async function plain(response) {
+  if (!response || !response.redirected) return response;
+  const body = await response.blob();
+  return new Response(body, { status: response.status, statusText: response.statusText, headers: response.headers });
+}
+
+// /about and /about.html are the same page: Cloudflare Pages serves the
+// first, GitHub Pages and local servers serve the second.
+function pageKeys(url) {
+  const keys = [url.href];
+  const path = url.pathname;
+  if (path.endsWith('.html')) {
+    const pretty = new URL(url.href);
+    pretty.pathname = path.slice(0, -5);
+    pretty.search = '';
+    pretty.hash = '';
+    keys.push(pretty.href);
+  } else if (!path.endsWith('/') && !/\.[a-z0-9]+$/i.test(path)) {
+    const html = new URL(url.href);
+    html.pathname = path + '.html';
+    html.search = '';
+    html.hash = '';
+    keys.push(html.href);
+  }
+  return keys;
 }
 
 function isSkipped(url) {
@@ -104,7 +136,12 @@ async function put(cacheName, request, response) {
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
-    await cache.addAll(SHELL.map((path) => scopeUrl(path).href));
+    await Promise.all(SHELL.map(async (path) => {
+      const href = scopeUrl(path).href;
+      const response = await fetch(href, { cache: 'reload' });
+      if (!response.ok) throw new Error('Precache failed: ' + href);
+      await cache.put(href, await plain(response));
+    }));
     await self.skipWaiting();
   })());
 });
@@ -120,10 +157,12 @@ self.addEventListener('activate', (event) => {
 });
 
 async function matchPage(request) {
-  const cached = await caches.match(request);
-  if (cached) return cached;
   const url = new URL(request.url);
-  if (url.pathname.endsWith('/')) return caches.match(scopeUrl('./index.html'));
+  for (const key of pageKeys(url)) {
+    const cached = await caches.match(key, { ignoreSearch: key !== url.href });
+    if (cached) return plain(cached);
+  }
+  if (url.pathname.endsWith('/')) return plain(await caches.match(scopeUrl('./index.html')));
   return null;
 }
 
@@ -147,10 +186,12 @@ async function networkFirstHtml(event, request) {
   } catch (err) {
     response = null;
   }
-  if (response && response.ok) return response;
+  // Pass redirects (Cloudflare Pages /page.html -> /page) and real 404 pages
+  // straight to the browser.
+  if (response && (response.ok || response.type === 'opaqueredirect' || response.status === 404)) return response;
   const cached = await matchPage(request);
   if (cached) return cached;
-  const offline = await caches.match(scopeUrl('./offline.html'));
+  const offline = await plain(await caches.match(scopeUrl('./offline.html')));
   if (offline) return offline;
   if (response) return response;
   return new Response('Offline', { status: 503, headers: { 'Content-Type': 'text/plain; charset=UTF-8' } });

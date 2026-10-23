@@ -24,7 +24,7 @@ Signal Tech — turnkey tech news dashboard, vanilla JS, GA4 installed, ad slots
 
 ### Short summary
 
-Signal Tech aggregates tech news, AI papers, device reviews, and community posts into one static dashboard. GitHub Actions refreshes the data every 6 hours and deploys the site from the `public/` folder. The buyer gets the repository, the Pages workflow, a weekly digest, consent-gated GA4 (`G-X1DTQNYD9T`), a cookie banner with Privacy Policy and Terms, and a monetization layout waiting for real AdSense or sponsor units.
+Signal Tech aggregates tech news, AI papers, device reviews, and community posts into one static dashboard. GitHub Actions refreshes the data every 3 hours and deploys the site from the `public/` folder. The buyer gets the repository, the Pages workflow, a weekly digest, consent-gated GA4 (`G-X1DTQNYD9T`), a cookie banner with Privacy Policy and Terms, and a monetization layout waiting for real AdSense or sponsor units.
 
 ### Full description
 
@@ -55,7 +55,7 @@ Visitors get:
 
 - GitHub repository (transfer steps in `TRANSFER.md`)
 - GitHub Pages deploy on push to `main`
-- 6-hour data refresh and Monday 14:00 UTC digest workflows
+- 3-hour data refresh and Monday 14:00 UTC digest workflows
 - Source fetchers for news RSS, arXiv, review RSS, and Reddit
 - Optional Groq or Anthropic summaries when the buyer adds API keys
 - MIT license on the dashboard code
@@ -128,7 +128,7 @@ The business is pre-revenue unless the seller fills in figures below. The asset 
 
 ### Product
 
-The public site is static. GitHub Actions commits fresh JSON every 6 hours and deploys `public/` to GitHub Pages. A Monday workflow writes the weekly digest. The interface shows skeleton screens during the first load, then the card grid.
+The public site is static. GitHub Actions commits fresh JSON every 3 hours and deploys `public/` to GitHub Pages. A Monday workflow writes the weekly digest. The interface shows skeleton screens during the first load, then the card grid.
 
 Visitor preferences (theme, region, language, bookmarks, cookie choice, and the digest signup) stay in `localStorage`. That keeps the Pages site free of a user database. It also means the newsletter has no central export. New subscribers can be forwarded with one HTTPS webhook when the buyer connects a provider.
 

@@ -2,7 +2,7 @@
 
 Signal Tech is a turn-key news aggregation dashboard for technology, AI research, device reviews, and community discussion. The published site is static HTML, CSS, and vanilla JavaScript. Scheduled Node scripts write JSON into the repository, GitHub Actions deploys the `public/` directory, and the pages read that JSON in the browser. There is no application server and no database in the Pages site.
 
-Live site: [https://primetimeplayer.github.io/signal-tech/](https://primetimeplayer.github.io/signal-tech/)
+Live site: [https://signaltechnews.com/](https://signaltechnews.com/) (Cloudflare Pages). The old GitHub Pages copy at https://primetimeplayer.github.io/signal-tech/ is kept until the redirect step.
 
 Repository: [https://github.com/Primetimeplayer/signal-tech](https://github.com/Primetimeplayer/signal-tech)
 
@@ -13,7 +13,7 @@ Handover steps are in [TRANSFER.md](TRANSFER.md). Marketplace copy is in [LISTIN
 ## What a buyer receives
 
 - A deployed dashboard (`public/index.html`) and a weekly digest browser (`public/digests.html`).
-- A refresh pipeline that refetches sources every 6 hours and writes a weekly digest every Monday at 14:00 UTC.
+- A refresh pipeline that refetches sources every 3 hours and writes a weekly digest every Monday at 14:00 UTC.
 - Search, topic filters, region and language selection, bookmarks with notes, share-to-clipboard, and a light/dark theme.
 - SEO files, a web app manifest, favicons, and a 1200×630 social preview.
 - Google Analytics 4 measurement ID `G-X1DTQNYD9T`, loaded only after the visitor chooses Accept All.
@@ -26,7 +26,7 @@ Handover steps are in [TRANSFER.md](TRANSFER.md). Marketplace copy is in [LISTIN
 
 ### RSS and live feeds
 
-`npm run fetch:all` pulls tech news, arXiv papers, device reviews, and Reddit posts into `public/data/`. Sources are RSS, Atom, or public APIs. GitHub Actions runs that job every 6 hours and commits the JSON.
+`npm run fetch:all` pulls tech news, arXiv papers, device reviews, and Reddit posts into `public/data/`. Sources are RSS, Atom, or public APIs. GitHub Actions runs that job every 3 hours and commits the JSON.
 
 On the dashboard, a live Google News request also runs through `https://signal-sync.primetimeplayer-signal-sync.workers.dev/api/news`, using the visitor’s region and language. The request budget is 6 seconds. If it times out or fails, the page keeps the committed `news.json` and may use a stale browser cache. Successful live results are cached for 5 minutes under `feed_cache_${region}_${language}`.
 
@@ -140,7 +140,7 @@ signal-tech/
 ├── cloudflare-worker/          Optional sync and news proxy (separate account)
 ├── .github/workflows/
 │   ├── deploy-pages.yml        Publishes public/ on every push to main
-│   ├── update-data.yml         cron: 0 */6 * * *  (every 6 hours UTC)
+│   ├── update-data.yml         cron: 0 */3 * * *  (every 3 hours UTC)
 │   └── generate-digest.yml     cron: 0 14 * * 1   (Monday 14:00 UTC)
 ├── test/                       Node tests. Browser suite needs Firefox.
 ├── package.json
@@ -196,7 +196,7 @@ The repository is already configured this way.
 
 1. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 2. `.github/workflows/deploy-pages.yml` uploads `public/` and deploys it on every push to `main`, and when someone runs the workflow by hand.
-3. `.github/workflows/update-data.yml` refreshes `public/data/` every 6 hours. That commit triggers a new Pages deploy.
+3. `.github/workflows/update-data.yml` refreshes `public/data/` every 3 hours. That commit triggers a new Pages deploy.
 4. `.github/workflows/generate-digest.yml` refreshes `public/digests/` on Mondays at 14:00 UTC.
 5. Either data workflow can be run from the Actions tab (`workflow_dispatch`).
 

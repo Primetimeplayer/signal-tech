@@ -43,7 +43,7 @@ Until that worker is moved or redeployed, live edition switching and cross-devic
 2. Replace `AUTH_BASE` and the `preconnect` hint in `public/index.html` with the new worker origin.
 3. Confirm `/api/news?region=US&language=en-US` returns items, then sign in once and save a story if sync is part of the sale.
 
-Committed files in `public/data/` keep the dashboard populated even when the worker is offline. The 6-hour Actions job does not need the worker.
+Committed files in `public/data/` keep the dashboard populated even when the worker is offline. The 3-hour Actions job does not need the worker.
 
 ## 2. Google Analytics 4 property admin transfer
 

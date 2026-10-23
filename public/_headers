@@ -1,0 +1,46 @@
+# Cloudflare Pages response headers. GitHub Pages ignores this file.
+# Rules that match the same URL are merged, so each Cache-Control value is
+# set by exactly one rule.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+
+# Keep the preview and branch URLs out of search results.
+https://signal-tech.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.signal-tech.pages.dev/*
+  X-Robots-Tag: noindex
+
+# The service worker must always be checked for updates.
+/sw.js
+  Cache-Control: no-cache
+  Service-Worker-Allowed: /
+
+# Refreshed every 3 hours by update-data.yml.
+/data/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# CSS and JS are not fingerprinted, so revalidate every time (the service
+# worker already serves them stale-while-revalidate).
+/assets/*.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/*.css
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Icons and images change rarely.
+/assets/*.png
+  Cache-Control: public, max-age=604800
+
+/assets/*.svg
+  Cache-Control: public, max-age=604800
+
+/assets/*.ico
+  Cache-Control: public, max-age=604800
+
+/site.webmanifest
+  Cache-Control: public, max-age=86400
+  Content-Type: application/manifest+json
