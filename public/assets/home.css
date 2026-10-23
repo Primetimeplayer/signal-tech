@@ -8207,6 +8207,16 @@ main .grid,
     padding: 0 10px;
   }
 }
+/* Tablets and narrow desktops: three columns are too narrow for a story's
+   two lines, so show two stories (as on phones) at a readable width. */
+@media (min-width: 641px) and (max-width: 1023px) {
+  #signalStrip .signal-stories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #signalStrip .signal-story:nth-child(n + 3) {
+    display: none;
+  }
+}
 :root[data-theme="dark"] #signalStrip {
   background: var(--panel-raised);
   color: var(--text);

@@ -17,7 +17,7 @@ export const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'signal-iss
 export const PUBLICATION = 'https://dailysignaltech.beehiiv.com';
 const USER_AGENT = 'signal-personal-dashboard/1.0 (+https://github.com/Primetimeplayer/signal-tech)';
 const MAX_ISSUES = 12;
-const WHY_MAX = 110;
+const WHY_MAX = 80;
 
 function plain(html = '') {
   return decodeEntities(String(html).replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ''))
@@ -38,11 +38,46 @@ function firstSentence(text = '') {
   return (match ? match[1] : String(text)).trim();
 }
 
+// Fits text into max characters without ever cutting a word: whole
+// sentences first, then the same text without its asides ("(…)" and
+// ", the …," / ", a …,"), then a clause (cut before , ; : – — or a
+// bracket), then whole words. Only the clause and word cuts end with "…".
 function shorten(text = '', max = WHY_MAX) {
-  const clean = String(text).trim();
+  const clean = String(text).replace(/\s+/g, ' ').trim();
   if (clean.length <= max) return clean;
-  const cut = clean.slice(0, max - 1);
-  return `${cut.slice(0, Math.max(cut.lastIndexOf(' '), 40)).replace(/[\s,;:.–—-]+$/, '')}…`;
+  let sentenceEnd = 0;
+  for (const m of clean.matchAll(/[.!?]["'’”)]*(?=\s|$)/g)) {
+    const end = m.index + m[0].length;
+    if (end > max) break;
+    sentenceEnd = end;
+  }
+  if (sentenceEnd >= 25) return clean.slice(0, sentenceEnd);
+  const tight = clean
+    .replace(/\s*\([^()]*\)/g, '')
+    .replace(/,\s+(?:the|a|an)\s+[^,.;:!?]+,\s*/gi, ' ')
+    .replace(/\s+([,.;:!?])/g, '$1');
+  if (tight !== clean) return shorten(tight, max);
+  const room = clean.slice(0, max - 1);
+  const clause = Math.max(...[', ', '; ', ': ', ' – ', ' — ', ' ('].map((mark) => room.lastIndexOf(mark)));
+  const word = clean.charAt(max - 1) === ' ' ? max - 1 : room.lastIndexOf(' ');
+  // A single word longer than max is the only case cut mid-word.
+  const end = clause >= max / 2 ? clause : word > 0 ? word : max - 1;
+  return `${clean.slice(0, end).replace(/[\s,;:.–—(-]+$/, '')}…`;
+}
+
+const IN_SHORT = /^in short\s*:\s*/i;
+const WHY_MATTERS = /^why (?:it|this) matters\s*:\s*/i;
+
+// The card line for one story. The newsletter's own one-line summary
+// ("In short: …") comes first, then "Why it matters:" / "Why this
+// matters:", then the first sentence of the story text.
+function storyLine(paras = [], fallback = '') {
+  const short = paras.find((p) => IN_SHORT.test(p.text));
+  const why = paras.find((p) => WHY_MATTERS.test(p.text));
+  const text = short
+    ? short.text.replace(IN_SHORT, '')
+    : why ? why.text.replace(WHY_MATTERS, '') : fallback;
+  return shorten(capitalise(firstSentence(text)));
 }
 
 function capitalise(text = '') {
@@ -90,22 +125,25 @@ export function parseIssuePage(html = '', url = '') {
   const big = find(/^the big signal\b/i);
   if (big) {
     const headline = big.heading.replace(/^the big signal\s*[:–—-]\s*/i, '').trim();
-    const whyPara = big.paras.find((p) => /^why it matters\s*:/i.test(p.text));
-    const why = whyPara ? firstSentence(whyPara.text.replace(/^why it matters\s*:\s*/i, '')) : firstSentence((big.paras[0] || {}).text || '');
-    if (headline) stories.push({ headline: shorten(headline, 80), whyItMatters: shorten(capitalise(why)) });
+    if (headline) stories.push({ headline: shorten(headline, 80), whyItMatters: storyLine(big.paras, (big.paras[0] || {}).text) });
   }
   const hits = find(/^quick hits\b/i);
   const hit = hits && hits.paras.find((p) => /<(b|strong)\b/i.test(p.html));
   if (hit) {
     const lead = plain((/<(b|strong)\b[^>]*>(.*?)<\/\1>/s.exec(hit.html) || [])[2] || '');
     const rest = hit.text.slice(hit.text.indexOf(lead) + lead.length).trim();
-    if (lead) stories.push({ headline: shorten(lead.replace(/[.:]\s*$/, ''), 80), whyItMatters: shorten(firstSentence(rest)) });
+    // This hit's own lines: the "In short:" just above it and anything
+    // below it up to the next hit.
+    const at = hits.paras.indexOf(hit);
+    const next = hits.paras.findIndex((p, i) => i > at && (IN_SHORT.test(p.text) || /<(b|strong)\b/i.test(p.html)));
+    const above = hits.paras[at - 1];
+    const own = [...(above && IN_SHORT.test(above.text) ? [above] : []), ...hits.paras.slice(at + 1, next < 0 ? undefined : next)];
+    if (lead) stories.push({ headline: shorten(lead.replace(/[.:]\s*$/, ''), 80), whyItMatters: storyLine(own, rest) });
   }
   const tool = find(/^tool of the week\b/i);
   if (tool) {
     const name = tool.heading.replace(/^tool of the week\s*[:–—-]\s*/i, '').trim();
-    const why = firstSentence((tool.paras[0] || {}).text || '');
-    if (name) stories.push({ headline: `Tool of the week: ${name}`, whyItMatters: shorten(why) });
+    if (name) stories.push({ headline: `Tool of the week: ${name}`, whyItMatters: storyLine(tool.paras, (tool.paras[0] || {}).text) });
   }
   if (!stories.length && description) stories.push({ headline: shorten(description, 80), whyItMatters: '' });
   if (!stories.length) return null;
