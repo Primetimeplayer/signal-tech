@@ -1,14 +1,59 @@
 {
-  "updated": "2026-10-22T22:19:09.695Z",
-  "count": 90,
+  "updated": "2026-10-23T00:18:16.072Z",
+  "count": 93,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Etsy is cracking down on AI slop listings",
+      "link": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+      "published": "2026-10-23T00:09:58.000Z",
+      "summary": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-5.03.44-PM.png?quality=90&strip=all&crop=0,0,100,82.725656291205"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "link": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
+      "published": "Thu, 22 Oct 2026 23:15:00 +0000",
+      "summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Warhound.png?resize=1200,675"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The next-gen Xbox won’t cost you $1,800. It can’t. Can it?",
+      "link": "https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial",
+      "published": "2026-10-22T23:00:00.000Z",
+      "summary": "An Xbox Elite controller. | Photo by Antonio G. Di Benedetto / The Verge Fortune dropped a bombshell report on the future of gaming this week. According to the publication's Microsoft insiders, the next Xbox is projected to cost between…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23516635/adbenedetto_220508_5192_0047.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "My GOTY is $7 and has 253 Steam reviews",
+      "link": "https://www.pcgamer.com/games/racing/my-goty-is-usd7-and-has-253-steam-reviews/",
+      "published": "Thu, 22 Oct 2026 22:29:10 +0000",
+      "summary": "Stuntboost is a racing game for FPS movement sickos.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Vo86zsDQwNRKRhdfHbVscG-1920-80.jpg"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+      "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+      "published": "Thu, 22 Oct 2026 22:25:33 +0000",
+      "summary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-1152x648-1792704912.png"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
       "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
       "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "published": "Thu, 22 Oct 2026 22:08:24 +0000",
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the mostly highly valued private company ever.",
+      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
       "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680"
     },
     {
@@ -21,6 +66,15 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0,0,100,100"
     },
     {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
+      "published": "Thu, 22 Oct 2026 21:39:58 +0000",
+      "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg"
+    },
+    {
       "source": "PC Gamer",
       "category": "news",
       "title": "Epic announces game jam where you have to use AI, then walks back the requirement",
@@ -28,6 +82,15 @@
       "published": "Thu, 22 Oct 2026 21:39:30 +0000",
       "summary": "The Unreal Engine and Fortnite company has extended the public a many-fingered invitation.",
       "image": "https://cdn.mos.cms.futurecdn.net/kcoLy3wUGtqe8Xvfo3fa5U-1920-80.jpg"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Spiral’s Edge",
+      "link": "https://www.nasa.gov/image-article/spirals-edge/",
+      "published": "Thu, 22 Oct 2026 21:35:38 +0000",
+      "summary": "This NASA Hubble Space Telescope image released on Oct. 16, 2026, features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove. Hubble captured the image as…",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/hubble-ngc1827-1-flat-final.jpg?w=2048"
     },
     {
       "source": "The Verge",
@@ -39,6 +102,15 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_C.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Designing an AI serving harness built to last",
+      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "published": "Thu, 22 Oct 2026 21:17:29 +0000",
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?w=840"
+    },
+    {
       "source": "The Verge",
       "category": "news",
       "title": "Fall 2026 earnings watch",
@@ -46,6 +118,15 @@
       "published": "2026-10-22T21:15:16.000Z",
       "summary": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to investor calls, and call out the latest wins and losses from…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKS501_STOCKS_CVIRGINIA_E.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Comcast loses more customers, claims other ISPs' cheap prices are \"irrational\"",
+      "link": "https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/",
+      "published": "Thu, 22 Oct 2026 21:07:09 +0000",
+      "summary": "Comcast plans job cuts and more AI agents for its shrinking cable customer base.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/11/getty-comcast-van-1152x648.jpg"
     },
     {
       "source": "TechCrunch",
@@ -111,14 +192,6 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_A.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Google tells Android users to update as parts of Canada adopt permanent daylight saving time",
-      "link": "https://www.theverge.com/tech/1016977/google-android-incorrect-time-daylight-saving-permanent-canada",
-      "published": "2026-10-22T19:13:42.000Z",
-      "summary": "As the US gets closer to permanently adopting daylight saving time following the House advancing the Sunshine Protection Act in July, there could be some unforeseen consequences to getting an extra hour of sun in the evening all year long…"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
@@ -142,8 +215,7 @@
       "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
       "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
       "published": "Thu, 22 Oct 2026 19:00:00 +0000",
-      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-12.17.11-PM-1.png?resize=1200,988"
+      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?"
     },
     {
       "source": "Ars Technica",
@@ -169,8 +241,7 @@
       "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
       "link": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
       "published": "Thu, 22 Oct 2026 18:43:53 +0000",
-      "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1935915215.jpg?w=1024"
+      "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself."
     },
     {
       "source": "TechCrunch",
@@ -178,8 +249,7 @@
       "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
       "link": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
       "published": "Thu, 22 Oct 2026 18:38:47 +0000",
-      "summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
-      "image": "https://techcrunch.com/wp-content/uploads/2016/10/4528869007_4484c3d401_b-1.jpg?w=1024"
+      "summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks."
     },
     {
       "source": "Ars Technica",
@@ -217,15 +287,6 @@
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-      "link": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-      "published": "Thu, 22 Oct 2026 16:47:17 +0000",
-      "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-591881449.jpg?resize=1200,799"
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "I've never seen a laptop cooler come with its own comic strip before, but it still hasn't convinced me this noisy beast is worth $50",
@@ -235,22 +296,13 @@
       "image": "https://cdn.mos.cms.futurecdn.net/T5L8p43bCdF5hCrk2eQbcH-1920-80.jpg"
     },
     {
-      "source": "Ars Technica",
+      "source": "NASA",
       "category": "news",
-      "title": "This emulator reimagines Nintendo’s Virtual Boy with a full color display",
-      "link": "https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/",
-      "published": "Thu, 22 Oct 2026 15:59:40 +0000",
-      "summary": "Tile-based color palettes go way beyond the four shades of red on original hardware.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/mtcolor.png"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-      "link": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-      "published": "Thu, 22 Oct 2026 15:25:02 +0000",
-      "summary": "Hackers were already probing the bug before defenders were told it existed.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-1000x648.jpeg"
+      "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+      "published": "Thu, 22 Oct 2026 16:20:37 +0000",
+      "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_DESI194.5345+03.5358_74_flat_FINALok.tif?w=2048"
     },
     {
       "source": "The Register",
@@ -397,15 +449,6 @@
       "image": "https://image.theregister.com/?imageId=254666&width=800"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "I Worked for a Whole Day Using Only the iPhone Duo. Here’s How It Went",
-      "link": "https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/",
-      "published": "Thu, 22 Oct 2026 10:30:00 +0000",
-      "summary": "A portable keyboard and kickstand make it a viable emergency workstation—even if iOS still gets in the way.",
-      "image": "https://media.wired.com/photos/6ad935fd8dbac9acb33aa1cc/master/pass/DSC_9943.jpg"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Making the case for context-aware AI",
@@ -494,15 +537,6 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shutterstock-codeonscreenphp.png"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "Science on the Space Station with NASA Astronaut Jessica Watkins",
-      "link": "https://www.nasa.gov/image-article/science-on-the-space-station-with-nasa-astronaut-jessica-watkins/",
-      "published": "Wed, 21 Oct 2026 15:05:08 +0000",
-      "summary": "NASA astronaut and Expedition 75 flight engineer Jessica Watkins works inside the Kibo laboratory module’s Life Science Glovebox on Oct. 9, 2026, safely mixing living cell samples with a bioink and then filling a special cartridge with the…",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/iss075e0190239orig.jpg?w=2048"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
@@ -527,15 +561,6 @@
       "published": "Wed, 21 Oct 2026 13:00:02 +0000",
       "summary": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup, a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines. When the cleanup began, AI writing was often…",
       "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=980"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-      "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-      "published": "Wed, 21 Oct 2026 12:17:58 +0000",
-      "summary": "From orbit, today’s space-based laser instruments measure Earth’s forests and terrain one narrow line at a time. Between those lines are enormous gaps that include millions of acres of land scientists never directly measure. NASA’s CASALS…",
-      "image": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/extratropical-cyclone-whips-past-iceland/icelandstorm_vir2_20261014_th.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
     },
     {
       "source": "MIT Technology Review",
