@@ -1,7 +1,90 @@
 {
-  "updated": "2026-10-23T18:27:46.743Z",
-  "count": 99,
+  "updated": "2026-10-23T21:25:47.522Z",
+  "count": 98,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "published": "2026-10-23T21:11:07.000Z",
+      "summary": "OpenAI now trains its frontier AI models offline to avoid hacking risks, using a secured environment with cached web data.",
+      "excerpt": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier AI models in September, after disclosing several incidents in which its…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It enhances security and reduces external system exposure for tech-savvy developers."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
+      "link": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+      "published": "Fri, 23 Oct 2026 20:28:43 +0000",
+      "summary": "Hegseth warns that prediction market bets distort military judgment and endanger troops, citing insider trading leaks to enemies.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/polymarket-1152x648.jpg",
+      "whyItMatters": "It highlights how market speculation can compromise U.S. operational security and troop safety."
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Nov. 5: Satellite Mission Management at the Edge",
+      "link": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
+      "published": "Fri, 23 Oct 2026 19:53:25 +0000",
+      "summary": "The article discusses how new technologies and commercial services are changing how satellite missions are managed at the edge of space.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-11-05-RTX-SpaceNews-2000-1500-scaled.jpg?fit=1024%2C768&ssl=1",
+      "whyItMatters": "Tech-savvy readers should note the shift toward edge computing for faster, more autonomous satellite operations."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Creative Assembly exec pins the blame for the Shogun 2 remaster mess on someone else: 'This was not a Creative Assembly developed game'",
+      "link": "https://www.pcgamer.com/games/strategy/creative-assembly-exec-pins-the-blame-for-the-shogun-2-remaster-mess-on-someone-else-this-was-not-a-creative-assembly-developed-game/",
+      "published": "Fri, 23 Oct 2026 19:35:17 +0000",
+      "summary": "Creative Assembly blames an external developer for the Shogun 2 remaster's issues, citing internal focus on future projects.",
+      "image": "https://cdn.mos.cms.futurecdn.net/RHZVhJS7mGHS2pRTD7rBsk-1920-80.jpg",
+      "whyItMatters": "Shows how outsourcing can impact game quality and fan trust."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
+      "link": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
+      "published": "Fri, 23 Oct 2026 19:33:58 +0000",
+      "summary": "The Pentagon is evaluating options to locate a new spaceport, weighing public‑private partnerships, federal sites, and state land.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/gallery-gallery_ng-2-ascent-2-1152x648.jpg",
+      "whyItMatters": "Tech leaders should track this as it could reshape U.S. space launch infrastructure and commercial opportunities."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "published": "2026-10-23T19:32:39.000Z",
+      "summary": "Block’s new AI model, Dessa, is trained solely on human conversation and showcases awkward, uncanny chats with users.",
+      "excerpt": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between the model and the speaker does have a mostly natural back and forth (though for…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_B.png?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It highlights a novel approach to conversational AI that could reshape user interaction design."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "'Every single week it's going to feel like the sky is falling': Cloudflare CEO says strap in for 'a couple years' of AI-powered internet security mayhem",
+      "link": "https://www.pcgamer.com/software/security/every-single-week-its-going-to-feel-like-the-sky-is-falling-cloudflare-ceo-says-strap-in-for-a-couple-years-of-ai-powered-internet-security-mayhem/",
+      "published": "Fri, 23 Oct 2026 19:24:34 +0000",
+      "summary": "Cloudflare CEO warns that the PHP crisis signals the start of widespread AI-driven internet security challenges, expecting significant turbulence over the next few years.",
+      "image": "https://cdn.mos.cms.futurecdn.net/XKCfWTAL3exAS4RH8dg8pX-1920-80.jpg",
+      "whyItMatters": "Tech leaders should prepare for rapid, AI‑driven security threats reshaping the web."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "published": "Fri, 23 Oct 2026 19:06:23 +0000",
+      "summary": "TechCrunch Founder Summit 2026 focuses on customer acquisition, team building, pitch refinement, leadership, and scaling beyond traditional hubs.",
+      "excerpt": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800",
+      "whyItMatters": "It offers founders actionable insights to grow and lead their companies effectively."
+    },
     {
       "source": "IEEE Spectrum",
       "category": "news",
@@ -173,16 +256,6 @@
       "image": "https://image.theregister.com/?imageId=5305120&width=800"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "SpaceX’s mobile carrier push reportedly involves tapping into 80,000 cell sites",
-      "link": "https://www.theverge.com/science/1017477/spacex-cell-sites-major-us-carrier",
-      "published": "2026-10-23T15:16:24.000Z",
-      "summary": "SpaceX plans to access at least 80,000 cell sites as part of efforts to compete directly with Verizon, T-Mobile, and AT&T, according to a report from Bloomberg. Sources tell the publication that SpaceX is in talks with Crown Castle Inc…",
-      "excerpt": "SpaceX plans to access at least 80,000 cell sites as part of efforts to compete directly with Verizon, T-Mobile, and AT&T, according to a report from Bloomberg. Sources tell the publication that SpaceX is in talks with Crown Castle Inc., one of the nation's largest cell tower owners. The move would give SpaceX access to half of the 158,500 cell towers currently operational in the US, according to Reuters. When asked…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1187777086.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Lab testing giant Quest Diagnostics confirms patients’ personal and health data was compromised during breach",
@@ -213,16 +286,6 @@
       "whyItMatters": "It offers gamers ultra‑smooth visuals, potentially improving competitive performance."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Meta delays new business terms after publisher pushback on AI scraping",
-      "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-      "published": "2026-10-23T14:47:41.000Z",
-      "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta…",
-      "excerpt": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow more time for us to explain to our partners and stakeholders what's changing and what's not.\"…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "LG UltraGear Evo 52G930B Evo gaming monitor review",
@@ -233,17 +296,6 @@
       "whyItMatters": "Its massive size and high resolution make it a standout for immersive gaming and productivity."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Our best tips for using the iPhone Duo",
-      "link": "https://www.theverge.com/tech/1017157/iphone-duo-tips-touch-id-magsafe",
-      "published": "2026-10-23T14:00:00.000Z",
-      "summary": "The article offers practical tips for navigating the new iPhone Duo, highlighting its unique design and learning curve for first-time users.",
-      "excerpt": "It’s been a long time since we had to rethink how to use an iPhone. | Photo: Amelia Holowaty Krales / The Verge The Duo is an entirely new kind of iPhone, so it comes with a bit of a learning curve. That's a wild thing to imagine, since the iPhone has had very few fundamental changes since its inception. But the Duo is built different. If you won the preorder lottery and managed to get your hands on one today…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1057.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech-savvy readers will appreciate guidance on leveraging the Duo’s distinct features and optimizing their experience."
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Amazon bows to local backlash over AI data centers, scraps plans to build four new facilities in Northern Virginia",
@@ -252,16 +304,6 @@
       "summary": "Amazon canceled four planned AI data centers in Loudoun County, Virginia, after local opposition, opting to repurpose the land for mixed and residential use.",
       "image": "https://cdn.mos.cms.futurecdn.net/eUBbKqSoTbmPLiP7oLHcvh-1920-80.jpg",
       "whyItMatters": "Shows how community pushback can reshape tech infrastructure plans and influence regional development."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Graphics card wholesale prices are on the rise once again in China, so it's time to brace yourself for even more GPU pricing pain",
-      "link": "https://www.pcgamer.com/hardware/graphics-cards/graphics-card-wholesale-prices-are-on-the-rise-once-again-in-china-so-its-time-to-brace-yourself-for-even-more-gpu-pricing-pain/",
-      "published": "Fri, 23 Oct 2026 13:36:34 +0000",
-      "summary": "GPU wholesale prices in China are climbing again.",
-      "image": "https://cdn.mos.cms.futurecdn.net/Hjb6HkSyfSfeMhcaps2vXR-1920-80.jpg",
-      "whyItMatters": "Tech readers should anticipate higher GPU costs."
     },
     {
       "source": "Tom's Hardware",
@@ -304,6 +346,16 @@
       "whyItMatters": "Tech readers should note rising regulatory scrutiny on AI chips in consumer devices."
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: testing six tech promises and biotech’s blind spots",
+      "link": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+      "published": "Fri, 23 Oct 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/06/SoundofDataFinal1f-thumb.jpeg?w=840"
+    },
+    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price",
@@ -342,16 +394,6 @@
       "summary": "Samsung’s Galaxy Z Flip8 offers a tiny, solid‑performing foldable phone with good camera, but at a higher price than its predecessor.",
       "image": "https://media.wired.com/photos/6ada7f3c75ce8d8c38ba9dad/master/pass/Review%20Samsung%20Galaxy%20Z%20Flip8%20102026%20top%20art%20SOURCE%20Amazon.jpg",
       "whyItMatters": "Tech enthusiasts may value its compact design and performance, though the premium cost could be a concern."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
-      "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready/",
-      "published": "Fri, 23 Oct 2026 11:00:57 +0000",
-      "summary": "Canada aims to launch satellites independently, seeking autonomy in space access.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/reaction-dynamics-1152x648.jpg",
-      "whyItMatters": "It signals growing national space capabilities and competition in the global launch market."
     },
     {
       "source": "Wired",
@@ -454,36 +496,6 @@
       "whyItMatters": "Shows AI creativity and adaptability, hinting at emergent behaviors beyond programmed goals."
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
-      "link": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
-      "published": "Thu, 22 Oct 2026 23:15:00 +0000",
-      "summary": "Warhound, founded by Ben Lamm and Palmer Luckey, raises $200M to genetically engineer dogs for military and law enforcement use.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Warhound.png?resize=1200,675",
-      "whyItMatters": "It blends biotech and defense tech, raising questions about ethics, security, and future battlefield capabilities."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
-      "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-      "published": "Thu, 22 Oct 2026 22:25:33 +0000",
-      "summary": "The Switch 2’s security is compromised by a userland exploit that uses an integer overflow in the SmileBasic interpreter.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-1152x648-1792704912.png",
-      "whyItMatters": "It exposes homebrew developers to potential system compromise and highlights vulnerabilities in Nintendo’s security."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "published": "Thu, 22 Oct 2026 22:08:24 +0000",
-      "summary": "OpenAI is pursuing a $30B funding round at a $1.25T valuation, potentially becoming the most valuable private company ever.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680",
-      "whyItMatters": "It signals massive investor confidence and could reshape the AI industry’s competitive landscape."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
@@ -513,15 +525,6 @@
       "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model…",
       "excerpt": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?w=840"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Rivian buys world model startup to accelerate self-driving ambitions",
-      "link": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
-      "published": "Thu, 22 Oct 2026 21:05:05 +0000",
-      "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/12/Rivian-Universal-Hands-Free.jpg?resize=1200,900"
     },
     {
       "source": "MIT Technology Review",
@@ -717,16 +720,6 @@
       "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
       "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "Nuclear-powered spaceships",
-      "link": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
-      "published": "Wed, 21 Oct 2026 09:00:00 +0000",
-      "summary": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly…",
-      "excerpt": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/SPACESHIP-FINAL.jpg?resize=1200,600"
     },
     {
       "source": "GitHub Blog",
