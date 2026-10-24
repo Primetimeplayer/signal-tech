@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T06:27:34.622Z",
+  "updated": "2026-10-24T09:23:14.446Z",
   "count": 98,
   "items": [
     {
@@ -184,7 +184,6 @@
       "published": "Fri, 23 Oct 2026 19:06:23 +0000",
       "summary": "TechCrunch Founder Summit 2026 focuses on customer acquisition, team building, pitch refinement, leadership, and scaling beyond traditional hubs.",
       "excerpt": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800",
       "whyItMatters": "It offers founders actionable insights to grow and lead their companies effectively."
     },
     {
@@ -329,7 +328,6 @@
       "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
       "published": "Fri, 23 Oct 2026 16:20:28 +0000",
       "summary": "Commonwealth Fusion Systems secured $85M federal funding to develop advanced conductors for fusion power plants.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/CFS-Brandon-Sorbom-Disrupt-2026.jpg?resize=1200,800",
       "whyItMatters": "It could accelerate fusion technology, boosting future clean energy and semiconductor innovation."
     },
     {
@@ -347,8 +345,7 @@
       "title": "What some of Anthropic’s backers are worth before its IPO",
       "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
       "published": "Fri, 23 Oct 2026 16:02:43 +0000",
-      "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2181797246.jpg?resize=1200,800"
+      "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns."
     },
     {
       "source": "Tom's Hardware",
@@ -375,7 +372,6 @@
       "link": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
       "published": "Fri, 23 Oct 2026 15:00:09 +0000",
       "summary": "Quest Diagnostics confirmed a breach exposing patients’ personal and health data.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/quest-862530304.jpg?resize=1200,743",
       "whyItMatters": "Healthcare data breaches threaten privacy and trust, impacting patient security and regulatory compliance."
     },
     {
@@ -509,16 +505,6 @@
       "whyItMatters": "General commentary on tech interactions."
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "8 Things to Know About the iPhone Duo",
-      "link": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
-      "published": "Fri, 23 Oct 2026 09:15:00 +0000",
-      "summary": "Apple’s first folding iPhone, the iPhone Duo, is now available and this article outlines key points to consider before buying.",
-      "image": "https://media.wired.com/photos/6ada893690bbef8397f3e8ae/master/pass/DSC_9451.jpg",
-      "whyItMatters": "Tech-savvy readers should know its unique design, performance, and potential impact on future Apple devices."
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "In the biotech world, you can’t see everything",
@@ -608,6 +594,15 @@
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
       "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+      "published": "Thu, 22 Oct 2026 16:20:37 +0000",
+      "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_DESI194.5345+03.5358_74_flat_FINALok.tif?w=2048"
     },
     {
       "source": "IEEE Spectrum",
@@ -753,7 +748,8 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog."
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
     },
     {
       "source": "IEEE Spectrum",
@@ -821,7 +817,8 @@
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog."
+      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
     },
     {
       "source": "GitHub Blog",
@@ -915,7 +912,8 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog."
+      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
     },
     {
       "source": "SpaceNews",
