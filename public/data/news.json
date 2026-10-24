@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-24T15:22:32.652Z",
-  "count": 96,
+  "updated": "2026-10-24T18:23:08.082Z",
+  "count": 98,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Block’s new voice model sounds eerily human",
+      "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "published": "Sat, 24 Oct 2026 16:00:00 +0000",
+      "summary": "Block unveiled a new voice model that can run locally on a MacBook M4 Max.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/07/jack-dorsey.jpg?resize=1200,822",
+      "whyItMatters": "Local AI boosts privacy and performance, appealing to tech enthusiasts seeking on-device solutions."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "The mouse P.I. for hire from Mouse: P.I. For Hire joins the meat boy from Super Meat Boy 3D in gaming's latest indie crossover",
+      "link": "https://www.pcgamer.com/games/action/the-mouse-p-i-for-hire-from-mouse-p-i-for-hire-joins-the-meat-boy-from-super-meat-boy-3d-in-gamings-latest-indie-crossover/",
+      "published": "Sat, 24 Oct 2026 15:46:15 +0000",
+      "summary": "The article announces a crossover game featuring Mouse: P.I. For Hire teaming up with the meat boy from Super Meat Boy 3D.",
+      "image": "https://cdn.mos.cms.futurecdn.net/iWfNSQCED57W2crFvwTk93-1920-80.png",
+      "whyItMatters": "Indie developers are blending franchises, offering fresh gameplay and fan engagement opportunities."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Japan Actors Union pushes for heavy restrictions on AI copying dead actors",
+      "link": "https://www.pcgamer.com/software/ai/japan-actors-union-pushes-for-heavy-restrictions-on-ai-copying-dead-actors/",
+      "published": "Sat, 24 Oct 2026 15:33:23 +0000",
+      "summary": "Japan’s actors union seeks strict limits on AI reproducing deceased actors, aiming to establish industry-wide guidelines.",
+      "image": "https://cdn.mos.cms.futurecdn.net/NYFR7QhivdoNWL5CenjD8c-1920-80.jpg",
+      "whyItMatters": "Tech-savvy readers should watch, as it could shape AI rights and content licensing globally."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+      "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+      "published": "Sat, 24 Oct 2026 15:30:00 +0000",
+      "summary": "Two critical PHP bugs threatened to disrupt the internet, highlighting the risks of widespread software vulnerabilities.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/php-web-bug-padlock-2300746159.jpg?resize=1200,800",
+      "whyItMatters": "Tech-savvy readers should monitor PHP updates to protect web infrastructure and prevent future widespread outages."
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -340,16 +380,6 @@
       "whyItMatters": "Tech-savvy readers should note the shift toward edge computing for faster, more autonomous satellite operations."
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Creative Assembly exec pins the blame for the Shogun 2 remaster mess on someone else: 'This was not a Creative Assembly developed game'",
-      "link": "https://www.pcgamer.com/games/strategy/creative-assembly-exec-pins-the-blame-for-the-shogun-2-remaster-mess-on-someone-else-this-was-not-a-creative-assembly-developed-game/",
-      "published": "Fri, 23 Oct 2026 19:35:17 +0000",
-      "summary": "Creative Assembly blames an external developer for the Shogun 2 remaster's issues, citing internal focus on future projects.",
-      "image": "https://cdn.mos.cms.futurecdn.net/RHZVhJS7mGHS2pRTD7rBsk-1920-80.jpg",
-      "whyItMatters": "Shows how outsourcing can impact game quality and fan trust."
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
@@ -367,17 +397,6 @@
       "published": "Fri, 23 Oct 2026 19:14:57 +0000",
       "summary": "Monitoring was only partial and was easily bypassed",
       "image": "https://image.theregister.com/?imageId=5305204&width=800"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-      "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-      "published": "Fri, 23 Oct 2026 19:06:23 +0000",
-      "summary": "TechCrunch Founder Summit 2026 focuses on customer acquisition, team building, pitch refinement, leadership, and scaling beyond traditional hubs.",
-      "excerpt": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800",
-      "whyItMatters": "It offers founders actionable insights to grow and lead their companies effectively."
     },
     {
       "source": "NASA",
@@ -443,12 +462,11 @@
     {
       "source": "The Register",
       "category": "news",
-      "title": "AI models think humans are a bunch of amoral sheep",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/23/ai-models-think-humans-are-a-bunch-of-amoral-sheep/5305123",
+      "title": "AI models describe humans as a bunch of amoral sheep",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/23/ai-models-describe-humans-as-a-bunch-of-amoral-sheep/5305123",
       "published": "Fri, 23 Oct 2026 16:26:13 +0000",
-      "summary": "An experiment asked large language models to describe humanity, revealing that the models often portray humans as amoral and sheep-like.",
-      "image": "https://image.theregister.com/?imageId=5305178&width=800",
-      "whyItMatters": "It highlights how AI mirrors and amplifies human biases, raising concerns about trust and ethical use of language models."
+      "summary": "Ask LLMs for their most controversial take on humanity, and it turns out they have little nice to say about us, as one AI experiment found",
+      "image": "https://image.theregister.com/?imageId=5305178&width=800"
     },
     {
       "source": "Tom's Hardware",
@@ -585,8 +603,7 @@
       "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
       "published": "Thu, 22 Oct 2026 17:21:30 +0000",
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
-      "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
+      "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog."
     },
     {
       "source": "IEEE Spectrum",
@@ -635,8 +652,7 @@
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
-      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
+      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog."
     },
     {
       "source": "SpaceNews",
