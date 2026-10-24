@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-23T21:25:48.193Z",
+  "updated": "2026-10-24T00:36:37.213Z",
   "count": 20,
   "items": [
+    {
+      "source": "Engadget",
+      "title": "OpenAI says it's cutting off internet access for frontier model training",
+      "link": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+      "published": "Fri, 23 Oct 2026 22:37:02 +0000",
+      "summary": "OpenAI will stop frontier models from accessing the internet during training to enhance safety after recent incidents.",
+      "image": "https://www.engadget.com/img/gallery/openai-says-its-cutting-off-internet-access-for-frontier-model-training/l-intro-1792794862.jpg",
+      "whyItMatters": "Tech users should know this limits data freshness but improves model reliability."
+    },
     {
       "source": "Engadget",
       "title": "Meta is charging government and nonprofit pages to post links on Facebook",
@@ -82,15 +91,6 @@
       "summary": "Pantaloon’s new Playbill subscription will curate indie games, explicitly excluding any that use generative AI.",
       "image": "https://www.engadget.com/img/gallery/a-new-subscription-service-promises-an-evolving-collection-of-bold-and-bizarre-indie-games/l-intro-1792701864.jpg",
       "whyItMatters": "It signals a niche market for AI-free indie experiences."
-    },
-    {
-      "source": "Engadget",
-      "title": "Spotify's Family plan QR code could cost you Premium access",
-      "link": "https://www.engadget.com/2294799/spotify-family-plan-qr-code-cost-premium-access/",
-      "published": "Thu, 22 Oct 2026 20:19:19 +0000",
-      "summary": "Spotify now requires Family plan members to verify shared address via QR code, potentially restricting access for those unable to prove residency.",
-      "image": "https://www.engadget.com/img/gallery/spotifys-family-plan-qr-code-could-cost-you-premium-access/l-intro-1792700036.jpg",
-      "whyItMatters": "Tech-savvy users may lose Premium if they can't provide QR proof, highlighting privacy and access concerns."
     },
     {
       "source": "The Verge Reviews",

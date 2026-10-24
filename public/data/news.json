@@ -1,7 +1,90 @@
 {
-  "updated": "2026-10-23T21:25:47.522Z",
-  "count": 98,
+  "updated": "2026-10-24T00:36:36.621Z",
+  "count": 99,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "published": "Fri, 23 Oct 2026 23:05:49 +0000",
+      "summary": "OpenAI will stop training its AI models on live internet data after concerns about risks surfaced.",
+      "whyItMatters": "Tech readers should note this limits real‑time data use, affecting model freshness and potential safety improvements."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+      "link": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+      "published": "Fri, 23 Oct 2026 22:48:25 +0000",
+      "summary": "NASA revises lunar lander plans, resolving a longstanding Orion spacecraft issue to enable future Moon missions.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur-1002x648.jpg",
+      "whyItMatters": "It advances lunar exploration technology, impacting future space missions and related industries."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+      "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+      "published": "Fri, 23 Oct 2026 22:39:39 +0000",
+      "summary": "NASA and commercial partners Blue Origin and SpaceX are refining lander designs and operations for 2028 lunar missions.",
+      "excerpt": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the designs and changed both concepts of operations for its future crewed landers. Since NASA established initial contracts with Blue Origin and SpaceX […]",
+      "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+      "whyItMatters": "It signals faster, more reliable crewed Moon landings, boosting tech development and future space exploration opportunities."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
+      "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "published": "Fri, 23 Oct 2026 22:37:53 +0000",
+      "summary": "NASA’s Artemis III will launch in 2027, sending astronauts aboard Orion to test future Moon lander operations before a lunar surface return.",
+      "excerpt": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
+      "whyItMatters": "It marks a pivotal step toward sustainable lunar exploration and future deep‑space missions."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "OpenAI disables internet access during model training while Anthropic issues another mea culpa",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238",
+      "published": "Fri, 23 Oct 2026 22:36:11 +0000",
+      "summary": "The article discusses OpenAI disabling internet during training and Anthropic issuing a mea culpa.",
+      "image": "https://image.theregister.com/?imageId=5305242&width=800",
+      "whyItMatters": "Highlights transparency issues in AI development."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "published": "Fri, 23 Oct 2026 21:59:19 +0000",
+      "summary": "Nvidia CEO showcases Microduck robots, which move, make R2‑D2 sounds, nap, and somersault on voice command.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/microduck-kickabout.jpg?resize=1200,676",
+      "whyItMatters": "It highlights Nvidia’s foray into consumer robotics, blending AI with playful hardware."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+      "link": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+      "published": "Fri, 23 Oct 2026 21:51:19 +0000",
+      "summary": "NASA’s Swift Observatory has concluded its science mission due to orbital decay, ending its gamma‑ray burst observations.",
+      "excerpt": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the satellite’s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift-observatory/news/2026/end-of-mission/Swift_in_space_15_ac.jpg?w=2048&h=1084&fit=clip&crop=faces%2Cfocalpoint",
+      "whyItMatters": "Its loss marks the end of a key tool for rapid transient astronomy, affecting future high‑energy research."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Xbox’s first chief operating officer is out after just a few months",
+      "link": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+      "published": "2026-10-23T21:39:26.000Z",
+      "summary": "Xbox’s inaugural COO, Helen Chiang, departs Microsoft after a brief tenure, having been promoted from Minecraft head to Xbox COO in July.",
+      "excerpt": "Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verge. Chiang has been at Microsoft for 21 years, serving as the head of Minecraft before being promoted to Xbox chief operating officer in July. Xbox CEO Asha Sharma announced Chiang's departure in a surprisingly short…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485116/STK048_XBOX2__B.png?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Shows Xbox’s leadership volatility, hinting at strategic shifts that could affect game development and platform priorities."
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -22,6 +105,16 @@
       "summary": "Hegseth warns that prediction market bets distort military judgment and endanger troops, citing insider trading leaks to enemies.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/polymarket-1152x648.jpg",
       "whyItMatters": "It highlights how market speculation can compromise U.S. operational security and troop safety."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "There's a third PHP2Shell bug, but it won't get an emergency fix",
+      "link": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
+      "published": "Fri, 23 Oct 2026 20:04:40 +0000",
+      "summary": "The article discusses a newly discovered PHP2Shell vulnerability that will not receive an urgent patch.",
+      "image": "https://image.theregister.com/?imageId=5305212&width=800",
+      "whyItMatters": "Developers should be aware of the delay in fixing this security flaw."
     },
     {
       "source": "SpaceNews",
@@ -75,6 +168,15 @@
       "whyItMatters": "Tech leaders should prepare for rapid, AI‑driven security threats reshaping the web."
     },
     {
+      "source": "The Register",
+      "category": "news",
+      "title": "Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200",
+      "published": "Fri, 23 Oct 2026 19:14:57 +0000",
+      "summary": "Monitoring was only partial and was easily bypassed",
+      "image": "https://image.theregister.com/?imageId=5305204&width=800"
+    },
+    {
       "source": "TechCrunch",
       "category": "news",
       "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
@@ -84,6 +186,16 @@
       "excerpt": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800",
       "whyItMatters": "It offers founders actionable insights to grow and lead their companies effectively."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "RS-25 Engine Tests at NASA Stennis",
+      "link": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+      "published": "Fri, 23 Oct 2026 18:57:04 +0000",
+      "summary": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire…",
+      "excerpt": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket, with a 111% power level. For each […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg?w=2048"
     },
     {
       "source": "IEEE Spectrum",
@@ -105,6 +217,16 @@
       "summary": "BioWare inspired 16 game developers to pursue careers in game development, highlighting its influence on the industry.",
       "image": "https://cdn.mos.cms.futurecdn.net/5bSRVE6nkVSLTztwHnEjg6-1920-80.jpg",
       "whyItMatters": "Shows how a single studio can shape future talent and industry trends."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA, Virginia Launch Power Partnership for Energy Security",
+      "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
+      "published": "Fri, 23 Oct 2026 17:50:21 +0000",
+      "summary": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation…",
+      "excerpt": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation, delivery and use by providing solar, meteorological, and future weather risk datasets for energy system modeling and planning purposes. Under a new […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/lrc-2026-ocio-p-03524.jpg?w=2048"
     },
     {
       "source": "The Verge",
@@ -220,18 +342,9 @@
       "image": "https://cdn.mos.cms.futurecdn.net/94RkNNoBUmy3PmPVpQQR2d-1920-80.jpg"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "AMD says its working on FSR's frame pacing issues, but there's still conspicuously no mention of Multi Frame Generation",
-      "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-says-its-working-on-fsrs-frame-pacing-issues-but-theres-still-conspicuously-no-mention-of-multi-frame-generation/",
-      "published": "Fri, 23 Oct 2026 16:04:04 +0000",
-      "summary": "Smooth moves ahead?",
-      "image": "https://cdn.mos.cms.futurecdn.net/Nxw3o4ZQwF62mD9TtCzkEH-1920-80.jpg"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
-      "title": "What some of Anthropic’s backers are reportedly worth before its IPO",
+      "title": "What some of Anthropic’s backers are worth before its IPO",
       "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
       "published": "Fri, 23 Oct 2026 16:02:43 +0000",
       "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
@@ -274,26 +387,6 @@
       "summary": "The $209 Gigabyte Z890M Aorus Elite WiFi7 Micro‑ATX board sports an icy‑white design and full heatsink coverage for premium Intel builds.",
       "image": "https://cdn.mos.cms.futurecdn.net/3H68kTuxq7PEgdfpZT2XPm-1920-80.jpg",
       "whyItMatters": "Its aesthetic and cooling make it appealing for stylish, high‑performance Intel SFF setups."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "In a rare instance of good news, Philips has announced the world's first 36-inch, 260 Hz gaming monitor. So that's nice",
-      "link": "https://www.pcgamer.com/hardware/gaming-monitors/in-a-rare-instance-of-good-news-philips-has-announced-the-worlds-first-36-inch-260-hz-gaming-monitor-so-thats-nice/",
-      "published": "Fri, 23 Oct 2026 14:55:41 +0000",
-      "summary": "Philips unveiled the world’s first 36‑inch gaming monitor with a 260 Hz refresh rate.",
-      "image": "https://cdn.mos.cms.futurecdn.net/zkJfqJuJFshsSF7f9nfBba-1920-80.jpg",
-      "whyItMatters": "It offers gamers ultra‑smooth visuals, potentially improving competitive performance."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "LG UltraGear Evo 52G930B Evo gaming monitor review",
-      "link": "https://www.pcgamer.com/hardware/gaming-monitors/lg-ultragear-evo-52g930b-review/",
-      "published": "Fri, 23 Oct 2026 14:31:50 +0000",
-      "summary": "LG's 52‑inch ultrawide 5K2K monitor is surprisingly old‑school in design and features.",
-      "image": "https://cdn.mos.cms.futurecdn.net/UvxifFiGG6tWy5R9jXnv8E-1920-80.jpg",
-      "whyItMatters": "Its massive size and high resolution make it a standout for immersive gaming and productivity."
     },
     {
       "source": "Tom's Hardware",
@@ -436,46 +529,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/YCSE_NP_1_1.jpg?resize=1200,600"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Beware the claw: Do you want to win the bunny or reboot Android?",
-      "link": "https://www.theregister.com/offbeat/2026/10/23/beware-the-claw-do-you-want-to-win-the-bunny-or-reboot-android/5304172",
-      "published": "Fri, 23 Oct 2026 08:30:00 +0000",
-      "summary": "Article critiques a classic arcade game, highlighting its shortcomings compared to Bugdroid.",
-      "image": "https://image.theregister.com/?imageId=5304176&width=800",
-      "whyItMatters": "Readers may want to know why the game fails to impress."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Vendor-affiliated AI agent tech gets adopted by friendly, funded foundation",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/23/vendor-affiliated-ai-agent-tech-gets-adopted-by-friendly-funded-foundation/5304912",
-      "published": "Fri, 23 Oct 2026 07:29:00 +0000",
-      "summary": "Four AI agent facilitation projects shift to vendor-neutral governance.",
-      "image": "https://image.theregister.com/?imageId=2926419&width=800",
-      "whyItMatters": "Tech-savvy readers should note potential for unbiased AI tool development."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Windows said modem worked fine. That unmistakable scorched electronics smell suggested otherwise",
-      "link": "https://www.theregister.com/personal-tech/2026/10/23/windows-said-modem-worked-fine-that-unmistakable-scorched-electronics-smell-suggested-otherwise/5304375",
-      "published": "Fri, 23 Oct 2026 05:26:00 +0000",
-      "summary": "The article discusses a frustrating tech support experience where a modem’s reported functionality contradicted a strong burnt electronics odor.",
-      "image": "https://image.theregister.com/?imageId=263048&width=800",
-      "whyItMatters": "Tech users should trust physical symptoms over diagnostics to avoid costly hardware failures."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "published": "Fri, 23 Oct 2026 04:00:00 +0000",
-      "summary": "inDrive will test Pony.ai robotaxis in Kazakhstan’s capital in early 2027.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/indrive-pony-ai-kazakhstan.jpg?resize=1200,800",
-      "whyItMatters": "Shows expanding robotaxi trials beyond China, indicating growing global deployment of autonomous vehicles."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "El Niño Then and Now",
@@ -484,16 +537,6 @@
       "summary": "Scientists compare this year's El Niño to past extremes using a 35‑year satellite altimetry record.",
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg",
       "whyItMatters": "Understanding El Niño patterns helps predict climate impacts and guide global preparedness."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "published": "Fri, 23 Oct 2026 00:45:37 +0000",
-      "summary": "MIT researchers isolated 13 AI agents on a virtual island, where they created games, mourned a lost ring, and improved their task performance.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590",
-      "whyItMatters": "Shows AI creativity and adaptability, hinting at emergent behaviors beyond programmed goals."
     },
     {
       "source": "NASA",
@@ -616,42 +659,14 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/WD-MITTR-Infographic-Final@2x.png"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "Faster to Science: A Letter to the Science Community",
-      "link": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
-      "published": "Thu, 22 Oct 2026 00:00:16 +0000",
-      "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall.",
-      "image": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2024/05/rsch-phys-nasa-fox-dspoc-visit-ek-041824-007.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
-      "link": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
-      "published": "Wed, 21 Oct 2026 20:51:50 +0000",
-      "summary": "NASA tested RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for almost eight-and-a-half minutes (500 seconds), the…",
-      "excerpt": "NASA tested RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket. During […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947h.jpg?w=1024"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
-      "link": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/",
-      "published": "Wed, 21 Oct 2026 18:35:56 +0000",
-      "summary": "Interstellar probes. Lunar drones. Helicopters on Mars. When a group of Caltech graduate students and enthusiasts began conducting rocket-propulsion tests in Pasadena’s Arroyo Seco on Oct. 31, 1936, they had no idea that their work marked…",
-      "excerpt": "Interstellar probes. Lunar drones. Helicopters on Mars. When a group of Caltech graduate students and enthusiasts began conducting rocket-propulsion tests in Pasadena’s Arroyo Seco on Oct. 31, 1936, they had no idea that their work marked the inception of the Jet Propulsion Laboratory. Ninety years later, the lab, now managed by Caltech for NASA, isn’t […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/jpl90collage-v3-jpg-16x9-1.jpg?w=2048"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The bridge to agent-scale Git infrastructure",
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
-      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog."
+      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
     },
     {
       "source": "SpaceNews",
