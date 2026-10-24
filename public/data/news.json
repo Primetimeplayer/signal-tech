@@ -1,7 +1,107 @@
 {
-  "updated": "2026-10-24T09:23:14.446Z",
-  "count": 98,
+  "updated": "2026-10-24T12:26:49.886Z",
+  "count": 96,
   "items": [
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Valve adds CD-ROM drive support to Steam Frame kernel, took less than ten minutes",
+      "link": "https://www.tomshardware.com/virtual-reality/valve-adds-cd-rom-drive-support-to-steam-frame-kernel-took-less-than-ten-minutes-update-comes-one-day-after-user-requests-for-capability-in-the-steam-community-forum",
+      "published": "Sat, 24 Oct 2026 12:06:43 +0000",
+      "summary": "Valve added CD-ROM drive support to the Steam Frame kernel in under ten minutes, enabling direct optical drive access for gamers.",
+      "image": "https://cdn.mos.cms.futurecdn.net/GREi4LEjsga68aPho9Xe6B-1920-80.jpg",
+      "whyItMatters": "It expands media compatibility and streamlines game installation on the Steam Frame."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "published": "Sat, 24 Oct 2026 12:00:00 +0000",
+      "summary": "AI tools helped find and exploit long‑hidden PHP vulnerabilities, revealing how machine learning can accelerate bug discovery and exploitation.",
+      "image": "https://media.wired.com/photos/6adbb8a7e6d0c133525c3e7c/master/pass/KernelPanic_The%20PHP%20Meltdown%20Shows%20How%20AI%20Makes%20Bugs%20More%20Exploitable.jpg",
+      "whyItMatters": "Tech readers should know AI can both uncover and weaponize software flaws, impacting security practices."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Use your 3D printer to customize this new Stage Tour guitar PC controller",
+      "link": "https://www.tomshardware.com/peripherals/controllers-gamepads/use-your-3d-printer-to-customize-this-new-stage-tour-guitar-controller-drakongs-infinakore-fender-telecaster-peripheral-is-a-modders-dream",
+      "published": "Sat, 24 Oct 2026 12:00:00 +0000",
+      "summary": "A 3D‑printable guitar controller for Stage Tour, Guitar Hero, and Rock Band lets users design a custom Telecaster‑style rig.",
+      "image": "https://cdn.mos.cms.futurecdn.net/3vMUJ5KTyqeuFFdRhBGLSe-1920-80.jpg",
+      "whyItMatters": "Tech enthusiasts can personalize gameplay hardware and extend compatibility with classic rhythm titles."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Texas has suspended 17 data center construction permits and shut down automated portal that rubber-stamped projects",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/texas-has-suspended-17-data-center-construction-permits-and-shut-down-automated-portal-used-to-approve-them-site-was-left-running-for-a-month-after-greg-abbott-called-for-a-pause-on-approvals",
+      "published": "Sat, 24 Oct 2026 11:35:00 +0000",
+      "summary": "Texas halted 17 data center permits and shut its automated approval portal.",
+      "image": "https://cdn.mos.cms.futurecdn.net/wZHrQo3SV2tfx5VmDhzVC8-1920-80.jpg",
+      "whyItMatters": "Tech leaders must monitor regulatory shifts affecting data center expansion."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Raspberry Pi Desktop proves old PCs aren't past it",
+      "link": "https://www.theregister.com/os-platforms/2026/10/24/raspberry-pi-desktop-proves-old-pcs-arent-past-it/5304676",
+      "published": "Sat, 24 Oct 2026 11:30:00 +0000",
+      "summary": "The new Raspberry Pi Desktop, built on Debian 13, runs smoothly on older ThinkPads, offering a straightforward installation without hobbyist tinkering.",
+      "image": "https://image.theregister.com/?imageId=228466&width=800",
+      "whyItMatters": "Tech users can revive old laptops with a lightweight, easy-to-install OS, extending device life and saving resources."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers",
+      "link": "https://www.tomshardware.com/pc-components/gpus/leaked-video-exposes-how-chinese-factories-are-stripping-rtx-5090s-to-fuel-ai-custom-partner-cards-to-nvidia-founders-editions-on-the-chopping-block",
+      "published": "Sat, 24 Oct 2026 11:15:00 +0000",
+      "summary": "Leaked footage shows Chinese factories dismantling thousands of RTX 5090 GPUs for AI servers.",
+      "image": "https://cdn.mos.cms.futurecdn.net/bBGEYE8htq38xZgt4xCdTQ-1920-80.jpg",
+      "whyItMatters": "Highlights supply chain strain and AI demand affecting consumer GPU availability."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "9 Unique Apps to Try on the iPhone Duo",
+      "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+      "published": "Sat, 24 Oct 2026 10:45:00 +0000",
+      "summary": "Apple’s folding iPhone Duo inspires indie developers to craft quirky apps that use the dual screens and hinge.",
+      "image": "https://media.wired.com/photos/6adb699efc34ba9fae2279b4/master/pass/Top%20Art%20SOURCE%20Julian%20Chokkattu.jpg",
+      "whyItMatters": "Tech-savvy readers can explore new UI possibilities and early adopter experiences on a unique device."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
+      "link": "https://www.wired.com/story/best-laptops/",
+      "published": "Sat, 24 Oct 2026 10:00:00 +0000",
+      "summary": "The article shares the author’s decade-long laptop testing experience and offers advice for choosing the right laptop.",
+      "image": "https://media.wired.com/photos/6adb93924c15513ff5ac298b/master/pass/Update%20Best%20Laptops%20102026%20top%20art%20SOURCE%20Best%20Buy-Walmart.jpg",
+      "whyItMatters": "It helps tech-savvy readers make informed purchasing decisions based on extensive real-world testing."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "YouTuber escapes the modern AI tech market by recreating his 1996 PC",
+      "link": "https://www.tomshardware.com/video-games/retro-gaming/exhaustion-with-tech-market-prompts-youtuber-to-remake-their-first-pc-1996-build-fueled-by-nostalgia-and-ai-weariness",
+      "published": "Sat, 24 Oct 2026 10:00:00 +0000",
+      "summary": "A YouTuber rebuilds his 1996 PC to escape the current AI‑driven tech market, driven by nostalgia and fatigue with modern tech.",
+      "image": "https://cdn.mos.cms.futurecdn.net/u9AdRV8q6QgDZepnnBW2rY-1920-80.jpg",
+      "whyItMatters": "Shows how creators seek simplicity amid AI hype, highlighting a trend toward retro tech revival."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Rare archival footage tours the CompUSA NYC store in November 2000",
+      "link": "https://www.tomshardware.com/video-games/retro-gaming/rare-archival-footage-tours-the-compusa-nyc-store-in-november-2000-soak-up-some-y2k-pentium-iii-athlon-powerpc-windows-me-chunky-laptop-and-bulging-crt-nostalgia-in-glorious-360p",
+      "published": "Sat, 24 Oct 2026 09:40:00 +0000",
+      "summary": "A 2000 video shows a bustling CompUSA NYC store with translucent Presario PCs and early iMacs, capturing the Y2K PC era.",
+      "image": "https://cdn.mos.cms.futurecdn.net/b49fRNMRny933HKUbHum8J-1920-80.jpg",
+      "whyItMatters": "It offers nostalgic insight into early 2000s tech retail culture for tech enthusiasts."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -184,6 +284,7 @@
       "published": "Fri, 23 Oct 2026 19:06:23 +0000",
       "summary": "TechCrunch Founder Summit 2026 focuses on customer acquisition, team building, pitch refinement, leadership, and scaling beyond traditional hubs.",
       "excerpt": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800",
       "whyItMatters": "It offers founders actionable insights to grow and lead their companies effectively."
     },
     {
@@ -260,27 +361,6 @@
       "whyItMatters": "Tech readers should gauge Apple's new dual‑screen strategy and its impact on future iPhone designs."
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
-      "link": "https://www.wired.com/gallery/iphone-buying-guide/",
-      "published": "Fri, 23 Oct 2026 17:00:00 +0000",
-      "summary": "Apple releases the folding iPhone Duo, 18 Pro, and 18 Pro Max, offering a full lineup to choose from.",
-      "image": "https://media.wired.com/photos/6adb8eb7c29fe197e204584d/master/pass/iPhone%20Buying%20Guide%20102026%20top%20art%20SOURCE%20Apple.jpg",
-      "whyItMatters": "Tech readers can decide which model best fits their needs and budget."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-      "published": "2026-10-23T16:52:55.000Z",
-      "summary": "Google updated its privacy policy to allow using Gmail, Drive, and Photos data for personalized ads when AI features are enabled.",
-      "excerpt": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous version simply said it wouldn't do that, as of October 16th, Google has added the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech users may see more tailored ads, raising privacy and data usage concerns."
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
@@ -289,17 +369,6 @@
       "summary": "The New York Knicks conducted a phishing test by sending employees fake championship ring offers, revealing security weaknesses.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/james-dolan-knicks-championship-1152x648-1792772606.jpg",
       "whyItMatters": "It highlights how even high-profile organizations can fall prey to deceptive cyber attacks."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The first broken iPhone Duos are here",
-      "link": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen",
-      "published": "2026-10-23T16:37:03.000Z",
-      "summary": "Apple’s new iPhone Duo has begun selling, but early units are showing broken screens near the hinge with bright lines on the display.",
-      "excerpt": "The iPhone Duo officially goes on sale today, but a few units already have broken screens. According to posts on Reddit about the affected units, the issue appears to be happening at a similar spot on all of them: Some kind of problem shows up on the inner screen along the hinge and a strange bright line (or lines) across the right side of the display. Here's how one user in Australia described what happened to…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/20ruxzn728xh1.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech users should watch for potential hardware defects that could affect display quality and resale value."
     },
     {
       "source": "Ars Technica",
@@ -328,16 +397,8 @@
       "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
       "published": "Fri, 23 Oct 2026 16:20:28 +0000",
       "summary": "Commonwealth Fusion Systems secured $85M federal funding to develop advanced conductors for fusion power plants.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/CFS-Brandon-Sorbom-Disrupt-2026.jpg?resize=1200,800",
       "whyItMatters": "It could accelerate fusion technology, boosting future clean energy and semiconductor innovation."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "AMD says the re-release of the Ryzen 7 5800X3D was 'like a final gift to our loyal [AM4] users' and it was CEO Dr. Lisa Su who first came up with the idea",
-      "link": "https://www.pcgamer.com/hardware/processors/amd-says-the-re-release-of-the-ryzen-7-5800x3d-was-like-a-final-gift-to-our-loyal-am4-users-and-it-was-ceo-dr-lisa-su-who-first-came-up-with-the-idea/",
-      "published": "Fri, 23 Oct 2026 16:11:07 +0000",
-      "summary": "It timed itself rather nicely with the deepening memory crisis, too.",
-      "image": "https://cdn.mos.cms.futurecdn.net/94RkNNoBUmy3PmPVpQQR2d-1920-80.jpg"
     },
     {
       "source": "TechCrunch",
@@ -345,7 +406,8 @@
       "title": "What some of Anthropic’s backers are worth before its IPO",
       "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
       "published": "Fri, 23 Oct 2026 16:02:43 +0000",
-      "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns."
+      "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2181797246.jpg?resize=1200,800"
     },
     {
       "source": "Tom's Hardware",
@@ -372,6 +434,7 @@
       "link": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
       "published": "Fri, 23 Oct 2026 15:00:09 +0000",
       "summary": "Quest Diagnostics confirmed a breach exposing patients’ personal and health data.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/quest-862530304.jpg?resize=1200,743",
       "whyItMatters": "Healthcare data breaches threaten privacy and trust, impacting patient security and regulatory compliance."
     },
     {
@@ -385,27 +448,6 @@
       "whyItMatters": "Its aesthetic and cooling make it appealing for stylish, high‑performance Intel SFF setups."
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Amazon bows to local backlash over AI data centers, scraps plans to build four new facilities in Northern Virginia",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/amazon-bows-to-local-backlash-over-ai-data-centers-scraps-plans-to-build-four-new-facilities-in-northern-virginia-site-to-be-repurposed-for-mixed-use-and-residential-development",
-      "published": "Fri, 23 Oct 2026 13:36:50 +0000",
-      "summary": "Amazon canceled four planned AI data centers in Loudoun County, Virginia, after local opposition, opting to repurpose the land for mixed and residential use.",
-      "image": "https://cdn.mos.cms.futurecdn.net/eUBbKqSoTbmPLiP7oLHcvh-1920-80.jpg",
-      "whyItMatters": "Shows how community pushback can reshape tech infrastructure plans and influence regional development."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "China can make advanced chips without EUV, but the bill keeps growing",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/china-can-make-advanced-chips-without-euv-but-the-bill-keeps-growing-duv-multiple-patterning-means-bigger-dies-lower-yields-and-longer-manufacturing-times",
-      "published": "Fri, 23 Oct 2026 13:30:00 +0000",
-      "summary": "China extends DUV lithography with multiple patterning to near 5nm, but cost and yield limits future progress.",
-      "excerpt": "China has stretched older DUV lithography far further than expected, using multiple patterning to approach 5nm-class without EUV. But experts say the trade-offs in cost, yield, and die size mean further advancements are unlikely to be economically viable.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ZdNHVUmd5uG5inBMbnkzDU-1920-80.webp",
-      "whyItMatters": "Tech readers should note China’s cost‑driven limits on next‑gen chip scaling."
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Musk disputes NASA safety panel's lunar launch estimates",
@@ -413,26 +455,6 @@
       "published": "Fri, 23 Oct 2026 12:29:00 +0000",
       "summary": "Watchdog also warns retiring Falcon and Dragon could leave US access to orbit short of a backup",
       "image": "https://image.theregister.com/?imageId=1684260&width=800"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Illegal Nvidia Blackwell Ultra B300 GPUs found inside state-owned China Telecom's network",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor",
-      "published": "Fri, 23 Oct 2026 12:26:23 +0000",
-      "summary": "Security firm uncovered 32 Nvidia Blackwell Ultra B300 AI chips in China Telecom’s network, but their physical location remains unknown.",
-      "image": "https://cdn.mos.cms.futurecdn.net/kPWDNNZTPJyoeQtTCpMqQi-1920-80.jpg",
-      "whyItMatters": "Highlights potential export‑control violations and risks of unauthorized high‑performance AI hardware in state networks."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "FCC issues first bans under new chip-level rule",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/fcc-bans-first-two-devices-from-the-us-under-new-chip-level-rule-huawei-subsidiary-chip-boasts-face-detection-algorithm",
-      "published": "Fri, 23 Oct 2026 12:15:00 +0000",
-      "summary": "The FCC banned a HiSilicon dashcam and wireless video transmitter for containing an AI chip advertising face detection.",
-      "image": "https://cdn.mos.cms.futurecdn.net/FhrgMpu9kjGuT5ZVpNWx6g-1920-80.jpg",
-      "whyItMatters": "Tech readers should note rising regulatory scrutiny on AI chips in consumer devices."
     },
     {
       "source": "MIT Technology Review",
@@ -443,16 +465,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too…",
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2023/06/SoundofDataFinal1f-thumb.jpeg?w=840"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseeks-latest-ai-model-is-smarter-than-ever-but-its-low-running-costs-come-at-a-price-open-weight-model-is-fit-for-agentic-workloads-but-is-more-prone-to-hallucination-than-proprietary-competitors",
-      "published": "Fri, 23 Oct 2026 12:00:00 +0000",
-      "summary": "Deepseek 4.1 Flash 1017, an open‑weight model, cuts cost-per-task for agentic workloads, offering high performance at very low running costs.",
-      "image": "https://cdn.mos.cms.futurecdn.net/QzsaWZn9raSdwCW8ecQ7gi-1920-80.jpg",
-      "whyItMatters": "Tech users can deploy agentic AI cheaply, reducing infrastructure spend while maintaining performance."
     },
     {
       "source": "The Register",
@@ -473,26 +485,6 @@
       "summary": "Ukraine adapts drones and war tech to lessen dependence on Starlink.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Starlink-terminal-in-Ukraine-1152x648.jpg",
       "whyItMatters": "Shows how tech shifts can sustain military operations amid satellite access uncertainties."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
-      "link": "https://www.wired.com/review/samsung-galazy-z-flip8/",
-      "published": "Fri, 23 Oct 2026 11:30:00 +0000",
-      "summary": "Samsung’s Galaxy Z Flip8 offers a tiny, solid‑performing foldable phone with good camera, but at a higher price than its predecessor.",
-      "image": "https://media.wired.com/photos/6ada7f3c75ce8d8c38ba9dad/master/pass/Review%20Samsung%20Galaxy%20Z%20Flip8%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "whyItMatters": "Tech enthusiasts may value its compact design and performance, though the premium cost could be a concern."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
-      "link": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
-      "published": "Fri, 23 Oct 2026 10:45:00 +0000",
-      "summary": "The review says the Turtle Beach Vulcan II XP is good for typing but falls short in gaming due to many compromises.",
-      "image": "https://media.wired.com/photos/6ada67244d7b986a1aaead4e/master/pass/Turtle%20Beach%20Vulcan%20XP%20II%20SOURCE%20Matt%20Kamen.jpg",
-      "whyItMatters": "Tech-savvy readers should know it may not meet high-performance gaming expectations."
     },
     {
       "source": "The Register",
@@ -594,15 +586,6 @@
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
       "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
-      "published": "Thu, 22 Oct 2026 16:20:37 +0000",
-      "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_DESI194.5345+03.5358_74_flat_FINALok.tif?w=2048"
     },
     {
       "source": "IEEE Spectrum",
@@ -748,8 +731,7 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog."
     },
     {
       "source": "IEEE Spectrum",
@@ -817,8 +799,7 @@
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
+      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog."
     },
     {
       "source": "GitHub Blog",
@@ -912,8 +893,7 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog."
     },
     {
       "source": "SpaceNews",
