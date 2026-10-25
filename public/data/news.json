@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-25T06:29:03.910Z",
-  "count": 102,
+  "updated": "2026-10-25T09:23:42.706Z",
+  "count": 101,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "<span data-lab-italic_desktop=\"italic\" class=\"italic m-italic\">Reg</span> readers land on 'Binface' as name for UK space cleanup mission",
+      "link": "https://www.theregister.com/offbeat/2026/10/25/reg-readers-land-on-binface-as-name-for-uk-space-cleanup-mission/5305144",
+      "published": "Sun, 25 Oct 2026 09:00:00 +0000",
+      "summary": "The UK space cleanup mission is named 'Binface'.",
+      "image": "https://image.theregister.com/?imageId=5305169&width=800",
+      "whyItMatters": "Tech readers should note the quirky naming of a satellite debris removal project."
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -121,6 +131,7 @@
       "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
       "published": "Sat, 24 Oct 2026 15:00:00 +0000",
       "summary": "Developers are using the new foldable iPhone to create creative apps like cassette players, virtual notebooks, flight trackers, and a digital toaster.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/iPhone-duo.jpeg?resize=1200,675",
       "whyItMatters": "Shows foldable iPhone’s versatility, inspiring innovative app ideas for tech enthusiasts."
     },
     {
@@ -130,6 +141,7 @@
       "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "published": "Sat, 24 Oct 2026 15:00:00 +0000",
       "summary": "A study shows Grok’s AI recommends Republican candidates, while OpenAI’s GPT favors Democrats, disagreeing in over 90% of nearly 500 election races.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
       "whyItMatters": "Highlights AI bias risks in political content recommendation."
     },
     {
@@ -160,6 +172,7 @@
       "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
       "published": "Sat, 24 Oct 2026 14:15:00 +0000",
       "summary": "The Boox Palma 2 Pro is a $400, smartphone-sized e‑reader with a small E Ink display for books, articles, and documents.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/boox-palma-2-pro.png?resize=1200,666",
       "whyItMatters": "Its low price and portable E Ink screen offer a phone‑free reading alternative for tech‑savvy users."
     },
     {
@@ -180,6 +193,7 @@
       "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "published": "Sat, 24 Oct 2026 14:00:00 +0000",
       "summary": "A list of AI agents that can operate within text messages, covering general assistants and specialized agents for families, travel, and work.",
+      "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
       "whyItMatters": "Tech-savvy readers can choose efficient, context‑aware assistants for everyday tasks."
     },
     {
@@ -542,16 +556,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2023/06/SoundofDataFinal1f-thumb.jpeg?w=840"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Torvalds: AI is fine for competent devs, but spare us the 'drive-by' patches",
-      "link": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
-      "published": "Fri, 23 Oct 2026 11:31:00 +0000",
-      "summary": "Linus Torvalds says AI can help competent developers, but kernel maintainers will ignore AI usage if the code is high quality.",
-      "image": "https://image.theregister.com/?imageId=5226908&width=800",
-      "whyItMatters": "It signals AI’s growing role in critical open-source projects and the importance of code quality over tool provenance."
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "In the biotech world, you can’t see everything",
@@ -579,18 +583,7 @@
       "published": "Thu, 22 Oct 2026 21:39:58 +0000",
       "summary": "NASA invites media to the 2026 von Braun Space Exploration Symposium, focusing on lunar return, sustainable infrastructure, advanced propulsion, and the space workforce.",
       "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg",
       "whyItMatters": "It highlights key tech trends shaping future lunar missions and workforce development."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Spiral’s Edge",
-      "link": "https://www.nasa.gov/image-article/spirals-edge/",
-      "published": "Thu, 22 Oct 2026 21:35:38 +0000",
-      "summary": "This NASA Hubble Space Telescope image released on Oct. 16, 2026, features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove. Hubble captured the image as…",
-      "excerpt": "This NASA Hubble Space Telescope image released on Oct. 16, 2026, features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove. Hubble captured the image as part of a survey looking at 260 satellite galaxies around 22 Milky Way-like host galaxies within a radius of […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/hubble-ngc1827-1-flat-final.jpg?w=2048"
     },
     {
       "source": "MIT Technology Review",
@@ -639,8 +632,7 @@
       "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
       "published": "Thu, 22 Oct 2026 17:21:30 +0000",
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
-      "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
+      "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog."
     },
     {
       "source": "IEEE Spectrum",
@@ -689,8 +681,7 @@
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
-      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
+      "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog."
     },
     {
       "source": "SpaceNews",
@@ -786,8 +777,7 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog."
     },
     {
       "source": "IEEE Spectrum",
@@ -855,8 +845,7 @@
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
+      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog."
     },
     {
       "source": "GitHub Blog",
@@ -950,8 +939,7 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog."
     },
     {
       "source": "SpaceNews",
