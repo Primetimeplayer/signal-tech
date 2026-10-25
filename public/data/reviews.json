@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-25T18:23:49.486Z",
+  "updated": "2026-10-25T21:21:38.597Z",
   "count": 20,
   "items": [
+    {
+      "source": "Engadget",
+      "title": "What does the bell icon mean on your CarPlay screen?",
+      "link": "https://www.engadget.com/2293911/what-bell-icon-means-carplay-announce-notifications-feature/",
+      "published": "Sun, 25 Oct 2026 18:45:00 +0000",
+      "summary": "The article explains the purpose of the bell icon in CarPlay's app switcher.",
+      "image": "https://www.engadget.com/img/gallery/what-does-the-bell-icon-mean-on-your-carplay-screen/l-intro-1792672048.jpg",
+      "whyItMatters": "Knowing this helps drivers stay informed about notifications while driving."
+    },
+    {
+      "source": "Engadget",
+      "title": "The most unexpected everyday tool can be found on your phone",
+      "link": "https://www.engadget.com/2294275/the-most-unexpected-everyday-tool-can-be-found-on-your-phone/",
+      "published": "Sun, 25 Oct 2026 18:30:00 +0000",
+      "summary": "The article reveals an unexpected everyday tool hidden on iPhones that many users overlook.",
+      "image": "https://www.engadget.com/img/gallery/the-most-unexpected-everyday-tool-can-be-found-on-your-phone/l-intro-1792514406.jpg",
+      "whyItMatters": "Knowing this feature can boost productivity and enhance daily phone use."
+    },
     {
       "source": "Engadget",
       "title": "Even the best mesh Wi-Fi system can be easily improved with a simple cable",
@@ -10,6 +28,16 @@
       "summary": "Adding a simple cable can boost the signal strength of even the best mesh Wi‑Fi systems.",
       "image": "https://www.engadget.com/img/gallery/even-the-best-mesh-wi-fi-system-can-be-easily-improved-with-a-simple-cable/l-intro-1792611196.jpg",
       "whyItMatters": "Tech users can enhance coverage without buying new hardware."
+    },
+    {
+      "source": "The Verge Reviews",
+      "title": "This Switch 2 sequel accessory was a few millimeters away from being good",
+      "link": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
+      "published": "2026-10-25T17:00:00.000Z",
+      "summary": "The Crkd Nitro Deck 2 improves Switch controllers with Hall effect sticks, but its buttons are too close for comfort.",
+      "excerpt": "The stick and face buttons are too close for comfort. | Photo: Cameron Faulkner / The Verge The Crkd Nitro Deck was a saving grace for the original Nintendo Switch. The slide-on $59.99 accessory brought Hall effect sticks to drift-plagued consoles - no need to open up your Joy-Con for a complicated repair. The Nitro Deck 2, made for both the original Switch and the larger Switch 2, continues the tradition of having…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/crkd1_56c540.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech readers care because better controller ergonomics can enhance gaming performance and reduce strain."
     },
     {
       "source": "Engadget",
@@ -73,24 +101,6 @@
       "summary": "Earbuds are cheaper because they are smaller and less complex to build than headphones.",
       "image": "https://www.engadget.com/img/gallery/why-are-earbuds-usually-cheaper-than-headphones/l-intro-1792596068.jpg",
       "whyItMatters": "Tech-savvy readers want cost-effective audio solutions without sacrificing quality."
-    },
-    {
-      "source": "Engadget",
-      "title": "Samsung probably isn't rebranding One UI as Galaxy OS",
-      "link": "https://www.engadget.com/2292973/samsung-probably-not-rebranding-one-ui-as-galaxy-os/",
-      "published": "Sun, 25 Oct 2026 13:45:00 +0000",
-      "summary": "Rumors suggest Samsung may rename its One UI interface, but evidence indicates it likely remains unchanged as One UI rather than becoming Galaxy OS.",
-      "image": "https://www.engadget.com/img/gallery/samsung-probably-isnt-rebranding-one-ui-as-galaxy-os/l-intro-1792594756.jpg",
-      "whyItMatters": "Understanding Samsung’s UI strategy informs developers and users about potential app compatibility and brand identity shifts."
-    },
-    {
-      "source": "Engadget",
-      "title": "Quantum computers can get colder than deep space — Here's how they stay running",
-      "link": "https://www.engadget.com/2292950/how-quantum-computer-stays-running-extreme-cold/",
-      "published": "Sun, 25 Oct 2026 13:30:00 +0000",
-      "summary": "Quantum computers must be kept extremely cold to prevent heat from disrupting qubit accuracy, requiring sophisticated cooling systems to maintain operational stability.",
-      "image": "https://www.engadget.com/img/gallery/quantum-computers-can-get-colder-than-deep-space-heres-how-they-stay-running/l-intro-1792594079.jpg",
-      "whyItMatters": "Understanding cooling tech is crucial for building reliable, high-performance quantum devices and advancing computational breakthroughs."
     },
     {
       "source": "The Verge Reviews",
@@ -174,15 +184,6 @@
       "summary": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been…",
       "excerpt": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268814_Nvidia_RTX_Spark_laptops_Asus_HP_Lenovo_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge Reviews",
-      "title": "Surface Laptop Ultra review: a different kind of MacBook Pro",
-      "link": "https://www.theverge.com/tech/1012628/microsoft-surface-laptop-ultra-review",
-      "published": "2026-10-16T12:00:00.000Z",
-      "summary": "This MacBook Pro lookalike is designed for developers. After setting up Microsoft's Surface Laptop Ultra, I spent five minutes just staring at it. I wasn't surprised by its MacBook Pro-like design or blown away by its bright display. I was…",
-      "excerpt": "This MacBook Pro lookalike is designed for developers. After setting up Microsoft's Surface Laptop Ultra, I spent five minutes just staring at it. I wasn't surprised by its MacBook Pro-like design or blown away by its bright display. I was trying to work out what I'd actually do with a $5,900 laptop. This isn't just any regular Windows laptop. Microsoft has teamed up with Nvidia to build a high-end laptop to…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VERGE_10_04_2026_0149.jpg?quality=90&strip=all&crop=0,0,100,100"
     }
   ]
 }
