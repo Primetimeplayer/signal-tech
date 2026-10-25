@@ -1312,7 +1312,7 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
     `);
 
     assert.ok(report.outline.length > 0, 'Page must expose headings');
-    assert.ok(report.firstIsH1, `The first heading on the page must be the h1 wordmark (got level ${report.outline[0] && report.outline[0].level})`);
+    assert.ok(report.firstIsH1, `The first heading on the page must be the h1 hero headline (got level ${report.outline[0] && report.outline[0].level})`);
     assert.equal(report.noscriptH1, 0,
       'A second h1 inside <noscript> would still be parsed when scripting is off; the live document must have exactly one h1');
 
