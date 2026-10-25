@@ -66,3 +66,11 @@ test('newsletterBox adds the Friday copy and a UTM-tagged beehiiv link', () => {
   assert.match(box, /href="https:\/\/dailysignaltech\.beehiiv\.com\/subscribe\?utm_source=signaltechnews&amp;utm_medium=issue_page&amp;utm_campaign=signup_box"/);
   assert.match(box, /<\/p>\n  <\/section>$/);
 });
+
+test('newsletter copy uses the current format everywhere', () => {
+  for (const file of ['../public/index.html', '../public/digests.html', '../public/issues.html', '../scripts/build-static-pages.js']) {
+    const text = fs.readFileSync(new URL(file, import.meta.url), 'utf8');
+    assert.doesNotMatch(text, /sourced stories|practical takeaway/i, file);
+  }
+  assert.match(fs.readFileSync(new URL('../public/index.html', import.meta.url), 'utf8'), /one big story, quick hits and a Tool of the Week/);
+});

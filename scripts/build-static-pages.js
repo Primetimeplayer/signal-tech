@@ -391,7 +391,7 @@ export function issuesIndexPage(chrome, issues) {
   const main = `    <header class="page-head">
       <p class="page-kicker">Every Friday</p>
       <h1 class="page-title">Signal newsletter archive</h1>
-      <p class="page-sub">Every issue of the Friday Signal Briefing, newest first: 4 sourced stories and 1 practical takeaway in plain English.</p>
+      <p class="page-sub">Every issue of the Friday Signal Briefing, newest first: one big story, quick hits and a Tool of the Week, all in a 5-minute read.</p>
       <div class="page-actions">
         <a class="page-btn page-btn-primary" href="#newsletterCard">Subscribe free</a>
         <a class="page-btn" href="/digests">Weekly digests</a>
@@ -417,7 +417,7 @@ ${cards || '          <p class="digest-empty">The first issue is on its way.</p>
   ];
   return page(chrome, {
     title: 'Signal newsletter archive — Signal Tech',
-    description: 'Every issue of the Signal Tech newsletter: 4 sourced stories on AI, chips and dev tools and 1 practical takeaway, every Friday.',
+    description: 'Every issue of the Signal Tech newsletter: one big story on AI, chips or dev tools, quick hits and a Tool of the Week, every Friday.',
     url, ogType: 'website', graph, bodyClass: 'issues-page', main,
   });
 }
