@@ -1,7 +1,69 @@
 {
-  "updated": "2026-10-25T12:26:34.100Z",
-  "count": 101,
+  "updated": "2026-10-25T15:22:26.356Z",
+  "count": 100,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "published": "Sun, 25 Oct 2026 14:10:00 +0000",
+      "summary": "The article lists popular AI wearables such as Muse Charm, Bee, Friend, and Plaud.",
+      "image": "https://techcrunch.com/wp-content/uploads/2016/09/robocash.jpg?resize=1200,849",
+      "whyItMatters": "Tech-savvy readers can discover cutting‑edge wearable AI devices for productivity and wellness."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Ukrainian drone attacks hammer Russia's finance ministry data center, damaged facility reportedly holds tax databases",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drone-attacks-hammer-russias-finance-ministry-data-center-damaged-facility-reportedly-holds-tax-databases-facility-also-holds-other-important-state-registry-data",
+      "published": "Sun, 25 Oct 2026 14:05:00 +0000",
+      "summary": "Ukrainian drones struck a Russian finance ministry data center, one of three that store tax database information.",
+      "image": "https://cdn.mos.cms.futurecdn.net/wmDc2qYAL4pCfWnSCMvJnd-1920-80.jpg",
+      "whyItMatters": "Shows cyber‑physical attacks threaten critical financial infrastructure."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "published": "2026-10-25T13:25:32.000Z",
+      "summary": "r/opensource moderators banned AI-related projects, sparking controversy and debate among the community.",
+      "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source community.\" The new rules have set off a firestorm in the comments, and even spurred the creation of a…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It signals a stance on AI’s role in open source, affecting developers and contributors worldwide."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'",
+      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
+      "published": "Sun, 25 Oct 2026 13:00:00 +0000",
+      "summary": "Nvidia plans a $2,000 annual fee per GPU for enterprise AI software, potentially generating $10 billion if five million licenses are sold.",
+      "excerpt": "Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for enterprise customers.",
+      "image": "https://cdn.mos.cms.futurecdn.net/TwfFbH55Mt433hRvkWbSD5-1920-80.jpg",
+      "whyItMatters": "It signals a new revenue stream and could reshape enterprise AI budgeting and vendor relationships."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Jailbroken PS5s can now run Steam PC games",
+      "link": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-steam-pc-games-you-can-now-sign-in-with-your-steam-account-and-install-games-from-your-library-directly-to-the-console",
+      "published": "Sun, 25 Oct 2026 12:40:11 +0000",
+      "summary": "Playden for PS5 lets jailbroken consoles download Steam games, creating individual tiles so they appear like native PS5 apps.",
+      "image": "https://cdn.mos.cms.futurecdn.net/nd79YEyZjKpereVXCPBBMD-1920-80.png",
+      "whyItMatters": "Tech enthusiasts can play PC titles on PS5, expanding game library and testing cross-platform compatibility."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Wallhack M-001 Review: When Fun Overrides Specs",
+      "link": "https://www.wired.com/review/wallhack-m-001/",
+      "published": "Sun, 25 Oct 2026 12:30:00 +0000",
+      "summary": "The Wallhack M-001 gaming mouse offers a tactile dongle, metal chassis, and enjoyable experience.",
+      "image": "https://media.wired.com/photos/6adbbc51f337c510e207c213/master/pass/Review%20Wallhack%20M-001%20Gaming%20Mouse%20102026%20top%20art%20SOURCE%20Wallhack.jpg",
+      "whyItMatters": "Tech-savvy readers may value its unique design and fun ergonomics over raw specs."
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -227,16 +289,6 @@
       "whyItMatters": "Highlights AI bias risks in political content recommendation."
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "'I drank from the chalice of blood': indie dev scrubs his game of AI-generated voice lines, having previously described the technology as 'anti-human and anti-art'",
-      "link": "https://www.pcgamer.com/gaming-industry/game-development/i-drank-from-the-chalice-of-blood-indie-dev-scrubs-his-game-of-ai-generated-voice-lines-having-previously-described-the-technology-as-anti-human-and-anti-art/",
-      "published": "Sat, 24 Oct 2026 14:30:20 +0000",
-      "summary": "An indie developer removed AI-generated voice lines from his game after backlash, offering refunds to upset players.",
-      "image": "https://cdn.mos.cms.futurecdn.net/J2SZTYU49FSR6FCXmQ3dv9-1920-80.jpg",
-      "whyItMatters": "Highlights growing concerns over AI’s impact on creative authenticity in gaming."
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "What to expect from Apple’s ‘Pro and tell’ event",
@@ -289,37 +341,6 @@
       "whyItMatters": "Tech enthusiasts can snag a high‑performance gaming machine at a significant price drop."
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Edifier Hecate G2000 Pro Review: Clear and Colorful",
-      "link": "https://www.tomshardware.com/speakers/edifier-hecate-g2000-pro-review",
-      "published": "Sat, 24 Oct 2026 13:00:00 +0000",
-      "summary": "The Edifier Hecate G2000 Pro are RGB‑lit 2.0 PC gaming speakers that deliver surprisingly high‑quality audio for their size.",
-      "image": "https://cdn.mos.cms.futurecdn.net/mk5dzLPDwxhpnFxe7f2SYN-1920-80.jpg",
-      "whyItMatters": "Tech enthusiasts will appreciate the blend of striking visuals and strong sound in a compact gaming speaker setup."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "This week on Tom's Hardware Premium: October 24, 2026",
-      "link": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-24-2026-tp-links-fcc-saga-file-semantic-ssds-and-unlocking-better-gaming-performance-from-rtx-spark",
-      "published": "Sat, 24 Oct 2026 12:25:00 +0000",
-      "summary": "The article previews this week’s Tom's Hardware Premium highlights: TP‑Link’s Wi‑Fi 8 sales issues, FADU’s new SSD, and boosting RTX Spark gaming performance.",
-      "excerpt": "We give you a glimpse at some of the biggest stories we've published over on Tom's Hardware Premium this week, including reports on TP-Link's struggles over sales of its Wi-Fi 8 routers, FADU's new SSD, and how to juice better gaming performance from RTX Spark.",
-      "image": "https://cdn.mos.cms.futurecdn.net/8WSsunfcqRpAWD8nfjXSFA-1920-80.jpg",
-      "whyItMatters": "It informs tech enthusiasts about emerging hardware trends and performance optimization tips."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Valve adds CD-ROM drive support to Steam Frame kernel, took less than ten minutes",
-      "link": "https://www.tomshardware.com/virtual-reality/valve-adds-cd-rom-drive-support-to-steam-frame-kernel-took-less-than-ten-minutes-update-comes-one-day-after-user-requests-for-capability-in-the-steam-community-forum",
-      "published": "Sat, 24 Oct 2026 12:06:43 +0000",
-      "summary": "Valve added CD-ROM drive support to the Steam Frame kernel in under ten minutes, enabling direct optical drive access for gamers.",
-      "image": "https://cdn.mos.cms.futurecdn.net/GREi4LEjsga68aPho9Xe6B-1920-80.jpg",
-      "whyItMatters": "It expands media compatibility and streamlines game installation on the Steam Frame."
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
@@ -330,16 +351,6 @@
       "whyItMatters": "Tech readers should know AI can both uncover and weaponize software flaws, impacting security practices."
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Use your 3D printer to customize this new Stage Tour guitar PC controller",
-      "link": "https://www.tomshardware.com/peripherals/controllers-gamepads/use-your-3d-printer-to-customize-this-new-stage-tour-guitar-controller-drakongs-infinakore-fender-telecaster-peripheral-is-a-modders-dream",
-      "published": "Sat, 24 Oct 2026 12:00:00 +0000",
-      "summary": "A 3D‑printable guitar controller for Stage Tour, Guitar Hero, and Rock Band lets users design a custom Telecaster‑style rig.",
-      "image": "https://cdn.mos.cms.futurecdn.net/3vMUJ5KTyqeuFFdRhBGLSe-1920-80.jpg",
-      "whyItMatters": "Tech enthusiasts can personalize gameplay hardware and extend compatibility with classic rhythm titles."
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Raspberry Pi Desktop proves old PCs aren't past it",
@@ -348,25 +359,6 @@
       "summary": "The new Raspberry Pi Desktop, built on Debian 13, runs smoothly on older ThinkPads, offering a straightforward installation without hobbyist tinkering.",
       "image": "https://image.theregister.com/?imageId=228466&width=800",
       "whyItMatters": "Tech users can revive old laptops with a lightweight, easy-to-install OS, extending device life and saving resources."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "9 Unique Apps to Try on the iPhone Duo",
-      "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
-      "published": "Sat, 24 Oct 2026 10:45:00 +0000",
-      "summary": "Apple’s folding iPhone Duo inspires indie developers to craft quirky apps that use the dual screens and hinge.",
-      "image": "https://media.wired.com/photos/6adb699efc34ba9fae2279b4/master/pass/Top%20Art%20SOURCE%20Julian%20Chokkattu.jpg",
-      "whyItMatters": "Tech-savvy readers can explore new UI possibilities and early adopter experiences on a unique device."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "published": "Fri, 23 Oct 2026 23:05:49 +0000",
-      "summary": "OpenAI will stop training its AI models on live internet data after concerns about risks surfaced.",
-      "whyItMatters": "Tech readers should note this limits real‑time data use, affecting model freshness and potential safety improvements."
     },
     {
       "source": "Ars Technica",
@@ -586,7 +578,6 @@
       "published": "Thu, 22 Oct 2026 21:39:58 +0000",
       "summary": "NASA invites media to the 2026 von Braun Space Exploration Symposium, focusing on lunar return, sustainable infrastructure, advanced propulsion, and the space workforce.",
       "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg",
       "whyItMatters": "It highlights key tech trends shaping future lunar missions and workforce development."
     },
     {
