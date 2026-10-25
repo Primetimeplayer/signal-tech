@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-24T21:21:54.851Z",
-  "count": 90,
+  "updated": "2026-10-25T00:27:06.554Z",
+  "count": 102,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "published": "2026-10-24T21:29:12.000Z",
+      "summary": "Blue Planet III showcases imperfect footage to avoid AI-generated polish, aiming for authenticity in nature documentaries.",
+      "excerpt": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue Planet III goes warts and all. Executive Producer Elizabeth White told The Guardian…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy viewers will appreciate the push against synthetic realism and its implications for media credibility."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -110,6 +121,7 @@
       "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
       "published": "Sat, 24 Oct 2026 15:00:00 +0000",
       "summary": "Developers are using the new foldable iPhone to create creative apps like cassette players, virtual notebooks, flight trackers, and a digital toaster.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/iPhone-duo.jpeg?resize=1200,675",
       "whyItMatters": "Shows foldable iPhone’s versatility, inspiring innovative app ideas for tech enthusiasts."
     },
     {
@@ -119,6 +131,7 @@
       "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "published": "Sat, 24 Oct 2026 15:00:00 +0000",
       "summary": "A study shows Grok’s AI recommends Republican candidates, while OpenAI’s GPT favors Democrats, disagreeing in over 90% of nearly 500 election races.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
       "whyItMatters": "Highlights AI bias risks in political content recommendation."
     },
     {
@@ -149,6 +162,7 @@
       "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
       "published": "Sat, 24 Oct 2026 14:15:00 +0000",
       "summary": "The Boox Palma 2 Pro is a $400, smartphone-sized e‑reader with a small E Ink display for books, articles, and documents.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/boox-palma-2-pro.png?resize=1200,666",
       "whyItMatters": "Its low price and portable E Ink screen offer a phone‑free reading alternative for tech‑savvy users."
     },
     {
@@ -169,6 +183,7 @@
       "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "published": "Sat, 24 Oct 2026 14:00:00 +0000",
       "summary": "A list of AI agents that can operate within text messages, covering general assistants and specialized agents for families, travel, and work.",
+      "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
       "whyItMatters": "Tech-savvy readers can choose efficient, context‑aware assistants for everyday tasks."
     },
     {
@@ -376,17 +391,6 @@
       "whyItMatters": "Shows Xbox’s leadership volatility, hinting at strategic shifts that could affect game development and platform priorities."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-      "published": "2026-10-23T21:11:07.000Z",
-      "summary": "OpenAI now trains its frontier AI models offline to avoid hacking risks, using a secured environment with cached web data.",
-      "excerpt": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier AI models in September, after disclosing several incidents in which its…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It enhances security and reduces external system exposure for tech-savvy developers."
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
@@ -405,6 +409,15 @@
       "summary": "The article discusses a newly discovered PHP2Shell vulnerability that will not receive an urgent patch.",
       "image": "https://image.theregister.com/?imageId=5305212&width=800",
       "whyItMatters": "Developers should be aware of the delay in fixing this security flaw."
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Nov. 5: Satellite Mission Management at the Edge",
+      "link": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
+      "published": "Fri, 23 Oct 2026 19:53:25 +0000",
+      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-11-05-RTX-SpaceNews-2000-1500-scaled.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "Ars Technica",
@@ -604,6 +617,16 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
+      "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
+      "published": "Thu, 22 Oct 2026 18:13:38 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with…",
+      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with Aalyria’s Brian Barritt appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Aalyria-2000-1500.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "Why AI Can’t Replace Engineering Teams",
@@ -674,6 +697,15 @@
       "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
+      "link": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
+      "published": "Wed, 21 Oct 2026 15:26:29 +0000",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile…",
+      "excerpt": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner appeared first on SpaceNews."
+    },
+    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -682,6 +714,25 @@
       "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected…",
       "excerpt": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shutterstock-codeonscreenphp.png"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
+      "link": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
+      "published": "Wed, 21 Oct 2026 15:00:22 +0000",
+      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to…",
+      "excerpt": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to Reach $145 Billion by 2035 appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
+      "link": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
+      "published": "Wed, 21 Oct 2026 14:29:57 +0000",
+      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…",
+      "excerpt": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller appeared first on SpaceNews."
     },
     {
       "source": "IEEE Spectrum",
@@ -704,6 +755,16 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Summer of Quantum: Building momentum for space-based QKD",
+      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
+      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
+      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
+      "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
@@ -713,14 +774,23 @@
       "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog."
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
+      "link": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
+      "published": "Tue, 20 Oct 2026 13:00:00 +0000",
+      "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
+      "excerpt": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural […] The post AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png"
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog."
     },
     {
       "source": "IEEE Spectrum",
@@ -773,14 +843,22 @@
       "image": "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=980"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
+      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
+      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
+      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
       "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
-      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png"
+      "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog."
     },
     {
       "source": "GitHub Blog",
@@ -790,6 +868,25 @@
       "published": "Thu, 15 Oct 2026 18:00:00 +0000",
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How NASA is thinking about a moon base",
+      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
+      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
+      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…",
+      "excerpt": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to Seattle Area with New Bellevue Office appeared first on SpaceNews."
     },
     {
       "source": "GitHub Blog",
@@ -820,6 +917,16 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
+      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
+      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
+      "excerpt": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more quickly bring new tech to Europe, and to orbit appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
+    },
+    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
@@ -845,8 +952,17 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png"
+      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog."
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
+      "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
+      "published": "Mon, 12 Oct 2026 13:00:00 +0000",
+      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post…",
+      "excerpt": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […] The post Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission. appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/jenaoptronik.png?fit=719%2C719&ssl=1"
     },
     {
       "source": "Krebs on Security",
