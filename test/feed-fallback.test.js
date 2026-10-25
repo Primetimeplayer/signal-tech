@@ -406,3 +406,42 @@ test('missing and broken card images use a branded tile', async (t) => {
   assert.equal(style(pickFallback).objectFit, 'cover');
   assert.equal(style(pickFallback).backgroundColor, 'rgb(26, 115, 232)');
 });
+
+test('headlines with feed markup render as plain text', async (t) => {
+  const server = await startServer();
+  const { port } = server.address();
+  t.after(() => new Promise((resolve) => server.close(resolve)));
+
+  const story = (title, slug) => ({
+    source: 'The Register',
+    category: 'news',
+    title,
+    link: `https://example.test/${slug}`,
+    published: '2026-10-25T10:00:00.000Z',
+    summary: 'Markup fixture.',
+  });
+  const items = [
+    story('<span data-lab-italic_desktop="italic" class="italic m-italic">Reg</span> readers land on \'Binface\'', 'reg'),
+    story('<img src=x onerror="window.__pwned=1">Chip &lt;b&gt;news&lt;/b&gt;', 'chip'),
+  ];
+  const fetchImpl = (url) => {
+    const href = String(url);
+    if (href.includes('/api/news')) return Promise.reject(new TypeError('offline'));
+    if (href.includes('data/news.json')) return Promise.resolve(jsonResponse({ items }));
+    if (href.includes('data/')) return Promise.resolve(jsonResponse({ items: [] }));
+    return Promise.reject(new Error(`unexpected ${href}`));
+  };
+
+  const { dom } = await openDashboard(port, fetchImpl, { cache: '' });
+  t.after(() => dom.window.close());
+
+  const doc = dom.window.document;
+  await waitFor(() => [...doc.querySelectorAll('#feed h2 a')].some((a) => a.textContent === "Reg readers land on 'Binface'"), 2000);
+  const headlines = [...doc.querySelectorAll('#feed h2 a, #latestRow h3')].map((el) => el.textContent);
+  assert.ok(headlines.includes('Chip news'));
+  assert.equal(headlines.some((text) => /<|data-lab/.test(text)), false);
+  assert.equal(doc.querySelector('#feed h2 a span, #feed h2 a img, #latestRow h3 img'), null);
+  assert.equal(dom.window.__pwned, undefined);
+  const recent = [...doc.querySelectorAll('#feed [data-recent-title]')].map((el) => el.getAttribute('data-recent-title'));
+  assert.equal(recent.some((text) => /<span|<img/.test(text)), false);
+});

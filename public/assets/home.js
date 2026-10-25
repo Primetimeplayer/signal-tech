@@ -550,6 +550,25 @@ initAuth();
   function textHtml(value = '') {
     return escapeHtml(decodeEntities(value));
   }
+  // Headlines are plain text. Older news.json, KV and localStorage copies can
+  // still hold feed markup (<span class="italic">Reg</span>), so drop HTML
+  // tags here too. Same rules as scripts/lib/clean-title.js. The result is
+  // still escaped by textHtml/escapeHtml, so nothing in a title can run.
+  const TITLE_TAG = /<\/?(?:a|abbr|audio|b|blockquote|br|cite|del|div|em|embed|font|h[1-6]|i|iframe|img|ins|li|mark|object|ol|p|picture|q|s|script|small|source|span|strong|style|sub|sup|svg|time|u|ul|video|wbr)\b[^<>]*>|<\/?[a-z][a-z0-9-]*\s+[a-z_:][a-z0-9_:.-]*\s*=[^<>]*>/gi;
+  const TITLE_BLOCK_TAG = /^<\/?(?:br|p|div|li|h[1-6]|blockquote)\b/i;
+  function stripTitleTags(text) {
+    return text.replace(TITLE_TAG, (tag) => (TITLE_BLOCK_TAG.test(tag) ? ' ' : ''));
+  }
+  function cleanTitle(value = '') {
+    return stripTitleTags(decodeEntities(stripTitleTags(String(value ?? ''))))
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+  function withCleanTitle(item) {
+    if (!item || typeof item.title !== 'string') return item;
+    const title = cleanTitle(item.title);
+    return title === item.title ? item : { ...item, title: title || '(untitled)' };
+  }
   function textAttr(value = '') {
     return escapeAttr(decodeEntities(value));
   }
@@ -1925,9 +1944,10 @@ initAuth();
   }
 
   // Same decoded title from two sources (The Verge and The Verge Reviews)
-  // counts once. The newest copy wins. Untitled items stay.
+  // counts once. The newest copy wins. Untitled items stay. Every feed path
+  // passes through here, so this is also where titles lose stray markup.
   function dedupeByTitle(items) {
-    const ranked = items.slice().sort((a, b) => {
+    const ranked = items.map(withCleanTitle).sort((a, b) => {
       const da = new Date(a.published || 0).getTime() || 0;
       const db = new Date(b.published || 0).getTime() || 0;
       return db - da;

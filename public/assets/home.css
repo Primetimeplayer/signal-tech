@@ -7163,7 +7163,9 @@ main .grid,
   margin: 0;
   font-size: 12px;
   line-height: 1.45;
-  color: var(--text-muted, #5f6368);
+  /* The card is dark (#3a3f45) in both themes, so the note uses a fixed
+     light grey: 5.87:1, WCAG AA. --text-muted is dark grey in light mode. */
+  color: #bdc1c6;
 }
 .newsletter-embed {
   position: relative;

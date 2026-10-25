@@ -7,7 +7,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { excerpt } from './lib/excerpt.js';
-import { decodeEntities } from './lib/decode-entities.js';
+import { cleanTitle } from './lib/clean-title.js';
 import { enrichStoryImage } from './lib/story-image.js';
 import { isPromo } from './lib/promo-filter.js';
 
@@ -53,7 +53,7 @@ async function fetchFeed(feed, parseFeed) {
       const longExcerpt = excerpt(raw, 420);
       return {
         source: feed.name,
-        title: decodeEntities(item.title?.trim() ?? '(untitled)'),
+        title: cleanTitle(item.title) || '(untitled)',
         link: item.link,
         published: item.pubDate ?? item.isoDate ?? null,
         summary,

@@ -4,6 +4,7 @@
 
 import { excerpt } from './excerpt.js';
 import { decodeEntities } from './decode-entities.js';
+import { cleanTitle } from './clean-title.js';
 
 const ITEM_LIMIT = 20;
 
@@ -40,7 +41,7 @@ export function parseGoogleNewsXml(xml, limit = ITEM_LIMIT) {
   const items = [];
   for (const block of blocks) {
     const chunk = block.split(/<\/item>/i)[0];
-    const headline = splitGoogleTitle(tagText(chunk, 'title'));
+    const headline = splitGoogleTitle(cleanTitle(tagText(chunk, 'title')));
     const link = tagText(chunk, 'link');
     if (!headline.title || !link) continue;
     items.push({
