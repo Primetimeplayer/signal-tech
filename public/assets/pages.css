@@ -107,6 +107,12 @@
 /* The card is dark in both themes; keep the note readable on it. */
 .site-page .page-newsletter .newsletter-note { color: #bdc1c6 !important; }
 @media (max-width: 640px) { .site-page .page-newsletter { height: 156px; min-height: 156px; } }
+/* Generated issue, archive and digest pages add a plain beehiiv link under the form. */
+.site-page .page-newsletter:has(.newsletter-alt) { height: 152px; min-height: 152px; }
+@media (max-width: 640px) { .site-page .page-newsletter:has(.newsletter-alt) { height: 176px; min-height: 176px; } }
+.site-page .page-newsletter:has(.newsletter-alt) .newsletter-note { text-wrap: balance; }
+.site-page .page-newsletter .newsletter-alt { flex: 1 0 100%; margin: 0; font-size: 12px; line-height: 1.4; }
+.site-page .page-newsletter .newsletter-alt a { color: #8ab4f8 !important; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 
 /* Phones: the archive becomes a row of horizontal chips */
 @media (max-width: 800px) {

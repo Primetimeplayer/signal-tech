@@ -1,7 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import {
   SITE, sanitiseHtml, extractPostBody, mergeArchive, parseDigest, buildFeed, buildSitemap,
+  readChrome, newsletterBox,
 } from '../scripts/build-static-pages.js';
 
 test('sanitiseHtml keeps safe tags and http(s) links only', () => {
@@ -53,4 +55,14 @@ test('feed and sitemap are valid-looking and deterministic', () => {
   assert.match(feed, /<lastBuildDate>Mon, 05 Jan 2026 14:00:00 GMT<\/lastBuildDate>/);
   const map = buildSitemap([{ loc: `${SITE}/`, lastmod: '2026-01-05' }]);
   assert.match(map, /<loc>https:\/\/signaltechnews\.com\/<\/loc>\n {4}<lastmod>2026-01-05<\/lastmod>/);
+});
+
+test('newsletterBox adds the Friday copy and a UTM-tagged beehiiv link', () => {
+  const chrome = readChrome(fs.readFileSync(new URL('../public/digests.html', import.meta.url), 'utf8'));
+  const box = newsletterBox(chrome, 'issue_page');
+  assert.match(box, /<h2 id="newsletterTitle">Get Signal Tech every Friday<\/h2>/);
+  assert.match(box, /One big story, quick hits and a Tool of the Week\. Free, 5-minute read\./);
+  assert.match(box, /embeds\.beehiiv\.com/);
+  assert.match(box, /href="https:\/\/dailysignaltech\.beehiiv\.com\/subscribe\?utm_source=signaltechnews&amp;utm_medium=issue_page&amp;utm_campaign=signup_box"/);
+  assert.match(box, /<\/p>\n  <\/section>$/);
 });

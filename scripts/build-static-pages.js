@@ -255,6 +255,18 @@ export function readChrome(digestsHtml) {
   };
 }
 
+// The newsletter card on the generated pages: the shared beehiiv card from
+// digests.html with a reader-facing heading and note, plus a plain link to
+// the beehiiv subscribe page for browsers that block the embedded form. The
+// link carries UTM tags so beehiiv shows which page each signup came from.
+export function newsletterBox(chrome, medium) {
+  const link = `${NEWSLETTER}/subscribe?utm_source=signaltechnews&utm_medium=${medium}&utm_campaign=signup_box`;
+  return chrome.newsletter
+    .replace(/(<h2 id="newsletterTitle">)[\s\S]*?(<\/h2>)/, '$1Get Signal Tech every Friday$2')
+    .replace(/(<p class="newsletter-note">)[\s\S]*?(<\/p>)/, '$1One big story, quick hits and a Tool of the Week. Free, 5-minute read.$2')
+    .replace(/\s*<\/section>\s*$/, `\n    <p class="newsletter-alt"><a href="${esc(link)}" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>\n  </section>`);
+}
+
 function page(chrome, { title, description, url, ogType = 'article', graph, bodyClass, main, scripts = [] }) {
   const t = esc(title);
   const d = esc(description);
@@ -339,7 +351,7 @@ ${(issue.stories || []).map((s) => `<li><strong>${esc(s.headline)}.</strong> ${e
       </header>
 ${body}
       <p class="issue-source">First sent by email on ${esc(longDate(issue.date))}. <a href="${esc(issue.url)}" rel="noopener">View this issue on beehiiv</a>.</p>
-      ${chrome.newsletter}
+      ${newsletterBox(chrome, 'issue_page')}
       <nav class="page-actions issue-nav" aria-label="More issues">
         ${nav}
       </nav>
@@ -391,7 +403,7 @@ export function issuesIndexPage(chrome, issues) {
 ${cards || '          <p class="digest-empty">The first issue is on its way.</p>'}
       </div>
     </section>
-    ${chrome.newsletter}`;
+    ${newsletterBox(chrome, 'issues_archive')}`;
   const graph = [
     ORGANIZATION,
     {
@@ -428,9 +440,9 @@ export function digestPage(chrome, entry, data, entries) {
 ${s.items.map((it) => `<a class="latest-card digest-card" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer"><div class="cat">${esc(it.source)} · ${esc(s.name)}</div><h3>${esc(it.title)}</h3>${it.summary ? `<p class="digest-card-summary">${esc(it.summary)}</p>` : ''}</a>`).join('\n')}
 </div>
 </section>\n`;
-    if (n === 0) content += `${chrome.newsletter}\n`;
+    if (n === 0) content += `${newsletterBox(chrome, 'digest_page')}\n`;
   });
-  if (!d.sections.length) content += `${chrome.newsletter}\n`;
+  if (!d.sections.length) content += `${newsletterBox(chrome, 'digest_page')}\n`;
   if (d.outro.length) content += `<div class="digest-outro">${d.outro.map((p) => `<p>${inline(p)}</p>`).join('')}</div>\n`;
   const chips = entries.map((e) => `<a class="digest-chip${e.id === entry.id ? ' is-active" aria-current="page' : ''}" href="/digests/${e.id}">${esc(e.dateRange || e.id)}</a>`).join('');
   const main = `    <header class="page-head">
