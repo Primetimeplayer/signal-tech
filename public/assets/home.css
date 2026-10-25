@@ -8738,3 +8738,31 @@ main .grid,
     min-width: 196px !important;
   }
 }
+
+/* Publisher domain and read time sit on the source line, which is already
+   one 16px row, so adding them cannot change a card's height. */
+#feed .source-line .source-name {
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+
+#feed .source-line .source-extra {
+  flex: 0 100 auto;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#feed .source-line .source-read {
+  flex: 0 0 auto;
+}
+
+#feed .source-line .source-name + .source-extra::before,
+#feed .source-line .source-extra + .source-extra::before {
+  content: "· ";
+}

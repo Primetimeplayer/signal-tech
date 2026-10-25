@@ -25,7 +25,10 @@ test('hero subscribe link points at the beehiiv signup with home_hero UTM and op
   assert.equal(document.querySelectorAll('#heroSignup form, #heroSignup input, #heroSignup script').length, 0,
     'Hero signup must be a plain link with no form, input or script');
   const url = new URL(link.getAttribute('href'));
-  assert.equal(url.origin + url.pathname, 'https://dailysignaltech.beehiiv.com/subscribe');
+  // The beehiiv home, not /subscribe: /subscribe redirects to ?modal=signup,
+  // which stacks a pop-up form on top of the home page form.
+  assert.equal(url.origin + url.pathname, 'https://dailysignaltech.beehiiv.com/');
+  assert.equal(url.searchParams.has('modal'), false);
   assert.equal(url.searchParams.get('utm_source'), 'signaltechnews');
   assert.equal(url.searchParams.get('utm_medium'), 'home_hero');
   assert.equal(url.searchParams.get('utm_campaign'), 'signup_box');

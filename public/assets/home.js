@@ -892,9 +892,18 @@ initAuth();
     return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   }
 
+  // Publisher domain, plus a read time only when the fetch step counted the
+  // words of a full-text feed item. Teaser-only stories never get a guess.
+  function sourceExtra(item) {
+    const host = publisherHost(item && item.link);
+    const domain = host && host !== 'news.google.com' ? host : '';
+    const mins = item && Number(item.readMinutes) > 0 ? Math.round(Number(item.readMinutes)) : 0;
+    return `${domain ? `<span class="source-extra source-domain">${escapeHtml(domain)}</span>` : ''}${mins ? `<span class="source-extra source-read">${escapeHtml(t('minRead', { n: mins }))}</span>` : ''}`;
+  }
+
   function sourceLine(item) {
     const name = item && item.source ? `<span class="source-name">${textHtml(item.source)}</span>` : '';
-    return `<div class="source-line">${sourceMark(item)}${name}</div>`;
+    return `<div class="source-line">${sourceMark(item)}${name}${sourceExtra(item)}</div>`;
   }
 
   function cardMeta(item) {

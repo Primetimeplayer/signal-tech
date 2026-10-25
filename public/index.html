@@ -181,7 +181,106 @@
     .cookie-banner-actions{width:100%}
     .cookie-banner-actions button{flex:1}
   }
-</style>
+   /* First-paint layout: mirrors the final home.css sizes so nothing moves when it loads. */
+   .mast{position:sticky;top:0;z-index:100;box-sizing:border-box;height:65px}
+   .mast>.wrap{height:64px}
+   .mast-row{height:64px;gap:0 16px}
+   .wordmark{line-height:1}
+   .mast-right{margin-left:auto}
+   .mast-link{display:block;box-sizing:border-box;height:32px;padding:7px 13px;border:1px solid var(--line);border-radius:18px;color:inherit;font-size:13px;line-height:16px;text-decoration:none;white-space:nowrap}
+   .status{padding:0 4px;font-size:11px;line-height:14px;white-space:nowrap}
+   .locale-controls{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+   .locale-field{position:relative;display:flex;align-items:center}
+   .locale-trigger{display:flex;align-items:center;justify-content:center;gap:4px;box-sizing:border-box;height:34px;margin:0;padding:0 8px;border:1px solid var(--line);border-radius:8px;background:transparent;color:inherit;font:inherit}
+   .locale-icon{display:block;flex:0 0 auto;width:16px;height:16px}
+   .locale-badge{display:block;font-size:11px;font-weight:700;line-height:11px;letter-spacing:.03em}
+   .theme-toggle{display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-sizing:border-box;width:36px;height:36px;margin:0;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:inherit}
+   .theme-toggle svg{display:block;width:16px;height:16px}
+   .mast-account{position:relative;display:block;flex:0 0 36px;box-sizing:border-box;width:36px;height:36px;margin:0;padding:0;border:0;background:transparent;color:inherit}
+   .mast-account .account-pill{position:absolute;top:0;right:0;display:inline-flex;align-items:center;box-sizing:border-box;height:36px;min-width:36px}
+   .mast-account .account-label{display:inline-block;max-width:0;overflow:hidden;opacity:0}
+   .mast-account .account-icon{width:16px;height:16px;flex:none}
+   .menu-toggle{align-items:center;justify-content:center;box-sizing:border-box;margin:0;padding:0;border:1px solid var(--line);border-radius:8px;background:transparent;color:inherit}
+   .menu-toggle svg{display:block;width:18px;height:18px}
+   .controls{display:flex;flex-direction:column;box-sizing:border-box}
+   #topicBar{display:flex;align-items:center;box-sizing:border-box;padding:3px 0}
+   #topicBar .filter{display:flex;align-items:center;justify-content:center;box-sizing:border-box;margin:0;padding:7.2px 15.2px;border:0;border-radius:999px;background:transparent;color:inherit;font-size:13.12px;font-weight:500;line-height:15.744px;text-decoration:none}
+   .result-meta{display:flex;align-items:center;gap:8px;min-height:17px;margin-top:8px}
+   .result-count{margin:0;font-size:13px;line-height:17px;white-space:nowrap}
+   .search-toggle{display:none}
+   #latest{margin:10px 0 12px;padding:4px 0 0}
+   .latest-label{display:flex;align-items:center;gap:10px;margin:0 1px 8px;font-size:17px;font-weight:650;line-height:21.25px}
+   .latest-label h2{margin:0;font-size:25.5px;font-weight:700;line-height:31.875px;white-space:nowrap}
+   #latestCount{white-space:nowrap}
+   .latest-nav{display:flex;gap:6px;margin-left:auto}
+   .latest-nav-btn{display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:36px;height:36px;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:inherit}
+   .latest-nav-btn svg{width:18px;height:18px}
+   #latestRow{display:flex;gap:8px;box-sizing:border-box;height:120px;padding:2px 0 0;overflow:hidden}
+   #latestRow .latest-card{display:flex;flex-direction:column;flex:0 0 230px;box-sizing:border-box;width:230px;padding:14.4px 17.6px;border:1px solid var(--line);border-radius:10px;color:inherit;text-decoration:none}
+   #latestRow .latest-card .cat{margin:0 0 4.8px;font-size:11.2px;line-height:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+   #latestRow .latest-card h3{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;min-height:61.824px;margin:0;font-size:14.72px;font-weight:650;line-height:20.608px}
+   .latest-progress{display:block;height:3px;margin:8px 0 2px;overflow:hidden}
+   #latestProgressBar{display:block;height:100%;width:0}
+   #signalStrip{position:relative}
+   #signalStrip .signal-main{display:flex;flex-direction:column;justify-content:center;gap:2px}
+   #signalStrip .signal-kicker{display:flex;align-items:baseline;flex-wrap:nowrap;gap:8px;overflow:hidden;font-size:11px;line-height:13.2px}
+   #signalStrip .signal-title{font-size:18px;font-weight:650;line-height:20.7px;overflow:hidden;text-overflow:ellipsis}
+   #signalStories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:2px}
+   #signalStories .signal-headline{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:0;font-size:13px;font-weight:700;line-height:16.25px}
+   #signalStories .signal-why{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:1px 0 0;font-size:12px;line-height:15px}
+   #signalStrip .signal-actions{justify-content:center}
+   #signalStrip .signal-btn{display:flex;align-items:center;justify-content:center;box-sizing:border-box;height:32px;min-height:32px;padding:0 14px;border:1px solid var(--line);border-radius:999px;font-size:13px;font-weight:650;line-height:13px;white-space:nowrap;text-decoration:none}
+   .signal-nav{display:flex;flex:0 0 auto;flex-direction:column;gap:4px}
+   #signalStrip .signal-nav-btn{box-sizing:border-box;width:28px;height:28px;margin:0;padding:0}
+   .signal-hint-wrap{position:relative;z-index:3;height:0;pointer-events:none}
+   .signal-hint-wrap .signal-hint{position:absolute;top:11px;left:50%;margin:0;padding:3px 10px;font-size:11px;line-height:1.2;white-space:nowrap;opacity:0;transform:translate(-50%,-4px)}
+   #topicBar .top-nav{flex:1 1 auto;min-width:0}
+   .section-heading{display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;min-height:44px;margin:14px 0 2px;padding:10px 0 8px}
+   .section-heading h2{margin:0;font-size:22px;font-weight:700;line-height:26.4px;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+   /* Space the data-driven parts take once filled, so the feed and The Signal do not jump when the JSON arrives. */
+   main #skeleton{margin-top:0!important}
+   .status{min-width:120px;text-align:right;font-variant-numeric:tabular-nums}
+   #signalMeta:empty{min-height:13.2px}
+   #signalTitle:empty{min-height:20.7px}
+   #signalStories:empty{min-height:47.25px}
+   @media (max-width:800px){
+     .mast-link,.status,.mast-account,.latest-nav{display:none}
+     .controls{gap:.8rem;padding-bottom:4px}
+     .wrap{padding:0 16px}
+     .mast>.wrap,body>.wrap{padding:0 24px}
+     #topicBar{display:block}
+     #topicBar .top-nav,#topicBar .top-nav-section{flex-wrap:wrap;gap:2px;overflow:visible}
+     #topicBar #digestsNav{display:inline-flex;padding:.45rem .95rem;border:1px solid var(--line);font-size:.82rem;line-height:1.2}
+   }
+   @media (min-width:801px){
+     #topicBar #digestsNav{display:none}
+   }
+   @media (max-width:768px){
+     .mast>.wrap,body>.wrap{padding:0 16px}
+   }
+   @media (max-width:767px){
+     #topicBar{display:flex;flex-wrap:wrap;align-items:normal;padding:0}
+     #topicBar .top-nav,#topicBar .top-nav-section{flex:0 0 auto}
+     .search-toggle{display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-sizing:border-box;width:34px;height:34px;margin:0;padding:0;border:1px solid var(--line);border-radius:8px;background:transparent;color:inherit}
+   }
+   @media (min-width:641px) and (max-width:1023px){
+     #signalStories{grid-template-columns:repeat(2,minmax(0,1fr))}
+     #signalStrip .signal-story:nth-child(n+3){display:none}
+     #signalStories:empty{min-height:63.5px}
+   }
+   @media (max-width:640px){
+     #latestRow .latest-card{flex:0 0 78vw;width:78vw;max-width:calc(100% - 40px)}
+     #signalStrip .signal-kicker{flex-direction:column;flex-wrap:wrap;align-items:flex-start;gap:2px;padding-right:68px}
+     #signalStories{grid-template-columns:minmax(0,1fr);gap:8px}
+     #signalStrip .signal-story:nth-child(n+3){display:none}
+     #signalStrip .signal-actions{flex-direction:row;gap:6px}
+     #signalStrip .signal-btn{flex:1 1 0;padding:0 10px}
+     .signal-nav{position:absolute;top:10px;right:12px;flex-direction:row}
+     #signalStrip .signal-nav-btn{width:30px;height:30px}
+     #signalMeta:empty{min-height:15.2px}
+     #signalStories:empty{min-height:96px}
+   }
+ </style>
 <script>
   (function () {
     if (window.matchMedia('(max-width: 800px)').matches) return;
@@ -331,7 +430,7 @@
       <p class="tagline" data-i18n="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
     </div>
     <div class="hero-signup-cta">
-      <a class="hero-signup-btn" id="heroSubscribe" href="https://dailysignaltech.beehiiv.com/subscribe?utm_source=signaltechnews&amp;utm_medium=home_hero&amp;utm_campaign=signup_box" target="_blank" rel="noopener">Subscribe free</a>
+      <a class="hero-signup-btn" id="heroSubscribe" href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=home_hero&amp;utm_campaign=signup_box" target="_blank" rel="noopener">Subscribe free</a>
       <p class="hero-signup-meta"><span>Free · Every Friday ·</span> <span>5-minute read</span></p>
     </div>
   </div>

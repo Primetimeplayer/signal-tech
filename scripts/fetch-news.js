@@ -12,6 +12,7 @@ import { enrichStoryImage } from './lib/story-image.js';
 import { applyLocaleParams } from './lib/news-locale.js';
 import { splitGoogleTitle } from './lib/parse-google-news.js';
 import { isPromo } from './lib/promo-filter.js';
+import { readMinutes } from './lib/read-time.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'news.json');
@@ -137,6 +138,7 @@ async function fetchFeed(feed, parseFeed) {
       const rawSummary = item.contentSnippet ?? item.content ?? '';
       const summary = google ? '' : cleanSummary(rawSummary);
       const longExcerpt = google ? '' : excerpt(rawSummary, 420);
+      const minutes = google ? 0 : readMinutes(item);
       return {
         source: headline.source,
         category: feed.category,
@@ -146,6 +148,7 @@ async function fetchFeed(feed, parseFeed) {
         summary,
         ...(longExcerpt && longExcerpt !== summary ? { excerpt: longExcerpt } : {}),
         ...(image ? { image } : {}),
+        ...(minutes ? { readMinutes: minutes } : {}),
       };
     }));
   } catch (err) {

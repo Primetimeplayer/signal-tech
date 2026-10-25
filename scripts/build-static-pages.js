@@ -260,11 +260,39 @@ export function readChrome(digestsHtml) {
 // the beehiiv subscribe page for browsers that block the embedded form. The
 // link carries UTM tags so beehiiv shows which page each signup came from.
 export function newsletterBox(chrome, medium) {
-  const link = `${NEWSLETTER}/subscribe?utm_source=signaltechnews&utm_medium=${medium}&utm_campaign=signup_box`;
+  // The beehiiv home page, not /subscribe: /subscribe redirects there with
+  // &modal=signup, which stacks a pop-up form over the page's own form.
+  const link = `${NEWSLETTER}/?utm_source=signaltechnews&utm_medium=${medium}&utm_campaign=signup_box`;
   return chrome.newsletter
     .replace(/(<h2 id="newsletterTitle">)[\s\S]*?(<\/h2>)/, '$1Get Signal Tech every Friday$2')
     .replace(/(<p class="newsletter-note">)[\s\S]*?(<\/p>)/, '$1One big story, quick hits and a Tool of the Week. Free, 5-minute read.$2')
     .replace(/\s*<\/section>\s*$/, `\n    <p class="newsletter-alt"><a href="${esc(link)}" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>\n  </section>`);
+}
+
+// The sponsor slot near the top of every issue page. public/data/sponsor.json
+// holds { "name", "url", "tagline" }; while name or url is empty the slot
+// shows a "Your brand here" placeholder that links to /advertise. The box
+// has a fixed height either way (pages.css), so filling it never moves the page.
+export function sponsorSlot(sponsor = {}) {
+  const name = String(sponsor.name || '').trim();
+  const href = safeHref(String(sponsor.url || '').trim());
+  if (name && href) {
+    const tagline = String(sponsor.tagline || '').trim();
+    return `      <aside class="sponsor-slot is-filled" aria-label="Sponsor">
+        <a class="sponsor-link" href="${esc(href)}" target="_blank" rel="sponsored noopener">
+          <span class="sponsor-label">Sponsored</span>
+          <span class="sponsor-text"><strong class="sponsor-name">${esc(name)}</strong>${tagline ? `<span class="sponsor-tagline">${esc(tagline)}</span>` : ''}</span>
+          <span class="sponsor-cta" aria-hidden="true">Visit &rarr;</span>
+        </a>
+      </aside>`;
+  }
+  return `      <aside class="sponsor-slot is-empty" aria-label="Sponsor slot">
+        <a class="sponsor-link" href="/advertise">
+          <span class="sponsor-label">Sponsor slot</span>
+          <span class="sponsor-text"><strong class="sponsor-name">Your brand here</strong><span class="sponsor-tagline">Reach the people who build with AI, chips and dev tools.</span></span>
+          <span class="sponsor-cta">Sponsor Signal Tech &rarr;</span>
+        </a>
+      </aside>`;
 }
 
 function page(chrome, { title, description, url, ogType = 'article', graph, bodyClass, main, scripts = [] }) {
@@ -324,7 +352,7 @@ function issueDescription(issue) {
   return `Signal Tech newsletter #${issue.issueNumber}: ${text}`.replace(/\s+/g, ' ').trim().slice(0, 200);
 }
 
-export function issuePage(chrome, issue, older, newer) {
+export function issuePage(chrome, issue, older, newer, sponsor = {}) {
   const url = `${SITE}/issues/${issue.date}`;
   const body = issue.html
     ? `<div class="issue-body">\n${issue.html}\n</div>`
@@ -349,6 +377,7 @@ ${(issue.stories || []).map((s) => `<li><strong>${esc(s.headline)}.</strong> ${e
           <a class="page-btn" href="${esc(issue.url)}" rel="noopener">Read on beehiiv</a>
         </div>
       </header>
+${sponsorSlot(sponsor)}
 ${body}
       <p class="issue-source">First sent by email on ${esc(longDate(issue.date))}. <a href="${esc(issue.url)}" rel="noopener">View this issue on beehiiv</a>.</p>
       ${newsletterBox(chrome, 'issue_page')}
@@ -582,7 +611,8 @@ export async function buildStaticPages({ offline = false, request = fetch, log =
   const put = (rel, content) => { if (writeIfChanged(path.join(PUBLIC, rel), content)) written.push(rel); };
 
   put('data/issue-archive.json', `${JSON.stringify(archive, null, 2)}\n`);
-  issues.forEach((issue, i) => put(`issues/${issue.date}.html`, issuePage(chrome, issue, issues[i + 1], i > 0 ? issues[i - 1] : null)));
+  const sponsor = readJson(path.join(PUBLIC, 'data', 'sponsor.json'), {}) || {};
+  issues.forEach((issue, i) => put(`issues/${issue.date}.html`, issuePage(chrome, issue, issues[i + 1], i > 0 ? issues[i - 1] : null, sponsor)));
   put('issues.html', issuesIndexPage(chrome, issues));
 
   const digests = (readJson(path.join(PUBLIC, 'digests', 'index.json'), []) || []).filter((e) => e && DATE_ID.test(e.id || ''));

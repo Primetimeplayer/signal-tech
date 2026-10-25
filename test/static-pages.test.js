@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {
   SITE, sanitiseHtml, extractPostBody, mergeArchive, parseDigest, buildFeed, buildSitemap,
-  readChrome, newsletterBox,
+  readChrome, newsletterBox, sponsorSlot,
 } from '../scripts/build-static-pages.js';
 
 test('sanitiseHtml keeps safe tags and http(s) links only', () => {
@@ -63,7 +63,7 @@ test('newsletterBox adds the Friday copy and a UTM-tagged beehiiv link', () => {
   assert.match(box, /<h2 id="newsletterTitle">Get Signal Tech every Friday<\/h2>/);
   assert.match(box, /One big story, quick hits and a Tool of the Week\. Free, 5-minute read\./);
   assert.match(box, /embeds\.beehiiv\.com/);
-  assert.match(box, /href="https:\/\/dailysignaltech\.beehiiv\.com\/subscribe\?utm_source=signaltechnews&amp;utm_medium=issue_page&amp;utm_campaign=signup_box"/);
+  assert.match(box, /href="https:\/\/dailysignaltech\.beehiiv\.com\/\?utm_source=signaltechnews&amp;utm_medium=issue_page&amp;utm_campaign=signup_box"/);
   assert.match(box, /<\/p>\n  <\/section>$/);
 });
 
@@ -73,4 +73,18 @@ test('newsletter copy uses the current format everywhere', () => {
     assert.doesNotMatch(text, /sourced stories|practical takeaway/i, file);
   }
   assert.match(fs.readFileSync(new URL('../public/index.html', import.meta.url), 'utf8'), /one big story, quick hits and a Tool of the Week/);
+});
+
+test('sponsorSlot shows the placeholder until data/sponsor.json is filled', () => {
+  const empty = sponsorSlot({ name: '', url: '', tagline: '' });
+  assert.match(empty, /class="sponsor-slot is-empty" aria-label="Sponsor slot"/);
+  assert.match(empty, /href="\/advertise"/);
+  assert.match(empty, /Your brand here/);
+  assert.equal(sponsorSlot({ name: 'Bad', url: 'javascript:alert(1)' }), empty);
+  const filled = sponsorSlot({ name: 'Acme & Co', url: 'https://acme.test/?a=1&b=2', tagline: 'Tools' });
+  assert.match(filled, /class="sponsor-slot is-filled" aria-label="Sponsor"/);
+  assert.match(filled, /href="https:\/\/acme\.test\/\?a=1&amp;b=2"/);
+  assert.match(filled, /rel="sponsored noopener"/);
+  assert.match(filled, /Acme &amp; Co/);
+  assert.match(filled, />Sponsored</);
 });
