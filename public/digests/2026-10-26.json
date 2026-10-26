@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-26",
+  "title": "Signal Weekly — Oct 19–Oct 26, 2026",
+  "dateRange": "Oct 19–Oct 26, 2026",
+  "generatedAt": "2026-10-26T15:34:04.112Z",
+  "markdown": "# Signal Weekly — Oct 19–Oct 26, 2026\n\n*Oct 19–Oct 26, 2026*\n\nThis week’s tech buzz mixes big moves in AI, fresh hardware, and new research that could shape the future of learning and robotics. From IPOs to game storage quirks, there’s plenty to keep your curiosity humming.\n\n## Tech news\n\n- **[Anthropic officially files for its public debut](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)** (TechCrunch) — Anthropic’s IPO could shift AI market dynamics with a focus on safety governance.\n- **[Leaked 256-core Zen 6c EPYC CPU destroys Zen 5 in early single-threaded benchmarks hints at 24% IPC gain](https://www.tomshardware.com/pc-components/cpus/leaked-256-core-zen-6c-epyc-cpu-destroys-zen-5-in-early-single-threaded-benchmarks-hints-at-24-percent-ipc-gain-early-single-threaded-benchmarks-point-to-huge-amd-zen-6-improvements)** (Tom's Hardware) — A leaked 256‑core Zen 6c hints at a 24% IPC jump, promising better data‑center performance.\n- **[Apple unveils new iPad mini with OLED display and faster A20 Pro chip](https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/)** (TechCrunch) — Apple’s new iPad mini packs an A20 Pro and OLED screen, delivering a punchier portable experience.\n- **[Phantom Blade Zero devs say the game needs 300 GB of free space for the pre-load process, alongside updated system requirements](https://www.pcgamer.com/hardware/phantom-blade-zero-devs-say-the-game-needs-300-gb-of-free-space-for-the-pre-load-process-alongside-updated-system-requirements/)** (PC Gamer) — Phantom Blade Zero’s 300 GB free‑space requirement reminds gamers to plan storage before installing.\n\n## AI papers\n\n- **[The Language of Instruction: Genre and Generative AI](http://arxiv.org/abs/2610.32982v1)** (James E. Dobson) — The paper on instruction tuning explains how generative AI learns to follow specific genres.\n- **[SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning](http://arxiv.org/abs/2610.32978v1)** (Yuhan Liu, Lianhui Qin et al.) — SceneBloom offers realistic indoor layouts, boosting agent training in diverse environments.\n- **[RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms](http://arxiv.org/abs/2610.32971v1)** (Xi Chen, Fengqi Hu et al.) — RobustRLlib unifies benchmarks for resilient reinforcement learning, easing safer AI deployment.\n\n---\n\nStay tuned for more insights next week as tech continues to evolve at lightning speed.\n",
+  "thread": [
+    "🚀 Anthropic’s IPO is on the horizon—watch how a safety‑first AI firm enters public markets.",
+    "💻 AMD leaks a 256‑core Zen 6c—expect a 24% IPC boost for data‑center workloads.",
+    "📱 Apple’s new iPad mini brings an A20 Pro and OLED—power users, this is for you.",
+    "🎮 Phantom Blade Zero needs 300 GB free space—plan your storage before you launch.",
+    "📚 A new paper demystifies instruction tuning—understand how AI follows genre cues.",
+    "🏢 SceneBloom creates realistic indoor worlds—great for training embodied agents.",
+    "🤖 RobustRLlib streamlines testing of resilient policies—safer AI starts here.",
+    "🔗 Want the full digest? Dive into the links above and keep your tech edge sharp!"
+  ]
+}

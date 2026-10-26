@@ -5,13 +5,21 @@
     <link>https://signaltechnews.com/</link>
     <description>The Signal Tech newsletter and weekly digests: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 23 Oct 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 15:34:04 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>Signal Weekly — Oct 19–Oct 26, 2026</title>
+      <link>https://signaltechnews.com/digests/2026-10-26</link>
+      <guid isPermaLink="true">https://signaltechnews.com/digests/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 15:34:04 GMT</pubDate>
+      <category>Weekly digest</category>
+      <description>Oct 19–Oct 26, 2026: 14 of the week&#39;s most useful tech stories, grouped by section.</description>
+    </item>
     <item>
       <title>Issue #2: AI found a PHP hole. Patch it today</title>
       <link>https://signaltechnews.com/issues/2026-10-23</link>
