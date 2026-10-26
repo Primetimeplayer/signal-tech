@@ -1,7 +1,48 @@
 {
-  "updated": "2026-10-26T06:37:22.136Z",
-  "count": 98,
+  "updated": "2026-10-26T09:36:38.001Z",
+  "count": 101,
   "items": [
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+      "link": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+      "published": "Mon, 26 Oct 2026 09:30:00 +0000",
+      "summary": "AI agents Jayden, Sam, and Zack pitch investigative stories to editors, aiming to act as real-life journalists.",
+      "image": "https://media.wired.com/photos/6adcfb8cc56cd60fecb6db05/master/pass/AI%20journalists%202.jpg",
+      "whyItMatters": "Shows AI’s growing role in media, raising questions about credibility and automation in journalism."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months",
+      "link": "https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
+      "published": "Mon, 26 Oct 2026 09:30:00 +0000",
+      "summary": "Denmark tried Collabora as an open‑source Office replacement but abandoned it after six months due to formatting frustrations.",
+      "image": "https://cdn.mos.cms.futurecdn.net/NAbz7BCDUARTjEEB4XNUvS-1920-80.png",
+      "readMinutes": 2,
+      "whyItMatters": "Shows real‑world challenges of switching from Microsoft Office to open source in government."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Valve Steam Frame Review: Costly and Inconsistent",
+      "link": "https://www.wired.com/review/valve-steam-frame/",
+      "published": "Mon, 26 Oct 2026 09:15:00 +0000",
+      "summary": "Valve’s Steam Frame fails to deliver on its promise of high-quality stand‑alone and streaming VR gaming.",
+      "image": "https://media.wired.com/photos/6adbc96a2eadfa02886c7f8c/master/pass/ValveArt.jpg",
+      "whyItMatters": "Tech readers should know it may not justify the high price or performance expectations."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+      "link": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
+      "published": "Mon, 26 Oct 2026 09:00:00 +0000",
+      "summary": "Coyotec, a bilingual AI radio host, uses profanity and anti-ICE messaging to engage listeners, reflecting a trend toward AI personalities in broadcasting.",
+      "image": "https://media.wired.com/photos/6adbe71b429a21d2813df7cd/master/pass/GGC%20-%205-watermarked.jpg",
+      "whyItMatters": "Tech-savvy readers should watch AI’s influence on media and political discourse."
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -12,17 +53,6 @@
       "image": "https://image.theregister.com/?imageId=238312&width=800",
       "readMinutes": 3,
       "whyItMatters": "Quantum‑resilient DNS protects critical internet infrastructure and prevents future cyber‑attacks."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Hunting Red Leaves with Satellites",
-      "link": "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/",
-      "published": "Mon, 26 Oct 2026 04:01:00 +0000",
-      "summary": "A new satellite enables remote leaf‑peeping, letting users track autumn foliage from space.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenology_pace_20261004.jpg",
-      "readMinutes": 8,
-      "whyItMatters": "Tech enthusiasts can explore environmental data and enhance travel planning with satellite imagery."
     },
     {
       "source": "PC Gamer",
@@ -272,17 +302,6 @@
       "whyItMatters": "Tech leaders should learn global best practices to enhance U.S. data center efficiency, sustainability, and regulatory frameworks."
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Cybersecurity bounty hunter says Samsung TVs use AI to record audio and screenshots for ads",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/hacker-finds-own-samsung-tv-collecting-scary-amounts-of-user-information-and-gets-banned-by-openai-for-cyber-abuse-tv-runs-an-ai-model-that-collects-audio-screenshots-and-plenty-of-other-user-data-for-ad-targeting",
-      "published": "Sun, 25 Oct 2026 10:00:00 +0000",
-      "summary": "A hacker reverse‑engineered a Samsung TV, discovering it records audio and screenshots for advertising purposes.",
-      "image": "https://cdn.mos.cms.futurecdn.net/EiDyWR9Yo8wN9DnMZqQdJ4-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Tech users should be wary of smart TVs collecting personal data for targeted ads."
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Reg readers land on 'Binface' as name for UK space cleanup mission",
@@ -321,6 +340,7 @@
       "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
       "published": "Sat, 24 Oct 2026 20:15:33 +0000",
       "summary": "The article discusses how AI could reveal the fragile, glue‑and‑dreams nature of the internet’s infrastructure.",
+      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1195574782.jpg?resize=1200,800",
       "whyItMatters": "Understanding this fragility helps tech professionals anticipate and mitigate future network disruptions."
     },
     {
@@ -330,6 +350,7 @@
       "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "published": "Sat, 24 Oct 2026 19:00:00 +0000",
       "summary": "An overview of AI projects and startups that failed or were delayed, including Apple’s Siri and OpenAI’s super app.",
+      "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
       "whyItMatters": "Shows where AI investments misfire, guiding smarter startup choices."
     },
     {
@@ -350,6 +371,7 @@
       "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
       "published": "Sat, 24 Oct 2026 16:00:00 +0000",
       "summary": "Block unveiled a new voice model that can run locally on a MacBook M4 Max.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/07/jack-dorsey.jpg?resize=1200,822",
       "whyItMatters": "Local AI boosts privacy and performance, appealing to tech enthusiasts seeking on-device solutions."
     },
     {
@@ -359,17 +381,8 @@
       "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
       "published": "Sat, 24 Oct 2026 15:30:00 +0000",
       "summary": "Two critical PHP bugs threatened to disrupt the internet, highlighting the risks of widespread software vulnerabilities.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/php-web-bug-padlock-2300746159.jpg?resize=1200,800",
       "whyItMatters": "Tech-savvy readers should monitor PHP updates to protect web infrastructure and prevent future widespread outages."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-      "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-      "published": "Sat, 24 Oct 2026 12:00:00 +0000",
-      "summary": "AI tools helped find and exploit long‑hidden PHP vulnerabilities, revealing how machine learning can accelerate bug discovery and exploitation.",
-      "image": "https://media.wired.com/photos/6adbb8a7e6d0c133525c3e7c/master/pass/KernelPanic_The%20PHP%20Meltdown%20Shows%20How%20AI%20Makes%20Bugs%20More%20Exploitable.jpg",
-      "whyItMatters": "Tech readers should know AI can both uncover and weaponize software flaws, impacting security practices."
     },
     {
       "source": "The Register",
@@ -585,6 +598,26 @@
       "readMinutes": 5
     },
     {
+      "source": "NASA",
+      "category": "news",
+      "title": "El Niño Then and Now",
+      "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+      "published": "Fri, 23 Oct 2026 04:00:00 +0000",
+      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg",
+      "readMinutes": 6
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
+      "published": "Thu, 22 Oct 2026 21:39:58 +0000",
+      "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return…",
+      "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg"
+    },
+    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Designing an AI serving harness built to last",
@@ -791,7 +824,6 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -865,7 +897,6 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
@@ -967,7 +998,6 @@
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
       "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
       "readMinutes": 4
     },
     {
