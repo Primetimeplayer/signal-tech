@@ -1,7 +1,126 @@
 {
-  "updated": "2026-10-26T15:59:23.251Z",
-  "count": 104,
+  "updated": "2026-10-26T18:38:06.289Z",
+  "count": 97,
   "items": [
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "IEEE Xplore Digital Library Adds AI Assistant",
+      "link": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+      "published": "Mon, 26 Oct 2026 18:00:03 +0000",
+      "summary": "IEEE Xplore launches an AI research suite that searches millions of peer-reviewed documents for verified scientific answers.",
+      "excerpt": "IEEE recently released the IEEE Xplore AI Research Suite, built on the full text of millions of peer-reviewed publications in the IEEE Xplore Digital Library. The library offers full-text access to IEEE standards, journals, magazines, conference proceedings, and more. Researchers who use the AI suite to search the digital library receive answers grounded in verified scientific results, ensuring a high level of…",
+      "image": "https://spectrum.ieee.org/media-library/illustration-of-an-academic-paper-collaged-with-overlapping-question-marks-and-colorful-arrows.jpg?id=68528679&width=980",
+      "readMinutes": 3,
+      "whyItMatters": "It speeds up research by providing accurate, library-backed AI insights."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Microsoft releases emergency .NET security fixes for Google Brotli bug",
+      "link": "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515",
+      "published": "Mon, 26 Oct 2026 17:58:00 +0000",
+      "summary": "Microsoft issued urgent .NET security patches to address a compression flaw in Google Brotli.",
+      "image": "https://image.theregister.com/?imageId=244699&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "It protects .NET apps from potential data corruption and exploitation via Brotli compression."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+      "link": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+      "published": "Mon, 26 Oct 2026 17:45:00 +0000",
+      "summary": "Bedrock Robotics, valued at $4.1 billion, develops autonomous excavators to address operator shortages and secure $600 million in new funding.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/bedrock-robotics-excavators.jpg?resize=1200,675",
+      "whyItMatters": "Tech-savvy readers see potential for AI to reshape heavy construction and unlock new investment opportunities."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "link": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "published": "2026-10-26T17:30:55.000Z",
+      "summary": "The RealReal upgrades its bot defense to block AI agents from exploiting its 20‑minute item reserve system.",
+      "excerpt": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve system. On the retailer's website, an item goes \"on hold\" and is unavailable for other customers to buy for 20 minutes…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech‑savvy shoppers and AI developers see this as a key move against automated marketplace abuse."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Apple acknowledges iPhone Duo display ‘issue’ after reports of cracked screens",
+      "link": "https://www.theverge.com/tech/1018760/iphone-duo-crackgate-inside-screen-hinge-crack",
+      "published": "2026-10-26T17:28:07.000Z",
+      "summary": "Apple admits a defect in the inner display of some iPhone Duo units, causing cracked screens and a bright line, and offers replacements via AppleCare.",
+      "excerpt": "Following reports of iPhone Duos with cracked and broken inside screens, often showing a bright line running from the center to the right side, Apple says in a statement to Bloomberg and 9to5Mac that it's aware of \"an issue impacting the inner display\" on a \"small number of iPhone Duo units.\" If your iPhone Duo is affected, Apple says to contact AppleCare for a replacement. Here is the full statement, which Apple's…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1230.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech users should know about potential hardware failures and replacement options for their iPhone Duo."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Open source keyboard lets you swap parts like magnetic Lego bricks",
+      "link": "https://www.theregister.com/offbeat/2026/10/26/open-source-keyboard-lets-you-swap-parts-like-magnetic-lego-bricks/5305470",
+      "published": "Mon, 26 Oct 2026 17:25:00 +0000",
+      "summary": "A modular keyboard design lets users swap individual keys like magnetic Lego bricks, enabling custom layouts and expandable boards.",
+      "image": "https://image.theregister.com/?imageId=5305474&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech enthusiasts can build personalized keyboards and experiment with new layouts without buying new units."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Reddit's r/opensource bans AI slop, and quite a few humans for good measure",
+      "link": "https://www.theregister.com/software/2026/10/26/reddits-r/opensource-bans-ai-slop-and-quite-a-few-humans-for-good-measure/5305392",
+      "published": "Mon, 26 Oct 2026 17:00:00 +0000",
+      "summary": "Reddit's r/opensource has banned AI-generated content and also restricted participation, excluding solo developers, new projects, and non-English users.",
+      "image": "https://image.theregister.com/?imageId=5277792&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "It shows how moderation can limit open-source collaboration and AI use, affecting developers and project visibility."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more",
+      "link": "https://www.pcgamer.com/hardware/a-whole-host-of-steam-pc-games-can-now-run-locally-on-a-jailbroken-playstation-5-including-portal-left-4-dead-2-and-many-more/",
+      "published": "Mon, 26 Oct 2026 16:56:44 +0000",
+      "summary": "Jailbroken PS5s can now run many Steam PC games locally, such as Portal and Left 4 Dead 2.",
+      "image": "https://cdn.mos.cms.futurecdn.net/ZknvaoNEWA5JE3dS92VY77-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "It expands PS5’s game library, enabling cross-platform play and new gaming experiences."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "published": "Mon, 26 Oct 2026 16:49:42 +0000",
+      "summary": "Anthropic’s IPO filing shows over half of its $100,000-plus customers use both Claude Platform and a first‑party app, a cross‑selling strategy to increase stickiness.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2278152325.jpg?w=1024",
+      "whyItMatters": "Tech leaders should note this approach mirrors Amazon’s success, indicating potential for higher customer retention and revenue growth."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it",
+      "link": "https://www.pcgamer.com/hardware/vr-hardware/valve-adds-cd-rom-support-to-steam-frame-kernel-less-than-ten-minutes-after-saying-it-would-look-into-it/",
+      "published": "Mon, 26 Oct 2026 16:11:08 +0000",
+      "summary": "Valve added CD-ROM support to the Steam Frame kernel within minutes after announcing it would investigate.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Jxk6NCA9KSnag5KwJx3fQT-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "Shows Valve’s rapid response and commitment to hardware compatibility."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+      "link": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+      "published": "Mon, 26 Oct 2026 16:01:55 +0000",
+      "summary": "Anthropic’s S‑1 filing outlines its strategy of ‘closing the loop’ to achieve AI dominance, warning it could pose existential risks.",
+      "image": "https://media.wired.com/photos/6adf6d7844b1eb496ab79957/master/pass/Business_The%20Anthropic%20IPO%20Is%20Also%20a%20Doomsday%20Primer_v1.jpg",
+      "whyItMatters": "Tech readers should note the potential safety implications of aggressive AI development."
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -23,17 +142,6 @@
       "excerpt": "T-Mobile is launching new \"T-Mix\" plans that bundle wireless service with subscriptions to services like Netflix, Apple TV, YouTube Premium, Xbox Game Pass Ultimate, device promotions, and more, as reported earlier by Fierce Network. The Standard plan starts at $55 / month (with autopay) for one line and one \"Pick,\" which you can change up to four times during the year without changing the cost of your plan. The…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23962441/acastro_STK067__02.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "It offers cost‑effective, customizable entertainment bundles for tech‑savvy users."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Microsoft’s new Surface Laptop Ultra update fixes reboot and display bugs",
-      "link": "https://www.theverge.com/tech/1018636/microsoft-surface-laptop-ultra-october-firmware-update",
-      "published": "2026-10-26T15:28:11.000Z",
-      "summary": "Microsoft released firmware for Surface Laptop Ultra fixing screen flicker, unexpected restarts, and long reboot times.",
-      "excerpt": "Microsoft's Surface Laptop Ultra was blighted by some nuisance bugs at launch, but now the company has released some new firmware to resolve them. The October 22 release addresses three issues notable issues in particular: screen flickering, unexpected restarts, and lengthy reboot times, alongside unspecified \"additional bug fixes and general performance improvements,\" according to Microsoft's announcement. My…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VERGE_10_04_2026_0184.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech users benefit from smoother performance and fewer interruptions on the latest Surface model."
     },
     {
       "source": "PC Gamer",
@@ -152,18 +260,6 @@
       "whyItMatters": "It could democratize game creation and boost educational content for tech-savvy creators."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
-      "link": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
-      "published": "2026-10-26T14:00:00.000Z",
-      "summary": "Kevin Roose discusses his new book The AGI Chronicles and the launch of his podcast Machine Gods, focusing on AI industry changes.",
-      "excerpt": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton just left the Times to start the all-new tech podcast Machine Gods, which launched last week. Kevin and I talked about…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_Kevin_Roose.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "readMinutes": 51,
-      "whyItMatters": "It offers insider insights into AI’s rapid evolution, useful for staying ahead in tech."
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "WIRED Ghost Stories",
@@ -196,17 +292,6 @@
       "whyItMatters": "Tech readers should note AI’s uneven impact on corporate earnings and investment focus."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
-      "published": "2026-10-26T13:32:49.000Z",
-      "summary": "Anthropic filed its S‑1, announcing an upcoming Nasdaq IPO under ticker ANT, aiming to outpace OpenAI with its Claude AI platform.",
-      "excerpt": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC earlier this year in June, but the public document reveals more details, as well as the company's…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It signals a major funding push that could shift competitive dynamics in the AI industry."
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Cadence reveals Maestro, fine-tuned AI models built to run specialized chip design agents, with early access coming for 'select customers' in Q4 2026",
@@ -216,16 +301,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/P8XPrtLpMc8eqkqoGb66Vo-1920-80.png",
       "readMinutes": 6,
       "whyItMatters": "Tech-savvy readers will see how specialized AI can accelerate semiconductor design and reduce time-to-market."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Can AI help solve the COBOL code crisis?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
-      "published": "2026-10-26T13:15:00.000Z",
-      "summary": "A computer running COBOL 73, an antiquated computer programming language, awaits taxpayer information entries at the Internal Revenue Service in Austin, Tx., on Friday, June 10, 2022. | Image: Getty Images What do the IRS, banks, airlines…",
-      "excerpt": "A computer running COBOL 73, an antiquated computer programming language, awaits taxpayer information entries at the Internal Revenue Service in Austin, Tx., on Friday, June 10, 2022. | Image: Getty Images What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1246435991.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "The Register",
@@ -243,7 +318,7 @@
       "title": "Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why",
       "link": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
       "published": "Mon, 26 Oct 2026 13:00:00 +0000",
-      "summary": "The repair company iFixit released its repairability rating for Apple’s very first foldable iPhone. It comes as users report a wave of cracked-screen issues.",
+      "summary": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
       "image": "https://media.wired.com/photos/6adf134c0a7918a0f61a89fd/master/pass/iPhone%20Duo_94.jpg"
     },
     {
@@ -308,16 +383,6 @@
       "readMinutes": 2
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Korean police arrest cyberhacking gang reportedly led by self-taught hacker, who allegedly used AI to breach 60 firms and received a mere $210 in ransom",
-      "link": "https://www.pcgamer.com/hardware/korean-police-arrest-cyberhacking-gang-reportedly-led-by-self-taught-hacker-who-allegedly-used-ai-to-breach-60-firms-and-received-a-mere-usd210-in-ransom/",
-      "published": "Mon, 26 Oct 2026 12:00:52 +0000",
-      "summary": "In this case, crime really didn't pay. Much.",
-      "image": "https://cdn.mos.cms.futurecdn.net/tv5e8eVbT7uQcLL7Dtt3bZ-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Former Intel CEO Pat Gelsinger bets on Nagare Labs to vault the memory wall",
@@ -326,56 +391,6 @@
       "summary": "SRAM-like bandwidth, DRAM-like density, and NAND-like manufacturing: Z2RAM makes big promises, but the road ahead is arduous and littered with the ruins of failed memory vendors",
       "image": "https://image.theregister.com/?imageId=225048&width=800",
       "readMinutes": 4
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Modder turns NES into a Windows-like desktop with original hardware",
-      "link": "https://www.tomshardware.com/video-games/retro-gaming/modder-turns-nes-into-a-windows-like-desktop-with-original-hardware-emulates-a-full-retro-experience-with-a-cd-drive-and-slow-internet",
-      "published": "Mon, 26 Oct 2026 11:20:00 +0000",
-      "summary": "Throaty Mumbo turns his NES into a Windows-like desktop using an FPGA cartridge emulating an old Intel CPU, complete with a CD drive and internet capabilities, all without tearing the NES apart.",
-      "image": "https://cdn.mos.cms.futurecdn.net/5YAgjC7T45UsgSSqWjoYeT-1920-80.png",
-      "readMinutes": 3
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Britain bets big on AI to defend against the threats AI is helping create",
-      "link": "https://www.theregister.com/security/2026/10/26/britain-bets-big-on-ai-to-defend-against-the-threats-ai-is-helping-create/5305319",
-      "published": "Mon, 26 Oct 2026 11:00:00 +0000",
-      "summary": "Whitehall wants agents guarding critical infrastructure as part of a wider £600M spending spree",
-      "image": "https://image.theregister.com/?imageId=5267881&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Nvidia RTX 20, 30, and 40-series GPUs hacked to remove a half-speed AI throttle",
-      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-20-30-and-40-series-gpus-hacked-to-remove-a-half-speed-ai-throttle-firmware-exploit-doubles-rtx-4090s-peak-tensor-rate-lifts-rtx-3090-ti-matrix-math-up-to-80-percent",
-      "published": "Mon, 26 Oct 2026 11:00:00 +0000",
-      "summary": "Linux kernel modules lift Nvidia’s half-rate AI tensor limit on GeForce RTX 20, 30, and 40-series GPUs.",
-      "image": "https://cdn.mos.cms.futurecdn.net/4Yvp7ck4v6d8JPBoNXVPfe-1920-80.jpg",
-      "readMinutes": 5
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Euro open source specialist proposes LLM gateway to ease token bills",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/euro-open-source-specialist-proposes-llm-gateway-to-ease-token-bills/5305170",
-      "published": "Mon, 26 Oct 2026 10:15:00 +0000",
-      "summary": "Aiven hopes to do for LLMs what it does for databases",
-      "image": "https://image.theregister.com/?imageId=5242717&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "PHP2Shell is a warning shot for vulnerability disclosure",
-      "link": "https://www.theregister.com/columnists/2026/10/26/php2shell-is-a-warning-shot-for-vulnerability-disclosure/5304918",
-      "published": "Mon, 26 Oct 2026 09:38:00 +0000",
-      "summary": "Keeping secrets is difficult in an open world, but we've done it before and must do it again",
-      "image": "https://image.theregister.com/?imageId=1621607&width=800",
-      "readMinutes": 3
     },
     {
       "source": "Wired",
@@ -419,26 +434,14 @@
       "whyItMatters": "Tech-savvy readers should watch AI’s influence on media and political discourse."
     },
     {
-      "source": "PC Gamer",
+      "source": "NASA",
       "category": "news",
-      "title": "Steam Week in Review: AI disclosures enter the discourse again, as Epic CEO calls them 'just as partisan as mandatory political essays'",
-      "link": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-ai-disclosures-enter-the-discourse-again-as-epic-ceo-calls-them-just-as-partisan-as-mandatory-political-essays/",
-      "published": "Mon, 26 Oct 2026 03:12:41 +0000",
-      "summary": "The article reviews Steam’s weekly highlights, focusing on renewed AI disclosure discussions and Epic Games’ CEO labeling them as overly partisan.",
-      "image": "https://cdn.mos.cms.futurecdn.net/mquTcmtPeqPuULfWtDsgW-1920-80.jpg",
-      "readMinutes": 5,
-      "whyItMatters": "Tech readers should track policy shifts that affect AI transparency and platform governance."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "iFixit’s look inside the iPhone Duo may explain those broken screens and hinges",
-      "link": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
-      "published": "2026-10-25T21:40:27.000Z",
-      "summary": "iFixit disassembled the iPhone Duo, revealing a matte nano-texture cover that hides the fold crease and earned a 5/10 repairability score.",
-      "excerpt": "As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and gave it a 5/10 repairability score. That might not seem particularly high, but it's the best score the site has given to a foldable yet. The internal screen's matte nano-texture cover doesn't just make it more readable…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/iPhone-Duo-layout01.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It shows foldable design trade-offs and repair challenges that tech enthusiasts and repair professionals should monitor."
+      "title": "Hunting Red Leaves with Satellites",
+      "link": "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/",
+      "published": "Mon, 26 Oct 2026 04:01:00 +0000",
+      "summary": "A modern satellite makes it possible to pursue the ancient tradition of leaf-peeping in a whole new way.",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenology_pace_20261004.jpg",
+      "readMinutes": 8
     },
     {
       "source": "TechCrunch",
@@ -459,46 +462,6 @@
       "summary": "AI has yielded no financial gains for most non-tech U.S. companies despite heavy investment and hype.",
       "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
       "whyItMatters": "Tech-savvy readers should reassess AI ROI expectations in traditional industries."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "TechCrunch Mobility: Blue-green is the color of autonomy",
-      "link": "https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/",
-      "published": "Sun, 25 Oct 2026 16:05:00 +0000",
-      "summary": "TechCrunch Mobility highlights how AI is increasingly shaping the future of transportation.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834",
-      "whyItMatters": "Tech-savvy readers should know AI's growing influence on mobility trends."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "published": "Sun, 25 Oct 2026 14:10:00 +0000",
-      "summary": "The article lists popular AI wearables such as Muse Charm, Bee, Friend, and Plaud.",
-      "image": "https://techcrunch.com/wp-content/uploads/2016/09/robocash.jpg?resize=1200,849",
-      "whyItMatters": "Tech-savvy readers can discover cutting‑edge wearable AI devices for productivity and wellness."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Wallhack M-001 Review: When Fun Overrides Specs",
-      "link": "https://www.wired.com/review/wallhack-m-001/",
-      "published": "Sun, 25 Oct 2026 12:30:00 +0000",
-      "summary": "The Wallhack M-001 gaming mouse offers a tactile dongle, metal chassis, and enjoyable experience.",
-      "image": "https://media.wired.com/photos/6adbbc51f337c510e207c213/master/pass/Review%20Wallhack%20M-001%20Gaming%20Mouse%20102026%20top%20art%20SOURCE%20Wallhack.jpg",
-      "whyItMatters": "Tech-savvy readers may value its unique design and fun ergonomics over raw specs."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Starlink seems to be working normally again in Ukraine",
-      "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
-      "published": "Sat, 24 Oct 2026 20:46:34 +0000",
-      "summary": "Elon Musk reportedly ordered SpaceX to throttle Starlink access to Ukraine.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800",
-      "whyItMatters": "Tech readers should note the geopolitical implications of controlling satellite internet access."
     },
     {
       "source": "Ars Technica",
@@ -639,25 +602,6 @@
       "excerpt": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/YCSE_NP_1_1.jpg?resize=1200,600",
       "readMinutes": 5
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "El Niño Then and Now",
-      "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
-      "published": "Fri, 23 Oct 2026 04:00:00 +0000",
-      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg",
-      "readMinutes": 6
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
-      "published": "Thu, 22 Oct 2026 21:39:58 +0000",
-      "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return…",
-      "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]"
     },
     {
       "source": "MIT Technology Review",
@@ -899,17 +843,6 @@
       "summary": "This white paper explains how edge AI and physical AI help cities move beyond passive monitoring. It shows how urban infrastructure can sense, reason, and act on real-time conditions across public safety, mobility, and infrastructure…",
       "excerpt": "This white paper explains how edge AI and physical AI help cities move beyond passive monitoring. It shows how urban infrastructure can sense, reason, and act on real-time conditions across public safety, mobility, and infrastructure management. What you will learn about: How the shift from smart cities to cognitive cities depends on infrastructure that reasons and acts, rather than infrastructure that only…",
       "image": "https://assets.rbl.ms/68424848/origin.png"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "IEEE Offers More Services to Cities That Want to Be Smarter",
-      "link": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
-      "published": "Fri, 16 Oct 2026 18:00:03 +0000",
-      "summary": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have…",
-      "excerpt": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have implemented artificial intelligence and deep learning programs. Dubai, Paris, and Coral Gables, Fla., are among the cities that have invested heavily in programs to become smarter…",
-      "image": "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=980",
-      "readMinutes": 3
     },
     {
       "source": "SpaceNews",
