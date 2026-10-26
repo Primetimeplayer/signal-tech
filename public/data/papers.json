@@ -1,304 +1,221 @@
 {
-  "updated": "2026-10-26T00:38:51.309Z",
+  "updated": "2026-10-26T06:37:22.705Z",
   "count": 20,
   "items": [
     {
-      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
-      "summary": "The article explores sensorimotor alignment as an offline proxy to gauge robotic foundation model performance, proposing converging vision, language, and motion representations indicate capability.",
-      "link": "http://arxiv.org/abs/2610.31670v1",
-      "published": "2026-10-22T17:59:51Z",
+      "title": "The Language of Instruction: Genre and Generative AI",
+      "summary": "The article posits instruction‑fine‑tuned language models as a distinct genre, the instructional‑conversational genre, formed by recursive human‑model dialogue.",
+      "link": "http://arxiv.org/abs/2610.32982v1",
+      "published": "2026-10-23T17:59:56Z",
       "authors": [
-        "Yunfei Xie",
-        "Howard H. Qian",
-        "Shiyi Lan",
-        "Kaiyu Hang",
-        "Chen Wei"
+        "James E. Dobson"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "whyItMatters": "It reframes how we evaluate and design AI interactions, impacting model transparency and user trust."
+    },
+    {
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "summary": "SceneBloom generates realistic, diverse indoor 3D layouts for embodied AI training, combining language guidance with visual generative models for spatially coherent scenes.",
+      "link": "http://arxiv.org/abs/2610.32978v1",
+      "published": "2026-10-23T17:59:21Z",
+      "authors": [
+        "Yuhan Liu",
+        "Lianhui Qin",
+        "Shenji Wan"
       ],
       "categories": [
         "cs.CV",
-        "cs.LG",
+        "cs.AI",
         "cs.RO"
       ],
-      "whyItMatters": "It offers a cheaper way to assess model readiness, saving time and resources for developers."
+      "whyItMatters": "It enables more robust, generalizable agent learning by providing varied, physically valid environments."
     },
     {
-      "title": "Direct Pass@k Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
-      "summary": "The article discusses a method that prunes candidate reasoning paths early during inference to balance quality and diversity in test-time reasoning models.",
-      "link": "http://arxiv.org/abs/2610.31667v1",
-      "published": "2026-10-22T17:59:48Z",
+      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+      "summary": "RobustRLlib unifies robust RL algorithms into a reusable library and benchmark, addressing reusability and empirical limits for real‑world deployment.",
+      "link": "http://arxiv.org/abs/2610.32971v1",
+      "published": "2026-10-23T17:57:22Z",
       "authors": [
-        "Mahdi Salmani",
-        "Adel Javanmard",
-        "Devansh Gupta",
-        "Meisam Razaviyayn"
+        "Xi Chen",
+        "Fengqi Hu",
+        "Zeyu Shen",
+        "Jiaying Xu",
+        "Shangding Gu",
+        "Pan Xu",
+        "Anqi Liu",
+        "Laixi Shi"
       ],
       "categories": [
+        "cs.LG",
         "cs.AI",
-        "cs.CL"
+        "cs.RO"
       ],
-      "whyItMatters": "It reduces inference cost while maintaining accuracy, appealing to developers needing efficient, high-performance AI systems."
+      "whyItMatters": "It streamlines testing and comparison of robust RL methods, speeding up reliable AI system development."
     },
     {
-      "title": "Phase Transition from Random Features to Fully Trainable Networks",
-      "summary": "The paper studies how neural networks transition from using fixed random features to fully trainable representations, showing a phase change in approximation accuracy and training error.",
-      "link": "http://arxiv.org/abs/2610.31663v1",
-      "published": "2026-10-22T17:59:29Z",
+      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+      "summary": "DexPort introduces a handheld interface that captures human hand motions for robot manipulation, easing data collection for dexterous tasks.",
+      "link": "http://arxiv.org/abs/2610.32969v1",
+      "published": "2026-10-23T17:56:28Z",
       "authors": [
-        "Xin He",
-        "Huan Lao",
-        "Xiliang Lu",
-        "Shijun Zhang"
+        "Amber Xie",
+        "Jiawei Fu",
+        "Xiaofeng Guo",
+        "Carmelo Sferrazza",
+        "Guanya Shi",
+        "Haozhi Qi"
       ],
       "categories": [
-        "math.NA",
-        "cs.LG",
-        "math.ST",
-        "stat.ML"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "whyItMatters": "It reveals when and how deep learning models shift from static to adaptive behavior, guiding efficient architecture design."
+      "whyItMatters": "It streamlines training robots by simplifying demonstration capture and reducing operator effort."
     },
     {
-      "title": "Reliable AI-Assisted Decisions via Selective Auditing",
-      "summary": "The article discusses online monitoring of AI decisions using confidence scores and selective auditing to ensure reliable outcomes.",
-      "link": "http://arxiv.org/abs/2610.31662v1",
-      "published": "2026-10-22T17:59:22Z",
+      "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+      "summary": "Flownomaly recovers normal images in frozen DINOv2 feature space using a velocity field, enabling few-shot anomaly detection without relying on exemplars or linear models.",
+      "link": "http://arxiv.org/abs/2610.32964v1",
+      "published": "2026-10-23T17:53:30Z",
       "authors": [
-        "Isaac Gibbs",
-        "Elise L. Han",
-        "Ryan J. Tibshirani",
-        "Tijana Zrnic"
-      ],
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "stat.ME"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it improves trust and safety in AI systems."
-    },
-    {
-      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
-      "summary": "The paper introduces SpectralCanary, a method that embeds a detectable signal into a dataset to audit if a T2I model was fine‑tuned on it.",
-      "link": "http://arxiv.org/abs/2610.31659v1",
-      "published": "2026-10-22T17:59:03Z",
-      "authors": [
-        "Sy-Tuyen Ho",
-        "Anirudh Satheesh",
-        "Soham Chawathe",
-        "Huy Nghiem",
-        "Yongkyun Lee",
-        "Andrew Adams Schoen",
-        "Furong Huang"
+        "Bernardo Perrone Ribeiro",
+        "Erkut Akdag",
+        "Egor Bondarev"
       ],
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers can verify model provenance and prevent unauthorized dataset usage."
+      "whyItMatters": "It offers a more flexible, exemplar-free approach that could improve anomaly detection in resource‑constrained industrial settings."
     },
     {
-      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
-      "summary": "The article explores cost-aware abstention for routing IT support tickets, comparing non-LLM classifiers on a large public dataset.",
-      "link": "http://arxiv.org/abs/2610.31657v1",
-      "published": "2026-10-22T17:58:52Z",
+      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+      "summary": "The article introduces Foyer, a self-hosted inbox agent that uses typed decision models, a classical baseline, and a generative LLM, and presents a protocol for measuring its performance.",
+      "link": "http://arxiv.org/abs/2610.32955v1",
+      "published": "2026-10-23T17:49:43Z",
       "authors": [
-        "Sachin Gupta"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "whyItMatters": "It shows how to reduce costly misroutings by optimizing routing policies with explicit cost considerations."
-    },
-    {
-      "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-      "summary": "METTA introduces a memory‑enhanced test‑time adaptation method for meta‑reinforcement learning, enabling agents to efficiently store and retrieve long interaction histories.",
-      "link": "http://arxiv.org/abs/2610.31656v1",
-      "published": "2026-10-22T17:58:27Z",
-      "authors": [
-        "Ali Najar",
-        "Hosein Hasani",
-        "Amir Kooshan Fattah",
-        "Yasamin Rajabi",
-        "Mahdieh Soleymani Baghshah"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "whyItMatters": "It offers faster, more scalable adaptation for RL agents, reducing memory overhead and improving performance on unseen tasks."
-    },
-    {
-      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-      "summary": "EpiSEM-Bench tests how LLM agents handle missing safety facts when using tools, measuring unsafe actions and evidence recovery.",
-      "link": "http://arxiv.org/abs/2610.31650v1",
-      "published": "2026-10-22T17:57:04Z",
-      "authors": [
-        "Qijin Zhang",
-        "Hanzhen Wang",
-        "Yuehan Zhao",
-        "Haoyu Dai",
-        "Yao Shu",
-        "Zhongxiang Dai",
-        "Shuang Qiu"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "whyItMatters": "It helps ensure AI agents act safely even when tool outputs omit critical safety information."
-    },
-    {
-      "title": "Low-Bit N-Gram Embeddings for Language Models",
-      "summary": "The article discusses using low-bit n-gram embeddings to reduce memory usage in large language models.",
-      "link": "http://arxiv.org/abs/2610.31646v1",
-      "published": "2026-10-22T17:56:13Z",
-      "authors": [
-        "Stephen Chung",
-        "Wenyu Du"
+        "Federico Lucca"
       ],
       "categories": [
         "cs.CL",
-        "cs.AI"
+        "cs.HC",
+        "cs.LG"
       ],
-      "whyItMatters": "Tech readers care because it enables deploying powerful models on limited hardware."
+      "whyItMatters": "Tech-savvy readers care because it offers a transparent, measurable approach to improving personal email automation."
     },
     {
-      "title": "A Fix for Softmax and Cross-Entropy",
-      "summary": "The article identifies two numerical bugs in softmax and cross-entropy implementations that affect gradient calculations.",
-      "link": "http://arxiv.org/abs/2610.31642v1",
-      "published": "2026-10-22T17:54:56Z",
+      "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+      "summary": "The article explains how mismatched rounding between inference and training in LLM reinforcement learning can cause off‑policy updates and instability.",
+      "link": "http://arxiv.org/abs/2610.32951v1",
+      "published": "2026-10-23T17:45:03Z",
       "authors": [
-        "Jonathan T. Barron",
-        "Dan Gnanapragasam",
-        "Michael Tschannen"
+        "Yijing Ke",
+        "Tianle Cai",
+        "Ruosong Wang"
       ],
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "Fixing these bugs ensures accurate training dynamics for deep learning models."
+      "whyItMatters": "Tech readers should know that precise numerical alignment is critical for reliable LLM training performance."
     },
     {
-      "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
-      "summary": "The paper examines how chain-of-thought prompting can suffer from attention leakage, where reasoning steps rely on full context rather than causal inference, and proposes context isolation to mitigate this.",
-      "link": "http://arxiv.org/abs/2610.31639v1",
-      "published": "2026-10-22T17:52:56Z",
+      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+      "summary": "The paper introduces HAD-VLM, a hybrid autoregressive-diffusion model that integrates text generation with continuous ultrasound measurement prediction.",
+      "link": "http://arxiv.org/abs/2610.32948v1",
+      "published": "2026-10-23T17:40:58Z",
       "authors": [
-        "Gabriele Dominici",
-        "Teague McMillan",
-        "Fazl Barez",
-        "Marc Langheinrich",
-        "Martin Gjoreski"
+        "Dianye Huang",
+        "Jiamei Guo",
+        "Yue Zhou",
+        "Mingde Li",
+        "Yi Xiong",
+        "Wei Wang",
+        "Nassir Navab",
+        "Zhongliang Jiang"
       ],
       "categories": [
-        "cs.LG",
+        "cs.CV",
         "cs.AI"
       ],
-      "whyItMatters": "Tech-savvy readers care because it improves the reliability and interpretability of large language models."
+      "whyItMatters": "It enables precise, prompt-driven quantitative medical imaging, improving diagnostic accuracy and workflow efficiency."
     },
     {
-      "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
-      "summary": "The article explores using an LLM-powered agent to debug a multilingual web corpus by generating test cases for each language, then having native speakers validate them.",
-      "link": "http://arxiv.org/abs/2610.31636v1",
-      "published": "2026-10-22T17:52:22Z",
+      "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+      "summary": "The paper analyzes how an LLM platform balances ad revenue, subscription pricing, and response quality to maximize profits while managing user value.",
+      "link": "http://arxiv.org/abs/2610.32945v1",
+      "published": "2026-10-23T17:39:42Z",
       "authors": [
-        "Marek Šuppa",
-        "Ivan Vykopal",
-        "Jaroslav Kopčan"
+        "Yuhang Ji",
+        "Fasheng Xu",
+        "Tianjun Feng"
       ],
       "categories": [
-        "cs.CL"
+        "econ.TH",
+        "cs.AI"
       ],
-      "whyItMatters": "It shows how AI can uncover hidden language-specific errors in large datasets, improving NLP model reliability."
+      "whyItMatters": "Tech readers should understand how monetization choices shape AI service quality and user experience."
     },
     {
-      "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
-      "summary": "Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers. During inference, each recurrence generates independent KV-caches, causing memory to grow linearly. To address this challenge, prior work has proposed KV-sharing (i.e., sharing KV-caches across depth), finding that, in some cases, the KV-cache of the final…",
-      "link": "http://arxiv.org/abs/2610.31633v1",
-      "published": "2026-10-22T17:49:44Z",
+      "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
+      "summary": "The paper proposes a knowledge distillation method that transfers knowledge between item and code representations to improve generative recommendation models.",
+      "link": "http://arxiv.org/abs/2610.32943v1",
+      "published": "2026-10-23T17:37:55Z",
       "authors": [
-        "Hayden Prairie",
-        "Jacob M. Ryan",
-        "Taylor Berg-Kirkpatrick",
-        "Daniel Y. Fu"
+        "Yixuan Xu",
+        "Hailin Liu",
+        "Linxiang Peng",
+        "Can Yang"
       ],
       "categories": [
+        "cs.IR",
         "cs.LG"
-      ]
+      ],
+      "whyItMatters": "Tech-savvy readers care because it enhances recommendation accuracy and efficiency by leveraging semantic codes."
     },
     {
-      "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
-      "summary": "Instrumental convergence is often invoked as a general reason to expect capable agents to acquire or express power-seeking subgoals: self-preservation, resource acquisition, deception, or resistance to oversight which poses an important threat to the society. For LLMs, reinforcement learning is the first stage of post-training that directly optimizes behavior against an objective; therefore, it…",
-      "link": "http://arxiv.org/abs/2610.31624v1",
-      "published": "2026-10-22T17:44:41Z",
+      "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+      "summary": "Backtrack offers a lightweight, failure-detection and recovery method for frozen Vision‑Language‑Action models in robotic manipulation.",
+      "link": "http://arxiv.org/abs/2610.32941v1",
+      "published": "2026-10-23T17:35:33Z",
       "authors": [
-        "Barış Alparslan",
-        "Sandy Tanwisuth",
-        "Caleb Petterson"
+        "Thomas Landeg",
+        "Thierry Tambe"
       ],
       "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
+        "cs.RO",
+        "cs.LG"
+      ],
+      "whyItMatters": "It lets robots self‑correct without costly retraining or extra models, boosting reliability in real‑world tasks."
     },
     {
-      "title": "Bilingual Language Models Capture Cross-Linguistic Influence in Second-Language Reading",
-      "summary": "While monolingual language model (LM) surprisal is widely established as a predictor of reading times, it cannot capture the non-native (L2) reading dynamics that are shaped by the reader's first language (L1). In this work, we investigate whether the cross-lingual transfer within bilingual models aligns with human L1-driven biases during L2 reading. We evaluate bilingual models on eye-tracking…",
-      "link": "http://arxiv.org/abs/2610.31620v1",
-      "published": "2026-10-22T17:42:06Z",
+      "title": "Learning Positive Linear Combinations of ReLUs in Fully Polynomial Time",
+      "summary": "The paper presents a fully polynomial-time algorithm for PAC-learning positive linear combinations of k ReLU units over ℝ^d with Gaussian inputs and L₂ loss.",
+      "link": "http://arxiv.org/abs/2610.32940v1",
+      "published": "2026-10-23T17:34:15Z",
       "authors": [
-        "Abderrahmane Issam",
-        "Irene E. Winther",
-        "Stefan L. Frank"
+        "Ilias Diakonikolas",
+        "Jelena Diakonikolas",
+        "Puqian Wang",
+        "Nikos Zarifis"
       ],
       "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "OP-Print: Tracing Membership Imprints in On-Policy Self-Distillation",
-      "summary": "On-policy distillation has been widely adopted for alleviating the distribution mismatch of off-policy distillation. Self-distillation further removes the need for an external teacher by using the student's own outputs, enhanced with extra context or demonstrations, as supervision. This teacher-free design makes on-policy self-distillation practical, yet its privacy risks remain largely…",
-      "link": "http://arxiv.org/abs/2610.31616v1",
-      "published": "2026-10-22T17:41:04Z",
-      "authors": [
-        "Qi Li",
-        "Xinchao Wang"
+        "cs.DS",
+        "cs.LG"
       ],
-      "categories": [
-        "cs.LG",
-        "cs.CR"
-      ]
+      "whyItMatters": "It enables efficient training of ReLU ensembles, improving scalability for high-dimensional, large-scale machine learning tasks."
     },
     {
-      "title": "Efficient and Optimal Learning of Discrete Distributions with Person-Level Privacy",
-      "summary": "We study learning a discrete distribution under person-level differential privacy in the batched setting. Given n users, each contributing m i.i.d. samples from an unknown distribution μ over $[k]$, we seek an estimate of μ with total-variation error α. We give polynomial-time algorithms under both pure and approximate differential privacy. Under pure (ε,0)-DP, we achieve n = widetilde O(k/(α^2…",
-      "link": "http://arxiv.org/abs/2610.31612v1",
-      "published": "2026-10-22T17:40:13Z",
+      "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+      "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million query-document pairs. On eight Persian retrieval…",
+      "link": "http://arxiv.org/abs/2610.32933v1",
+      "published": "2026-10-23T17:30:40Z",
       "authors": [
-        "Gautam Kamath",
-        "Mahbod Majid",
-        "Ankur Moitra",
-        "Argyris Mouzakis",
-        "Jonathan Ullman"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CR",
-        "cs.DS"
-      ]
-    },
-    {
-      "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
-      "summary": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense…",
-      "link": "http://arxiv.org/abs/2610.31606v1",
-      "published": "2026-10-22T17:36:14Z",
-      "authors": [
-        "Miguel Mochizuki Silva",
-        "Samuel Ismael",
-        "Mateus C. Dias",
-        "Thaís Gaudêncio",
-        "Yuri Malheiros",
-        " Barufaldi"
+        "Yalda Taheri",
+        "Mohammad Hassan Heydari",
+        "Armon Rasooli"
       ],
       "categories": [
         "cs.CL",
@@ -306,30 +223,121 @@
       ]
     },
     {
-      "title": "CRANE: Post-Hoc Counterfactual Retrieval for Multimodal Classifiers",
-      "summary": "Counterfactual explanation methods have been introduced for unimodal settings, with dedicated frameworks for tabular, timeseries, text, and image data, yet no post-hoc method has been designed for classifiers that learn from multimodal inputs. Existing explainability methods for multimodal classifiers apply modality-specific attribution independently to each input, which fails to yield coherent…",
-      "link": "http://arxiv.org/abs/2610.31594v1",
-      "published": "2026-10-22T17:26:58Z",
+      "title": "ZENO: Nonlinear filtering with Zakai Equation Neural Operators",
+      "summary": "State inference and parameter learning for nonlinear filters is a core computation for scientific machine learning with varied applications in engineering and neuroscience. The unnormalized filtering distribution is governed by the Zakai equation, a stochastic partial differential equation (SPDE) that combines the forward Kolmogorov operator (known as the Fokker-Planck equation) with observed…",
+      "link": "http://arxiv.org/abs/2610.32926v1",
+      "published": "2026-10-23T17:24:31Z",
       "authors": [
-        "Franco Rugolon",
-        "Ioanna Miliou",
-        "Panagiotis Papapetrou"
+        "Aaditya Prasad",
+        "Steven W. Flavell",
+        "Brian DePasquale"
+      ],
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ]
+    },
+    {
+      "title": "Adaptive Frequency Threshold Byte Pair Encoding for Mixed Natural Language and Structured Symbolic Corpora",
+      "summary": "Modern language models rely on subwording tokenization to define the discrete units of input processing, typically using methods like Byte Pair Encoding (BPE) that treat whitespace as a fixed semantic boundary. This design is inherently limited, as many meaningful concepts---including multiword expressions and the structured environments of formal languages like LaTeX---frequently span across…",
+      "link": "http://arxiv.org/abs/2610.32921v1",
+      "published": "2026-10-23T17:21:18Z",
+      "authors": [
+        "Pietro Di Nicco",
+        "Lucio La Cava",
+        "Andrea Tagarelli"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "SemantEq: Faithful Bidirectional Equivalence of Formal Statements",
+      "summary": "Statement autoformalization translates mathematics from natural language into a proof assistant such as Lean 4, and models now do it at scale. As provers get stronger, the burden of correctness shifts from the proof to the statement, that is, to whether the formal statement faithfully translates its source. Given a trusted reference formalization, the natural test is logical equivalence, and it…",
+      "link": "http://arxiv.org/abs/2610.32919v1",
+      "published": "2026-10-23T17:20:12Z",
+      "authors": [
+        "Xinrui Li",
+        "Pawan Sasanka Ammanamanchi",
+        "Siddharth Bhat",
+        "Rianna Jamdar",
+        "Yongxi Lin",
+        "Stella Biderman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "A Tutorial on Physics Constrained Machine Learning for Hybrid Modeling, Optimization, and Control",
+      "summary": "Physics-constrained machine learning (PCML) integrates domain knowledge, first-principles, and physical constraints into AI/ML models. In this work, we present a step-by-step tutorial of a modular PCML framework, KKT-HardNet, and illustrate how it could be used for hybrid modeling, process simulation, optimization and model predictive control in a single platform. KKT-HardNet combines fast…",
+      "link": "http://arxiv.org/abs/2610.32914v1",
+      "published": "2026-10-23T17:17:11Z",
+      "authors": [
+        "Rahul Golder",
+        "Bimol Nath Roy",
+        "MM Faruque Hasan"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.ET"
+      ]
+    },
+    {
+      "title": "Recommender regret for improving regularised RL estimation with bandits and MCTS",
+      "summary": "Regularised reinforcement learning (RL) algorithms rely on estimators, like Monte Carlo tree search or one-step look-ahead, to provide policy, value, or Q-value estimates in training and inference. However, existing bandit-based estimation frameworks evaluate sampling efficiency, not the quality of estimates. We address this by formalising estimate generation as a recommendation process, treating…",
+      "link": "http://arxiv.org/abs/2610.32910v1",
+      "published": "2026-10-23T17:14:15Z",
+      "authors": [
+        "Danilo Vucetic",
+        "Alexandre Larouche",
+        "Mohammad Pedramfar",
+        "Audrey Durand",
+        "Gauthier Gidel"
       ],
       "categories": [
         "cs.LG"
       ]
     },
     {
-      "title": "Simulated Control Evals",
-      "summary": "Control evaluations measure whether safeguards can prevent an AI model from causing undesired outcomes even when it is intentionally trying to do so. These evaluations typically use purpose-built control settings and extrapolate their results to a model's deployment. However, the effectiveness of safeguards in deployment can depend on features of environments and tasks that control settings do…",
-      "link": "http://arxiv.org/abs/2610.31593v1",
-      "published": "2026-10-22T17:26:42Z",
+      "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+      "summary": "Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired Earth Observation imagery. We prove that this construction is structurally limited: any Lipschitz location encoder produces an output of intrinsic dimension at most 2, regardless of architecture or bandwidth, which forces the contrastive loss to strictly exceed its asymptotic…",
+      "link": "http://arxiv.org/abs/2610.32894v1",
+      "published": "2026-10-23T17:01:04Z",
       "authors": [
-        "Jeffrey Olmo",
-        "David Zhang",
-        "Tyler Tracy"
+        "Panagiotis Koromilas",
+        "Eleanna Vali",
+        "Diogenis Antonopoulos",
+        "Eleni Saka",
+        "Dimitris Christofis",
+        "Nikolaos Ioannis Bountos",
+        "Konstantin Klemmer",
+        "Ioannis Papoutsis",
+        "Yannis Panagakis",
+        "Mihalis A. Nicolaou"
       ],
       "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+      "summary": "Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challenge this assumption empirically by measuring whether performance-optimized code produced by LLM self-refinement pipelines is also energy-efficient relative to canonical human…",
+      "link": "http://arxiv.org/abs/2610.32891v1",
+      "published": "2026-10-23T16:58:01Z",
+      "authors": [
+        "Sadra Emami",
+        "Benjamin Weigell",
+        "Mohammad Reza Mousavi",
+        "Gunel Jahangirova",
+        "Hugo Araujo",
+        "Bernhard Bauer"
+      ],
+      "categories": [
+        "cs.SE",
         "cs.AI"
       ]
     }

@@ -1,7 +1,29 @@
 {
-  "updated": "2026-10-26T03:29:35.005Z",
+  "updated": "2026-10-26T06:37:22.136Z",
   "count": 98,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Work to protect DNS from quantum decryption attacks is speeding up",
+      "link": "https://www.theregister.com/networks/2026/10/26/work-to-protect-dns-from-quantum-decryption-attacks-is-speeding-up/5305274",
+      "published": "Mon, 26 Oct 2026 04:08:23 +0000",
+      "summary": "Efforts to shield DNS from quantum decryption threats are accelerating, alongside registry reforms and scams targeting trustworthy domains.",
+      "image": "https://image.theregister.com/?imageId=238312&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Quantum‑resilient DNS protects critical internet infrastructure and prevents future cyber‑attacks."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Hunting Red Leaves with Satellites",
+      "link": "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/",
+      "published": "Mon, 26 Oct 2026 04:01:00 +0000",
+      "summary": "A new satellite enables remote leaf‑peeping, letting users track autumn foliage from space.",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenology_pace_20261004.jpg",
+      "readMinutes": 8,
+      "whyItMatters": "Tech enthusiasts can explore environmental data and enhance travel planning with satellite imagery."
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -12,6 +34,17 @@
       "image": "https://cdn.mos.cms.futurecdn.net/mquTcmtPeqPuULfWtDsgW-1920-80.jpg",
       "readMinutes": 5,
       "whyItMatters": "Tech readers should track policy shifts that affect AI transparency and platform governance."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "After threatening AI export bans, China allows DeepSeek to keep selling",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/after-threatening-ai-export-bans-china-allows-deepseek-to-keep-selling/5305267",
+      "published": "Mon, 26 Oct 2026 00:39:57 +0000",
+      "summary": "China lifts export ban threat, permitting DeepSeek to continue selling AI products.",
+      "image": "https://image.theregister.com/?imageId=260439&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech readers should note regulatory shifts affect AI supply chains."
     },
     {
       "source": "The Verge",
@@ -63,6 +96,7 @@
       "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
       "published": "Sun, 25 Oct 2026 16:57:32 +0000",
       "summary": "AI has yielded no financial gains for most non-tech U.S. companies despite heavy investment and hype.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
       "whyItMatters": "Tech-savvy readers should reassess AI ROI expectations in traditional industries."
     },
     {
@@ -72,6 +106,7 @@
       "link": "https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/",
       "published": "Sun, 25 Oct 2026 16:05:00 +0000",
       "summary": "TechCrunch Mobility highlights how AI is increasingly shaping the future of transportation.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834",
       "whyItMatters": "Tech-savvy readers should know AI's growing influence on mobility trends."
     },
     {
@@ -103,6 +138,7 @@
       "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
       "published": "Sun, 25 Oct 2026 14:10:00 +0000",
       "summary": "The article lists popular AI wearables such as Muse Charm, Bee, Friend, and Plaud.",
+      "image": "https://techcrunch.com/wp-content/uploads/2016/09/robocash.jpg?resize=1200,849",
       "whyItMatters": "Tech-savvy readers can discover cutting‑edge wearable AI devices for productivity and wellness."
     },
     {
@@ -275,6 +311,7 @@
       "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
       "published": "Sat, 24 Oct 2026 20:46:34 +0000",
       "summary": "Elon Musk reportedly ordered SpaceX to throttle Starlink access to Ukraine.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800",
       "whyItMatters": "Tech readers should note the geopolitical implications of controlling satellite internet access."
     },
     {
@@ -526,16 +563,6 @@
       "readMinutes": 4
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Michigan prof creates Python-like Jac language for AI agents",
-      "link": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
-      "published": "Fri, 23 Oct 2026 15:46:19 +0000",
-      "summary": "Stop burning $165K on AI rewrites; Jac is meant to \"gobble up\" your polyglot stack",
-      "image": "https://image.theregister.com/?imageId=5305120&width=800",
-      "readMinutes": 3
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: testing six tech promises and biotech’s blind spots",
@@ -556,28 +583,6 @@
       "excerpt": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/YCSE_NP_1_1.jpg?resize=1200,600",
       "readMinutes": 5
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "El Niño Then and Now",
-      "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
-      "published": "Fri, 23 Oct 2026 04:00:00 +0000",
-      "summary": "Scientists compare this year's El Niño to past extremes using a 35‑year satellite altimetry record.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg",
-      "readMinutes": 6,
-      "whyItMatters": "Understanding El Niño patterns helps predict climate impacts and guide global preparedness."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
-      "published": "Thu, 22 Oct 2026 21:39:58 +0000",
-      "summary": "NASA invites media to the 2026 von Braun Space Exploration Symposium, focusing on lunar return, sustainable infrastructure, advanced propulsion, and the space workforce.",
-      "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg",
-      "whyItMatters": "It highlights key tech trends shaping future lunar missions and workforce development."
     },
     {
       "source": "MIT Technology Review",
