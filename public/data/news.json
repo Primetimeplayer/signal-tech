@@ -1,16 +1,27 @@
 {
-  "updated": "2026-10-25T21:21:37.841Z",
+  "updated": "2026-10-26T00:38:50.550Z",
   "count": 98,
   "items": [
     {
+      "source": "The Verge",
+      "category": "news",
+      "title": "iFixit’s look inside the iPhone Duo may explain those broken screens and hinges",
+      "link": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
+      "published": "2026-10-25T21:40:27.000Z",
+      "summary": "iFixit disassembled the iPhone Duo, revealing a matte nano-texture cover that hides the fold crease and earned a 5/10 repairability score.",
+      "excerpt": "As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and gave it a 5/10 repairability score. That might not seem particularly high, but it's the best score the site has given to a foldable yet. The internal screen's matte nano-texture cover doesn't just make it more readable…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/iPhone-Duo-layout01.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It shows foldable design trade-offs and repair challenges that tech enthusiasts and repair professionals should monitor."
+    },
+    {
       "source": "TechCrunch",
       "category": "news",
-      "title": "‘Cyberselfish’ author takes aim at Silicon Valley libertarians as her book returns from the dead",
-      "link": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
-      "published": "Sun, 25 Oct 2026 20:20:08 +0000",
-      "summary": "The author critiques Silicon Valley libertarians, arguing their 12‑year‑old worldview is outdated and harmful.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/paulina-borsook.jpeg?resize=1139,1200",
-      "whyItMatters": "Tech readers should question how libertarian ideals shape industry decisions and culture."
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "published": "Sun, 25 Oct 2026 21:31:16 +0000",
+      "summary": "Grok has released the first seven minutes of its AI-generated film 'Odyssey', which appears technically fine but lacks artistic depth.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+      "whyItMatters": "Tech readers should note AI's growing role in filmmaking, though current output may still feel generic."
     },
     {
       "source": "The Verge",
@@ -266,7 +277,6 @@
       "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
       "published": "Sat, 24 Oct 2026 20:15:33 +0000",
       "summary": "The article discusses how AI could reveal the fragile, glue‑and‑dreams nature of the internet’s infrastructure.",
-      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1195574782.jpg?resize=1200,800",
       "whyItMatters": "Understanding this fragility helps tech professionals anticipate and mitigate future network disruptions."
     },
     {
@@ -276,7 +286,6 @@
       "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "published": "Sat, 24 Oct 2026 19:00:00 +0000",
       "summary": "An overview of AI projects and startups that failed or were delayed, including Apple’s Siri and OpenAI’s super app.",
-      "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
       "whyItMatters": "Shows where AI investments misfire, guiding smarter startup choices."
     },
     {
@@ -297,7 +306,6 @@
       "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
       "published": "Sat, 24 Oct 2026 16:00:00 +0000",
       "summary": "Block unveiled a new voice model that can run locally on a MacBook M4 Max.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/07/jack-dorsey.jpg?resize=1200,822",
       "whyItMatters": "Local AI boosts privacy and performance, appealing to tech enthusiasts seeking on-device solutions."
     },
     {
@@ -307,7 +315,6 @@
       "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
       "published": "Sat, 24 Oct 2026 15:30:00 +0000",
       "summary": "Two critical PHP bugs threatened to disrupt the internet, highlighting the risks of widespread software vulnerabilities.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/php-web-bug-padlock-2300746159.jpg?resize=1200,800",
       "whyItMatters": "Tech-savvy readers should monitor PHP updates to protect web infrastructure and prevent future widespread outages."
     },
     {
@@ -317,18 +324,7 @@
       "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
       "published": "Sat, 24 Oct 2026 15:00:00 +0000",
       "summary": "Developers are using the new foldable iPhone to create creative apps like cassette players, virtual notebooks, flight trackers, and a digital toaster.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/iPhone-duo.jpeg?resize=1200,675",
       "whyItMatters": "Shows foldable iPhone’s versatility, inspiring innovative app ideas for tech enthusiasts."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "published": "Sat, 24 Oct 2026 15:00:00 +0000",
-      "summary": "A study shows Grok’s AI recommends Republican candidates, while OpenAI’s GPT favors Democrats, disagreeing in over 90% of nearly 500 election races.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
-      "whyItMatters": "Highlights AI bias risks in political content recommendation."
     },
     {
       "source": "Wired",
@@ -792,6 +788,7 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -865,6 +862,7 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
@@ -966,6 +964,7 @@
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
       "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
       "readMinutes": 4
     },
     {
