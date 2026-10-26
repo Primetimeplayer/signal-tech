@@ -1,7 +1,104 @@
 {
-  "updated": "2026-10-26T14:39:55.911Z",
-  "count": 102,
+  "updated": "2026-10-26T15:59:23.251Z",
+  "count": 104,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Trumpets blare and skies part as AI hypefest culminates in Anthropic IPO filing",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456",
+      "published": "Mon, 26 Oct 2026 15:47:05 +0000",
+      "summary": "Anthropic’s IPO filing discloses its finances and cautions that its AI models could blackmail, resist shutdown, or act rogue.",
+      "image": "https://image.theregister.com/?imageId=5305476&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech readers should note the risks and financial outlook of a major AI IPO."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "T-Mobile’s new plans include swappable subscription perks",
+      "link": "https://www.theverge.com/tech/1018624/t-mobile-mix-plans-streaming-picks",
+      "published": "2026-10-26T15:39:54.000Z",
+      "summary": "T-Mobile introduces T‑Mix plans bundling wireless service with subscriptions to streaming, gaming, and device promos, starting at $55/month with flexible pick changes.",
+      "excerpt": "T-Mobile is launching new \"T-Mix\" plans that bundle wireless service with subscriptions to services like Netflix, Apple TV, YouTube Premium, Xbox Game Pass Ultimate, device promotions, and more, as reported earlier by Fierce Network. The Standard plan starts at $55 / month (with autopay) for one line and one \"Pick,\" which you can change up to four times during the year without changing the cost of your plan. The…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23962441/acastro_STK067__02.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It offers cost‑effective, customizable entertainment bundles for tech‑savvy users."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Microsoft’s new Surface Laptop Ultra update fixes reboot and display bugs",
+      "link": "https://www.theverge.com/tech/1018636/microsoft-surface-laptop-ultra-october-firmware-update",
+      "published": "2026-10-26T15:28:11.000Z",
+      "summary": "Microsoft released firmware for Surface Laptop Ultra fixing screen flicker, unexpected restarts, and long reboot times.",
+      "excerpt": "Microsoft's Surface Laptop Ultra was blighted by some nuisance bugs at launch, but now the company has released some new firmware to resolve them. The October 22 release addresses three issues notable issues in particular: screen flickering, unexpected restarts, and lengthy reboot times, alongside unspecified \"additional bug fixes and general performance improvements,\" according to Microsoft's announcement. My…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VERGE_10_04_2026_0184.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech users benefit from smoother performance and fewer interruptions on the latest Surface model."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model'",
+      "link": "https://www.pcgamer.com/software/ai/i-no-longer-think-were-going-to-be-able-to-patch-all-bugs-says-ai-pandoras-box-opener-sam-altman-were-going-to-have-to-completely-switch-the-defense-model/",
+      "published": "Mon, 26 Oct 2026 15:24:27 +0000",
+      "summary": "Sam Altman discusses challenges in patching all software bugs and the need to change defensive strategies.",
+      "image": "https://cdn.mos.cms.futurecdn.net/vz5qBaqfd6NbMao4igEKVN-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "Tech leaders must rethink security models to manage evolving AI risks."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Last call for The Register’s data sovereignty dinner in Washington",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/sponsored-last-call-for-the-registers-data-sovereignty-dinner-in-washington/5304959",
+      "published": "Mon, 26 Oct 2026 15:00:00 +0000",
+      "summary": "The Register is hosting a data sovereignty dinner in Washington with HPE and NVIDIA this Thursday.",
+      "image": "https://image.theregister.com/?imageId=5304974&width=800",
+      "whyItMatters": "Tech leaders can network and discuss data sovereignty trends."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Asus ROG Xbox Ally X20 tested: Same performance, more comfortable, and a glorious OLED screen",
+      "link": "https://www.tomshardware.com/video-games/handheld-gaming/asus-rog-xbox-ally-x20-tested-same-performance-more-comfortable-and-a-glorious-oled-screen",
+      "published": "Mon, 26 Oct 2026 15:00:00 +0000",
+      "summary": "Asus ROG Xbox Ally X20 features an OLED display, TMR sticks, and ergonomic grips while maintaining AMD-powered performance.",
+      "image": "https://cdn.mos.cms.futurecdn.net/briMKxZrnXkxBfJp6MibS5-1920-80.png",
+      "readMinutes": 5,
+      "whyItMatters": "Gamers will enjoy a brighter screen and better ergonomics for extended play."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Steam is broken: It's still up but some users can't log in",
+      "link": "https://www.pcgamer.com/games/steam-is-broken-its-still-up-but-some-users-cant-log-in/",
+      "published": "Mon, 26 Oct 2026 14:57:12 +0000",
+      "summary": "Steam’s persistent \"loading user data\" screen is causing login, purchase, and installation issues for some users.",
+      "image": "https://cdn.mos.cms.futurecdn.net/ocyiDF76QwDQKRvvKB2hRQ-1920-80.jpg",
+      "readMinutes": 1,
+      "whyItMatters": "It disrupts game access and revenue for tech‑savvy gamers."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+      "link": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+      "published": "Mon, 26 Oct 2026 14:50:47 +0000",
+      "summary": "Anthropic filed IPO prospectus revealing financials, risk factors, and AI future outlook.",
+      "image": "https://media.wired.com/photos/6adf6c00ca47359863df5ba5/master/pass/102626-Anthropic%20IPO.jpg",
+      "whyItMatters": "Shows how the AI startup plans to monetize and manage risks in a competitive market."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Swift operations end: 2004 spacecraft headed for fiery reentry",
+      "link": "https://www.theregister.com/science/2026/10/26/swift-operations-end-2004-spacecraft-headed-for-fiery-reentry/5305346",
+      "published": "Mon, 26 Oct 2026 14:44:00 +0000",
+      "summary": "The 2004 Swift spacecraft is ending its mission, with atmospheric drag causing its eventual fiery reentry.",
+      "image": "https://image.theregister.com/?imageId=5237915&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "It marks the end of a long‑lived space observatory, illustrating orbital decay and mission lifecycle."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -99,18 +196,6 @@
       "whyItMatters": "Tech readers should note AI’s uneven impact on corporate earnings and investment focus."
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA, USDA Sign Agreement Advancing Earth Science, Agriculture",
-      "link": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
-      "published": "Mon, 26 Oct 2026 13:54:25 +0000",
-      "summary": "NASA and USDA signed an MOU to enhance Earth observation, geospatial analytics, and advanced data tech for modernizing U.S. agriculture data.",
-      "excerpt": "NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, and advanced data technologies, supporting USDA’s data modernization plan for United States agriculture. “NASA develops some of the most advanced sensing, computing, and analytical capabilities in the world, and we should put those tools […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/mou10242026.jpg?w=1829",
-      "readMinutes": 2,
-      "whyItMatters": "It boosts precision farming and resource management with cutting‑edge satellite data."
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
@@ -179,6 +264,17 @@
       "published": "Mon, 26 Oct 2026 12:58:40 +0000",
       "summary": "Eligible Turo hosts will also get a one-month free trial of Tesla's FSD software.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/tesla-fsd-GettyImages-2277686230.jpg?resize=1200,800"
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
+      "link": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
+      "published": "Mon, 26 Oct 2026 12:40:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance, and Emma Leiken, executive director of the Responsible Technology Youth Power Fund at…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/260326_uterus.jpg?fit=2128,1196",
+      "readMinutes": 4
     },
     {
       "source": "Tom's Hardware",
@@ -262,17 +358,6 @@
       "readMinutes": 5
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Bitcoin reward offered to anyone who could break into an unpatched server running PHP, hacker cracks site and claims bounty",
-      "link": "https://www.tomshardware.com/tech-industry/cryptomining/hacker-offers-bitcoin-reward-to-anyone-who-can-break-into-an-unpatched-server-running-php-still-remains-unhacked-php2shell-challenge-tests-claims-that-ai-makes-exploiting-vulnerabilities-easy",
-      "published": "Mon, 26 Oct 2026 10:30:00 +0000",
-      "summary": "The “Steal My Bitcoin” challenge offers a bounty to anyone who can breach a deliberately vulnerable PHP website using the recently disclosed PHP2Shell flaws. The challenge follows previous recoveries of locked Bitcoin fortunes through…",
-      "excerpt": "The “Steal My Bitcoin” challenge offers a bounty to anyone who can breach a deliberately vulnerable PHP website using the recently disclosed PHP2Shell flaws. The challenge follows previous recoveries of locked Bitcoin fortunes through software vulnerabilities and AI-assisted investigation, but no successful claim has been confirmed.",
-      "image": "https://cdn.mos.cms.futurecdn.net/nR46h5GnedCeKyZtVqZr3L-1920-80.jpg",
-      "readMinutes": 3
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Euro open source specialist proposes LLM gateway to ease token bills",
@@ -280,17 +365,6 @@
       "published": "Mon, 26 Oct 2026 10:15:00 +0000",
       "summary": "Aiven hopes to do for LLMs what it does for databases",
       "image": "https://image.theregister.com/?imageId=5242717&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Reddit’s r/opensource bans AI-made and AI-focused projects, also bans non-English speakers",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/reddits-r-opensource-bans-ai-made-and-ai-focused-projects-also-bans-non-english-speakers-sweeping-new-rules-spark-backlash-over-linux-kernel-contributions-and-solo-developers",
-      "published": "Mon, 26 Oct 2026 10:00:00 +0000",
-      "summary": "Reddit’s r/opensource has barred AI-built, AI-focused, and AI-using projects under new rules announced October 24. The crackdown also imposes strict requirements on project age and contributors, while restrictions on non-English speakers…",
-      "excerpt": "Reddit’s r/opensource has barred AI-built, AI-focused, and AI-using projects under new rules announced October 24. The crackdown also imposes strict requirements on project age and contributors, while restrictions on non-English speakers have sparked further backlash. The debate puts the subreddit’s policy at odds with Linux’s acceptance of disclosed AI-assisted code contributions.",
-      "image": "https://cdn.mos.cms.futurecdn.net/wA2Noe6WhknviBc6VQJqFo-1920-80.jpg",
       "readMinutes": 3
     },
     {
@@ -324,6 +398,17 @@
       "whyItMatters": "Tech readers should know it may not justify the high price or performance expectations."
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "published": "Mon, 26 Oct 2026 09:01:00 +0000",
+      "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and…",
+      "excerpt": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600",
+      "readMinutes": 4
+    },
+    {
       "source": "Wired",
       "category": "news",
       "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
@@ -332,27 +417,6 @@
       "summary": "Coyotec, a bilingual AI radio host, uses profanity and anti-ICE messaging to engage listeners, reflecting a trend toward AI personalities in broadcasting.",
       "image": "https://media.wired.com/photos/6adbe71b429a21d2813df7cd/master/pass/GGC%20-%205-watermarked.jpg",
       "whyItMatters": "Tech-savvy readers should watch AI’s influence on media and political discourse."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Work to protect DNS from quantum decryption attacks is speeding up",
-      "link": "https://www.theregister.com/networks/2026/10/26/work-to-protect-dns-from-quantum-decryption-attacks-is-speeding-up/5305274",
-      "published": "Mon, 26 Oct 2026 04:08:23 +0000",
-      "summary": "Efforts to shield DNS from quantum decryption threats are accelerating, alongside registry reforms and scams targeting trustworthy domains.",
-      "image": "https://image.theregister.com/?imageId=238312&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "Quantum‑resilient DNS protects critical internet infrastructure and prevents future cyber‑attacks."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Hunting Red Leaves with Satellites",
-      "link": "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/",
-      "published": "Mon, 26 Oct 2026 04:01:00 +0000",
-      "summary": "A modern satellite makes it possible to pursue the ancient tradition of leaf-peeping in a whole new way.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenology_pace_20261004.jpg",
-      "readMinutes": 8
     },
     {
       "source": "PC Gamer",
@@ -364,17 +428,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/mquTcmtPeqPuULfWtDsgW-1920-80.jpg",
       "readMinutes": 5,
       "whyItMatters": "Tech readers should track policy shifts that affect AI transparency and platform governance."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "After threatening AI export bans, China allows DeepSeek to keep selling",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/after-threatening-ai-export-bans-china-allows-deepseek-to-keep-selling/5305267",
-      "published": "Mon, 26 Oct 2026 00:39:57 +0000",
-      "summary": "China lifts export ban threat, permitting DeepSeek to continue selling AI products.",
-      "image": "https://image.theregister.com/?imageId=260439&width=800",
-      "readMinutes": 4,
-      "whyItMatters": "Tech readers should note regulatory shifts affect AI supply chains."
     },
     {
       "source": "The Verge",
@@ -396,28 +449,6 @@
       "summary": "Grok has released the first seven minutes of its AI-generated film 'Odyssey', which appears technically fine but lacks artistic depth.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
       "whyItMatters": "Tech readers should note AI's growing role in filmmaking, though current output may still feel generic."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate",
-      "link": "https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen",
-      "published": "2026-10-25T20:16:19.000Z",
-      "summary": "A YouTuber replicated the iPhone Duo's hinge‑related screen cracks, suggesting a design flaw causing early failures.",
-      "excerpt": "Social media and the iPhone Duo subreddit are filled with reports of Apple's foldable failing quickly and in spectacular fashion. Some users report having the phone for only a few hours before the hinge seems to catch on something, then audibly crack and break the screen. Tellingly, the cracks all seem to happen in the same place. YouTuber CuriousHagi was able to reproduce the cracked screen during some durability…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/20ruxzn728xh1.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech enthusiasts should know the foldable’s potential durability issues before buying."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "This Switch 2 sequel accessory was a few millimeters away from being good",
-      "link": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
-      "published": "2026-10-25T17:00:00.000Z",
-      "summary": "The Nitro Deck 2, a $59.99 accessory for Switch and Switch 2, improves stick feel but its buttons are cramped.",
-      "excerpt": "The stick and face buttons are too close for comfort. | Photo: Cameron Faulkner / The Verge The Crkd Nitro Deck was a saving grace for the original Nintendo Switch. The slide-on $59.99 accessory brought Hall effect sticks to drift-plagued consoles - no need to open up your Joy-Con for a complicated repair. The Nitro Deck 2, made for both the original Switch and the larger Switch 2, continues the tradition of having…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/crkd1_56c540.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech-savvy users value better controller ergonomics and repairability for smoother gameplay."
     },
     {
       "source": "TechCrunch",
@@ -468,16 +499,6 @@
       "summary": "Elon Musk reportedly ordered SpaceX to throttle Starlink access to Ukraine.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800",
       "whyItMatters": "Tech readers should note the geopolitical implications of controlling satellite internet access."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Will AI expose the rickety infrastructure of the internet?",
-      "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
-      "published": "Sat, 24 Oct 2026 20:15:33 +0000",
-      "summary": "The article discusses how AI could reveal the fragile, glue‑and‑dreams nature of the internet’s infrastructure.",
-      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1195574782.jpg?resize=1200,800",
-      "whyItMatters": "Understanding this fragility helps tech professionals anticipate and mitigate future network disruptions."
     },
     {
       "source": "Ars Technica",
@@ -598,16 +619,6 @@
       "whyItMatters": "Tech readers should note how supply chain regulations could affect chip production and robotics innovation."
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
-      "link": "https://arstechnica.com/tech-policy/2026/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/",
-      "published": "Fri, 23 Oct 2026 16:51:59 +0000",
-      "summary": "The New York Knicks conducted a phishing test by sending employees fake championship ring offers, revealing security weaknesses.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/james-dolan-knicks-championship-1152x648-1792772606.jpg",
-      "whyItMatters": "It highlights how even high-profile organizations can fall prey to deceptive cyber attacks."
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: testing six tech promises and biotech’s blind spots",
@@ -628,6 +639,25 @@
       "excerpt": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/YCSE_NP_1_1.jpg?resize=1200,600",
       "readMinutes": 5
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "El Niño Then and Now",
+      "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+      "published": "Fri, 23 Oct 2026 04:00:00 +0000",
+      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg",
+      "readMinutes": 6
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
+      "published": "Thu, 22 Oct 2026 21:39:58 +0000",
+      "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return…",
+      "excerpt": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]"
     },
     {
       "source": "MIT Technology Review",
@@ -785,17 +815,6 @@
       "summary": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup, a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines. When the cleanup began, AI writing was often…",
       "excerpt": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup, a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines. When the cleanup began, AI writing was often betrayed by conspicuous clichés. Today, the project’s volunteers are developing tools to detect subtler forms of machine-generated content and debating AI’s role in the world’s…",
       "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=980",
-      "readMinutes": 5
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The Download: introducing the Impossible issue",
-      "link": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
-      "published": "Wed, 21 Oct 2026 12:10:00 +0000",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of…",
-      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun to dream about…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000",
       "readMinutes": 5
     },
     {
