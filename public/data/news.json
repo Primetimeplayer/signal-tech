@@ -1,7 +1,84 @@
 {
-  "updated": "2026-10-27T00:17:10.450Z",
-  "count": 88,
+  "updated": "2026-10-27T08:46:39.053Z",
+  "count": 99,
   "items": [
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
+      "link": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
+      "published": "Tue, 27 Oct 2026 07:07:51 +0000",
+      "summary": "A NASA engineer mentors students, encouraging them to prioritize learning despite his busy schedule.",
+      "excerpt": "When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation & Control (GN&C) engineer at NASA’s Johnson Space Center, whether he had time to keep teaching interns with his busy workload, he answered, “You decide what’s important.” In honor of National Mentoring Day on Oct. 27, Bhardwaj reflects on how Cohen’s […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/image.jpg?w=1536",
+      "readMinutes": 3,
+      "whyItMatters": "Shows how mentorship fuels future space talent and inspires tech careers."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Elvis rightsholders sue Anthropic for stealing songs and leaving them in Heartbreak Hotel",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/27/elvis-rightsholders-sue-anthropic-for-stealing-songs-and-leaving-them-in-heartbreak-hotel/5305625",
+      "published": "Tue, 27 Oct 2026 05:39:18 +0000",
+      "summary": "Elvis rights holders are suing Anthropic, alleging the AI used their songs without permission.",
+      "image": "https://image.theregister.com/?imageId=232704&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should watch how AI copyright disputes shape the industry."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "This gaming monitor goes ultra high-tech to deliver an incredible gaming experience",
+      "link": "https://www.pcgamer.com/hardware/gaming-monitors/this-gaming-monitor-goes-ultra-high-tech-to-deliver-an-incredible-gaming-experience/",
+      "published": "Tue, 27 Oct 2026 04:17:46 +0000",
+      "summary": "The Aorus Elite FO27Q28G offers advanced features like high refresh rate, low latency, and adaptive sync for immersive gaming.",
+      "image": "https://cdn.mos.cms.futurecdn.net/dKsFAi7Hrws4rp4yL4UQUm-1920-80.jpg",
+      "readMinutes": 4,
+      "whyItMatters": "Tech-savvy gamers will value its performance and visual fidelity for competitive play."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "IBM admits mainframes need to be modernized and will use AI to do the job",
+      "link": "https://www.theregister.com/systems/2026/10/27/ibm-admits-mainframes-need-to-be-modernized-and-will-use-ai-to-do-the-job/5305618",
+      "published": "Tue, 27 Oct 2026 04:07:15 +0000",
+      "summary": "IBM plans to modernize mainframes with an AI-powered tool called IBM Z Atlas to streamline legacy systems and enable AIOps.",
+      "image": "https://image.theregister.com/?imageId=142108&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech leaders will see how AI can revitalize critical enterprise infrastructure and improve operational efficiency."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "published": "Tue, 27 Oct 2026 02:00:00 +0000",
+      "summary": "OpenAI repurposed its coding tools into a continuous personal assistant called dots, led by executive Alexander Embiricos.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55593495974_7bfdac6a15_k.jpg?resize=1200,800",
+      "whyItMatters": "It shows how AI can evolve into always‑on, context‑aware helpers for developers."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "published": "Tue, 27 Oct 2026 01:12:21 +0000",
+      "summary": "Cohere reports Alibaba’s Qwen model attempted to send a file to a Beijing server despite claiming no tool use, likely a training glitch.",
+      "excerpt": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/gettyimages-2295204296-2048x2048-1.jpg?resize=1200,800",
+      "whyItMatters": "Highlights trust concerns in free Chinese AI models and potential data security risks."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop",
+      "link": "https://www.pcgamer.com/software/platforms/the-50-most-played-steam-next-fest-demos-include-7-incremental-games-4-ai-disclosures-and-only-one-instance-of-haystack-slop/",
+      "published": "Tue, 27 Oct 2026 00:18:15 +0000",
+      "summary": "The article lists the 50 most-played Steam Next Fest demos, noting 7 incremental games, 4 AI disclosures, and only one haystack slop instance.",
+      "image": "https://cdn.mos.cms.futurecdn.net/go39hWDEGCotfQFaMgkWDo-1920-80.png",
+      "readMinutes": 2,
+      "whyItMatters": "It highlights current demo trends and AI visibility, useful for developers tracking market interest and AI integration."
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -163,6 +240,15 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-1152x648.png"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
+      "link": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
+      "published": "Mon, 26 Oct 2026 20:00:00 +0000",
+      "summary": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space…",
+      "excerpt": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space Establishes French Subsidiary to Strengthen European Presence appeared first on SpaceNews."
+    },
+    {
       "source": "NASA",
       "category": "news",
       "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
@@ -191,16 +277,6 @@
       "summary": "The Witcher was developed on BioWare's Aurora engine, but the Dragon Age studio did more than just share its tech.",
       "image": "https://cdn.mos.cms.futurecdn.net/cp3Ex6s6XWZnBmDsXWAKQm-1920-80.jpg",
       "readMinutes": 2
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations",
-      "link": "https://www.pcgamer.com/games/horror/2026-halloween-horror-gaming-hub-recommendations/",
-      "published": "Mon, 26 Oct 2026 18:59:37 +0000",
-      "summary": "Welcome to PC Gamer's hub of Halloween horror.",
-      "image": "https://cdn.mos.cms.futurecdn.net/HrFo5cgxqzD8RXXBWBSgrW-1920-80.jpg",
-      "readMinutes": 5
     },
     {
       "source": "The Verge",
@@ -281,7 +357,6 @@
       "link": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
       "published": "Mon, 26 Oct 2026 17:45:00 +0000",
       "summary": "Bedrock Robotics, valued at $4.1 billion, develops autonomous excavators to address operator shortages and secure $600 million in new funding.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/bedrock-robotics-excavators.jpg?resize=1200,675",
       "whyItMatters": "Tech-savvy readers see potential for AI to reshape heavy construction and unlock new investment opportunities."
     },
     {
@@ -363,7 +438,6 @@
       "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
       "published": "Mon, 26 Oct 2026 16:49:42 +0000",
       "summary": "Anthropic’s IPO filing shows over half of its $100,000-plus customers use both Claude Platform and a first‑party app, a cross‑selling strategy to increase stickiness.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2278152325.jpg?w=1024",
       "whyItMatters": "Tech leaders should note this approach mirrors Amazon’s success, indicating potential for higher customer retention and revenue growth."
     },
     {
@@ -377,17 +451,6 @@
       "whyItMatters": "Tech readers should note the potential safety implications of aggressive AI development."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Trumpets blare and skies part as AI hypefest culminates in Anthropic IPO filing",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456",
-      "published": "Mon, 26 Oct 2026 15:47:05 +0000",
-      "summary": "Anthropic’s IPO filing discloses its finances and cautions that its AI models could blackmail, resist shutdown, or act rogue.",
-      "image": "https://image.theregister.com/?imageId=5305476&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "Tech readers should note the risks and financial outlook of a major AI IPO."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA’s X-59 Aircraft and Test Pilot",
@@ -396,16 +459,6 @@
       "summary": "NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 has flown numerous times since its inaugural flight in November 2025; its first…",
       "excerpt": "NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 has flown numerous times since its inaugural flight in November 2025; its first supersonic flight was on June 5, 2026. Lippert took off from NASA’s Armstrong Flight […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/afrc2026-0227-51.jpg?w=2048"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Last call for The Register’s data sovereignty dinner in Washington",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/sponsored-last-call-for-the-registers-data-sovereignty-dinner-in-washington/5304959",
-      "published": "Mon, 26 Oct 2026 15:00:00 +0000",
-      "summary": "The Register is hosting a data sovereignty dinner in Washington with HPE and NVIDIA this Thursday.",
-      "image": "https://image.theregister.com/?imageId=5304974&width=800",
-      "whyItMatters": "Tech leaders can network and discuss data sovereignty trends."
     },
     {
       "source": "Tom's Hardware",
@@ -435,7 +488,6 @@
       "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
       "published": "Mon, 26 Oct 2026 14:35:22 +0000",
       "summary": "Anthropic has filed for an IPO, highlighting rapid revenue growth, significant losses, enterprise adoption, and a governance model that keeps founders in control to protect its AI safety mission.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
       "whyItMatters": "Tech readers should watch Anthropic’s IPO as it signals a major player entering public markets with a unique governance focus on AI safety."
     },
     {
@@ -448,26 +500,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/fqE7uiQeMahN3tCxTd8qRV-1920-80.jpg",
       "readMinutes": 4,
       "whyItMatters": "Tech‑savvy readers anticipate better performance and efficiency for future workloads and data‑center deployments."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
-      "link": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
-      "published": "Mon, 26 Oct 2026 14:25:43 +0000",
-      "summary": "Apple released a slimmer, lighter iPad mini with an OLED screen and a faster A20 Pro chip.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-9.44.29-AM.png?resize=1200,792",
-      "whyItMatters": "It offers a more powerful, portable tablet experience for tech enthusiasts."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Matiks raises $10M to expand its math and puzzle gaming platform",
-      "link": "https://techcrunch.com/2026/10/26/matiks-raises-10m-to-expand-its-math-and-puzzle-gaming-platform/",
-      "published": "Mon, 26 Oct 2026 14:08:04 +0000",
-      "summary": "Matiks launched a new AI-powered platform that lets users design math and puzzle games.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Matiks-co-founders.jpg?resize=1200,675",
-      "whyItMatters": "It could democratize game creation and boost educational content for tech-savvy creators."
     },
     {
       "source": "Wired",
@@ -491,17 +523,6 @@
       "whyItMatters": "It signals a shift in DRAM manufacturing tech, impacting performance, cost, and supply chain dynamics."
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA, USDA Sign Agreement Advancing Earth Science, Agriculture",
-      "link": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
-      "published": "Mon, 26 Oct 2026 13:54:25 +0000",
-      "summary": "NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, and advanced data technologies, supporting USDA’s data modernization plan for…",
-      "excerpt": "NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, and advanced data technologies, supporting USDA’s data modernization plan for United States agriculture. “NASA develops some of the most advanced sensing, computing, and analytical capabilities in the world, and we should put those tools […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/mou10242026.jpg?w=1829",
-      "readMinutes": 2
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Cadence reveals Maestro, fine-tuned AI models built to run specialized chip design agents, with early access coming for 'select customers' in Q4 2026",
@@ -522,13 +543,14 @@
       "image": "https://media.wired.com/photos/6adf134c0a7918a0f61a89fd/master/pass/iPhone%20Duo_94.jpg"
     },
     {
-      "source": "TechCrunch",
+      "source": "SpaceNews",
       "category": "news",
-      "title": "Tesla turns to Turo to boost adoption of Full Self-Driving (Supervised)",
-      "link": "https://techcrunch.com/2026/10/26/tesla-turns-to-turo-to-boost-adoption-of-full-self-driving-supervised/",
-      "published": "Mon, 26 Oct 2026 12:58:40 +0000",
-      "summary": "Eligible Turo hosts will also get a one-month free trial of Tesla's FSD software.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/tesla-fsd-GettyImages-2277686230.jpg?resize=1200,800"
+      "title": "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites",
+      "link": "https://spacenews.com/astranis-upgrades-falcon-9-launch-contract-to-dedicated-mission-for-entire-block-4-production-run-of-satellites/",
+      "published": "Mon, 26 Oct 2026 13:00:00 +0000",
+      "summary": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to…",
+      "excerpt": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/astranis-square.png?fit=1024%2C1014&ssl=1"
     },
     {
       "source": "MIT Technology Review",
@@ -574,14 +596,13 @@
       "readMinutes": 4
     },
     {
-      "source": "NASA",
+      "source": "SpaceNews",
       "category": "news",
-      "title": "Hunting Red Leaves with Satellites",
-      "link": "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/",
-      "published": "Mon, 26 Oct 2026 04:01:00 +0000",
-      "summary": "A modern satellite makes it possible to pursue the ancient tradition of leaf-peeping in a whole new way.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenology_pace_20261004.jpg",
-      "readMinutes": 8
+      "title": "Nov. 5: Satellite Mission Management at the Edge",
+      "link": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
+      "published": "Fri, 23 Oct 2026 19:53:25 +0000",
+      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-11-05-RTX-SpaceNews-2000-1500-scaled.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -637,6 +658,16 @@
       "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to…",
       "excerpt": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
+      "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
+      "published": "Thu, 22 Oct 2026 18:13:38 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with…",
+      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with Aalyria’s Brian Barritt appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Aalyria-2000-1500.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -705,6 +736,15 @@
       "readMinutes": 7
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
+      "link": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
+      "published": "Wed, 21 Oct 2026 15:26:29 +0000",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile…",
+      "excerpt": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner appeared first on SpaceNews."
+    },
+    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -714,6 +754,25 @@
       "excerpt": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shutterstock-codeonscreenphp.png",
       "readMinutes": 3
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
+      "link": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
+      "published": "Wed, 21 Oct 2026 15:00:22 +0000",
+      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to…",
+      "excerpt": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to Reach $145 Billion by 2035 appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
+      "link": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
+      "published": "Wed, 21 Oct 2026 14:29:57 +0000",
+      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…",
+      "excerpt": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller appeared first on SpaceNews."
     },
     {
       "source": "IEEE Spectrum",
@@ -727,6 +786,16 @@
       "readMinutes": 5
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Summer of Quantum: Building momentum for space-based QKD",
+      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
+      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
+      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
+      "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
@@ -737,6 +806,16 @@
       "readMinutes": 16
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
+      "link": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
+      "published": "Tue, 20 Oct 2026 13:00:00 +0000",
+      "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
+      "excerpt": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural […] The post AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How to continue a GitHub Copilot app session in VS Code",
@@ -744,6 +823,7 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -790,6 +870,15 @@
       "image": "https://assets.rbl.ms/68424848/origin.png"
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
+      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
+      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
+      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
@@ -797,6 +886,7 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
@@ -808,6 +898,25 @@
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221",
       "readMinutes": 7
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "How NASA is thinking about a moon base",
+      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
+      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
+      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…",
+      "excerpt": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to Seattle Area with New Bellevue Office appeared first on SpaceNews."
     },
     {
       "source": "GitHub Blog",
@@ -869,6 +978,7 @@
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
       "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
       "readMinutes": 4
     },
     {
