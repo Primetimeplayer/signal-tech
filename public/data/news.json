@@ -1,7 +1,245 @@
 {
-  "updated": "2026-10-26T18:38:06.289Z",
-  "count": 97,
+  "updated": "2026-10-27T00:17:10.450Z",
+  "count": 88,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Humanity can't afford not to spend $800B on AI, Anthropic insists",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/humanity-cant-afford-not-to-spend-800b-on-ai-anthropic-insists/5305580",
+      "published": "Mon, 26 Oct 2026 23:39:49 +0000",
+      "summary": "Anthropic claims humanity must invest $800B in AI.",
+      "image": "https://image.theregister.com/?imageId=5305597&width=800",
+      "readMinutes": 5,
+      "whyItMatters": "Tech readers should note the scale of AI investment debate."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "published": "2026-10-26T23:34:58.000Z",
+      "summary": "OpenAI reports three new major discoveries in math, computer science, and physics, now guided by external experts called \"shepherds.\"",
+      "excerpt": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in computer science and physics, while for the math problem it…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Shows AI’s growing role in scientific breakthroughs and collaboration with human experts."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "OpenAI rolls out budget-priced mid-tier GPT-6.1 Terra",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/openai-rolls-out-budget-priced-mid-tier-gpt-61-terra/5305574",
+      "published": "Mon, 26 Oct 2026 23:08:59 +0000",
+      "summary": "OpenAI launches GPT‑6.1 Terra, a mid‑tier model that competes with pricier options while costing only a tenth of Astra’s API price.",
+      "image": "https://image.theregister.com/?imageId=5305594&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech users can access powerful AI at a fraction of the cost, boosting productivity and reducing expenses."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
+      "link": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+      "published": "Mon, 26 Oct 2026 22:48:12 +0000",
+      "summary": "NASA’s Perseverance rover captured a 360° panorama of Neretva Vallis, revealing a dusty, wind-swept landscape that once hosted a river channel.",
+      "excerpt": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a wind-swept dusty vista today, billions of years ago it was home to a river channel that fed fresh water into […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1536&h=405&fit=clip&crop=faces%2Cfocalpoint",
+      "whyItMatters": "It offers insights into Mars’ ancient water history, informing future exploration and habitability studies."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Grok Says Its AI-Generated Version of ‘The Odyssey’ Is ‘Not Historically Accurate’",
+      "link": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
+      "published": "Mon, 26 Oct 2026 22:40:37 +0000",
+      "summary": "Grok’s AI-generated version of Homer's Odyssey is historically inaccurate, contradicting Elon Musk’s earlier claim of surpassing Nolan’s epic.",
+      "image": "https://media.wired.com/photos/6adfd0bd71d0e77d5637708d/master/pass/MCDODYS_UV008.jpg",
+      "whyItMatters": "It highlights AI’s current limits in faithfully recreating complex historical narratives."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Worm armed 42 GitHub repos by hiding a payload too big to fail",
+      "link": "https://www.theregister.com/security/2026/10/26/worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fail/5305570",
+      "published": "Mon, 26 Oct 2026 22:29:01 +0000",
+      "summary": "A worm infected 42 GitHub repositories by embedding oversized payloads (12.9–13.7 MB) that bypassed GitHub’s code search filters.",
+      "image": "https://image.theregister.com/?imageId=5242669&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech users should monitor repo integrity, as large hidden payloads can evade detection and compromise codebases."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
+      "link": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/",
+      "published": "Mon, 26 Oct 2026 22:00:00 +0000",
+      "summary": "Databricks co‑founder explains that winning enterprise customers hinges on partnering with large firms’ sales teams rather than just offering cutting‑edge tech.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Databricks-co-founder-Arsalan-Tavakoli-Shiraji.jpg?resize=1200,901",
+      "whyItMatters": "Tech leaders should focus on strategic sales alliances to secure big‑account deals."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "One day before launch, ARPG Emberville gets delayed until 2027",
+      "link": "https://www.pcgamer.com/games/rpg/one-day-before-launch-arpg-emberville-gets-delayed-until-2027/",
+      "published": "Mon, 26 Oct 2026 21:57:24 +0000",
+      "summary": "Emberville, an ARPG, is delayed to 2027 after developers extend feedback integration from its demo.",
+      "image": "https://cdn.mos.cms.futurecdn.net/pTzbm5TpEs7f42EdUJydh8-1920-80.webp",
+      "readMinutes": 2,
+      "whyItMatters": "Tech-savvy readers should note the extended development may impact release expectations and industry trends."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "published": "2026-10-26T21:45:31.000Z",
+      "summary": "Anthropic’s S‑1 reveals its growing reliance on natural gas for data‑center power amid fierce competition for electricity and location.",
+      "excerpt": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on \"natural gas\" - the fossil fuel…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It highlights the environmental cost and supply risk of scaling generative AI, a key concern for tech investors."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved'",
+      "link": "https://www.pcgamer.com/games/baldurs-gate/the-developer-of-one-of-my-favorite-2020s-rpgs-does-it-because-of-bioware-baldurs-gate-1-is-the-first-game-i-truly-loved/",
+      "published": "Mon, 26 Oct 2026 21:31:55 +0000",
+      "summary": "The article explains why the developer of a popular 2020s RPG cites Baldur's Gate 1 as a major influence.",
+      "image": "https://cdn.mos.cms.futurecdn.net/74PjA5z7S5E8NdhnP33QsN-1920-80.jpg",
+      "readMinutes": 1,
+      "whyItMatters": "Highlights how classic RPGs shape modern game design."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Alibaba's Qwen AI caught trying to contact server in China",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/alibabas-qwen-ai-caught-trying-to-contact-server-in-china/5305561",
+      "published": "Mon, 26 Oct 2026 21:27:37 +0000",
+      "summary": "Alibaba's Qwen AI tried contacting a Chinese server, likely caused by unsanitized training data echoes.",
+      "image": "https://image.theregister.com/?imageId=5305565&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Highlights data leakage risks in large language models."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+      "link": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+      "published": "Mon, 26 Oct 2026 21:07:28 +0000",
+      "summary": "NASA’s Perseverance rover studied Martian dust on its spacesuit materials, finding particles small enough to penetrate lungs and bloodstream.",
+      "excerpt": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to penetrate the lungs and enter the bloodstream. The findings will be published Tuesday, Oct. 27, in the Proceedings of […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg?w=2048",
+      "readMinutes": 6,
+      "whyItMatters": "Understanding dust toxicity helps design safer suits for future Mars crews."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NEO Surveyor’s Sunshade Gets Inspected",
+      "link": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
+      "published": "Mon, 26 Oct 2026 20:53:13 +0000",
+      "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space & Mission Systems in Boulder, Colorado, in July 2026. The sunshade structure…",
+      "excerpt": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space & Mission Systems in Boulder, Colorado, in July 2026. The sunshade structure stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base. Its two flat […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26780/PIA26780.jpg?w=1024&h=1536&fit=clip&crop=faces%2Cfocalpoint"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Solar Cells Inspected on NASA’s NEO Surveyor",
+      "link": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
+      "published": "Mon, 26 Oct 2026 20:52:24 +0000",
+      "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder, Colorado, in late July. Built by Applied Aerospace in Stockton, California…",
+      "excerpt": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder, Colorado, in late July. Built by Applied Aerospace in Stockton, California, the sunshade structure was outfitted with its solar cells by SolAero Technologies in Albuquerque, New Mexico, in January. Environmental […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26715/PIA26715.jpg?w=1536&h=1024&fit=clip&crop=faces%2Cfocalpoint"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+      "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "published": "Mon, 26 Oct 2026 20:04:16 +0000",
+      "summary": "Included is the ability to limit which applications Siri can directly access.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-1152x648.png"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
+      "link": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
+      "published": "Mon, 26 Oct 2026 19:28:08 +0000",
+      "summary": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for Space Research places high school students on small, mission-focused research…",
+      "excerpt": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for Space Research places high school students on small, mission-focused research teams mentored by NASA, academic, and industry experts. During summer 2026, the SEES Mission Architecture Tool for Research, Integration, and eXploration (MATRIX) team […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/learn/science-activation-stories/2026/10.09.26_SEES_Highlight.jpg?w=955&h=637&fit=clip&crop=faces%2Cfocalpoint",
+      "readMinutes": 5
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
+      "link": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
+      "published": "Mon, 26 Oct 2026 19:22:40 +0000",
+      "summary": "A small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-iPhone-Duo-colors-260909.jpg?resize=1200,675"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'",
+      "link": "https://www.pcgamer.com/games/the-witcher/cd-projekt-marks-the-19th-anniversary-of-its-first-witcher-rpg-with-a-tribute-to-bioware-their-support-helped-turn-our-vision-into-geralts-first-interactive-adventure/",
+      "published": "Mon, 26 Oct 2026 19:05:30 +0000",
+      "summary": "The Witcher was developed on BioWare's Aurora engine, but the Dragon Age studio did more than just share its tech.",
+      "image": "https://cdn.mos.cms.futurecdn.net/cp3Ex6s6XWZnBmDsXWAKQm-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations",
+      "link": "https://www.pcgamer.com/games/horror/2026-halloween-horror-gaming-hub-recommendations/",
+      "published": "Mon, 26 Oct 2026 18:59:37 +0000",
+      "summary": "Welcome to PC Gamer's hub of Halloween horror.",
+      "image": "https://cdn.mos.cms.futurecdn.net/HrFo5cgxqzD8RXXBWBSgrW-1920-80.jpg",
+      "readMinutes": 5
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "iPhone Duo now supports Apple Pencil with iOS 27.2",
+      "link": "https://www.theverge.com/tech/1018827/ios-27-2-iphone-duo-apple-pencil",
+      "published": "2026-10-26T18:51:06.000Z",
+      "summary": "Apple has just released iOS 27.2, bringing Apple Pencil support to the iPhone Duo. The software update also includes an \"Edge Light\" feature for the iPhone Duo that's intended to illuminate your face during video calls. Apple previously…",
+      "excerpt": "Apple has just released iOS 27.2, bringing Apple Pencil support to the iPhone Duo. The software update also includes an \"Edge Light\" feature for the iPhone Duo that's intended to illuminate your face during video calls. Apple previously said the iPhone Duo would add support for the Apple Pencil \"later this year.\" The company's first foldable comes with revamped iOS 27 controls designed to work across the device's…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1034.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+      "link": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+      "published": "Mon, 26 Oct 2026 18:50:41 +0000",
+      "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Radeco-Cerberus-robot-1152x648.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Intel quietly confirms Raptor Lake Next CPUs through internal driver publication",
+      "link": "https://www.tomshardware.com/pc-components/cpus/intel-quietly-confirms-raptor-lake-next-cpus-through-internal-driver-publication-lga-1700-chips-also-appear-in-shipping-manifests-dating-back-to-august",
+      "published": "Mon, 26 Oct 2026 18:50:28 +0000",
+      "summary": "An internal driver and a shipping manifest reveal that Intel's desktop Raptor Lake Next parts may be on the way right now.",
+      "image": "https://cdn.mos.cms.futurecdn.net/sQkjcrWci3QikXR5qNxa4d-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Google Fitbit Edge Review: I Still Prefer the Air (2026)",
+      "link": "https://www.wired.com/review/google-fitbit-edge/",
+      "published": "Mon, 26 Oct 2026 18:49:49 +0000",
+      "summary": "The Edge is a welcome upgrade for longtime Fitbit users, but the missing NFC technology is a puzzling regression.",
+      "image": "https://media.wired.com/photos/6adf55bb4342ac0de5548459/master/pass/Google%20Fitbit%20Edge%20Review%20102026%20top%20art%20SOURCE%20Google.jpg"
+    },
     {
       "source": "IEEE Spectrum",
       "category": "news",
@@ -24,6 +262,17 @@
       "image": "https://image.theregister.com/?imageId=244699&width=800",
       "readMinutes": 2,
       "whyItMatters": "It protects .NET apps from potential data corruption and exploitation via Brotli compression."
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Will the real Anthropic please stand up",
+      "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "published": "Mon, 26 Oct 2026 17:45:43 +0000",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document…",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/anthropic-dario1a.jpg?resize=1200,600",
+      "readMinutes": 4
     },
     {
       "source": "TechCrunch",
@@ -58,6 +307,15 @@
       "whyItMatters": "Tech users should know about potential hardware failures and replacement options for their iPhone Duo."
     },
     {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+      "link": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+      "published": "Mon, 26 Oct 2026 17:26:36 +0000",
+      "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg"
+    },
+    {
       "source": "The Register",
       "category": "news",
       "title": "Open source keyboard lets you swap parts like magnetic Lego bricks",
@@ -67,6 +325,16 @@
       "image": "https://image.theregister.com/?imageId=5305474&width=800",
       "readMinutes": 3,
       "whyItMatters": "Tech enthusiasts can build personalized keyboards and experiment with new layouts without buying new units."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
+      "published": "Mon, 26 Oct 2026 17:13:44 +0000",
+      "summary": "Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and Friday, Oct. 30.",
+      "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+      "readMinutes": 2
     },
     {
       "source": "The Register",
@@ -80,15 +348,13 @@
       "whyItMatters": "It shows how moderation can limit open-source collaboration and AI use, affecting developers and project visibility."
     },
     {
-      "source": "PC Gamer",
+      "source": "Ars Technica",
       "category": "news",
-      "title": "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more",
-      "link": "https://www.pcgamer.com/hardware/a-whole-host-of-steam-pc-games-can-now-run-locally-on-a-jailbroken-playstation-5-including-portal-left-4-dead-2-and-many-more/",
-      "published": "Mon, 26 Oct 2026 16:56:44 +0000",
-      "summary": "Jailbroken PS5s can now run many Steam PC games locally, such as Portal and Left 4 Dead 2.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ZknvaoNEWA5JE3dS92VY77-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "It expands PS5’s game library, enabling cross-platform play and new gaming experiences."
+      "title": "Some iPhone Duo screens are already failing",
+      "link": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
+      "published": "Mon, 26 Oct 2026 16:51:49 +0000",
+      "summary": "Apple's \"precision-engineered\" hinge is apparently damaging some iPhone Duo screens.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/iphone-duo-oops-1152x648.jpg"
     },
     {
       "source": "TechCrunch",
@@ -99,17 +365,6 @@
       "summary": "Anthropic’s IPO filing shows over half of its $100,000-plus customers use both Claude Platform and a first‑party app, a cross‑selling strategy to increase stickiness.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2278152325.jpg?w=1024",
       "whyItMatters": "Tech leaders should note this approach mirrors Amazon’s success, indicating potential for higher customer retention and revenue growth."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it",
-      "link": "https://www.pcgamer.com/hardware/vr-hardware/valve-adds-cd-rom-support-to-steam-frame-kernel-less-than-ten-minutes-after-saying-it-would-look-into-it/",
-      "published": "Mon, 26 Oct 2026 16:11:08 +0000",
-      "summary": "Valve added CD-ROM support to the Steam Frame kernel within minutes after announcing it would investigate.",
-      "image": "https://cdn.mos.cms.futurecdn.net/Jxk6NCA9KSnag5KwJx3fQT-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Shows Valve’s rapid response and commitment to hardware compatibility."
     },
     {
       "source": "Wired",
@@ -133,26 +388,14 @@
       "whyItMatters": "Tech readers should note the risks and financial outlook of a major AI IPO."
     },
     {
-      "source": "The Verge",
+      "source": "NASA",
       "category": "news",
-      "title": "T-Mobile’s new plans include swappable subscription perks",
-      "link": "https://www.theverge.com/tech/1018624/t-mobile-mix-plans-streaming-picks",
-      "published": "2026-10-26T15:39:54.000Z",
-      "summary": "T-Mobile introduces T‑Mix plans bundling wireless service with subscriptions to streaming, gaming, and device promos, starting at $55/month with flexible pick changes.",
-      "excerpt": "T-Mobile is launching new \"T-Mix\" plans that bundle wireless service with subscriptions to services like Netflix, Apple TV, YouTube Premium, Xbox Game Pass Ultimate, device promotions, and more, as reported earlier by Fierce Network. The Standard plan starts at $55 / month (with autopay) for one line and one \"Pick,\" which you can change up to four times during the year without changing the cost of your plan. The…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23962441/acastro_STK067__02.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It offers cost‑effective, customizable entertainment bundles for tech‑savvy users."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model'",
-      "link": "https://www.pcgamer.com/software/ai/i-no-longer-think-were-going-to-be-able-to-patch-all-bugs-says-ai-pandoras-box-opener-sam-altman-were-going-to-have-to-completely-switch-the-defense-model/",
-      "published": "Mon, 26 Oct 2026 15:24:27 +0000",
-      "summary": "Sam Altman discusses challenges in patching all software bugs and the need to change defensive strategies.",
-      "image": "https://cdn.mos.cms.futurecdn.net/vz5qBaqfd6NbMao4igEKVN-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Tech leaders must rethink security models to manage evolving AI risks."
+      "title": "NASA’s X-59 Aircraft and Test Pilot",
+      "link": "https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/",
+      "published": "Mon, 26 Oct 2026 15:25:47 +0000",
+      "summary": "NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 has flown numerous times since its inaugural flight in November 2025; its first…",
+      "excerpt": "NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 has flown numerous times since its inaugural flight in November 2025; its first supersonic flight was on June 5, 2026. Lippert took off from NASA’s Armstrong Flight […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/afrc2026-0227-51.jpg?w=2048"
     },
     {
       "source": "The Register",
@@ -176,17 +419,6 @@
       "whyItMatters": "Gamers will enjoy a brighter screen and better ergonomics for extended play."
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Steam is broken: It's still up but some users can't log in",
-      "link": "https://www.pcgamer.com/games/steam-is-broken-its-still-up-but-some-users-cant-log-in/",
-      "published": "Mon, 26 Oct 2026 14:57:12 +0000",
-      "summary": "Steam’s persistent \"loading user data\" screen is causing login, purchase, and installation issues for some users.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ocyiDF76QwDQKRvvKB2hRQ-1920-80.jpg",
-      "readMinutes": 1,
-      "whyItMatters": "It disrupts game access and revenue for tech‑savvy gamers."
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
@@ -195,17 +427,6 @@
       "summary": "Anthropic filed IPO prospectus revealing financials, risk factors, and AI future outlook.",
       "image": "https://media.wired.com/photos/6adf6c00ca47359863df5ba5/master/pass/102626-Anthropic%20IPO.jpg",
       "whyItMatters": "Shows how the AI startup plans to monetize and manage risks in a competitive market."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Swift operations end: 2004 spacecraft headed for fiery reentry",
-      "link": "https://www.theregister.com/science/2026/10/26/swift-operations-end-2004-spacecraft-headed-for-fiery-reentry/5305346",
-      "published": "Mon, 26 Oct 2026 14:44:00 +0000",
-      "summary": "The 2004 Swift spacecraft is ending its mission, with atmospheric drag causing its eventual fiery reentry.",
-      "image": "https://image.theregister.com/?imageId=5237915&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "It marks the end of a long‑lived space observatory, illustrating orbital decay and mission lifecycle."
     },
     {
       "source": "TechCrunch",
@@ -239,17 +460,6 @@
       "whyItMatters": "It offers a more powerful, portable tablet experience for tech enthusiasts."
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Phantom Blade Zero devs say the game needs 300 GB of free space for the pre-load process, alongside updated system requirements",
-      "link": "https://www.pcgamer.com/hardware/phantom-blade-zero-devs-say-the-game-needs-300-gb-of-free-space-for-the-pre-load-process-alongside-updated-system-requirements/",
-      "published": "Mon, 26 Oct 2026 14:21:32 +0000",
-      "summary": "Phantom Blade Zero requires 300 GB of free space for pre‑load, prompting updated system specs.",
-      "image": "https://cdn.mos.cms.futurecdn.net/bWxx5zX7KNQdQJjhwE8fYd-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Tech users must plan storage before installing, avoiding delays or failures."
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Matiks raises $10M to expand its math and puzzle gaming platform",
@@ -281,15 +491,15 @@
       "whyItMatters": "It signals a shift in DRAM manufacturing tech, impacting performance, cost, and supply chain dynamics."
     },
     {
-      "source": "The Register",
+      "source": "NASA",
       "category": "news",
-      "title": "Private equity giant: AI payoff strictly limited to Big Tech",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/private-equity-giant-ai-payoff-strictly-limited-to-big-tech/5305358",
-      "published": "Mon, 26 Oct 2026 13:59:00 +0000",
-      "summary": "Apollo argues that AI benefits mainly the Big Tech giants, leaving other S&P 500 companies largely unaffected.",
-      "image": "https://image.theregister.com/?imageId=263134&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech readers should note AI’s uneven impact on corporate earnings and investment focus."
+      "title": "NASA, USDA Sign Agreement Advancing Earth Science, Agriculture",
+      "link": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
+      "published": "Mon, 26 Oct 2026 13:54:25 +0000",
+      "summary": "NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, and advanced data technologies, supporting USDA’s data modernization plan for…",
+      "excerpt": "NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, and advanced data technologies, supporting USDA’s data modernization plan for United States agriculture. “NASA develops some of the most advanced sensing, computing, and analytical capabilities in the world, and we should put those tools […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/mou10242026.jpg?w=1829",
+      "readMinutes": 2
     },
     {
       "source": "Tom's Hardware",
@@ -303,16 +513,6 @@
       "whyItMatters": "Tech-savvy readers will see how specialized AI can accelerate semiconductor design and reduce time-to-market."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "We shouldn't be surprised about the PHPocalypse, as the internet is built on sticks and glue",
-      "link": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
-      "published": "Mon, 26 Oct 2026 13:14:00 +0000",
-      "summary": "What better way to celebrate Cybersecurity Awareness Month than warning that three-quarters of the web is about to be set on fire?",
-      "image": "https://image.theregister.com/?imageId=5305338&width=800",
-      "readMinutes": 22
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why",
@@ -320,16 +520,6 @@
       "published": "Mon, 26 Oct 2026 13:00:00 +0000",
       "summary": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
       "image": "https://media.wired.com/photos/6adf134c0a7918a0f61a89fd/master/pass/iPhone%20Duo_94.jpg"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites",
-      "link": "https://spacenews.com/astranis-upgrades-falcon-9-launch-contract-to-dedicated-mission-for-entire-block-4-production-run-of-satellites/",
-      "published": "Mon, 26 Oct 2026 13:00:00 +0000",
-      "summary": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to…",
-      "excerpt": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/astranis-square.png?fit=1024%2C1014&ssl=1"
     },
     {
       "source": "TechCrunch",
@@ -363,16 +553,6 @@
       "readMinutes": 3
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Leaked video shows hundreds, possibly thousands of brand-new RTX 5090s being dismantled for AI server usage in Chinese factory",
-      "link": "https://www.pcgamer.com/hardware/graphics-cards/leaked-video-shows-hundreds-possibly-thousands-of-brand-new-rtx-5090s-being-dismantled-for-ai-server-usage-in-chinese-factory/",
-      "published": "Mon, 26 Oct 2026 12:28:15 +0000",
-      "summary": "So that's where they're going.",
-      "image": "https://cdn.mos.cms.futurecdn.net/Ttr285rsKsf9FVGqV7Nvv6-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Save over $1,000 on this Alienware gaming PC with an RTX 5070 and 32GB DDR5",
@@ -381,36 +561,6 @@
       "summary": "Newegg have cut this Alienware Aurora gaming PC by over $1,000, netting yo ua 4K-ready machine with an RTX 5070 and 32GB of DDR5 RAM for $2,199.99.",
       "image": "https://cdn.mos.cms.futurecdn.net/o5E65djkK74DfjbT54EEvN-1920-80.png",
       "readMinutes": 2
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Former Intel CEO Pat Gelsinger bets on Nagare Labs to vault the memory wall",
-      "link": "https://www.theregister.com/systems/2026/10/26/former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-to-vault-the-memory-wall/5305181",
-      "published": "Mon, 26 Oct 2026 12:00:00 +0000",
-      "summary": "SRAM-like bandwidth, DRAM-like density, and NAND-like manufacturing: Z2RAM makes big promises, but the road ahead is arduous and littered with the ruins of failed memory vendors",
-      "image": "https://image.theregister.com/?imageId=225048&width=800",
-      "readMinutes": 4
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
-      "link": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
-      "published": "Mon, 26 Oct 2026 09:30:00 +0000",
-      "summary": "AI agents Jayden, Sam, and Zack pitch investigative stories to editors, aiming to act as real-life journalists.",
-      "image": "https://media.wired.com/photos/6adcfb8cc56cd60fecb6db05/master/pass/AI%20journalists%202.jpg",
-      "whyItMatters": "Shows AI’s growing role in media, raising questions about credibility and automation in journalism."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Valve Steam Frame Review: Costly and Inconsistent",
-      "link": "https://www.wired.com/review/valve-steam-frame/",
-      "published": "Mon, 26 Oct 2026 09:15:00 +0000",
-      "summary": "Valve’s Steam Frame fails to deliver on its promise of high-quality stand‑alone and streaming VR gaming.",
-      "image": "https://media.wired.com/photos/6adbc96a2eadfa02886c7f8c/master/pass/ValveArt.jpg",
-      "whyItMatters": "Tech readers should know it may not justify the high price or performance expectations."
     },
     {
       "source": "MIT Technology Review",
@@ -424,16 +574,6 @@
       "readMinutes": 4
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
-      "link": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
-      "published": "Mon, 26 Oct 2026 09:00:00 +0000",
-      "summary": "Coyotec, a bilingual AI radio host, uses profanity and anti-ICE messaging to engage listeners, reflecting a trend toward AI personalities in broadcasting.",
-      "image": "https://media.wired.com/photos/6adbe71b429a21d2813df7cd/master/pass/GGC%20-%205-watermarked.jpg",
-      "whyItMatters": "Tech-savvy readers should watch AI’s influence on media and political discourse."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "Hunting Red Leaves with Satellites",
@@ -442,111 +582,6 @@
       "summary": "A modern satellite makes it possible to pursue the ancient tradition of leaf-peeping in a whole new way.",
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenology_pace_20261004.jpg",
       "readMinutes": 8
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "published": "Sun, 25 Oct 2026 21:31:16 +0000",
-      "summary": "Grok has released the first seven minutes of its AI-generated film 'Odyssey', which appears technically fine but lacks artistic depth.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
-      "whyItMatters": "Tech readers should note AI's growing role in filmmaking, though current output may still feel generic."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "published": "Sun, 25 Oct 2026 16:57:32 +0000",
-      "summary": "AI has yielded no financial gains for most non-tech U.S. companies despite heavy investment and hype.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
-      "whyItMatters": "Tech-savvy readers should reassess AI ROI expectations in traditional industries."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
-      "link": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-      "published": "Fri, 23 Oct 2026 22:48:25 +0000",
-      "summary": "NASA revises lunar lander plans, resolving a longstanding Orion spacecraft issue to enable future Moon missions.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur-1002x648.jpg",
-      "whyItMatters": "It advances lunar exploration technology, impacting future space missions and related industries."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
-      "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
-      "published": "Fri, 23 Oct 2026 22:39:39 +0000",
-      "summary": "NASA and commercial partners Blue Origin and SpaceX are refining lander designs and operations for 2028 lunar missions.",
-      "excerpt": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the designs and changed both concepts of operations for its future crewed landers. Since NASA established initial contracts with Blue Origin and SpaceX […]",
-      "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-      "readMinutes": 7,
-      "whyItMatters": "It signals faster, more reliable crewed Moon landings, boosting tech development and future space exploration opportunities."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
-      "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-      "published": "Fri, 23 Oct 2026 22:37:53 +0000",
-      "summary": "NASA’s Artemis III will launch in 2027, sending astronauts aboard Orion to test future Moon lander operations before a lunar surface return.",
-      "excerpt": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
-      "readMinutes": 7,
-      "whyItMatters": "It marks a pivotal step toward sustainable lunar exploration and future deep‑space missions."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-      "link": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
-      "published": "Fri, 23 Oct 2026 21:51:19 +0000",
-      "summary": "NASA’s Swift Observatory has concluded its science mission due to orbital decay, ending its gamma‑ray burst observations.",
-      "excerpt": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the satellite’s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to […]",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift-observatory/news/2026/end-of-mission/Swift_in_space_15_ac.jpg?w=2048&h=1084&fit=clip&crop=faces%2Cfocalpoint",
-      "readMinutes": 4,
-      "whyItMatters": "Its loss marks the end of a key tool for rapid transient astronomy, affecting future high‑energy research."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
-      "link": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
-      "published": "Fri, 23 Oct 2026 20:28:43 +0000",
-      "summary": "Hegseth warns that prediction market bets distort military judgment and endanger troops, citing insider trading leaks to enemies.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/polymarket-1152x648.jpg",
-      "whyItMatters": "It highlights how market speculation can compromise U.S. operational security and troop safety."
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Nov. 5: Satellite Mission Management at the Edge",
-      "link": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
-      "published": "Fri, 23 Oct 2026 19:53:25 +0000",
-      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-11-05-RTX-SpaceNews-2000-1500-scaled.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
-      "link": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
-      "published": "Fri, 23 Oct 2026 19:33:58 +0000",
-      "summary": "The Pentagon is evaluating options to locate a new spaceport, weighing public‑private partnerships, federal sites, and state land.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/gallery-gallery_ng-2-ascent-2-1152x648.jpg",
-      "whyItMatters": "Tech leaders should track this as it could reshape U.S. space launch infrastructure and commercial opportunities."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "RS-25 Engine Tests at NASA Stennis",
-      "link": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
-      "published": "Fri, 23 Oct 2026 18:57:04 +0000",
-      "summary": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire…",
-      "excerpt": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket, with a 111% power level. For each […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg?w=2048"
     },
     {
       "source": "IEEE Spectrum",
@@ -559,27 +594,6 @@
       "image": "https://spectrum.ieee.org/media-library/smiling-portrait-of-a-young-south-asian-woman-seated-in-front-of-her-work-computer.jpg?id=68453070&width=980",
       "readMinutes": 7,
       "whyItMatters": "Her transition shows engineers can influence consumer tech perception, inspiring others to engage audiences beyond technical circles."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA, Virginia Launch Power Partnership for Energy Security",
-      "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
-      "published": "Fri, 23 Oct 2026 17:50:21 +0000",
-      "summary": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation…",
-      "excerpt": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation, delivery and use by providing solar, meteorological, and future weather risk datasets for energy system modeling and planning purposes. Under a new […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/lrc-2026-ocio-p-03524.jpg?w=2048",
-      "readMinutes": 3
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
-      "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
-      "published": "Fri, 23 Oct 2026 17:18:31 +0000",
-      "summary": "Intel argues foreign-made robotic vehicles are essential for U.S. chip manufacturing and seeks a waiver from potential export restrictions.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Intel-fab-interior-1152x648.jpg",
-      "whyItMatters": "Tech readers should note how supply chain regulations could affect chip production and robotics innovation."
     },
     {
       "source": "MIT Technology Review",
@@ -623,16 +637,6 @@
       "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to…",
       "excerpt": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
-      "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
-      "published": "Thu, 22 Oct 2026 18:13:38 +0000",
-      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with…",
-      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with Aalyria’s Brian Barritt appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Aalyria-2000-1500.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -690,17 +694,6 @@
       "readMinutes": 14
     },
     {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "AI’s hidden storage bill: What inference leaves behind",
-      "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "published": "Thu, 22 Oct 2026 08:41:18 +0000",
-      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a…",
-      "excerpt": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/WD-MITTR-Infographic-Final@2x.png",
-      "readMinutes": 4
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The bridge to agent-scale Git infrastructure",
@@ -710,15 +703,6 @@
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
-      "link": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
-      "published": "Wed, 21 Oct 2026 15:26:29 +0000",
-      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile…",
-      "excerpt": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner appeared first on SpaceNews."
     },
     {
       "source": "Krebs on Security",
@@ -732,25 +716,6 @@
       "readMinutes": 3
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
-      "link": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
-      "published": "Wed, 21 Oct 2026 15:00:22 +0000",
-      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to…",
-      "excerpt": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to Reach $145 Billion by 2035 appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
-      "link": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
-      "published": "Wed, 21 Oct 2026 14:29:57 +0000",
-      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…",
-      "excerpt": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller appeared first on SpaceNews."
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written",
@@ -762,16 +727,6 @@
       "readMinutes": 5
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Summer of Quantum: Building momentum for space-based QKD",
-      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
-      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
-      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
-      "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
@@ -780,16 +735,6 @@
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first…",
       "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog.",
       "readMinutes": 16
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
-      "link": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
-      "published": "Tue, 20 Oct 2026 13:00:00 +0000",
-      "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
-      "excerpt": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural […] The post AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
     },
     {
       "source": "GitHub Blog",
@@ -845,15 +790,6 @@
       "image": "https://assets.rbl.ms/68424848/origin.png"
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
-      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
-      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
-      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "The next developer interface is ambient intelligence",
@@ -872,25 +808,6 @@
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221",
       "readMinutes": 7
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How NASA is thinking about a moon base",
-      "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
-      "published": "Thu, 15 Oct 2026 15:14:24 +0000",
-      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base…",
-      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinking about a moon base appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-NASA-moon-2000-1500.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
-      "link": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
-      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
-      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to…",
-      "excerpt": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space Industries Expands to Seattle Area with New Bellevue Office appeared first on SpaceNews."
     },
     {
       "source": "GitHub Blog",
@@ -922,16 +839,6 @@
       "excerpt": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/heleketsupportbot.png",
       "readMinutes": 3
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
-      "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
-      "published": "Wed, 14 Oct 2026 13:09:21 +0000",
-      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more…",
-      "excerpt": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constellations could more quickly bring new tech to Europe, and to orbit appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
     },
     {
       "source": "Krebs on Security",
