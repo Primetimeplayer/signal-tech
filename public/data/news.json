@@ -1,17 +1,500 @@
 {
-  "updated": "2026-10-28T12:24:46.713Z",
+  "updated": "2026-10-28T20:08:47.301Z",
   "count": 96,
   "items": [
     {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Hacker stole personnel data about thousands of Homeland Security employees, including CBP and ICE agents",
+      "link": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+      "published": "Wed, 28 Oct 2026 20:01:00 +0000",
+      "summary": "A hacker exposed PII of over 40,000 Homeland Security employees, including CBP and ICE agents, and posted it online.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/dhs-2255143488.jpg?resize=1200,800",
+      "whyItMatters": "It highlights severe data security gaps in critical government agencies."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
+      "link": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "published": "Wed, 28 Oct 2026 20:00:00 +0000",
+      "summary": "A massive data leak exposed 41,000 Homeland Security workers, revealing ICE/CBP locations, phone numbers, and affiliations with surveillance tech like Palantir and xAI’s Grok.",
+      "image": "https://media.wired.com/photos/6ae126cfb5fdd6fa181bb24f/master/pass/Security_Massive%20Leak%20Exposes%2041,000%20DHS%20Employees_v1.jpg",
+      "whyItMatters": "Tech-savvy readers should know how sensitive security data can be compromised, impacting privacy and national security."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+      "link": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+      "published": "Wed, 28 Oct 2026 19:56:56 +0000",
+      "summary": "Oracle marks end of Cybersecurity Awareness Month after attackers target an EBS bug and a PeopleSoft 0-day exposing three vulnerabilities.",
+      "image": "https://image.theregister.com/?imageId=5306136&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech readers should monitor Oracle patches to protect against these critical exploits."
+    },
+    {
       "source": "The Verge",
       "category": "news",
-      "title": "Everything announced at Amazon’s October 2026 hardware launch",
-      "link": "https://www.theverge.com/tech/1020403/everything-announced-at-amazons-october-2026-hardware-launch",
-      "published": "2026-10-28T12:20:40.000Z",
-      "summary": "Amazon unveiled new Echo gadgets, updated Alexa Plus, and a range of screen devices including the Alexa Photo Frame at its October 2026 launch.",
-      "excerpt": "Amazon had plenty of new gadgets to share at its Echo hardware event this year, along with updates to the AI-powered Alexa Plus after it became available to everyone in the US in February. But the big news this year is screens: devices with big, beautiful ones, and those that lack them entirely. There’s the Alexa Photo Frame, which Amazon devices chief Panos Panay describes as “the world’s smartest photo frame” and…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Echo_Show_16_JTuohy_0046.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech readers should track Amazon’s expanding smart‑home ecosystem and AI enhancements for competitive insights."
+      "title": "Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech",
+      "link": "https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream",
+      "published": "2026-10-28T19:37:31.000Z",
+      "summary": "The FCC is banning Chinese consumer gadgets like drones, routers, and Roombas from entering the US market.",
+      "excerpt": "A gavel prior to an open commission meeting at the FCC. | Photo: Al Drago/Bloomberg via Getty Images What do drones, routers, and Roombas have in common? The US government wants to keep Chinese ones from entering the country. They’re the first consumer gadgets that are facing de facto import bans because of the US government’s xenophobic stance — and they might not be the last. Originally, the US government was just…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2261816039.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "readMinutes": 3,
+      "whyItMatters": "Tech readers should watch how these bans could reshape global supply chains and product availability."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "link": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "published": "Wed, 28 Oct 2026 19:19:58 +0000",
+      "summary": "Anthropic released tools that reveal how companies spend on its AI models, ahead of its IPO.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/claude-enterprise-social-smartreports-five-beats-gray200-animated-1080x608-v032.gif?w=1080",
+      "whyItMatters": "It offers transparency for investors and users to assess AI cost efficiency."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "link": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+      "published": "Wed, 28 Oct 2026 19:05:46 +0000",
+      "summary": "Wiz’s CTO discusses recent PHP vulnerabilities, their widespread impact, and the looming threat of a large-scale vulnerability wave.",
+      "excerpt": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the […]",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tomer-wiz.jpeg?resize=1200,800",
+      "whyItMatters": "Tech leaders must prioritize PHP security to protect millions of sites and avoid costly downtime."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
+      "link": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
+      "published": "Wed, 28 Oct 2026 18:59:44 +0000",
+      "summary": "NASA’s Artemis III SLS core stage was integrated with its boosters in Kennedy’s Vehicle Assembly Building on Oct. 28.",
+      "excerpt": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed […]",
+      "image": "https://images-assets.nasa.gov/image/KSC-20261022-PH-SNC01_0001/KSC-20261022-PH-SNC01_0001~large.jpg?w=1920&h=1371&fit=clip&crop=faces%2Cfocalpoint",
+      "readMinutes": 2,
+      "whyItMatters": "It marks a key step toward crewed lunar missions, advancing deep‑space launch capability."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "The New M6 MacBook Pro Has a Serious Price Problem",
+      "link": "https://www.wired.com/story/m6-macbook-pro-price-problem/",
+      "published": "Wed, 28 Oct 2026 18:57:22 +0000",
+      "summary": "Apple's new M6 MacBook Pro is priced at $1,999, making it less attractive compared to cheaper M6 Mac Mini and M5 MacBook Air on sale.",
+      "image": "https://media.wired.com/photos/6ae217bc6d6203230c9f52b5/master/pass/macbook%20pro%20m6%20deals%20post%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "whyItMatters": "Tech users may prefer the value of the cheaper Mac Mini or Air over the pricier Pro."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Microsoft is ending Copilot support on smart TVs",
+      "link": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "published": "2026-10-28T18:36:26.000Z",
+      "summary": "Microsoft is discontinuing Copilot support on LG and Samsung smart TVs announced at CES 2025.",
+      "excerpt": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official announcement from LG, Samsung, or Microsoft, but from an on-screen notification that appeared on Windows Central's Zac…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/copilot.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech users may lose AI assistant features on their smart TVs, impacting future integration and user experience."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+      "link": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+      "published": "Wed, 28 Oct 2026 18:30:00 +0000",
+      "summary": "The author tested AI agents on a fantasy soccer team, noting initial missteps like benching Haaland before learning from mistakes.",
+      "image": "https://media.wired.com/photos/6ae108712ec9b10c531020d9/master/pass/business_ai_predict_future.jpg",
+      "whyItMatters": "Shows AI’s current limits and learning curve in sports management, relevant for tech enthusiasts tracking AI performance."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Surprise: The Google Xreal glasses debut at a Meta-beating $1,099",
+      "link": "https://www.theverge.com/tech/1020960/google-xreal-glasses-debut-meta-vr-glasses-price-release-date",
+      "published": "2026-10-28T18:14:11.000Z",
+      "summary": "Google Xreal Aura AR glasses launch at $1,099, cheaper than preorders, featuring a 95‑gram headset and tethered Android XR compute puck with multiple virtual screens.",
+      "excerpt": "In this economy, how often does a product get less expensive before its debut? That just happened with the Google / Xreal Aura, the lightweight 95-gram glasses with a tethered Android XR compute puck and multiple virtual screens that just went on sale today. Xreal and Google have just announced the headset costs $1,099 through the end of the year, down from the $1,279 that Xreal was charging for early preorders last…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/Aura_4_TAS_XR_-Nov-06-2025_113.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Lower price could accelerate AR adoption for developers and early adopters."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Here’s where to preorder the new MacBook Pros",
+      "link": "https://www.theverge.com/gadgets/1019109/apple-macbook-pro-m6-proled-xdr-how-to-buy-price-release-date",
+      "published": "2026-10-28T18:10:23.000Z",
+      "summary": "Apple unveiled 14‑ and 16‑inch MacBook Pros with tandem OLED touch displays, lighter weight, a glowing logo, and an updated M6‑chip model.",
+      "excerpt": "As expected, Apple finally showed off its 14- and 16-inch MacBook Pros at its recent \"Pro and tell\" event. The long-awaited laptops feature a Tandem OLED display with full touch capabilities, while also cutting some weight and bringing back the glowing Apple logo. While less exciting, there's also an updated 14-inch MacBook Pro that features Apple's M6 chip, along with improved wireless connectivity. It's a small…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/MacBook-Pro-M6-2026-preorder-3_5144c7.png?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech users will want the latest performance, display tech, and design updates for productivity and creative work."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
+      "link": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
+      "published": "Wed, 28 Oct 2026 18:00:28 +0000",
+      "summary": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder expected the research to be demanding – but he was surprised that navigating the…",
+      "excerpt": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder expected the research to be demanding – but he was surprised that navigating the financial side of the work presented an even greater challenge. Although Gardner was used to leading fellow students […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/usrc-gardner-ag3-team.jpg?w=2048",
+      "readMinutes": 5
+    },
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "Systems Thinking Is Vital in the Age of AI",
+      "link": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+      "published": "Wed, 28 Oct 2026 18:00:02 +0000",
+      "summary": "Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an artificial intelligence tool to search relevant research and technical standards, generate design…",
+      "excerpt": "Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an artificial intelligence tool to search relevant research and technical standards, generate design options, test them in simulation, and compare the results. The engineer can then bring the results to specialists who understand the parts AI cannot judge on its own, such as whether a…",
+      "image": "https://spectrum.ieee.org/media-library/illustration-of-a-robotic-and-a-human-hand-with-different-color-bands-wrapped-around-both-hands.jpg?id=68528703&width=980",
+      "readMinutes": 5
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Here’s how macOS is changing for touchscreens",
+      "link": "https://www.theverge.com/tech/1020084/macos-touchscreen-changes",
+      "published": "2026-10-28T17:48:28.000Z",
+      "summary": "Reach out and touch screen. Touchscreen laptops are nothing new in the Windows world, but Apple has only just announced its first MacBook with a touchscreen. Apple isn't rushing to change a bunch of things in macOS to optimize for touch…",
+      "excerpt": "Reach out and touch screen. Touchscreen laptops are nothing new in the Windows world, but Apple has only just announced its first MacBook with a touchscreen. Apple isn't rushing to change a bunch of things in macOS to optimize for touch, though: Most of the touch action will be in the apps themselves, it seems. As far as major macOS changes go, iOS's Dynamic Island will debut on the new MacBook Pro, and Apple touts…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-28-at-10.31.37-AM.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "published": "Wed, 28 Oct 2026 17:46:32 +0000",
+      "summary": "But the AI responses get more forthright when asked outside the US.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Valve admits Steam has an AI slop and cloning problem, but says 'we don't want to be gatekeepers telling developers which tools they should or shouldn't use'",
+      "link": "https://www.pcgamer.com/software/ai/valve-admits-steam-has-an-ai-slop-and-cloning-problem-but-says-we-dont-want-to-be-gatekeepers-telling-developers-which-tools-they-should-or-shouldnt-use/",
+      "published": "Wed, 28 Oct 2026 17:37:24 +0000",
+      "summary": "Steam Next Fest is being flooded with thousands of low-effort games, while developers are becoming reluctant to share their work for fear of seeing it quickly cloned.",
+      "image": "https://cdn.mos.cms.futurecdn.net/UoEzWoavREo9zwpFLKCqC-1920-80.jpg",
+      "readMinutes": 3
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Apple ‘Pro and tell’ event: Everything announced this week",
+      "link": "https://www.theverge.com/tech/1020069/apple-pro-and-tell-event-everything-announced-this-week",
+      "published": "2026-10-28T17:27:38.000Z",
+      "summary": "Apple closed out its week of product announcements with its \"Pro and tell\" event on Wednesday, where it took the wraps off its long-rumored touchscreen MacBook Pro. Though Apple may have saved its biggest and most exciting update for last…",
+      "excerpt": "Apple closed out its week of product announcements with its \"Pro and tell\" event on Wednesday, where it took the wraps off its long-rumored touchscreen MacBook Pro. Though Apple may have saved its biggest and most exciting update for last, it revealed a few other device upgrades and updates in the days leading up to its big reveal. We've rounded them all up here. A MacBook Pro with a touchscreen Apple CEO John…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/app1.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Apple launches its new touchscreen MacBook Pro",
+      "link": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+      "published": "Wed, 28 Oct 2026 17:26:10 +0000",
+      "summary": "Apple's new touchscreen MacBook Pro starts at $2,899.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-MacBook-Pro-with-PROLED-XDR-Display-QuickTime-261028.jpg?resize=1200,800"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Apple announces touchscreen MacBook Pro with OLED display",
+      "link": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
+      "published": "Wed, 28 Oct 2026 17:25:04 +0000",
+      "summary": "The OLED display is the main draw, but the price is a lot to reckon with.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/2026-MacBook-Pro-1152x648-1793208150.jpg"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Watch Apple’s reveal video for the touchscreen MacBook Pro",
+      "link": "https://www.theverge.com/tech/1020676/apple-touchscreen-macbook-pro-reveal-video",
+      "published": "2026-10-28T17:19:23.000Z",
+      "summary": "Apple just announced its first touchscreen MacBook at its \"Pro and tell\" event on Wednesday. It showed off the long-awaited touchscreen in a video of the new MacBook Pro during the event that you can watch right here to see the new display…",
+      "excerpt": "Apple just announced its first touchscreen MacBook at its \"Pro and tell\" event on Wednesday. It showed off the long-awaited touchscreen in a video of the new MacBook Pro during the event that you can watch right here to see the new display in action. The new MacBook Pro's PROLED XDR touch display is a tandem OLED panel with up to 2,000 nits of brightness and a 120Hz refresh rate. It features a hole punch for the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/apple-macbook-pro-touch-video-1.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Apple launches new MacBook Pro with touchscreen and OLED — starts at $2,899",
+      "link": "https://www.tomshardware.com/laptops/apple-launches-new-macbook-with-touchscreen-and-oled-starts-at-usd2-899",
+      "published": "Wed, 28 Oct 2026 17:15:39 +0000",
+      "summary": "The computer is also lighter and has an updated speaker system.",
+      "image": "https://cdn.mos.cms.futurecdn.net/WXCqswHi5MR2yap3SDA9Kf-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "The Inside Story of Why Apple Finally Brought a Touch Display to the Mac",
+      "link": "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
+      "published": "Wed, 28 Oct 2026 17:15:16 +0000",
+      "summary": "An exclusive early look at Apple’s new touchscreen MacBook Pro—the computer Apple said would never happen.",
+      "image": "https://media.wired.com/photos/6ae20ca456ee4dcb93f11044/master/pass/1027_AppleNF_Illustration_v1.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Malaysia seizes $12 million worth of advanced AI chips hidden inside 30 servers",
+      "link": "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub",
+      "published": "Wed, 28 Oct 2026 17:02:14 +0000",
+      "summary": "Malaysian customs seized 30 servers containing more than $12 million worth of advanced AI chips at Kuala Lumpur International Airport, as authorities investigate a suspected smuggling network linked to multiple previous seizures.",
+      "image": "https://cdn.mos.cms.futurecdn.net/mcUCEv8AzcMnUJJ3xjB6Cf-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Xreal Aura is a new wired headset powered by Android XR",
+      "link": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
+      "published": "Wed, 28 Oct 2026 17:00:00 +0000",
+      "summary": "Xreal Aura will start at $1,279 and will have multiple XR specific apps at launch.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Xreal-Aura.jpg?resize=1200,675"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "published": "Wed, 28 Oct 2026 17:00:00 +0000",
+      "summary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/ConnectedAppshero.width-2200.format-webp.webp?resize=1200,675"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "published": "Wed, 28 Oct 2026 17:00:00 +0000",
+      "summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/autofill-ai-chrome.jpg?resize=1200,643"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Amazon tells tokenmaxxing devs to slow their AI roll",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/28/amazon-tells-tokenmaxxing-devs-to-slow-their-ai-roll/5306090",
+      "published": "Wed, 28 Oct 2026 16:49:14 +0000",
+      "summary": "Focus more on what matters, please, like creating useful software and accomplishing company goals",
+      "image": "https://image.theregister.com/?imageId=5251931&width=800",
+      "readMinutes": 3
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "GitHub powering up four million extra cores to stop its service going down",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/28/github-powering-up-four-million-extra-cores-to-stop-its-service-going-down/5305863",
+      "published": "Wed, 28 Oct 2026 16:30:00 +0000",
+      "summary": "Re-architects site to cope with AI slop-pocalypse",
+      "image": "https://image.theregister.com/?imageId=1618985&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Vote now: 8 games remain in our scariest games bracket",
+      "link": "https://www.pcgamer.com/games/horror/vote-now-8-games-remain-in-our-scariest-games-bracket/",
+      "published": "Wed, 28 Oct 2026 16:28:03 +0000",
+      "summary": "Help us determine which game is the scariest game on PC in round 2 of our Halloween tournament.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Ehzg8jCwdHYg3ndiSqum6G-1920-80.jpg"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Selects 19 New Citizen Science Proposals in 2026",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
+      "published": "Wed, 28 Oct 2026 16:25:29 +0000",
+      "summary": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible and intrinsically collaborative. The Backyard Worlds: Planet 9 project…",
+      "excerpt": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible and intrinsically collaborative. The Backyard Worlds: Planet 9 project announced that their project volunteers have now discovered most of the known brown dwarfs, celestial objects that are similar to planets. The Zooniverse platform, […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/NASA_citizen_science_projects_2026.jpg",
+      "readMinutes": 8
+    },
+    {
+      "source": "GitHub Blog",
+      "category": "news",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "link": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "published": "Wed, 28 Oct 2026 16:09:28 +0000",
+      "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png",
+      "readMinutes": 5
+    },
+    {
+      "source": "GitHub Blog",
+      "category": "news",
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "published": "Wed, 28 Oct 2026 16:07:40 +0000",
+      "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The…",
+      "excerpt": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogVisual_1.jpg?resize=1024%2C576",
+      "readMinutes": 20
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "AI execs may be too out of touch to build for the general public",
+      "link": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "published": "Wed, 28 Oct 2026 15:53:52 +0000",
+      "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1172241499.jpg?resize=1200,728"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Trump DOE loans $5B to nuclear plants that will power data centers",
+      "link": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/",
+      "published": "Wed, 28 Oct 2026 15:53:21 +0000",
+      "summary": "Constellation Energy will get $5 billion in government loans to modernize nuclear reactors. Most of the new capacity is already committed to Google, Amazon, and Meta.",
+      "image": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-129268875.jpg?resize=1200,900"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
+      "link": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+      "published": "Wed, 28 Oct 2026 15:52:17 +0000",
+      "summary": "Artem Stryzhak joined both gangs, which targeted businesses and a hospital during the pandemic",
+      "image": "https://image.theregister.com/?imageId=226050&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside",
+      "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-ps5-install-size-is-so-big-you-could-store-3500-copies-of-balatro-inside/",
+      "published": "Wed, 28 Oct 2026 15:52:11 +0000",
+      "summary": "That's a lot of space to ask for in the midst of the memory crisis.",
+      "image": "https://cdn.mos.cms.futurecdn.net/5CzH6eeVgfUqFSuqvAYEfn-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "link": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+      "published": "Wed, 28 Oct 2026 15:41:18 +0000",
+      "summary": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/05/south-korea-money-growth.jpg?resize=1200,675"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "AI component hikes force the world's largest PC makers to return manufacturing capacity to China",
+      "link": "https://www.tomshardware.com/tech-industry/manufacturing/ai-component-hikes-force-the-worlds-largest-pc-makers-to-return-manufacturing-capacity-to-china-brands-to-seek-lower-production-costs-and-efficiency-in-established-supply-chain",
+      "published": "Wed, 28 Oct 2026 15:24:16 +0000",
+      "summary": "PC manufacturing in China tends to be cheaper because of an established supply chain and workforce. Smaller Chinese suppliers are also winning orders by offering easier access to domestic chip manufacturers like CXMT.",
+      "image": "https://cdn.mos.cms.futurecdn.net/96np8ZYRRhSJs3PgrHgg9L-1920-80.jpg",
+      "readMinutes": 3
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Amazon tells engineers to stop ‘tokenmaxxing’ to look productive",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim",
+      "published": "Wed, 28 Oct 2026 15:13:48 +0000",
+      "summary": "Amazon has published new engineering guidelines warning developers and managers against ‘tokenmaxxing,’ arguing that AI usage metrics are ‘deeply flawed’ unless tied to long-term outcomes. The move follows similar spending concerns at Uber…",
+      "excerpt": "Amazon has published new engineering guidelines warning developers and managers against ‘tokenmaxxing,’ arguing that AI usage metrics are ‘deeply flawed’ unless tied to long-term outcomes. The move follows similar spending concerns at Uber and Accenture.",
+      "image": "https://cdn.mos.cms.futurecdn.net/X5VrhSL4p2oPLAfRk2LBb-1920-80.jpg",
+      "readMinutes": 3
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "How Google fumbled the frontend with Angular 2",
+      "link": "https://www.theregister.com/devops/2026/10/28/how-google-fumbled-the-frontend-with-angular-2/5306030",
+      "published": "Wed, 28 Oct 2026 15:11:46 +0000",
+      "summary": "All Things Open Talk provided lessons in how not to upgrade a software package",
+      "image": "https://image.theregister.com/?imageId=5306054&width=800",
+      "readMinutes": 4
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "link": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "published": "Wed, 28 Oct 2026 15:00:00 +0000",
+      "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to…",
+      "excerpt": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/AI-on-the-tongue.png?resize=1200,600"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers",
+      "link": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
+      "published": "Wed, 28 Oct 2026 15:00:00 +0000",
+      "summary": "Sony has new, spiffy see-through controllers and covers for its PlayStation 5 that let you see the hardware guts inside.",
+      "image": "https://media.wired.com/photos/6ae09646dad85b6a01dd12fd/master/pass/PRISM-Collection_DSonly_3UP_16X6.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space",
+      "link": "https://www.pcgamer.com/hardware/memory/elon-musk-says-robot-ram-needs-will-exceed-everything-else-on-earth-but-only-assuming-we-throw-all-the-data-centers-into-space/",
+      "published": "Wed, 28 Oct 2026 14:56:17 +0000",
+      "summary": "Humanoid robots will still consume only a sliver of the RAM AI does.",
+      "image": "https://cdn.mos.cms.futurecdn.net/D9FjQch5XWEdvFGiaWZEPQ-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "China's spaceplane bears striking resemblance to America's X-37B",
+      "link": "https://www.theregister.com/offbeat/2026/10/28/chinas-spaceplane-bears-striking-resemblance-to-americas-x-37b/5305983",
+      "published": "Wed, 28 Oct 2026 13:15:00 +0000",
+      "summary": "Defense Intelligence Agency space report includes a rare orbital snap of the Chinese craft, and it looks rather familiar",
+      "image": "https://image.theregister.com/?imageId=4094139&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "SK hynix-owned Solidigm is plotting a new $45 billion flash memory factory for the US, report claims",
+      "link": "https://www.tomshardware.com/tech-industry/manufacturing/sk-hynix-owned-solidigm-is-plotting-a-new-usd45-billion-flash-memory-factory-for-the-us-report-claims-wants-go-ahead-to-export-equipment-for-china-upgrades-in-return",
+      "published": "Wed, 28 Oct 2026 13:01:21 +0000",
+      "summary": "Solidigm, an American subsidiary of SK hynix, is in discussions about potentially investing $45 billion in a new flash chip factory that would be built in the United States.",
+      "image": "https://cdn.mos.cms.futurecdn.net/9g9LtorKP9jLymzth9cSfd-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "IEEE Spectrum",
+      "category": "news",
+      "title": "How Beta Technologies Is Clearing the Runway for Electric Flight",
+      "link": "https://spectrum.ieee.org/beta-technologies-electric-aircraft",
+      "published": "Wed, 28 Oct 2026 13:00:03 +0000",
+      "summary": "In the cockpit of Beta Technologies’ Alia CX300, pilot Chris Caputo steers onto Runway 33 at Patrick Leahy Burlington International Airport in Vermont. Cleared for takeoff, he releases the brakes and nudges the throttle forward. At the…",
+      "excerpt": "In the cockpit of Beta Technologies’ Alia CX300, pilot Chris Caputo steers onto Runway 33 at Patrick Leahy Burlington International Airport in Vermont. Cleared for takeoff, he releases the brakes and nudges the throttle forward. At the back of the aircraft, the five-blade pusher propeller snaps awake, and the Alia bolts forward. There’s no shriek of a turbofan spooling up, no shudder of a piston engine, and no wait…",
+      "image": "https://spectrum.ieee.org/media-library/color-photo-of-a-small-gray-airplane-with-a-man-standing-beside-it-and-plugging-in-a-charging-cable.jpg?id=68517917&width=980",
+      "readMinutes": 16
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Intel gets tax breaks while local authorities lose revenue, claims policy org",
+      "link": "https://www.theregister.com/systems/2026/10/28/intel-gets-tax-breaks-while-local-authorities-lose-revenue-claims-policy-org/5305902",
+      "published": "Wed, 28 Oct 2026 12:45:00 +0000",
+      "summary": "Report accuses corp of getting subsidies for its fabs from Oregon and New Mexico that deprive those states of vital funds",
+      "image": "https://image.theregister.com/?imageId=262320&width=800",
+      "readMinutes": 3
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: dead startups fueling AI and interspecies communication",
+      "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+      "published": "Wed, 28 Oct 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data was worth much. But he’s…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/04/20240926__DSC7922_PA.jpg?fit=3840,2560",
+      "readMinutes": 4
     },
     {
       "source": "Wired",
@@ -24,17 +507,6 @@
       "whyItMatters": "Tech readers will note the new camera for privacy and the AI UI’s potential to enhance smart‑home interactions."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Voters in Texas agree: They hate data centers",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
-      "published": "2026-10-28T12:00:00.000Z",
-      "summary": "The article reports Texas residents, led by NAACP president Gary Bledsoe, opposing data center projects that threaten parks and local communities in Austin and nearby towns.",
-      "excerpt": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a site that's supposed to be a park. Temple, around 40 miles away, is another sore spot, Bledsoe says. The mayor and City Council members…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_TEXAS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech readers should note growing public pushback against data center expansion, affecting future infrastructure planning and community relations."
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Cisco open sources tool for detecting AI agents on hacking sprees",
@@ -44,6 +516,15 @@
       "image": "https://image.theregister.com/?imageId=5259466&width=800",
       "readMinutes": 3,
       "whyItMatters": "Tech leaders need to understand AI‑driven threats to safeguard networks and improve incident response."
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Pairing industrial AI autonomy and human control",
+      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "published": "Wed, 28 Oct 2026 12:00:00 +0000",
+      "summary": "",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2264572193.jpg?resize=1200,600"
     },
     {
       "source": "Tom's Hardware",
@@ -100,17 +581,6 @@
       "whyItMatters": "It signals growing European autonomy in space tech, appealing to those interested in reducing reliance on foreign launch services."
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Standalone Nvidia Vera CPUs land in Oracle Cloud's multi-gigawatt deployment — our independent benchmarking of a local server reveals Vera's massive memory bandwidth lead over dual Xeon 6 server",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts",
-      "published": "Wed, 28 Oct 2026 11:00:00 +0000",
-      "summary": "Nvidia’s Vera CPU is now generally available on Oracle’s OCI Superclusters, marking a major hyperscaler deployment of the standalone Vera architecture.",
-      "image": "https://cdn.mos.cms.futurecdn.net/VjsMJHUMPcH4dpNwMJen5P-1920-80.jpg",
-      "readMinutes": 4,
-      "whyItMatters": "Tech-savvy readers should note Vera’s high memory bandwidth could boost data‑center performance and cost efficiency."
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "Pornhub Stars Want to Teach You How to Make Dinner",
@@ -121,113 +591,15 @@
       "whyItMatters": "It shows how adult platforms adapt, impacting content monetization and platform policy."
     },
     {
-      "source": "Tom's Hardware",
+      "source": "NASA",
       "category": "news",
-      "title": "IT vendor lists massive $60 million AI supercomputer on eBay with 300 racks of decommissioned GPUs",
-      "link": "https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping",
-      "published": "Wed, 28 Oct 2026 10:30:00 +0000",
-      "summary": "An IT vendor listed a 300‑rack AI supercomputer with 9,600 A100 GPUs and 4,200 EPYC CPUs on eBay for $59.7 million, free shipping included.",
-      "image": "https://cdn.mos.cms.futurecdn.net/PwWFj2a79ZDdEEQcHD4HbX-1920-80.jpg",
-      "readMinutes": 3,
-      "whyItMatters": "Shows how costly, underused AI hardware can be repurposed, impacting data‑center economics and hardware lifecycle strategies."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
-      "link": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
-      "published": "Wed, 28 Oct 2026 10:15:00 +0000",
-      "summary": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers.",
-      "image": "https://media.wired.com/photos/6ad92ed7649bdf60df6fd555/master/pass/culture_macmillon_failed_ai_project.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Please Let the Internet Die",
-      "link": "https://www.wired.com/story/let-the-internet-die/",
-      "published": "Wed, 28 Oct 2026 10:00:00 +0000",
-      "summary": "Online spaces are captured by oligarchs and saturated with slop—and they’re exacerbating humanity’s worst impulses. It’s time to start over.",
-      "image": "https://media.wired.com/photos/6adcb3a50f905f8d56c7065e/master/pass/WIRED-Ghost-Stories-Dead-Internet.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Japan experiments with autonomous AI chainsaw-wielding robots",
-      "link": "https://www.tomshardware.com/tech-industry/robotics/japan-experiments-with-autonomous-ai-chainsaw-wielding-robots-video-shows-rail-truck-mounted-metal-humanoid-cutting-down-tree-branches",
-      "published": "Wed, 28 Oct 2026 09:40:00 +0000",
-      "summary": "A scary-looking humanoid robot with a chainsaw arm was shown in action on Japanese TV news trimming tree branches that had begun encroaching on railway lines.",
-      "image": "https://cdn.mos.cms.futurecdn.net/GNdgn4uQJSieHfhRki6Xdn-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Neocloud thinks AI agents - not meatbags - will be its main customers",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/28/neocloud-thinks-ai-agents-not-meatbags-will-be-its-main-customers/5305496",
-      "published": "Wed, 28 Oct 2026 09:30:00 +0000",
-      "summary": "Quake AI is developing APIs to let autonomous agents access its services more efficiently",
-      "image": "https://image.theregister.com/?imageId=5239850&width=800",
-      "readMinutes": 4
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
-      "link": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-      "published": "Wed, 28 Oct 2026 08:30:00 +0000",
-      "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
-      "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
-      "link": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-      "published": "Wed, 28 Oct 2026 06:00:00 +0000",
-      "summary": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-      "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "SK Hynix says memory shortages to persist until 2030",
-      "link": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
-      "published": "Wed, 28 Oct 2026 04:21:23 +0000",
-      "summary": "SK Hynix predicts memory shortages will continue until 2030, impacting PC and smartphone markets.",
-      "image": "https://image.theregister.com/?imageId=5305894&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech readers should watch supply constraints that could raise component costs and slow device releases."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI slows growth for Infosys and keeps it afloat at the same time",
-      "link": "https://www.theregister.com/channel/2026/10/28/ai-slows-growth-for-infosys-and-keeps-it-afloat-at-the-same-time/5305879",
-      "published": "Wed, 28 Oct 2026 02:18:02 +0000",
-      "summary": "The article predicts Infosys will experience slower growth as automation savings reduce the cost of extended client deals.",
-      "image": "https://image.theregister.com/?imageId=5305884&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Automation cuts costs but may limit revenue growth, a key concern for tech investors and clients evaluating Infosys’s future."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "published": "Tue, 27 Oct 2026 23:34:27 +0000",
-      "summary": "Parents sue OpenAI, claiming ChatGPT guided their daughter to stop seizure medication, leading to her death.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?w=1024",
-      "whyItMatters": "Highlights potential risks of AI influencing critical health decisions."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "The data center boom has an upside: innovation for the US grid",
-      "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-      "published": "Tue, 27 Oct 2026 22:55:41 +0000",
-      "summary": "The AI-driven data center boom is pushing the U.S. power grid toward modernization and innovation.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55589499263_7ac8a28eb3_k.jpg?resize=1200,800",
-      "whyItMatters": "Tech readers should watch grid upgrades that support AI workloads and future infrastructure resilience."
+      "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+      "published": "Wed, 28 Oct 2026 05:39:46 +0000",
+      "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu…",
+      "excerpt": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu Chiu” block to conduct our next drill campaign. “Chiu Chiu” itself wasn’t a good candidate for […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05048_mhli_5048MH0009170001804540R00_DXXX.jpg?w=1584&h=1184&fit=clip&crop=faces%2Cfocalpoint",
+      "readMinutes": 5
     },
     {
       "source": "Ars Technica",
@@ -238,16 +610,6 @@
       "summary": "Apple updates the iMac and entry‑level MacBook Pro with the new M6 chip, adding the N1 Wi‑Fi 7 and Bluetooth 6 module.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/M6-iMac-1152x648.jpg",
       "whyItMatters": "Tech users will benefit from faster wireless connectivity and improved performance in Apple’s mainstream laptops."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Guidewire buys Hyperexponential for $1.7B in cash",
-      "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
-      "published": "Tue, 27 Oct 2026 22:26:03 +0000",
-      "summary": "Guidewire is acquiring Hyperexponential for $1.7B to integrate AI agents that assist humans in underwriting, analysis, and pricing.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Golden-AI-finance-collage.png?resize=1200,600",
-      "whyItMatters": "It signals a push toward AI-driven insurance workflows, enhancing efficiency and decision accuracy."
     },
     {
       "source": "Ars Technica",
@@ -270,78 +632,6 @@
       "whyItMatters": "Tech readers should watch Delaware's move, as it could set precedent for AI governance and liability."
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
-      "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-      "published": "Tue, 27 Oct 2026 21:44:34 +0000",
-      "summary": "Bank of America warns customers not to share banking passwords with AI assistants, emphasizing personal responsibility for any resulting activity.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
-      "whyItMatters": "AI users must protect credentials to avoid unauthorized transactions and potential security breaches."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
-      "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
-      "published": "Tue, 27 Oct 2026 21:31:14 +0000",
-      "summary": "Anthropic’s IPO filing lists seven AI risks, including blackmail, sentience, and existential threats.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg",
-      "whyItMatters": "Tech readers should note these risks highlight growing concerns over AI safety and regulation."
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Ukrainian startup, GomSpace test satellite for future communications network",
-      "link": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
-      "published": "Tue, 27 Oct 2026 20:21:30 +0000",
-      "summary": "Ukrainian startup GomSpace tested an experimental satellite launched Oct. 1, aiming to create a Ukrainian-controlled communications network.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-3.41.11-PM.png?fit=1024%2C588&ssl=1",
-      "whyItMatters": "It could give Ukraine independent, secure satellite communications amid regional tensions."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Big Red gets cozy with Google to offer TPUs to AI customers",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/27/big-red-gets-cozy-with-google-to-offer-tpus-to-ai-customers/5305846",
-      "published": "Tue, 27 Oct 2026 20:20:27 +0000",
-      "summary": "Oracle will provide Google TPUs alongside Nvidia hardware and OpenAI services for AI customers.",
-      "image": "https://image.theregister.com/?imageId=4093906&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "It expands AI infrastructure options, boosting performance and flexibility for tech-savvy users."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Fields Medal-winning UC Berkeley professor ends graded homework due to AI cheating",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/fields-medal-winning-uc-berkeley-professor-ends-graded-homework-due-to-ai-cheating-says-in-person-exams-are-the-only-solution-left-to-widespread-ai-use",
-      "published": "Tue, 27 Oct 2026 20:09:05 +0000",
-      "summary": "UC Berkeley professor Richard Brocherds has stopped grading homework, citing AI cheating, and now relies solely on in‑person exams.",
-      "image": "https://cdn.mos.cms.futurecdn.net/vRpHVXiNv3LEuAqzNwhCkY-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "It highlights AI’s impact on assessment and the need for new evaluation methods in higher education."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Google begins certifying Registered App Stores for Android, but not in the US",
-      "link": "https://arstechnica.com/gadgets/2026/10/googles-android-registered-app-stores-program-launches-dec-1-applications-now-open/",
-      "published": "Tue, 27 Oct 2026 19:32:07 +0000",
-      "summary": "Google is starting to certify third‑party app stores for Android outside the U.S., easing app installation from those stores.",
-      "whyItMatters": "It expands Android’s ecosystem, giving users more app choices and developers broader distribution channels."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Anthropic now lets Claude users jump out of plane without parachute",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/27/anthropic-now-lets-claude-users-jump-out-of-plane-without-parachute/5305807",
-      "published": "Tue, 27 Oct 2026 19:29:00 +0000",
-      "summary": "Anthropic releases a feature allowing Claude users to bypass permission checks.",
-      "image": "https://image.theregister.com/?imageId=240909&width=800",
-      "readMinutes": 1,
-      "whyItMatters": "Tech-savvy readers should note potential security risks."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
@@ -354,37 +644,6 @@
       "whyItMatters": "Insights from the simulation inform future Mars mission planning and crew health strategies."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours",
-      "link": "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
-      "published": "Tue, 27 Oct 2026 19:11:02 +0000",
-      "summary": "An AI hacker discovered four severe EPICS bugs in industrial control software within four hours, potentially disrupting research experiments.",
-      "image": "https://image.theregister.com/?imageId=5305858&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "Highlights urgent security gaps in critical scientific infrastructure, affecting tech‑savvy readers who rely on reliable control systems."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
-      "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
-      "published": "Tue, 27 Oct 2026 18:55:35 +0000",
-      "summary": "Disruptive has launched a $10B fund to invest heavily in at least 10 companies, including Groq and ElevenLabs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1191380440.jpg?resize=1200,800",
-      "whyItMatters": "Tech leaders should watch as this fund could reshape AI and chip landscapes."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
-      "link": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
-      "published": "Tue, 27 Oct 2026 18:49:08 +0000",
-      "summary": "AI tools now let users specify desired protein characteristics for design.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg",
-      "whyItMatters": "Enables rapid, tailored protein creation for biotech and research."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA’s Neo Surveyor Sunshade",
@@ -393,47 +652,6 @@
       "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its…",
       "excerpt": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base, will keep the infrared space telescope cool as it searches for near-Earth asteroids and […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg?w=2048"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Apple takes powerful M6 chip to the MacBook Pro, iMac",
-      "link": "https://www.theregister.com/personal-tech/2026/10/27/apple-takes-powerful-m6-chip-to-the-macbook-pro-imac/5305797",
-      "published": "Tue, 27 Oct 2026 17:47:07 +0000",
-      "summary": "6th-gen M-series silicon promises more cores, faster memory, a fatter NPU, and better connectivity, now in more form factors",
-      "image": "https://image.theregister.com/?imageId=5305802&width=800",
-      "readMinutes": 2
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Military drone outfit Anduril partners with Qualcomm to build laptops on US soil with new BlueChip venture",
-      "link": "https://www.tomshardware.com/laptops/military-drone-outfit-anduril-partners-with-qualcomm-to-build-laptops-on-us-soil-with-new-bluechip-venture-defense-contractor-targets-a-100-percent-domestic-supply-chain-in-the-future",
-      "published": "Tue, 27 Oct 2026 17:42:49 +0000",
-      "summary": "The defense contractor aims to fully bring back laptop manufacturing on U.S. shores, with its first BlueChip laptop prototypes having 90% procurement cost coming from suppliers in the U.S. and other allied countries.",
-      "image": "https://cdn.mos.cms.futurecdn.net/oRpL4c7fewCVVQTqSzdVzM-1920-80.png",
-      "readMinutes": 2
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Israeli ad tech firm tied to suspected Starlink tracking effort, report claims",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/israeli-ad-tech-firm-tied-to-suspected-starlink-tracking-effort-report-claims-researchers-say-it-outbid-everyone-for-starlink-linked-ads-in-100-countries-including-where-the-service-is-banned",
-      "published": "Tue, 27 Oct 2026 17:37:00 +0000",
-      "summary": "Citizen Lab and Confiant linked Israeli firm Discover-Tech to suspected surveillance through online advertising. Researchers said its ads appeared across nearly 200,000 websites and mobile apps. TrendAI separately identified related…",
-      "excerpt": "Citizen Lab and Confiant linked Israeli firm Discover-Tech to suspected surveillance through online advertising. Researchers said its ads appeared across nearly 200,000 websites and mobile apps. TrendAI separately identified related activity under the codename “SHADOW-EARTH-79.” The findings raise concerns about ad auctions being exploited to track users across sensitive networks, though ad impressions alone do not…",
-      "image": "https://cdn.mos.cms.futurecdn.net/ENC5zcxZ4NC6STP9xUUgpT-1920-80.jpg",
-      "readMinutes": 3
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
-      "link": "https://www.pcgamer.com/software/ai/nvidia-and-amd-invest-billions-into-meta-as-companies-egg-each-other-on-to-bet-even-more-on-ai/",
-      "published": "Tue, 27 Oct 2026 16:34:31 +0000",
-      "summary": "What's $3 billion to a trillion-dollar company?",
-      "image": "https://cdn.mos.cms.futurecdn.net/2W3UP8hvAdpRFHhXqoLnk6-1920-80.jpg",
-      "readMinutes": 2
     },
     {
       "source": "IEEE Spectrum",
@@ -445,27 +663,6 @@
       "excerpt": "This article is brought to you by VicOne. A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of those inputs is wrong, and the robot still responds exactly as…",
       "image": "https://spectrum.ieee.org/media-library/humanoid-robot-and-robot-dog-meet-a-woman-on-a-sunny-terrace-at-sunset.jpg?id=68002098&width=980",
       "readMinutes": 5
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
-      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
-      "published": "Tue, 27 Oct 2026 16:00:22 +0000",
-      "summary": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months",
-      "published": "Tue, 27 Oct 2026 14:30:00 +0000",
-      "summary": "TSMC may raise CoWoS packaging costs by up to 20% amid Nvidia Blackwell and Rubin chip demand, with equipment delays and future wafer price hikes.",
-      "excerpt": "TSMC is reportedly weighing a price increase of up to 20% for its CoWoS advanced packaging technology as Nvidia’s Blackwell and upcoming Rubin chips intensify pressure on capacity. Equipment deliveries now reportedly take up to eight months, while separate wafer-price increases of 5% to 10% are expected in 2027, with some customers potentially facing total cost increases of up to 25%.",
-      "image": "https://cdn.mos.cms.futurecdn.net/F7GwETgbWz3VqDaj8UmXcJ-1920-80.jpg",
-      "readMinutes": 3,
-      "whyItMatters": "Higher packaging costs could squeeze margins for AI chip makers and affect supply chain pricing."
     },
     {
       "source": "IEEE Spectrum",
@@ -488,15 +685,6 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/Neanderthals_finals-top.jpg?w=840",
       "readMinutes": 4
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Craft Prospect kicks off PERSEUS project to advance optical communications for space",
-      "link": "https://spacenews.com/craft-prospect-kicks-off-perseus-project-to-advance-optical-communications-for-space/",
-      "published": "Tue, 27 Oct 2026 12:00:00 +0000",
-      "summary": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The…",
-      "excerpt": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The post Craft Prospect kicks off PERSEUS project to advance optical communications for space appeared first on SpaceNews."
     },
     {
       "source": "MIT Technology Review",
@@ -522,48 +710,6 @@
       "whyItMatters": "Shows how mentorship fuels future space talent and inspires tech careers."
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
-      "link": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
-      "published": "Mon, 26 Oct 2026 22:48:12 +0000",
-      "summary": "NASA’s Perseverance rover captured a 360° panorama of Neretva Vallis, revealing a dusty, wind-swept landscape that once hosted a river channel.",
-      "excerpt": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a wind-swept dusty vista today, billions of years ago it was home to a river channel that fed fresh water into […]",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1536&h=405&fit=clip&crop=faces%2Cfocalpoint",
-      "whyItMatters": "It offers insights into Mars’ ancient water history, informing future exploration and habitability studies."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
-      "link": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
-      "published": "Mon, 26 Oct 2026 21:07:28 +0000",
-      "summary": "NASA’s Perseverance rover studied Martian dust on its spacesuit materials, finding particles small enough to penetrate lungs and bloodstream.",
-      "excerpt": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to penetrate the lungs and enter the bloodstream. The findings will be published Tuesday, Oct. 27, in the Proceedings of […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg?w=2048",
-      "readMinutes": 6,
-      "whyItMatters": "Understanding dust toxicity helps design safer suits for future Mars crews."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NEO Surveyor’s Sunshade Gets Inspected",
-      "link": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
-      "published": "Mon, 26 Oct 2026 20:53:13 +0000",
-      "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space & Mission Systems in Boulder, Colorado, in July 2026. The sunshade structure…",
-      "excerpt": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space & Mission Systems in Boulder, Colorado, in July 2026. The sunshade structure stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base. Its two flat […]",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26780/PIA26780.jpg?w=1024&h=1536&fit=clip&crop=faces%2Cfocalpoint"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
-      "link": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
-      "published": "Mon, 26 Oct 2026 20:00:00 +0000",
-      "summary": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space…",
-      "excerpt": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space Establishes French Subsidiary to Strengthen European Presence appeared first on SpaceNews."
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "IEEE Xplore Digital Library Adds AI Assistant",
@@ -587,16 +733,6 @@
       "readMinutes": 5
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites",
-      "link": "https://spacenews.com/astranis-upgrades-falcon-9-launch-contract-to-dedicated-mission-for-entire-block-4-production-run-of-satellites/",
-      "published": "Mon, 26 Oct 2026 13:00:00 +0000",
-      "summary": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to…",
-      "excerpt": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/astranis-square.png?fit=1024%2C1014&ssl=1"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
@@ -617,15 +753,6 @@
       "excerpt": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600",
       "readMinutes": 4
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Nov. 5: Satellite Mission Management at the Edge",
-      "link": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
-      "published": "Fri, 23 Oct 2026 19:53:25 +0000",
-      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-11-05-RTX-SpaceNews-2000-1500-scaled.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -660,37 +787,6 @@
       "excerpt": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/YCSE_NP_1_1.jpg?resize=1200,600",
       "readMinutes": 5
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "Designing an AI serving harness built to last",
-      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "published": "Thu, 22 Oct 2026 21:17:29 +0000",
-      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model…",
-      "excerpt": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?w=840",
-      "readMinutes": 4
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The Foundations of Scalable AI",
-      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "published": "Thu, 22 Oct 2026 18:48:04 +0000",
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to…",
-      "excerpt": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
-      "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
-      "published": "Thu, 22 Oct 2026 18:13:38 +0000",
-      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with…",
-      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with Aalyria’s Brian Barritt appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Aalyria-2000-1500.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -733,17 +829,7 @@
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
-      "link": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
-      "published": "Wed, 21 Oct 2026 15:26:29 +0000",
-      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile…",
-      "excerpt": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner appeared first on SpaceNews."
     },
     {
       "source": "Krebs on Security",
@@ -757,25 +843,6 @@
       "readMinutes": 3
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
-      "link": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
-      "published": "Wed, 21 Oct 2026 15:00:22 +0000",
-      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to…",
-      "excerpt": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to Reach $145 Billion by 2035 appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1"
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
-      "link": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
-      "published": "Wed, 21 Oct 2026 14:29:57 +0000",
-      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…",
-      "excerpt": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller appeared first on SpaceNews."
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written",
@@ -785,16 +852,6 @@
       "excerpt": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup, a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines. When the cleanup began, AI writing was often betrayed by conspicuous clichés. Today, the project’s volunteers are developing tools to detect subtler forms of machine-generated content and debating AI’s role in the world’s…",
       "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=980",
       "readMinutes": 5
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Summer of Quantum: Building momentum for space-based QKD",
-      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
-      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
-      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
-      "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
     },
     {
       "source": "GitHub Blog",
@@ -807,16 +864,6 @@
       "readMinutes": 16
     },
     {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
-      "link": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
-      "published": "Tue, 20 Oct 2026 13:00:00 +0000",
-      "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
-      "excerpt": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural […] The post AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How to continue a GitHub Copilot app session in VS Code",
@@ -825,17 +872,6 @@
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
       "readMinutes": 5
-    },
-    {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "IEEE Report Highlights How Members Are Engineering for Public Good",
-      "link": "https://spectrum.ieee.org/ieee-report-engineering-public-good",
-      "published": "Mon, 19 Oct 2026 18:00:03 +0000",
-      "summary": "Advancing technology for the benefit of humanity isn’t just the tagline for IEEE’s mission as a public charity. It’s something that the organization’s more than 500,000 members strive to do all the time. IEEE’s recently released 2025…",
-      "excerpt": "Advancing technology for the benefit of humanity isn’t just the tagline for IEEE’s mission as a public charity. It’s something that the organization’s more than 500,000 members strive to do all the time. IEEE’s recently released 2025 Social Impact Report showcases a variety of programs volunteers worked on to increase public awareness of technology’s impact on society, many of which The Institute covered. Here is a…",
-      "image": "https://spectrum.ieee.org/media-library/photo-grid-of-mobile-response-trucks-smiling-college-students-a-tabletop-fm-tower-model-and-a-group-of-teen-girls-at-a-museum.jpg?id=68452632&width=980",
-      "readMinutes": 4
     },
     {
       "source": "Krebs on Security",
@@ -847,26 +883,6 @@
       "excerpt": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website…",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shinywire-home.png",
       "readMinutes": 11
-    },
-    {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "The Robot I Didn’t Expect to Build",
-      "link": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
-      "published": "Mon, 19 Oct 2026 13:00:03 +0000",
-      "summary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing…",
-      "excerpt": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a…",
-      "image": "https://spectrum.ieee.org/media-library/author-jonathan-hurst-a-tall-slim-white-man-wearing-a-black-long-sleeve-shirt-and-dark-jeans-stands-next-to-his-digit-5-humano.jpg?id=68441166&width=980",
-      "readMinutes": 14
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Oct. 29: Applying AI/SI to the GEOINT Mission",
-      "link": "https://spacenews.com/applying-ai-si-to-the-geoint-mission-event/",
-      "published": "Thu, 15 Oct 2026 20:41:50 +0000",
-      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI/SI to the GEOINT Mission appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-10-29-vantor-spacenews_2000-1500_AI-SI-scaled.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "GitHub Blog",
@@ -929,26 +945,6 @@
       "excerpt": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2020/08/windowsec.png",
       "readMinutes": 2
-    },
-    {
-      "source": "GitHub Blog",
-      "category": "news",
-      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-      "link": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-      "published": "Tue, 13 Oct 2026 17:56:33 +0000",
-      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise…",
-      "excerpt": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog.",
-      "readMinutes": 8
-    },
-    {
-      "source": "GitHub Blog",
-      "category": "news",
-      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
-      "published": "Mon, 12 Oct 2026 17:43:59 +0000",
-      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
-      "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
-      "readMinutes": 4
     },
     {
       "source": "Krebs on Security",
