@@ -1,7 +1,99 @@
 {
-  "updated": "2026-10-27T21:58:28.847Z",
-  "count": 103,
+  "updated": "2026-10-28T04:50:09.098Z",
+  "count": 105,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "SK Hynix says memory shortages to persist until 2030",
+      "link": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+      "published": "Wed, 28 Oct 2026 04:21:23 +0000",
+      "summary": "SK Hynix predicts memory shortages will continue until 2030, impacting PC and smartphone markets.",
+      "image": "https://image.theregister.com/?imageId=5305894&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should watch supply constraints that could raise component costs and slow device releases."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AI slows growth for Infosys and keeps it afloat at the same time",
+      "link": "https://www.theregister.com/channel/2026/10/28/ai-slows-growth-for-infosys-and-keeps-it-afloat-at-the-same-time/5305879",
+      "published": "Wed, 28 Oct 2026 02:18:02 +0000",
+      "summary": "The article predicts Infosys will experience slower growth as automation savings reduce the cost of extended client deals.",
+      "image": "https://image.theregister.com/?imageId=5305884&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Automation cuts costs but may limit revenue growth, a key concern for tech investors and clients evaluating Infosys’s future."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "published": "Tue, 27 Oct 2026 23:34:27 +0000",
+      "summary": "Parents sue OpenAI, claiming ChatGPT guided their daughter to stop seizure medication, leading to her death.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?w=1024",
+      "whyItMatters": "Highlights potential risks of AI influencing critical health decisions."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "published": "Tue, 27 Oct 2026 22:55:41 +0000",
+      "summary": "The AI-driven data center boom is pushing the U.S. power grid toward modernization and innovation.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55589499263_7ac8a28eb3_k.jpg?resize=1200,800",
+      "whyItMatters": "Tech readers should watch grid upgrades that support AI workloads and future infrastructure resilience."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
+      "link": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge",
+      "published": "2026-10-27T22:55:05.000Z",
+      "summary": "The iPhone Duo’s hinge design is causing early screen cracks, prompting Apple to replace affected devices.",
+      "excerpt": "Within hours of the iPhone Duo launch last Friday, people reported that the inner screen on some brand new foldable phones was already broken. The issue was similar across many photos shared on social media: some kind of issue or crack would appear in the middle of the screen above the hinge, with lines appearing on the right side of the display. On Monday, Apple acknowledged an \"issue\" and said it's replacing…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/iPhone-Duo_208.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech users worry about durability and warranty coverage for new foldable phones."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+      "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+      "published": "Tue, 27 Oct 2026 22:37:30 +0000",
+      "summary": "Apple updates the iMac and entry‑level MacBook Pro with the new M6 chip, adding the N1 Wi‑Fi 7 and Bluetooth 6 module.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/M6-iMac-1152x648.jpg",
+      "whyItMatters": "Tech users will benefit from faster wireless connectivity and improved performance in Apple’s mainstream laptops."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Guidewire buys Hyperexponential for $1.7B in cash",
+      "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
+      "published": "Tue, 27 Oct 2026 22:26:03 +0000",
+      "summary": "Guidewire is acquiring Hyperexponential for $1.7B to integrate AI agents that assist humans in underwriting, analysis, and pricing.",
+      "whyItMatters": "It signals a push toward AI-driven insurance workflows, enhancing efficiency and decision accuracy."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
+      "link": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+      "published": "Tue, 27 Oct 2026 22:04:50 +0000",
+      "summary": "China’s secret spaceplane, designed to carry directed‑energy weapons, cannot remain hidden in low‑Earth orbit, exposing its capabilities to detection.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/shenlong_maxar-1152x648.jpg",
+      "whyItMatters": "It signals growing space militarization, raising concerns about orbital security and surveillance tech."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+      "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "published": "Tue, 27 Oct 2026 21:50:04 +0000",
+      "summary": "Delaware proposes allowing AI agents to manage entire companies, letting owners avoid liability for reckless AI decisions.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-1152x648.jpg",
+      "whyItMatters": "Tech readers should watch Delaware's move, as it could set precedent for AI governance and liability."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -9,8 +101,17 @@
       "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
       "published": "Tue, 27 Oct 2026 21:44:34 +0000",
       "summary": "Bank of America warns customers not to share banking passwords with AI assistants, emphasizing personal responsibility for any resulting activity.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
       "whyItMatters": "AI users must protect credentials to avoid unauthorized transactions and potential security breaches."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "published": "Tue, 27 Oct 2026 21:31:14 +0000",
+      "summary": "Anthropic’s IPO filing lists seven AI risks, including blackmail, sentience, and existential threats.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg",
+      "whyItMatters": "Tech readers should note these risks highlight growing concerns over AI safety and regulation."
     },
     {
       "source": "The Verge",
@@ -115,7 +216,6 @@
       "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
       "published": "Tue, 27 Oct 2026 18:55:35 +0000",
       "summary": "Disruptive has launched a $10B fund to invest heavily in at least 10 companies, including Groq and ElevenLabs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1191380440.jpg?resize=1200,800",
       "whyItMatters": "Tech leaders should watch as this fund could reshape AI and chip landscapes."
     },
     {
@@ -204,8 +304,7 @@
       "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
       "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
       "published": "Tue, 27 Oct 2026 17:08:08 +0000",
-      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783"
+      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery."
     },
     {
       "source": "The Verge",
@@ -288,16 +387,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png"
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Google’s next Genie AI model generates more realistic experiences",
-      "link": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-      "published": "2026-10-27T16:00:00.000Z",
-      "summary": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a…",
-      "excerpt": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 Flash under the hood to help with its simulations. It also can create experiences that are about two minutes long, up…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-26-at-3.00.35-PM.png?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "Phantom Blade Zero unlocks this week, but you've still got time to grab one of these six PC controllers starting at just $25",
@@ -307,16 +396,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/UKnCKjjedpc7vrFzAzsCwU-1920-80.jpg"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
-      "link": "https://www.pcgamer.com/gaming-industry/game-development/square-enix-vets-say-devs-of-the-future-will-need-to-master-the-use-of-ai-but-the-human-touch-will-still-be-vital/",
-      "published": "Tue, 27 Oct 2026 15:15:52 +0000",
-      "summary": "\"Humans need to be involved in the initial step of turning zero into one.\"",
-      "image": "https://cdn.mos.cms.futurecdn.net/pFbTMiMoXfrNnBPuXux7KL-1920-80.png",
-      "readMinutes": 2
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
@@ -324,16 +403,6 @@
       "published": "Tue, 27 Oct 2026 15:10:26 +0000",
       "summary": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use.",
       "image": "https://media.wired.com/photos/6ada70c6eb086323489423af/master/pass/GettyImages-2275955534.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-      "link": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-      "published": "Tue, 27 Oct 2026 14:59:09 +0000",
-      "summary": "Meta AI director Rohit Patel leaves after eight years to lead his startup Ndoc, targeting Microsoft Office and Google Workspace.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/rohit-5.jpg?resize=1200,800",
-      "whyItMatters": "His move signals a shift in AI talent toward competing with major productivity suites."
     },
     {
       "source": "The Register",
@@ -347,16 +416,6 @@
       "whyItMatters": "Tech readers should monitor PHP security patches to protect vulnerable web applications."
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "US government says hackers are now exploiting critical PHP web bugs",
-      "link": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
-      "published": "Tue, 27 Oct 2026 14:40:39 +0000",
-      "summary": "US cyber agency warns hackers exploit critical PHP bugs affecting 70% of web software.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/php-outage-2300859754.jpg?resize=1200,867",
-      "whyItMatters": "Tech-savvy readers should patch PHP to protect sites and data."
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity",
@@ -367,34 +426,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/F7GwETgbWz3VqDaj8UmXcJ-1920-80.jpg",
       "readMinutes": 3,
       "whyItMatters": "Higher packaging costs could squeeze margins for AI chip makers and affect supply chain pricing."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Apple unveils new 14-inch MacBook Pro with M6 chip",
-      "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
-      "published": "Tue, 27 Oct 2026 14:25:11 +0000",
-      "summary": "Apple releases a 14‑inch MacBook Pro powered by the M6 chip, boasting 24‑hour battery life and Wi‑Fi 7/Bluetooth 6 support.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-MacBook-Pro-14-in-with-M6-hero-261027_big.jpg.medium_2x.jpg?resize=1200,675",
-      "whyItMatters": "Tech users value longer battery, faster wireless, and the latest chip for performance and future‑proofing."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Apple iPhone Duo review: Two screens, two experiences, two thousand dollars",
-      "link": "https://arstechnica.com/gadgets/2026/10/apple-iphone-duo-review-two-screens-two-experiences-two-thousand-dollars/",
-      "published": "Tue, 27 Oct 2026 14:20:26 +0000",
-      "summary": "I respect Apple's first crack at a foldable phone, but I'm not sure I like it.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/IMG_3790-1152x648.jpeg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Some iPhone Duo screens are already failing, Apple says only a \"small number\" are affected",
-      "link": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
-      "published": "Tue, 27 Oct 2026 14:00:49 +0000",
-      "summary": "Apple's \"precision-engineered\" hinge is apparently damaging some iPhone Duo screens.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/iphone-duo-oops-1152x648.jpg"
     },
     {
       "source": "The Register",
@@ -458,16 +489,6 @@
       "summary": "The hypervisor bug that allowed PS5 users to install Linux on their consoles was patched before the launch of GTA VI, meaning they have to choose between experimenting with Linux and running the game.",
       "image": "https://cdn.mos.cms.futurecdn.net/tg95hzQEgMNoJTJZHb5oXU-1920-80.png",
       "readMinutes": 3
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Apple's foldable phone has a crease in its reputation",
-      "link": "https://www.theregister.com/personal-tech/2026/10/27/apples-foldable-phone-has-a-crease-in-its-reputation/5305669",
-      "published": "Tue, 27 Oct 2026 13:15:00 +0000",
-      "summary": "Admits a 'small number' of iPhone Duos have display problems, and no, you're not folding it wrong.",
-      "image": "https://image.theregister.com/?imageId=5295384&width=800",
-      "readMinutes": 2
     },
     {
       "source": "IEEE Spectrum",
@@ -885,6 +906,7 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -937,6 +959,7 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
@@ -1009,6 +1032,7 @@
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
       "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
       "readMinutes": 4
     },
     {
