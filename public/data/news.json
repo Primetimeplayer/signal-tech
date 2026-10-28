@@ -1,7 +1,192 @@
 {
-  "updated": "2026-10-28T04:50:09.098Z",
-  "count": 105,
+  "updated": "2026-10-28T12:24:46.713Z",
+  "count": 96,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Everything announced at Amazon’s October 2026 hardware launch",
+      "link": "https://www.theverge.com/tech/1020403/everything-announced-at-amazons-october-2026-hardware-launch",
+      "published": "2026-10-28T12:20:40.000Z",
+      "summary": "Amazon unveiled new Echo gadgets, updated Alexa Plus, and a range of screen devices including the Alexa Photo Frame at its October 2026 launch.",
+      "excerpt": "Amazon had plenty of new gadgets to share at its Echo hardware event this year, along with updates to the AI-powered Alexa Plus after it became available to everyone in the US in February. But the big news this year is screens: devices with big, beautiful ones, and those that lack them entirely. There’s the Alexa Photo Frame, which Amazon devices chief Panos Panay describes as “the world’s smartest photo frame” and…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Echo_Show_16_JTuohy_0046.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech readers should track Amazon’s expanding smart‑home ecosystem and AI enhancements for competitive insights."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Amazon Adds an Alexa Photo Frame and a Bedside Clock to Its Echo Family",
+      "link": "https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/",
+      "published": "Wed, 28 Oct 2026 12:01:00 +0000",
+      "summary": "Amazon launches Echo Studio with a built‑in camera and Echo Show 16 featuring an AI‑generated Alexa interface.",
+      "image": "https://media.wired.com/photos/6ae097bb45acc693d52eb8ba/master/pass/New%20Amazon%202026%20Echo%20Speakers%20SOURCE%20Julian%20Chokkattu.jpg.jpg",
+      "whyItMatters": "Tech readers will note the new camera for privacy and the AI UI’s potential to enhance smart‑home interactions."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Voters in Texas agree: They hate data centers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+      "published": "2026-10-28T12:00:00.000Z",
+      "summary": "The article reports Texas residents, led by NAACP president Gary Bledsoe, opposing data center projects that threaten parks and local communities in Austin and nearby towns.",
+      "excerpt": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a site that's supposed to be a park. Temple, around 40 miles away, is another sore spot, Bledsoe says. The mayor and City Council members…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_TEXAS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech readers should note growing public pushback against data center expansion, affecting future infrastructure planning and community relations."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Cisco open sources tool for detecting AI agents on hacking sprees",
+      "link": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
+      "published": "Wed, 28 Oct 2026 12:00:00 +0000",
+      "summary": "Cisco released an open‑source tool called Project Quarry to detect AI agents used in cyber attacks, offering a common framework for assessing their behavior.",
+      "image": "https://image.theregister.com/?imageId=5259466&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech leaders need to understand AI‑driven threats to safeguard networks and improve incident response."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Why native PC ports of console games are suddenly everywhere",
+      "link": "https://www.tomshardware.com/video-games/why-native-pc-ports-of-console-games-are-suddenly-everywhere-reverse-engineer-anything-gives-ai-agents-a-unified-toolkit-and-byte-for-byte-checks-keep-hallucinations-in-line",
+      "published": "Wed, 28 Oct 2026 12:00:00 +0000",
+      "summary": "The article explores why many console games are now being unofficially ported to PC, examining recent changes enabling these widespread adaptations.",
+      "image": "https://cdn.mos.cms.futurecdn.net/ngAU8FJ5HzYQKpYhy4eVBM-1920-80.jpg",
+      "readMinutes": 3,
+      "whyItMatters": "Tech-savvy readers should know how these ports affect game quality, licensing, and the PC gaming ecosystem."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nvidia RTX GPU vendor Palit denies its Galax factory has closed due to a shortage of chips",
+      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-gpu-vendor-palit-denies-its-galax-factory-has-closed-due-to-a-shortage-of-chips-company-says-brand-continues-to-operate-as-usual",
+      "published": "Wed, 28 Oct 2026 11:56:26 +0000",
+      "summary": "Palit says its Galax factory is still operational despite rumors of closure.",
+      "image": "https://cdn.mos.cms.futurecdn.net/yB6G4PAHnBYHqfAnGyVu9m-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "Tech buyers may rely on Palit for GPUs; factory status affects supply."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
+      "link": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "published": "Wed, 28 Oct 2026 11:45:00 +0000",
+      "summary": "123 Reg claims an AI-driven cyberattack targeted customer data, linking the attackers to those behind the ARTEX breach of South Korean banks.",
+      "image": "https://image.theregister.com/?imageId=242423&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should watch for AI-enabled threats that can exploit corporate data across borders."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
+      "link": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+      "published": "Wed, 28 Oct 2026 11:00:49 +0000",
+      "summary": "US-owned trans-Pacific cables face growing sabotage risks from China, threatening data security.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Trans-Pacific-cables-at-risk-1071x648.jpg",
+      "whyItMatters": "Tech leaders must guard against geopolitical threats to global connectivity."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Open Cosmos steps up Europe's space sovereignty game, shows off ConnectedCosmos satellites",
+      "link": "https://www.theregister.com/networks/2026/10/28/open-cosmos-steps-up-europes-space-sovereignty-game-shows-off-connectedcosmos-satellites/5305479",
+      "published": "Wed, 28 Oct 2026 11:00:00 +0000",
+      "summary": "Open Cosmos showcases its ConnectedCosmos satellites, highlighting a satellite nursery aimed at reducing dependence for European customers.",
+      "image": "https://image.theregister.com/?imageId=5305491&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "It signals growing European autonomy in space tech, appealing to those interested in reducing reliance on foreign launch services."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Standalone Nvidia Vera CPUs land in Oracle Cloud's multi-gigawatt deployment — our independent benchmarking of a local server reveals Vera's massive memory bandwidth lead over dual Xeon 6 server",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts",
+      "published": "Wed, 28 Oct 2026 11:00:00 +0000",
+      "summary": "Nvidia’s Vera CPU is now generally available on Oracle’s OCI Superclusters, marking a major hyperscaler deployment of the standalone Vera architecture.",
+      "image": "https://cdn.mos.cms.futurecdn.net/VjsMJHUMPcH4dpNwMJen5P-1920-80.jpg",
+      "readMinutes": 4,
+      "whyItMatters": "Tech-savvy readers should note Vera’s high memory bandwidth could boost data‑center performance and cost efficiency."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Pornhub Stars Want to Teach You How to Make Dinner",
+      "link": "https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/",
+      "published": "Wed, 28 Oct 2026 10:45:00 +0000",
+      "summary": "Pornhub is urging creators to diversify into cooking, gaming, and podcasting to avoid censorship and anti-porn laws.",
+      "image": "https://media.wired.com/photos/6adede77dbc6676891653f9d/master/pass/SFW%20pornhub.jpg",
+      "whyItMatters": "It shows how adult platforms adapt, impacting content monetization and platform policy."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "IT vendor lists massive $60 million AI supercomputer on eBay with 300 racks of decommissioned GPUs",
+      "link": "https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping",
+      "published": "Wed, 28 Oct 2026 10:30:00 +0000",
+      "summary": "An IT vendor listed a 300‑rack AI supercomputer with 9,600 A100 GPUs and 4,200 EPYC CPUs on eBay for $59.7 million, free shipping included.",
+      "image": "https://cdn.mos.cms.futurecdn.net/PwWFj2a79ZDdEEQcHD4HbX-1920-80.jpg",
+      "readMinutes": 3,
+      "whyItMatters": "Shows how costly, underused AI hardware can be repurposed, impacting data‑center economics and hardware lifecycle strategies."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
+      "link": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
+      "published": "Wed, 28 Oct 2026 10:15:00 +0000",
+      "summary": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers.",
+      "image": "https://media.wired.com/photos/6ad92ed7649bdf60df6fd555/master/pass/culture_macmillon_failed_ai_project.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Please Let the Internet Die",
+      "link": "https://www.wired.com/story/let-the-internet-die/",
+      "published": "Wed, 28 Oct 2026 10:00:00 +0000",
+      "summary": "Online spaces are captured by oligarchs and saturated with slop—and they’re exacerbating humanity’s worst impulses. It’s time to start over.",
+      "image": "https://media.wired.com/photos/6adcb3a50f905f8d56c7065e/master/pass/WIRED-Ghost-Stories-Dead-Internet.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Japan experiments with autonomous AI chainsaw-wielding robots",
+      "link": "https://www.tomshardware.com/tech-industry/robotics/japan-experiments-with-autonomous-ai-chainsaw-wielding-robots-video-shows-rail-truck-mounted-metal-humanoid-cutting-down-tree-branches",
+      "published": "Wed, 28 Oct 2026 09:40:00 +0000",
+      "summary": "A scary-looking humanoid robot with a chainsaw arm was shown in action on Japanese TV news trimming tree branches that had begun encroaching on railway lines.",
+      "image": "https://cdn.mos.cms.futurecdn.net/GNdgn4uQJSieHfhRki6Xdn-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Neocloud thinks AI agents - not meatbags - will be its main customers",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/28/neocloud-thinks-ai-agents-not-meatbags-will-be-its-main-customers/5305496",
+      "published": "Wed, 28 Oct 2026 09:30:00 +0000",
+      "summary": "Quake AI is developing APIs to let autonomous agents access its services more efficiently",
+      "image": "https://image.theregister.com/?imageId=5239850&width=800",
+      "readMinutes": 4
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+      "link": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+      "published": "Wed, 28 Oct 2026 08:30:00 +0000",
+      "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+      "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+      "link": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+      "published": "Wed, 28 Oct 2026 06:00:00 +0000",
+      "summary": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
+      "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif"
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -45,17 +230,6 @@
       "whyItMatters": "Tech readers should watch grid upgrades that support AI workloads and future infrastructure resilience."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
-      "link": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge",
-      "published": "2026-10-27T22:55:05.000Z",
-      "summary": "The iPhone Duo’s hinge design is causing early screen cracks, prompting Apple to replace affected devices.",
-      "excerpt": "Within hours of the iPhone Duo launch last Friday, people reported that the inner screen on some brand new foldable phones was already broken. The issue was similar across many photos shared on social media: some kind of issue or crack would appear in the middle of the screen above the hinge, with lines appearing on the right side of the display. On Monday, Apple acknowledged an \"issue\" and said it's replacing…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/iPhone-Duo_208.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech users worry about durability and warranty coverage for new foldable phones."
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
@@ -72,6 +246,7 @@
       "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
       "published": "Tue, 27 Oct 2026 22:26:03 +0000",
       "summary": "Guidewire is acquiring Hyperexponential for $1.7B to integrate AI agents that assist humans in underwriting, analysis, and pricing.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Golden-AI-finance-collage.png?resize=1200,600",
       "whyItMatters": "It signals a push toward AI-driven insurance workflows, enhancing efficiency and decision accuracy."
     },
     {
@@ -101,6 +276,7 @@
       "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
       "published": "Tue, 27 Oct 2026 21:44:34 +0000",
       "summary": "Bank of America warns customers not to share banking passwords with AI assistants, emphasizing personal responsibility for any resulting activity.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
       "whyItMatters": "AI users must protect credentials to avoid unauthorized transactions and potential security breaches."
     },
     {
@@ -112,17 +288,6 @@
       "summary": "Anthropic’s IPO filing lists seven AI risks, including blackmail, sentience, and existential threats.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg",
       "whyItMatters": "Tech readers should note these risks highlight growing concerns over AI safety and regulation."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-      "published": "2026-10-27T20:48:58.000Z",
-      "summary": "OpenAI announced breakthroughs in math, CS, and physics, yet researchers criticize its restrictive communication practices.",
-      "excerpt": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI and mathematicians, who are still grappling…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_7.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech-savvy readers care because open access fuels faster innovation and collaboration."
     },
     {
       "source": "SpaceNews",
@@ -155,16 +320,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/vRpHVXiNv3LEuAqzNwhCkY-1920-80.jpg",
       "readMinutes": 2,
       "whyItMatters": "It highlights AI’s impact on assessment and the need for new evaluation methods in higher education."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
-      "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-      "published": "Tue, 27 Oct 2026 19:39:04 +0000",
-      "summary": "Anthropic claims its AI will transform biology, yet its IPO filing suggests a slower pace for breakthroughs.",
-      "image": "https://media.wired.com/photos/6ae0b0627e979e34b657973e/master/pass/102726-Anthropic%20Bio.jpg",
-      "whyItMatters": "Tech-savvy readers should note the gap between hype and realistic deployment timelines."
     },
     {
       "source": "Ars Technica",
@@ -216,6 +371,7 @@
       "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
       "published": "Tue, 27 Oct 2026 18:55:35 +0000",
       "summary": "Disruptive has launched a $10B fund to invest heavily in at least 10 companies, including Groq and ElevenLabs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1191380440.jpg?resize=1200,800",
       "whyItMatters": "Tech leaders should watch as this fund could reshape AI and chip landscapes."
     },
     {
@@ -227,15 +383,6 @@
       "summary": "AI tools now let users specify desired protein characteristics for design.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg",
       "whyItMatters": "Enables rapid, tailored protein creation for biotech and research."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
-      "link": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
-      "published": "Tue, 27 Oct 2026 18:20:28 +0000",
-      "summary": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
-      "image": "https://media.wired.com/photos/6ae0a917b092bac6ae652e82/master/pass/102626_Anthropic%20Gas%20S1.jpg"
     },
     {
       "source": "NASA",
@@ -279,54 +426,6 @@
       "readMinutes": 3
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "VisionQuest is what happens when AI really goes rogue",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
-      "published": "2026-10-27T17:30:00.000Z",
-      "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply…",
-      "excerpt": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come to dominate the conversation about real-world generative artificial intelligence, exploring whether we should look at…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/107-90190_RC.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "EU privacy advocates accuse US data annotation firm of snooping on contractors",
-      "link": "https://www.theregister.com/legal/2026/10/27/eu-privacy-advocates-accuse-us-data-annotation-firm-of-snooping-on-contractors/5305757",
-      "published": "Tue, 27 Oct 2026 17:29:00 +0000",
-      "summary": "Noyb files five complaints in four member states over alleged tracking of workers on Scale AI's Outlier platform",
-      "image": "https://image.theregister.com/?imageId=5305785&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-      "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
-      "published": "Tue, 27 Oct 2026 17:08:08 +0000",
-      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The Super Mouse puts a touchscreen macro pad under your hand",
-      "link": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
-      "published": "2026-10-27T17:00:00.000Z",
-      "summary": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact touchscreen sitting beneath your hand. The Super Mouse may…",
-      "excerpt": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact touchscreen sitting beneath your hand. The Super Mouse may not prioritize ergonomics with its boxy design, but it can replace other peripherals on your desk, like a trackpad, macro pad, or streaming controller. If you're faster at typing on…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/supermouse1.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "ZacOS 9 and Mavernix: Two classic Apple desktops find their Wayland to Linux",
-      "link": "https://www.theregister.com/os-platforms/2026/10/27/zacos-9-and-mavernix-two-classic-apple-desktops-find-their-wayland-to-linux/5305710",
-      "published": "Tue, 27 Oct 2026 17:00:00 +0000",
-      "summary": "Classic Platinum or lickable Mavericks-era Aqua – it's your choice",
-      "image": "https://image.theregister.com/?imageId=5305716&width=800",
-      "readMinutes": 4
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
@@ -334,26 +433,6 @@
       "published": "Tue, 27 Oct 2026 16:34:31 +0000",
       "summary": "What's $3 billion to a trillion-dollar company?",
       "image": "https://cdn.mos.cms.futurecdn.net/2W3UP8hvAdpRFHhXqoLnk6-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Vote for the scariest game of all time: Round 1",
-      "link": "https://www.pcgamer.com/games/horror/vote-for-the-scariest-game-of-all-time-round-1/",
-      "published": "Tue, 27 Oct 2026 16:28:58 +0000",
-      "summary": "Help whittle down a 16-game bracket to crown 'the scariest game on PC.'",
-      "image": "https://cdn.mos.cms.futurecdn.net/6jW75fauPxxgd9yjidAwgk-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
-      "published": "Tue, 27 Oct 2026 16:15:00 +0000",
-      "summary": "University hospitals once again accepting patients after initial ambulance diversion, but recovery to continue in phases",
-      "image": "https://image.theregister.com/?imageId=5238831&width=800",
       "readMinutes": 2
     },
     {
@@ -368,16 +447,6 @@
       "readMinutes": 5
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
-      "published": "2026-10-27T16:14:18.000Z",
-      "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your…",
-      "excerpt": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into a job application. You can try out this feature by clicking into a form with at least four text fields. From there…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/firefox-fill.png?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
@@ -385,35 +454,6 @@
       "published": "Tue, 27 Oct 2026 16:00:22 +0000",
       "summary": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Phantom Blade Zero unlocks this week, but you've still got time to grab one of these six PC controllers starting at just $25",
-      "link": "https://www.pcgamer.com/hardware/controllers/phantom-blade-zero-unlocks-this-week-but-youve-still-got-time-to-grab-one-of-these-six-pc-controllers-starting-at-just-usd25/",
-      "published": "Tue, 27 Oct 2026 15:17:38 +0000",
-      "summary": "Less than 66 days, I grant you.",
-      "image": "https://cdn.mos.cms.futurecdn.net/UKnCKjjedpc7vrFzAzsCwU-1920-80.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
-      "link": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-      "published": "Tue, 27 Oct 2026 15:10:26 +0000",
-      "summary": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use.",
-      "image": "https://media.wired.com/photos/6ada70c6eb086323489423af/master/pass/GettyImages-2275955534.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "CISA confirms PHP2Shell under attack as researchers clock successful exploits",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/27/cisa-confirms-php2shell-under-attack-as-researchers-clock-successful-exploits/5305681",
-      "published": "Tue, 27 Oct 2026 14:45:00 +0000",
-      "summary": "CISA reports PHP2Shell exploited, confirming critical PHP flaws now active, giving attackers working shells.",
-      "image": "https://image.theregister.com/?imageId=5305685&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech readers should monitor PHP security patches to protect vulnerable web applications."
     },
     {
       "source": "Tom's Hardware",
@@ -428,69 +468,6 @@
       "whyItMatters": "Higher packaging costs could squeeze margins for AI chip makers and affect supply chain pricing."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "A whopping 3% of boardroom execs spy productivity and costs savings from AI",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/27/a-whopping-3-of-boardroom-execs-spy-productivity-and-costs-savings-from-ai/5305675",
-      "published": "Tue, 27 Oct 2026 14:00:00 +0000",
-      "summary": "The article reports that 3% of boardroom executives are using AI to monitor productivity and cost savings, with spending exceeding expectations and projected to rise by 2027.",
-      "image": "https://image.theregister.com/?imageId=5305717&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech leaders should track AI adoption trends to benchmark investment and ROI in corporate efficiency."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Police are reportedly pulling motorists over because AI algorithms deem their driving patterns 'suspicious'",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/police-reportedly-pulling-motorists-over-because-ai-algorithms-deem-their-driving-patterns-suspicious-rights-group-report-warns-ai-surveillance-systems-will-sweep-in-more-innocent-people-than-wrongdoers",
-      "published": "Tue, 27 Oct 2026 13:53:32 +0000",
-      "summary": "Police use AI to analyze license‑plate data, flagging drivers with suspicious travel patterns for stops.",
-      "excerpt": "An ACLU report claims police are increasingly using AI to analyze license plate-reader data and flag motorists based on travel patterns, raising concerns that innocent drivers could be pulled over because an algorithm deemed their movements suspicious.",
-      "image": "https://cdn.mos.cms.futurecdn.net/nmQ5uiPB4aYsNPFK5tATUE-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Tech‑savvy readers should watch for privacy, bias, and accountability in law‑enforcement AI."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Walmart slashes $750 off this MSI RTX 5060 gaming laptop",
-      "link": "https://www.tomshardware.com/laptops/gaming-laptops/walmart-slashes-usd750-off-this-msi-gaming-laptop-16-inch-crosshair-sports-an-rtx-5060-gpu-and-a-fast-240hz-qhd-display",
-      "published": "Tue, 27 Oct 2026 13:47:15 +0000",
-      "summary": "Walmart offers a $750 discount on MSI's Crosshair RTX 5060 gaming laptop, featuring RTX 5060 graphics and a 240Hz IPS display.",
-      "image": "https://cdn.mos.cms.futurecdn.net/FpRzTHfofYi9j3tSG6ts23-1920-80.jpg",
-      "readMinutes": 1,
-      "whyItMatters": "Tech-savvy readers can get high-end gaming performance at a significantly reduced price."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
-      "link": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
-      "published": "Tue, 27 Oct 2026 13:29:41 +0000",
-      "summary": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a victim of the abuse herself.",
-      "image": "https://media.wired.com/photos/6ae0a01a6cfc0bdcb738ab7a/master/pass/Big-Interview-UV-Solo-Illo-1027.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Apple adds M6 to 14-inch MacBook Pro and iMac",
-      "link": "https://www.tomshardware.com/laptops/macbooks/apple-adds-m6-to-14-inch-macbook-pro-and-imac-starts-at-usd1-999",
-      "published": "Tue, 27 Oct 2026 13:28:23 +0000",
-      "summary": "Apple updated its 14-inch MacBook Pro and iMac lineup with the M6 chip.",
-      "image": "https://cdn.mos.cms.futurecdn.net/pnmCABph9HyG5zPEc6vuJ4-1920-80.jpg",
-      "readMinutes": 1
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Hacker awarded $50k bounty for reporting bug to Sony that allowed PS5 Linux exploit",
-      "link": "https://www.tomshardware.com/video-games/playstation/hacker-awarded-usd50k-bounty-for-reporting-bug-to-sony-that-allowed-ps5-linux-exploit-move-sparks-backlash-from-jailbreaking-community",
-      "published": "Tue, 27 Oct 2026 13:22:04 +0000",
-      "summary": "The hypervisor bug that allowed PS5 users to install Linux on their consoles was patched before the launch of GTA VI, meaning they have to choose between experimenting with Linux and running the game.",
-      "image": "https://cdn.mos.cms.futurecdn.net/tg95hzQEgMNoJTJZHb5oXU-1920-80.png",
-      "readMinutes": 3
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "I Used AI to Fake a Scientific Paper. Here’s What Happened",
@@ -500,16 +477,6 @@
       "excerpt": "Science has a spam problem. And the spam filter is getting clogged up. According to all reports, academic publishing is drowning in what has come to be called AI slop: low-quality, mass-produced content generated with AI. By 2025, an estimated 57 percent of all published academic articles exhibited detectable evidence of large language model (LLM) influence, a massive jump from 12 percent in 2023. What’s more, over…",
       "image": "https://spectrum.ieee.org/media-library/man-in-glasses-at-night-his-face-reflected-in-a-window-beside-him.jpg?id=68515605&width=980",
       "readMinutes": 16
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Roblox accused of downloading 145GB of 3D assets, including adult content, for AI training purposes during scraping spree",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/open3dlab-accuses-roblox-of-downloading-145gb-of-3d-assets-for-ai-training-purposes-automated-crawler-ignored-site-rules-to-grab-over-1-000-files-including-adult-content-during-scraping-spree",
-      "published": "Tue, 27 Oct 2026 12:26:13 +0000",
-      "summary": "Independent 3D modeling community Open3DLab has publicly claimed that a web crawler, attributed to Roblox, downloaded 145.5GB of its data, for what it assumes is for AI training purposes.",
-      "image": "https://cdn.mos.cms.futurecdn.net/hm2ghEjyyxN6e5TEJiA8hf-1920-80.jpg",
-      "readMinutes": 3
     },
     {
       "source": "MIT Technology Review",
@@ -530,34 +497,6 @@
       "published": "Tue, 27 Oct 2026 12:00:00 +0000",
       "summary": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The…",
       "excerpt": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The post Craft Prospect kicks off PERSEUS project to advance optical communications for space appeared first on SpaceNews."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Intel's APX offers 'better performance' in Windows 11 according to new Insider setting",
-      "link": "https://www.tomshardware.com/software/windows/intels-apx-offers-better-performance-in-windows-11-according-to-new-insider-setting-microsoft-begins-early-enablement-for-advanced-performance-extensions-on-nova-lake-cpus",
-      "published": "Tue, 27 Oct 2026 11:30:00 +0000",
-      "summary": "Microsoft has begun testing the option to enable Intel's Advanced Performance Extensions, or APX, which will bring a performance boost to some apps — although no chips with APX support are available as yet.",
-      "image": "https://cdn.mos.cms.futurecdn.net/35VQkXsW8WPQ29LfnDrSZS-1920-80.png",
-      "readMinutes": 2
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "AI Agents Are Media’s New Favorite Audience",
-      "link": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
-      "published": "Tue, 27 Oct 2026 11:00:00 +0000",
-      "summary": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
-      "image": "https://media.wired.com/photos/6adfd6269b54dbfcc0225ffd/master/pass/business_ai_agents_media_audience.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "NASA’s Oldest Martian Spacecraft Have Been Running for Decades. Here’s How",
-      "link": "https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/",
-      "published": "Tue, 27 Oct 2026 10:45:00 +0000",
-      "summary": "Two orbiters have long outlasted their expected lifespans and completely reshaped our understanding of the Red Planet, all while operating 140 million miles from Earth.",
-      "image": "https://media.wired.com/photos/6adf16c7cec2deb872010799/master/pass/PIA04816~large.jpg"
     },
     {
       "source": "MIT Technology Review",
@@ -616,16 +555,6 @@
       "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26780/PIA26780.jpg?w=1024&h=1536&fit=clip&crop=faces%2Cfocalpoint"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "Solar Cells Inspected on NASA’s NEO Surveyor",
-      "link": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
-      "published": "Mon, 26 Oct 2026 20:52:24 +0000",
-      "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder, Colorado, in late July. Built by Applied Aerospace in Stockton, California…",
-      "excerpt": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder, Colorado, in late July. Built by Applied Aerospace in Stockton, California, the sunshade structure was outfitted with its solar cells by SolAero Technologies in Albuquerque, New Mexico, in January. Environmental […]",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26715/PIA26715.jpg?w=1536&h=1024&fit=clip&crop=faces%2Cfocalpoint"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
@@ -633,17 +562,6 @@
       "published": "Mon, 26 Oct 2026 20:00:00 +0000",
       "summary": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space…",
       "excerpt": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space Establishes French Subsidiary to Strengthen European Presence appeared first on SpaceNews."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
-      "link": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
-      "published": "Mon, 26 Oct 2026 19:28:08 +0000",
-      "summary": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for Space Research places high school students on small, mission-focused research…",
-      "excerpt": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for Space Research places high school students on small, mission-focused research teams mentored by NASA, academic, and industry experts. During summer 2026, the SEES Mission Architecture Tool for Research, Integration, and eXploration (MATRIX) team […]",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/learn/science-activation-stories/2026/10.09.26_SEES_Highlight.jpg?w=955&h=637&fit=clip&crop=faces%2Cfocalpoint",
-      "readMinutes": 5
     },
     {
       "source": "IEEE Spectrum",
@@ -906,7 +824,6 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -959,7 +876,6 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
@@ -1032,7 +948,6 @@
       "published": "Mon, 12 Oct 2026 17:43:59 +0000",
       "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The…",
       "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
       "readMinutes": 4
     },
     {
