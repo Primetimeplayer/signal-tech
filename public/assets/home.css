@@ -8766,3 +8766,20 @@ main .grid,
 #feed .source-line .source-extra + .source-extra::before {
   content: "· ";
 }
+
+/* Intro copy under the hero signup: a short, plain paragraph so the page has
+   real body text for search and for first-time visitors. */
+.home-intro { padding: 14px 0 4px; }
+.home-intro-inner { max-width: 1200px; }
+.home-intro p {
+  margin: 0;
+  max-width: 92ch;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+:root[data-theme="dark"] .home-intro p { color: #bdc1c6; }
+@media (max-width: 800px) {
+  .home-intro { padding: 12px 0 2px; }
+  .home-intro p { font-size: 14px; line-height: 1.55; }
+}
