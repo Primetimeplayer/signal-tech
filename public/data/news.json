@@ -1,7 +1,182 @@
 {
-  "updated": "2026-10-28T20:08:47.301Z",
-  "count": 96,
+  "updated": "2026-10-29T00:40:46.671Z",
+  "count": 108,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "published": "2026-10-28T23:05:39.000Z",
+      "summary": "Instagram CEO Adam Mosseri says public negativity toward AI is increasing, not just among youth or creatives.",
+      "excerpt": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and long-form video for Instagram, Mosseri said he thinks there's a trend of \"more anxiety and more…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2239561028.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It signals growing public anxiety that could impact AI adoption and platform policy decisions."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "ULA's Vulcan rocket is set to return to flight on Friday the 13th",
+      "link": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
+      "published": "Wed, 28 Oct 2026 22:51:15 +0000",
+      "summary": "Vulcan rocket returns flight Friday the 13th, deploying a full set of six solid rocket boosters.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/55617683176_c8f6425b60_o-1152x648-1793207864.jpg",
+      "whyItMatters": "Highlights ULA’s booster integration progress, boosting launch reliability and confidence in future missions."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Apple’s touchscreen MacBook Pro pushes laptop pricing to a new extreme",
+      "link": "https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/",
+      "published": "Wed, 28 Oct 2026 22:47:50 +0000",
+      "summary": "Apple’s new touchscreen MacBook Pro can cost up to $14,549 with all upgrades.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-MacBook-Pro-with-PROLED-XDR-Display-lifestyle-travel-261028_big.jpg.large_2x.jpg?w=1200",
+      "whyItMatters": "High price signals premium features, affecting budget decisions for professionals and tech enthusiasts."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "A hacker stole more than 40,000 DHS employee records",
+      "link": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak",
+      "published": "2026-10-28T21:57:45.000Z",
+      "summary": "A hacker stole personal data of over 41,000 DHS employees, revealing names, titles, contact info, and office locations.",
+      "excerpt": "A hacker stole a trove of personal information from the Department of Homeland Security (DHS). The breach exposes the names, job titles, phone numbers, email addresses, and office locations of more than 41,000 employees, including those in US Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP), according to TechCrunch and Wired. The data also linked the agencies to specific surveillance…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2200388904.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It exposes sensitive personnel details, raising security and privacy concerns for federal employees."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "published": "Wed, 28 Oct 2026 21:48:37 +0000",
+      "summary": "Google is rolling out AI-powered search ads worldwide, aiming to boost ad revenue as overall growth slows.",
+      "whyItMatters": "Tech readers should note this shift could reshape search advertising dynamics and impact competition."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "published": "Wed, 28 Oct 2026 21:34:30 +0000",
+      "summary": "Microsoft earned $10 billion from OpenAI deals, including revenue‑sharing, in Q3 2024.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2153474575.jpg?resize=1200,800",
+      "whyItMatters": "Shows the deep financial tie between Microsoft and OpenAI, impacting AI market dynamics."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "link": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "published": "2026-10-28T21:34:04.000Z",
+      "summary": "Akai is releasing an MPC Sample Key with open-source firmware, allowing modders to create custom firmware and mods.",
+      "excerpt": "The MPC Sample Key looks like the MPC Sample just with keys instead of pads. | Image: Akai The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmware. It will likely…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Akai-MPC-Sample-Key.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy users can hack and customize the device, expanding its functionality and community-driven innovation."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "published": "Wed, 28 Oct 2026 21:25:30 +0000",
+      "summary": "Microsoft reports its 10th consecutive quarter of record revenue, reaching $92.3 billion, up 19% YoY.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Satya-Nadella.jpg?resize=1200,800",
+      "whyItMatters": "Shows Microsoft’s AI-driven growth, reinforcing its market dominance and investor confidence."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Epic Games chief Tim Sweeney claims 'Valve has held gaming back for years'",
+      "link": "https://www.pcgamer.com/software/platforms/epic-games-chief-tim-sweeney-claims-valve-has-held-gaming-back-for-years/",
+      "published": "Wed, 28 Oct 2026 21:00:20 +0000",
+      "summary": "Epic Games CEO Tim Sweeney criticizes Valve for restricting developers with Steamworks, claiming it hampers innovation.",
+      "image": "https://cdn.mos.cms.futurecdn.net/SWGLSq2JBdYi2GbcGA2LYP-1920-80.jpg",
+      "readMinutes": 3,
+      "whyItMatters": "Developers and gamers may see this as a push toward more open platforms and fairer revenue models."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Please state the nature of the medical emergency: Google is building a robot medic for NASA",
+      "link": "https://www.theregister.com/offbeat/2026/10/28/please-state-the-nature-of-the-medical-emergency-google-is-building-a-robot-medic-for-nasa/5306130",
+      "published": "Wed, 28 Oct 2026 20:44:22 +0000",
+      "summary": "Google is developing a robot medic for NASA, currently in testing, with plans to add hands for physical assistance.",
+      "image": "https://image.theregister.com/?imageId=5240526&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "It could revolutionize medical care in space and inspire new robotics applications on Earth."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw",
+      "link": "https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/",
+      "published": "Wed, 28 Oct 2026 20:30:00 +0000",
+      "summary": "A UEFI firmware flaw lets attackers run code during early boot on most servers.",
+      "image": "https://media.wired.com/photos/6ae24abf56ee4dcb93f11815/master/pass/Untitled-5.gif",
+      "whyItMatters": "It threatens data center security and could compromise critical infrastructure."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Anthropic engineer declares the coding interview dead",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/28/anthropic-engineer-declares-the-coding-interview-dead/5306115",
+      "published": "Wed, 28 Oct 2026 20:22:56 +0000",
+      "summary": "An Anthropic engineer argues that coding interviews are obsolete because AI can easily pass them.",
+      "image": "https://image.theregister.com/?imageId=5306127&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech recruiters should rethink hiring methods as AI challenges traditional interview metrics."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Google says its investments in AI are driving more searches",
+      "link": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
+      "published": "2026-10-28T20:22:26.000Z",
+      "summary": "Google parent company Alphabet says that its AI investments are leading to a big growth in searches year-over-year, as noted in its Q3 2026 earnings today. \"Our AI investments are driving overall Search query growth, including commercial…",
+      "excerpt": "Google parent company Alphabet says that its AI investments are leading to a big growth in searches year-over-year, as noted in its Q3 2026 earnings today. \"Our AI investments are driving overall Search query growth, including commercial queries,\" CEO Sundar Pichai says in a statement. \"In fact, our year-over-year query growth rate is the highest it's been in the last five years.\" Alphabet's consolidated revenues…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951561/VRG_Illo_STK179_L_Normand_SundarPichai_Neutral.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+      "link": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027",
+      "published": "2026-10-28T20:20:00.000Z",
+      "summary": "Microsoft just posted the first quarter of its 2027 fiscal financial results. The software maker made $92.3 billion in revenue and a net income of $33.6 billion during Q1. Revenue is up 19 percent, and net income has increased by 32…",
+      "excerpt": "Microsoft just posted the first quarter of its 2027 fiscal financial results. The software maker made $92.3 billion in revenue and a net income of $33.6 billion during Q1. Revenue is up 19 percent, and net income has increased by 32 percent. It's a new financial year for Microsoft, so the company is changing up how it reports its finances by splitting its businesses into two segments for the first time. Gone are the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK095_MICROSOFT_STOCKS_CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Apple charges $14,549 for a fully specced touchscreen MacBook Pro",
+      "link": "https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced",
+      "published": "2026-10-28T20:12:44.000Z",
+      "summary": "With an OLED display and touchscreen capabilities, it's no surprise that the new MacBook Pro Apple announced today is more expensive than the MBP announced earlier this year. But upgrading the base models that start at $2,899 for the…",
+      "excerpt": "With an OLED display and touchscreen capabilities, it's no surprise that the new MacBook Pro Apple announced today is more expensive than the MBP announced earlier this year. But upgrading the base models that start at $2,899 for the 14-inch, and $3,399 for the 16-inch, with every premium hardware option that Apple offers pushes those prices to an eye-watering $14,249 and $14,549, respectively. Both of those premium…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/mbp2.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "WoW: Forever's update schedule will be 'a little more laid back' than the main MMO",
+      "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-update-schedule-will-be-a-little-more-laid-back-than-the-main-mmo/",
+      "published": "Wed, 28 Oct 2026 20:10:35 +0000",
+      "summary": "Developers say the plan is to release updates a few times a year to match the MMO's classic spirit.",
+      "image": "https://cdn.mos.cms.futurecdn.net/XZ5JSePvRqFfQeiXqg8qL7-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "published": "2026-10-28T20:03:00.000Z",
+      "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis…",
+      "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over Argon, which Google released earlier…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK255_Google_Gemini_A.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -46,6 +221,15 @@
       "whyItMatters": "Tech readers should watch how these bans could reshape global supply chains and product availability."
     },
     {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "The last, best hope for space tourism just rolled onto a runway in Arizona",
+      "link": "https://arstechnica.com/space/2026/10/the-last-best-hope-for-space-tourism-just-rolled-onto-a-runway-in-arizona/",
+      "published": "Wed, 28 Oct 2026 19:20:36 +0000",
+      "summary": "It has been nearly a year since any space tourism flights occurred.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653-1152x648.jpg"
+    },
+    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Anthropic just launched tools to show companies what their AI spending is buying",
@@ -54,6 +238,15 @@
       "summary": "Anthropic released tools that reveal how companies spend on its AI models, ahead of its IPO.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/claude-enterprise-social-smartreports-five-beats-gray200-animated-1080x608-v032.gif?w=1080",
       "whyItMatters": "It offers transparency for investors and users to assess AI cost efficiency."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Touchscreen MacBook Pro hands-on: OLED looks great on a Mac",
+      "link": "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/",
+      "published": "Wed, 28 Oct 2026 19:10:29 +0000",
+      "summary": "It's not as different from the previous model as you might have expected.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/16-inch-MacBook-Pro-lid-closed-1152x648-1793212511.jpg"
     },
     {
       "source": "TechCrunch",
@@ -67,18 +260,6 @@
       "whyItMatters": "Tech leaders must prioritize PHP security to protect millions of sites and avoid costly downtime."
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
-      "link": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
-      "published": "Wed, 28 Oct 2026 18:59:44 +0000",
-      "summary": "NASA’s Artemis III SLS core stage was integrated with its boosters in Kennedy’s Vehicle Assembly Building on Oct. 28.",
-      "excerpt": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed […]",
-      "image": "https://images-assets.nasa.gov/image/KSC-20261022-PH-SNC01_0001/KSC-20261022-PH-SNC01_0001~large.jpg?w=1920&h=1371&fit=clip&crop=faces%2Cfocalpoint",
-      "readMinutes": 2,
-      "whyItMatters": "It marks a key step toward crewed lunar missions, advancing deep‑space launch capability."
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "The New M6 MacBook Pro Has a Serious Price Problem",
@@ -89,15 +270,13 @@
       "whyItMatters": "Tech users may prefer the value of the cheaper Mac Mini or Air over the pricier Pro."
     },
     {
-      "source": "The Verge",
+      "source": "Ars Technica",
       "category": "news",
-      "title": "Microsoft is ending Copilot support on smart TVs",
-      "link": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
-      "published": "2026-10-28T18:36:26.000Z",
-      "summary": "Microsoft is discontinuing Copilot support on LG and Samsung smart TVs announced at CES 2025.",
-      "excerpt": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official announcement from LG, Samsung, or Microsoft, but from an on-screen notification that appeared on Windows Central's Zac…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/copilot.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech users may lose AI assistant features on their smart TVs, impacting future integration and user experience."
+      "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+      "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "published": "Wed, 28 Oct 2026 18:47:27 +0000",
+      "summary": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg"
     },
     {
       "source": "Wired",
@@ -110,39 +289,6 @@
       "whyItMatters": "Shows AI’s current limits and learning curve in sports management, relevant for tech enthusiasts tracking AI performance."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Surprise: The Google Xreal glasses debut at a Meta-beating $1,099",
-      "link": "https://www.theverge.com/tech/1020960/google-xreal-glasses-debut-meta-vr-glasses-price-release-date",
-      "published": "2026-10-28T18:14:11.000Z",
-      "summary": "Google Xreal Aura AR glasses launch at $1,099, cheaper than preorders, featuring a 95‑gram headset and tethered Android XR compute puck with multiple virtual screens.",
-      "excerpt": "In this economy, how often does a product get less expensive before its debut? That just happened with the Google / Xreal Aura, the lightweight 95-gram glasses with a tethered Android XR compute puck and multiple virtual screens that just went on sale today. Xreal and Google have just announced the headset costs $1,099 through the end of the year, down from the $1,279 that Xreal was charging for early preorders last…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/Aura_4_TAS_XR_-Nov-06-2025_113.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Lower price could accelerate AR adoption for developers and early adopters."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Here’s where to preorder the new MacBook Pros",
-      "link": "https://www.theverge.com/gadgets/1019109/apple-macbook-pro-m6-proled-xdr-how-to-buy-price-release-date",
-      "published": "2026-10-28T18:10:23.000Z",
-      "summary": "Apple unveiled 14‑ and 16‑inch MacBook Pros with tandem OLED touch displays, lighter weight, a glowing logo, and an updated M6‑chip model.",
-      "excerpt": "As expected, Apple finally showed off its 14- and 16-inch MacBook Pros at its recent \"Pro and tell\" event. The long-awaited laptops feature a Tandem OLED display with full touch capabilities, while also cutting some weight and bringing back the glowing Apple logo. While less exciting, there's also an updated 14-inch MacBook Pro that features Apple's M6 chip, along with improved wireless connectivity. It's a small…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/MacBook-Pro-M6-2026-preorder-3_5144c7.png?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech users will want the latest performance, display tech, and design updates for productivity and creative work."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
-      "link": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
-      "published": "Wed, 28 Oct 2026 18:00:28 +0000",
-      "summary": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder expected the research to be demanding – but he was surprised that navigating the…",
-      "excerpt": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder expected the research to be demanding – but he was surprised that navigating the financial side of the work presented an even greater challenge. Although Gardner was used to leading fellow students […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/usrc-gardner-ag3-team.jpg?w=2048",
-      "readMinutes": 5
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "Systems Thinking Is Vital in the Age of AI",
@@ -152,16 +298,6 @@
       "excerpt": "Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an artificial intelligence tool to search relevant research and technical standards, generate design options, test them in simulation, and compare the results. The engineer can then bring the results to specialists who understand the parts AI cannot judge on its own, such as whether a…",
       "image": "https://spectrum.ieee.org/media-library/illustration-of-a-robotic-and-a-human-hand-with-different-color-bands-wrapped-around-both-hands.jpg?id=68528703&width=980",
       "readMinutes": 5
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Here’s how macOS is changing for touchscreens",
-      "link": "https://www.theverge.com/tech/1020084/macos-touchscreen-changes",
-      "published": "2026-10-28T17:48:28.000Z",
-      "summary": "Reach out and touch screen. Touchscreen laptops are nothing new in the Windows world, but Apple has only just announced its first MacBook with a touchscreen. Apple isn't rushing to change a bunch of things in macOS to optimize for touch…",
-      "excerpt": "Reach out and touch screen. Touchscreen laptops are nothing new in the Windows world, but Apple has only just announced its first MacBook with a touchscreen. Apple isn't rushing to change a bunch of things in macOS to optimize for touch, though: Most of the touch action will be in the apps themselves, it seems. As far as major macOS changes go, iOS's Dynamic Island will debut on the new MacBook Pro, and Apple touts…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-28-at-10.31.37-AM.png?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "Ars Technica",
@@ -183,16 +319,6 @@
       "readMinutes": 3
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Apple ‘Pro and tell’ event: Everything announced this week",
-      "link": "https://www.theverge.com/tech/1020069/apple-pro-and-tell-event-everything-announced-this-week",
-      "published": "2026-10-28T17:27:38.000Z",
-      "summary": "Apple closed out its week of product announcements with its \"Pro and tell\" event on Wednesday, where it took the wraps off its long-rumored touchscreen MacBook Pro. Though Apple may have saved its biggest and most exciting update for last…",
-      "excerpt": "Apple closed out its week of product announcements with its \"Pro and tell\" event on Wednesday, where it took the wraps off its long-rumored touchscreen MacBook Pro. Though Apple may have saved its biggest and most exciting update for last, it revealed a few other device upgrades and updates in the days leading up to its big reveal. We've rounded them all up here. A MacBook Pro with a touchscreen Apple CEO John…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/app1.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Apple launches its new touchscreen MacBook Pro",
@@ -209,16 +335,6 @@
       "published": "Wed, 28 Oct 2026 17:25:04 +0000",
       "summary": "The OLED display is the main draw, but the price is a lot to reckon with.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/2026-MacBook-Pro-1152x648-1793208150.jpg"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Watch Apple’s reveal video for the touchscreen MacBook Pro",
-      "link": "https://www.theverge.com/tech/1020676/apple-touchscreen-macbook-pro-reveal-video",
-      "published": "2026-10-28T17:19:23.000Z",
-      "summary": "Apple just announced its first touchscreen MacBook at its \"Pro and tell\" event on Wednesday. It showed off the long-awaited touchscreen in a video of the new MacBook Pro during the event that you can watch right here to see the new display…",
-      "excerpt": "Apple just announced its first touchscreen MacBook at its \"Pro and tell\" event on Wednesday. It showed off the long-awaited touchscreen in a video of the new MacBook Pro during the event that you can watch right here to see the new display in action. The new MacBook Pro's PROLED XDR touch display is a tandem OLED panel with up to 2,000 nits of brightness and a 120Hz refresh rate. It features a hole punch for the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/apple-macbook-pro-touch-video-1.png?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "Tom's Hardware",
@@ -265,16 +381,7 @@
       "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
       "published": "Wed, 28 Oct 2026 17:00:00 +0000",
       "summary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/ConnectedAppshero.width-2200.format-webp.webp?resize=1200,675"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
-      "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
-      "published": "Wed, 28 Oct 2026 17:00:00 +0000",
-      "summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/autofill-ai-chrome.jpg?resize=1200,643"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Blog_ConnectedApps_1027_2.width-2200.format-webp.webp?resize=1200,675"
     },
     {
       "source": "The Register",
@@ -306,17 +413,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/Ehzg8jCwdHYg3ndiSqum6G-1920-80.jpg"
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Selects 19 New Citizen Science Proposals in 2026",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
-      "published": "Wed, 28 Oct 2026 16:25:29 +0000",
-      "summary": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible and intrinsically collaborative. The Backyard Worlds: Planet 9 project…",
-      "excerpt": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible and intrinsically collaborative. The Backyard Worlds: Planet 9 project announced that their project volunteers have now discovered most of the known brown dwarfs, celestial objects that are similar to planets. The Zooniverse platform, […]",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/NASA_citizen_science_projects_2026.jpg",
-      "readMinutes": 8
-    },
-    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "GitHub Universe 2026: Evolving every layer of the stack",
@@ -338,24 +434,6 @@
       "readMinutes": 20
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "AI execs may be too out of touch to build for the general public",
-      "link": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
-      "published": "Wed, 28 Oct 2026 15:53:52 +0000",
-      "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1172241499.jpg?resize=1200,728"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Trump DOE loans $5B to nuclear plants that will power data centers",
-      "link": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/",
-      "published": "Wed, 28 Oct 2026 15:53:21 +0000",
-      "summary": "Constellation Energy will get $5 billion in government loans to modernize nuclear reactors. Most of the new capacity is already committed to Google, Amazon, and Meta.",
-      "image": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-129268875.jpg?resize=1200,900"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
@@ -364,25 +442,6 @@
       "summary": "Artem Stryzhak joined both gangs, which targeted businesses and a hospital during the pandemic",
       "image": "https://image.theregister.com/?imageId=226050&width=800",
       "readMinutes": 2
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside",
-      "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-ps5-install-size-is-so-big-you-could-store-3500-copies-of-balatro-inside/",
-      "published": "Wed, 28 Oct 2026 15:52:11 +0000",
-      "summary": "That's a lot of space to ask for in the midst of the memory crisis.",
-      "image": "https://cdn.mos.cms.futurecdn.net/5CzH6eeVgfUqFSuqvAYEfn-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
-      "link": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
-      "published": "Wed, 28 Oct 2026 15:41:18 +0000",
-      "summary": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/05/south-korea-money-growth.jpg?resize=1200,675"
     },
     {
       "source": "Tom's Hardware",
@@ -416,16 +475,6 @@
       "readMinutes": 4
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
-      "link": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-      "published": "Wed, 28 Oct 2026 15:00:00 +0000",
-      "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to…",
-      "excerpt": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/AI-on-the-tongue.png?resize=1200,600"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers",
@@ -435,14 +484,13 @@
       "image": "https://media.wired.com/photos/6ae09646dad85b6a01dd12fd/master/pass/PRISM-Collection_DSonly_3UP_16X6.jpg"
     },
     {
-      "source": "PC Gamer",
+      "source": "SpaceNews",
       "category": "news",
-      "title": "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space",
-      "link": "https://www.pcgamer.com/hardware/memory/elon-musk-says-robot-ram-needs-will-exceed-everything-else-on-earth-but-only-assuming-we-throw-all-the-data-centers-into-space/",
-      "published": "Wed, 28 Oct 2026 14:56:17 +0000",
-      "summary": "Humanoid robots will still consume only a sliver of the RAM AI does.",
-      "image": "https://cdn.mos.cms.futurecdn.net/D9FjQch5XWEdvFGiaWZEPQ-1920-80.jpg",
-      "readMinutes": 2
+      "title": "Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells",
+      "link": "https://spacenews.com/flexell-space-and-satoro-agree-to-collaborate-on-in-orbit-demonstration-of-next-generation-space-solar-cells/",
+      "published": "Wed, 28 Oct 2026 14:43:08 +0000",
+      "summary": "– Two demonstration missions planned aboard SpaceX Falcon 9, one each in 2027 and 2028 – Satoro to provide “Satellite-as-a-service” solution; Flexell Space to supply solar cells and test modules […] The post Flexell Space and Satoro Agree…",
+      "excerpt": "– Two demonstration missions planned aboard SpaceX Falcon 9, one each in 2027 and 2028 – Satoro to provide “Satellite-as-a-service” solution; Flexell Space to supply solar cells and test modules […] The post Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells appeared first on SpaceNews."
     },
     {
       "source": "The Register",
@@ -560,37 +608,6 @@
       "whyItMatters": "Tech readers should watch for AI-enabled threats that can exploit corporate data across borders."
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
-      "link": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
-      "published": "Wed, 28 Oct 2026 11:00:49 +0000",
-      "summary": "US-owned trans-Pacific cables face growing sabotage risks from China, threatening data security.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Trans-Pacific-cables-at-risk-1071x648.jpg",
-      "whyItMatters": "Tech leaders must guard against geopolitical threats to global connectivity."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Open Cosmos steps up Europe's space sovereignty game, shows off ConnectedCosmos satellites",
-      "link": "https://www.theregister.com/networks/2026/10/28/open-cosmos-steps-up-europes-space-sovereignty-game-shows-off-connectedcosmos-satellites/5305479",
-      "published": "Wed, 28 Oct 2026 11:00:00 +0000",
-      "summary": "Open Cosmos showcases its ConnectedCosmos satellites, highlighting a satellite nursery aimed at reducing dependence for European customers.",
-      "image": "https://image.theregister.com/?imageId=5305491&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "It signals growing European autonomy in space tech, appealing to those interested in reducing reliance on foreign launch services."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Pornhub Stars Want to Teach You How to Make Dinner",
-      "link": "https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/",
-      "published": "Wed, 28 Oct 2026 10:45:00 +0000",
-      "summary": "Pornhub is urging creators to diversify into cooking, gaming, and podcasting to avoid censorship and anti-porn laws.",
-      "image": "https://media.wired.com/photos/6adede77dbc6676891653f9d/master/pass/SFW%20pornhub.jpg",
-      "whyItMatters": "It shows how adult platforms adapt, impacting content monetization and platform policy."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
@@ -602,34 +619,13 @@
       "readMinutes": 5
     },
     {
-      "source": "Ars Technica",
+      "source": "SpaceNews",
       "category": "news",
-      "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
-      "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
-      "published": "Tue, 27 Oct 2026 22:37:30 +0000",
-      "summary": "Apple updates the iMac and entry‑level MacBook Pro with the new M6 chip, adding the N1 Wi‑Fi 7 and Bluetooth 6 module.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/M6-iMac-1152x648.jpg",
-      "whyItMatters": "Tech users will benefit from faster wireless connectivity and improved performance in Apple’s mainstream laptops."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
-      "link": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
-      "published": "Tue, 27 Oct 2026 22:04:50 +0000",
-      "summary": "China’s secret spaceplane, designed to carry directed‑energy weapons, cannot remain hidden in low‑Earth orbit, exposing its capabilities to detection.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/shenlong_maxar-1152x648.jpg",
-      "whyItMatters": "It signals growing space militarization, raising concerns about orbital security and surveillance tech."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
-      "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-      "published": "Tue, 27 Oct 2026 21:50:04 +0000",
-      "summary": "Delaware proposes allowing AI agents to manage entire companies, letting owners avoid liability for reckless AI decisions.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-1152x648.jpg",
-      "whyItMatters": "Tech readers should watch Delaware's move, as it could set precedent for AI governance and liability."
+      "title": "Ukrainian startup, GomSpace test satellite for future communications network",
+      "link": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
+      "published": "Tue, 27 Oct 2026 20:21:30 +0000",
+      "summary": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace test satellite for future communications network appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-3.41.11-PM.png?fit=1024%2C588&ssl=1"
     },
     {
       "source": "NASA",
@@ -687,6 +683,15 @@
       "readMinutes": 4
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Craft Prospect kicks off PERSEUS project to advance optical communications for space",
+      "link": "https://spacenews.com/craft-prospect-kicks-off-perseus-project-to-advance-optical-communications-for-space/",
+      "published": "Tue, 27 Oct 2026 12:00:00 +0000",
+      "summary": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The…",
+      "excerpt": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The post Craft Prospect kicks off PERSEUS project to advance optical communications for space appeared first on SpaceNews."
+    },
+    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "How solid-state transformers could help power the AI boom",
@@ -710,6 +715,36 @@
       "whyItMatters": "Shows how mentorship fuels future space talent and inspires tech careers."
     },
     {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
+      "link": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+      "published": "Mon, 26 Oct 2026 22:48:12 +0000",
+      "summary": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a…",
+      "excerpt": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a wind-swept dusty vista today, billions of years ago it was home to a river channel that fed fresh water into […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1536&h=405&fit=clip&crop=faces%2Cfocalpoint"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+      "link": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+      "published": "Mon, 26 Oct 2026 21:07:28 +0000",
+      "summary": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to…",
+      "excerpt": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to penetrate the lungs and enter the bloodstream. The findings will be published Tuesday, Oct. 27, in the Proceedings of […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg?w=2048",
+      "readMinutes": 6
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
+      "link": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
+      "published": "Mon, 26 Oct 2026 20:00:00 +0000",
+      "summary": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space…",
+      "excerpt": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space Establishes French Subsidiary to Strengthen European Presence appeared first on SpaceNews."
+    },
+    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "IEEE Xplore Digital Library Adds AI Assistant",
@@ -729,8 +764,18 @@
       "published": "Mon, 26 Oct 2026 17:45:43 +0000",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document…",
       "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/anthropic-dario1a.jpg?resize=1200,600",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/anthropic-darioB_1.jpg?resize=1200,600",
       "readMinutes": 5
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites",
+      "link": "https://spacenews.com/astranis-upgrades-falcon-9-launch-contract-to-dedicated-mission-for-entire-block-4-production-run-of-satellites/",
+      "published": "Mon, 26 Oct 2026 13:00:00 +0000",
+      "summary": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to…",
+      "excerpt": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/astranis-square.png?fit=1024%2C1014&ssl=1"
     },
     {
       "source": "MIT Technology Review",
@@ -753,6 +798,15 @@
       "excerpt": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600",
       "readMinutes": 4
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Nov. 5: Satellite Mission Management at the Edge",
+      "link": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
+      "published": "Fri, 23 Oct 2026 19:53:25 +0000",
+      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-11-05-RTX-SpaceNews-2000-1500-scaled.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -787,6 +841,16 @@
       "excerpt": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/YCSE_NP_1_1.jpg?resize=1200,600",
       "readMinutes": 5
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
+      "link": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
+      "published": "Thu, 22 Oct 2026 18:13:38 +0000",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with…",
+      "excerpt": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking networks in space with Aalyria’s Brian Barritt appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Aalyria-2000-1500.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -832,6 +896,15 @@
       "readMinutes": 7
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
+      "link": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
+      "published": "Wed, 21 Oct 2026 15:26:29 +0000",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile…",
+      "excerpt": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner appeared first on SpaceNews."
+    },
+    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -841,6 +914,25 @@
       "excerpt": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shutterstock-codeonscreenphp.png",
       "readMinutes": 3
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
+      "link": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
+      "published": "Wed, 21 Oct 2026 15:00:22 +0000",
+      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to…",
+      "excerpt": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Services Revenues to Reach $145 Billion by 2035 appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1"
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
+      "link": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
+      "published": "Wed, 21 Oct 2026 14:29:57 +0000",
+      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…",
+      "excerpt": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller appeared first on SpaceNews."
     },
     {
       "source": "IEEE Spectrum",
@@ -854,6 +946,16 @@
       "readMinutes": 5
     },
     {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "Summer of Quantum: Building momentum for space-based QKD",
+      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
+      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
+      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
+      "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
+    },
+    {
       "source": "GitHub Blog",
       "category": "news",
       "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
@@ -862,6 +964,16 @@
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first…",
       "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog.",
       "readMinutes": 16
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
+      "link": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
+      "published": "Tue, 20 Oct 2026 13:00:00 +0000",
+      "summary": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural…",
+      "excerpt": "LOS ANGELES — October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital’s inaugural […] The post AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions appeared first on SpaceNews.",
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/AnySignal_GoogleBusinessProfile.png?fit=720%2C720&ssl=1"
     },
     {
       "source": "GitHub Blog",
