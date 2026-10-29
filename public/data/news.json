@@ -1,7 +1,117 @@
 {
-  "updated": "2026-10-29T00:40:46.671Z",
-  "count": 108,
+  "updated": "2026-10-29T09:38:32.816Z",
+  "count": 100,
   "items": [
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Liquid Glass Finally Makes Sense on the iPhone Duo",
+      "link": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
+      "published": "Thu, 29 Oct 2026 09:30:00 +0000",
+      "summary": "Liquid Glass’s redesign now aligns with the new iPhone Duo’s features, making the concept more coherent.",
+      "image": "https://media.wired.com/photos/6ad79403fc73d5bd28140aac/master/pass/DSC_9897.jpg",
+      "whyItMatters": "It shows how design changes can improve usability on next-gen devices."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Matrix takes sovereign messaging into the realm of the tech giants",
+      "link": "https://www.theregister.com/software/2026/10/29/matrix-takes-sovereign-messaging-into-the-realm-of-the-tech-giants/5305915",
+      "published": "Thu, 29 Oct 2026 09:30:00 +0000",
+      "summary": "Matrix explores how sovereign messaging is now dominated by major tech companies.",
+      "image": "https://image.theregister.com/?imageId=263174&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech-savvy readers should note the shift in control over global communication platforms."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Admin dropped the F-bomb in a password to show hackers who was really 1337",
+      "link": "https://www.theregister.com/security/2026/10/29/admin-dropped-the-f-bomb-in-a-password-to-show-hackers-who-was-really-1337/5306139",
+      "published": "Thu, 29 Oct 2026 09:00:00 +0000",
+      "summary": "An admin inserted profanity into a password to deter hackers, but weak overall security undermines the effort.",
+      "image": "https://image.theregister.com/?imageId=5280606&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech readers see how flashy tricks fail without solid defenses."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "HPE puts storage to work on AI’s expensive memory problem",
+      "link": "https://www.theregister.com/storage/2026/10/29/partner-content-hpe-puts-storage-to-work-on-ais-expensive-memory-problem/5305793",
+      "published": "Thu, 29 Oct 2026 09:00:00 +0000",
+      "summary": "HPE's Alletra MP X10000 cache offload speeds AI memory access up to 20×, reducing expensive memory latency.",
+      "image": "https://image.theregister.com/?imageId=5305790&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech-savvy readers see faster token generation and lower costs for AI workloads."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Google's Gemini 4 Carbon looks like a diamond in the rough",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/29/googles-gemini-4-carbon-looks-like-a-diamond-in-the-rough/5306149",
+      "published": "Thu, 29 Oct 2026 05:29:00 +0000",
+      "summary": "Google’s Gemini 4 offers a cost‑effective AI model that competes with Claude, positioning it ahead of Anthropic’s upcoming IPO.",
+      "image": "https://image.theregister.com/?imageId=5306177&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should note Gemini 4’s pricing advantage could shift market dynamics and influence AI adoption."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Boffin's software found a possible dwarf planet - a result so rare he thought it must be a bug",
+      "link": "https://www.theregister.com/science/2026/10/29/boffins-software-found-a-possible-dwarf-planet-a-result-so-rare-he-thought-it-must-be-a-bug/5306204",
+      "published": "Thu, 29 Oct 2026 05:06:42 +0000",
+      "summary": "Software identified 2026 ED138, a potential dwarf planet beyond Neptune, possibly the smallest of its kind.",
+      "image": "https://image.theregister.com/?imageId=5306210&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Shows AI’s power in discovering rare celestial bodies, expanding our understanding of the outer solar system."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Tape is so not dead that Fujifilm will increase production capacity 5x",
+      "link": "https://www.theregister.com/storage/2026/10/29/tape-is-so-not-dead-that-fujifilm-will-increase-production-capacity-5x/5306189",
+      "published": "Thu, 29 Oct 2026 03:34:32 +0000",
+      "summary": "Fujifilm plans to increase tape production capacity fivefold.",
+      "image": "https://image.theregister.com/?imageId=5306196&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should note potential supply changes."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+      "link": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+      "published": "Thu, 29 Oct 2026 02:49:59 +0000",
+      "summary": "Reid Wiseman, former Artemis II commander, is appointed Caltech associate VP and deputy director of NASA’s Jet Propulsion Laboratory.",
+      "excerpt": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California. The emeritus astronaut and retired U.S. Navy captain begins his new role at NASA’s center of excellence for robotics and deep space exploration and at Caltech, which manages JPL for NASA, on […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/wiseman-portrait-crop-for-portal.jpg?w=2048",
+      "readMinutes": 4,
+      "whyItMatters": "His leadership will shape JPL’s robotics and deep‑space missions, impacting future space exploration tech."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
+      "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+      "published": "2026-10-29T02:22:46.000Z",
+      "summary": "Anduril and Qualcomm will launch a U.S.-made laptop in 2027, aiming for a fully domestic supply chain.",
+      "excerpt": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a single Made-in-USA laptop would be a surprise, because no major US computer company builds its laptops here - not Apple, not…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/2026-BlueChip-InField-5-Web.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It signals a shift toward domestic tech manufacturing, potentially boosting U.S. supply chain resilience and job creation."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Google struggling to make AI Mode searches pay",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181",
+      "published": "Thu, 29 Oct 2026 01:12:24 +0000",
+      "summary": "Google is facing challenges monetizing its AI Mode search feature despite a $51 billion infrastructure investment.",
+      "image": "https://image.theregister.com/?imageId=5306186&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should watch how AI-driven search monetization impacts cloud economics and competition."
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -45,6 +155,17 @@
       "whyItMatters": "It exposes sensitive personnel details, raising security and privacy concerns for federal employees."
     },
     {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
+      "link": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
+      "published": "Wed, 28 Oct 2026 21:50:01 +0000",
+      "summary": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peaceful, transparent, and responsible exploration of space. “Vietnam is joining at…",
+      "excerpt": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peaceful, transparent, and responsible exploration of space. “Vietnam is joining at an important point in the development of its own space program,” said NASA Deputy Administrator Matt Anderson in recorded remarks […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/artemis-accords-vietnam-78-102826.jpg?w=2048",
+      "readMinutes": 2
+    },
+    {
       "source": "TechCrunch",
       "category": "news",
       "title": "Google expands AI Search ads globally as core ad growth slows",
@@ -85,17 +206,6 @@
       "whyItMatters": "Shows Microsoft’s AI-driven growth, reinforcing its market dominance and investor confidence."
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Epic Games chief Tim Sweeney claims 'Valve has held gaming back for years'",
-      "link": "https://www.pcgamer.com/software/platforms/epic-games-chief-tim-sweeney-claims-valve-has-held-gaming-back-for-years/",
-      "published": "Wed, 28 Oct 2026 21:00:20 +0000",
-      "summary": "Epic Games CEO Tim Sweeney criticizes Valve for restricting developers with Steamworks, claiming it hampers innovation.",
-      "image": "https://cdn.mos.cms.futurecdn.net/SWGLSq2JBdYi2GbcGA2LYP-1920-80.jpg",
-      "readMinutes": 3,
-      "whyItMatters": "Developers and gamers may see this as a push toward more open platforms and fairer revenue models."
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Please state the nature of the medical emergency: Google is building a robot medic for NASA",
@@ -107,14 +217,15 @@
       "whyItMatters": "It could revolutionize medical care in space and inspire new robotics applications on Earth."
     },
     {
-      "source": "Wired",
+      "source": "MIT Technology Review",
       "category": "news",
-      "title": "Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw",
-      "link": "https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/",
-      "published": "Wed, 28 Oct 2026 20:30:00 +0000",
-      "summary": "A UEFI firmware flaw lets attackers run code during early boot on most servers.",
-      "image": "https://media.wired.com/photos/6ae24abf56ee4dcb93f11815/master/pass/Untitled-5.gif",
-      "whyItMatters": "It threatens data center security and could compromise critical infrastructure."
+      "title": "Creating AI value with enterprise context",
+      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "published": "Wed, 28 Oct 2026 20:32:02 +0000",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated…",
+      "excerpt": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?w=840",
+      "readMinutes": 2
     },
     {
       "source": "The Register",
@@ -158,16 +269,6 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/mbp2.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "WoW: Forever's update schedule will be 'a little more laid back' than the main MMO",
-      "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-update-schedule-will-be-a-little-more-laid-back-than-the-main-mmo/",
-      "published": "Wed, 28 Oct 2026 20:10:35 +0000",
-      "summary": "Developers say the plan is to release updates a few times a year to match the MMO's classic spirit.",
-      "image": "https://cdn.mos.cms.futurecdn.net/XZ5JSePvRqFfQeiXqg8qL7-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
@@ -186,16 +287,6 @@
       "summary": "A hacker exposed PII of over 40,000 Homeland Security employees, including CBP and ICE agents, and posted it online.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/dhs-2255143488.jpg?resize=1200,800",
       "whyItMatters": "It highlights severe data security gaps in critical government agencies."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
-      "link": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-      "published": "Wed, 28 Oct 2026 20:00:00 +0000",
-      "summary": "A massive data leak exposed 41,000 Homeland Security workers, revealing ICE/CBP locations, phone numbers, and affiliations with surveillance tech like Palantir and xAI’s Grok.",
-      "image": "https://media.wired.com/photos/6ae126cfb5fdd6fa181bb24f/master/pass/Security_Massive%20Leak%20Exposes%2041,000%20DHS%20Employees_v1.jpg",
-      "whyItMatters": "Tech-savvy readers should know how sensitive security data can be compromised, impacting privacy and national security."
     },
     {
       "source": "The Register",
@@ -260,14 +351,15 @@
       "whyItMatters": "Tech leaders must prioritize PHP security to protect millions of sites and avoid costly downtime."
     },
     {
-      "source": "Wired",
+      "source": "NASA",
       "category": "news",
-      "title": "The New M6 MacBook Pro Has a Serious Price Problem",
-      "link": "https://www.wired.com/story/m6-macbook-pro-price-problem/",
-      "published": "Wed, 28 Oct 2026 18:57:22 +0000",
-      "summary": "Apple's new M6 MacBook Pro is priced at $1,999, making it less attractive compared to cheaper M6 Mac Mini and M5 MacBook Air on sale.",
-      "image": "https://media.wired.com/photos/6ae217bc6d6203230c9f52b5/master/pass/macbook%20pro%20m6%20deals%20post%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "whyItMatters": "Tech users may prefer the value of the cheaper Mac Mini or Air over the pricier Pro."
+      "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
+      "link": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
+      "published": "Wed, 28 Oct 2026 18:59:44 +0000",
+      "summary": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the…",
+      "excerpt": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed […]",
+      "image": "https://images-assets.nasa.gov/image/KSC-20261022-PH-SNC01_0001/KSC-20261022-PH-SNC01_0001~large.jpg?w=1920&h=1371&fit=clip&crop=faces%2Cfocalpoint",
+      "readMinutes": 2
     },
     {
       "source": "Ars Technica",
@@ -279,14 +371,15 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg"
     },
     {
-      "source": "Wired",
+      "source": "NASA",
       "category": "news",
-      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
-      "link": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
-      "published": "Wed, 28 Oct 2026 18:30:00 +0000",
-      "summary": "The author tested AI agents on a fantasy soccer team, noting initial missteps like benching Haaland before learning from mistakes.",
-      "image": "https://media.wired.com/photos/6ae108712ec9b10c531020d9/master/pass/business_ai_predict_future.jpg",
-      "whyItMatters": "Shows AI’s current limits and learning curve in sports management, relevant for tech enthusiasts tracking AI performance."
+      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
+      "link": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
+      "published": "Wed, 28 Oct 2026 18:00:28 +0000",
+      "summary": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder expected the research to be demanding – but he was surprised that navigating the…",
+      "excerpt": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder expected the research to be demanding – but he was surprised that navigating the financial side of the work presented an even greater challenge. Although Gardner was used to leading fellow students […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/usrc-gardner-ag3-team.jpg?w=2048",
+      "readMinutes": 5
     },
     {
       "source": "IEEE Spectrum",
@@ -307,16 +400,6 @@
       "published": "Wed, 28 Oct 2026 17:46:32 +0000",
       "summary": "But the AI responses get more forthright when asked outside the US.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg"
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Valve admits Steam has an AI slop and cloning problem, but says 'we don't want to be gatekeepers telling developers which tools they should or shouldn't use'",
-      "link": "https://www.pcgamer.com/software/ai/valve-admits-steam-has-an-ai-slop-and-cloning-problem-but-says-we-dont-want-to-be-gatekeepers-telling-developers-which-tools-they-should-or-shouldnt-use/",
-      "published": "Wed, 28 Oct 2026 17:37:24 +0000",
-      "summary": "Steam Next Fest is being flooded with thousands of low-effort games, while developers are becoming reluctant to share their work for fear of seeing it quickly cloned.",
-      "image": "https://cdn.mos.cms.futurecdn.net/UoEzWoavREo9zwpFLKCqC-1920-80.jpg",
-      "readMinutes": 3
     },
     {
       "source": "TechCrunch",
@@ -345,15 +428,6 @@
       "summary": "The computer is also lighter and has an updated speaker system.",
       "image": "https://cdn.mos.cms.futurecdn.net/WXCqswHi5MR2yap3SDA9Kf-1920-80.jpg",
       "readMinutes": 2
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "The Inside Story of Why Apple Finally Brought a Touch Display to the Mac",
-      "link": "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
-      "published": "Wed, 28 Oct 2026 17:15:16 +0000",
-      "summary": "An exclusive early look at Apple’s new touchscreen MacBook Pro—the computer Apple said would never happen.",
-      "image": "https://media.wired.com/photos/6ae20ca456ee4dcb93f11044/master/pass/1027_AppleNF_Illustration_v1.jpg"
     },
     {
       "source": "Tom's Hardware",
@@ -404,13 +478,15 @@
       "readMinutes": 2
     },
     {
-      "source": "PC Gamer",
+      "source": "NASA",
       "category": "news",
-      "title": "Vote now: 8 games remain in our scariest games bracket",
-      "link": "https://www.pcgamer.com/games/horror/vote-now-8-games-remain-in-our-scariest-games-bracket/",
-      "published": "Wed, 28 Oct 2026 16:28:03 +0000",
-      "summary": "Help us determine which game is the scariest game on PC in round 2 of our Halloween tournament.",
-      "image": "https://cdn.mos.cms.futurecdn.net/Ehzg8jCwdHYg3ndiSqum6G-1920-80.jpg"
+      "title": "NASA Selects 19 New Citizen Science Proposals in 2026",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
+      "published": "Wed, 28 Oct 2026 16:25:29 +0000",
+      "summary": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible and intrinsically collaborative. The Backyard Worlds: Planet 9 project…",
+      "excerpt": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible and intrinsically collaborative. The Backyard Worlds: Planet 9 project announced that their project volunteers have now discovered most of the known brown dwarfs, celestial objects that are similar to planets. The Zooniverse platform, […]",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/NASA_citizen_science_projects_2026.jpg",
+      "readMinutes": 8
     },
     {
       "source": "GitHub Blog",
@@ -434,16 +510,6 @@
       "readMinutes": 20
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
-      "published": "Wed, 28 Oct 2026 15:52:17 +0000",
-      "summary": "Artem Stryzhak joined both gangs, which targeted businesses and a hospital during the pandemic",
-      "image": "https://image.theregister.com/?imageId=226050&width=800",
-      "readMinutes": 2
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "AI component hikes force the world's largest PC makers to return manufacturing capacity to China",
@@ -465,25 +531,6 @@
       "readMinutes": 3
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "How Google fumbled the frontend with Angular 2",
-      "link": "https://www.theregister.com/devops/2026/10/28/how-google-fumbled-the-frontend-with-angular-2/5306030",
-      "published": "Wed, 28 Oct 2026 15:11:46 +0000",
-      "summary": "All Things Open Talk provided lessons in how not to upgrade a software package",
-      "image": "https://image.theregister.com/?imageId=5306054&width=800",
-      "readMinutes": 4
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers",
-      "link": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
-      "published": "Wed, 28 Oct 2026 15:00:00 +0000",
-      "summary": "Sony has new, spiffy see-through controllers and covers for its PlayStation 5 that let you see the hardware guts inside.",
-      "image": "https://media.wired.com/photos/6ae09646dad85b6a01dd12fd/master/pass/PRISM-Collection_DSonly_3UP_16X6.jpg"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells",
@@ -491,16 +538,6 @@
       "published": "Wed, 28 Oct 2026 14:43:08 +0000",
       "summary": "– Two demonstration missions planned aboard SpaceX Falcon 9, one each in 2027 and 2028 – Satoro to provide “Satellite-as-a-service” solution; Flexell Space to supply solar cells and test modules […] The post Flexell Space and Satoro Agree…",
       "excerpt": "– Two demonstration missions planned aboard SpaceX Falcon 9, one each in 2027 and 2028 – Satoro to provide “Satellite-as-a-service” solution; Flexell Space to supply solar cells and test modules […] The post Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells appeared first on SpaceNews."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "China's spaceplane bears striking resemblance to America's X-37B",
-      "link": "https://www.theregister.com/offbeat/2026/10/28/chinas-spaceplane-bears-striking-resemblance-to-americas-x-37b/5305983",
-      "published": "Wed, 28 Oct 2026 13:15:00 +0000",
-      "summary": "Defense Intelligence Agency space report includes a rare orbital snap of the Chinese craft, and it looks rather familiar",
-      "image": "https://image.theregister.com/?imageId=4094139&width=800",
-      "readMinutes": 2
     },
     {
       "source": "Tom's Hardware",
@@ -524,16 +561,6 @@
       "readMinutes": 16
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Intel gets tax breaks while local authorities lose revenue, claims policy org",
-      "link": "https://www.theregister.com/systems/2026/10/28/intel-gets-tax-breaks-while-local-authorities-lose-revenue-claims-policy-org/5305902",
-      "published": "Wed, 28 Oct 2026 12:45:00 +0000",
-      "summary": "Report accuses corp of getting subsidies for its fabs from Oregon and New Mexico that deprive those states of vital funds",
-      "image": "https://image.theregister.com/?imageId=262320&width=800",
-      "readMinutes": 3
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: dead startups fueling AI and interspecies communication",
@@ -543,27 +570,6 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data was worth much. But he’s…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/04/20240926__DSC7922_PA.jpg?fit=3840,2560",
       "readMinutes": 4
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Amazon Adds an Alexa Photo Frame and a Bedside Clock to Its Echo Family",
-      "link": "https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/",
-      "published": "Wed, 28 Oct 2026 12:01:00 +0000",
-      "summary": "Amazon launches Echo Studio with a built‑in camera and Echo Show 16 featuring an AI‑generated Alexa interface.",
-      "image": "https://media.wired.com/photos/6ae097bb45acc693d52eb8ba/master/pass/New%20Amazon%202026%20Echo%20Speakers%20SOURCE%20Julian%20Chokkattu.jpg.jpg",
-      "whyItMatters": "Tech readers will note the new camera for privacy and the AI UI’s potential to enhance smart‑home interactions."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Cisco open sources tool for detecting AI agents on hacking sprees",
-      "link": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
-      "published": "Wed, 28 Oct 2026 12:00:00 +0000",
-      "summary": "Cisco released an open‑source tool called Project Quarry to detect AI agents used in cyber attacks, offering a common framework for assessing their behavior.",
-      "image": "https://image.theregister.com/?imageId=5259466&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "Tech leaders need to understand AI‑driven threats to safeguard networks and improve incident response."
     },
     {
       "source": "MIT Technology Review",
@@ -597,17 +603,6 @@
       "whyItMatters": "Tech buyers may rely on Palit for GPUs; factory status affects supply."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
-      "published": "Wed, 28 Oct 2026 11:45:00 +0000",
-      "summary": "123 Reg claims an AI-driven cyberattack targeted customer data, linking the attackers to those behind the ARTEX breach of South Korean banks.",
-      "image": "https://image.theregister.com/?imageId=242423&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech readers should watch for AI-enabled threats that can exploit corporate data across borders."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
@@ -626,28 +621,6 @@
       "published": "Tue, 27 Oct 2026 20:21:30 +0000",
       "summary": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace test satellite for future communications network appeared first on SpaceNews.",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-3.41.11-PM.png?fit=1024%2C588&ssl=1"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
-      "published": "Tue, 27 Oct 2026 19:27:22 +0000",
-      "summary": "Four volunteers completed a 378‑day Mars simulation at NASA’s Johnson Space Center, exiting after a year of isolation.",
-      "excerpt": "The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center in Houston. Health and performance data collected from the simulation can help NASA develop methods […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/chapeamission2.jpg?w=2048",
-      "readMinutes": 2,
-      "whyItMatters": "Insights from the simulation inform future Mars mission planning and crew health strategies."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Neo Surveyor Sunshade",
-      "link": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
-      "published": "Tue, 27 Oct 2026 17:58:57 +0000",
-      "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its…",
-      "excerpt": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base, will keep the infrared space telescope cool as it searches for near-Earth asteroids and […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg?w=2048"
     },
     {
       "source": "IEEE Spectrum",
@@ -701,39 +674,6 @@
       "excerpt": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade. As the world races to meet rising electricity demand from…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_digitaltransformers.jpg?resize=1200,600",
       "readMinutes": 7
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
-      "link": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
-      "published": "Tue, 27 Oct 2026 07:07:51 +0000",
-      "summary": "A NASA engineer mentors students, encouraging them to prioritize learning despite his busy schedule.",
-      "excerpt": "When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation & Control (GN&C) engineer at NASA’s Johnson Space Center, whether he had time to keep teaching interns with his busy workload, he answered, “You decide what’s important.” In honor of National Mentoring Day on Oct. 27, Bhardwaj reflects on how Cohen’s […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/image.jpg?w=1536",
-      "readMinutes": 3,
-      "whyItMatters": "Shows how mentorship fuels future space talent and inspires tech careers."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
-      "link": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
-      "published": "Mon, 26 Oct 2026 22:48:12 +0000",
-      "summary": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a…",
-      "excerpt": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a wind-swept dusty vista today, billions of years ago it was home to a river channel that fed fresh water into […]",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1536&h=405&fit=clip&crop=faces%2Cfocalpoint"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
-      "link": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
-      "published": "Mon, 26 Oct 2026 21:07:28 +0000",
-      "summary": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to…",
-      "excerpt": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to penetrate the lungs and enter the bloodstream. The findings will be published Tuesday, Oct. 27, in the Proceedings of […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg?w=2048",
-      "readMinutes": 6
     },
     {
       "source": "SpaceNews",
@@ -806,7 +746,7 @@
       "link": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
       "published": "Fri, 23 Oct 2026 19:53:25 +0000",
       "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-11-05-RTX-SpaceNews-2000-1500-scaled.jpg?fit=1024%2C768&ssl=1"
+      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/2026-11-05-RTX-SpaceNews-2000-1500-update-scaled.jpg?fit=1024%2C768&ssl=1"
     },
     {
       "source": "IEEE Spectrum",
@@ -830,17 +770,6 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2023/06/SoundofDataFinal1f-thumb.jpeg?w=840",
       "readMinutes": 4
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "In the biotech world, you can’t see everything",
-      "link": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
-      "published": "Fri, 23 Oct 2026 09:00:00 +0000",
-      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving…",
-      "excerpt": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/YCSE_NP_1_1.jpg?resize=1200,600",
-      "readMinutes": 5
     },
     {
       "source": "SpaceNews",
@@ -893,6 +822,7 @@
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
     },
     {
