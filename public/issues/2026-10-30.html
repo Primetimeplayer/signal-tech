@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>GitHub bets big on AI agents — Signal Tech #3</title>
+<meta name="description" content="Signal Tech newsletter #3: GitHub rebuilds itself around AI agents. GitHub launched a new Copilot app where AI agents do the work across your…">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/issues/2026-10-30">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="GitHub bets big on AI agents — Signal Tech #3">
+<meta property="og:description" content="Signal Tech newsletter #3: GitHub rebuilds itself around AI agents. GitHub launched a new Copilot app where AI agents do the work across your…">
+<meta property="og:url" content="https://signaltechnews.com/issues/2026-10-30">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="GitHub bets big on AI agents — Signal Tech #3">
+<meta name="twitter:description" content="Signal Tech newsletter #3: GitHub rebuilds itself around AI agents. GitHub launched a new Copilot app where AI agents do the work across your…">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://signaltechnews.com/issues/2026-10-30#article",
+      "headline": "GitHub bets big on AI agents",
+      "description": "Signal Tech newsletter #3: GitHub rebuilds itself around AI agents. GitHub launched a new Copilot app where AI agents do the work across your…",
+      "datePublished": "2026-10-30T08:00:00+01:00",
+      "dateModified": "2026-10-30T08:00:00+01:00",
+      "inLanguage": "en-GB",
+      "url": "https://signaltechnews.com/issues/2026-10-30",
+      "mainEntityOfPage": "https://signaltechnews.com/issues/2026-10-30",
+      "image": "https://signaltechnews.com/assets/og-preview.png",
+      "author": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "@id": "https://signaltechnews.com/issues#page",
+        "url": "https://signaltechnews.com/issues"
+      }
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page issue-page">
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a class="wordmark" href="/" aria-label="Signal Tech home">Signal <span>Tech</span></a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main">
+    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Signal newsletter · Issue #3</p>
+        <h1 class="page-title">GitHub bets big on AI agents</h1>
+        <p class="page-sub"><time datetime="2026-10-30">Friday, 30 October 2026</time></p>
+        <div class="page-actions">
+          <a class="page-btn page-btn-primary" href="#newsletterCard">Subscribe free</a>
+          <a class="page-btn" href="https://dailysignaltech.beehiiv.com/p/github-bets-big-on-ai-agents" rel="noopener">Read on beehiiv</a>
+        </div>
+      </header>
+      <aside class="sponsor-slot is-empty" aria-label="Sponsor slot">
+        <a class="sponsor-link" href="/advertise">
+          <span class="sponsor-label">Sponsor slot</span>
+          <span class="sponsor-text"><strong class="sponsor-name">Your brand here</strong><span class="sponsor-tagline">Reach the people who build with AI, chips and dev tools.</span></span>
+          <span class="sponsor-cta">Sponsor Signal Tech &rarr;</span>
+        </a>
+      </aside>
+<div class="issue-body">
+<p>Hello again, and welcome to issue #3! 👋</p><p>This week the world&#x27;s biggest code platform rebuilt itself around AI agents, two new models landed, and AI chip money got even bigger. Five minutes, tops. Let&#x27;s go.</p><h2>📡 The Big Signal: GitHub rebuilds itself around AI agents</h2><p><em>In short: GitHub launched a new Copilot app where AI agents do the work across your projects and you approve the results.</em></p><p>At GitHub Universe on Wednesday (28 October), GitHub said its goal is now &quot;completed software work&quot;, not more code. The centrepiece is the GitHub Copilot app: you give it a goal and some context, it runs as many agents as the job needs across several repositories, and it brings back pull requests for you to review.</p><p>Alongside it came Copilot Fusion, which picks the right model (or mix of models) for each task, a deeper &quot;Max&quot; level of Copilot code review, and sessions you can start on your phone and pick up in VS Code. The commercial twist: GitHub Enterprise customers now get every Copilot feature without a separate subscription, paying for the AI credits they use.</p><p><em>Why this matters:</em> writing code is becoming the cheap part; the skill that counts is deciding what to build and checking what the agents hand back.</p><p>Sources: <a href="https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/" rel="noopener">GitHub blog</a> · <a href="https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/" rel="noopener">GitHub Changelog</a></p><h2>⚡ Quick Hits</h2><p><em>In short: OpenAI released a fast, cheaper model that&#x27;s good at using a computer for you.</em></p><p><strong>OpenAI&#x27;s GPT-6.1 Terra halves the price.</strong> Terra is built for everyday work such as understanding images, filling in forms and coding, and its API price is 50% lower than GPT-5.6 Terra&#x27;s, at $1 per million input tokens and $5 per million output. OpenAI says it more than doubles its predecessor&#x27;s score on the Terminal-Bench 4.0 coding test and makes far fewer factual errors. <a href="https://openai.com/index/introducing-gpt-6-1-terra" rel="noopener">OpenAI</a></p><p><em>Why this matters:</em> jobs like typing invoice details into accounting software are getting cheap enough to hand to AI at scale.</p><p><em>In short: Google&#x27;s newest top model is built to find and fix security holes.</em></p><p><strong>Google&#x27;s Gemini 4 Carbon puts security first.</strong> Just two weeks after Argon, Google announced Carbon, which tops the Artificial Analysis Intelligence Index and scores 88.2% on SEC-bench Pro for finding real software vulnerabilities. It&#x27;s going to a small group of cyber defenders first, with wider access promised &quot;as soon as possible&quot; at $2/$10 per million tokens. <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/" rel="noopener">Google</a></p><p><em>Why this matters:</em> AI that can find security holes this well is useful to attackers too, which is why Google is giving it to defenders first.</p><p><em>In short: banks are lending $63 billion so Anthropic can rent Broadcom&#x27;s AI chips.</em></p><p><strong>A $63B loan to rent AI chips.</strong> Bank of America, Blackstone, Citi and Morgan Stanley are funding a new company that will buy Broadcom&#x27;s AI accelerators and networking gear and lease them to Anthropic, with deliveries from 2027. Broadcom is backing part of the financing itself. <a href="https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce" rel="noopener">Broadcom</a></p><p><em>Why this matters:</em> AI chips are now financed like aircraft or buildings, which shows how much capital the AI build-out is soaking up.</p><p><em>In short: Europe is getting the world&#x27;s first large-scale factory for a more efficient kind of power chip.</em></p><p><strong>Infineon bets €1.1B on gallium nitride in Austria.</strong> Infineon will turn existing cleanrooms in Villach into the world&#x27;s first high-volume plant for gallium nitride (GaN) power chips on 300mm wafers, with production due by the end of 2027. Bigger wafers yield 2.3 times as many chips each, and the EU has approved €319 million in state aid. <a href="https://www.infineon.com/press-release/2026/infpr202610-021" rel="noopener">Infineon</a></p><p><em>Why this matters:</em> GaN chips waste less electricity as heat, and AI data centres badly need to save power.</p><h2>🛠️ Tool of the Week: Local Code</h2><p><em>In short: a free, open-source AI assistant for the Mac that runs entirely on your own computer.</em></p><p>Draw Things has released Local Code, an AI agent that writes and reviews code, edits spreadsheets and slides, makes images and can work with your Mac&#x27;s Mail, Notes and Calendar, all without sign-ins, API keys or sending your files to the cloud. Smaller models run on Macs with 16GB of memory; the biggest wants 64GB or more. The whole app is open source (GPL-3.0) on GitHub.</p><p><em>Why this matters:</em> if privacy rules stop you pasting work files into ChatGPT, a capable assistant that never leaves your machine is a real alternative.</p><p>👉 <a href="https://releases.drawthings.ai/p/local-code-by-draw-things-open-source" rel="noopener">Read the launch post</a></p><h2>💡 One Takeaway</h2><p><strong>Get good at reviewing, not just prompting.</strong> GitHub, OpenAI and Google all pitched the same future this week: agents do the work, and you check it. Start practising now. When AI hands you code, a draft or a spreadsheet, read it as if a new colleague wrote it: test the claims, run the code, and ask what&#x27;s missing. That habit will matter more than any single tool.</p><p>That&#x27;s issue #3! What did you make of it? <strong>Just hit reply</strong>: we read every message, and we&#x27;d love to know what you want more (or less) of.</p><p>And if Signal Tech saved you some scrolling this week, <strong>forward it to a friend</strong> who&#x27;d enjoy it. That&#x27;s how we grow.</p><p>Until next Friday, <strong>The Signal Tech team</strong> 📡 <em>The tech that matters, minus the noise.</em></p>
+</div>
+      <p class="issue-source">First sent by email on Friday, 30 October 2026. <a href="https://dailysignaltech.beehiiv.com/p/github-bets-big-on-ai-agents" rel="noopener">View this issue on beehiiv</a>.</p>
+      <section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Get Signal Tech every Friday</h2>
+    <p class="newsletter-note">One big story, quick hits and a Tool of the Week. Free, 5-minute read.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+    <p class="newsletter-alt"><a href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=issue_page&amp;utm_campaign=signup_box" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>
+  </section>
+      <nav class="page-actions issue-nav" aria-label="More issues">
+        <a class="page-btn" rel="prev" href="/issues/2026-10-23">&larr; Issue #2</a>
+        <a class="page-btn" href="/issues">All issues</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+
+</body>
+</html>

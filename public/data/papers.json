@@ -1,379 +1,358 @@
 {
-  "updated": "2026-10-29T18:14:12.775Z",
+  "updated": "2026-10-30T08:10:17.928Z",
   "count": 20,
   "items": [
     {
-      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-      "summary": "Hexels are hexagonal surface elements with first-order color fields that enable efficient 3D scene rendering and reconstruction by exploiting planar regions.",
-      "link": "http://arxiv.org/abs/2610.37668v1",
-      "published": "2026-10-27T17:59:59Z",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "summary": "The article investigates how to evaluate language‑model data attribution methods by systematically varying dataset properties to isolate failure causes.",
+      "link": "http://arxiv.org/abs/2610.40655v1",
+      "published": "2026-10-29T17:59:53Z",
       "authors": [
-        "Prakhar Kaushik",
-        "Soumava Paul",
-        "Alan Yuille"
+        "Steven Yu",
+        "Sheng-Yu Wang",
+        "Kimia Hamidieh",
+        "Antonio Torralba",
+        "David Bau"
       ],
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR",
-        "cs.LG"
+        "cs.CL"
       ],
-      "whyItMatters": "They reduce memory and compute costs, making advanced view synthesis viable on limited hardware."
+      "whyItMatters": "Understanding attribution failures helps improve model transparency and accountability for tech‑savvy users."
     },
     {
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "summary": "ThinkWorld proposes using human videos to enhance VLA models, balancing large-scale data with action grounding for better robotic manipulation.",
-      "link": "http://arxiv.org/abs/2610.37666v1",
-      "published": "2026-10-27T17:59:52Z",
+      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+      "summary": "The paper proposes a method to scale differential privacy noise based on typical data sensitivity, filtering out outlier records privately before adding noise.",
+      "link": "http://arxiv.org/abs/2610.40654v1",
+      "published": "2026-10-29T17:59:49Z",
       "authors": [
-        "Chaehyun Kim",
-        "Chi-Pin Huang",
-        "Jisoo Kim",
-        "Min-Hung Chen",
-        "Yu-Chiang Frank Wang",
-        "Seungryong Kim",
-        "Fu-En Yang"
+        "Moshe Shenfeld",
+        "Eliad Tsfadia",
+        "Katrina Ligett"
       ],
       "categories": [
-        "cs.RO",
+        "cs.LG"
+      ],
+      "whyItMatters": "It can reduce noise and improve accuracy for most users while preserving privacy."
+    },
+    {
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "summary": "The article shows that pretrained language models can be fine-tuned by perturbing a single decoder block, negating the need for the Neural Thickets hypothesis.",
+      "link": "http://arxiv.org/abs/2610.40649v1",
+      "published": "2026-10-29T17:59:29Z",
+      "authors": [
+        "Nicolas Dufour",
+        "Elouan Gardès",
+        "Amil Dravid",
+        "Patrick Pérez",
+        "Loic Landrieu"
+      ],
+      "categories": [
+        "cs.LG",
         "cs.AI",
         "cs.CV"
       ],
-      "whyItMatters": "It could improve robot learning efficiency and versatility in real-world tasks."
+      "whyItMatters": "Tech-savvy readers learn a simpler, more efficient way to improve model performance with minimal changes."
     },
     {
-      "title": "When Should We Intervene at Test Time?",
-      "summary": "The article discusses when to apply test-time adaptation, highlighting risks of interventions like updating normalization that can help or harm depending on batch composition.",
-      "link": "http://arxiv.org/abs/2610.37658v1",
-      "published": "2026-10-27T17:58:53Z",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "summary": "The paper proposes role‑coupled tokenization, separating low‑frequency global tokens from high‑frequency local tokens, reducing attention cost in pixel‑space Transformers.",
+      "link": "http://arxiv.org/abs/2610.40647v1",
+      "published": "2026-10-29T17:59:21Z",
       "authors": [
-        "Jiahao Zhang",
-        "Xinling Wen",
-        "Liangliang Li",
-        "Yu Chen"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers need to balance adaptation benefits against potential performance drops in dynamic data streams."
-    },
-    {
-      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-      "summary": "Heads of Security uses learned attention gates to separate instruction and data, preventing prompt injection in LLMs.",
-      "link": "http://arxiv.org/abs/2610.37657v1",
-      "published": "2026-10-27T17:58:52Z",
-      "authors": [
-        "Igor Shilov",
-        "Xiaoxue Yang",
-        "Alexander Panfilov",
-        "Evgenii Kortukov",
-        "Matthieu Meeus",
-        "Peter Romov",
-        "Wojciech Samek",
-        "Jonas Geiping",
-        "Yves-Alexandre de Montjoye"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CL",
-        "cs.CR"
-      ],
-      "whyItMatters": "It offers a lightweight, model-agnostic defense that boosts safety for large language models."
-    },
-    {
-      "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
-      "summary": "The article models relational data as a lattice gauge theory, using Wilson loops to verify composed relationships and highlighting the role of per-entity frame rotations.",
-      "link": "http://arxiv.org/abs/2610.37656v1",
-      "published": "2026-10-27T17:58:48Z",
-      "authors": [
-        "Aakash Sarkar",
-        "Ananya Mukherjee",
-        "Motoshige Sato"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "physics.comp-ph"
-      ],
-      "whyItMatters": "It offers a novel, mathematically rigorous way to ensure consistency in complex relational systems."
-    },
-    {
-      "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
-      "summary": "KPPax converts traditional KPP-generated chemistry code into differentiable, JIT‑compiled JAX code for machine‑learning workflows.",
-      "link": "http://arxiv.org/abs/2610.37655v1",
-      "published": "2026-10-27T17:58:40Z",
-      "authors": [
-        "Wenqing Peng",
-        "Michael Boy",
-        "Zhi-Song Liu"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "Enables efficient, gradient‑based training of atmospheric models with modern ML tools."
-    },
-    {
-      "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
-      "summary": "The paper presents a method for robots to perform in-hand object pose reaching while ensuring safety, such as preventing drops, in complex manipulation tasks.",
-      "link": "http://arxiv.org/abs/2610.37652v1",
-      "published": "2026-10-27T17:58:20Z",
-      "authors": [
-        "Ian Chuang",
-        "Hiya Shah",
-        "Vamsi Chilamkur",
-        "Iman Soltani",
-        "Claire Tomlin"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.LG",
-        "eess.SY"
-      ],
-      "whyItMatters": "It advances reliable, dexterous robot manipulation, crucial for industrial and service applications."
-    },
-    {
-      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-      "summary": "GEPA-Curator enhances learning for self‑improving agents by curating failures beyond just failed rollouts, addressing prompt, harness, stochastic, and judge issues.",
-      "link": "http://arxiv.org/abs/2610.37651v1",
-      "published": "2026-10-27T17:58:11Z",
-      "authors": [
-        "Zack Yu",
-        "Nicholas Lee",
-        "Minjae Lee",
-        "Lakshya Agarwal",
-        "Luca Manolache",
-        "Wonjun Kang",
-        "Matei Zaharia",
-        "Michael W. Mahoney",
-        "Kurt Keutzer",
-        "Sehoon Kim",
-        "Amir Gholami"
-      ],
-      "categories": [
-        "cs.CL"
-      ],
-      "whyItMatters": "It improves agent robustness, vital for reliable AI deployments in complex, multi‑turn tasks."
-    },
-    {
-      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-      "summary": "The article explores whether large language models can autonomously discover new physical laws by detecting unexpected phenomena in a simulated environment.",
-      "link": "http://arxiv.org/abs/2610.37649v1",
-      "published": "2026-10-27T17:57:00Z",
-      "authors": [
-        "Zhen Yang",
-        "Wen Wang",
-        "Xander Xu",
-        "Ying-Cong Chen"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.MA"
-      ],
-      "whyItMatters": "It tests AI’s potential for scientific insight and autonomous hypothesis generation."
-    },
-    {
-      "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
-      "summary": "The paper investigates how synthetic environment diversity influences training of large language model agents that use tools for complex tasks, introducing the SynthAPI pipeline.",
-      "link": "http://arxiv.org/abs/2610.37648v1",
-      "published": "2026-10-27T17:56:46Z",
-      "authors": [
-        "Andrew Szot",
-        "Samira Abnar",
-        "Omar Attia",
-        "Abbas Kazerouni",
-        "Michael Kirchhof",
-        "Cheng-Yu Hsieh",
-        "Raviteja Vemulapalli",
-        "Alexander Toshev"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "It offers a method to systematically improve tool‑use agent performance, valuable for building more capable AI systems."
-    },
-    {
-      "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
-      "summary": "MuonGS studies how relaxed weight‑norm constraints affect large language model pretraining, using accumulated effective learning rate to quantify norm control over training.",
-      "link": "http://arxiv.org/abs/2610.37647v1",
-      "published": "2026-10-27T17:56:40Z",
-      "authors": [
-        "Athanasios Glentis",
-        "Dawei Li",
-        "Mingyi Hong"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "math.OC"
-      ],
-      "whyItMatters": "Understanding norm control can guide hyperparameter tuning for faster, more stable LLM training."
-    },
-    {
-      "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
-      "summary": "The article explains Multi-State Linear Attention, a method that reduces self-attention’s quadratic cost by segmenting sequences and compressing each into separate memory states.",
-      "link": "http://arxiv.org/abs/2610.37645v1",
-      "published": "2026-10-27T17:55:49Z",
-      "authors": [
-        "Hee Seung Hwang",
-        "Sanghyuk Chun",
-        "Xindi Wu",
-        "Olga Russakovsky",
-        "Zhiwei Deng"
-      ],
-      "categories": [
-        "cs.CL"
-      ],
-      "whyItMatters": "It offers a scalable alternative for efficient long‑sequence processing in large language models."
-    },
-    {
-      "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
-      "summary": "Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller that guides diffusion generation according to the needs of the current response and the agent's interaction with the environment. It learns…",
-      "link": "http://arxiv.org/abs/2610.37642v1",
-      "published": "2026-10-27T17:55:24Z",
-      "authors": [
-        "Mingyu Zhao",
-        "Shuhang Lin",
-        "Ligong Han",
-        "Xiaojing Yu",
-        "Zhenting Wang",
-        "Yifei Pang",
-        "Yang Zhou",
-        "Dimitris N. Metaxas"
-      ],
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
-      "summary": "Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. How these different kinds of knowledge are learned as pretraining progresses remains unclear. Recent point-in-time models trained on web snapshots from different years provide a way to probe how knowledge prevalence varies over time. Using these models, we propose a temporal…",
-      "link": "http://arxiv.org/abs/2610.37631v1",
-      "published": "2026-10-27T17:52:38Z",
-      "authors": [
-        "Chang Su",
-        "Bin Wu",
-        "Emine Yilmaz",
-        "Yao Lu"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-      "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whether it helps. We introduce CrossProfile, a diagnostic benchmark of 60 templates…",
-      "link": "http://arxiv.org/abs/2610.37624v1",
-      "published": "2026-10-27T17:49:39Z",
-      "authors": [
-        "Anouar Imel",
-        "Imad Charradi",
-        "Abderrahman Sghir",
-        "Khalil El Khammar"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.MA",
-        "cs.SI"
-      ]
-    },
-    {
-      "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
-      "summary": "Chain-of-thought reasoning has substantially advanced video understanding in multimodal large language models (MLLMs). However, language-based reasoning traces do not provide a reliable mechanism for models to revisit relevant visual evidence, leading to visual forgetting and impairing their ability to reason over video content. Existing approaches maintain visual grounding during reasoning in…",
-      "link": "http://arxiv.org/abs/2610.37613v1",
-      "published": "2026-10-27T17:41:56Z",
-      "authors": [
-        "Shilong Li",
-        "Xingyuan Bu",
-        "Hao Shi",
-        "Yun Xing",
-        "Weixin Feng",
-        "Qiangpeng Yang",
-        "Shilei Wen"
+        "Jiongfan Yang",
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Zhongang Cai",
+        "Ziwei Liu"
       ],
       "categories": [
         "cs.CV",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning",
-      "summary": "As executable environments for language agents scale, generating and verifying their rollouts becomes increasingly expensive. Under finite rollout budgets, this raises an important question: can data management at the environment level make agentic reinforcement learning (RL) more efficient by organizing, evaluating, and scheduling task instances together with the environments that determine…",
-      "link": "http://arxiv.org/abs/2610.37609v1",
-      "published": "2026-10-27T17:38:52Z",
-      "authors": [
-        "Sihan Yang",
-        "Weichen Bai",
-        "Ruichuan An",
-        "Yiming Cheng",
-        "Zhiyuan Feng",
-        "Tianyi Jiang",
-        "Renye Yan",
-        "Ning Ding",
-        "Yifan Zhang",
-        "Renrui Zhang",
-        "Yehui Tang",
-        "Wentao Zhang"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "Beyond Answer Changes: Matched Same-Class Controls for Local Audio Evidence",
-      "summary": "For audio-language models, an answer change after a local sound-event edit can reflect a response to the event's class, sensitivity to waveform rewriting, or both. We compare matched same-class and different-class replacements of a queried event. Both use the same interval, level estimate, donor fitting, and crossfade, while the same-class replacement preserves the correct answer. Across 600…",
-      "link": "http://arxiv.org/abs/2610.37605v1",
-      "published": "2026-10-27T17:36:06Z",
-      "authors": [
-        "Yunuo Wang",
-        "Maoyuan Chen",
-        "Yuanjin Huang",
-        "Xing Liu"
-      ],
-      "categories": [
-        "cs.SD",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "MoI-Bench: A Benchmark for Image Generation and Editing on Mobile Devices",
-      "summary": "Developing on-device image models requires considering practical user needs, task types and device resource constraints. However, existing benchmarks provide limited guidance on identifying capability gaps between on-device models and server-side models. We introduce MoI-Bench, a benchmark grounded in mobile user needs, comprising 64 subtasks and 1150 samples. It defines 16 operations, such as…",
-      "link": "http://arxiv.org/abs/2610.37599v1",
-      "published": "2026-10-27T17:31:40Z",
-      "authors": [
-        "Kailai Feng",
-        "Haoxiang Rao",
-        "Yuxiang Wei",
-        "Bo Chen",
-        "Junsong Li",
-        "Yang Pan",
-        "Chengkun Cai",
-        "Jagmohan Chauhan"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "GAS-PFN: Graph-Aware Spatiotemporal Prior-Data Fitted Networks for Zero-Shot Traffic Forecasting",
-      "summary": "Traffic forecasting requires modeling complex temporal dynamics and the spatial dependencies imposed by road topology. Supervised graph-based models achieve strong performance, but are often trained for a particular dataset and sensor graph, making deployment to new or evolving networks costly. Prior-Data Fitted Networks (PFNs) offer a zero-shot alternative by learning in-context inference from…",
-      "link": "http://arxiv.org/abs/2610.37598v1",
-      "published": "2026-10-27T17:31:26Z",
-      "authors": [
-        "Joseph Natter",
-        "Long Vu",
-        "Yifan Zhang",
-        "Bobin Deng",
-        "Kun Suo",
-        "Rui Wu"
-      ],
-      "categories": [
-        "cs.LG",
         "cs.AI",
+        "cs.LG",
         "cs.NE"
+      ],
+      "whyItMatters": "Tech‑savvy readers care because it cuts compute while preserving image detail in generative models."
+    },
+    {
+      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+      "summary": "The paper proposes adaptive scenario generation for KL-divergence based DRO, improving robustness in two-stage stochastic programs by better handling unseen data distributions.",
+      "link": "http://arxiv.org/abs/2610.40644v1",
+      "published": "2026-10-29T17:59:01Z",
+      "authors": [
+        "Aron Brenner",
+        "Saurabh Amin"
+      ],
+      "categories": [
+        "eess.SY",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it enhances decision‑making reliability under distributional uncertainty."
+    },
+    {
+      "title": "Luggage re-identification: A study of strategies towards a real-world application",
+      "summary": "The paper explores methods for matching luggage across cameras to improve security and lost‑baggage recovery in airports and border crossings.",
+      "link": "http://arxiv.org/abs/2610.40643v1",
+      "published": "2026-10-29T17:58:59Z",
+      "authors": [
+        "Quentin Dhôte",
+        "Romaric Audigier"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it enhances surveillance efficiency and passenger experience."
+    },
+    {
+      "title": "From extreme weather to agricultural consequences with agentic AI",
+      "summary": "WxCrop uses agentic AI to assess crop risks from weather forecasts via causal analysis of interpretable indices.",
+      "link": "http://arxiv.org/abs/2610.40641v1",
+      "published": "2026-10-29T17:58:53Z",
+      "authors": [
+        "Minghan Yu",
+        "Mengyu Dai",
+        "Yixin Wen",
+        "Haizhao Yang"
+      ],
+      "categories": [
+        "physics.ao-ph",
+        "cs.AI"
+      ],
+      "whyItMatters": "It helps farmers anticipate losses and plan better, improving resilience to climate shocks."
+    },
+    {
+      "title": "world2vec: Mechanistic world models through latent dynamics learning",
+      "summary": "World2vec learns mechanistic world models from observations and actions, capturing true latent dynamics without reward signals.",
+      "link": "http://arxiv.org/abs/2610.40637v1",
+      "published": "2026-10-29T17:58:23Z",
+      "authors": [
+        "Tobias Schmidt",
+        "Rodrigo Gonzalez Laiz",
+        "Krisztián Szuppinger",
+        "Steffen Schneider"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It enables interpretable control and scientific insight in AI systems."
+    },
+    {
+      "title": "Probing Spatial State Representations in Visual Foundation Models",
+      "summary": "The paper investigates whether visual foundation models encode persistent spatial states that update with self-motion to guide action beyond current view.",
+      "link": "http://arxiv.org/abs/2610.40636v1",
+      "published": "2026-10-29T17:58:16Z",
+      "authors": [
+        "Baiqiao Yin",
+        "Zhongang Cai",
+        "Ruisi Wang",
+        "Qiwei Liang",
+        "Lei Yang",
+        "Ziwei Liu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech-savvy readers care because robust spatial state representations are key for advanced robotics, AR, and autonomous navigation."
+    },
+    {
+      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+      "summary": "The article discusses how shallow safety alignment in LLMs causes multi-turn conversations to bypass safety checks, and proposes ShallowDefend to address this.",
+      "link": "http://arxiv.org/abs/2610.40627v1",
+      "published": "2026-10-29T17:56:53Z",
+      "authors": [
+        "Qiyao Ma",
+        "Xiaodong Liu",
+        "Weiwei Yang",
+        "Mingqian Feng",
+        "Chengquan Guo",
+        "Jialin Song",
+        "Carolyn Buractaon",
+        "Zhe Zhao",
+        "Junshan Zhang",
+        "Sandeep Atluri",
+        "Christopher White",
+        "Jianfeng Gao"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it improves reliable safety in conversational AI."
+    },
+    {
+      "title": "Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses",
+      "summary": "The article discusses a method for testing temporal clinical hypotheses using evidence-grounded significance tests to validate claims about event sequences.",
+      "link": "http://arxiv.org/abs/2610.40619v1",
+      "published": "2026-10-29T17:55:30Z",
+      "authors": [
+        "Chengyang He",
+        "Wenlong Zhang",
+        "Koduvayur Subbalakshmi",
+        "Ping Wang"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "whyItMatters": "Tech-savvy readers need reliable statistical validation for AI-generated causal claims."
+    },
+    {
+      "title": "An ODE-based Sampler for Discrete Diffusion Models",
+      "summary": "The paper shows discrete diffusion models can be sampled via a deterministic ODE, extending continuous diffusion sampling techniques.",
+      "link": "http://arxiv.org/abs/2610.40618v1",
+      "published": "2026-10-29T17:55:25Z",
+      "authors": [
+        "Samson Gourevitch",
+        "Yazid Janati",
+        "Eric Moulines",
+        "Eric P. Xing",
+        "Alain Durmus",
+        "Giacomo Zanella"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "whyItMatters": "Tech-savvy readers can accelerate discrete model inference and improve consistency distillation."
+    },
+    {
+      "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
+      "summary": "Modern diffusion models are trained on massive datasets that often include copyrighted or private images. Membership inference attacks (MIAs) address this by testing whether a given image was in a model's training set. The standard approach scores an image by its reconstruction loss and flags low-loss images as members. This often fails because some images are simply easier to reconstruct than…",
+      "link": "http://arxiv.org/abs/2610.40616v1",
+      "published": "2026-10-29T17:54:54Z",
+      "authors": [
+        "Michael Joseph",
+        "Yedid Hoshen"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.CR",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+      "summary": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor, TextSeal, restores diversity in the Gumbel-max scheme by routing…",
+      "link": "http://arxiv.org/abs/2610.40613v1",
+      "published": "2026-10-29T17:54:12Z",
+      "authors": [
+        "Tom Sander",
+        "Pierre Fernandez",
+        "Itai Gat",
+        "Haiming Bao",
+        "Jiaxin Shi",
+        "Jason Park",
+        "Valeriu Lacatusu",
+        "Sylvestre-Alvise Rebuffi",
+        "Hongyan Chang",
+        "Hady Elsahar",
+        "Tomáš Souček",
+        "Tuan Tran",
+        "Surya Parimi",
+        "Alexandre Mourachko"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+      "summary": "Proactive assistants offer short, memory-grounded hints during a conversation, deciding when to assist and what to suggest. Current systems split this between a gate and a larger generator; we evaluate both together on 28,058 decision points. Stage-wise generation scores are oracle-gate ceilings: behind a real gate, end-to-end exact match is 0.2619 against a ceiling of 0.2971, and end-to-end…",
+      "link": "http://arxiv.org/abs/2610.40611v1",
+      "published": "2026-10-29T17:54:07Z",
+      "authors": [
+        "A. J. A. Jubayer Talukder",
+        "Mohammad Ariful Haque"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC"
+      ]
+    },
+    {
+      "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+      "summary": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which agents based on large language models assess…",
+      "link": "http://arxiv.org/abs/2610.40589v1",
+      "published": "2026-10-29T17:47:50Z",
+      "authors": [
+        "El Mustapha Mansouri",
+        "Eikichi Kimura",
+        "Masato Koga",
+        "Keigo Arai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "quant-ph"
+      ]
+    },
+    {
+      "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+      "summary": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activations can, in a controlled multi-agent setting. Across six scenarios, a peer presses…",
+      "link": "http://arxiv.org/abs/2610.40588v1",
+      "published": "2026-10-29T17:47:40Z",
+      "authors": [
+        "Leonidas Raghav"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond",
+      "summary": "Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing coverage with spatially distributed receivers, dense and dynamic clutter can significantly degrade bistatic range and Doppler estimation, leading to errors in…",
+      "link": "http://arxiv.org/abs/2610.40586v1",
+      "published": "2026-10-29T17:47:02Z",
+      "authors": [
+        "Yalin E. Sagduyu",
+        "Tugba Erpek",
+        "Sastry Kompella"
+      ],
+      "categories": [
+        "cs.NI",
+        "cs.AI",
+        "cs.LG",
+        "eess.SP"
+      ]
+    },
+    {
+      "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
+      "summary": "Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate programs to inspect application state. However, both rely on partial views of complex digital…",
+      "link": "http://arxiv.org/abs/2610.40578v1",
+      "published": "2026-10-29T17:45:26Z",
+      "authors": [
+        "Qiushi Sun",
+        "Da Yu",
+        "Alexander Knop",
+        "Amer Sinha",
+        "Lingpeng Kong",
+        "Ben Kao",
+        "Ravi Kumar",
+        "Pritish Kamath"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Multi-View MoE: Letting Every Router Shape Expert Computation",
+      "summary": "Sparse mixture-of-experts (MoE) models expand parameter capacity by activating a small subset of experts per token. Expert selection directly affects model capabilities under a fixed active-expert budget. Dense evaluation of all experts reveals weak agreement between single-router rankings and expert-utility evaluation rankings, especially in middle and deep layers. Richer signals for selection…",
+      "link": "http://arxiv.org/abs/2610.40577v1",
+      "published": "2026-10-29T17:45:12Z",
+      "authors": [
+        "Zelin Zhao",
+        "Tianchi Ma",
+        "Junyuan Shang",
+        "Shuohuan Wang",
+        "Dianhai Yu"
+      ],
+      "categories": [
+        "cs.CL"
       ]
     }
   ]

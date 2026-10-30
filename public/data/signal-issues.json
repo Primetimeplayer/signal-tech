@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-23T08:25:10.280Z",
+  "updated": "2026-10-30T08:11:25.093Z",
   "issues": [
+    {
+      "issueNumber": 3,
+      "title": "GitHub bets big on AI agents",
+      "date": "2026-10-30",
+      "url": "https://dailysignaltech.beehiiv.com/p/github-bets-big-on-ai-agents",
+      "stories": [
+        {
+          "headline": "GitHub rebuilds itself around AI agents",
+          "whyItMatters": "GitHub launched a new Copilot app where AI agents do the work across your…"
+        },
+        {
+          "headline": "OpenAI's GPT-6.1 Terra halves the price",
+          "whyItMatters": "OpenAI released a fast, cheaper model that's good at using a computer for you."
+        },
+        {
+          "headline": "Tool of the week: Local Code",
+          "whyItMatters": "A free, open-source AI assistant for the Mac that runs entirely on your own…"
+        }
+      ]
+    },
     {
       "issueNumber": 2,
       "title": "AI found a PHP hole. Patch it today",

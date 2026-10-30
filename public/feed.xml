@@ -5,13 +5,21 @@
     <link>https://signaltechnews.com/</link>
     <description>The Signal Tech newsletter and weekly digests: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 26 Oct 2026 15:34:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 07:00:00 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>Issue #3: GitHub bets big on AI agents</title>
+      <link>https://signaltechnews.com/issues/2026-10-30</link>
+      <guid isPermaLink="true">https://signaltechnews.com/issues/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 07:00:00 GMT</pubDate>
+      <category>Newsletter</category>
+      <description>GitHub rebuilds itself around AI agents: GitHub launched a new Copilot app where AI agents do the work across your… · OpenAI&#39;s GPT-6.1 Terra halves the price: OpenAI released a fast, cheaper model that&#39;s good at using a computer for you. · Tool of the week: Local Code: A free, open-source AI assistant for the Mac that runs entirely on your own…</description>
+    </item>
     <item>
       <title>Signal Weekly — Oct 19–Oct 26, 2026</title>
       <link>https://signaltechnews.com/digests/2026-10-26</link>

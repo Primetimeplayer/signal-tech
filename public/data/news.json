@@ -1,7 +1,72 @@
 {
-  "updated": "2026-10-30T00:41:33.839Z",
-  "count": 100,
+  "updated": "2026-10-30T08:10:17.548Z",
+  "count": 99,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Google's search revenue Ferrari hits an AI-powered speed bump",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+      "published": "Fri, 30 Oct 2026 07:33:00 +0000",
+      "summary": "Ferrari faces challenges as AI integration slows its performance gains.",
+      "image": "https://image.theregister.com/?imageId=5306524&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech readers should watch AI’s impact on automotive innovation."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Farm PC 'maintained' by a 14-year-old dumped support chap in a steaming pile of tech mess",
+      "link": "https://www.theregister.com/systems/2026/10/30/farm-pc-maintained-by-a-14-year-old-dumped-support-chap-in-a-steaming-pile-of-tech-mess/5306217",
+      "published": "Fri, 30 Oct 2026 06:33:00 +0000",
+      "summary": "A 14‑year‑old is managing a farm computer running unsupported Windows XP amid livestock, highlighting maintenance challenges.",
+      "image": "https://image.theregister.com/?imageId=233457&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Shows how legacy tech can hinder modern farming operations and security."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue",
+      "link": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
+      "published": "Fri, 30 Oct 2026 05:42:24 +0000",
+      "summary": "AWS is rapidly deploying AI accelerators, installing one every 14 seconds, and targeting $1 trillion in annual revenue, hinting at a future retail expansion.",
+      "image": "https://image.theregister.com/?imageId=5306552&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech leaders should watch AWS’s scale and diversification, as it could reshape cloud and retail markets."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "In the year AI re-wrote the infosec rulebook, it’s comforting to know crypto exchanges still have bad security",
+      "link": "https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539",
+      "published": "Fri, 30 Oct 2026 04:22:12 +0000",
+      "summary": "The article reports Binance froze suspicious funds after an engineer’s laptop breach, which was tied to $6.3 billion of unauthorized trades.",
+      "image": "https://image.theregister.com/?imageId=5306544&width=800",
+      "readMinutes": 1,
+      "whyItMatters": "Shows even major crypto platforms can suffer massive breaches, highlighting ongoing security risks for digital asset holders."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "PC chip plunge wipes out a quarter of Intel’s value",
+      "link": "https://www.theregister.com/systems/2026/10/30/pc-chip-plunge-wipes-out-a-quarter-of-intels-value/5306531",
+      "published": "Fri, 30 Oct 2026 02:42:58 +0000",
+      "summary": "Intel’s stock fell sharply as CEO forecast a datacenter CPU boom, yet production issues threaten the company’s ability to capitalize on the demand.",
+      "image": "https://image.theregister.com/?imageId=134970&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech readers should watch Intel’s supply challenges, as they impact cloud infrastructure costs and future AI workloads."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "published": "Fri, 30 Oct 2026 01:20:48 +0000",
+      "summary": "A University of Kentucky administrator secured a religious exemption to avoid using AI at work without professing belief in a deity.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2274650383.jpg?resize=1200,840",
+      "whyItMatters": "Shows how religious exemptions can be applied to AI policies, impacting workplace tech compliance."
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -16,7 +81,7 @@
     {
       "source": "TechCrunch",
       "category": "news",
-      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
       "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
       "published": "Thu, 29 Oct 2026 23:42:22 +0000",
       "summary": "Amazon aims to become the first $1 trillion AI cloud business, but will need to keep heavy capital spending to achieve it.",
@@ -138,14 +203,6 @@
       "summary": "Ask AI dumb things and leave no local chat history, all with the style of a kids' fantasy novel – or rather, one of its magical letters",
       "image": "https://image.theregister.com/?imageId=202306&width=800",
       "readMinutes": 2
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "published": "Thu, 29 Oct 2026 19:56:19 +0000",
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business."
     },
     {
       "source": "Wired",
@@ -289,16 +346,6 @@
       "readMinutes": 2
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Oracle wants to bill you for every AI task, not just every seat",
-      "link": "https://www.theregister.com/applications/2026/10/29/oracle-wants-to-bill-you-for-every-ai-task-not-just-every-seat/5306403",
-      "published": "Thu, 29 Oct 2026 15:30:00 +0000",
-      "summary": "Big Red says AI units will add to subscriptions, as it juggles $90BN-plus capex, mounting debt and a $225BN revenue goal for 2030",
-      "image": "https://image.theregister.com/?imageId=5248818&width=800",
-      "readMinutes": 2
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "AI demand triggers massive PCB shortage for PC makers as order books full until 2030",
@@ -331,17 +378,6 @@
       "readMinutes": 2
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
-      "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
-      "published": "Thu, 29 Oct 2026 15:06:40 +0000",
-      "summary": "When companies began approaching NASA’s Langley Research Center, asking to be included in the In-Space Servicing, Assembly, and Manufacturing (ISAM) State of Play for access to competitive intelligence, the team knew they had crossed an…",
-      "excerpt": "When companies began approaching NASA’s Langley Research Center, asking to be included in the In-Space Servicing, Assembly, and Manufacturing (ISAM) State of Play for access to competitive intelligence, the team knew they had crossed an inflection point. “We’ve had some unnamed companies ask if we have any proprietary information,” says Dale Arney, senior team lead […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/03/isam-state-of-play.jpg?w=872",
-      "readMinutes": 3
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Advice for optimizing the space industry with Laura Crabtree",
@@ -359,36 +395,6 @@
       "published": "Thu, 29 Oct 2026 15:00:00 +0000",
       "summary": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
       "image": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Built to bend: Postgres’s inventor and a steward on what AI really needs",
-      "link": "https://www.theregister.com/databases/2026/10/29/partner-content-built-to-bend-postgress-inventor-and-a-steward-on-what-ai-really-needs/5305957",
-      "published": "Thu, 29 Oct 2026 15:00:00 +0000",
-      "summary": "PARTNER CONTENT: Michael Stonebraker and Bruce Momjian on why enterprise AI needs a database that no one controls, and what PostgreSQL 19 says about the road ahead",
-      "image": "https://image.theregister.com/?imageId=5305959&width=800",
-      "readMinutes": 4
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s Hubble Marks Way for Roman Space Telescope",
-      "link": "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/",
-      "published": "Thu, 29 Oct 2026 14:49:27 +0000",
-      "summary": "A sweeping barred galaxy takes center stage in this Oct. 22, 2026, image, but the gravitational lensing at bottom right is the real target. This observation is one of many gravitational lensing images taken by NASA’s Hubble Space Telescope…",
-      "excerpt": "A sweeping barred galaxy takes center stage in this Oct. 22, 2026, image, but the gravitational lensing at bottom right is the real target. This observation is one of many gravitational lensing images taken by NASA’s Hubble Space Telescope in preparation for science with the new Nancy Grace Roman Space Telescope. Astronomers will use these […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/55606049603-e8822462fe-o.jpg?w=2048"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Belgium's tax agency confirms cyberattack, pulls services offline",
-      "link": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
-      "published": "Thu, 29 Oct 2026 14:47:40 +0000",
-      "summary": "Officials confirm this week’s tax deadlines extended to November as a result",
-      "image": "https://image.theregister.com/?imageId=5306415&width=800",
-      "readMinutes": 2
     },
     {
       "source": "Tom's Hardware",
@@ -418,16 +424,6 @@
       "published": "Thu, 29 Oct 2026 14:00:00 +0000",
       "summary": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
       "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Systemd adds support for Rust",
-      "link": "https://www.theregister.com/os-platforms/2026/10/29/systemd-adds-support-for-rust/5306264",
-      "published": "Thu, 29 Oct 2026 14:00:00 +0000",
-      "summary": "What's even better than Rust in the Linux kernel? Rust in systemd!",
-      "image": "https://image.theregister.com/?imageId=5306279&width=800",
-      "readMinutes": 2
     },
     {
       "source": "Tom's Hardware",
