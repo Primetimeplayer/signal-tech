@@ -433,7 +433,10 @@
 <section class="hero-signup" id="heroSignup" aria-labelledby="heroTitle">
   <div class="wrap hero-signup-inner">
     <div class="hero-signup-copy">
-      <h1 class="hero-signup-title" id="heroTitle">Tech news that matters, in 5 minutes</h1>
+      <div class="hero-title-row">
+        <h1 class="hero-signup-title" id="heroTitle">Tech news that matters, in 5 minutes</h1>
+        <a class="hero-digests" id="heroDigests" href="/digests" data-i18n="digests">Digests</a>
+      </div>
       <p class="tagline" data-i18n="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
     </div>
     <div class="hero-signup-cta">
@@ -443,20 +446,7 @@
   </div>
 </section>
 
-<div class="home-intro">
-  <div class="wrap home-intro-inner">
-    <p>Signal Tech is a tech news dashboard for people who build software: AI, chips, dev tools, security and space, refreshed through the day and ranked so the stories that matter rise to the top. Every Friday we send a short issue with one big story, quick hits and a Tool of the Week. Tech news that matters, in 5 minutes — read the feed here, or get it by email.</p>
-  </div>
-</div>
-
-<div id="searchOverlay" class="search-overlay" hidden>
-  <div class="search-overlay-bar" id="searchOverlayBar"></div>
-</div>
-
-<button type="button" class="sidebar-backdrop" id="sidebarBackdrop" data-i18n-aria="closeMenu" tabindex="-1" aria-label="Close navigation menu"></button>
-
-<div class="wrap">
-  <div class="controls">
+<div class="wrap topic-wrap">
   <div class="topic-bar" id="topicBar">
     <nav class="top-nav" id="topNav" data-i18n-aria="topics" aria-label="Topics">
       <div class="top-nav-section">
@@ -477,6 +467,22 @@
       </div>
     </nav>
   </div>
+</div>
+
+<div class="home-intro">
+  <div class="wrap home-intro-inner">
+    <p>Signal Tech is a tech news dashboard for people who build software: AI, chips, dev tools, security and space, refreshed through the day and ranked so the stories that matter rise to the top. Every Friday we send a short issue with one big story, quick hits and a Tool of the Week. Tech news that matters, in 5 minutes — read the feed here, or get it by email.</p>
+  </div>
+</div>
+
+<div id="searchOverlay" class="search-overlay" hidden>
+  <div class="search-overlay-bar" id="searchOverlayBar"></div>
+</div>
+
+<button type="button" class="sidebar-backdrop" id="sidebarBackdrop" data-i18n-aria="closeMenu" tabindex="-1" aria-label="Close navigation menu"></button>
+
+<div class="wrap">
+  <div class="controls">
   <div class="filters" id="filters">
 
   <div class="sidebar-drawer-head">
@@ -525,22 +531,34 @@
   </nav>
   </div>
     <div class="row2 feed-filters" id="feedFilters" role="group" data-i18n-aria="storyFilters" aria-label="Filter stories">
-      <div class="filter-field">
-        <label for="sourceFilter" id="sourceFilterLabel" data-i18n="filterBySource">Filter by source</label>
-        <select id="sourceFilter" name="source" aria-labelledby="sourceFilterLabel">
+      <div class="filter-field" data-filter="source">
+        <span class="visually-hidden" id="sourceFilterLabel" data-i18n="filterBySource">Filter by source</span>
+        <select id="sourceFilter" class="filter-native" name="source" tabindex="-1" aria-hidden="true">
           <option value="all" data-i18n="allSources">All sources</option>
         </select>
+        <button type="button" class="filter-trigger" id="sourceTrigger" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="sourceMenu" aria-labelledby="sourceFilterLabel sourceValue">
+          <svg class="filter-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h13v14H6a2 2 0 0 1-2-2V5z"/><path d="M17 9h3v8a2 2 0 0 1-2 2h-1"/><path d="M8 9h5M8 13h5"/></svg>
+          <span class="filter-value" id="sourceValue">All sources</span>
+          <svg class="filter-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="filter-menu" id="sourceMenu" role="listbox" aria-labelledby="sourceFilterLabel" hidden></div>
       </div>
-      <div class="filter-field">
-        <label for="dateFilter" id="dateFilterLabel" data-i18n="filterByDate">Filter by date</label>
-        <select id="dateFilter" name="date" aria-labelledby="dateFilterLabel">
+      <div class="filter-field" data-filter="date">
+        <span class="visually-hidden" id="dateFilterLabel" data-i18n="filterByDate">Filter by date</span>
+        <select id="dateFilter" class="filter-native" name="date" tabindex="-1" aria-hidden="true">
           <option value="all" data-i18n="anyTime">Any time</option>
           <option value="today" data-i18n="today">Today</option>
           <option value="week" data-i18n="thisWeek">This week</option>
         </select>
+        <button type="button" class="filter-trigger" id="dateTrigger" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="dateMenu" aria-labelledby="dateFilterLabel dateValue">
+          <svg class="filter-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
+          <span class="filter-value" id="dateValue">Any time</span>
+          <svg class="filter-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="filter-menu" id="dateMenu" role="listbox" aria-labelledby="dateFilterLabel" hidden></div>
       </div>
-      <p class="filters-status" id="filtersStatus" role="status" aria-live="polite" hidden></p>
-      <button type="button" id="clearFilters" class="clear-filters" data-i18n="clearFilters" hidden>Clear filters</button>
+      <p class="filters-status visually-hidden" id="filtersStatus" role="status" aria-live="polite" hidden></p>
+      <button type="button" id="clearFilters" class="clear-filters" hidden><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg><span data-i18n="clearFilters">Clear filters</span></button>
     </div>
   </div>
 

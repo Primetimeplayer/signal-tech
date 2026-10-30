@@ -1159,7 +1159,9 @@ initAuth();
     }
   }
 
-  function getFilteredItems() {
+  // opts.ignoreSource / opts.ignoreDate leave that one control out, so the
+  // source and date menus can show how many stories each choice would give.
+  function getFilteredItems(opts = {}) {
     const term = searchTerm.trim().toLowerCase();
 
     const baseItems = savedOnly
@@ -1184,8 +1186,8 @@ initAuth();
     return baseItems.filter((i) => {
       if (isPromoItem(i)) return false;
       const matchesCat = matchesVertical(i, activeFilter);
-      const matchesSource = activeSource === 'all' || i.source === activeSource;
-      const matchesDate = withinDateFilter(i.published, activeDate);
+      const matchesSource = opts.ignoreSource || activeSource === 'all' || i.source === activeSource;
+      const matchesDate = opts.ignoreDate || withinDateFilter(i.published, activeDate);
       const matchesTerm = !term ||
         (i.title || '').toLowerCase().includes(term) ||
         (i.summary || '').toLowerCase().includes(term);
@@ -1210,7 +1212,6 @@ initAuth();
   function syncFilterChrome() {
     const active = hasActiveFilters();
     const row = document.getElementById('feedFilters');
-    if (row) row.classList.toggle('is-filtering', active);
     const status = document.getElementById('filtersStatus');
     if (status) {
       status.hidden = !active;
@@ -1219,6 +1220,263 @@ initAuth();
     if (sourceFilterEl) sourceFilterEl.classList.toggle('is-active', activeSource !== 'all');
     if (dateFilterEl) dateFilterEl.classList.toggle('is-active', activeDate !== 'all');
     if (clearFiltersEl) clearFiltersEl.hidden = !active;
+    syncFilterMenus();
+  }
+
+  // ---------- Source and date dropdowns ----------
+  // The native selects stay in the DOM as the state holders (their change
+  // handlers drive the feed). These listbox menus are the visible controls,
+  // drawn like the header search pill. Pattern: select-only combobox, focus
+  // stays on the trigger and aria-activedescendant points at the option.
+  var filterMenuList;
+  var filterTypeahead = { text: '', timer: 0 };
+
+  function filterMenus() {
+    if (filterMenuList) return filterMenuList;
+    filterMenuList = [
+      { key: 'source', select: sourceFilterEl, trigger: 'sourceTrigger', menu: 'sourceMenu', value: 'sourceValue' },
+      { key: 'date', select: dateFilterEl, trigger: 'dateTrigger', menu: 'dateMenu', value: 'dateValue' },
+    ].map((c) => Object.assign(c, {
+      triggerEl: document.getElementById(c.trigger),
+      menuEl: document.getElementById(c.menu),
+      valueEl: document.getElementById(c.value),
+    })).filter((c) => c.select && c.triggerEl && c.menuEl);
+    return filterMenuList;
+  }
+
+  function filterMenuIsOpen(c) {
+    return c.triggerEl.getAttribute('aria-expanded') === 'true';
+  }
+
+  function filterOptionRows(c) {
+    const select = c.select;
+    if (c.key === 'date') {
+      const pool = getFilteredItems({ ignoreDate: true });
+      return [{ options: Array.from(select.options).map((opt) => ({
+        value: opt.value,
+        label: opt.textContent,
+        count: pool.filter((i) => withinDateFilter(i.published, opt.value)).length,
+      })) }];
+    }
+    // Sources are counted inside the current topic, Hardware/Saved toggles,
+    // search and date, so a source that would give an empty feed is not offered.
+    const pool = getFilteredItems({ ignoreSource: true });
+    const counts = new Map();
+    pool.forEach((i) => { if (i.source) counts.set(i.source, (counts.get(i.source) || 0) + 1); });
+    const keep = (value) => counts.has(value) || value === select.value;
+    const groups = [{ options: [{ value: 'all', label: t('allSources'), count: pool.length }] }];
+    Array.from(select.children).forEach((node) => {
+      if (node.tagName === 'OPTGROUP') {
+        const options = Array.from(node.children)
+          .filter((opt) => keep(opt.value))
+          .map((opt) => ({ value: opt.value, label: opt.textContent, count: counts.get(opt.value) || 0 }));
+        if (options.length) groups.push({ label: node.label, options });
+      } else if (node.value !== 'all' && keep(node.value)) {
+        groups[0].options.push({ value: node.value, label: node.textContent, count: counts.get(node.value) || 0 });
+      }
+    });
+    return groups;
+  }
+
+  function renderFilterMenu(c) {
+    const current = c.select.value;
+    const menu = c.menuEl;
+    menu.replaceChildren();
+    let index = 0;
+    filterOptionRows(c).forEach((group, g) => {
+      let parent = menu;
+      if (group.label) {
+        parent = document.createElement('div');
+        parent.className = 'filter-group';
+        parent.setAttribute('role', 'group');
+        const head = document.createElement('div');
+        head.className = 'filter-group-label';
+        head.id = `${c.key}MenuGroup${g}`;
+        head.setAttribute('role', 'presentation');
+        head.textContent = group.label;
+        parent.setAttribute('aria-labelledby', head.id);
+        parent.appendChild(head);
+        menu.appendChild(parent);
+      }
+      group.options.forEach((o) => {
+        const selected = o.value === current;
+        const opt = document.createElement('div');
+        opt.className = `filter-option${selected ? ' is-selected' : ''}${o.count ? '' : ' is-empty'}`;
+        opt.id = `${c.key}Option${index++}`;
+        opt.setAttribute('role', 'option');
+        opt.setAttribute('aria-selected', selected ? 'true' : 'false');
+        opt.dataset.value = o.value;
+        const label = document.createElement('span');
+        label.className = 'filter-option-label';
+        label.textContent = o.label;
+        const count = document.createElement('span');
+        count.className = 'filter-option-count';
+        count.textContent = String(o.count);
+        const check = document.createElement('span');
+        check.className = 'filter-option-check';
+        check.setAttribute('aria-hidden', 'true');
+        check.innerHTML = selected ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>' : '';
+        opt.append(check, label, count);
+        parent.appendChild(opt);
+      });
+    });
+  }
+
+  function filterOptions(c) {
+    return Array.from(c.menuEl.querySelectorAll('.filter-option'));
+  }
+
+  function setActiveFilterOption(c, index, scroll = true) {
+    const opts = filterOptions(c);
+    if (!opts.length) return;
+    const i = Math.max(0, Math.min(opts.length - 1, index));
+    opts.forEach((o, n) => o.classList.toggle('is-active', n === i));
+    c.triggerEl.setAttribute('aria-activedescendant', opts[i].id);
+    if (scroll) {
+      const o = opts[i];
+      const m = c.menuEl;
+      if (o.offsetTop < m.scrollTop) m.scrollTop = o.offsetTop - 6;
+      else if (o.offsetTop + o.offsetHeight > m.scrollTop + m.clientHeight) m.scrollTop = o.offsetTop + o.offsetHeight - m.clientHeight + 6;
+    }
+  }
+
+  function activeFilterIndex(c) {
+    return filterOptions(c).findIndex((o) => o.classList.contains('is-active'));
+  }
+
+  function placeFilterMenu(c) {
+    const menu = c.menuEl;
+    menu.style.transform = '';
+    const rect = menu.getBoundingClientRect();
+    const vw = document.documentElement.clientWidth;
+    let shift = 0;
+    if (rect.right > vw - 8) shift = vw - 8 - rect.right;
+    if (rect.left + shift < 8) shift = 8 - rect.left;
+    if (shift) menu.style.transform = `translateX(${Math.round(shift)}px)`;
+  }
+
+  function closeFilterMenus(restoreFocus) {
+    filterMenus().forEach((c) => {
+      if (!filterMenuIsOpen(c)) return;
+      c.triggerEl.setAttribute('aria-expanded', 'false');
+      c.triggerEl.removeAttribute('aria-activedescendant');
+      c.menuEl.hidden = true;
+      c.triggerEl.closest('.filter-field').classList.remove('is-open');
+      if (restoreFocus) c.triggerEl.focus();
+    });
+  }
+
+  function openFilterMenu(c, index) {
+    closeFilterMenus(false);
+    if (typeof closeLocaleMenus === 'function') closeLocaleMenus(false);
+    renderFilterMenu(c);
+    c.menuEl.hidden = false;
+    c.triggerEl.setAttribute('aria-expanded', 'true');
+    c.triggerEl.closest('.filter-field').classList.add('is-open');
+    placeFilterMenu(c);
+    const opts = filterOptions(c);
+    let i = index;
+    if (i === undefined) i = opts.findIndex((o) => o.classList.contains('is-selected'));
+    if (i === 'last') i = opts.length - 1;
+    setActiveFilterOption(c, i < 0 ? 0 : i);
+  }
+
+  function chooseFilterOption(c, value) {
+    closeFilterMenus(false);
+    c.triggerEl.focus();
+    if (value === undefined || c.select.value === value) return;
+    c.select.value = value;
+    c.select.dispatchEvent(new Event('change', { bubbles: true }));
+  }
+
+  function syncFilterMenus() {
+    filterMenus().forEach((c) => {
+      const opt = c.select.options[c.select.selectedIndex];
+      if (c.valueEl) c.valueEl.textContent = opt ? opt.textContent : '';
+      c.triggerEl.classList.toggle('is-active', c.select.value !== 'all');
+      if (filterMenuIsOpen(c)) {
+        const keep = activeFilterIndex(c);
+        renderFilterMenu(c);
+        setActiveFilterOption(c, keep < 0 ? 0 : keep, false);
+      }
+    });
+  }
+
+  function bindFilterMenus() {
+    filterMenus().forEach((c) => {
+      const field = c.triggerEl.closest('.filter-field');
+      c.triggerEl.addEventListener('click', () => {
+        if (filterMenuIsOpen(c)) closeFilterMenus(false);
+        else openFilterMenu(c);
+      });
+      c.triggerEl.addEventListener('keydown', (e) => {
+        const open = filterMenuIsOpen(c);
+        const count = filterOptions(c).length;
+        const at = activeFilterIndex(c);
+        const key = e.key;
+        if (!open) {
+          if (key === 'ArrowDown' || key === 'ArrowUp' || key === 'Enter' || key === ' ' || key === 'Home' || key === 'End') {
+            e.preventDefault();
+            openFilterMenu(c, key === 'Home' ? 0 : (key === 'End' ? 'last' : undefined));
+          }
+          return;
+        }
+        if (key === 'ArrowDown' || key === 'ArrowUp') {
+          e.preventDefault();
+          if (e.altKey && key === 'ArrowUp') { chooseFilterOption(c, (filterOptions(c)[at] || {}).dataset?.value); return; }
+          setActiveFilterOption(c, at + (key === 'ArrowDown' ? 1 : -1));
+        } else if (key === 'Home' || key === 'End') {
+          e.preventDefault();
+          setActiveFilterOption(c, key === 'Home' ? 0 : count - 1);
+        } else if (key === 'PageDown' || key === 'PageUp') {
+          e.preventDefault();
+          setActiveFilterOption(c, at + (key === 'PageDown' ? 8 : -8));
+        } else if (key === 'Enter' || (key === ' ' && !filterTypeahead.text)) {
+          e.preventDefault();
+          const opt = filterOptions(c)[at];
+          chooseFilterOption(c, opt ? opt.dataset.value : undefined);
+        } else if (key === 'Escape') {
+          e.preventDefault();
+          e.stopPropagation();
+          closeFilterMenus(true);
+        } else if (key === 'Tab') {
+          closeFilterMenus(false);
+        } else if (key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey) {
+          // Type-ahead: jump to the first option starting with the typed text.
+          e.preventDefault();
+          e.stopPropagation();
+          clearTimeout(filterTypeahead.timer);
+          filterTypeahead.text += key.toLowerCase();
+          filterTypeahead.timer = setTimeout(() => { filterTypeahead.text = ''; }, 600);
+          const opts = filterOptions(c);
+          const hit = opts.findIndex((o) => o.querySelector('.filter-option-label').textContent.toLowerCase().startsWith(filterTypeahead.text));
+          if (hit >= 0) setActiveFilterOption(c, hit);
+        }
+      });
+      // Keep focus on the trigger while the pointer is in the list.
+      c.menuEl.addEventListener('mousedown', (e) => e.preventDefault());
+      c.menuEl.addEventListener('mousemove', (e) => {
+        const opt = e.target.closest('.filter-option');
+        if (!opt) return;
+        const i = filterOptions(c).indexOf(opt);
+        if (i !== activeFilterIndex(c)) setActiveFilterOption(c, i, false);
+      });
+      c.menuEl.addEventListener('click', (e) => {
+        const opt = e.target.closest('.filter-option');
+        if (opt) chooseFilterOption(c, opt.dataset.value);
+      });
+      field.addEventListener('focusout', () => {
+        setTimeout(() => {
+          if (filterMenuIsOpen(c) && !field.contains(document.activeElement)) closeFilterMenus(false);
+        }, 0);
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest || !e.target.closest('.feed-filters .filter-field')) closeFilterMenus(false);
+    });
+    window.addEventListener('resize', () => {
+      filterMenus().forEach((c) => { if (filterMenuIsOpen(c)) placeFilterMenu(c); });
+    });
   }
 
   function emptyFeedHtml() {
@@ -2420,7 +2678,7 @@ initAuth();
   const sidebarCloseEl = document.getElementById('sidebarClose');
   // The search bar lives in the masthead, so it is listed alongside the
   // toolbar row: everything the drawer covers must stop taking input.
-  const sidebarBehindTargets = Array.from(document.querySelectorAll('.skip-link, #heroSignup, .home-intro, .controls > .row2, .mast .search-row, .locale-controls, #topicBar .search-row, main, footer'));
+  const sidebarBehindTargets = Array.from(document.querySelectorAll('.skip-link, #heroSignup, .topic-wrap, .home-intro, .controls > .row2, .mast .search-row, .locale-controls, #topicBar .search-row, main, footer'));
   let sidebarInertSnapshot = null;
 
   function setSidebarOpen(open) {
@@ -2713,6 +2971,8 @@ initAuth();
   }
 
   bindLocaleMenus();
+  bindFilterMenus();
+  syncFilterMenus();
   bindMobileSearch();
   if (sourceFilterEl) sourceFilterEl.addEventListener('change', (e) => { activeSource = e.target.value; visibleCount = PAGE_SIZE; render(); });
   if (dateFilterEl) dateFilterEl.addEventListener('change', (e) => {
@@ -2724,8 +2984,10 @@ initAuth();
   });
   clearFiltersEl.addEventListener('click', () => {
     resetFilters();
-    if (window.matchMedia('(max-width: 767px)').matches) setSearchOpen(true);
-    else if (searchEl) searchEl.focus();
+    // The button hides itself once nothing is filtered, so hand focus to the
+    // first filter instead of opening the search box or the phone overlay.
+    const first = document.getElementById('sourceTrigger');
+    if (first) first.focus();
   });
   window.addEventListener('message', (event) => {
     let host = '';

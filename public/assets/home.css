@@ -8805,56 +8805,245 @@ main .grid,
 }
 #main:focus { outline: none; }
 
-/* Source and date filters. Labels sit above the native selects so the
-   accessible name and the visible name are the same control. */
+/* Source and date filters.
+   Drawn as the same pill as the header search (.search-row): 40px tall,
+   20px radius, no border, 18px grey icon, 14px Inter, and the same white
+   lift + shadow while focused or open. The pill fill is one step off the
+   surface it sits on, as the search pill is on the masthead. The native
+   selects stay in the DOM, visually hidden, as the state holders. */
 .controls .row2.feed-filters {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
   justify-content: flex-start !important;
-  align-items: flex-end !important;
-  flex-wrap: wrap;
-  gap: 10px 12px !important;
+  gap: 8px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
-@media (max-width: 800px) {
-  .controls .row2.feed-filters {
-    flex-direction: column !important;
-    align-items: stretch !important;
-  }
-  .feed-filters .filter-field,
-  .feed-filters select,
-  .feed-filters .clear-filters {
-    width: 100%;
-    max-width: 100%;
-  }
-}
-.filter-field {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+.feed-filters .filter-field {
+  position: relative;
+  display: block;
+  flex: 0 0 auto;
   min-width: 0;
 }
-.filter-field label {
-  font-family: 'Space Grotesk', Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 1.2;
-  color: #3c4043;
+.feed-filters .filter-field[data-filter="source"] { width: 248px; }
+.feed-filters .filter-field[data-filter="date"] { width: 168px; }
+.feed-filters select.filter-native {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  min-height: 0 !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
-:root[data-theme="dark"] .filter-field label { color: #bdc1c6; }
-.feed-filters.is-filtering {
+
+.filter-trigger {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0 10px 0 14px;
+  border: 0;
+  border-radius: 20px;
+  background: #ffffff;
+  color: #202124;
+  font: 400 14px/1 var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);
+  letter-spacing: 0;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 0 0 1px rgba(60, 64, 67, 0.12);
+  transition: background-color 150ms ease, box-shadow 150ms ease, color 150ms ease;
+}
+.filter-trigger:hover { box-shadow: 0 1px 2px rgba(60, 64, 67, 0.22), 0 0 0 1px rgba(60, 64, 67, 0.12); }
+.filter-trigger:focus { outline: none; }
+.filter-trigger:focus-visible {
+  outline: 2px solid var(--focus) !important;
+  outline-offset: 2px !important;
+}
+.filter-field.is-open .filter-trigger,
+.filter-trigger:focus-visible {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+}
+.filter-icon {
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  color: #5f6368;
+}
+.filter-value {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.filter-chevron {
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  color: #5f6368;
+  transition: transform 150ms ease;
+}
+.filter-field.is-open .filter-chevron { transform: rotate(180deg); }
+
+/* A filter that is narrowing the feed takes the same blue as the selected
+   topic, so it is clear at a glance without an extra status line. */
+.filter-trigger.is-active,
+.filter-field.is-open .filter-trigger.is-active {
+  background: #e8f0fe;
+  color: #174ea6;
+  font-weight: 500;
+}
+.filter-trigger.is-active .filter-icon,
+.filter-trigger.is-active .filter-chevron { color: #1a73e8; }
+
+.filter-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 60;
+  min-width: 100%;
+  width: max-content;
+  max-width: min(320px, calc(100vw - 32px));
+  max-height: min(420px, 60vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 6px 0;
   border-radius: 16px;
-  box-shadow: inset 0 0 0 2px rgba(26, 115, 232, 0.45);
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+  font-family: var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif);
 }
-.row2 select.is-active {
-  border-color: #1a73e8 !important;
-  box-shadow: 0 0 0 1px #1a73e8;
+.filter-menu[hidden] { display: none !important; }
+.feed-filters .filter-field[data-filter="source"] .filter-menu { width: 280px; }
+.filter-group-label {
+  padding: 10px 16px 4px;
+  border-top: 1px solid #e8eaed;
+  margin-top: 4px;
+  color: #3c4043;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.3;
 }
-.filters-status {
-  margin: 0 0 8px;
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 36px;
+  padding: 8px 16px 8px 12px;
+  color: #202124;
+  font-size: 14px;
+  line-height: 1.3;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.filter-option.is-active { background: #e8eaed; }
+.filter-option-check {
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
   color: #1a73e8;
-  font-family: 'Space Grotesk', Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 13px;
-  font-weight: 600;
 }
-.filters-status[hidden] { display: none !important; }
+.filter-option-check svg { display: block; }
+.filter-option-label {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.filter-option-count {
+  flex: 0 0 auto;
+  color: #5f6368;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.filter-option.is-selected { color: #174ea6; font-weight: 500; }
+.filter-option.is-empty .filter-option-label { color: #5f6368; }
+
+/* Clear: a quiet text pill, only shown while a filter is on. */
+.feed-filters .clear-filters {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: auto !important;
+  max-width: none !important;
+  height: 40px;
+  min-height: 40px;
+  padding: 0 14px 0 10px !important;
+  border: 0 !important;
+  border-radius: 20px;
+  background: transparent;
+  color: #5f6368;
+  font: 500 14px/1 var(--font-sans, Inter, ui-sans-serif, system-ui, sans-serif) !important;
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+.feed-filters .clear-filters svg { flex: 0 0 18px; width: 18px; height: 18px; }
+.feed-filters .clear-filters:hover { background: rgba(60, 64, 67, 0.08); color: #202124; }
+.feed-filters .clear-filters[hidden] { display: none !important; }
+
+:root[data-theme="dark"] .filter-trigger {
+  background: #3c4043;
+  color: #e8eaed;
+  box-shadow: none;
+}
+:root[data-theme="dark"] .filter-trigger:hover { background: #43474a; }
+:root[data-theme="dark"] .filter-field.is-open .filter-trigger,
+:root[data-theme="dark"] .filter-trigger:focus-visible {
+  background: #48494c;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55), 0 4px 8px 3px rgba(0, 0, 0, 0.4);
+}
+:root[data-theme="dark"] .filter-icon,
+:root[data-theme="dark"] .filter-chevron { color: #e8eaed; }
+:root[data-theme="dark"] .filter-trigger.is-active,
+:root[data-theme="dark"] .filter-field.is-open .filter-trigger.is-active {
+  background: #394457;
+  color: #d2e3fc;
+}
+:root[data-theme="dark"] .filter-trigger.is-active .filter-icon,
+:root[data-theme="dark"] .filter-trigger.is-active .filter-chevron { color: #8ab4f8; }
+:root[data-theme="dark"] .filter-menu {
+  background: #48494c;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55), 0 4px 8px 3px rgba(0, 0, 0, 0.4);
+}
+:root[data-theme="dark"] .filter-group-label { color: #bdc1c6; border-top-color: #5f6368; }
+:root[data-theme="dark"] .filter-option { color: #e8eaed; }
+:root[data-theme="dark"] .filter-option.is-active { background: #5f6368; }
+:root[data-theme="dark"] .filter-option-check { color: #8ab4f8; }
+:root[data-theme="dark"] .filter-option-count,
+:root[data-theme="dark"] .filter-option.is-empty .filter-option-label { color: #bdc1c6; }
+:root[data-theme="dark"] .filter-option.is-selected { color: #a8c7fa; }
+:root[data-theme="dark"] .feed-filters .clear-filters { color: #bdc1c6; }
+:root[data-theme="dark"] .feed-filters .clear-filters:hover { background: rgba(232, 234, 237, 0.08); color: #e8eaed; }
+
+/* Phones: both pills share one row; Clear drops below when it shows. */
+@media (max-width: 560px) {
+  .feed-filters .filter-field[data-filter="source"] { flex: 1 1 160px; width: auto; }
+  .feed-filters .filter-field[data-filter="date"] { flex: 0 0 auto; width: 140px; }
+  .feed-filters .filter-field[data-filter="date"] .filter-menu { left: auto; right: 0; }
+  .feed-filters .filter-field[data-filter="source"] .filter-menu { width: min(300px, calc(100vw - 32px)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .filter-trigger, .filter-chevron, .feed-filters .clear-filters { transition: none; }
+}
 
 .latest-skeleton {
   flex: 0 0 230px;
@@ -8911,3 +9100,47 @@ main .grid,
   font-size: 14px;
   font-weight: 600;
 }
+
+/* Layout: category pills sit between the hero and the intro paragraph, and
+   on phones the Digests pill moves up beside the hero heading. */
+.topic-wrap { padding-top: 14px; }
+.topic-wrap #topicBar { margin: 0 !important; }
+#topicBar #digestsNav { display: none !important; }
+.hero-title-row { display: flex; align-items: flex-start; gap: 12px; }
+.hero-title-row .hero-signup-title { flex: 1 1 auto; min-width: 0; }
+.hero-digests { display: none; }
+@media (max-width: 800px) {
+  .hero-digests {
+    position: relative;
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0.45rem 0.95rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--panel);
+    color: var(--text-muted);
+    font: 500 0.82rem/1.2 Inter, ui-sans-serif, system-ui, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* The pill stays 32px tall to match its old look; this widens the tap
+     area to 44px without moving anything. */
+  .hero-digests::before {
+    content: "";
+    position: absolute;
+    inset: -6px -4px;
+  }
+  .hero-digests:hover { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .hero-digests:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+}
+@media (max-width: 767px) {
+  /* Below 768 the topic bar only ever held the Digests pill (topics live in
+     the menu drawer), so with that pill in the hero it has nothing to show. */
+  .topic-wrap { display: none !important; }
+}
+.home-intro { padding-bottom: 14px !important; }
+@media (max-width: 800px) { .home-intro { padding-bottom: 12px !important; } }

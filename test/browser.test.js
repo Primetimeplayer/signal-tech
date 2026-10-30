@@ -488,8 +488,8 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
 
     const controls = await driver.executeScript(`
       return {
-        sourceDisplay: getComputedStyle(document.getElementById('sourceFilter')).display,
-        dateDisplay: getComputedStyle(document.getElementById('dateFilter')).display,
+        sourceDisplay: getComputedStyle(document.getElementById('sourceTrigger')).display,
+        dateDisplay: getComputedStyle(document.getElementById('dateTrigger')).display,
         sourceOptions: document.getElementById('sourceFilter').options.length,
         dateOptions: Array.from(document.getElementById('dateFilter').options).map(o => o.value),
         clearHidden: document.getElementById('clearFilters').hidden,
@@ -828,11 +828,11 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
         };
       `);
 
-      // The hidden filter selects are deliberately out of the tab order
-      // (tabindex="-1"), so keyboard traversal no longer lands on them. Nudge
-      // the keyboard first — a scripted focus() only matches :focus-visible
-      // when the last real input was a keypress — then focus the select
-      // directly and read its ring.
+      // The native filter selects are visually hidden state holders
+      // (tabindex="-1"); the visible control is the pill-shaped trigger
+      // button. Nudge the keyboard first — a scripted focus() only matches
+      // :focus-visible when the last real input was a keypress — then focus
+      // the source trigger directly and read its ring.
       await driver.performActions([{
         type: 'key',
         id: 'keyboard',
@@ -842,7 +842,7 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
         ]
       }]);
       await sleep(60);
-      await driver.executeScript('document.getElementById("sourceFilter").focus();');
+      await driver.executeScript('document.getElementById("sourceTrigger").focus();');
       await sleep(60);
       const selectFocus = await probeFocus();
 
@@ -865,11 +865,11 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
         searchFocus.inputStyle === 'none' || searchFocus.inputWidth === 0,
         `The inner search input must not draw its own square outline in ${theme} theme (got ${searchFocus.inputWidth}px ${searchFocus.inputStyle})`
       );
-      assert.ok(selectFocus, `A filter select must be present to measure its focus ring in ${theme} theme`);
-      assert.equal(selectFocus.focusVisible, true, `Filter select must be :focus-visible in ${theme} theme`);
+      assert.ok(selectFocus, `A filter trigger must be present to measure its focus ring in ${theme} theme`);
+      assert.equal(selectFocus.focusVisible, true, `Filter trigger must be :focus-visible in ${theme} theme`);
       assert.ok(
         selectFocus.width >= 2 && selectFocus.style !== 'none',
-        `Filter select focus ring must be solid and at least 2px in ${theme} theme (got ${selectFocus.width}px ${selectFocus.style})`
+        `Filter trigger focus ring must be solid and at least 2px in ${theme} theme (got ${selectFocus.width}px ${selectFocus.style})`
       );
     }
   });
@@ -1071,10 +1071,9 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
       return await driver.executeScript(COLOR_HELPERS + `
         return {
           theme: document.documentElement.getAttribute('data-theme'),
-          sourceFilter: probeBorder('#sourceFilter'),
-          dateFilter: probeBorder('#dateFilter'),
+          // The source/date triggers and Clear filters are borderless
+          // pills drawn like the header search, so they are not probed here.
           searchRow: probeBorder('.row2 .search-row'),
-          clearFilters: probeBorder('#clearFilters'),
           loadMore: probeBorder('#loadMoreBtn'),
           themeToggle: probeBorder('#themeToggle'),
           menuToggle: probeBorder('#menuToggle')
@@ -1112,8 +1111,8 @@ test('browser regression suite (headless Firefox + direct WebDriver)', { timeout
     // exists while something is filtered).
     const DESKTOP_CONTROLS = [
       '#search',
-      '.controls select',
-      '.row2 select',
+      '#sourceTrigger',
+      '#dateTrigger',
       '#clearFilters',
       '.theme-toggle',
       '#loadMoreBtn',
