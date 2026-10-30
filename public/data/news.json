@@ -1,7 +1,240 @@
 {
-  "updated": "2026-10-30T18:05:12.189Z",
-  "count": 98,
+  "updated": "2026-10-30T22:28:50.046Z",
+  "count": 104,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "published": "Fri, 30 Oct 2026 21:54:34 +0000",
+      "summary": "Intel’s stock fell sharply, erasing $12 billion from the government’s stake, amid declining PC sales and AI-driven component demand driving up PC prices.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?resize=1200,800",
+      "whyItMatters": "Tech investors should watch Intel’s valuation shift and its impact on AI hardware supply chains."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "published": "Fri, 30 Oct 2026 21:26:59 +0000",
+      "summary": "Suggests quick Halloween costumes for tech nerds, like an AI agent icon, a PHP vulnerability, or a sleepy Bryan Johnson.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2170662558.jpg?resize=1200,800",
+      "whyItMatters": "Shows playful, tech-themed ideas that resonate with coding culture."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+      "published": "Fri, 30 Oct 2026 21:19:26 +0000",
+      "summary": "A contractor integrated an AI agent into a Pentagon system, discussed Anthropic’s IPO filing, and volunteers preparing to counter ICE at the midterms.",
+      "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
+      "whyItMatters": "Highlights AI security risks and political activism involving emerging tech."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Cracks are emerging in the AI spending boom",
+      "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "published": "Fri, 30 Oct 2026 21:17:40 +0000",
+      "summary": "Big Tech is investing billions in AI infrastructure, yet debt, cash flow issues, and investor doubt question the boom’s sustainability.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
+      "whyItMatters": "Tech readers should watch for potential shifts in AI funding and corporate strategy."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Exclusive details about Akai’s MPC Sample Key",
+      "link": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive",
+      "published": "2026-10-30T21:01:32.000Z",
+      "summary": "Akai’s upcoming MPC Sample Key will feature open-source software, enabling modders to customize it, with early images revealing its capabilities.",
+      "excerpt": "Akai teased its new MPC Sample Key on Instagram earlier this week, and said it plans to open-source its software so the modding community can hack it to their hearts' delight. While there's no word yet on when the device will launch or how much it will cost, The Verge has received exclusive images of the upcoming instrument that offer some details about its feature set. While the Sample Key shares many of the same…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Akai_Sample_Key_DSC01934_WEB.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Open-source hardware invites community innovation, potentially extending the device’s lifespan and functionality."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "published": "2026-10-30T20:48:43.000Z",
+      "summary": "OpenAI CEO Sam Altman argues that RAM should reside in data centers rather than personal PCs, citing supply chain and performance concerns.",
+      "excerpt": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lot of people want local inference. And somehow, they assume that the problem is solved now because we are going to have…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech readers should note this shift could affect local AI inference and hardware demand."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "published": "Fri, 30 Oct 2026 20:40:13 +0000",
+      "summary": "The article discusses a Dartmouth provost who warned about AI cheating but was dismissed for using AI himself.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2228700612-1152x648.jpg",
+      "whyItMatters": "Highlights ethical contradictions in academia’s AI policies."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "AI-powered game development is 'leading to an explosion of content,' Roblox says, as it brags about 70,000 games published on its platform in the last 5 months alone",
+      "link": "https://www.pcgamer.com/software/ai/ai-powered-game-development-is-leading-to-an-explosion-of-content-roblox-says-as-it-brags-about-70-000-games-published-on-its-platform-in-the-last-5-months-alone/",
+      "published": "Fri, 30 Oct 2026 20:39:57 +0000",
+      "summary": "Roblox highlights AI-driven game creation, noting 70,000 new games in five months, while Steam faces AI quality issues.",
+      "image": "https://cdn.mos.cms.futurecdn.net/F5pVc8uQjTuUcWQjaREnac-1920-80.jpg",
+      "readMinutes": 4,
+      "whyItMatters": "Shows AI’s rapid impact on content creation and platform competition."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
+      "link": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+      "published": "Fri, 30 Oct 2026 20:38:46 +0000",
+      "summary": "A supply‑chain attack injected malicious Claude extensions into thousands of developer machines, but flawed code limited the attacker’s spread.",
+      "image": "https://media.wired.com/photos/6ae4bfbc8b1b5cec21132f41/master/pass/103026-HACK_.jpg",
+      "whyItMatters": "Shows how vulnerable AI extensions can compromise developer environments, highlighting the need for secure code reviews."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Darkbloom, which allowed Mac users to rent out their GPUs for AI inference, warns of low payouts",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/30/darkbloom-which-allowed-mac-users-to-rent-out-their-gpus-for-ai-inference-warns-of-low-payouts/5306782",
+      "published": "Fri, 30 Oct 2026 20:32:32 +0000",
+      "summary": "Darkbloom, a platform for renting Mac GPUs for AI inference, reports low payouts due to falling token prices.",
+      "image": "https://image.theregister.com/?imageId=227887&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech users should watch token volatility affecting GPU rental earnings."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "published": "2026-10-30T20:26:10.000Z",
+      "summary": "Major AI firms will adopt a shared standard allowing publishers to opt out of AI scraping via a single policy token.",
+      "excerpt": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal is proposed by Kevin Kelley, a technical lead for standards at…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It simplifies content control for publishers and could curb unauthorized data use by AI models."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nvidia store quietly pulls the RTX 5080 following RTX 5090 removal — street prices climb to 2.2X MSRP",
+      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp",
+      "published": "Fri, 30 Oct 2026 20:13:10 +0000",
+      "summary": "Nvidia has quietly removed the RTX 5080 from its store, following the RTX 5090, as resale prices surge to 2.2 times MSRP.",
+      "image": "https://cdn.mos.cms.futurecdn.net/wBRx7KSSQTRptohLwufHcn-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "It signals supply constraints and inflated secondary market, affecting gamers and hardware buyers."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Intel’s woes wipe out $1 trillion of semiconductor market cap in one day — PC market bloodbath leaves few chip stocks unscathed",
+      "link": "https://www.tomshardware.com/pc-components/cpus/intels-woes-wipe-out-usd1-trillion-of-semiconductor-market-cap-in-one-day-pc-market-bloodbath-leaves-few-chip-stocks-unscathed",
+      "published": "Fri, 30 Oct 2026 20:06:11 +0000",
+      "summary": "Intel's gloomy outlook for its PC business wipes out $1 trillion of semiconductor market capitalization in a day, barely affects Apple.",
+      "image": "https://cdn.mos.cms.futurecdn.net/KiJGR8WJv72p6G8Qcysneb-1920-80.jpg",
+      "readMinutes": 4
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "link": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+      "published": "Fri, 30 Oct 2026 19:55:13 +0000",
+      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/06/Crosby-cofounders.jpg?resize=1200,900"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see",
+      "link": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
+      "published": "Fri, 30 Oct 2026 19:37:12 +0000",
+      "summary": "n0n-existent security",
+      "image": "https://image.theregister.com/?imageId=5306779&width=800",
+      "readMinutes": 4
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
+      "link": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+      "published": "Fri, 30 Oct 2026 19:31:02 +0000",
+      "summary": "AmAmerica’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in…",
+      "excerpt": "AmAmerica’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg?w=1920",
+      "readMinutes": 3
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "link": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+      "published": "Fri, 30 Oct 2026 19:30:52 +0000",
+      "summary": "But it's still early days for the relatively new e-commerce use case.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2301817894-1024x648.jpg"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC",
+      "link": "https://www.pcgamer.com/games/new-pc-games-2027/",
+      "published": "Fri, 30 Oct 2026 19:11:36 +0000",
+      "summary": "This is where I'd put the GTA 6 PC release date, if we had one.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Fv3G2zisFnsMoyBk9YBJ2L-1920-80.jpg",
+      "readMinutes": 8
+    },
+    {
+      "source": "SpaceNews",
+      "category": "news",
+      "title": "ESI supplying solar array components to missile defense programs",
+      "link": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
+      "published": "Fri, 30 Oct 2026 18:54:34 +0000",
+      "summary": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array components to missile defense programs…",
+      "excerpt": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array components to missile defense programs appeared first on SpaceNews."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Star Trek Online players are holding public vigils to mourn Patrick Stewart",
+      "link": "https://www.pcgamer.com/games/mmo/star-trek-online-players-are-holding-public-vigils-to-mourn-patrick-stewart/",
+      "published": "Fri, 30 Oct 2026 18:53:22 +0000",
+      "summary": "In orbit and planetside, the MMO's player base is honoring its most-loved captain.",
+      "image": "https://cdn.mos.cms.futurecdn.net/mSbgaHSN2h9zg5w9vDTo54-1920-80.jpg",
+      "readMinutes": 3
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Romero Games has a new publisher for the game Xbox abandoned, but its 110-person team is now just 16 devs: 'I needed to basically design a new game that could use as much of that stuff as possible'",
+      "link": "https://www.pcgamer.com/games/fps/romero-games-has-a-new-publisher-for-the-game-xbox-abandoned-but-its-110-person-team-is-now-just-16-devs-i-needed-to-basically-design-a-new-game-that-could-use-as-much-of-that-stuff-as-possible/",
+      "published": "Fri, 30 Oct 2026 18:33:30 +0000",
+      "summary": "Champions adjust.",
+      "image": "https://cdn.mos.cms.futurecdn.net/4pSu2dTvKQXki2NpfLme8c-1920-80.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Celebrate Warhammer Day on the 31st of October with these 20 Warhammer 40K-themed products — the best Space Marine gear this side of the Warp",
+      "link": "https://www.tomshardware.com/gift-guides-seasonal-sales/celebrate-warhammer-day-on-the-31st-of-october-with-these-20-warhammer-40k-themed-products-the-best-space-marine-gear-this-side-of-the-warp",
+      "published": "Fri, 30 Oct 2026 18:30:00 +0000",
+      "summary": "Warhammer Day is celebrated on October 31st 2026, 2026. Check out these great gift ideas for all fans of the grimdark future.",
+      "image": "https://cdn.mos.cms.futurecdn.net/t6dCXLDYnmivLFrDD8g3xH-1920-80.jpg",
+      "readMinutes": 4
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "published": "2026-10-30T18:21:38.000Z",
+      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow…",
+      "excerpt": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in silent grace Starlight feeds my core. ✨ Google says it tried out other space-themed…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&strip=all&crop=0,0,100,100"
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -97,16 +330,6 @@
       "whyItMatters": "Highlights shifting hardware strategy impacting AI infrastructure and consumer tech trends."
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Which is scarier, Amnesia: The Dark Descent or Alien: Isolation? Vote now!",
-      "link": "https://www.pcgamer.com/games/horror/which-is-scarier-amnesia-the-dark-descent-or-alien-isolation-vote-now/",
-      "published": "Fri, 30 Oct 2026 16:30:17 +0000",
-      "summary": "A final vote decides whether Amnesia: The Dark Descent or Alien: Isolation is scarier on PC.",
-      "image": "https://cdn.mos.cms.futurecdn.net/tacFgjKKgbufeB8YqDE4Kb-1920-80.jpg",
-      "whyItMatters": "It lets gamers weigh in on a popular horror showdown."
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM — Sam Altman says data centers offer better utilization",
@@ -197,16 +420,6 @@
       "readMinutes": 6
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "This electric screwdriver uses a camera and AI to figure out what bit you need",
-      "link": "https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter",
-      "published": "2026-10-30T14:23:26.000Z",
-      "summary": "Companies like Hoto and Fanttik have elevated the design and functionality of tools like electric screwdrivers, but Arrowmax wants to make them smarter by adding a camera and AI that work together to eliminate the trial and error of…",
-      "excerpt": "Companies like Hoto and Fanttik have elevated the design and functionality of tools like electric screwdrivers, but Arrowmax wants to make them smarter by adding a camera and AI that work together to eliminate the trial and error of finding the exact type and size of bit you need. It's convenient, but also helpful, as choosing the wrong size could potentially leave you with a stripped screw and a much harder repair…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/arrowspace1.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
@@ -236,15 +449,6 @@
       "readMinutes": 18
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-      "published": "Fri, 30 Oct 2026 13:54:25 +0000",
-      "summary": "DoorDash said that it is open to working with third-party agent makers.",
-      "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1232015093.jpg?resize=1200,800"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
@@ -272,35 +476,6 @@
       "summary": "All that up-front investment needs time to take effect, and speeding individual tasks won't necessarily boost the entire firm",
       "image": "https://image.theregister.com/?imageId=5306604&width=800",
       "readMinutes": 3
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Silicon Valley wants you to invest in miracles",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
-      "published": "2026-10-30T13:11:05.000Z",
-      "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential…",
-      "excerpt": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, Anthropic suggests in a letter at the top of its S-1 filing, you have to just believe. Anthropic's…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
-      "published": "2026-10-30T13:01:14.000Z",
-      "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints…",
-      "excerpt": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, the world deserves to understand how the universe works,\" Altman said during an episode…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Vrg_illo_Sam_Altman_stock_trial.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-      "link": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-      "published": "Fri, 30 Oct 2026 13:00:00 +0000",
-      "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Runware-Factory-.jpg?w=1200"
     },
     {
       "source": "The Register",
@@ -342,6 +517,17 @@
       "image": "https://media.wired.com/photos/6ae463bdc091c8b8d1ec019e/master/pass/102026-Binance%20Hacked.jpg"
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
+      "link": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
+      "published": "Fri, 30 Oct 2026 11:30:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinicians, they can…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/260320_AIfarming3.jpg?fit=2128,1196",
+      "readMinutes": 4
+    },
+    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months",
@@ -349,16 +535,6 @@
       "published": "Fri, 30 Oct 2026 11:26:56 +0000",
       "summary": "Cisco President Jeetu Patel has handed a 27-year-old ex-startup founder a huge job to rewrite 98% of Cisco's legacy code within 24 months.",
       "image": "https://cdn.mos.cms.futurecdn.net/VWRdrgLNKxcnN3hENdERW4-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Former esports commentator builds his own custom mouse shell generator for 3D printing that doesn’t use AI",
-      "link": "https://www.tomshardware.com/peripherals/gaming-mice/esports-commentator-builds-his-own-custom-mouse-shell-generator-for-3d-printing-that-doesnt-use-ai-mausstudio-automatically-detects-buttons-screwholes-and-sensor-locations",
-      "published": "Fri, 30 Oct 2026 11:20:00 +0000",
-      "summary": "A Counter-Strike commentator just showed the demo of his customizable gaming mouse shell generator for 3D printing that detects key components like mouse buttons, the scroll wheel, and screw hole locations without using AI.",
-      "image": "https://cdn.mos.cms.futurecdn.net/D9TMWCpeBeSwjcZHS3auQV-1920-80.jpg",
       "readMinutes": 2
     },
     {
@@ -381,26 +557,6 @@
       "readMinutes": 2
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Benchmarking Nvidia’s Vera CPU for the data center — standalone Vera tested against Granite Rapids-AP and EPYC Turin",
-      "link": "https://www.tomshardware.com/pc-components/cpus/benchmarking-nvidias-vera-cpu-for-the-data-center-standalone-vera-tested-against-granite-rapids-ap-and-epyc-turin",
-      "published": "Fri, 30 Oct 2026 11:00:00 +0000",
-      "summary": "Nvidia gave us access to its Vera data center CPU for testing against Intel's Granite Rapids-AP and AMD's EPYC Turin.",
-      "image": "https://cdn.mos.cms.futurecdn.net/FmGUof6VmKb5HC58NTycvf-1920-80.jpg",
-      "readMinutes": 19
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Domestic droid gone amok? Don't worry, you're covered",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/30/domestic-droid-gone-amok-dont-worry-youre-covered/5306396",
-      "published": "Fri, 30 Oct 2026 10:14:00 +0000",
-      "summary": "Insurance firms look to insulate domestic humanoid robot owners against the inevitable chaos they will bring",
-      "image": "https://image.theregister.com/?imageId=260510&width=800",
-      "readMinutes": 2
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "November’s Night Sky Notes: Light-Day Away",
@@ -412,27 +568,6 @@
       "readMinutes": 2
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials",
-      "link": "https://www.wired.com/story/gifts-for-friends/",
-      "published": "Fri, 30 Oct 2026 09:33:00 +0000",
-      "summary": "A curated list of WIRED‑tested wellness gadgets, kitchen tools, and cozy comforts recommended for gifting to friends in 2026.",
-      "image": "https://media.wired.com/photos/6ae3c65712651ae6c2d7998a/master/pass/Best%20Gifts%20for%20Friends%20102026%20top%20art%20SOURCE%20shop.com.jpg",
-      "whyItMatters": "Tech‑savvy readers will discover practical, high‑quality gadgets that blend wellness and everyday convenience."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "UK Shelly reseller warns payment data stolen after malware found on website",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/30/uk-shelly-reseller-warns-payment-data-stolen-after-malware-found-on-website/5306250",
-      "published": "Fri, 30 Oct 2026 09:30:00 +0000",
-      "summary": "UK Shelly reseller discovered malware on its website, leading to stolen payment data and fraudulent card charges for customers.",
-      "image": "https://image.theregister.com/?imageId=5304901&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech-savvy readers should monitor site security to prevent similar data breaches and protect customer transactions."
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
@@ -442,27 +577,6 @@
       "excerpt": "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new report suggests that the global incidence of anorexia nervosa and bulimia nervosa shot up between 1990 and 2023—by a whopping 71%. By 2023,…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261028_GLP1EatingDisorder.jpg?resize=1200,600",
       "readMinutes": 5
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Google's search revenue Ferrari hits an AI-powered speed bump",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
-      "published": "Fri, 30 Oct 2026 07:33:00 +0000",
-      "summary": "Ferrari faces challenges as AI integration slows its performance gains.",
-      "image": "https://image.theregister.com/?imageId=5306524&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "Tech readers should watch AI’s impact on automotive innovation."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "published": "Fri, 30 Oct 2026 01:20:48 +0000",
-      "summary": "A University of Kentucky administrator secured a religious exemption to avoid using AI at work without professing belief in a deity.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2274650383.jpg?resize=1200,840",
-      "whyItMatters": "Shows how religious exemptions can be applied to AI policies, impacting workplace tech compliance."
     },
     {
       "source": "NASA",
@@ -477,16 +591,6 @@
       "whyItMatters": "Shows how astronauts maintain morale and culture in space, inspiring tech-savvy readers about resourceful creativity."
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
-      "link": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
-      "published": "Thu, 29 Oct 2026 20:18:49 +0000",
-      "summary": "Microsoft adds a cloud recovery feature to Windows 11 to fix boot issues amid declining PC sales.",
-      "readMinutes": 2,
-      "whyItMatters": "Tech users benefit from easier recovery, reflecting Microsoft's shift toward cloud solutions."
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "Consumer Appetite for Personal AI Goes Mainstream",
@@ -498,15 +602,6 @@
       "readMinutes": 5
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Trump declares robot imports a national security threat",
-      "link": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
-      "published": "Thu, 29 Oct 2026 19:07:53 +0000",
-      "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/6k_quick_delivery_robots-1152x648.jpg"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -516,17 +611,6 @@
       "excerpt": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dated its minerals did they realize the nearly 2-pound (800-gram) rock was a piece of Mars that formed more than 4.1 billion years ago, making it one […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg?w=2048",
       "readMinutes": 5
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
-      "link": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
-      "published": "Thu, 29 Oct 2026 18:00:35 +0000",
-      "summary": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test pilot and aerospace engineer with decades of experience in flight research and…",
-      "excerpt": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test pilot and aerospace engineer with decades of experience in flight research and operations, has served as the center’s acting director since March. “Troy has spent his career pushing the boundaries of flight, […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/troyasher.jpg?w=1638",
-      "readMinutes": 3
     },
     {
       "source": "SpaceNews",
@@ -695,17 +779,6 @@
       "excerpt": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The post Craft Prospect kicks off PERSEUS project to advance optical communications for space appeared first on SpaceNews."
     },
     {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "How solid-state transformers could help power the AI boom",
-      "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
-      "published": "Tue, 27 Oct 2026 09:00:00 +0000",
-      "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a…",
-      "excerpt": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade. As the world races to meet rising electricity demand from…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_digitaltransformers.jpg?resize=1200,600",
-      "readMinutes": 7
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
@@ -808,6 +881,7 @@
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
     },
     {
@@ -848,16 +922,6 @@
       "published": "Wed, 21 Oct 2026 14:29:57 +0000",
       "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power…",
       "excerpt": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller appeared first on SpaceNews."
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Summer of Quantum: Building momentum for space-based QKD",
-      "link": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
-      "published": "Wed, 21 Oct 2026 11:54:30 +0000",
-      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for…",
-      "excerpt": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Building momentum for space-based QKD appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1"
     },
     {
       "source": "GitHub Blog",
