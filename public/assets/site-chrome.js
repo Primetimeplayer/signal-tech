@@ -112,4 +112,21 @@
       navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(function () {});
     });
   }
+
+  // Beehiiv's embed posts a success message. Show it without replacing the form.
+  window.addEventListener('message', function (event) {
+    var host = '';
+    try { host = new URL(event.origin).hostname; } catch (err) { return; }
+    if (!/(^|\.)beehiiv\.com$/i.test(host)) return;
+    var raw = event.data;
+    if (raw && typeof raw === 'object') {
+      try { raw = JSON.stringify(raw); } catch (err) { raw = ''; }
+    }
+    var text = String(raw || '');
+    if (!/subscrib/i.test(text) || !/success|complete|confirm/i.test(text)) return;
+    var thanks = document.getElementById('newsletterThanks');
+    if (!thanks) return;
+    thanks.hidden = false;
+    thanks.textContent = 'You are subscribed. The Friday briefing will arrive in your inbox.';
+  });
 })();

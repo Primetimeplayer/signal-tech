@@ -14,6 +14,15 @@
     if (statusEl) {
       statusEl.textContent = statusClock ? `${t('updated')} ${statusClock}` : t('loading');
     }
+    // Language apply rewrites every data-i18n-aria name, including the theme
+    // toggle. Put the "Switch to … theme" name back, and rebuild the source
+    // and date lists so a locale change cannot leave another control's options behind.
+    if (document.getElementById('themeToggle')) {
+      setThemeIcon(document.documentElement.getAttribute('data-theme') || 'dark');
+    }
+    lockDateFilter();
+    populateSources();
+    syncFilterChrome();
     syncLocaleMenus();
     if (searchRowEl && searchRowEl.classList.contains('is-open')) renderSearchSuggest();
     if (signalIssue) renderSignalIssue();
@@ -657,20 +666,41 @@ initAuth();
     return chips;
   }
 
+  // Date options are a fixed time range. Rebuilding them here means a region
+  // or language list can never be copied into this control.
+  const DATE_FILTER_OPTIONS = [
+    ['all', 'anyTime'],
+    ['today', 'today'],
+    ['week', 'thisWeek'],
+  ];
+
+  function lockDateFilter() {
+    if (!dateFilterEl) return;
+    const current = dateFilterEl.value;
+    const expected = DATE_FILTER_OPTIONS.map(([value]) => value);
+    const actual = Array.from(dateFilterEl.options).map((opt) => opt.value);
+    const same = actual.length === expected.length && actual.every((value, index) => value === expected[index]);
+    if (!same) dateFilterEl.replaceChildren();
+    DATE_FILTER_OPTIONS.forEach(([value, key], index) => {
+      const opt = dateFilterEl.options[index] || dateFilterEl.appendChild(document.createElement('option'));
+      opt.value = value;
+      opt.textContent = t(key);
+    });
+    dateFilterEl.value = expected.includes(current) ? current : 'all';
+  }
+
   function populateSources() {
-    // The source/time selects are hidden state holders at the end of <body>
-    // (no longer toolbar controls), but the filter logic still reads them,
-    // so they stay populated.
     if (!sourceFilterEl) return;
 
-    // Group sources by category for easier scanning
+    // Publication names only. Region and language values live on their own
+    // selects and are never copied in here.
     const byCategory = { news: [], papers: [], reviews: [], reddit: [] };
     const sources = [...new Set(allItems.map((i) => i.source).filter(Boolean))].sort();
     sources.forEach((s) => {
       const item = allItems.find((i) => i.source === s);
       const cat = item ? item.category : null;
       if (cat && byCategory[cat]) byCategory[cat].push(s);
-      else byCategory.news.push(s); // fallback
+      else byCategory.news.push(s);
     });
 
     const current = sourceFilterEl.value;
@@ -686,7 +716,15 @@ initAuth();
       }
     }
     sourceFilterEl.innerHTML = html;
-    if ([...sourceFilterEl.options].some((o) => o.value === current)) sourceFilterEl.value = current;
+    const allowed = new Set(['all', ...sources]);
+    Array.from(sourceFilterEl.options).forEach((opt) => {
+      if (!allowed.has(opt.value)) opt.remove();
+    });
+    if (allowed.has(current)) sourceFilterEl.value = current;
+    else {
+      sourceFilterEl.value = 'all';
+      activeSource = 'all';
+    }
   }
 
   function storyImageUrl(item) {
@@ -714,10 +752,20 @@ initAuth();
     return 'news';
   }
 
-  function faviconMark(host, loading) {
+  function imageAltText(item) {
+    return cleanTitle(item && item.title) || t('storyImage');
+  }
+
+  function logoAltText(item, host) {
+    const name = cleanTitle((item && item.source) || host || '');
+    return name ? t('logoOf', { name }) : t('storyImage');
+  }
+
+  function faviconMark(host, loading, alt) {
     if (!host) return '';
     const src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=64`;
-    return `<img class="media-fallback-mark" alt="" width="28" height="28" loading="${loading}" decoding="async" referrerpolicy="no-referrer" src="${escapeAttr(src)}" onerror="this.hidden=true">`;
+    const label = alt || t('storyImage');
+    return `<img class="media-fallback-mark" alt="${escapeAttr(label)}" width="28" height="28" loading="${loading}" decoding="async" referrerpolicy="no-referrer" src="${escapeAttr(src)}" onerror="this.hidden=true">`;
   }
 
   // The hero keeps a picture box, so a story with no photo gets a
@@ -729,7 +777,7 @@ initAuth();
     const host = publisherHost(item && item.link);
     const loading = kind === 'hero' ? 'eager' : 'lazy';
     const label = catLabel(category);
-    return `<span class="card-media ${kind}-media media-fallback media-tile" data-category="${escapeAttr(category)}" aria-hidden="true">${faviconMark(host, loading)}<span class="media-tile-label">${escapeHtml(label)}</span></span>`;
+    return `<span class="card-media ${kind}-media media-fallback media-tile" data-category="${escapeAttr(category)}" aria-hidden="true">${faviconMark(host, loading, logoAltText(item, host))}<span class="media-tile-label">${escapeHtml(label)}</span></span>`;
   }
 
   // A failed story photo is removed so the broken-image icon never shows.
@@ -748,7 +796,7 @@ initAuth();
     if (host) {
       const mark = document.createElement('img');
       mark.className = 'media-fallback-mark';
-      mark.alt = '';
+      mark.alt = (img.alt && img.alt.trim()) || (host ? t('logoOf', { name: host }) : t('storyImage'));
       mark.width = 28;
       mark.height = 28;
       mark.setAttribute('referrerpolicy', 'no-referrer');
@@ -805,8 +853,9 @@ initAuth();
     if (kind === 'hero' && heroLeadsViewport()) preloadHeroImage(url);
     const loading = kind === 'hero' ? 'eager' : 'lazy';
     const priority = kind === 'hero' ? ' fetchpriority="high"' : '';
+    const sizes = kind === 'hero' ? ' sizes="(max-width: 800px) 100vw, 640px"' : ' sizes="96px"';
     const srcAttr = ` src="${escapeAttr(sized.src)}" srcset="${escapeAttr(sized.srcset)}"`;
-    return `<img class="${cls}" alt="" width="${width}" height="${height}" loading="${loading}" decoding="async" referrerpolicy="no-referrer"${priority}${srcAttr} data-src="${escapeAttr(url)}" data-category="${escapeAttr(storyCategory(item))}" data-source-host="${escapeAttr(host)}" onerror="signalImageFallback(this)">`;
+    return `<img class="${cls}" alt="${escapeAttr(imageAltText(item))}" width="${width}" height="${height}" loading="${loading}" decoding="async" referrerpolicy="no-referrer"${priority}${sizes}${srcAttr} data-src="${escapeAttr(url)}" data-category="${escapeAttr(storyCategory(item))}" data-source-host="${escapeAttr(host)}" onerror="signalImageFallback(this)">`;
   }
 
   function mountCardImages(root) {
@@ -869,7 +918,7 @@ initAuth();
     const fallback = `<span class="source-favicon source-favicon-fallback"${host ? ' hidden' : ''}>${letter}</span>`;
     if (!host) return fallback;
     const src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=32`;
-    return `<img class="source-favicon" src="${escapeAttr(src)}" alt="" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.hidden=true;var n=this.nextElementSibling;if(n)n.hidden=false">${fallback}`;
+    return `<img class="source-favicon" src="${escapeAttr(src)}" alt="${escapeAttr(logoAltText(item, host))}" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.hidden=true;var n=this.nextElementSibling;if(n)n.hidden=false">${fallback}`;
   }
 
   function storyAuthor(item) {
@@ -947,11 +996,13 @@ initAuth();
   }
 
   function cardActions(item, saved, note) {
+    const title = cleanTitle(item && item.title) || t('storyImage');
+    const saveLabel = saved ? t('savedStory', { title }) : t('saveStory', { title });
     return `
           <div class="card-actions">
-            <button class="icon-btn save-btn${saved ? ' active' : ''}" data-link="${escapeAttr(item.link)}" aria-pressed="${saved ? 'true' : 'false'}">${saved ? `${BOOKMARK_SVG.replace('FILL', 'currentColor')} ${escapeHtml(t('savedStar'))}` : `${BOOKMARK_SVG.replace('FILL', 'none')} ${escapeHtml(t('save'))}`}</button>
-            <button class="icon-btn share-btn" data-link="${escapeAttr(item.link)}">⇪ ${escapeHtml(t('share'))}</button>
-            <button type="button" class="icon-btn preview-btn" data-link="${escapeAttr(item.link)}">⤢ ${escapeHtml(t('preview'))}</button>
+            <button type="button" class="icon-btn save-btn${saved ? ' active' : ''}" data-link="${escapeAttr(item.link)}" aria-pressed="${saved ? 'true' : 'false'}" aria-label="${escapeAttr(saveLabel)}">${saved ? `${BOOKMARK_SVG.replace('FILL', 'currentColor')} ${escapeHtml(t('savedStar'))}` : `${BOOKMARK_SVG.replace('FILL', 'none')} ${escapeHtml(t('save'))}`}</button>
+            <button type="button" class="icon-btn share-btn" data-link="${escapeAttr(item.link)}" aria-label="${escapeAttr(t('shareStory', { title }))}">⇪ ${escapeHtml(t('share'))}</button>
+            <button type="button" class="icon-btn preview-btn" data-link="${escapeAttr(item.link)}" aria-label="${escapeAttr(t('previewStory', { title }))}">⤢ ${escapeHtml(t('preview'))}</button>
           </div>
           ${saved ? `
           <div class="note-box">
@@ -969,6 +1020,7 @@ initAuth();
       .filter((i) => i.published && !Number.isNaN(new Date(i.published).getTime()) && !isPromoItem(i))
       .slice(0, 10);
     const latestCountEl = document.getElementById('latestCount');
+    if (latestRowEl) latestRowEl.setAttribute('aria-busy', 'false');
     if (!latest.length) {
       latestSectionEl.hidden = true;
       if (latestCountEl) latestCountEl.textContent = '';
@@ -1155,6 +1207,73 @@ initAuth();
       !!searchTerm.trim();
   }
 
+  function syncFilterChrome() {
+    const active = hasActiveFilters();
+    const row = document.getElementById('feedFilters');
+    if (row) row.classList.toggle('is-filtering', active);
+    const status = document.getElementById('filtersStatus');
+    if (status) {
+      status.hidden = !active;
+      status.textContent = active ? t('filtersActive') : '';
+    }
+    if (sourceFilterEl) sourceFilterEl.classList.toggle('is-active', activeSource !== 'all');
+    if (dateFilterEl) dateFilterEl.classList.toggle('is-active', activeDate !== 'all');
+    if (clearFiltersEl) clearFiltersEl.hidden = !active;
+  }
+
+  function emptyFeedHtml() {
+    const term = searchTerm.trim();
+    if (term) {
+      return `<div class="empty empty-search" role="status"><p>${escapeHtml(t('emptySearch', { q: term }))}</p></div>`;
+    }
+    if (savedOnly && !Object.keys(savedMap).length) {
+      const body = authState.authenticated ? t('empty') : t('savedEmptyBody');
+      const login = authState.authenticated ? '' : `<button type="button" class="empty-login">${escapeHtml(t('logIn'))}</button>`;
+      return `<div class="empty empty-saved" role="status"><p class="empty-title">${escapeHtml(t('savedEmptyTitle'))}</p><p>${escapeHtml(body)}</p>${login}</div>`;
+    }
+    return `<div class="empty" role="status"><p>${escapeHtml(t('empty'))}</p></div>`;
+  }
+
+  function wireEmptyActions(root) {
+    if (!root) return;
+    root.querySelectorAll('.empty-login').forEach((btn) => {
+      if (btn.dataset.bound === '1') return;
+      btn.dataset.bound = '1';
+      btn.addEventListener('click', () => {
+        window.location.href = `${AUTH_BASE}/auth/google`;
+      });
+    });
+  }
+
+  function publishStoryJsonLd(items) {
+    let node = document.getElementById('storyJsonLd');
+    if (!node) {
+      node = document.createElement('script');
+      node.id = 'storyJsonLd';
+      node.type = 'application/ld+json';
+      document.head.appendChild(node);
+    }
+    const list = (items || []).slice(0, 12).filter((item) => item && item.link).map((item, index) => {
+      const article = {
+        '@type': 'NewsArticle',
+        headline: cleanTitle(item.title) || item.link,
+        url: item.link,
+        publisher: { '@id': 'https://signaltechnews.com/#organization' },
+      };
+      if (item.published) article.datePublished = item.published;
+      const image = storyImageUrl(item);
+      if (image) article.image = image;
+      if (item.source) article.author = { '@type': 'Organization', name: cleanTitle(item.source) || item.source };
+      return { '@type': 'ListItem', position: index + 1, item: article };
+    });
+    node.textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: 'Signal Tech stories',
+      itemListElement: list,
+    }).replace(/</g, '\\u003c');
+  }
+
   // One reset for every filter control: sidebar categories, the source and time
   // selects, the Hardware/Saved toggles and the search box, all back to their
   // initial state so the feed returns to exactly what it showed on load.
@@ -1215,10 +1334,16 @@ initAuth();
     clearErrorBanner();
   }
 
+  function setSkeletonVisible(on) {
+    if (!skeletonEl) return;
+    skeletonEl.style.display = on ? 'grid' : 'none';
+    skeletonEl.setAttribute('aria-busy', on ? 'true' : 'false');
+    const main = document.getElementById('main');
+    if (main) main.setAttribute('aria-busy', on ? 'true' : 'false');
+  }
+
   function hideSkeletons() {
-    document.querySelectorAll('.skeleton-grid').forEach((el) => {
-      el.style.display = 'none';
-    });
+    setSkeletonVisible(false);
   }
 
   function showFeedFailure(serial) {
@@ -1255,7 +1380,7 @@ initAuth();
 
     // The reset control only exists while something is actually narrowed down,
     // so the default, unfiltered view stays exactly what it was before.
-    clearFiltersEl.hidden = !hasActiveFilters();
+    syncFilterChrome();
     const latestWrapEl = document.getElementById('latest');
     if (latestWrapEl) latestWrapEl.classList.toggle('is-filtered-out', hasActiveFilters());
 
@@ -1263,12 +1388,13 @@ initAuth();
     // "loading feed…" line, and leave the retry banner as the status.
     if (feedFailed && !allItems.length) {
       feedEl.style.display = 'none';
-      skeletonEl.style.display = 'none';
+      setSkeletonVisible(false);
       loadMoreWrapEl.style.display = 'none';
       if (statusEl) {
         statusEl.textContent = '';
         statusEl.hidden = true;
       }
+      publishStoryJsonLd([]);
       placeNewsletterCard();
       syncHash();
       return;
@@ -1279,10 +1405,12 @@ initAuth();
     // work?" — there were simply no results for the current filters.
     if (!items.length) {
       feedEl.style.display = 'none';
-      skeletonEl.style.display = 'none';
+      setSkeletonVisible(false);
       loadMoreWrapEl.style.display = 'none';
-      feedEl.innerHTML = `<div class="empty">${escapeHtml(t('empty'))}</div>`;
+      feedEl.innerHTML = emptyFeedHtml();
       feedEl.style.display = 'block';
+      wireEmptyActions(feedEl);
+      publishStoryJsonLd([]);
       placeNewsletterCard();
       syncHash();
       return;
@@ -1293,7 +1421,7 @@ initAuth();
     // turns it on at the start of every fetch). Flip both back here: the
     // skeleton off, the grid on — otherwise the placeholders stay on screen
     // and the freshly rendered cards never appear.
-    skeletonEl.style.display = 'none';
+    setSkeletonVisible(false);
     feedEl.style.display = 'grid';
     loadMoreWrapEl.style.display = 'none';
 
@@ -1481,7 +1609,11 @@ initAuth();
       </article>`;
     }).join('');
 
+    const savedNote = (savedOnly && !authState.authenticated)
+      ? `<div class="saved-sync-note" role="status"><p>${escapeHtml(t('savedLocalNote'))}</p><button type="button" class="empty-login">${escapeHtml(t('logIn'))}</button></div>`
+      : '';
     feedEl.innerHTML = `
+      ${savedNote}
       <div class="feed-top">
         <section class="briefing-col" aria-label="${escapeAttr(t('briefing'))}">
           <h2 class="feed-column-title">${escapeHtml(t('briefing'))}</h2>
@@ -1496,6 +1628,8 @@ initAuth();
 
     placeNewsletterCard();
     wireFeed(feedEl);
+    wireEmptyActions(feedEl);
+    publishStoryJsonLd(visible);
     paintCardImages(feedEl);
     hydrateDeferredHeroes(feedEl);
     balanceQueue = items.filter((item) => item && item.link && !usedLinks.has(item.link));
@@ -1604,8 +1738,23 @@ initAuth();
     previewEl.id = 'storyPreview';
     previewEl.className = 'story-preview';
     previewEl.setAttribute('role', 'dialog');
+    previewEl.setAttribute('aria-modal', 'false');
     previewEl.setAttribute('aria-labelledby', 'storyPreviewTitle');
     previewEl.hidden = true;
+    previewEl.addEventListener('keydown', (e) => {
+      if (e.key !== 'Tab' || !previewEl.classList.contains('is-sheet')) return;
+      const items = Array.from(previewEl.querySelectorAll('button, a[href]')).filter((el) => !el.disabled);
+      if (!items.length) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
     previewEl.addEventListener('mouseenter', () => clearTimeout(previewHideTimer));
     previewEl.addEventListener('mouseleave', () => schedulePreviewHide());
     previewEl.addEventListener('click', (e) => {
@@ -1729,7 +1878,7 @@ initAuth();
     const when = relativeDate(item.published);
     el.innerHTML = `
       <button type="button" class="story-preview-close" aria-label="${escapeAttr(t('closePreview'))}">×</button>
-      ${img ? `<img class="story-preview-img" src="${escapeAttr(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}
+      ${img ? `<img class="story-preview-img" src="${escapeAttr(img)}" alt="${escapeAttr(imageAltText(item))}" width="520" height="292" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}
       <div class="story-preview-body">
         <p class="story-preview-meta">${textHtml(item.source || '')}${when ? ` · ${escapeHtml(when)}` : ''}</p>
         <h3 class="story-preview-title" id="storyPreviewTitle">${textHtml(item.title)}</h3>
@@ -1741,6 +1890,7 @@ initAuth();
     previewScrollY = window.scrollY;
     el.classList.remove('is-closing');
     el.classList.toggle('is-sheet', !!sheet);
+    el.setAttribute('aria-modal', sheet ? 'true' : 'false');
     el.style.left = '';
     el.style.top = '';
     el.hidden = false;
@@ -1813,12 +1963,19 @@ initAuth();
     document.addEventListener('keydown', (e) => {
       if (e.key !== 'Escape') return;
       clearTimeout(previewTimer);
-      if (previewIsOpen()) hidePreview(true);
+      if (!previewIsOpen()) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      hidePreview(true);
     });
     document.addEventListener('click', (e) => {
       if (!previewIsOpen()) return;
       if (previewEl.contains(e.target) || e.target.closest('.preview-btn')) return;
-      cancelPreview();
+      // A sheet is a modal: dismissing it from outside returns focus to the
+      // Preview button. A hover card is not, so it closes without a focus move.
+      const sheet = previewEl.classList.contains('is-sheet');
+      clearTimeout(previewTimer);
+      hidePreview(sheet);
     });
     window.addEventListener('scroll', () => {
       if (previewEl && previewEl.classList.contains('is-sheet')) return;
@@ -2156,7 +2313,7 @@ initAuth();
         statusEl.textContent = t('loading');
       }
       clearErrorBanner();
-      skeletonEl.style.display = 'grid';
+      setSkeletonVisible(true);
       feedEl.style.display = 'none';
       loadMoreWrapEl.style.display = 'none';
     }
@@ -2263,7 +2420,7 @@ initAuth();
   const sidebarCloseEl = document.getElementById('sidebarClose');
   // The search bar lives in the masthead, so it is listed alongside the
   // toolbar row: everything the drawer covers must stop taking input.
-  const sidebarBehindTargets = Array.from(document.querySelectorAll('.controls > .row2, .mast .search-row, .locale-controls, #topicBar .search-row, main, footer'));
+  const sidebarBehindTargets = Array.from(document.querySelectorAll('.skip-link, #heroSignup, .home-intro, .controls > .row2, .mast .search-row, .locale-controls, #topicBar .search-row, main, footer'));
   let sidebarInertSnapshot = null;
 
   function setSidebarOpen(open) {
@@ -2276,10 +2433,14 @@ initAuth();
         sidebarInertSnapshot = sidebarBehindTargets.map((el) => [el, el.inert]);
         sidebarBehindTargets.forEach((el) => { el.inert = true; });
       }
+      const closeBtn = document.getElementById('sidebarClose');
+      if (closeBtn) closeBtn.focus({ preventScroll: true });
     } else if (sidebarInertSnapshot) {
       sidebarInertSnapshot.forEach(([el, wasInert]) => { el.inert = wasInert; });
       sidebarInertSnapshot = null;
-      if (menuToggleEl && filtersEl.contains(document.activeElement)) menuToggleEl.focus();
+      if (menuToggleEl && (filtersEl.contains(document.activeElement) || document.activeElement === document.getElementById('sidebarClose'))) {
+        menuToggleEl.focus();
+      }
     }
   }
 
@@ -2293,6 +2454,7 @@ initAuth();
   });
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
+    if (previewIsOpen()) return;
     if (isSearchSuggestOpen()) {
       e.preventDefault();
       closeSearchSuggest();
@@ -2404,6 +2566,9 @@ initAuth();
   }
 
   function renderLocaleMenu(select, menu) {
+    // Region and language menus read only their own select. Source and date
+    // stay on #sourceFilter and #dateFilter.
+    if (!select || (select.id !== 'regionSelect' && select.id !== 'languageSelect')) return;
     const current = select.value;
     menu.replaceChildren();
     Array.from(select.options).forEach((opt) => {
@@ -2479,11 +2644,19 @@ initAuth();
       menu.addEventListener('keydown', (e) => {
         const items = Array.from(menu.querySelectorAll('.locale-option'));
         const index = items.indexOf(document.activeElement);
-        if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        if (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Home' || e.key === 'End') {
           e.preventDefault();
-          const next = e.key === 'ArrowDown' ? Math.min(items.length - 1, index + 1) : Math.max(0, index - 1);
+          let next = index;
+          if (e.key === 'ArrowDown') next = Math.min(items.length - 1, index + 1);
+          else if (e.key === 'ArrowUp') next = Math.max(0, index - 1);
+          else if (e.key === 'Home') next = 0;
+          else next = items.length - 1;
           const target = items[index === -1 ? 0 : next];
           if (target) target.focus();
+        } else if (e.key === 'Escape') {
+          e.preventDefault();
+          e.stopPropagation();
+          closeLocaleMenus(true);
         }
       });
     });
@@ -2542,14 +2715,32 @@ initAuth();
   bindLocaleMenus();
   bindMobileSearch();
   if (sourceFilterEl) sourceFilterEl.addEventListener('change', (e) => { activeSource = e.target.value; visibleCount = PAGE_SIZE; render(); });
-  if (dateFilterEl) dateFilterEl.addEventListener('change', (e) => { activeDate = e.target.value; visibleCount = PAGE_SIZE; render(); });
+  if (dateFilterEl) dateFilterEl.addEventListener('change', (e) => {
+    const value = e.target.value;
+    activeDate = value === 'today' || value === 'week' ? value : 'all';
+    if (dateFilterEl.value !== activeDate) dateFilterEl.value = activeDate;
+    visibleCount = PAGE_SIZE;
+    render();
+  });
   clearFiltersEl.addEventListener('click', () => {
     resetFilters();
-    // Keep focus somewhere useful: the source/time selects are hidden state
-    // holders now, so park focus on the search field instead of an
-    // invisible control. On a phone the field lives in the overlay.
     if (window.matchMedia('(max-width: 767px)').matches) setSearchOpen(true);
-    else searchEl.focus();
+    else if (searchEl) searchEl.focus();
+  });
+  window.addEventListener('message', (event) => {
+    let host = '';
+    try { host = new URL(event.origin).hostname; } catch (err) { return; }
+    if (!/(^|\.)beehiiv\.com$/i.test(host)) return;
+    let raw = event.data;
+    if (raw && typeof raw === 'object') {
+      try { raw = JSON.stringify(raw); } catch (err) { raw = ''; }
+    }
+    const text = String(raw || '');
+    if (!/subscrib/i.test(text) || !/success|complete|confirm/i.test(text)) return;
+    const thanks = document.getElementById('newsletterThanks');
+    if (!thanks) return;
+    thanks.hidden = false;
+    thanks.textContent = t('newsletterThanks');
   });
 
   function readRecentSearches() {

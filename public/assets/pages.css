@@ -171,3 +171,24 @@
   .sponsor-cta { grid-column: 2; grid-row: 2; height: 30px; padding: 0 12px; }
   .sponsor-tagline { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; white-space: normal; }
 }
+
+/* Skip link for generated issue and digest pages. Hidden until keyboard focus. */
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  z-index: 1000;
+  padding: 10px 14px;
+  background: #1a73e8;
+  color: #fff;
+  border-radius: 8px;
+  font: 600 14px/1 Inter, ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none;
+  transform: translateY(-150%);
+}
+.skip-link:focus {
+  transform: none;
+  outline: 2px solid #14294b;
+  outline-offset: 2px;
+}
+#main:focus { outline: none; }

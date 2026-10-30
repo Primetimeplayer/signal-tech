@@ -101,6 +101,7 @@
 <link rel="stylesheet" href="/assets/pages.css">
 </head>
 <body class="site-page digests-page">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <!-- shared:mast (scripts/build-static-pages.js copies this block) -->
 <div class="mast">
@@ -126,7 +127,7 @@
 <!-- /shared:mast -->
 
 <div class="wrap page-wrap">
-  <main class="page-main" id="main">
+  <main class="page-main" id="main" tabindex="-1">
     <header class="page-head">
       <p class="page-kicker">Every Monday</p>
       <h1 class="page-title">Signal Weekly digests</h1>
@@ -134,7 +135,7 @@
       <div class="page-actions">
         <a class="page-btn" id="digestPrev" rel="prev" hidden>&larr; Previous week</a>
         <a class="page-btn" id="digestNext" rel="next" hidden>Next week &rarr;</a>
-        <button type="button" class="page-btn page-btn-primary" id="digestShare">Share</button>
+        <button type="button" class="page-btn page-btn-primary" id="digestShare" aria-label="Share this digest">Share</button>
         <span class="page-status" id="digestShareStatus" role="status" aria-live="polite"></span>
       </div>
     </header>
@@ -144,8 +145,11 @@
         <h2 class="digest-dates-title">Archive</h2>
         <div class="digest-chips" id="digestList"><span class="digest-chip is-placeholder">Loading…</span></div>
       </nav>
-      <div class="digest-content" id="digestContent" aria-live="polite">
-        <div class="digest-skeleton" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+      <div class="digest-content" id="digestContent" aria-live="polite" aria-busy="true">
+        <div class="digest-skeleton" role="status">
+          <p class="visually-hidden">Loading digests</p>
+          <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+        </div>
       </div>
     </div>
   </main>
@@ -175,6 +179,7 @@
       <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
       <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
     </div>
+    <p class="newsletter-success" id="newsletterThanks" role="status" hidden></p>
   </section>
 </template>
 

@@ -152,6 +152,39 @@
     });
   }
 
+  function publishDigestLd(title, sections) {
+    var list = [];
+    sections.forEach(function (section) {
+      (section.items || []).forEach(function (item) {
+        if (!item || !item.url || list.length >= 12) return;
+        list.push({
+          '@type': 'ListItem',
+          position: list.length + 1,
+          item: {
+            '@type': 'NewsArticle',
+            headline: item.title || item.url,
+            url: item.url,
+            author: item.source ? { '@type': 'Organization', name: item.source } : undefined,
+            publisher: { '@id': 'https://signaltechnews.com/#organization' }
+          }
+        });
+      });
+    });
+    var node = document.getElementById('digestJsonLd');
+    if (!node) {
+      node = document.createElement('script');
+      node.id = 'digestJsonLd';
+      node.type = 'application/ld+json';
+      document.head.appendChild(node);
+    }
+    node.textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: title,
+      itemListElement: list
+    }).replace(/</g, '\\u003c');
+  }
+
   function render(entry, data) {
     var d = parseDigest(data.markdown);
     var title = d.title || entry.title || 'Signal Weekly';
@@ -169,6 +202,8 @@
     if (!d.sections.length) html += newsletterHtml();
     if (d.outro.length) html += '<div class="digest-outro">' + d.outro.map(function (p) { return '<p>' + inline(p) + '</p>'; }).join('') + '</div>';
     contentEl.innerHTML = html;
+    contentEl.setAttribute('aria-busy', 'false');
+    publishDigestLd(title, d.sections);
 
     if (showTools) wireTools(data);
   }
@@ -184,6 +219,7 @@
       .then(function (data) { if (current === entry) render(entry, data); })
       .catch(function () {
         contentEl.innerHTML = '<p class="digest-empty">This digest could not be loaded. Please try again in a moment.</p>';
+        contentEl.setAttribute('aria-busy', 'false');
       });
   }
 
@@ -196,12 +232,15 @@
       setTimeout(function () { shareStatusEl.textContent = ''; }, 2500);
     }
     if (navigator.share) {
-      navigator.share({ title: title, url: url }).catch(function () {});
+      navigator.share({ title: title, url: url }).then(function () { say('Link copied'); }, function () {});
     } else if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(url).then(function () { say('Link copied'); }, function () { say(url); });
+      navigator.clipboard.writeText(url).then(function () { say('Link copied'); }, function () { say('Copy failed. The link is ' + url); });
     } else {
-      say(url);
+      say('Copy failed. The link is ' + url);
     }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && shareStatusEl && shareStatusEl.textContent) shareStatusEl.textContent = '';
   });
 
   if (staticId) {
@@ -224,6 +263,7 @@
       if (!entries.length) {
         listEl.innerHTML = '';
         contentEl.innerHTML = '<p class="digest-empty">No digests yet. The first one is published on Monday.</p>' + newsletterHtml();
+        contentEl.setAttribute('aria-busy', 'false');
         return;
       }
       listEl.innerHTML = entries.map(function (e) {
@@ -236,5 +276,6 @@
     .catch(function () {
       listEl.innerHTML = '';
       contentEl.innerHTML = '<p class="digest-empty">The digest archive could not be loaded. Please try again in a moment.</p>';
+      contentEl.setAttribute('aria-busy', 'false');
     });
 })();

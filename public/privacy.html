@@ -159,16 +159,20 @@
   .footer-contact a { color: #5f6368; font-weight: 600; text-decoration: none; }
   .footer-contact a:hover { color: #1a73e8; }
   .footer-copy { margin: 12px 0 0; font-size: 12px; }
+  .skip-link{position:absolute;left:12px;top:8px;z-index:1000;padding:10px 14px;background:#1a73e8;color:#fff;border-radius:8px;font:600 14px/1 Inter,ui-sans-serif,system-ui,sans-serif;text-decoration:none;transform:translateY(-150%)}
+  .skip-link:focus{transform:none;outline:2px solid #14294b;outline-offset:2px}
+  #main:focus{outline:none}
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
 <header class="mast">
   <div class="wrap mast-row">
     <a class="wordmark" href="/">Signal<span>.</span> Tech</a>
     <a class="back" href="/">← Back to dashboard</a>
   </div>
 </header>
-<article class="wrap">
+<article class="wrap" id="main" tabindex="-1">
   <h1>Privacy Policy</h1>
   <p class="updated">Last updated 16 October 2026</p>
   <p>Signal Tech is a personal tech dashboard at <a href="https://signaltechnews.com/">https://signaltechnews.com/</a>. It is operated by the maintainer of the <a href="https://github.com/Primetimeplayer/signal-tech">Signal Tech repository</a>. This policy explains what the site stores on your device, when Google Analytics runs, and the choices you have under the GDPR and the CCPA.</p>

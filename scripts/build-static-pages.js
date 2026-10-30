@@ -323,11 +323,12 @@ ${jsonLd(graph)}
 ${chrome.assets}
 </head>
 <body class="site-page ${bodyClass}">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 ${chrome.mast}
 
 <div class="wrap page-wrap">
-  <main class="page-main" id="main">
+  <main class="page-main" id="main" tabindex="-1">
 ${main}
   </main>
 
