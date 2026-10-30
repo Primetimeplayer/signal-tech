@@ -2,7 +2,8 @@ name: Update Dashboard Data
 
 on:
   schedule:
-    - cron: '0 */3 * * *'   # every 3 hours (UTC)
+    - cron: '17 */3 * * *'     # every 3 hours (UTC), off the busy :00 minute
+    - cron: '47 1-22/3 * * *'  # backup 90 min later; skipped if data is fresh
   workflow_dispatch: {}      # lets you trigger it manually from the Actions tab
 
 permissions:
@@ -16,26 +17,48 @@ jobs:
         with:
           fetch-depth: 0   # full history so the sitemap can use real last-modified dates
 
+      - name: Skip if data is already fresh (backup runs only)
+        id: fresh
+        env:
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          # EVENT_SCHEDULE must match the backup cron string in "on: schedule" exactly.
+          # Manual (workflow_dispatch) runs have an empty schedule, so they always run in full.
+          if [ "$EVENT_SCHEDULE" = "47 1-22/3 * * *" ]; then
+            AGE=$(node -e "const d=require('./public/data/news.json');const a=Math.round((Date.now()-Date.parse(d.updated))/60000);console.log(Number.isFinite(a)?a:99999)" || echo 99999)
+            echo "news.json age: ${AGE} min"
+            if [ "$AGE" -lt 120 ]; then
+              echo "Data is fresh, skipping this backup run."
+              echo "skip=true" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.fresh.outputs.skip != 'true'
         with:
           node-version: 20
 
       - run: npm install
+        if: steps.fresh.outputs.skip != 'true'
 
       - run: npm run fetch:all
+        if: steps.fresh.outputs.skip != 'true'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Pick up new Signal issues from beehiiv
+        if: steps.fresh.outputs.skip != 'true'
         run: node scripts/fetch-signal-issues.js
         continue-on-error: true
 
       - name: Build static issue and digest pages, feed and sitemap
+        if: steps.fresh.outputs.skip != 'true'
         run: node scripts/build-static-pages.js
         continue-on-error: true
 
       - name: Push Google News locale feeds to the worker
+        if: steps.fresh.outputs.skip != 'true'
         run: node scripts/push-news-locales.js
         continue-on-error: true
         env:
@@ -43,6 +66,7 @@ jobs:
           NEWS_INGEST_URL: ${{ vars.NEWS_INGEST_URL }}
 
       - name: Commit updated data
+        if: steps.fresh.outputs.skip != 'true'
         run: |
           git config user.name "dashboard-bot"
           git config user.email "actions@users.noreply.github.com"
