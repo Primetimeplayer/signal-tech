@@ -1,7 +1,36 @@
 {
-  "updated": "2026-10-30T22:28:50.046Z",
-  "count": 104,
+  "updated": "2026-10-31T05:54:53.120Z",
+  "count": 101,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "published": "Sat, 31 Oct 2026 01:20:05 +0000",
+      "summary": "Nvidia offers to cosign a loan for Nscale’s AI data center in West Virginia, easing investor concerns about AI spending.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+      "whyItMatters": "It signals Nvidia’s commitment to AI infrastructure, boosting confidence in regional AI projects."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
+      "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+      "published": "Sat, 31 Oct 2026 00:07:22 +0000",
+      "summary": "NASA seeks new ideas to reboost and preserve the Hubble Space Telescope after previous proposals stalled.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/hst_vantor-1080x648.jpg",
+      "whyItMatters": "Tech enthusiasts should watch Hubble’s fate, as its data drives space research and public outreach."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "published": "Fri, 30 Oct 2026 22:56:13 +0000",
+      "summary": "Ollie, a privacy‑focused AI assistant, will shut down in a week as the market floods with competitors.",
+      "whyItMatters": "Tech users may lose a privacy‑first alternative and see market consolidation."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -9,8 +38,17 @@
       "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
       "published": "Fri, 30 Oct 2026 21:54:34 +0000",
       "summary": "Intel’s stock fell sharply, erasing $12 billion from the government’s stake, amid declining PC sales and AI-driven component demand driving up PC prices.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?resize=1200,800",
       "whyItMatters": "Tech investors should watch Intel’s valuation shift and its impact on AI hardware supply chains."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+      "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+      "published": "Fri, 30 Oct 2026 21:41:54 +0000",
+      "summary": "Boom’s supersonic airliner project faces delays as the company pivots to supplying power for AI data centers, losing a key customer.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Superpower-Superfactory-1152x648.jpg",
+      "whyItMatters": "Tech readers should watch how shifting priorities affect aerospace innovation and AI infrastructure growth."
     },
     {
       "source": "TechCrunch",
@@ -19,7 +57,6 @@
       "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "published": "Fri, 30 Oct 2026 21:26:59 +0000",
       "summary": "Suggests quick Halloween costumes for tech nerds, like an AI agent icon, a PHP vulnerability, or a sleepy Bryan Johnson.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2170662558.jpg?resize=1200,800",
       "whyItMatters": "Shows playful, tech-themed ideas that resonate with coding culture."
     },
     {
@@ -39,7 +76,6 @@
       "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
       "published": "Fri, 30 Oct 2026 21:17:40 +0000",
       "summary": "Big Tech is investing billions in AI infrastructure, yet debt, cash flow issues, and investor doubt question the boom’s sustainability.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
       "whyItMatters": "Tech readers should watch for potential shifts in AI funding and corporate strategy."
     },
     {
@@ -120,7 +156,7 @@
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "Nvidia store quietly pulls the RTX 5080 following RTX 5090 removal — street prices climb to 2.2X MSRP",
+      "title": "Nvidia store quietly pulls the RTX 5080 following RTX 5090 removal",
       "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp",
       "published": "Fri, 30 Oct 2026 20:13:10 +0000",
       "summary": "Nvidia has quietly removed the RTX 5080 from its store, following the RTX 5090, as resale prices surge to 2.2 times MSRP.",
@@ -131,7 +167,7 @@
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "Intel’s woes wipe out $1 trillion of semiconductor market cap in one day — PC market bloodbath leaves few chip stocks unscathed",
+      "title": "Intel’s woes wipe out $1 trillion of semiconductor market cap in one day",
       "link": "https://www.tomshardware.com/pc-components/cpus/intels-woes-wipe-out-usd1-trillion-of-semiconductor-market-cap-in-one-day-pc-market-bloodbath-leaves-few-chip-stocks-unscathed",
       "published": "Fri, 30 Oct 2026 20:06:11 +0000",
       "summary": "Intel's gloomy outlook for its PC business wipes out $1 trillion of semiconductor market capitalization in a day, barely affects Apple.",
@@ -144,8 +180,7 @@
       "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
       "link": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
       "published": "Fri, 30 Oct 2026 19:55:13 +0000",
-      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/06/Crosby-cofounders.jpg?resize=1200,900"
+      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture."
     },
     {
       "source": "The Register",
@@ -216,16 +251,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/4pSu2dTvKQXki2NpfLme8c-1920-80.jpg"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Celebrate Warhammer Day on the 31st of October with these 20 Warhammer 40K-themed products — the best Space Marine gear this side of the Warp",
-      "link": "https://www.tomshardware.com/gift-guides-seasonal-sales/celebrate-warhammer-day-on-the-31st-of-october-with-these-20-warhammer-40k-themed-products-the-best-space-marine-gear-this-side-of-the-warp",
-      "published": "Fri, 30 Oct 2026 18:30:00 +0000",
-      "summary": "Warhammer Day is celebrated on October 31st 2026, 2026. Check out these great gift ideas for all fans of the grimdark future.",
-      "image": "https://cdn.mos.cms.futurecdn.net/t6dCXLDYnmivLFrDD8g3xH-1920-80.jpg",
-      "readMinutes": 4
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "Google’s satellite AI server transmits its first response to Earth",
@@ -242,7 +267,6 @@
       "link": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
       "published": "Fri, 30 Oct 2026 18:01:24 +0000",
       "summary": "Satlyt successfully tested technology that could transform satellites into virtual data centers.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Just_Super-Getty.jpg?resize=1200,750",
       "whyItMatters": "It could enable real‑time, low‑latency data processing in space, boosting AI and edge computing capabilities."
     },
     {
@@ -252,7 +276,6 @@
       "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
       "published": "Fri, 30 Oct 2026 17:47:12 +0000",
       "summary": "Zest’s AI concierge recommends restaurants, aggregates preferences, votes options, and books reservations via text.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/zest.jpg?resize=1200,764",
       "whyItMatters": "Streamlines group dining decisions, saving time and reducing friction for tech-savvy users."
     },
     {
@@ -299,16 +322,6 @@
       "whyItMatters": "Tech readers want to know if the headset balances comfort and battery life with performance."
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-      "published": "Fri, 30 Oct 2026 17:00:00 +0000",
-      "summary": "Google’s first data center satellite hosts a TPU running DeepMind’s Gemma 4, producing cheesy poetry.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?resize=1200,800",
-      "whyItMatters": "Shows AI’s reach into space, hinting at future satellite‑based computing and creative applications."
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
@@ -332,7 +345,7 @@
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM — Sam Altman says data centers offer better utilization",
+      "title": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM",
       "link": "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
       "published": "Fri, 30 Oct 2026 16:28:11 +0000",
       "summary": "OpenAI CEO Sam Altman criticized personal PCs having RAM, advocating its use in AI data centers for better efficiency.",
@@ -361,15 +374,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/falcon-9-1152x648.jpeg"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
-      "link": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
-      "published": "Fri, 30 Oct 2026 16:03:45 +0000",
-      "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1465332173.jpg?resize=1200,800"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
@@ -378,16 +382,6 @@
       "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by…",
       "excerpt": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/full-res-for-display.png?w=2048"
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
-      "published": "2026-10-30T14:58:06.000Z",
-      "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to…",
-      "excerpt": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many of the ideas Pope Leo laid out in his first major…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2226124908.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "source": "NASA",
@@ -420,15 +414,6 @@
       "readMinutes": 6
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
-      "link": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
-      "published": "Fri, 30 Oct 2026 14:00:25 +0000",
-      "summary": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, which allowed the theft of billions in crypto.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/binance-2206279918.jpg?resize=1200,800"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "NASA ponders a Hubble servicing mission or a controlled deorbit",
@@ -447,15 +432,6 @@
       "summary": "TCL’s 27C2A Pro is a super-bright 27-inch 4K Mini LED gaming monitor with full-array local dimming (2,304 zones), Quantum Dot color, 160 Hz, 320 Hz/FHD mode, HDR10 and Adaptive-Sync. It’s also color-accurate with premium video processing.",
       "image": "https://cdn.mos.cms.futurecdn.net/sdFKmbWhS5tharLVgd8LLf-1920-80.jpg",
       "readMinutes": 18
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
-      "link": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
-      "published": "Fri, 30 Oct 2026 13:46:39 +0000",
-      "summary": "Binance scrambles to freeze billions after record-breaking hack linked to North Korea.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-1024x648.jpg"
     },
     {
       "source": "Tom's Hardware",
@@ -536,15 +512,6 @@
       "summary": "Cisco President Jeetu Patel has handed a 27-year-old ex-startup founder a huge job to rewrite 98% of Cisco's legacy code within 24 months.",
       "image": "https://cdn.mos.cms.futurecdn.net/VWRdrgLNKxcnN3hENdERW4-1920-80.jpg",
       "readMinutes": 2
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Rocket Report: Winter is coming for Themis; Cowboy Space adds iron to the fire",
-      "link": "https://arstechnica.com/space/2026/10/rocket-report-winter-is-coming-for-themis-cowboy-space-adds-iron-to-the-fire/",
-      "published": "Fri, 30 Oct 2026 11:00:35 +0000",
-      "summary": "It's been a good week for ULA, with big NASA contract, Vulcan nearing return-to-flight.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2302181665-1152x648-1793318298.jpg"
     },
     {
       "source": "The Register",
@@ -941,6 +908,7 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -962,6 +930,7 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
