@@ -1,7 +1,144 @@
 {
-  "updated": "2026-10-31T05:54:53.120Z",
+  "updated": "2026-10-31T12:45:16.406Z",
   "count": 101,
   "items": [
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "published": "Sat, 31 Oct 2026 12:20:00 +0000",
+      "summary": "Anthropic’s Claude AI, powered by Opus 5.5, now blocks attempts to clone video games and also stops generic reverse‑engineering tasks.",
+      "image": "https://cdn.mos.cms.futurecdn.net/uCXNTvaQDC2MRU8U37YwaV-1920-80.jpg",
+      "readMinutes": 3,
+      "whyItMatters": "Tech users should know this limits game modding and research, affecting creative and security work."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "link": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "published": "Sat, 31 Oct 2026 12:00:00 +0000",
+      "summary": "Volta‑Autodoxer is a new infostealer that uses AI to harvest credentials, credit cards, Discord data, and even UberEats receipts from victims.",
+      "image": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg",
+      "whyItMatters": "Tech users should guard against AI‑powered data theft that can silently harvest sensitive personal and financial information."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "AI agent used to perform controversial brain surgery on a mouse, Anthropic Sonnet controlled motorized surgery rig",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/startup-uses-ai-agent-to-perform-controversial-brain-surgery-on-a-mouse-anthropic-sonnet-controlled-motorized-surgery-rig-ai-given-free-reign-to-treat-epilepsy-with-a-range-of-gene-therapy-vectors-after-opus-5-5-refused-to-conduct-biological-experiment",
+      "published": "Sat, 31 Oct 2026 12:00:00 +0000",
+      "summary": "Anthropic's Sonnet AI performed a controversial mouse brain surgery after Opus 5.5 refused and Opus 5 warned it might fail mid‑procedure.",
+      "image": "https://cdn.mos.cms.futurecdn.net/eoGRcXGHJPaiRv8XJmVA96-1920-80.png",
+      "readMinutes": 4,
+      "whyItMatters": "Shows AI’s growing autonomy in high‑stakes medical tasks, raising ethical and reliability concerns for tech‑savvy readers."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Veteran Microsoft engineer makes his own RAM from scratch using AI",
+      "link": "https://www.tomshardware.com/pc-components/ram/veteran-microsoft-engineer-makes-his-own-ram-from-scratch-using-ai-attempts-to-build-4mb-of-1970s-pdp-11-ram-from-scratch",
+      "published": "Sat, 31 Oct 2026 11:40:00 +0000",
+      "summary": "Former Microsoft engineer Dave Plummer builds his own PDP‑11 RAM using AI to bypass costly memory components.",
+      "image": "https://cdn.mos.cms.futurecdn.net/ZcWNV2jNQTywTDrpaAsqbL-1920-80.png",
+      "readMinutes": 2,
+      "whyItMatters": "Shows how AI can enable DIY hardware solutions, reducing reliance on expensive legacy parts."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Modder uses a trash 4-kW air conditioner radiator for his test bench to see how well it can cool a PC",
+      "link": "https://www.tomshardware.com/pc-components/liquid-cooling/trashbench-repurposes-a-trash-4-kw-air-conditioner-radiator-for-his-test-bench-to-see-how-well-it-can-cool-a-pc-achieves-a-shocking-28c-on-an-nvidia-rtx-3080",
+      "published": "Sat, 31 Oct 2026 11:20:00 +0000",
+      "summary": "A hobbyist repurposes a discarded 4‑kW AC radiator to test its cooling performance on an RTX 3080, finding minimal temperature rise.",
+      "image": "https://cdn.mos.cms.futurecdn.net/TeXxeBPVwiZfijYyMiJdPg-1920-80.png",
+      "readMinutes": 2,
+      "whyItMatters": "Shows unconventional, low‑cost cooling can keep high‑end GPUs near ambient, useful for DIY enthusiasts."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Amazon sends chills through its workforce with mixed message memo about AI use",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
+      "published": "Sat, 31 Oct 2026 11:00:00 +0000",
+      "summary": "Amazon's memo on AI usage has unsettled software engineers, sparking uncertainty about their roles and future.",
+      "image": "https://image.theregister.com/?imageId=5306808&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech leaders should watch how AI policy shifts affect talent retention and innovation."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+      "link": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "published": "Sat, 31 Oct 2026 10:30:00 +0000",
+      "summary": "Meta’s Muse, an AI agent, is being promoted as a transformative tool, yet its real impact on businesses remains uncertain.",
+      "image": "https://media.wired.com/photos/6ae513e3393ae92e17e66a04/master/pass/Business_Everyone%E2%80%99s%20Questioning%20Meta%E2%80%99s%20Hype%20About%20Muse%20Meta%20Says%20Muse%20Is%20Already%20a%20Big%20Shopper_v1.jpg",
+      "whyItMatters": "Tech leaders should watch Muse’s adoption to gauge AI’s future business influence."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "link": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "published": "Sat, 31 Oct 2026 10:00:00 +0000",
+      "summary": "A biotech startup used an AI agent to select and deliver a gene therapy into a live mouse’s brain, demonstrating autonomous lab work.",
+      "image": "https://media.wired.com/photos/6ae4d6bbd55a0e2bc0a8d990/master/pass/103026-AI%20Mouse%2002.jpg",
+      "whyItMatters": "Shows AI can streamline complex biomedical experiments, accelerating drug development."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Tech sleuth claims to have found the oldest GUI application that still works with Windows 11",
+      "link": "https://www.tomshardware.com/software/windows/tech-sleuth-claims-to-have-found-the-oldest-gui-application-that-still-works-with-windows-11-cdplayer-exe-from-windows-nt-in-november-1992-wins-the-prize",
+      "published": "Sat, 31 Oct 2026 10:00:00 +0000",
+      "summary": "A tech enthusiast claims CDPLAYER.EXE, a 1992 GUI app, still runs on Windows 11.",
+      "image": "https://cdn.mos.cms.futurecdn.net/9WfJEJAx6SPbbBbEXKuZCM-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "Shows legacy software compatibility, useful for preservation and legacy system support."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Keurig Alta Brewer Review: Brand-New Tech, Classically Good Coffee",
+      "link": "https://www.wired.com/review/keurig-alta-brewer/",
+      "published": "Sat, 31 Oct 2026 09:35:00 +0000",
+      "summary": "The review highlights the Keurig Alta’s new AltaRounds, promising a fresh take on Keurig brewing technology and improved coffee quality.",
+      "image": "https://media.wired.com/photos/6ae379a84c0c94a306d058dd/master/pass/Keurig%20Alta%20Review%20102026%20top%20art%20SOURCE%20Keurig.jpg",
+      "whyItMatters": "Tech-savvy users may find the upgraded brewing tech and flavor consistency appealing for home coffee enthusiasts."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Chocolate Caterpillar or Chocolate Teapot? Top up the disk space for Windows 10 to find out",
+      "link": "https://www.theregister.com/offbeat/2026/10/31/chocolate-caterpillar-or-chocolate-teapot-top-up-the-disk-space-for-windows-10-to-find-out/5306103",
+      "published": "Sat, 31 Oct 2026 09:30:00 +0000",
+      "summary": "The article discusses a quirky Oxford Street sign that displays underwear to tourists.",
+      "image": "https://image.theregister.com/?imageId=5306107&width=800",
+      "readMinutes": 1,
+      "whyItMatters": "A tech-savvy reader might find the creative signage interesting as a cultural curiosity."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Best Sunrise Alarm Clock (2026): Hatch, Lumie",
+      "link": "https://www.wired.com/story/should-you-get-a-sunrise-alarm-clock/",
+      "published": "Sat, 31 Oct 2026 09:01:00 +0000",
+      "summary": "The article reviews a sunrise alarm clock that simulates sunrise to improve morning wakefulness.",
+      "image": "https://media.wired.com/photos/6ae4fa24ff45389e1b5f1706/master/pass/Sunrise%20Alarms%20102026%20top%20art%20SOURCE%20Hatch-Amazon.jpg",
+      "whyItMatters": "Tech-savvy readers may want better sleep quality and natural wake cues."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Backbone of a beast – charting Nvidia's rise to networking titan",
+      "link": "https://www.theregister.com/networks/2026/10/31/backbone-of-a-beast-charting-nvidias-rise-to-networking-titan/5306499",
+      "published": "Sat, 31 Oct 2026 08:03:00 +0000",
+      "summary": "How a $6.9B bet on Mellanox made Nvidia bigger than Cisco, and the world's most valuable company to boot",
+      "image": "https://image.theregister.com/?imageId=116063&width=800",
+      "readMinutes": 6
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -29,6 +166,7 @@
       "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
       "published": "Fri, 30 Oct 2026 22:56:13 +0000",
       "summary": "Ollie, a privacy‑focused AI assistant, will shut down in a week as the market floods with competitors.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Ollie_Hero.png?resize=1200,847",
       "whyItMatters": "Tech users may lose a privacy‑first alternative and see market consolidation."
     },
     {
@@ -38,6 +176,7 @@
       "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
       "published": "Fri, 30 Oct 2026 21:54:34 +0000",
       "summary": "Intel’s stock fell sharply, erasing $12 billion from the government’s stake, amid declining PC sales and AI-driven component demand driving up PC prices.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?resize=1200,800",
       "whyItMatters": "Tech investors should watch Intel’s valuation shift and its impact on AI hardware supply chains."
     },
     {
@@ -57,17 +196,8 @@
       "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "published": "Fri, 30 Oct 2026 21:26:59 +0000",
       "summary": "Suggests quick Halloween costumes for tech nerds, like an AI agent icon, a PHP vulnerability, or a sleepy Bryan Johnson.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2170662558.jpg?resize=1200,800",
       "whyItMatters": "Shows playful, tech-themed ideas that resonate with coding culture."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
-      "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-      "published": "Fri, 30 Oct 2026 21:19:26 +0000",
-      "summary": "A contractor integrated an AI agent into a Pentagon system, discussed Anthropic’s IPO filing, and volunteers preparing to counter ICE at the midterms.",
-      "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
-      "whyItMatters": "Highlights AI security risks and political activism involving emerging tech."
     },
     {
       "source": "TechCrunch",
@@ -76,6 +206,7 @@
       "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
       "published": "Fri, 30 Oct 2026 21:17:40 +0000",
       "summary": "Big Tech is investing billions in AI infrastructure, yet debt, cash flow issues, and investor doubt question the boom’s sustainability.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
       "whyItMatters": "Tech readers should watch for potential shifts in AI funding and corporate strategy."
     },
     {
@@ -120,16 +251,6 @@
       "image": "https://cdn.mos.cms.futurecdn.net/F5pVc8uQjTuUcWQjaREnac-1920-80.jpg",
       "readMinutes": 4,
       "whyItMatters": "Shows AI’s rapid impact on content creation and platform competition."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
-      "link": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
-      "published": "Fri, 30 Oct 2026 20:38:46 +0000",
-      "summary": "A supply‑chain attack injected malicious Claude extensions into thousands of developer machines, but flawed code limited the attacker’s spread.",
-      "image": "https://media.wired.com/photos/6ae4bfbc8b1b5cec21132f41/master/pass/103026-HACK_.jpg",
-      "whyItMatters": "Shows how vulnerable AI extensions can compromise developer environments, highlighting the need for secure code reviews."
     },
     {
       "source": "The Register",
@@ -180,7 +301,8 @@
       "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
       "link": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
       "published": "Fri, 30 Oct 2026 19:55:13 +0000",
-      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture."
+      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/06/Crosby-cofounders.jpg?resize=1200,900"
     },
     {
       "source": "The Register",
@@ -198,8 +320,8 @@
       "title": "NASA Releases MAX POWER Key Events for Media, Participants",
       "link": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
       "published": "Fri, 30 Oct 2026 19:31:02 +0000",
-      "summary": "AmAmerica’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in…",
-      "excerpt": "AmAmerica’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
+      "summary": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in…",
+      "excerpt": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg?w=1920",
       "readMinutes": 3
     },
@@ -322,16 +444,6 @@
       "whyItMatters": "Tech readers want to know if the headset balances comfort and battery life with performance."
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
-      "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
-      "published": "Fri, 30 Oct 2026 16:53:49 +0000",
-      "summary": "The DOJ is cracking down on AI‑generated “ghost students” who fraudulently secure millions in student loans.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg",
-      "whyItMatters": "Tech readers should watch AI’s role in escalating financial fraud and regulatory responses."
-    },
-    {
       "source": "PC Gamer",
       "category": "news",
       "title": "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually",
@@ -363,15 +475,6 @@
       "image": "https://image.theregister.com/?imageId=5254625&width=800",
       "readMinutes": 2,
       "whyItMatters": "Tech readers should watch for supply‑chain risks and how vendors attribute blame in security incidents."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Analysts find looming launch crisis is \"more severe\" than anticipated",
-      "link": "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/",
-      "published": "Fri, 30 Oct 2026 16:12:59 +0000",
-      "summary": "There's no evidence that Starship will launch traditional satellites, either.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/falcon-9-1152x648.jpeg"
     },
     {
       "source": "NASA",
@@ -434,65 +537,6 @@
       "readMinutes": 18
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "A primer on key AI LLM concepts — KV cache, weights, quantization, and how inference actually works",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-primer-on-key-ai-llm-concepts-kv-cache-weights-quantization-and-how-inference-actually-works",
-      "published": "Fri, 30 Oct 2026 13:30:00 +0000",
-      "summary": "How do AI models work? This primer explains crucial concepts to understand how LLMs work, with definitions and explanations for all of AI's new nomenclature.",
-      "image": "https://cdn.mos.cms.futurecdn.net/JZdkASst9T7wFXBxoSdoqB-1920-80.jpg",
-      "readMinutes": 11
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI projects not paying off? Keep at it, says Uni Productivity Institute",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/30/ai-projects-not-paying-off-keep-at-it-says-uni-productivity-institute/5306581",
-      "published": "Fri, 30 Oct 2026 13:15:00 +0000",
-      "summary": "All that up-front investment needs time to take effect, and speeding individual tasks won't necessarily boost the entire firm",
-      "image": "https://image.theregister.com/?imageId=5306604&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "NHS quango warns of risk to GP patient data after website vendor collapse",
-      "link": "https://www.theregister.com/public-sector/2026/10/30/nhs-quango-warns-of-risk-to-gp-patient-data-after-website-vendor-collapse/5306647",
-      "published": "Fri, 30 Oct 2026 12:30:00 +0000",
-      "summary": "Hundreds of practices hit by small health tech firm going into administration",
-      "image": "https://image.theregister.com/?imageId=5306670&width=800",
-      "readMinutes": 2
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "British intelligence agency misplaced 'thousands' of storage devices, years later still can't say how many",
-      "link": "https://www.theregister.com/security/2026/10/30/british-intelligence-agency-misplaced-thousands-of-storage-devices-years-later-still-cant-say-how-many/5306605",
-      "published": "Fri, 30 Oct 2026 11:45:00 +0000",
-      "summary": "Other agency errors included an unchecked software bug that led to Terrorism Act detentions",
-      "image": "https://image.theregister.com/?imageId=197715&width=800",
-      "readMinutes": 4
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Intel leaker reveals Moon Lake chip as a likely replacement for N-series SoCs",
-      "link": "https://www.tomshardware.com/pc-components/cpus/intel-leaker-reveals-moon-lake-chip-as-a-likely-replacement-for-n-series-socs-four-lower-power-efficiency-cores-no-performance-cores-and-a-6-w-tdp",
-      "published": "Fri, 30 Oct 2026 11:40:00 +0000",
-      "summary": "An Intel leaker revealed Moon Lake chip as a likely replacement for N-series SoCs with four lower-power-efficiency cores, no performance cores, and a 6-watt TDP",
-      "image": "https://cdn.mos.cms.futurecdn.net/Y5RvehHjyP7Zx5pdbLWike-1920-80.jpg",
-      "readMinutes": 1
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",
-      "link": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-      "published": "Fri, 30 Oct 2026 11:36:52 +0000",
-      "summary": "Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history—with billions of crypto likely gone for good.",
-      "image": "https://media.wired.com/photos/6ae463bdc091c8b8d1ec019e/master/pass/102026-Binance%20Hacked.jpg"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
@@ -502,26 +546,6 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinicians, they can…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/260320_AIfarming3.jpg?fit=2128,1196",
       "readMinutes": 4
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months",
-      "link": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
-      "published": "Fri, 30 Oct 2026 11:26:56 +0000",
-      "summary": "Cisco President Jeetu Patel has handed a 27-year-old ex-startup founder a huge job to rewrite 98% of Cisco's legacy code within 24 months.",
-      "image": "https://cdn.mos.cms.futurecdn.net/VWRdrgLNKxcnN3hENdERW4-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Accenture AI agents are sifting through applicants",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460",
-      "published": "Fri, 30 Oct 2026 11:00:00 +0000",
-      "summary": "But a human makes final hiring decisions at global tech consultancy",
-      "image": "https://image.theregister.com/?imageId=5252012&width=800",
-      "readMinutes": 2
     },
     {
       "source": "NASA",
@@ -566,17 +590,6 @@
       "summary": "This article is brought to you by Qualcomm Technologies. For many consumers, much of the promise and appeal of AI is personal. Consumers are looking past generic tools and want to know how these technologies will help them in their daily…",
       "excerpt": "This article is brought to you by Qualcomm Technologies. For many consumers, much of the promise and appeal of AI is personal. Consumers are looking past generic tools and want to know how these technologies will help them in their daily lives. These trends coincide with the advent of new classes of wearable devices that, in addition to being able to leverage powerful frontier models, feature built-in intelligence…",
       "image": "https://spectrum.ieee.org/media-library/smiling-man-in-headphones-with-on-screen-alerts-for-calendar-emails-and-awareness-mode.png?id=68506456&width=980",
-      "readMinutes": 5
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
-      "link": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
-      "published": "Thu, 29 Oct 2026 18:18:09 +0000",
-      "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dated its minerals did they realize the nearly 2-pound (800-gram) rock was a piece…",
-      "excerpt": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dated its minerals did they realize the nearly 2-pound (800-gram) rock was a piece of Mars that formed more than 4.1 billion years ago, making it one […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg?w=2048",
       "readMinutes": 5
     },
     {
@@ -640,7 +653,6 @@
       "link": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
       "published": "Wed, 28 Oct 2026 16:09:28 +0000",
       "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png",
       "readMinutes": 5
     },
     {
@@ -826,7 +838,6 @@
       "published": "Thu, 22 Oct 2026 17:21:30 +0000",
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
       "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png",
       "readMinutes": 10
     },
     {
@@ -848,7 +859,6 @@
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
     },
     {
@@ -908,7 +918,6 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -930,7 +939,6 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
