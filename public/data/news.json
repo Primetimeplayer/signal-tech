@@ -1,7 +1,115 @@
 {
-  "updated": "2026-11-01T16:07:01.281Z",
-  "count": 93,
+  "updated": "2026-11-01T22:10:11.729Z",
+  "count": 91,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "published": "Sun, 01 Nov 2026 21:55:23 +0000",
+      "summary": "OpenAI considers renaming its data centers to ‘AI compute campuses’ to soften public perception.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+      "whyItMatters": "Rebranding could influence public sentiment and policy around AI infrastructure."
+    },
+    {
+      "source": "GitHub Blog",
+      "category": "news",
+      "title": "Game Off 2026: The theme is SHIFT",
+      "link": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "published": "Sun, 01 Nov 2026 21:36:00 +0000",
+      "summary": "GitHub’s 14th annual Game Off invites developers to create a game themed SHIFT, encouraging creative changes in perspective and mechanics.",
+      "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/og-image.png",
+      "readMinutes": 6,
+      "whyItMatters": "It offers a platform for showcasing innovative game design and community collaboration."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "NASA hopes the commercial space industry can help save Hubble",
+      "link": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
+      "published": "2026-11-01T21:09:21.000Z",
+      "summary": "NASA seeks private companies to boost Hubble’s orbit and extend its life beyond the 2030s.",
+      "excerpt": "Gravity is a cruel mistress, slowly dragging the famed telescope ever closer to its ultimate demise with every day. Hubble is in no immediate danger of burning up in the Earth's atmosphere, but its time will run out in the early to mid 2030s unless its orbit is boosted. So NASA is taking proposals from the private sector to see if anyone can save it. In a post on NASA's site, Administrator Jared Isaacman said…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13237317/PIA18165_large.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy readers should watch for commercial space solutions reshaping space telescope maintenance."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself — payload builds custom target assessment, can switch models if one refuses, or skip the AI step entirely",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
+      "published": "Sun, 01 Nov 2026 21:00:00 +0000",
+      "summary": "The VOLTA infostealer uses Claude Opus 4.6 to rank stolen victim data by asset value before self‑deletion.",
+      "image": "https://cdn.mos.cms.futurecdn.net/SwXoTJq5pcxA7urt6ryrQZ-1920-80.jpg",
+      "readMinutes": 3,
+      "whyItMatters": "Tech readers should know it exploits large‑language models for targeted data monetization."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "published": "Sun, 01 Nov 2026 20:57:58 +0000",
+      "summary": "The article critiques tech CEOs’ tone‑dead statements and questions whether AI can help them communicate better for all stakeholders.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1481617564.jpg?resize=1200,680",
+      "whyItMatters": "Tech readers should consider how AI might improve leadership communication and inclusivity."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "GOG explores reviving physical PC game releases — digital storefront needs publisher approvals, has to figure out the logistics and legal challenges",
+      "link": "https://www.tomshardware.com/video-games/gog-explores-reviving-physical-pc-game-releases-digital-storefront-needs-publisher-approvals-has-to-figure-out-the-logistics-and-legal-challenges",
+      "published": "Sun, 01 Nov 2026 18:45:00 +0000",
+      "summary": "GOG plans to sell physical PC game copies, offering gamers ownership freedom, but must navigate logistics and publisher approvals.",
+      "image": "https://cdn.mos.cms.futurecdn.net/efpBLUoRowi8SbqrQ66ikN-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "It could change PC game distribution and ownership models for tech-savvy gamers."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "TechCrunch Mobility: A new, bigger AV boom is here",
+      "link": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "published": "Sun, 01 Nov 2026 17:04:00 +0000",
+      "summary": "TechCrunch Mobility highlights the growing autonomous vehicle boom and AI’s expanding role in future transportation.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/robotaxi-illustration.jpg?resize=1200,1058",
+      "whyItMatters": "Tech enthusiasts should track AI’s influence on the rapidly evolving AV industry."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"'",
+      "link": "https://www.pcgamer.com/games/composer-and-designer-lena-raine-explains-how-pigstep-altered-minecrafts-approach-to-music-the-prompt-i-keep-hearing-is-oh-pigstep-was-such-a-banger-that-they-want-more-bangers/",
+      "published": "Sun, 01 Nov 2026 17:00:00 +0000",
+      "summary": "Lena Raine discusses how her track Pigstep changed Minecraft’s music direction, highlighting the shift toward more energetic, mainstream compositions.",
+      "image": "https://cdn.mos.cms.futurecdn.net/YsSgua57s2iYxBemzqeS77-1920-80.png",
+      "readMinutes": 9,
+      "whyItMatters": "Tech enthusiasts should note how game soundtracks evolve to meet player expectations and influence future game design."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach'",
+      "link": "https://www.pcgamer.com/games/sim/chronicles-medieval-developer-faces-imminent-closure-after-losing-funding-what-makes-it-hurt-is-how-close-we-are-early-access-is-in-reach/",
+      "published": "Sun, 01 Nov 2026 16:42:09 +0000",
+      "summary": "A medieval-themed game studio is facing closure after losing funding, but claims it will fight to keep the project alive.",
+      "image": "https://cdn.mos.cms.futurecdn.net/CKWPEHEse9cxfCAd3Kyw5Q-1920-80.png",
+      "readMinutes": 2,
+      "whyItMatters": "Tech enthusiasts may watch how indie studios navigate funding crises and fight to preserve creative projects."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit",
+      "link": "https://www.pcgamer.com/gaming-industry/game-development/its-not-just-steam-new-game-pages-created-per-day-on-itch-io-has-doubled-in-the-last-two-months-with-ai-slop-the-likely-culprit/",
+      "published": "Sun, 01 Nov 2026 16:25:23 +0000",
+      "summary": "Itch.io’s daily new game pages have doubled in two months, but downloads and purchases haven’t increased accordingly, suggesting quality issues like AI-generated content.",
+      "image": "https://cdn.mos.cms.futurecdn.net/uhCgoU847LsYr8VPuoSiRb-1920-80.jpg",
+      "readMinutes": 3,
+      "whyItMatters": "Tech-savvy readers should watch for AI’s impact on indie game quality and marketplace dynamics."
+    },
     {
       "source": "Tom's Hardware",
       "category": "news",
@@ -80,28 +188,6 @@
       "excerpt": "A high-stakes California ballot measure pitched as a fast track for \"essential\" infrastructure could wind up giving data center developers a loophole to evade public scrutiny, environmental advocates warn. Proposition 45 would shorten timelines for state-mandated environmental assessments for eligible projects and make it more difficult for residents to challenge those projects in court. Proponents say passing the…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_C.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "Tech readers should watch for regulatory gaps that could accelerate data center expansion with less public oversight."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Lenovo's 'encrypted' fingerprint USB drive is just an unencrypted SD card in a fancy case",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
-      "published": "Sun, 01 Nov 2026 13:00:00 +0000",
-      "summary": "Lenovo’s ThinkPlus FU100 fingerprint USB drive actually contains an unencrypted SD card, revealing security flaws in supposedly secure devices.",
-      "image": "https://cdn.mos.cms.futurecdn.net/m5tLgsKmfPcc5fZ3Ygd8Wc-1920-80.jpg",
-      "readMinutes": 3,
-      "whyItMatters": "Tech users should question device security claims and verify encryption before trusting hardware."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "AI agent swarms unleashed in Minecraft to ‘build a thriving civilization’",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
-      "published": "Sun, 01 Nov 2026 12:33:52 +0000",
-      "summary": "Researchers tested AI agent swarms in Minecraft, exploring how multiple agents collaborate to build and sustain a virtual civilization.",
-      "image": "https://cdn.mos.cms.futurecdn.net/SCYhnjqyKUaWNuCxFpW8m9-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "It shows scalable AI teamwork, useful for complex real‑world coordination tasks."
     },
     {
       "source": "Wired",
@@ -200,61 +286,6 @@
       "whyItMatters": "It highlights legal risks for AI firms expanding infrastructure."
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott",
-      "link": "https://www.pcgamer.com/games/action/celeste-and-towerfall-have-delisted-from-xboxs-digital-storefronts-to-support-bds-boycott/",
-      "published": "Sat, 31 Oct 2026 18:57:47 +0000",
-      "summary": "Celeste and TowerFall have been removed from Xbox’s digital storefronts to support a boycott of the BDS movement.",
-      "image": "https://cdn.mos.cms.futurecdn.net/PUEtmTeJPKib37LmemrwyA-1920-80.jpeg",
-      "readMinutes": 1,
-      "whyItMatters": "It shows how indie developers use platform removal to make political statements."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
-      "link": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
-      "published": "2026-10-31T18:40:32.000Z",
-      "summary": "Binance CEO reports 90% of the $6.3B stolen in a crypto heist has been replenished, with plans to cover the remaining 10%.",
-      "excerpt": "After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company's CEO says that 90 percent of the funds have been replaced, and the company plans to cover the remaining 10 percent as well. Binance is covering the stolen funds directly, and the remaining 10 percent consists of \"less liquid\" tokens, which the company says may take longer to acquire. The company also…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK428_CRYPTO_3_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Shows Binance’s rapid recovery effort, reassuring users and impacting market confidence."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Happy Pikmin Day Eve",
-      "link": "https://www.theverge.com/games/1024085/happy-pikmin-day-eve",
-      "published": "2026-10-31T17:50:12.000Z",
-      "summary": "Nintendo declared November 1 as Pikmin Day, revealing Pikmin 4 for Switch 2, updates to Pikmin Bloom, and new Pikmin shorts.",
-      "excerpt": "This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about Pikmin 4 for the Switch 2, as well as an update for the mobile app Pikmin Bloom, and announced the Hello! Pikmin series of shorts. Players will be able to use the Switch 2's built-in microphone to issue voice commands to Oatchi, the space…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/7-1lQh551UY-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It signals upcoming releases and features that could shape the Switch 2 ecosystem and mobile gaming."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Yacht Club confirms Mina the Hollower was the shot in the arm it needed stay alive—'for now'",
-      "link": "https://www.pcgamer.com/games/adventure/yacht-club-confirms-mina-the-hollower-was-the-shot-in-the-arm-it-needed-stay-alive-for-now/",
-      "published": "Sat, 31 Oct 2026 17:41:22 +0000",
-      "summary": "The article announces upcoming randomizer and speedrunner settings for the spooky Zelda-like game.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ToYgKgwPt4nDWYw88XYRwT-1920-80.png",
-      "readMinutes": 1,
-      "whyItMatters": "Tech-savvy readers may want to tweak gameplay or test speedruns."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "The votes are in, and PC Gamer readers have picked the scariest game on PC",
-      "link": "https://www.pcgamer.com/games/horror/the-votes-are-in-and-pc-gamer-readers-have-picked-the-scariest-game-on-pc/",
-      "published": "Sat, 31 Oct 2026 17:25:20 +0000",
-      "summary": "Readers chose Amnesia: The Dark Descent as the scariest PC game.",
-      "image": "https://cdn.mos.cms.futurecdn.net/tacFgjKKgbufeB8YqDE4Kb-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Shows PC Gamer's community preference for horror titles."
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "OpenAI reportedly lowers funding target for new round",
@@ -262,17 +293,6 @@
       "published": "Sat, 31 Oct 2026 16:12:55 +0000",
       "summary": "OpenAI has reportedly reduced its funding target for the upcoming capital raise, falling short of earlier expectations.",
       "whyItMatters": "Tech readers should note the shift, as it may affect OpenAI’s growth plans and market influence."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "I built an AI Tamagotchi before Meta could",
-      "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-      "published": "2026-10-31T16:05:00.000Z",
-      "summary": "The author built a $50 AI Tamagotchi, preferring a DIY version over Meta’s Muse Charm, highlighting a hands‑on learning experience.",
-      "excerpt": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It cost just $50, and I've decided the learning experience was worth it. View Link My version doesn't sport cameras or a 5G cellular radio, but…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&strip=all&crop=4,0,96,94.899920311255",
-      "whyItMatters": "It shows a cost‑effective, privacy‑friendly alternative to commercial AI gadgets."
     },
     {
       "source": "The Register",
@@ -284,24 +304,6 @@
       "image": "https://image.theregister.com/?imageId=5306822&width=800",
       "readMinutes": 2,
       "whyItMatters": "Shows AI’s creative use in space, hinting at future satellite computing possibilities."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-      "link": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-      "published": "2026-10-31T15:12:19.000Z",
-      "summary": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The…",
-      "excerpt": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements are quite comprehensive. You can now filter results for files, actions, or web results. You can also use the search box to perform actions like changing the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/10d-outlook-filterresults.png?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "I took two iPhones on vacation. The Duo won me over.",
-      "link": "https://techcrunch.com/2026/10/31/i-took-two-iphones-on-vacation-the-duo-won-me-over/",
-      "published": "Sat, 31 Oct 2026 14:00:00 +0000",
-      "summary": "The iPhone Duo has its frustrations, but it’s also fun and engaging enough that I didn’t want to switch back to my Pro Max."
     },
     {
       "source": "Wired",
@@ -344,15 +346,6 @@
       "summary": "How a $6.9B bet on Mellanox made Nvidia bigger than Cisco, and the world's most valuable company to boot",
       "image": "https://image.theregister.com/?imageId=116063&width=800",
       "readMinutes": 6
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "published": "Sat, 31 Oct 2026 01:20:05 +0000",
-      "summary": "Nvidia offers to cosign a loan for Nscale’s AI data center in West Virginia, easing investor concerns about AI spending.",
-      "whyItMatters": "It signals Nvidia’s commitment to AI infrastructure, boosting confidence in regional AI projects."
     },
     {
       "source": "Ars Technica",
@@ -777,7 +770,6 @@
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
     },
     {
@@ -837,7 +829,6 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -859,7 +850,6 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
@@ -881,16 +871,6 @@
       "summary": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/09-13-Graph-Incident5334.png?resize=1024%2C451",
       "readMinutes": 5
-    },
-    {
-      "source": "GitHub Blog",
-      "category": "news",
-      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
-      "link": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
-      "published": "Wed, 14 Oct 2026 19:11:33 +0000",
-      "summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history…",
-      "excerpt": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog.",
-      "readMinutes": 7
     },
     {
       "source": "Krebs on Security",
