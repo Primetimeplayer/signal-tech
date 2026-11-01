@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-31T19:21:35.658Z",
-  "count": 98,
+  "updated": "2026-11-01T00:11:36.649Z",
+  "count": 96,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "published": "Sat, 31 Oct 2026 21:41:00 +0000",
+      "summary": "Apple CEO states the company will not release AI features simply for the sake of AI, emphasizing a deliberate, value-driven approach.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
+      "whyItMatters": "Tech readers should note Apple’s cautious AI strategy may affect future product innovation and market positioning."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "published": "Sat, 31 Oct 2026 21:17:03 +0000",
+      "summary": "The NAACP has sued xAI, alleging it violated the Clean Air Act by polluting its data center.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
+      "whyItMatters": "It highlights legal risks for AI firms expanding infrastructure."
+    },
     {
       "source": "PC Gamer",
       "category": "news",
@@ -121,17 +141,6 @@
       "image": "https://image.theregister.com/?imageId=5306822&width=800",
       "readMinutes": 2,
       "whyItMatters": "Shows AI’s creative use in space, hinting at future satellite computing possibilities."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop",
-      "link": "https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop/",
-      "published": "Sat, 31 Oct 2026 15:23:04 +0000",
-      "summary": "Anthropic updated Claude to prevent users from cloning other games.",
-      "image": "https://cdn.mos.cms.futurecdn.net/Vmhmhycwkn6YrhJ8EMDcK3-1920-80.png",
-      "readMinutes": 3,
-      "whyItMatters": "It limits misuse of AI in game development, protecting creators and reducing low-quality clones."
     },
     {
       "source": "The Verge",
@@ -368,37 +377,6 @@
       "whyItMatters": "Tech readers should watch how shifting priorities affect aerospace innovation and AI infrastructure growth."
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Last-minute Halloween costumes for tech nerds",
-      "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
-      "published": "Fri, 30 Oct 2026 21:26:59 +0000",
-      "summary": "Suggests quick Halloween costumes for tech nerds, like an AI agent icon, a PHP vulnerability, or a sleepy Bryan Johnson.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2170662558.jpg?resize=1200,800",
-      "whyItMatters": "Shows playful, tech-themed ideas that resonate with coding culture."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Cracks are emerging in the AI spending boom",
-      "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-      "published": "Fri, 30 Oct 2026 21:17:40 +0000",
-      "summary": "Big Tech is investing billions in AI infrastructure, yet debt, cash flow issues, and investor doubt question the boom’s sustainability.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
-      "whyItMatters": "Tech readers should watch for potential shifts in AI funding and corporate strategy."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Exclusive details about Akai’s MPC Sample Key",
-      "link": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive",
-      "published": "2026-10-30T21:01:32.000Z",
-      "summary": "Akai’s upcoming MPC Sample Key will feature open-source software, enabling modders to customize it, with early images revealing its capabilities.",
-      "excerpt": "Akai teased its new MPC Sample Key on Instagram earlier this week, and said it plans to open-source its software so the modding community can hack it to their hearts' delight. While there's no word yet on when the device will launch or how much it will cost, The Verge has received exclusive images of the upcoming instrument that offer some details about its feature set. While the Sample Key shares many of the same…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Akai_Sample_Key_DSC01934_WEB.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Open-source hardware invites community innovation, potentially extending the device’s lifespan and functionality."
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
@@ -626,7 +604,6 @@
       "link": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
       "published": "Wed, 28 Oct 2026 16:09:28 +0000",
       "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png",
       "readMinutes": 5
     },
     {
@@ -812,7 +789,6 @@
       "published": "Thu, 22 Oct 2026 17:21:30 +0000",
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
       "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png",
       "readMinutes": 10
     },
     {
@@ -834,7 +810,6 @@
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
     },
     {
