@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-01T00:11:36.649Z",
+  "updated": "2026-11-01T06:21:42.836Z",
   "count": 96,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Data centers are now a midterm issue, even in Brooklyn",
+      "link": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+      "published": "Sun, 01 Nov 2026 02:22:10 +0000",
+      "summary": "The article discusses how AI and data centers dominate political conversations at a Brooklyn midterm event.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Newsreel-Midterm-Madness-22.jpg?resize=1200,800",
+      "whyItMatters": "Tech-savvy readers should note the growing political influence of AI infrastructure."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -96,17 +106,6 @@
       "published": "Sat, 31 Oct 2026 16:12:55 +0000",
       "summary": "OpenAI has reportedly reduced its funding target for the upcoming capital raise, falling short of earlier expectations.",
       "whyItMatters": "Tech readers should note the shift, as it may affect OpenAI’s growth plans and market influence."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio'",
-      "link": "https://www.pcgamer.com/games/fps/id-software-co-director-says-the-doom-developer-is-working-more-closely-with-machinegames-than-ever-after-xbox-laid-off-about-half-of-our-studio/",
-      "published": "Sat, 31 Oct 2026 16:10:44 +0000",
-      "summary": "Rumors suggest MachineGames is developing a third Wolfenstein title.",
-      "image": "https://cdn.mos.cms.futurecdn.net/wqYDbSC8MLcbRczgQKCDS-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Tech-savvy readers might care about upcoming game developments."
     },
     {
       "source": "The Verge",
@@ -333,7 +332,6 @@
       "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "published": "Sat, 31 Oct 2026 01:20:05 +0000",
       "summary": "Nvidia offers to cosign a loan for Nscale’s AI data center in West Virginia, easing investor concerns about AI spending.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
       "whyItMatters": "It signals Nvidia’s commitment to AI infrastructure, boosting confidence in regional AI projects."
     },
     {
@@ -353,7 +351,6 @@
       "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
       "published": "Fri, 30 Oct 2026 22:56:13 +0000",
       "summary": "Ollie, a privacy‑focused AI assistant, will shut down in a week as the market floods with competitors.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Ollie_Hero.png?resize=1200,847",
       "whyItMatters": "Tech users may lose a privacy‑first alternative and see market consolidation."
     },
     {
@@ -363,7 +360,6 @@
       "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
       "published": "Fri, 30 Oct 2026 21:54:34 +0000",
       "summary": "Intel’s stock fell sharply, erasing $12 billion from the government’s stake, amid declining PC sales and AI-driven component demand driving up PC prices.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?resize=1200,800",
       "whyItMatters": "Tech investors should watch Intel’s valuation shift and its impact on AI hardware supply chains."
     },
     {
@@ -604,6 +600,7 @@
       "link": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
       "published": "Wed, 28 Oct 2026 16:09:28 +0000",
       "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png",
       "readMinutes": 5
     },
     {
@@ -789,6 +786,7 @@
       "published": "Thu, 22 Oct 2026 17:21:30 +0000",
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
       "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png",
       "readMinutes": 10
     },
     {
@@ -810,6 +808,7 @@
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
     },
     {
@@ -869,6 +868,7 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -890,6 +890,7 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
