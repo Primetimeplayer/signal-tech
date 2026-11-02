@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-01T22:10:11.729Z",
+  "updated": "2026-11-02T04:10:26.386Z",
   "count": 91,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Linus Torvalds says Linux kernel is out of ‘stabilization phase’ and using ‘much healthier model’ for AI contributions",
+      "link": "https://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852",
+      "published": "Sun, 01 Nov 2026 23:11:41 +0000",
+      "summary": "Linus Torvalds announces the Linux kernel has exited its stabilization phase, adopting a healthier model for AI-related contributions, though machine-generated patches frequently require rewrites.",
+      "image": "https://image.theregister.com/?imageId=5306857&width=800",
+      "readMinutes": 1,
+      "whyItMatters": "Tech readers should note the shift could streamline AI integration into Linux, impacting future development workflows."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -20,7 +31,6 @@
       "published": "Sun, 01 Nov 2026 21:36:00 +0000",
       "summary": "GitHub’s 14th annual Game Off invites developers to create a game themed SHIFT, encouraging creative changes in perspective and mechanics.",
       "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/og-image.png",
       "readMinutes": 6,
       "whyItMatters": "It offers a platform for showcasing innovative game design and community collaboration."
     },
@@ -38,7 +48,7 @@
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself — payload builds custom target assessment, can switch models if one refuses, or skip the AI step entirely",
+      "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself",
       "link": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
       "published": "Sun, 01 Nov 2026 21:00:00 +0000",
       "summary": "The VOLTA infostealer uses Claude Opus 4.6 to rank stolen victim data by asset value before self‑deletion.",
@@ -59,7 +69,7 @@
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "GOG explores reviving physical PC game releases — digital storefront needs publisher approvals, has to figure out the logistics and legal challenges",
+      "title": "GOG explores reviving physical PC game releases",
       "link": "https://www.tomshardware.com/video-games/gog-explores-reviving-physical-pc-game-releases-digital-storefront-needs-publisher-approvals-has-to-figure-out-the-logistics-and-legal-challenges",
       "published": "Sun, 01 Nov 2026 18:45:00 +0000",
       "summary": "GOG plans to sell physical PC game copies, offering gamers ownership freedom, but must navigate logistics and publisher approvals.",
@@ -282,7 +292,6 @@
       "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
       "published": "Sat, 31 Oct 2026 21:17:03 +0000",
       "summary": "The NAACP has sued xAI, alleging it violated the Clean Air Act by polluting its data center.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
       "whyItMatters": "It highlights legal risks for AI firms expanding infrastructure."
     },
     {
@@ -438,17 +447,6 @@
       "whyItMatters": "Tech readers should note tape’s cost‑effective, secure storage advantage for massive AI datasets."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
-      "published": "Fri, 30 Oct 2026 16:27:00 +0000",
-      "summary": "Anthropic’s Claude shop blames a malicious actor for a supply‑chain attack on Cursor, a code extension, claiming it wasn’t their fault.",
-      "image": "https://image.theregister.com/?imageId=5254625&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech readers should watch for supply‑chain risks and how vendors attribute blame in security incidents."
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
@@ -573,7 +571,6 @@
       "link": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
       "published": "Wed, 28 Oct 2026 16:09:28 +0000",
       "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png",
       "readMinutes": 5
     },
     {
@@ -759,7 +756,6 @@
       "published": "Thu, 22 Oct 2026 17:21:30 +0000",
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security…",
       "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png",
       "readMinutes": 10
     },
     {
