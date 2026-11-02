@@ -1,358 +1,355 @@
 {
-  "updated": "2026-11-01T22:10:12.022Z",
+  "updated": "2026-11-02T06:23:02.696Z",
   "count": 20,
   "items": [
     {
-      "title": "Elucidating the Design Space of LM Data Attribution",
-      "summary": "The article investigates how to evaluate language‑model data attribution methods by systematically varying dataset properties to isolate failure causes.",
-      "link": "http://arxiv.org/abs/2610.40655v1",
-      "published": "2026-10-29T17:59:53Z",
+      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+      "summary": "The paper explores how to embed continuous-space latent reasoning into unified multimodal models to improve image generation via chain-of-thought methods.",
+      "link": "http://arxiv.org/abs/2610.42149v1",
+      "published": "2026-10-30T17:59:43Z",
       "authors": [
-        "Steven Yu",
-        "Sheng-Yu Wang",
-        "Kimia Hamidieh",
-        "Antonio Torralba",
-        "David Bau"
+        "Byungwoo Jeon",
+        "Yoonwoo Jeong",
+        "Hyunseok Lee",
+        "Minsu Cho",
+        "Jinwoo Shin"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "whyItMatters": "It could enable more controllable, scalable multimodal AI, benefiting developers building advanced image‑generation tools."
+    },
+    {
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "summary": "Flide introduces exact state forking to speed up decision inference in LLM agents, reducing recomputation and preserving accurate probabilities.",
+      "link": "http://arxiv.org/abs/2610.42148v1",
+      "published": "2026-10-30T17:59:38Z",
+      "authors": [
+        "Bobo Li",
+        "Jiajia Song",
+        "Hao Fei",
+        "Wynne Hsu",
+        "Mong Li Lee"
       ],
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "Understanding attribution failures helps build more trustworthy, explainable LLMs for developers and users."
+      "whyItMatters": "It boosts efficiency and reliability for rapid categorical reasoning in AI systems."
     },
     {
-      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
-      "summary": "The paper proposes a method to scale differential privacy noise based on typical data sensitivity by privately filtering out outlier records.",
-      "link": "http://arxiv.org/abs/2610.40654v1",
-      "published": "2026-10-29T17:59:49Z",
+      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+      "summary": "The paper proposes Latent Sparse Attention, a method to enable subquadratic attention for ultra-long (1M+ token) contexts by selecting key subsets.",
+      "link": "http://arxiv.org/abs/2610.42147v1",
+      "published": "2026-10-30T17:59:34Z",
       "authors": [
-        "Moshe Shenfeld",
-        "Eliad Tsfadia",
-        "Katrina Ligett"
+        "Ales Kubicek",
+        "Andrea Caciolai",
+        "Liangzu Peng",
+        "Sukrit Sumant",
+        "Benjamin Hoover",
+        "Fraser Greenlee",
+        "Ruairidh M. Battleday",
+        "Radim Urban",
+        "Torsten Hoefler",
+        "James C. R. Whittington"
       ],
       "categories": [
-        "cs.LG"
+        "cs.AI"
       ],
-      "whyItMatters": "It can reduce noise and improve accuracy for most users while preserving privacy."
+      "whyItMatters": "Tech-savvy readers care because it could drastically reduce compute for large‑scale language models, enabling more efficient long‑form reasoning."
     },
     {
-      "title": "Rethinking Neural Thickets Without Weight Perturbations",
-      "summary": "The article challenges the Neural Thickets hypothesis, showing task gains can be achieved by perturbing a single decoder block without full weight changes.",
-      "link": "http://arxiv.org/abs/2610.40649v1",
-      "published": "2026-10-29T17:59:29Z",
+      "title": "Hierarchical World Models with Implicit Dynamics",
+      "summary": "The paper proposes ID-WM, a hierarchical world model that learns implicit dynamics for better long-horizon planning in embodied agents.",
+      "link": "http://arxiv.org/abs/2610.42146v1",
+      "published": "2026-10-30T17:59:25Z",
       "authors": [
-        "Nicolas Dufour",
-        "Elouan Gardès",
-        "Amil Dravid",
-        "Patrick Pérez",
-        "Loic Landrieu"
+        "Gaoyue Zhou",
+        "Yvonne Wu",
+        "Zichen Jeff Cui",
+        "Nicolas Ballas",
+        "Mido Assran",
+        "Lerrel Pinto",
+        "Yann LeCun"
       ],
       "categories": [
-        "cs.LG",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "whyItMatters": "It promises more robust, fine-grained control and improved generalization for complex tasks."
+    },
+    {
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "summary": "The paper presents RoboArchitect, a system that automatically generates agent harnesses for frozen robot policies, enabling efficient control without manual redesign.",
+      "link": "http://arxiv.org/abs/2610.42141v1",
+      "published": "2026-10-30T17:58:48Z",
+      "authors": [
+        "Shengguang Wu",
+        "Suning Huang",
+        "Cherie Ho",
+        "Ria Doshi",
+        "Hao Zhu",
+        "Serena Yeung-Levy"
+      ],
+      "categories": [
+        "cs.RO",
         "cs.AI",
         "cs.CV"
       ],
-      "whyItMatters": "Tech readers should know simpler fine‑tuning methods can match complex geometric explanations."
+      "whyItMatters": "Tech-savvy readers care because it reduces engineering effort and speeds deployment of reusable robotic control systems."
     },
     {
-      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-      "summary": "The paper proposes role-coupled tokenization, separating low-frequency global tokens from high-frequency local tokens in pixel-space Transformers to reduce attention cost.",
-      "link": "http://arxiv.org/abs/2610.40647v1",
-      "published": "2026-10-29T17:59:21Z",
+      "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
+      "summary": "The article explains how random batch sampling in DP-SGD, especially with variable batch sizes, improves privacy through amplification techniques.",
+      "link": "http://arxiv.org/abs/2610.42139v1",
+      "published": "2026-10-30T17:58:42Z",
       "authors": [
-        "Jiongfan Yang",
-        "Weichen Fan",
-        "Haiwen Diao",
-        "Zhongang Cai",
-        "Ziwei Liu"
+        "Vitaly Feldman",
+        "Audra McMillan",
+        "Kunal Talwar"
       ],
       "categories": [
-        "cs.CV",
-        "cs.AI",
         "cs.LG",
-        "cs.NE"
+        "cs.CR"
       ],
-      "whyItMatters": "It offers a more efficient way to generate high-detail images without heavy global computation."
+      "whyItMatters": "Tech-savvy readers care because it offers tighter privacy guarantees for machine learning models on sensitive data."
     },
     {
-      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
-      "summary": "The paper proposes adaptive scenario generation for KL-DRO, improving robustness in two-stage stochastic programs by better handling unseen data distributions.",
-      "link": "http://arxiv.org/abs/2610.40644v1",
-      "published": "2026-10-29T17:59:01Z",
+      "title": "A Better Critic Matters for Distribution Matching Distillation",
+      "summary": "The paper studies how the capacity and information of an online critic affect training signals in Distribution Matching Distillation for student models on ImageNet.",
+      "link": "http://arxiv.org/abs/2610.42135v1",
+      "published": "2026-10-30T17:58:26Z",
       "authors": [
-        "Aron Brenner",
-        "Saurabh Amin"
-      ],
-      "categories": [
-        "eess.SY",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it enhances decision‑making reliability under distributional uncertainty."
-    },
-    {
-      "title": "Luggage re-identification: A study of strategies towards a real-world application",
-      "summary": "The paper explores methods for matching luggage across different camera views to aid security and lost‑baggage recovery.",
-      "link": "http://arxiv.org/abs/2610.40643v1",
-      "published": "2026-10-29T17:58:59Z",
-      "authors": [
-        "Quentin Dhôte",
-        "Romaric Audigier"
+        "Zongze Wu",
+        "Xianbang Wang",
+        "Zhengyang Geng",
+        "Mingdeng Cao",
+        "Zhoutong Zhang",
+        "Richard Zhang",
+        "Eli Shechtman",
+        "Ruiming Cao"
       ],
       "categories": [
         "cs.CV",
-        "cs.AI"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it improves surveillance accuracy and operational efficiency in transport hubs."
-    },
-    {
-      "title": "From extreme weather to agricultural consequences with agentic AI",
-      "summary": "WxCrop uses agentic AI to assess crop damage risks from extreme weather forecasts via causal analysis of weather indices.",
-      "link": "http://arxiv.org/abs/2610.40641v1",
-      "published": "2026-10-29T17:58:53Z",
-      "authors": [
-        "Minghan Yu",
-        "Mengyu Dai",
-        "Yixin Wen",
-        "Haizhao Yang"
-      ],
-      "categories": [
-        "physics.ao-ph",
-        "cs.AI"
-      ],
-      "whyItMatters": "It helps farmers and ag‑tech firms better plan and mitigate losses from climate events."
-    },
-    {
-      "title": "world2vec: Mechanistic world models through latent dynamics learning",
-      "summary": "World2vec learns mechanistic world models from observations and actions, capturing true latent dynamics without reward signals.",
-      "link": "http://arxiv.org/abs/2610.40637v1",
-      "published": "2026-10-29T17:58:23Z",
-      "authors": [
-        "Tobias Schmidt",
-        "Rodrigo Gonzalez Laiz",
-        "Krisztián Szuppinger",
-        "Steffen Schneider"
-      ],
-      "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "It enables interpretable, scientifically useful models for control and discovery in complex environments."
+      "whyItMatters": "Understanding critic design improves efficient distillation, enabling smaller models with better performance."
     },
     {
-      "title": "Probing Spatial State Representations in Visual Foundation Models",
-      "summary": "The article investigates whether visual foundation models can maintain and update spatial state representations for navigation beyond the current view.",
-      "link": "http://arxiv.org/abs/2610.40636v1",
-      "published": "2026-10-29T17:58:16Z",
+      "title": "Instance-dependent sequential limits as an exact information ledger",
+      "summary": "The paper unifies instance-dependent lower bounds for bandit problems, sequential tests, best-arm identification, and MDPs using a single analytical chain.",
+      "link": "http://arxiv.org/abs/2610.42133v1",
+      "published": "2026-10-30T17:57:44Z",
       "authors": [
-        "Baiqiao Yin",
-        "Zhongang Cai",
-        "Ruisi Wang",
-        "Qiwei Liang",
-        "Lei Yang",
-        "Ziwei Liu"
+        "Akshay Balsubramani"
       ],
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.LG",
+        "cs.IT",
+        "math.ST",
+        "stat.ML"
       ],
-      "whyItMatters": "Understanding this could improve AI navigation and real‑world perception tasks."
+      "whyItMatters": "Tech-savvy readers gain a single framework to derive tight performance limits across diverse sequential decision tasks."
     },
     {
-      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
-      "summary": "The article discusses how shallow safety alignment in language models causes multi-turn conversations to bypass safety checks, and proposes a new defense.",
-      "link": "http://arxiv.org/abs/2610.40627v1",
-      "published": "2026-10-29T17:56:53Z",
+      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+      "summary": "DecisionRank distills ranking knowledge from a generative LLM into a fast decision model by aligning teacher rankings with student first-token scores.",
+      "link": "http://arxiv.org/abs/2610.42128v1",
+      "published": "2026-10-30T17:56:58Z",
       "authors": [
-        "Qiyao Ma",
-        "Xiaodong Liu",
-        "Weiwei Yang",
-        "Mingqian Feng",
-        "Chengquan Guo",
-        "Jialin Song",
-        "Carolyn Buractaon",
-        "Zhe Zhao",
-        "Junshan Zhang",
-        "Sandeep Atluri",
-        "Christopher White",
-        "Jianfeng Gao"
+        "Yanran Wu",
+        "Dian Yu",
+        "Chongyang Bai",
+        "Jieyi Zhang",
+        "Rui Liu",
+        "Tianyi Chen",
+        "Shike Mei",
+        "Hang Cui",
+        "Frank Shyu",
+        "Sandeep Pandey",
+        "Luke Simon",
+        "Chunwei Liu",
+        "Xi Liu"
       ],
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "Tech readers should know this limits current safety measures and impacts secure AI deployment."
+      "whyItMatters": "It reduces latency for structured tasks while preserving LLM ranking quality."
     },
     {
-      "title": "Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses",
-      "summary": "The paper proposes a method for testing temporal clinical hypotheses using evidence-grounded significance tests to validate claims about event sequences.",
-      "link": "http://arxiv.org/abs/2610.40619v1",
-      "published": "2026-10-29T17:55:30Z",
+      "title": "Physiological Trajectories and Observation Patterns in ICU Mortality Prediction: Transportability Under Changing Measurement Conditions",
+      "summary": "The study evaluates how physiological trends versus observation timing influence ICU mortality predictions across different datasets.",
+      "link": "http://arxiv.org/abs/2610.42126v1",
+      "published": "2026-10-30T17:56:10Z",
       "authors": [
-        "Chengyang He",
-        "Wenlong Zhang",
-        "Koduvayur Subbalakshmi",
-        "Ping Wang"
+        "Benjamin T. Pike"
       ],
       "categories": [
-        "cs.CL",
-        "cs.IR"
+        "cs.LG",
+        "q-bio.QM"
       ],
-      "whyItMatters": "Tech-savvy readers care because it offers rigorous, data-driven validation for AI-generated temporal claims."
+      "whyItMatters": "It informs model design for robust, transportable ICU risk tools."
     },
     {
-      "title": "An ODE-based Sampler for Discrete Diffusion Models",
-      "summary": "The paper introduces an ODE formulation for discrete diffusion models, enabling accelerated sampling similar to continuous models.",
-      "link": "http://arxiv.org/abs/2610.40618v1",
-      "published": "2026-10-29T17:55:25Z",
+      "title": "Gradient Descent on Two ReLU Neurons: Global Landscape and Bifurcation Dynamics",
+      "summary": "The paper analyzes gradient descent dynamics in a two‑ReLU neuron teacher‑student model with Gaussian inputs, revealing complex multi‑phase behavior.",
+      "link": "http://arxiv.org/abs/2610.42118v1",
+      "published": "2026-10-30T17:51:35Z",
       "authors": [
-        "Samson Gourevitch",
-        "Yazid Janati",
-        "Eric Moulines",
-        "Eric P. Xing",
-        "Alain Durmus",
-        "Giacomo Zanella"
+        "Binghua Li",
+        "Mengzhe Li",
+        "Denny Wu",
+        "Tianhao Wang"
       ],
       "categories": [
         "cs.LG",
         "stat.ML"
       ],
-      "whyItMatters": "It offers faster, more efficient inference for discrete generative tasks, appealing to practitioners seeking speed gains."
+      "whyItMatters": "It offers insights into feature learning and convergence challenges for small‑initialized neural nets."
     },
     {
-      "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
-      "summary": "Modern diffusion models are trained on massive datasets that often include copyrighted or private images. Membership inference attacks (MIAs) address this by testing whether a given image was in a model's training set. The standard approach scores an image by its reconstruction loss and flags low-loss images as members. This often fails because some images are simply easier to reconstruct than…",
-      "link": "http://arxiv.org/abs/2610.40616v1",
-      "published": "2026-10-29T17:54:54Z",
+      "title": "Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT",
+      "summary": "The paper presents a faster privacy loss accountant for random allocation sampling, reducing runtime from quadratic to near-linear in the accuracy parameter.",
+      "link": "http://arxiv.org/abs/2610.42117v1",
+      "published": "2026-10-30T17:51:03Z",
       "authors": [
-        "Michael Joseph",
-        "Yedid Hoshen"
+        "Vitaly Feldman",
+        "Moshe Shenfeld"
       ],
       "categories": [
-        "cs.CV",
-        "cs.CR",
         "cs.LG"
-      ]
-    },
-    {
-      "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
-      "summary": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor, TextSeal, restores diversity in the Gumbel-max scheme by routing…",
-      "link": "http://arxiv.org/abs/2610.40613v1",
-      "published": "2026-10-29T17:54:12Z",
-      "authors": [
-        "Tom Sander",
-        "Pierre Fernandez",
-        "Itai Gat",
-        "Haiming Bao",
-        "Jiaxin Shi",
-        "Jason Park",
-        "Valeriu Lacatusu",
-        "Sylvestre-Alvise Rebuffi",
-        "Hongyan Chang",
-        "Hady Elsahar",
-        "Tomáš Souček",
-        "Tuan Tran",
-        "Surya Parimi",
-        "Alexandre Mourachko"
       ],
-      "categories": [
-        "cs.CR",
-        "cs.AI",
-        "cs.CL"
-      ]
+      "whyItMatters": "Tech-savvy readers benefit from more efficient differential privacy tools for large-scale, communication‑efficient data aggregation."
     },
     {
-      "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
-      "summary": "Proactive assistants offer short, memory-grounded hints during a conversation, deciding when to assist and what to suggest. Current systems split this between a gate and a larger generator; we evaluate both together on 28,058 decision points. Stage-wise generation scores are oracle-gate ceilings: behind a real gate, end-to-end exact match is 0.2619 against a ceiling of 0.2971, and end-to-end…",
-      "link": "http://arxiv.org/abs/2610.40611v1",
-      "published": "2026-10-29T17:54:07Z",
+      "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+      "summary": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs…",
+      "link": "http://arxiv.org/abs/2610.42116v1",
+      "published": "2026-10-30T17:50:49Z",
       "authors": [
-        "A. J. A. Jubayer Talukder",
-        "Mohammad Ariful Haque"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.HC"
-      ]
-    },
-    {
-      "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
-      "summary": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which agents based on large language models assess…",
-      "link": "http://arxiv.org/abs/2610.40589v1",
-      "published": "2026-10-29T17:47:50Z",
-      "authors": [
-        "El Mustapha Mansouri",
-        "Eikichi Kimura",
-        "Masato Koga",
-        "Keigo Arai"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.MA",
-        "quant-ph"
-      ]
-    },
-    {
-      "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
-      "summary": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activations can, in a controlled multi-agent setting. Across six scenarios, a peer presses…",
-      "link": "http://arxiv.org/abs/2610.40588v1",
-      "published": "2026-10-29T17:47:40Z",
-      "authors": [
-        "Leonidas Raghav"
+        "Yuzhe Liu",
+        "Haolin Tian",
+        "Tonghan Wang"
       ],
       "categories": [
         "cs.AI"
       ]
     },
     {
-      "title": "Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond",
-      "summary": "Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing coverage with spatially distributed receivers, dense and dynamic clutter can significantly degrade bistatic range and Doppler estimation, leading to errors in…",
-      "link": "http://arxiv.org/abs/2610.40586v1",
-      "published": "2026-10-29T17:47:02Z",
+      "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+      "summary": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only achieve constant-factor speedups (e.g., sparse attention methods…",
+      "link": "http://arxiv.org/abs/2610.42112v1",
+      "published": "2026-10-30T17:48:37Z",
       "authors": [
-        "Yalin E. Sagduyu",
-        "Tugba Erpek",
-        "Sastry Kompella"
+        "Leon Lufkin",
+        "Cutter Dawes",
+        "Alexander Speicher",
+        "Kamesh Krishnamurthy",
+        "Tomás Figliolia",
+        "Beren Millidge"
       ],
       "categories": [
-        "cs.NI",
-        "cs.AI",
-        "cs.LG",
-        "eess.SP"
-      ]
-    },
-    {
-      "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
-      "summary": "Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate programs to inspect application state. However, both rely on partial views of complex digital…",
-      "link": "http://arxiv.org/abs/2610.40578v1",
-      "published": "2026-10-29T17:45:26Z",
-      "authors": [
-        "Qiushi Sun",
-        "Da Yu",
-        "Alexander Knop",
-        "Amer Sinha",
-        "Lingpeng Kong",
-        "Ben Kao",
-        "Ravi Kumar",
-        "Pritish Kamath"
-      ],
-      "categories": [
-        "cs.AI",
         "cs.CL",
-        "cs.CV"
+        "cs.AI"
       ]
     },
     {
-      "title": "Multi-View MoE: Letting Every Router Shape Expert Computation",
-      "summary": "Sparse mixture-of-experts (MoE) models expand parameter capacity by activating a small subset of experts per token. Expert selection directly affects model capabilities under a fixed active-expert budget. Dense evaluation of all experts reveals weak agreement between single-router rankings and expert-utility evaluation rankings, especially in middle and deep layers. Richer signals for selection…",
-      "link": "http://arxiv.org/abs/2610.40577v1",
-      "published": "2026-10-29T17:45:12Z",
+      "title": "SATFRONT: Detecting Atmospheric Fronts with Satellite Data using Machine Learning",
+      "summary": "Atmospheric fronts are associated with much of the high-impact weather in the mid-latitudes, yet their identification and classification remain largely manual and subjective. Existing deep learning approaches rely primarily on gridded reanalysis or forecast data, limiting their applicability to satellite observations available for time-critical applications. We introduce SATFRONT, a machine…",
+      "link": "http://arxiv.org/abs/2610.42111v1",
+      "published": "2026-10-30T17:48:20Z",
       "authors": [
-        "Zelin Zhao",
-        "Tianchi Ma",
-        "Junyuan Shang",
-        "Shuohuan Wang",
-        "Dianhai Yu"
+        "Ioannis Dravilas",
+        "Miruna Stoicescu",
+        "Roope Tervo",
+        "Carlos Horn",
+        "Oriol Hinojo Comellas",
+        "Sina Montazeri",
+        "Andrea Meraner",
+        "Ana Lucic"
       ],
       "categories": [
-        "cs.CL"
+        "physics.ao-ph",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Regret-Optimal Wasserstein-Robust Linear Regression",
+      "summary": "Distributionally robust optimization (DRO) minimizes worst-case risk under distributional uncertainty, but its decisions can be suboptimal in terms of their excess risk, or regret. We study this gap for multivariate least-squares regression, assuming that the observed source law and unknown target law differ by an adversarial 2-Wasserstein perturbation of size ε. We first identify the asymptotic…",
+      "link": "http://arxiv.org/abs/2610.42109v1",
+      "published": "2026-10-30T17:47:58Z",
+      "authors": [
+        "Sloan Nietert",
+        "Daniel Kuhn"
+      ],
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.OC"
+      ]
+    },
+    {
+      "title": "Hard Constraint Projection in a Physics Informed Neural Network (Burgers)",
+      "summary": "Physics informed machine learning provides a framework to study and simulate fluid dynamics, potentially at a fraction of the computational cost of traditional numerical methods, with the goal of improving the explainability, accuracy and robustness of purely data driven machine learning methods. In this work, we extend the hard constraint projection (HCP) method developed by Chen et al. [Journal…",
+      "link": "http://arxiv.org/abs/2610.42106v1",
+      "published": "2026-10-30T17:47:01Z",
+      "authors": [
+        "Miranda J S Horne",
+        "Peter K Jimack",
+        "Amirul Khan",
+        "He Wang"
+      ],
+      "categories": [
+        "physics.flu-dyn",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Hyperbolic Inverse Reinforcement Learning",
+      "summary": "Inverse reinforcement learning (IRL) seeks to infer the reward function underlying observed behavior, but its predictive accuracy and interpretability depend on how that reward is computed from the underlying features. While prior IRL reward functions have been implemented through a variety of techniques including linear weights, neural networks, or other function approximators, none make…",
+      "link": "http://arxiv.org/abs/2610.42104v1",
+      "published": "2026-10-30T17:46:04Z",
+      "authors": [
+        "Iulia Rusu",
+        "Anoop Praturu",
+        "Sergei Gepshtein",
+        "Tatyana Sharpee"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments",
+      "summary": "Deep reinforcement learning (RL) is a powerful framework for sequential decision-making. Despite many high-profile successes in recent years, deep RL is known to be brittle. An emerging line of research attributes this brittleness to a loss of plasticity in neural networks. However, plasticity loss has so far been understudied in stochastic environments. We study this interplay systematically…",
+      "link": "http://arxiv.org/abs/2610.42100v1",
+      "published": "2026-10-30T17:43:04Z",
+      "authors": [
+        "Philipp Bordne",
+        "André Biedenkapp"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
+      "summary": "World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions…",
+      "link": "http://arxiv.org/abs/2610.42096v1",
+      "published": "2026-10-30T17:40:00Z",
+      "authors": [
+        "Juntao Cheng",
+        "Jinzhou Tang",
+        "Fan Feng",
+        "Henrik I. Christensen",
+        "Yujia Zheng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO",
+        "stat.ML"
       ]
     }
   ]

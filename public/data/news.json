@@ -1,7 +1,28 @@
 {
-  "updated": "2026-11-02T04:10:26.386Z",
-  "count": 91,
+  "updated": "2026-11-02T06:23:02.448Z",
+  "count": 92,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "India floats AI plan under which ‘The model travels to the data, rather than the data travelling to the model’",
+      "link": "https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872",
+      "published": "Mon, 02 Nov 2026 04:39:50 +0000",
+      "summary": "India proposes an AI strategy where models run locally on data, keeping data in-country and limiting Big Tech access.",
+      "image": "https://image.theregister.com/?imageId=259659&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "It protects data sovereignty and reduces reliance on foreign AI platforms."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "The HeroQuest board game is coming to Steam with a quest editor and multiplayer",
+      "link": "https://www.pcgamer.com/games/board-games/the-heroquest-board-game-is-coming-to-steam-with-a-quest-editor-and-multiplayer/",
+      "published": "Mon, 02 Nov 2026 04:12:30 +0000",
+      "summary": "HeroQuest board game launches on Steam with a quest editor and multiplayer support.",
+      "image": "https://cdn.mos.cms.futurecdn.net/gLqAa4wPnkvgeuhZLy2Dyj-1920-80.jpg",
+      "whyItMatters": "Gamers can create and share custom adventures online."
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -396,16 +417,6 @@
       "image": "https://image.theregister.com/?imageId=227887&width=800",
       "readMinutes": 3,
       "whyItMatters": "Tech users should watch token volatility affecting GPU rental earnings."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see",
-      "link": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
-      "published": "Fri, 30 Oct 2026 19:37:12 +0000",
-      "summary": "n0n-existent security",
-      "image": "https://image.theregister.com/?imageId=5306779&width=800",
-      "readMinutes": 4
     },
     {
       "source": "NASA",
