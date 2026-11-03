@@ -1,11 +1,198 @@
 {
-  "updated": "2026-11-02T19:34:53.518Z",
-  "count": 100,
+  "updated": "2026-11-03T02:57:12.713Z",
+  "count": 97,
   "items": [
+    {
+      "source": "Krebs on Security",
+      "category": "news",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "published": "Tue, 03 Nov 2026 02:24:31 +0000",
+      "summary": "Google and partners dismantled a botnet of 1.3 million Android TV boxes used for proxying and ad fraud.",
+      "excerpt": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised systems, including…",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/11/xcpe-map.png",
+      "readMinutes": 5,
+      "whyItMatters": "It protects millions of users from hidden malware and reduces ad fraud traffic."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "link": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "published": "Tue, 03 Nov 2026 01:49:52 +0000",
+      "summary": "Apple hinted at boosting revenue by leveraging third‑party AI app opportunities during its earnings call.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
+      "whyItMatters": "Tech readers should watch how Apple’s AI strategy could reshape app monetization and developer ecosystems."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
+      "link": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
+      "published": "Tue, 03 Nov 2026 01:12:55 +0000",
+      "summary": "A Kyiv startup created a 10‑ounce receiver that lets Ukrainian troops view Russian drone video feeds, turning the drones’ cameras against them.",
+      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1388071988.jpg?resize=1200,798",
+      "whyItMatters": "Tech-savvy readers should note this counter‑drone tool could shift battlefield tactics, but may be vulnerable to future AI‑guided drones."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "published": "Tue, 03 Nov 2026 00:35:52 +0000",
+      "summary": "Garry Tan, YC partner, spends up to $200K yearly on AI tokens, citing intense use and sleeplessness from excitement about AI agents.",
+      "excerpt": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/garry-tan-sxsw-getty.jpg?resize=1200,801",
+      "whyItMatters": "Shows high investment in AI tools, highlighting their growing importance for tech leaders."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation",
+      "link": "https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/",
+      "published": "Mon, 02 Nov 2026 23:30:16 +0000",
+      "summary": "The Smithsonian’s National Air and Space Museum has reopened its space-themed exhibits after renovation.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/news-103026a-lg-1152x648.jpg",
+      "whyItMatters": "It signals fresh insights into space history for tech enthusiasts."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
+      "link": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
+      "published": "Mon, 02 Nov 2026 23:25:32 +0000",
+      "summary": "Apple reports iPhone Duo production is increasing, yet it cannot predict when supply will meet demand amid ongoing shipping delays.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/iPhone-duo.jpeg?resize=1200,675",
+      "whyItMatters": "Tech readers should track supply chain stability to anticipate device availability and pricing."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "link": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "published": "Mon, 02 Nov 2026 23:13:53 +0000",
+      "summary": "Trajectory, a one-year-old startup, raised $45M to democratize AI model training for nontechnical users, reaching a $300M valuation.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Trajectory_3.jpg?resize=1200,900",
+      "whyItMatters": "It could lower AI barriers, enabling broader innovation and faster deployment of AI solutions."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Apple’s inventory surges 154% as memory chip costs climb",
+      "link": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
+      "published": "Mon, 02 Nov 2026 23:04:57 +0000",
+      "summary": "Apple’s inventory of memory chips has jumped 154% to $14.5 billion amid rising chip costs, hinting at future device price impacts.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/06/apple-on-phone.jpg?resize=1200,800",
+      "whyItMatters": "Tech readers should watch for potential price hikes in Apple products due to escalating memory chip expenses."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Apple is ‘not able to predict’ when it’ll have enough iPhone Duos to go around",
+      "link": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints",
+      "published": "2026-11-02T22:56:11.000Z",
+      "summary": "Apple CEO says no timeline for resolving iPhone Duo supply shortages, aiming to reach customers quickly but unable to predict balance.",
+      "excerpt": "Apple CEO John Ternus doesn't have a timeline for when iPhone Duo supply constraints could lift. During an interview with Reuters, Ternus said the company is \"working hard to get it to as many customers as quickly as possible, but at this ​point, we're not able to predict when supply and demand will be in balance.\" Apple launched its first foldable last month for $1,999, featuring a 5.4 outer display and 7.6-inch…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1378.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech readers should track supply limits affecting device availability and pricing."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Max-severity bug in widely used OT programming tool exploited to deliver Linux malware",
+      "link": "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086",
+      "published": "Mon, 02 Nov 2026 22:55:17 +0000",
+      "summary": "A critical bug in a popular OT programming tool was exploited to deliver Linux malware to industrial IoT gateways.",
+      "image": "https://image.theregister.com/?imageId=5307102&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech-savvy readers should be aware of potential security gaps in industrial software."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "link": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "published": "Mon, 02 Nov 2026 22:14:50 +0000",
+      "summary": "Anthropic cautions that AI is nearing the point where it can self‑train, potentially triggering rapid, uncontrollable capability growth.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Recursive-Neural-Spiral-in-Circuitry.png?resize=1200,600",
+      "whyItMatters": "Tech readers should monitor this risk, as it could reshape AI safety and governance."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Apple set an iPhone sales record even without a new standard iPhone",
+      "link": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings",
+      "published": "2026-11-02T22:02:36.000Z",
+      "summary": "Apple achieved record iPhone sales in Q4, earning $57.58 billion, even without a new standard model, driven by premium iPhone 18 Pro/Max launches.",
+      "excerpt": "Apple had a record-breaking quarter for iPhone sales - despite not releasing a standard model during its latest refresh. In its fourth-quarter earnings report released on Monday, Apple says it earned $57.58 billion in iPhone revenue, a 17 percent jump from the same time last year. The increase in revenue follows the launch of Apple's iPhone 18 lineup in September, which included a pricier iPhone 18 Pro and Pro Max…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268735_iPhone_18_Pro_MAX_AKrales_1087.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Shows premium models can boost revenue, indicating strong demand for high-end iPhones and influencing market expectations."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+      "published": "Mon, 02 Nov 2026 21:35:59 +0000",
+      "summary": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from…",
+      "excerpt": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/s63-11625.jpg?w=1536",
+      "readMinutes": 7
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AI could break legal systems by finding previously hidden loopholes",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/02/ai-could-break-legal-systems-by-finding-previously-hidden-loopholes/5307066",
+      "published": "Mon, 02 Nov 2026 21:12:21 +0000",
+      "summary": "Turns out legislation may have bugs, too",
+      "image": "https://image.theregister.com/?imageId=5307077&width=800",
+      "readMinutes": 3
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "TB 26-09 Measured Hammer-Tap Inputs",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-09-measured-hammer-tap-inputs/",
+      "published": "Mon, 02 Nov 2026 20:47:41 +0000",
+      "summary": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete force and response…",
+      "excerpt": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete force and response are measured accurately, crest ripples and separated contacts remain known inputs. Force shape changes excitation, but does not inherently invalidate the record. […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2015/04/tb-26-09-1-illustrative-hammer-force-time-histories.png?w=1366",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "One of Google’s Android partners turned 1.3 million set-top boxes into a botnet",
+      "link": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
+      "published": "2026-11-02T20:37:49.000Z",
+      "summary": "A current Videostrong Android TV device. Google says one of its Android manufacturing partners secretly built a backdoor in 1.3 million devices and turned them into a botnet. The company says it has now dismantled the backdoor and \"cut…",
+      "excerpt": "A current Videostrong Android TV device. Google says one of its Android manufacturing partners secretly built a backdoor in 1.3 million devices and turned them into a botnet. The company says it has now dismantled the backdoor and \"cut ties\" with the manufacturer, the Shenzhen, China-based Videostrong Technology Co., which has been banned from building or selling certified Android devices or supplying software for…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/videostrong-android-tv-device.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values'",
+      "link": "https://www.pcgamer.com/gaming-industry/xbox-coo-who-left-after-just-3-months-shoots-down-claims-she-was-fired-for-a-policy-violation-says-her-story-is-about-core-values/",
+      "published": "Mon, 02 Nov 2026 20:37:38 +0000",
+      "summary": "Helen Chiang, who became the Xbox division's first chief operating officer in July, says she has \"serious concerns\" about how her case was handled.",
+      "image": "https://cdn.mos.cms.futurecdn.net/RNjZDfq3HTxmvegusVZEkS-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Germany says lawmakers’ iPhones may have been hacked with spyware",
+      "link": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/",
+      "published": "Mon, 02 Nov 2026 19:45:54 +0000",
+      "summary": "German lawmakers and a filmmaker are among the people who received notifications from Apple warning that their phones may have been hacked.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/ios-notification-threat-apple-hero.jpg?resize=1200,814"
+    },
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue'",
+      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
       "link": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
       "published": "Mon, 02 Nov 2026 19:15:31 +0000",
       "summary": "OpenAI plans to rename its data centers as 'AI compute campuses' and anticipates AI becoming a key 2028 election issue, while preparing policy and PR responses.",
@@ -21,7 +208,7 @@
       "link": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
       "published": "Mon, 02 Nov 2026 19:03:31 +0000",
       "summary": "Police dismantled a botnet of 1.3 million Android TV boxes infected with a backdoor, allegedly shipped by Videostrong.",
-      "image": "https://image.theregister.com/?imageId=5307057&width=800",
+      "image": "https://image.theregister.com/?imageId=247072&width=800",
       "readMinutes": 2,
       "whyItMatters": "Highlights supply‑chain security risks for IoT devices."
     },
@@ -32,7 +219,7 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
       "published": "2026-11-02T18:56:02.000Z",
       "summary": "Anthropic updated Claude Code’s system prompt to block AI from recreating existing video games, though it still allows new game creation.",
-      "excerpt": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to use it for direct clones. Last week, a user on X posted a screenshot…",
+      "excerpt": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to use it for direct clones. Last week, a user on X posted a screenshot…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "Tech-savvy readers care because it limits AI‑generated game cloning, protecting IP and shaping creative AI use."
     },
@@ -137,7 +324,7 @@
     {
       "source": "PC Gamer",
       "category": "news",
-      "title": "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but admit that it was 'too impractical to record' every voice line",
+      "title": "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line",
       "link": "https://www.pcgamer.com/games/third-person-shooter/there-was-some-really-fair-criticism-arc-raiders-devs-understand-why-players-were-so-upset-about-its-ai-use-but-admit-that-it-was-too-impractical-to-record-every-voice-line/",
       "published": "Mon, 02 Nov 2026 17:55:20 +0000",
       "summary": "Embark has since re-recorded lines to inject more real human voices to the game.",
@@ -164,25 +351,6 @@
       "readMinutes": 2
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
-      "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-      "published": "2026-11-02T17:51:19.000Z",
-      "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters…",
-      "excerpt": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and the Orlando Sentinel, Brave Software has monetized its index of scraped websites by, in part…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Readwise takes on Amazon’s Kindle and Goodreads with its new app for book lovers",
-      "link": "https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers/",
-      "published": "Mon, 02 Nov 2026 17:49:41 +0000",
-      "summary": "Readwise Books combines an ebook store, reading tracker, detailed reading stats, and AI features in a bid to challenge Amazon's ecosystem.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/image-6.png?resize=1200,675"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
@@ -204,16 +372,6 @@
       "readMinutes": 2
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Apple’s ‘Ultra’ smart home robot might have to wait until 2028",
-      "link": "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay",
-      "published": "2026-11-02T17:06:10.000Z",
-      "summary": "Apple has reportedly delayed the launch of its rumored smart home robot until next year at the earliest or possibly even 2028, according to The Information. It says the robot's hardware \"has been finished for around two years,\" but that…",
-      "excerpt": "Apple has reportedly delayed the launch of its rumored smart home robot until next year at the earliest or possibly even 2028, according to The Information. It says the robot's hardware \"has been finished for around two years,\" but that the software isn't ready. The device's software team has reportedly pushed to delay the launch and \"attempted to strip back some proposed features and focus the product on a few…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK071_APPLE_H.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Raising the quality of insights in agentic analytics",
@@ -223,15 +381,6 @@
       "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png",
       "readMinutes": 2
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "SpaceX reportedly wants to buy Boost Mobile to compete with AT&T, T-Mobile, and Verizon",
-      "link": "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon/",
-      "published": "Mon, 02 Nov 2026 16:44:48 +0000",
-      "summary": "SpaceX has been looking for new ways to use its Starlink network, and a tie-up with cellular operator Boost Mobile could give it the terrestrial access it needs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/09/starlink-direct-to-cell.jpg?resize=1200,601"
     },
     {
       "source": "The Register",
@@ -251,24 +400,6 @@
       "published": "Mon, 02 Nov 2026 16:44:20 +0000",
       "summary": "The first Wi-Fi 8 router has arrived. This quad-band gaming beast from Asus is fabulously fast and feature-packed.",
       "image": "https://media.wired.com/photos/6ae4fef2f23583b9520fe64b/master/pass/Asus%20ROG%20Rapture%20GT-BN98%20Pro%20Review%20102026%20top%20art%20SOURCE%20Amazon.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
-      "link": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-      "published": "Mon, 02 Nov 2026 16:30:00 +0000",
-      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3572.jpeg?resize=1200,895"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
-      "link": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-      "published": "Mon, 02 Nov 2026 16:23:21 +0000",
-      "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800"
     },
     {
       "source": "The Register",
@@ -311,24 +442,6 @@
       "readMinutes": 6
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-      "link": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "published": "Mon, 02 Nov 2026 15:00:00 +0000",
-      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/DSCF1932.jpg?resize=1200,800"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Ninja’s first-ever microwave just replaced two of my kitchen appliances at once",
-      "link": "https://techcrunch.com/2026/11/02/ninjas-first-ever-microwave-just-replaced-two-of-my-kitchen-appliances-at-once/",
-      "published": "Mon, 02 Nov 2026 14:42:38 +0000",
-      "summary": "The Ninja Crispi Microwave stands out for its FusionCrisp technology, which combines the speed of a microwave with the crispy results you'd expect from an air fryer.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/NinjaCrispi.png?w=800"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Gamer's Asus TUF monitor blocks bullet fired through wall during Call of Duty session",
@@ -337,24 +450,6 @@
       "summary": "A Redditor was playing Call of Duty when they heard gunfire outside their home. After hitting the deck, they discovered that their monitor had potentially saved their life.",
       "image": "https://cdn.mos.cms.futurecdn.net/XbgzsS5KsnVhXM4AQ36gyn-1920-80.jpg",
       "readMinutes": 2
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Northwood Space raises $375M Series C at a $2B valuation from a16z and DFJ Growth",
-      "link": "https://techcrunch.com/2026/11/02/northwood-space-raises-375m-series-c-at-a-2b-valuation-from-a16z-and-dfj-growth/",
-      "published": "Mon, 02 Nov 2026 14:22:35 +0000",
-      "summary": "Space infrastructure company Northwood Space on Monday said it had raised $375 million in a Series C round co-led by Andreessen Horowitz and DFJ Growth, valuing the company at $2 billion.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/10/Disrupt-2024-Bridgit-Mendler.jpg?resize=1200,800"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "A fresh wave of cyberattacks has hit Europe’s supermarket refrigerators, destroying food across countries",
-      "link": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
-      "published": "Mon, 02 Nov 2026 14:08:52 +0000",
-      "summary": "This is the second wave of cyberattacks to hit supermarket refrigerators in a month, spoiling food and disrupting supplies.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/supermarket-freezer-hack-2299514106.jpg?resize=1200,800"
     },
     {
       "source": "Tom's Hardware",
@@ -408,26 +503,6 @@
       "readMinutes": 2
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam",
-      "link": "https://www.pcgamer.com/hardware/vr-hardware/valves-steam-frame-has-taken-a-spot-in-the-top-ten-most-popular-vr-headsets-on-steam/",
-      "published": "Mon, 02 Nov 2026 13:26:24 +0000",
-      "summary": "The Quest 3 still holds a significant lead, though.",
-      "image": "https://cdn.mos.cms.futurecdn.net/vY4ztJVBw6dNr9Zr4sVMMT-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Frozen part II: Hackers remotely defrost produce in Euro supermarkets ... again",
-      "link": "https://www.theregister.com/cyber-crime/2026/11/02/frozen-part-ii-hackers-remotely-defrost-produce-in-euro-supermarkets-again/5306924",
-      "published": "Mon, 02 Nov 2026 13:15:00 +0000",
-      "summary": "Let it go (bad): Dozens of stores report mass food wastage as managers start their week in puddles",
-      "image": "https://image.theregister.com/?imageId=257960&width=800",
-      "readMinutes": 3
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Stop counting tokens, start counting what ships",
@@ -470,25 +545,6 @@
       "readMinutes": 2
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Anthropic's IPO prospectus is big on promises, short on answers to tough questions",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/02/anthropics-ipo-prospectus-is-big-on-promises-short-on-answers-to-tough-questions/5306811",
-      "published": "Mon, 02 Nov 2026 12:30:00 +0000",
-      "summary": "Pity Sam Altman: He's going to have a lot more explaining to do when OpenAI follows this work of abstract legal art",
-      "image": "https://image.theregister.com/?imageId=225166&width=800",
-      "readMinutes": 19
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "18 Best Gifts for PC Gamers (2026): Headsets, Desks, Monitors",
-      "link": "https://www.wired.com/gallery/gift-ideas-for-pc-gamers/",
-      "published": "Mon, 02 Nov 2026 12:00:00 +0000",
-      "summary": "Shopping for a PC gamer? This is the gear we use ourselves, starting at prices as low as $12.",
-      "image": "https://media.wired.com/photos/6ae2dc2055ec48169ba25e52/master/pass/Update%20Best%20Gifts%20for%20PC%20Gamers%20102026%20top%20art%20SOURCE%20Amazon.jpg"
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
@@ -498,32 +554,13 @@
       "image": "https://media.wired.com/photos/6ae34e2b3b99c3ad51af9ec6/master/pass/102926-AI%20Web_.jpg"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "FBI pins $6.3B Binance crypto heist on North Korean hackers",
-      "link": "https://www.theregister.com/security/2026/11/02/fbi-pins-63b-binance-crypto-heist-on-north-korean-hackers/5306889",
-      "published": "Mon, 02 Nov 2026 11:45:00 +0000",
-      "summary": "Exchange scrambles to replace stolen funds as customers withdraw billions and hackers get busy laundering their haul",
-      "image": "https://image.theregister.com/?imageId=254844&width=800",
-      "readMinutes": 3
-    },
-    {
       "source": "Wired",
       "category": "news",
-      "title": "Want to Sign With a Hollywood Agent? Start Making Fun of AI",
-      "link": "https://www.wired.com/story/comedians-making-fun-of-ai/",
-      "published": "Mon, 02 Nov 2026 11:30:00 +0000",
-      "summary": "Even as studios incorporate generative tech into film and TV production, comedy content creators have broken through by roasting chatbots.",
-      "image": "https://media.wired.com/photos/6abd93babaed9055bd40abc5/master/pass/culture_comedian_trolling_ai_interviewers.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-      "link": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-      "published": "Mon, 02 Nov 2026 10:00:00 +0000",
-      "summary": "WIRED uncovered some 400 apps and websites linked to Chinese-language developers that look like regular AI tools but had secret features that let users create violent AI-generated images and video.",
-      "image": "https://media.wired.com/photos/6adfc11328ba980ed3d0219a/master/pass/Security_ChinaAppsBehindDeepFakes_v1.jpg"
+      "title": "18 Best Gifts for PC Gamers (2026): Headsets, Desks, Monitors",
+      "link": "https://www.wired.com/gallery/gift-ideas-for-pc-gamers/",
+      "published": "Mon, 02 Nov 2026 12:00:00 +0000",
+      "summary": "Shopping for a PC gamer? This is the gear we use ourselves, starting at prices as low as $12.",
+      "image": "https://media.wired.com/photos/6ae2dc2055ec48169ba25e52/master/pass/Update%20Best%20Gifts%20for%20PC%20Gamers%20102026%20top%20art%20SOURCE%20Amazon.jpg"
     },
     {
       "source": "GitHub Blog",
@@ -550,37 +587,6 @@
       "whyItMatters": "Tech-savvy readers should understand AI content’s impact on credibility, user behavior, and the need for better detection tools."
     },
     {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
-      "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
-      "published": "Sat, 31 Oct 2026 00:07:22 +0000",
-      "summary": "NASA seeks new ideas to reboost and preserve the Hubble Space Telescope after previous proposals stalled.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/hst_vantor-1080x648.jpg",
-      "whyItMatters": "Tech enthusiasts should watch Hubble’s fate, as its data drives space research and public outreach."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
-      "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
-      "published": "Fri, 30 Oct 2026 21:41:54 +0000",
-      "summary": "Boom’s supersonic airliner project faces delays as the company pivots to supplying power for AI data centers, losing a key customer.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Superpower-Superfactory-1152x648.jpg",
-      "whyItMatters": "Tech readers should watch how shifting priorities affect aerospace innovation and AI infrastructure growth."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
-      "link": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
-      "published": "Fri, 30 Oct 2026 19:31:02 +0000",
-      "summary": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in…",
-      "excerpt": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg?w=1920",
-      "readMinutes": 3
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "ESI supplying solar array components to missile defense programs",
@@ -588,16 +594,6 @@
       "published": "Fri, 30 Oct 2026 18:54:34 +0000",
       "summary": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array components to missile defense programs…",
       "excerpt": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array components to missile defense programs appeared first on SpaceNews."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
-      "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
-      "published": "Fri, 30 Oct 2026 15:56:26 +0000",
-      "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by…",
-      "excerpt": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/full-res-for-display.png?w=2048"
     },
     {
       "source": "MIT Technology Review",
@@ -1018,17 +1014,6 @@
       "excerpt": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png",
       "readMinutes": 4
-    },
-    {
-      "source": "Krebs on Security",
-      "category": "news",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "published": "Tue, 08 Sep 2026 21:44:22 +0000",
-      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the…",
-      "excerpt": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many…",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/09/shutterstock_278764853.jpg",
-      "readMinutes": 3
     }
   ]
 }

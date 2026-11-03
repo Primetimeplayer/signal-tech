@@ -1,254 +1,312 @@
 {
-  "updated": "2026-11-02T19:34:53.819Z",
+  "updated": "2026-11-03T02:57:12.968Z",
   "count": 20,
   "items": [
     {
-      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
-      "summary": "The paper explores how to embed continuous-space latent reasoning into unified multimodal models to improve image generation via language-based chain-of-thought.",
-      "link": "http://arxiv.org/abs/2610.42149v1",
-      "published": "2026-10-30T17:59:43Z",
+      "title": "Evidence-grounded large language models guide perovskite solar cell design and optimization",
+      "summary": "Researchers created PSM-Bench, an 800‑question test, to assess large language models’ scientific reasoning for perovskite solar cell design, and launched OpenPerov to aid this work.",
+      "link": "http://arxiv.org/abs/2611.00633v1",
+      "published": "2026-10-31T04:57:32Z",
       "authors": [
-        "Byungwoo Jeon",
-        "Yoonwoo Jeong",
-        "Hyunseok Lee",
-        "Minsu Cho",
-        "Jinwoo Shin"
+        "YanKai Chen",
+        "Zhi Wan",
+        "ZiHao Li",
+        "Tao Jing"
       ],
       "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.LG"
+        "cs.AI"
       ],
-      "whyItMatters": "It could enable more controllable, scalable multimodal AI, benefiting developers seeking fine-grained image synthesis guided by natural language."
+      "whyItMatters": "It shows LLMs can help accelerate materials discovery, a key interest for tech‑savvy innovators."
     },
     {
-      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
-      "summary": "Flide introduces exact state forking to speed up decision inference in LLM agents, reducing prefix recomputation and preserving accurate probabilities.",
-      "link": "http://arxiv.org/abs/2610.42148v1",
-      "published": "2026-10-30T17:59:38Z",
+      "title": "TopoQuant: Topological Framework to Characterize Behavioral Shifts in Quantized Large Language Models",
+      "summary": "TopoQuant uses topological data analysis to measure structural drift in quantized LLMs’ self-attention weights, beyond accuracy metrics.",
+      "link": "http://arxiv.org/abs/2611.00631v1",
+      "published": "2026-10-31T04:55:14Z",
       "authors": [
-        "Bobo Li",
-        "Jiajia Song",
-        "Hao Fei",
-        "Wynne Hsu",
-        "Mong Li Lee"
+        "Baha Rababah",
+        "Shahzeb Qamar",
+        "Lorenz Sparrenberg",
+        "Rafet Sifa",
+        "Murat Kantarcioglu",
+        "Carson K. Leung",
+        "Cuneyt Gurcan Akcora"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "It helps engineers detect hidden behavioral changes after quantization, improving model reliability."
+    },
+    {
+      "title": "Autonomous Analysis of Thermoelectric Materials Big Data by Multi-Agentic AI and Construction of a Knowledge Base and Specialized AI",
+      "summary": "The article describes a Multi‑Agentic AI system that analyzes experimental thermoelectric data, records decisions, and builds a traceable knowledge base.",
+      "link": "http://arxiv.org/abs/2611.00627v1",
+      "published": "2026-10-31T04:51:41Z",
+      "authors": [
+        "Yusuke Hashimoto",
+        "Takaaki Tomai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cond-mat.mtrl-sci",
+        "cs.MA"
+      ],
+      "whyItMatters": "It enables faster, reproducible material discovery for tech‑savvy researchers."
+    },
+    {
+      "title": "XLA from the Trenches: Correctness on TPU Workloads at Scale",
+      "summary": "The article discusses how aggressive optimizations in domain-specific compilers for TPUs can compromise correctness, risking numerical errors and memory corruption during large-scale training.",
+      "link": "http://arxiv.org/abs/2611.00624v1",
+      "published": "2026-10-31T04:48:13Z",
+      "authors": [
+        "Ignacio Cano",
+        "Amir Saadat",
+        "Rishipal Singh Bhatia",
+        "Samuel Ginzburg",
+        "Patrick C. Toulme",
+        "Ioannis Zarkadas",
+        "Praveen Narayanan",
+        "Pratik Bhatu",
+        "Nicolas Basile",
+        "Alexander Dietmüller",
+        "Ruishan Wang",
+        "Jacob Wahlgren",
+        "Victor Barros",
+        "Subhankar Shah",
+        "Michael Kuperstein",
+        "Farzin Houshmand",
+        "Emma Sevastian",
+        "Peter Gavin",
+        "Karthik Srinivasa Murthy",
+        "Berkin Ilbeyi",
+        "Amit Sabne",
+        "Eli Bendersky"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.PL"
+      ],
+      "whyItMatters": "Tech-savvy readers care because correctness issues can invalidate expensive model training and affect deployment reliability."
+    },
+    {
+      "title": "Log-Driven Semantic Tuning for Mixed Integer Programming Solvers",
+      "summary": "The paper proposes using solver logs to guide parameter tuning for mixed integer programming solvers, reducing costly black-box trials.",
+      "link": "http://arxiv.org/abs/2611.00621v1",
+      "published": "2026-10-31T04:43:28Z",
+      "authors": [
+        "Zhengzhong Ricky You",
+        "Kaizhao Sun",
+        "Zeping Min",
+        "Wotao Yin",
+        "Xinshang Wang"
+      ],
+      "categories": [
+        "math.OC",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "whyItMatters": "It offers a faster, data-driven way to optimize solver performance, appealing to practitioners needing efficient MIP solutions."
+    },
+    {
+      "title": "Discovering Models for Experimental Quantum Systems with Agentic AI",
+      "summary": "AI-driven model discovery helps analyze disorder in many-emitter quantum systems, improving understanding of cavity-QED experiments.",
+      "link": "http://arxiv.org/abs/2611.00620v1",
+      "published": "2026-10-31T04:41:02Z",
+      "authors": [
+        "Hannah C. Kleidermacher",
+        "Bennet Windt",
+        "Miguel Bello",
+        "James Zou",
+        "Jelena Vučković"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.AI",
+        "physics.optics"
+      ],
+      "whyItMatters": "It enables better design and control of quantum devices by tackling emitter inhomogeneity."
+    },
+    {
+      "title": "LM6-CastBench: A Geometry-Aware Simulation Dataset for Transient Thermal Prediction in LM6 Sand Casting",
+      "summary": "A new dataset, LM6-CastBench, provides geometry-aware thermal simulations for predicting transient heat fields in LM6 aluminum sand castings.",
+      "link": "http://arxiv.org/abs/2611.00619v1",
+      "published": "2026-10-31T04:39:06Z",
+      "authors": [
+        "Suhani Kolhatkar",
+        "Anand Khandekar"
+      ],
+      "categories": [
+        "cs.AI",
+        "cond-mat.mtrl-sci"
+      ],
+      "whyItMatters": "It enables faster, data-driven defect prediction for more efficient casting processes."
+    },
+    {
+      "title": "Enhancing Language Model Reasoning with Structured Multi-Level Modeling",
+      "summary": "The paper proposes a structured multi-level modeling approach to improve inference-time reasoning in language models, mitigating plan drift in chain-of-thought methods.",
+      "link": "http://arxiv.org/abs/2611.00616v1",
+      "published": "2026-10-31T04:33:35Z",
+      "authors": [
+        "Siheng Xiong",
+        "Ali Payani",
+        "Faramarz Fekri"
       ],
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "It enables faster, more reliable categorical reasoning for real‑time agent systems, improving performance and trustworthiness."
+      "whyItMatters": "It offers a way to boost small LMs’ reasoning accuracy, benefiting developers needing reliable, efficient inference."
     },
     {
-      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
-      "summary": "The article proposes Latent Sparse Attention, a method to enable subquadratic attention for ultra-long contexts over 1M tokens by indexing key subsets.",
-      "link": "http://arxiv.org/abs/2610.42147v1",
-      "published": "2026-10-30T17:59:34Z",
+      "title": "Learning from an Imitable Teacher: Competition Solution for the MetaFine Challenge",
+      "summary": "Team Friday’s entry to the MetaFine Challenge demonstrates advanced fine‑grained manipulation, tackling tasks like precise peg insertion and part‑specific bottle grasping under varied perception conditions.",
+      "link": "http://arxiv.org/abs/2611.00615v1",
+      "published": "2026-10-31T04:33:26Z",
       "authors": [
-        "Ales Kubicek",
-        "Andrea Caciolai",
-        "Liangzu Peng",
-        "Sukrit Sumant",
-        "Benjamin Hoover",
-        "Fraser Greenlee",
-        "Ruairidh M. Battleday",
-        "Radim Urban",
-        "Torsten Hoefler",
-        "James C. R. Whittington"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "It offers scalable attention for large scientific datasets, crucial for efficient long-horizon AI workflows."
-    },
-    {
-      "title": "Hierarchical World Models with Implicit Dynamics",
-      "summary": "The paper presents ID-WM, a hierarchical world model that learns implicit dynamics for better long-horizon planning and fine-grained control.",
-      "link": "http://arxiv.org/abs/2610.42146v1",
-      "published": "2026-10-30T17:59:25Z",
-      "authors": [
-        "Gaoyue Zhou",
-        "Yvonne Wu",
-        "Zichen Jeff Cui",
-        "Nicolas Ballas",
-        "Mido Assran",
-        "Lerrel Pinto",
-        "Yann LeCun"
+        "Yanze Zhang",
+        "Hao Liu",
+        "Haochang Hao",
+        "Zhixiang Shen",
+        "Chunyu Miao",
+        "Yuyao Yang"
       ],
       "categories": [
         "cs.RO",
         "cs.AI"
       ],
-      "whyItMatters": "It promises more robust, adaptable embodied agents capable of complex tasks with reduced error accumulation."
+      "whyItMatters": "It showcases progress in perception‑driven robotic manipulation, relevant for precision automation and AI‑guided assembly tasks."
     },
     {
-      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
-      "summary": "The paper presents RoboArchitect, a system that automatically generates robot harnesses with persistent memory, improving performance over hand‑crafted designs.",
-      "link": "http://arxiv.org/abs/2610.42141v1",
-      "published": "2026-10-30T17:58:48Z",
+      "title": "ECG2Gene: Deep Learning-Based Germline Tumor Susceptibility Gene Risk Assessment Using Electrocardiograms",
+      "summary": "ECG2Gene uses deep learning on 12‑lead ECGs to predict germline tumor susceptibility and future cancer risk.",
+      "link": "http://arxiv.org/abs/2611.00614v1",
+      "published": "2026-10-31T04:17:49Z",
       "authors": [
-        "Shengguang Wu",
-        "Suning Huang",
-        "Cherie Ho",
-        "Ria Doshi",
-        "Hao Zhu",
-        "Serena Yeung-Levy"
+        "Shanwei Zhang",
+        "Qinghao Zhao",
+        "Yize Zhao",
+        "Jun Li",
+        "Yongchao Long",
+        "Jinshuai Gu",
+        "Ling Yang",
+        "Huaidong Du",
+        "Yiping Chen",
+        "Zhengming Chen",
+        "Dianjianyi Sun",
+        "Jun Lv",
+        "Liming Li",
+        "Iona Y. Millwood",
+        "Robin G. Walters",
+        "Canqing Yu",
+        "Yuxi Zhou",
+        "Shenyong Chen",
+        "Shenda Hong"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It could enable early cancer risk screening from routine heart tests."
+    },
+    {
+      "title": "Roz: A Taste Test for World Model Latents",
+      "summary": "The paper evaluates whether state‑of‑the‑art latent dynamics world models truly capture physical properties like mass, friction, and deformation, finding they often miss these details.",
+      "link": "http://arxiv.org/abs/2611.00612v1",
+      "published": "2026-10-31T04:14:53Z",
+      "authors": [
+        "Kenneth Ge",
+        "Dhruv Sheth",
+        "Kunvar Thaman"
       ],
       "categories": [
         "cs.RO",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech‑savvy readers should know that strong image‑based performance may mask missing physics, impacting real‑world robot planning reliability."
+    },
+    {
+      "title": "Trail: Accurate Local Smart Home Control Using Decision Models",
+      "summary": "Trail offers a fully local smart‑home framework that uses typed decision models to interpret natural‑language commands, avoiding cloud LLMs’ privacy risks and local SLMs’ errors.",
+      "link": "http://arxiv.org/abs/2611.00610v1",
+      "published": "2026-10-31T04:13:21Z",
+      "authors": [
+        "Maleeha Masood",
+        "Deepak Vasisht",
+        "Indranil Gupta"
+      ],
+      "categories": [
         "cs.AI",
-        "cs.CV"
+        "cs.LG"
       ],
-      "whyItMatters": "Automating harness design reduces engineering effort and boosts robot adaptability without costly fine‑tuning."
+      "whyItMatters": "It gives tech‑savvy users secure, reliable voice control without cloud dependence."
     },
     {
-      "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
-      "summary": "The article explains how random batch sampling in DP-SGD improves privacy via amplification, focusing on variable batch sizes from Poisson and random allocation methods.",
-      "link": "http://arxiv.org/abs/2610.42139v1",
-      "published": "2026-10-30T17:58:42Z",
+      "title": "Words Before Pixels: Selective Modality Routing for Vision-Language Model Unlearning",
+      "summary": "Vision-language model (VLM) unlearning is often treated as an objective-design problem: given multimodal forget data, the goal is to optimize a loss that removes undesirable behavior while preserving retained capabilities. We argue that this view overlooks an equally important data-centric question: how should each forget example be represented before optimization? Existing methods typically keep…",
+      "link": "http://arxiv.org/abs/2611.00608v1",
+      "published": "2026-10-31T04:09:27Z",
       "authors": [
-        "Vitaly Feldman",
-        "Audra McMillan",
-        "Kunal Talwar"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CR"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it offers tighter privacy guarantees for machine learning models."
-    },
-    {
-      "title": "A Better Critic Matters for Distribution Matching Distillation",
-      "summary": "The paper studies how a critic’s capacity and information affect training signals in Distribution Matching Distillation for student models.",
-      "link": "http://arxiv.org/abs/2610.42135v1",
-      "published": "2026-10-30T17:58:26Z",
-      "authors": [
-        "Zongze Wu",
-        "Xianbang Wang",
-        "Zhengyang Geng",
-        "Mingdeng Cao",
-        "Zhoutong Zhang",
-        "Richard Zhang",
-        "Eli Shechtman",
-        "Ruiming Cao"
+        "Laura Yao",
+        "Haochen Zhang",
+        "Jinhao Duan",
+        "Sijia Liu",
+        "Tianlong Chen"
       ],
       "categories": [
         "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "It guides efficient design of distillation pipelines for faster, smaller models."
+        "cs.AI"
+      ]
     },
     {
-      "title": "Instance-dependent sequential limits as an exact information ledger",
-      "summary": "The paper unifies instance-dependent lower bounds for bandit problems, sequential tests, best-arm identification, and MDPs into a single analytical chain.",
-      "link": "http://arxiv.org/abs/2610.42133v1",
-      "published": "2026-10-30T17:57:44Z",
+      "title": "Sparse Autoencoder Attribution Graphs Are Decided at the Margin",
+      "summary": "Attribution graphs over the features of sparse autoencoders (SAEs) are used to predict what an ablation does and are compared across training seeds. A TopK SAE keeps the largest preactivations at each token, and a feature's margin is its preactivation's distance to the cutoff. On five public TopK SAE pairs from three Pythia models, zeroing one feature moves a next layer feature across the cutoff…",
+      "link": "http://arxiv.org/abs/2611.00606v1",
+      "published": "2026-10-31T04:03:14Z",
       "authors": [
-        "Akshay Balsubramani"
+        "Karl Li"
       ],
       "categories": [
         "cs.LG",
-        "cs.IT",
-        "math.ST",
-        "stat.ML"
-      ],
-      "whyItMatters": "Tech-savvy readers gain a single framework to derive tight performance limits across diverse sequential decision tasks."
-    },
-    {
-      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
-      "summary": "The paper proposes DecisionRank, a method to distill ranking knowledge from large language models into efficient decision models for structured tasks.",
-      "link": "http://arxiv.org/abs/2610.42128v1",
-      "published": "2026-10-30T17:56:58Z",
-      "authors": [
-        "Yanran Wu",
-        "Dian Yu",
-        "Chongyang Bai",
-        "Jieyi Zhang",
-        "Rui Liu",
-        "Tianyi Chen",
-        "Shike Mei",
-        "Hang Cui",
-        "Frank Shyu",
-        "Sandeep Pandey",
-        "Luke Simon",
-        "Chunwei Liu",
-        "Xi Liu"
-      ],
-      "categories": [
+        "cs.AI",
         "cs.CL"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it reduces latency while preserving ranking quality in LLM-powered retrieval."
+      ]
     },
     {
-      "title": "Physiological Trajectories and Observation Patterns in ICU Mortality Prediction: Transportability Under Changing Measurement Conditions",
-      "summary": "The study evaluates how ICU mortality prediction models transfer across datasets, comparing the predictive power of physiological trajectories versus observation patterns and the impact of measurement timing.",
-      "link": "http://arxiv.org/abs/2610.42126v1",
-      "published": "2026-10-30T17:56:10Z",
+      "title": "Conversational Interaction for LLM-Based Clinical Text-to-SQL: A User Study with Healthcare Professionals",
+      "summary": "Conversational text-to-SQL interfaces could give healthcare professionals natural-language access to electronic health record (EHR) data, but evidence for their real-world usability remains limited: prior evaluations have relied largely on curated benchmarks with fully specified questions or on simulated users. We report a user study in which 14 physicians who regularly work with EHR data used…",
+      "link": "http://arxiv.org/abs/2611.00605v1",
+      "published": "2026-10-31T04:01:13Z",
       "authors": [
-        "Benjamin T. Pike"
+        "Jun-Min Lee",
+        "Suyoung Yoo",
+        "Gyubok Lee",
+        "Edward Choi",
+        "Meong Hi Son"
       ],
       "categories": [
-        "cs.LG",
-        "q-bio.QM"
-      ],
-      "whyItMatters": "It guides building robust, generalizable ICU risk models and informs efficient data collection strategies."
+        "cs.AI",
+        "cs.HC"
+      ]
     },
     {
-      "title": "Gradient Descent on Two ReLU Neurons: Global Landscape and Bifurcation Dynamics",
-      "summary": "The paper analyzes gradient descent dynamics on a two‑neuron ReLU teacher‑student model with Gaussian inputs, revealing complex multi‑phase behavior.",
-      "link": "http://arxiv.org/abs/2610.42118v1",
-      "published": "2026-10-30T17:51:35Z",
+      "title": "Editing the Goal: Per-Token SAE Steering and Its Depth Limits in π_0.5",
+      "summary": "Sparse autoencoders (SAEs) have recovered interpretable, causally relevant features in robot foundation models (RFMs) such as π_0.5 (arXiv:2603.19183, arXiv:2603.19233). SAE features on individual instruction tokens are less interpretable than timestep-pooled ones (arXiv:2603.19183), and whether they can redirect a robot's goal remains untested. We show that replacing the SAE features of a single…",
+      "link": "http://arxiv.org/abs/2611.00602v1",
+      "published": "2026-10-31T03:56:08Z",
       "authors": [
-        "Binghua Li",
-        "Mengzhe Li",
-        "Denny Wu",
-        "Tianhao Wang"
-      ],
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "whyItMatters": "It offers insights into feature learning and convergence challenges in deep learning."
-    },
-    {
-      "title": "Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT",
-      "summary": "The paper presents a faster privacy loss accountant for random allocation sampling, reducing runtime from quadratic to near-linear in the accuracy parameter.",
-      "link": "http://arxiv.org/abs/2610.42117v1",
-      "published": "2026-10-30T17:51:03Z",
-      "authors": [
-        "Vitaly Feldman",
-        "Moshe Shenfeld"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it speeds up differential privacy calculations for large-scale, communication-efficient data aggregation."
-    },
-    {
-      "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
-      "summary": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs…",
-      "link": "http://arxiv.org/abs/2610.42116v1",
-      "published": "2026-10-30T17:50:49Z",
-      "authors": [
-        "Yuzhe Liu",
-        "Haolin Tian",
-        "Tonghan Wang"
+        "Rocio Perales Valdes",
+        "Animesh Garg"
       ],
       "categories": [
         "cs.AI"
       ]
     },
     {
-      "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
-      "summary": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only achieve constant-factor speedups (e.g., sparse attention methods…",
-      "link": "http://arxiv.org/abs/2610.42112v1",
-      "published": "2026-10-30T17:48:37Z",
+      "title": "Multi-Estimate Elicitation Does Not Uniformly Debias Language Model Judgments",
+      "summary": "Does eliciting five weighted estimates within a single response change how a language model responds to information? Across anchoring, hindsight, base-rate, conjunction, and status-quo/default tasks, we compare direct numerical answers with a multi-estimate response format, contrasting source framings, explicitly random cues, and probability-consistency constraints. We evaluate three completed…",
+      "link": "http://arxiv.org/abs/2611.00597v1",
+      "published": "2026-10-31T03:46:00Z",
       "authors": [
-        "Leon Lufkin",
-        "Cutter Dawes",
-        "Alexander Speicher",
-        "Kamesh Krishnamurthy",
-        "Tomás Figliolia",
-        "Beren Millidge"
+        "An-Sheng Jhang"
       ],
       "categories": [
         "cs.CL",
@@ -256,100 +314,85 @@
       ]
     },
     {
-      "title": "SATFRONT: Detecting Atmospheric Fronts with Satellite Data using Machine Learning",
-      "summary": "Atmospheric fronts are associated with much of the high-impact weather in the mid-latitudes, yet their identification and classification remain largely manual and subjective. Existing deep learning approaches rely primarily on gridded reanalysis or forecast data, limiting their applicability to satellite observations available for time-critical applications. We introduce SATFRONT, a machine…",
-      "link": "http://arxiv.org/abs/2610.42111v1",
-      "published": "2026-10-30T17:48:20Z",
+      "title": "X-World 1.6: Building Controllable Virtual Cities with World Models",
+      "summary": "Deploying generative world models for end-to-end closed-loop evaluation and policy learning requires precise scenario control, consistent observations, and sustained generation quality during extended interactions. This report presents X-World~1.6, advancing X-World~1.0 toward a more reliable and versatile driving simulator. The upgraded base model offers finer-grained control over traffic…",
+      "link": "http://arxiv.org/abs/2611.00596v1",
+      "published": "2026-10-31T03:45:22Z",
       "authors": [
-        "Ioannis Dravilas",
-        "Miruna Stoicescu",
-        "Roope Tervo",
-        "Carlos Horn",
-        "Oriol Hinojo Comellas",
-        "Sina Montazeri",
-        "Andrea Meraner",
-        "Ana Lucic"
+        " XPeng",
+        " :",
+        "Boyang Wang",
+        "Boyi Sun",
+        "Chaoda Zheng",
+        "Dongbin Zhang",
+        "Guangfeng Jiang",
+        "Hanlong Chen",
+        "Hongbin Lin",
+        "Jianlei Zheng",
+        "Jinhao Deng",
+        "Kai Yang",
+        "Kangjie Chen",
+        "Linkun Xu",
+        "Minqi Wang",
+        "Puyi Wang",
+        "Rongliang Cheng",
+        "Ruixin Liu",
+        "Shijia Chen",
+        "Shuang Deng",
+        "Sijia Chen",
+        "Sin Wai Choo",
+        "Tianyuan Xie",
+        "Xiangyu Li",
+        "Xianming Liu",
+        "Xingjie Liu",
+        "Xinlong Zheng",
+        "Xuejie Lv",
+        "Xuezhi Yang",
+        "Yi Guo",
+        "Yixiao Zeng",
+        "Yu Zhang",
+        "Yuecheng Ma",
+        "Yuhao Wang",
+        "Yuqi Zhang",
+        "Yuxin Peng"
       ],
       "categories": [
-        "physics.ao-ph",
-        "cs.LG"
+        "cs.AI"
       ]
     },
     {
-      "title": "Regret-Optimal Wasserstein-Robust Linear Regression",
-      "summary": "Distributionally robust optimization (DRO) minimizes worst-case risk under distributional uncertainty, but its decisions can be suboptimal in terms of their excess risk, or regret. We study this gap for multivariate least-squares regression, assuming that the observed source law and unknown target law differ by an adversarial 2-Wasserstein perturbation of size ε. We first identify the asymptotic…",
-      "link": "http://arxiv.org/abs/2610.42109v1",
-      "published": "2026-10-30T17:47:58Z",
+      "title": "Do Orthogonality Constraints Help Language-Model Training Beyond Sphere Optimization?",
+      "summary": "A growing body of work reports benefits from orthogonality constraints in fine-tuning large language models (LLMs). These results raise an open question: do orthogonality constraints also help LLM pre-training? We conduct a systematic empirical study of decoder-only LLM pre-training with models ranging from 360M to 3.1B parameters, trained on nearly 200B tokens. We examine fourteen variants of…",
+      "link": "http://arxiv.org/abs/2611.00593v1",
+      "published": "2026-10-31T03:42:53Z",
       "authors": [
-        "Sloan Nietert",
-        "Daniel Kuhn"
-      ],
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "math.OC"
-      ]
-    },
-    {
-      "title": "Hard Constraint Projection in a Physics Informed Neural Network (Burgers)",
-      "summary": "Physics informed machine learning provides a framework to study and simulate fluid dynamics, potentially at a fraction of the computational cost of traditional numerical methods, with the goal of improving the explainability, accuracy and robustness of purely data driven machine learning methods. In this work, we extend the hard constraint projection (HCP) method developed by Chen et al. [Journal…",
-      "link": "http://arxiv.org/abs/2610.42106v1",
-      "published": "2026-10-30T17:47:01Z",
-      "authors": [
-        "Miranda J S Horne",
-        "Peter K Jimack",
-        "Amirul Khan",
-        "He Wang"
-      ],
-      "categories": [
-        "physics.flu-dyn",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Hyperbolic Inverse Reinforcement Learning",
-      "summary": "Inverse reinforcement learning (IRL) seeks to infer the reward function underlying observed behavior, but its predictive accuracy and interpretability depend on how that reward is computed from the underlying features. While prior IRL reward functions have been implemented through a variety of techniques including linear weights, neural networks, or other function approximators, none make…",
-      "link": "http://arxiv.org/abs/2610.42104v1",
-      "published": "2026-10-30T17:46:04Z",
-      "authors": [
-        "Iulia Rusu",
-        "Anoop Praturu",
-        "Sergei Gepshtein",
-        "Tatyana Sharpee"
-      ],
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments",
-      "summary": "Deep reinforcement learning (RL) is a powerful framework for sequential decision-making. Despite many high-profile successes in recent years, deep RL is known to be brittle. An emerging line of research attributes this brittleness to a loss of plasticity in neural networks. However, plasticity loss has so far been understudied in stochastic environments. We study this interplay systematically…",
-      "link": "http://arxiv.org/abs/2610.42100v1",
-      "published": "2026-10-30T17:43:04Z",
-      "authors": [
-        "Philipp Bordne",
-        "André Biedenkapp"
+        "Kai Hu",
+        "Li Zhang",
+        "Weichen Yu",
+        "Matt Fredrikson",
+        "Haoqi Hu"
       ],
       "categories": [
         "cs.LG"
       ]
     },
     {
-      "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
-      "summary": "World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions…",
-      "link": "http://arxiv.org/abs/2610.42096v1",
-      "published": "2026-10-30T17:40:00Z",
+      "title": "Saidzoda-Tajik-E5-Large: Fine-Tuning a 560M Embedder for Tajik Retrieval",
+      "summary": "Finding the passage that answers a question is the first step of most practical systems built on documents, and for Tajik we found no openly described model for it. We present Saidzoda-Tajik-E5-Large, a Tajik text embedder built from multilingual-e5-large-instruct (560M parameters). We asked our own Tajik language model to write questions for passages from Tajik laws, tax documents, Wikipedia and…",
+      "link": "http://arxiv.org/abs/2611.00592v1",
+      "published": "2026-10-31T03:41:43Z",
       "authors": [
-        "Juntao Cheng",
-        "Jinzhou Tang",
-        "Fan Feng",
-        "Henrik I. Christensen",
-        "Yujia Zheng"
+        "Tohir Saidzoda",
+        "Nekruz Maxudov",
+        "Bedil Karimov",
+        "Abubakr Abdullozoda",
+        "Amin Jalilov",
+        "Jonibek Kishvarov",
+        "Rahmonali Sharipov",
+        "Mariyamkhon Shodyeva"
       ],
       "categories": [
-        "cs.AI",
-        "cs.RO",
-        "stat.ML"
+        "cs.CL"
       ]
     }
   ]
