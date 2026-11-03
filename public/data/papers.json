@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-03T11:00:47.912Z",
+  "updated": "2026-11-03T19:35:23.496Z",
   "count": 20,
   "items": [
     {
       "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
-      "summary": "Pixel-UMI learns whole-body robot policies from sensorized human demos by retargeting trajectories using scene geometry and head/gripper data.",
+      "summary": "Pixel-UMI learns whole-body robot policies from sensorized human demos by retargeting head and gripper motions onto reconstructed scenes.",
       "link": "http://arxiv.org/abs/2611.03647v1",
       "published": "2026-11-02T18:59:32Z",
       "authors": [
@@ -20,7 +20,7 @@
         "cs.LG",
         "eess.SY"
       ],
-      "whyItMatters": "It enables robots to adapt human skills to varied environments, improving deployment flexibility."
+      "whyItMatters": "It enables robots to adapt human demonstrations to their own bodies, improving scalability of mobile manipulation training."
     },
     {
       "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
@@ -40,11 +40,11 @@
         "cs.LG",
         "eess.SY"
       ],
-      "whyItMatters": "It streamlines development, reducing mismatches and accelerating advanced robot capabilities."
+      "whyItMatters": "It streamlines development, reducing mismatches and accelerating advanced robotic capabilities."
     },
     {
       "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
-      "summary": "The paper presents a neuro-symbolic method converting natural language into exact cover for solving zebra puzzles, addressing LLMs' logical reasoning gaps.",
+      "summary": "The paper presents a neuro-symbolic method converting natural language into exact cover constraints to solve Zebra puzzles, improving logical reasoning over LLMs.",
       "link": "http://arxiv.org/abs/2611.03641v1",
       "published": "2026-11-02T18:58:21Z",
       "authors": [
@@ -58,11 +58,11 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "Tech-savvy readers care because it enhances reliable reasoning in AI systems."
+      "whyItMatters": "Tech-savvy readers care because it blends neural flexibility with symbolic precision, enhancing reliable problem solving in AI."
     },
     {
       "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
-      "summary": "WebHarbor offers 153 realistic, executable web environments for training and evaluating GUI agents, addressing instability and limited coverage of live sites.",
+      "summary": "WebHarbor offers 153 realistic, executable web environments for training and evaluating GUI agents, addressing stability, coverage, and fidelity issues of live sites.",
       "link": "http://arxiv.org/abs/2611.03634v1",
       "published": "2026-11-02T18:57:36Z",
       "authors": [
@@ -129,7 +129,7 @@
         "cs.CL",
         "cs.LG"
       ],
-      "whyItMatters": "It enables more reliable, authentic agent development by providing stable, diverse, and authenticated web scenarios."
+      "whyItMatters": "It enables reliable, scalable agent development with authentic web interactions, boosting research and product deployment."
     },
     {
       "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
@@ -146,11 +146,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because it informs optimizer choice for efficient large‑model training and deployment."
+      "whyItMatters": "Tech-savvy readers care because optimizer choice impacts training cost and model performance in large‑scale NLP projects."
     },
     {
       "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
-      "summary": "The paper explores how reinforcement learning with verifiable rewards can teach large language models generalizable reasoning strategies, using an equation‑solving framework.",
+      "summary": "The paper explores how reinforcement learning with verifiable rewards can teach large language models generalizable reasoning strategies, using an equation‑solving framework to test incentives.",
       "link": "http://arxiv.org/abs/2611.03627v1",
       "published": "2026-11-02T18:53:54Z",
       "authors": [
@@ -160,11 +160,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "It shows a path to more robust, transferable LLM reasoning, valuable for advanced AI applications."
+      "whyItMatters": "It shows a path to more robust, transferable LLM reasoning, crucial for advanced AI applications."
     },
     {
       "title": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
-      "summary": "FADE proposes a factored filtering method for online RLVR scheduling, selecting only prompts with mixed outcomes to efficiently improve policies.",
+      "summary": "The paper introduces FADE, a scheduler for group-based RLVR that filters prompts by factored ability–difficulty to focus learning on informative examples.",
       "link": "http://arxiv.org/abs/2611.03625v1",
       "published": "2026-11-02T18:53:23Z",
       "authors": [
@@ -177,11 +177,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because it reduces wasted computation and accelerates learning in reinforcement learning systems."
+      "whyItMatters": "Tech-savvy readers care because it improves sample efficiency and reduces wasted computation in reinforcement learning."
     },
     {
       "title": "Thought-deciphering via hierarchical EEG-to-text alignment",
-      "summary": "The article discusses a new hierarchical EEG-to-text alignment method for brain‑computer interfaces that could help people with severe communication disabilities.",
+      "summary": "The article explores a hierarchical EEG-to-text alignment method for non‑invasive brain‑computer interfaces, aiming to help people with communication disabilities like LIS, CP, and dysarthria.",
       "link": "http://arxiv.org/abs/2611.03623v1",
       "published": "2026-11-02T18:52:26Z",
       "authors": [
@@ -195,11 +195,11 @@
         "cs.LG",
         "eess.SP"
       ],
-      "whyItMatters": "It offers a non‑invasive way to restore speech for patients with locked‑in syndrome or similar conditions."
+      "whyItMatters": "It could enable more reliable, natural communication for users with severe speech impairments."
     },
     {
       "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
-      "summary": "The paper shows how separating description from assessment lets VLMs estimate robot task progress without bias, improving zero-shot reward modeling.",
+      "summary": "The paper shows how separating description from assessment in VLMs improves zero‑shot reward modeling for robotic video tasks, reducing hallucinated success signals.",
       "link": "http://arxiv.org/abs/2611.03622v1",
       "published": "2026-11-02T18:52:11Z",
       "authors": [
@@ -223,11 +223,11 @@
         "cs.LG",
         "eess.SY"
       ],
-      "whyItMatters": "It offers more accurate, unbiased progress feedback for autonomous robots, boosting learning efficiency."
+      "whyItMatters": "It offers more reliable, bias‑free progress estimation for autonomous robots, aiding safer, efficient learning."
     },
     {
       "title": "Strategist: Evolving Reasoning with Agents",
-      "summary": "The article introduces Strategist, a meta-agent that automates evolving inference strategies for AI agents across tasks.",
+      "summary": "The article introduces Strategist, a meta-agent that automatically evolves inference strategies for AI agents across tasks.",
       "link": "http://arxiv.org/abs/2611.03618v1",
       "published": "2026-11-02T18:51:04Z",
       "authors": [
@@ -240,11 +240,11 @@
         "cs.AI",
         "cs.CL"
       ],
-      "whyItMatters": "It promises reusable, adaptive reasoning, reducing manual coding for AI developers."
+      "whyItMatters": "It could streamline agent development, saving time and improving consistency for tech developers."
     },
     {
       "title": "Tracing the Scientific Discovery Capacity of LLMs to Their Training Data",
-      "summary": "The article investigates how an LLM’s ability to discover scientific facts can be traced back to the distribution of facts in its training data.",
+      "summary": "The article investigates how LLMs’ ability to discover scientific facts can be traced back to the training data, focusing on missing probability mass and monofacts.",
       "link": "http://arxiv.org/abs/2611.03617v1",
       "published": "2026-11-02T18:50:54Z",
       "authors": [
@@ -260,7 +260,7 @@
         "cs.CL",
         "cs.AI"
       ],
-      "whyItMatters": "Understanding this link helps improve model reliability and guide data curation for scientific AI."
+      "whyItMatters": "Understanding this link helps improve model reliability for scientific research."
     },
     {
       "title": "Benchmark Prediction with Sparse and Unpaired Cached Responses",
@@ -278,7 +278,7 @@
         "stat.ME",
         "stat.ML"
       ],
-      "whyItMatters": "It enables faster, more efficient model benchmarking for tech researchers and practitioners."
+      "whyItMatters": "It enables efficient, scalable assessment of generative models across many tasks, saving time and resources."
     },
     {
       "title": "Efficient Closure Learning in Dynamical Systems: A Comparison of Data-Assimilated and Embedded Approaches",
