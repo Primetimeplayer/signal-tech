@@ -1,7 +1,102 @@
 {
-  "updated": "2026-11-03T02:57:12.713Z",
-  "count": 97,
+  "updated": "2026-11-03T11:00:47.535Z",
+  "count": 96,
   "items": [
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Users pull $3.6 bn from Binance as it reopens following $6.3 billion mega-hack - FBI says North Korean hacking group 'TraderTraitor' to blame, North Korea says nuh-uh",
+      "link": "https://www.pcgamer.com/software/security/users-pull-usd3-6-bn-from-binance-as-it-reopens-following-usd6-3-billion-mega-hack-fbi-says-north-korean-hacking-group-tradertraitor-to-blame-north-korea-says-nuh-uh/",
+      "published": "Tue, 03 Nov 2026 10:54:30 +0000",
+      "summary": "Binance users withdrew $3.6 billion after a $6.3 billion hack attributed to a North Korean group, yet some still deposit funds.",
+      "image": "https://cdn.mos.cms.futurecdn.net/eDGcGRApH6Ut5G9XMKVRHB-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "Shows ongoing trust issues and market volatility in crypto exchanges."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "NASA’s Swift Observatory Is Falling to Earth. Here’s What to Know About the Impending Impact",
+      "link": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact/",
+      "published": "Tue, 03 Nov 2026 10:45:00 +0000",
+      "summary": "NASA’s Swift Observatory, a 3,200-pound satellite, will reenter Earth’s atmosphere this week, affecting a wide zone across Africa, Australia, Southeast Asia, and South America.",
+      "image": "https://media.wired.com/photos/6ae8c770a02f1e9caf32860c/master/pass/swiftnasa.jpg",
+      "whyItMatters": "Tech readers should monitor potential data loss and space debris risks impacting future missions."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Forget retraining - AI can now tweak another AI's weights",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/03/forget-retraining-ai-can-now-tweak-another-ais-weights/5307105",
+      "published": "Tue, 03 Nov 2026 08:15:00 +0000",
+      "summary": "The article explains how Weight‑Space Programming lets one AI adjust another AI’s weights to improve benchmark performance without full retraining.",
+      "image": "https://image.theregister.com/?imageId=5307111&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers care because it promises faster, cheaper AI model tuning and higher accuracy."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Yvonne Bajela is bringing $17M in fresh capital to Europe’s startup scene",
+      "link": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/",
+      "published": "Tue, 03 Nov 2026 08:01:00 +0000",
+      "summary": "Evertrue Capital launches a $17M fund to invest in early‑stage AI and fintech startups in Europe.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Yvonne.jpg?resize=1171,1200",
+      "whyItMatters": "New capital fuels innovation and competition in Europe's growing tech ecosystem."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "published": "Tue, 03 Nov 2026 07:20:00 +0000",
+      "summary": "Apple’s new Audio Intelligence beta lets users rewind and recap conversations, capturing notes automatically.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/live-rewind-restaurant.jpg?resize=1200,669",
+      "whyItMatters": "It enhances productivity by saving time on manual note‑taking during meetings."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Open models can do 90% of agentic work at a twentieth of the cost of a frontier LLM: Gartner",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
+      "published": "Tue, 03 Nov 2026 06:19:50 +0000",
+      "summary": "Gartner finds open models can handle 90% of agentic tasks for a twentieth of frontier LLM costs, showing value lies in their application.",
+      "image": "https://image.theregister.com/?imageId=5307139&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should note cheaper, versatile models shift focus to integration, not just model size."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Architect creates open source replacement for VM migration tool VMware has hidden",
+      "link": "https://www.theregister.com/virtualization/2026/11/03/architect-creates-open-source-replacement-for-vm-migration-tool-vmware-has-hidden/5307124",
+      "published": "Tue, 03 Nov 2026 04:45:59 +0000",
+      "summary": "An architect released OpenVDDK, an open‑source tool that replaces VMware’s hidden VM migration utility, already deployed at scale.",
+      "image": "https://image.theregister.com/?imageId=5307129&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech users can avoid vendor lock‑in and reduce costs with a community‑maintained migration solution."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "link": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "published": "Tue, 03 Nov 2026 03:30:00 +0000",
+      "summary": "Google’s Dreambeans AI now supports 13 Indian languages, expanding access to AI-generated personal stories across India.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/google-dreambeans.jpg?resize=1200,800",
+      "whyItMatters": "Enables broader cultural inclusion and personalized content for millions of Indian users."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Toyota shows off SoC that stores model weights and its OS on integrated memory",
+      "link": "https://www.theregister.com/systems/2026/11/03/toyota-shows-off-soc-that-stores-model-weights-and-its-os-on-integrated-memory/5307117",
+      "published": "Tue, 03 Nov 2026 03:25:32 +0000",
+      "summary": "Toyota unveiled a system‑on‑chip that stores AI model weights and its operating system in integrated memory, eliminating the need for external memory access.",
+      "image": "https://image.theregister.com/?imageId=238536&width=800",
+      "readMinutes": 1,
+      "whyItMatters": "It boosts automotive AI performance and reduces cost, appealing to tech‑savvy readers interested in efficient edge computing."
+    },
     {
       "source": "Krebs on Security",
       "category": "news",
@@ -202,17 +297,6 @@
       "whyItMatters": "Tech readers should note this signals growing political and environmental scrutiny of AI infrastructure."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Cops bust botnet of 1.3M infected Android TV boxes",
-      "link": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
-      "published": "Mon, 02 Nov 2026 19:03:31 +0000",
-      "summary": "Police dismantled a botnet of 1.3 million Android TV boxes infected with a backdoor, allegedly shipped by Videostrong.",
-      "image": "https://image.theregister.com/?imageId=247072&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Highlights supply‑chain security risks for IoT devices."
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "Anthropic clamps down on Claude’s AI video game clones",
@@ -289,17 +373,6 @@
       "whyItMatters": "Tech readers should note the limits of policy in curbing AI proliferation and its impact on innovation."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Marvell wants to be a copper topper, bets $115B on photonics leader to push optical networking",
-      "link": "https://www.theregister.com/systems/2026/11/02/marvell-wants-to-be-a-copper-topper-bets-115b-on-photonics-leader-to-push-optical-networking/5307028",
-      "published": "Mon, 02 Nov 2026 18:02:55 +0000",
-      "summary": "Marvell plans to dominate copper networking by investing $115 B in a photonics company, anticipating a surge in optical networking demand from Nvidia and others.",
-      "image": "https://image.theregister.com/?imageId=253714&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech leaders should watch, as this move could reshape data center infrastructure and accelerate high‑speed optical adoption."
-    },
-    {
       "source": "The Verge",
       "category": "news",
       "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
@@ -362,16 +435,6 @@
       "readMinutes": 3
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Ericsson says it can detect, track drones using only mobile networks",
-      "link": "https://www.theregister.com/networks/2026/11/02/ericsson-says-it-can-detect-track-drones-using-only-mobile-networks/5306958",
-      "published": "Mon, 02 Nov 2026 17:29:00 +0000",
-      "summary": "ISAC technology adds detection ability to existing cell networks, enabling them to track low-flying small drones",
-      "image": "https://image.theregister.com/?imageId=5297253&width=800",
-      "readMinutes": 2
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Raising the quality of insights in agentic analytics",
@@ -380,45 +443,6 @@
       "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking…",
       "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png",
-      "readMinutes": 2
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Thieves pilfer environment variables from Trigger AI workflow tool",
-      "link": "https://www.theregister.com/security/2026/11/02/thieves-pilfer-environment-variables-from-trigger-ai-workflow-tool/5306998",
-      "published": "Mon, 02 Nov 2026 16:44:30 +0000",
-      "summary": "So, who's ready to clear the dust out of that server closet and move things back on-prem?",
-      "image": "https://image.theregister.com/?imageId=260694&width=800",
-      "readMinutes": 2
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Asus ROG Rapture GT-BN98 Pro Review: Welcome to Wi-Fi 8",
-      "link": "https://www.wired.com/review/asus-rog-rapture-gt-bn98-pro/",
-      "published": "Mon, 02 Nov 2026 16:44:20 +0000",
-      "summary": "The first Wi-Fi 8 router has arrived. This quad-band gaming beast from Asus is fabulously fast and feature-packed.",
-      "image": "https://media.wired.com/photos/6ae4fef2f23583b9520fe64b/master/pass/Asus%20ROG%20Rapture%20GT-BN98%20Pro%20Review%20102026%20top%20art%20SOURCE%20Amazon.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Token thieves costing companies $100K+ per day in illicit LLM charges",
-      "link": "https://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967",
-      "published": "Mon, 02 Nov 2026 16:00:00 +0000",
-      "summary": "Don't let the LLMjackers hit you",
-      "image": "https://image.theregister.com/?imageId=5306978&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "SUSE to cut one in ten employees because of... AI",
-      "link": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
-      "published": "Mon, 02 Nov 2026 15:30:00 +0000",
-      "summary": "'Modern tooling is already changing our daily workflows' says CEO at open source biz",
-      "image": "https://image.theregister.com/?imageId=5243339&width=800",
       "readMinutes": 2
     },
     {
@@ -483,16 +507,6 @@
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/SpaceNews_AD-1-1.png?fit=1024%2C794&ssl=1"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update",
-      "link": "https://www.pcgamer.com/hardware/memory/ray-tracing-memory-usage-could-be-reduced-by-up-to-90-percent-thanks-to-most-significant-directx-update/",
-      "published": "Mon, 02 Nov 2026 13:38:24 +0000",
-      "summary": "Potentially getting much more out of existing hardware is nothing to sniff at.",
-      "image": "https://cdn.mos.cms.futurecdn.net/3vaLZrUADLuNub9iKdwiX6-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "AI model gets a 32-bit RISC-V CPU compiled directly into its weights, then runs DOOM on it",
@@ -543,24 +557,6 @@
       "summary": "A 34% price cut at Amazon means you can get the Samsung P9 512GB microSD Express card for the Nintendo Switch 2 for just $99.99 right now.",
       "image": "https://cdn.mos.cms.futurecdn.net/WjxuZBmW8ooq6N4xvPiHLJ-1920-80.png",
       "readMinutes": 2
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
-      "link": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
-      "published": "Mon, 02 Nov 2026 12:00:00 +0000",
-      "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine.",
-      "image": "https://media.wired.com/photos/6ae34e2b3b99c3ad51af9ec6/master/pass/102926-AI%20Web_.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "18 Best Gifts for PC Gamers (2026): Headsets, Desks, Monitors",
-      "link": "https://www.wired.com/gallery/gift-ideas-for-pc-gamers/",
-      "published": "Mon, 02 Nov 2026 12:00:00 +0000",
-      "summary": "Shopping for a PC gamer? This is the gear we use ourselves, starting at prices as low as $12.",
-      "image": "https://media.wired.com/photos/6ae2dc2055ec48169ba25e52/master/pass/Update%20Best%20Gifts%20for%20PC%20Gamers%20102026%20top%20art%20SOURCE%20Amazon.jpg"
     },
     {
       "source": "GitHub Blog",
