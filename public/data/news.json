@@ -1,28 +1,434 @@
 {
-  "updated": "2026-11-04T11:08:52.756Z",
-  "count": 96,
+  "updated": "2026-11-04T19:52:11.231Z",
+  "count": 100,
   "items": [
     {
-      "source": "Tom's Hardware",
+      "source": "TechCrunch",
       "category": "news",
-      "title": "Certified Android TV manufacturer put unauthorized backdoor in 1.3 million set-top boxes, Google reveals — OEM sold access to criminal affiliates, used massive network as botnet for ad fraud, residential proxy",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/certified-android-tv-manufacturer-put-unauthorized-backdoor-in-set-top-boxes-google-reveals-oem-sold-access-to-criminal-affiliates-for-1-3-million-devices-used-massive-network-as-botnet-for-ad-fraud-residential-proxy",
-      "published": "Wed, 04 Nov 2026 11:00:00 +0000",
-      "summary": "Google exposed a backdoor in 1.3 million Android TV set‑top boxes from Videostrong, used for botnet and ad fraud.",
-      "image": "https://cdn.mos.cms.futurecdn.net/aEgQcZfJcTXZ8F8rxVWHbV-1920-80.png",
-      "readMinutes": 2,
-      "whyItMatters": "Tech users face privacy risks and potential ad‑fraud exploitation."
+      "title": "Open source AI is booming. Hugging Face explains who profits.",
+      "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+      "published": "Wed, 04 Nov 2026 19:30:04 +0000",
+      "summary": "Open source AI models are growing mainstream, prompting questions on how companies profit and whether U.S. firms can compete with rising Chinese models.",
+      "excerpt": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024",
+      "whyItMatters": "Tech leaders need to understand monetization strategies and competitive dynamics in the open AI landscape."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+      "published": "Wed, 04 Nov 2026 19:29:52 +0000",
+      "summary": "DuckDuckGo promotes itself to schools upset with Google’s AI limits, offering a search engine and AI‑off options.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/DuckDuckGo_NoAI.png?resize=1200,784",
+      "whyItMatters": "Educators may seek privacy‑friendly, AI‑free tools for classroom use."
     },
     {
       "source": "The Register",
       "category": "news",
-      "title": "Microsoft's AI PC push meets a wall of RAM prices, but Redmond is still beating the drum",
-      "link": "https://www.theregister.com/personal-tech/2026/11/04/microsofts-ai-pc-push-meets-a-wall-of-ram-prices-but-redmond-is-still-beating-the-drum/5307335",
-      "published": "Wed, 04 Nov 2026 10:15:00 +0000",
-      "summary": "Microsoft promotes AI PCs despite high RAM costs, targeting budget-conscious customers with creative sales tactics.",
-      "image": "https://image.theregister.com/?imageId=5304386&width=800",
-      "readMinutes": 4,
-      "whyItMatters": "Tech readers should watch how pricing pressures shape AI hardware strategy."
+      "title": "Palantir CEO says it's pioneering an antiwar movement – while happily accepting defense dollars",
+      "link": "https://www.theregister.com/offbeat/2026/11/04/palantir-ceo-says-its-pioneering-an-antiwar-movement-while-happily-accepting-defense-dollars/5307605",
+      "published": "Wed, 04 Nov 2026 19:25:00 +0000",
+      "summary": "Palantir CEO Alex Karp claims the company’s military software promotes peace while urging market dominance.",
+      "image": "https://image.theregister.com/?imageId=258394&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should watch how defense funding shapes AI ethics and corporate strategy."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+      "link": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+      "published": "Wed, 04 Nov 2026 19:16:25 +0000",
+      "summary": "Hugging Face CEO says the chance of AI catastrophe is near zero, blaming hidden risks from a few closed‑door developers.",
+      "image": "https://media.wired.com/photos/6aeb63414e1d5cfd3959e919/master/pass/WWF-Placeholder-Clement-Delangue.jpg",
+      "whyItMatters": "Open‑source AI could mitigate hidden risks, reassuring tech leaders about safer AI development."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Xbox previews two new ways to control cloud games",
+      "link": "https://www.theverge.com/news/1026455/xbox-nano-direct-cloud-wifi-connection-xbox-cloud-gaming-phone-controller",
+      "published": "2026-11-04T19:00:00.000Z",
+      "summary": "Xbox announces cloud gaming controls: the Nano controller can Wi‑Fi connect to cloud servers, and phones can act as controllers on smart TVs.",
+      "excerpt": "I revealed yesterday that the new Xbox Nano controller supports a Wi-Fi connection directly to Xbox Cloud Gaming, and now Microsoft is making it official today. Two new Xbox previews will let players try out using a phone as a controller on smart TVs, as well as cloud connect on the Xbox Nano to connect directly to cloud servers. \"Instead of a Bluetooth connection to your TV, cloud connect uses your Wi-Fi to connect…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22478836/acastro_210429_1777_0004.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It expands flexible, low‑latency cloud play options for gamers and developers."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Turn your home into a giant crane game with this open source robot",
+      "link": "https://www.theregister.com/offbeat/2026/11/04/turn-your-home-into-a-giant-crane-game-with-this-open-source-robot/5307628",
+      "published": "Wed, 04 Nov 2026 18:35:00 +0000",
+      "summary": "An open‑source robot lets you hang an AI‑controlled claw from the ceiling to pick up items like a crane game.",
+      "image": "https://image.theregister.com/?imageId=4094104&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "It offers a DIY, cost‑effective way to automate household tasks with robotics."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Google Pixel 11, 11 Pro, and 11 Pro XL Sale: Save Up to $350",
+      "link": "https://www.wired.com/story/google-pixel-11-deal-november-2026/",
+      "published": "Wed, 04 Nov 2026 18:27:19 +0000",
+      "summary": "Google’s Pixel 11, 11 Pro, and 11 Pro XL are on sale, offering up to $350 off their lowest prices before Black Friday.",
+      "whyItMatters": "Tech-savvy readers can snag top Android phones at record discounts, boosting value and early access to new features."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Nothing teases a screen-free AI device ahead of launch next month",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "published": "2026-11-04T18:26:07.000Z",
+      "summary": "Nothing will launch a screen‑free AI device in December, marking its first AI‑native product.",
+      "excerpt": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature it won't have is a screen: \"Our first AI-native product ships next month. It's a tool, but one built with the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/nothing-phone-4a-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech enthusiasts should watch for a new form factor that could reshape AI interaction."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "The Lawyer Holding Big Tech Accountable by ‘Beating the Tar Out of Them’ in Court",
+      "link": "https://www.wired.com/story/wired-world-fair-2026-mark-lanier/",
+      "published": "Wed, 04 Nov 2026 18:21:26 +0000",
+      "summary": "Mark Lanier won a trial against Meta and Google for social media addiction, setting a precedent for holding tech firms accountable.",
+      "image": "https://media.wired.com/photos/6aeb85db291739b7e29cde23/master/pass/WWF-Mark-Lanier-1.jpg",
+      "whyItMatters": "Tech-savvy readers should watch this trend, as it could reshape platform responsibility and user protection."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "‘You Can See Everything’ is getting an outer space release and it hasn’t even come out in Europe yet",
+      "link": "https://techcrunch.com/2026/11/04/you-can-see-everything-is-getting-an-outer-space-release-and-it-hasnt-even-come-out-in-europe-yet/",
+      "published": "Wed, 04 Nov 2026 18:10:11 +0000",
+      "summary": "The Elizabeth Holmes documentary 'You Can See Everything' is oddly more accessible from low Earth orbit than in London.",
+      "whyItMatters": "Highlights unusual distribution gaps and the growing role of space-based media access."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Boffins use machine-learning tricks to create a starlight dimmer switch",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/04/boffins-use-machine-learning-tricks-to-create-a-starlight-dimmer-switch/5307625",
+      "published": "Wed, 04 Nov 2026 18:03:00 +0000",
+      "summary": "Scientists used machine‑learning to design a starlight dimmer switch, revealing a planet in Webb data and boosting detection sensitivity by up to 15×.",
+      "image": "https://image.theregister.com/?imageId=235798&width=800",
+      "whyItMatters": "It dramatically improves exoplanet discovery efficiency, helping tech‑savvy readers track advances in AI‑driven astronomy."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "People say they want small smartphones—the Enough Phone will put that to the test",
+      "link": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
+      "published": "Wed, 04 Nov 2026 18:00:40 +0000",
+      "summary": "The Enough Phone aims to prove small smartphones are viable by fitting comfortably in a hand, though it won't lead in specs.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Enough-Phone-in-Hand-1152x648.jpg",
+      "whyItMatters": "Tech enthusiasts may value a compact device that challenges size norms without sacrificing usability."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+      "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+      "published": "Wed, 04 Nov 2026 18:00:02 +0000",
+      "summary": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring…",
+      "excerpt": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and integration […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg?w=1920"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "ChatGPT will now make you animated GIFs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "published": "2026-11-04T18:00:00.000Z",
+      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share…",
+      "excerpt": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single step. An example shared by the company shows how ChatGPT can generate a GIF in response to…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Small Phones Have Vanished. Enough Phone Wants to Bring Them Back",
+      "link": "https://www.wired.com/story/big-tech-abandoned-the-small-phone-the-enough-phone-wants-to-save-it/",
+      "published": "Wed, 04 Nov 2026 18:00:00 +0000",
+      "summary": "As flagship smartphones balloon in size, the Enough Phone offers a 5.3-inch handset. Choose between stock Android or an anti-distraction operating system.",
+      "image": "https://media.wired.com/photos/6aea29a12d2498ce2ece47a8/master/pass/Enough%20Phone%20Red%20Background.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Bare metal boom: On-prem server sales for HPC and AI up 20% this year",
+      "link": "https://www.theregister.com/on-prem/2026/11/04/bare-metal-boom-on-prem-server-sales-for-hpc-and-ai-up-20-this-year/5307611",
+      "published": "Wed, 04 Nov 2026 17:30:00 +0000",
+      "summary": "Firms still want kit on-premises, but spike in revenue is as much about increased costs as higher sales",
+      "image": "https://image.theregister.com/?imageId=1684886&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Nexus Mods takes the Valve approach to AI-generated content: No outright bans but mandatory disclosures",
+      "link": "https://www.pcgamer.com/games/nexus-mods-takes-the-valve-approach-to-ai-generated-content-no-outright-bans-but-mandatory-disclosures/",
+      "published": "Wed, 04 Nov 2026 17:12:53 +0000",
+      "summary": "And it says it already knows not everyone will play nice.",
+      "image": "https://cdn.mos.cms.futurecdn.net/pnReekZs3N2K9g2kZmMYt7-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nintendo ROM chip supplier Macronix quits to focus on chips for AI data centers, reports indicate",
+      "link": "https://www.tomshardware.com/video-games/nintendo/nintendo-rom-chip-supplier-macronix-quits-to-focus-on-chips-for-ai-data-centers-game-key-cards-may-be-more-available-as-large-game-storage-chips-become-more-expensive",
+      "published": "Wed, 04 Nov 2026 17:10:59 +0000",
+      "summary": "Macronix, one of Nintendo's ROM chip manufacturers, is shutting down the business to reallocate manufacturing for NOR and NAND flash chips that the AI industry demands.",
+      "image": "https://cdn.mos.cms.futurecdn.net/HCkbVt8sTbxDdV5japSwGY-1920-80.png",
+      "readMinutes": 3
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "God of War Laufey delayed until May",
+      "link": "https://www.theverge.com/games/1026448/sony-playstation-god-of-war-laufey-delay",
+      "published": "2026-11-04T17:10:31.000Z",
+      "summary": "God of War Laufey's release date is being delayed to May 20th, 2027, developer Santa Monica Studio announced today. It was set to launch on PlayStation 5 on February 16th. Here is Santa Monica Studio's full message about the delay: Since…",
+      "excerpt": "God of War Laufey's release date is being delayed to May 20th, 2027, developer Santa Monica Studio announced today. It was set to launch on PlayStation 5 on February 16th. Here is Santa Monica Studio's full message about the delay: Since the reveal of God of War Laufey in June, we've been deeply grateful to see so much excitement for Faye's journey through the Everywhen. We don't take for granted the trust placed in…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/7fa631fcc57afee84f351918717a3cdab924a583a409f14d.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Nintendo is losing a Switch cartridge supplier",
+      "link": "https://www.theverge.com/games/1026426/nintendo-switch-cartridges-rom-supplier-data-center",
+      "published": "2026-11-04T17:03:32.000Z",
+      "summary": "Nintendo is about to lose a major memory supplier for its Switch cartridges. The supplier, Macronix, announced during a recent quarterly earnings call that it would be gradually phasing out ROM production and is instead focusing on NOR…",
+      "excerpt": "Nintendo is about to lose a major memory supplier for its Switch cartridges. The supplier, Macronix, announced during a recent quarterly earnings call that it would be gradually phasing out ROM production and is instead focusing on NOR flash memory for data centers, Taipei Times reports. Macronix's ROM revenue fell 39 percent compared with last year in Q3 2026, but its revenue from NOR memory rose 158 percent, and…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/jbareham_180301_2346_nintendo_switch_0094.webp?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "The Results Are In: Voters Hate Data Centers",
+      "link": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
+      "published": "Wed, 04 Nov 2026 16:56:17 +0000",
+      "summary": "From high-profile Senate races to local rezoning initiatives, data centers and their supporters did miserably on the ballot in the 2026 midterms.",
+      "image": "https://media.wired.com/photos/6aea38de5f9acfda4c7c80b9/master/pass/110326-midterms-data-centres-ballot.jpg"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+      "published": "Wed, 04 Nov 2026 16:52:43 +0000",
+      "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated…",
+      "excerpt": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
+      "image": "https://images-assets.nasa.gov/image/AFRC2026-0152-30/AFRC2026-0152-30~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+      "readMinutes": 3
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+      "link": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+      "published": "Wed, 04 Nov 2026 16:51:35 +0000",
+      "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "I'm watching YouTube videos in glorious stereoscopic 3D on my Steam Frame with just a free plugin and a long-forgotten dream of a new Nintendo 3DS",
+      "link": "https://www.pcgamer.com/hardware/vr-hardware/im-watching-youtube-videos-in-glorious-stereoscopic-3d-on-my-steam-frame-with-just-a-free-plugin-and-a-long-forgotten-dream-of-a-new-nintendo-3ds/",
+      "published": "Wed, 04 Nov 2026 16:29:04 +0000",
+      "summary": "It sorta looks like it's in three dimensions!",
+      "image": "https://cdn.mos.cms.futurecdn.net/za7GxwHvERxgWXvW7nrgk-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "link": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "published": "Wed, 04 Nov 2026 16:17:22 +0000",
+      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly."
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
+      "link": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
+      "published": "Wed, 04 Nov 2026 16:16:41 +0000",
+      "summary": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At…",
+      "excerpt": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At nearly every stop across the country, NASA Space Grant has brought students into the heart of the action. In Iowa, NASA Administrator Jared […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/2097409090238472611.png?w=962",
+      "readMinutes": 3
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Rian Johnson explains why he had to build his own iPhone camera app",
+      "link": "https://www.theverge.com/tech/1025659/rian-johnson-chromagraph-camera-interview",
+      "published": "2026-11-04T16:10:05.000Z",
+      "summary": "Rian Johnson. Rian Johnson is an analog photography devotee. The director of Knives Out and The Last Jedi can often be spotted on set with a Leica M6 at his side, documenting production on film. But sometimes, it's still easier to reach…",
+      "excerpt": "Rian Johnson. Rian Johnson is an analog photography devotee. The director of Knives Out and The Last Jedi can often be spotted on set with a Leica M6 at his side, documenting production on film. But sometimes, it's still easier to reach for a phone. So Johnson started wondering if the photos from his iPhone could be made to look more like the grade he applies to his movies. The result is Chromagraph Camera, a $13…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Rian-Johnson-Portrait.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+      "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+      "published": "Wed, 04 Nov 2026 16:06:03 +0000",
+      "summary": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-1024x648.jpg"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Hubble Reveals Cosmic Mystery",
+      "link": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/",
+      "published": "Wed, 04 Nov 2026 15:59:36 +0000",
+      "summary": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA’s Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of millions of stars —…",
+      "excerpt": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA’s Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of millions of stars — including NGC 4449 and found that much of the oxygen they expected to see is missing. Read […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/full-res-for-display-1.png?w=2048"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Logitech G Pro X3 Superstrike Review: $200 for the illusion of a click",
+      "link": "https://www.tomshardware.com/peripherals/gaming-mice/logitech-g-pro-x3-superstrike-review",
+      "published": "Wed, 04 Nov 2026 15:00:00 +0000",
+      "summary": "Logitech's G Pro X3 Superstrike is a minor but noticeable update to its revolutionary mouse — there's a new chipset and the weight has been rebalanced, so it lasts longer and feels better. And it costs $200.",
+      "image": "https://cdn.mos.cms.futurecdn.net/DteAixDei92hHnBzXoBPiT-1920-80.jpg",
+      "readMinutes": 7
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "HP Inc hires former GSK boss as CEO",
+      "link": "https://www.theregister.com/personal-tech/2026/11/04/hp-inc-hires-former-gsk-boss-as-ceo/5307588",
+      "published": "Wed, 04 Nov 2026 14:50:00 +0000",
+      "summary": "Brit Emma Walsley swaps big pharma for big printer: Prep for PCs, ink, and lots of DRAM-induced headaches",
+      "image": "https://image.theregister.com/?imageId=5307591&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Thermal Grizzly launches PhaseSheet PTM Pro with improved thermal conductivity — new thermal pad promises easier installation and better cooling performance",
+      "link": "https://www.tomshardware.com/pc-components/thermal-paste/thermal-grizzly-launches-phasesheet-ptm-pro-with-improved-thermal-conductivity-new-thermal-pad-promises-easier-installation-and-better-cooling-performance",
+      "published": "Wed, 04 Nov 2026 14:36:13 +0000",
+      "summary": "Designed for CPUs, GPUs, and other components without an integrated heat spreader, the PhaseSheet PTM Pro is reusable, electrically non-conductive, and less susceptible to the pump-out effect associated with traditional thermal paste.",
+      "image": "https://cdn.mos.cms.futurecdn.net/RkXe4vFSAhKL2xJaMfktRJ-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "The best mini-LED 1440p gaming monitor we've ever tried has dropped down to $260, which is almost normal 1440p prices",
+      "link": "https://www.pcgamer.com/hardware/gaming-monitors/the-best-mini-led-1440p-gaming-monitor-weve-ever-tried-has-dropped-down-to-usd260-which-is-almost-normal-1440p-prices/",
+      "published": "Wed, 04 Nov 2026 14:31:28 +0000",
+      "summary": "That truly is astoundingly good value.",
+      "image": "https://cdn.mos.cms.futurecdn.net/TfWXzQDMS98SzsvSGFRt8H-1920-80.png",
+      "readMinutes": 3
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Micron details ambitious DRAM and NAND roadmap — 3D NAND, High-NA EUV, new materials, and custom silicon makes a comeback",
+      "link": "https://www.tomshardware.com/pc-components/dram/micron-details-ambitious-dram-and-nand-roadmap-3d-nand-high-na-euv-new-materials-and-custom-silicon-makes-a-comeback",
+      "published": "Wed, 04 Nov 2026 14:00:00 +0000",
+      "summary": "As DRAM and 3D NAND are about to adopt all-new technologies, custom types of memory are about to become mainstream as AI developers face limitations with current solutions.",
+      "image": "https://cdn.mos.cms.futurecdn.net/APuiUbxoQ4N74RU5gQJJPj-1920-80.jpg",
+      "readMinutes": 10
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google",
+      "link": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
+      "published": "Wed, 04 Nov 2026 13:49:51 +0000",
+      "summary": "The AI minister now concedes the estimated figure is less than a third of that. Researchers blame the country’s slow rate of adoption.",
+      "image": "https://media.wired.com/photos/6ae4f0b834d00005a9a1a2fc/master/pass/2026-10-12T133338Z_906189115_RC2EIMAWOQ1L_RTRMADP_3_AI-BRITAIN-SAFETY.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "AI data centers comprehensively defeated at US midterm elections — 45 measures put on the ballot as Americans overwhelmingly vote against developments",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
+      "published": "Wed, 04 Nov 2026 13:13:32 +0000",
+      "summary": "Several counties put data center issues on the ballot during the midterm elections, with most Americans voting against data center development in their county.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Lsdx8py6CqRVLqSZCT29ze-1920-80.png",
+      "readMinutes": 2
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Binance heist began with fake job interviews and a malicious Homebrew download",
+      "link": "https://www.tomshardware.com/tech-industry/cryptocurrency/binance-heist-began-with-fake-job-interviews-and-a-malicious-homebrew-download-attackers-used-adulterated-software-and-social-engineering-to-gain-access-to-billions-in-assets",
+      "published": "Wed, 04 Nov 2026 13:00:00 +0000",
+      "summary": "Binance has revealed how Norh Korean attackers spent months compromising systems and employees with malicious developer software and a fake recruitment process. The intrusions eventually gave hackers access to the exchange’s internal…",
+      "excerpt": "Binance has revealed how Norh Korean attackers spent months compromising systems and employees with malicious developer software and a fake recruitment process. The intrusions eventually gave hackers access to the exchange’s internal wallet signing systems, enabling the October 29 theft.",
+      "image": "https://cdn.mos.cms.futurecdn.net/7T7K3fGxiXhFhwEVahsG4-1920-80.jpg",
+      "readMinutes": 3
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026",
+      "link": "https://www.pcgamer.com/hardware/processors/amd-says-its-going-to-beat-intel-in-total-revenue-for-the-very-first-time-by-the-end-of-2026/",
+      "published": "Wed, 04 Nov 2026 12:40:51 +0000",
+      "summary": "Intel's expecting to hit $15 - $16 billion for Q4 2026, while AMD is looking at an impressive $17 billion.",
+      "image": "https://cdn.mos.cms.futurecdn.net/V9LdBo4DrpBFbnbAfjfyWA-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "PHP vulnerability post-mortem reveals bug was known two years ago — Small team of maintainers knew of the issue before it was made public, as new PHP2Shell chained exploit ravages servers",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/php-vulnerability-post-mortem-reveals-bug-was-known-two-years-ago-small-team-of-maintainers-knew-of-the-issue-before-it-was-made-public-as-new-php2shell-chained-exploit-ravages-servers",
+      "published": "Wed, 04 Nov 2026 12:30:00 +0000",
+      "summary": "PHP has a harvest season to remember — AI-automated bug hunting reaps what years of technical debt have sown.",
+      "image": "https://cdn.mos.cms.futurecdn.net/X86spL5fTiVTArGvMUbuZ5-1920-80.jpg",
+      "readMinutes": 6
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nvidia can only fulfill 1% of China’s massive $70 billion GPU order for AI chips, report claims — supply constraints choke export-friendly RTX Pro 5500 deliveries despite huge demand",
+      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-can-only-fulfill-1-percent-of-chinas-massive-usd70-billion-gpu-order-for-ai-chips-report-claims-supply-constraints-choke-export-friendly-rtx-pro-5500-deliveries-despite-huge-demand",
+      "published": "Wed, 04 Nov 2026 12:15:00 +0000",
+      "summary": "Just 1% of chips promised to major Chinese companies to power their AI ambitions will be delivered, according to reports.",
+      "image": "https://cdn.mos.cms.futurecdn.net/dSBDYrrovpyaiRvgSSQPGT-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Open source project renders your Windows 11 desktop using the NPU rather than the GPU — ‘npu-driver’ can only run at 2 to 3 Hz, targets 30 Hz performance",
+      "link": "https://www.tomshardware.com/pc-components/gpu-drivers/open-source-project-renders-your-windows-11-desktop-using-the-npu-rather-than-the-gpu-npu-driver-can-only-run-at-2-to-3-hz-targets-30-hz-performance",
+      "published": "Wed, 04 Nov 2026 12:00:00 +0000",
+      "summary": "Open source developers have released a prototype driver for Windows 11 that renders the desktop using an NPU instead of the system’s (i)GPU.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Ro4sQLyJUnVjqu8DK7qu85-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Cyberattack on French plasma stores is enough to make your blood boil",
+      "link": "https://www.theregister.com/security/2026/11/04/cyberattack-on-french-plasma-stores-is-enough-to-make-your-blood-boil/5307519",
+      "published": "Wed, 04 Nov 2026 11:56:54 +0000",
+      "summary": "Attackers reportedly set cold-room controls to 110°C, but safeguards prevented stock losses",
+      "image": "https://image.theregister.com/?imageId=251685&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions",
+      "link": "https://www.pcgamer.com/software/security/dodgy-download-and-spoofed-job-ad-led-to-usd6-3-billion-binance-hack-attacker-offered-fake-software-and-fake-job-to-infiltrate-company-wallets-and-steal-billions/",
+      "published": "Wed, 04 Nov 2026 11:12:58 +0000",
+      "summary": "I'm feeling fresh appreciation for my company's mandatory cybersecurity awareness course.",
+      "image": "https://cdn.mos.cms.futurecdn.net/eDGcGRApH6Ut5G9XMKVRHB-1920-80.jpg",
+      "readMinutes": 4
     },
     {
       "source": "NASA",
@@ -36,204 +442,6 @@
       "whyItMatters": "It highlights how pervasive and energy-intensive urban lighting is, informing discussions on sustainability and space-based monitoring."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "AMD on track to overtake Intel as biggest x86 outfit",
-      "link": "https://www.theregister.com/systems/2026/11/04/amd-on-track-to-overtake-intel-as-biggest-x86-outfit/5307448",
-      "published": "Wed, 04 Nov 2026 04:24:06 +0000",
-      "summary": "AMD is positioned to surpass Intel as the largest x86 company, with CEO confident supply chains can meet rising data center and AI demands.",
-      "image": "https://image.theregister.com/?imageId=1662910&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech leaders should watch AMD’s growth for potential shifts in processor market dynamics and cost advantages."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "AMD rides data center riches to ‘largest and most profitable’ quarter in history",
-      "link": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
-      "published": "2026-11-04T01:15:34.000Z",
-      "summary": "AMD achieved its biggest, most profitable quarter ever, driven by $8.5 billion in data‑center revenue, and forecasts $17 billion next quarter.",
-      "excerpt": "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billion. The company's data center business is driving that growth, with $8.5 billion in data center quarterly revenue for Q3 2026. Su said AMD's…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Shows AMD’s data‑center dominance, boosting its competitive edge and investor appeal."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "All the news about The Legend of Zelda: Ocarina of Time remake",
-      "link": "https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news",
-      "published": "2026-11-04T01:02:53.000Z",
-      "summary": "Nintendo is releasing a Switch 2 remake of The Legend of Zelda: Ocarina of Time with realistic graphics and modern gameplay features.",
-      "excerpt": "Ahead of the release of Rockstar Games’ Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and some modern improvements like a jump button, a way to sprint, full voice acting, and a “Threads of Time” feature…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/NS2_TheLegendofZeldaOcarinaofTime_scrn_15.png?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It revitalizes a classic for new hardware, offering fresh mechanics and voice acting that appeal to longtime fans and newcomers alike."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The biggest modding site in PC gaming is taking a stance on AI",
-      "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-      "published": "2026-11-04T00:42:10.000Z",
-      "summary": "Nexus Mods now requires mod authors to disclose AI usage in new uploads, addressing transparency concerns about AI-generated content.",
-      "excerpt": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent concerns we've heard is that it's not clearly disclosed when AI has been used to create a mod,\" according…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It ensures creators and players know when AI influences mods, impacting trust and intellectual property considerations."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Aussie Adobe assailant Canva announces layoffs in re-org affecting 22% of staff",
-      "link": "https://www.theregister.com/saas/2026/11/04/aussie-adobe-assailant-canva-announces-layoffs-in-re-org-affecting-22-of-staff/5307422",
-      "published": "Wed, 04 Nov 2026 00:14:41 +0000",
-      "summary": "Canva announces layoffs in a re‑org affecting 22% of staff, citing rapid technological change.",
-      "image": "https://image.theregister.com/?imageId=5307429&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech readers should note Canva's shift signals industry restructuring."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Valve admits it's 'running behind' on approving Steam games because it has to keep re-reviewing them, which surely has nothing to do with AI",
-      "link": "https://www.pcgamer.com/gaming-industry/valve-admits-its-running-behind-on-approving-steam-games-because-it-has-to-keep-re-reviewing-them-which-surely-has-nothing-to-do-with-ai/",
-      "published": "Tue, 03 Nov 2026 23:51:13 +0000",
-      "summary": "Valve says it’s lagging in approving Steam games because it must repeatedly re‑review titles, prompting a new checklist to streamline the process.",
-      "image": "https://cdn.mos.cms.futurecdn.net/UoEzWoavREo9zwpFLKCqC-1920-80.jpg",
-      "readMinutes": 3,
-      "whyItMatters": "Developers and gamers will see faster, more reliable release schedules and clearer developer guidance on Steam."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Please stop asking me when the AI bubble will pop",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
-      "published": "2026-11-03T23:37:45.000Z",
-      "summary": "CEO Emmanuel Roman discusses the uncertainty of when the AI market will peak during a summit.",
-      "excerpt": "Emmanuel Roman, chief executive officer of Pacific Investment Management Co. (Pimco), during the Global Financial Leaders' Investment Summit in Hong Kong, China, on Tuesday, Nov. 3, 2026. | Bloomberg via Getty Images People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302813651.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It highlights market volatility that could affect investment strategies."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Google criticized by NYC mayor Zohran Mamdani following AI policy change: 'Google is trying to use its monopoly power to force AI into our public schools'",
-      "link": "https://www.pcgamer.com/software/ai/google-criticized-by-nyc-mayor-zohran-mamdani-following-ai-policy-change-google-is-trying-to-use-its-monopoly-power-to-force-ai-into-our-public-schools/",
-      "published": "Tue, 03 Nov 2026 22:58:03 +0000",
-      "summary": "NYC Mayor Zohran Mamdani criticized Google for disabling search in schools that opt out of its AI tools, accusing it of monopolistic pressure on education.",
-      "image": "https://cdn.mos.cms.futurecdn.net/yy7kuH4T4FoMBC4UJHgSdj-1920-80.jpg",
-      "readMinutes": 4,
-      "whyItMatters": "Tech-savvy readers should watch how AI policy shifts impact public school access to information."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Anthropic is working on a system to prove AI models’ identity",
-      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-      "published": "Tue, 03 Nov 2026 22:41:03 +0000",
-      "summary": "FlashProve lets users verify that an AI reply originates from the claimed model.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798",
-      "whyItMatters": "It boosts trust and accountability in AI interactions."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Sonos adds new Presets and prepares for the 27voice AI beta",
-      "link": "https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access",
-      "published": "2026-11-03T22:20:50.000Z",
-      "summary": "Sonos releases an app update adding preset controls and a waitlist for its upcoming 27voice AI assistant.",
-      "excerpt": "Sonos is rolling out a big app update that includes new Presets and early access to its AI voice assistant. You can create a preset to play music at a specific volume in a certain room, which will appear directly on the homescreen so you can quickly start playback. If you're in the US, you can also sign up for a spot on the waitlist for the new Sonos 27voice assistant on November 6th, with access starting on…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25651509/_STK084_SONOS_C.png?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It enhances home audio control and introduces a new AI feature for tech-savvy users."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Data centers are turning to old jet engines as the wait for power grows",
-      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-      "published": "Tue, 03 Nov 2026 22:19:53 +0000",
-      "summary": "Data center builders are using discarded jet engines to generate power while awaiting grid access and new turbines.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Commercial-plane-clouds.jpg?w=719",
-      "whyItMatters": "It highlights a costly, temporary fix that could affect energy costs and emissions for tech infrastructure."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Ubisoft reportedly wants to buy Arkane from Xbox",
-      "link": "https://www.pcgamer.com/gaming-industry/ubisoft-reportedly-wants-to-buy-arkane-from-xbox/",
-      "published": "Tue, 03 Nov 2026 22:12:35 +0000",
-      "summary": "Ubisoft is reportedly interested in acquiring Arkane Studios, with multiple companies reportedly making offers for the studio.",
-      "image": "https://cdn.mos.cms.futurecdn.net/omjsXVE2okQWrjxMV2AeBi-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "It could reshape game development dynamics and affect future titles from Arkane and Ubisoft."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "North Korean fake job interview led to $6.3B Binance heist",
-      "link": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
-      "published": "Tue, 03 Nov 2026 22:04:45 +0000",
-      "summary": "'It was not a single isolated breach or a simple phishing incident,' exchange says",
-      "image": "https://image.theregister.com/?imageId=254036&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
-      "link": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
-      "published": "2026-11-03T22:04:02.000Z",
-      "summary": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer…",
-      "excerpt": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work. Then, in September, another engineer was targeted by…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932848/acastro_STK018__02.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-      "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-      "published": "Tue, 03 Nov 2026 21:43:08 +0000",
-      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/04/Ballistic-Ventures-GP-team.jpg?resize=1200,801"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Microsoft improves Windows 11 performance on 8 GB PCs as RAM prices keep climbing",
-      "link": "https://www.theregister.com/software/2026/11/03/microsoft-improves-windows-11-performance-on-8-gb-pcs-as-ram-prices-keep-climbing/5307382",
-      "published": "Tue, 03 Nov 2026 21:38:29 +0000",
-      "summary": "We've got a hunch the memory crunch is taking a bite out of Windows revenue",
-      "image": "https://image.theregister.com/?imageId=1684318&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Here’s what it’s like to use Audio Intelligence on the Apple Watch",
-      "link": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch",
-      "published": "2026-11-03T21:21:04.000Z",
-      "summary": "Siri can still make mistakes in transcripts. | Photo by Victoria Song / The Verge It's impossible to paint a full picture of what Audio Intelligence on the Apple Watch Series 12 and Ultra 4 will be right now. The watchOS 27.3 developer…",
-      "excerpt": "Siri can still make mistakes in transcripts. | Photo by Victoria Song / The Verge It's impossible to paint a full picture of what Audio Intelligence on the Apple Watch Series 12 and Ultra 4 will be right now. The watchOS 27.3 developer beta just dropped earlier this afternoon, and these features are meant to be lived with in day-to-day life. We're definitely going to do that over the next few weeks at The Verge…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/liverewind.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Nvidia is happy to take your money whether you're using open or closed models, says Jensen Huang",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/03/nvidia-is-happy-to-take-your-money-whether-youre-using-open-or-closed-models-says-jensen-huang/5307368",
-      "published": "Tue, 03 Nov 2026 21:00:32 +0000",
-      "summary": "At Fireworks Forge, a celebration of specialized models",
-      "image": "https://image.theregister.com/?imageId=5307388&width=800",
-      "readMinutes": 2
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Orbital Matter 3D-printed the first rigid beam in the vacuum of space",
-      "link": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/",
-      "published": "Tue, 03 Nov 2026 20:57:17 +0000",
-      "summary": "An in-space construction first could be an enabler for the space data centers of the future.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/2026-10-21_09-57-41-128.jpg?w=800"
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
@@ -241,56 +449,6 @@
       "published": "Tue, 03 Nov 2026 20:39:55 +0000",
       "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-1152x648.jpg"
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
-      "published": "Tue, 03 Nov 2026 20:07:29 +0000",
-      "summary": "Turns out cheap tokens get engineers doing things that save time, like debugging and tackling Jira tickets",
-      "image": "https://image.theregister.com/?imageId=260288&width=800",
-      "readMinutes": 3
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
-      "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/",
-      "published": "Tue, 03 Nov 2026 19:45:48 +0000",
-      "summary": "Cybersecurity experts have long warned of the persistent and patient threat from North Korea's long-running hacks. The world's largest crypto exchange was still caught off-guard.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/dprk-kim-2252780532.jpg?resize=1200,801"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-      "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-      "published": "Tue, 03 Nov 2026 19:34:43 +0000",
-      "summary": "Fal, a five‑year‑old AI inference startup, raised $1.3B, boosting its valuation to $16B.",
-      "image": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1268605503.jpg?resize=1200,420",
-      "whyItMatters": "Tech readers should note Fal’s rapid growth signals strong market demand for AI inference solutions."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI policy wonks declare 'sovereign agents' a threat to civilization",
-      "link": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
-      "published": "Tue, 03 Nov 2026 19:33:01 +0000",
-      "summary": "The article warns that autonomous AI agents, termed 'sovereign agents', could act independently and pursue evolving survival goals beyond human control.",
-      "image": "https://image.theregister.com/?imageId=260126&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech readers should consider potential risks of fully autonomous AI systems."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Reddit tests ads in search results as traffic declines and growth concerns mount",
-      "link": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/",
-      "published": "Tue, 03 Nov 2026 19:24:37 +0000",
-      "summary": "Reddit is testing ads in its search results to boost revenue amid traffic decline and growth worries.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1048288996.jpg?resize=1200,675",
-      "whyItMatters": "Tech readers should note Reddit’s shift could affect ad strategies and user experience on the platform."
     },
     {
       "source": "IEEE Spectrum",
@@ -303,27 +461,6 @@
       "image": "https://spectrum.ieee.org/media-library/illustration-of-people-reaching-out-of-their-computers-to-interact-with-each-other-during-a-video-meeting.jpg?id=68577162&width=980",
       "readMinutes": 2,
       "whyItMatters": "Engineers can stay current with emerging tech and network with practitioners for practical insights."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-      "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-      "published": "Tue, 03 Nov 2026 18:42:16 +0000",
-      "summary": "Netflix’s new AI Discover tab offers mood‑based recommendations to help users find shows to watch.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2235383828.jpg?resize=1200,800",
-      "whyItMatters": "It personalizes content discovery, saving time and enhancing user engagement."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "'Just deleted a couple terabytes of AI slop': Itch.io pushes back against the flood of AI on its storefront",
-      "link": "https://www.pcgamer.com/software/ai/just-deleted-a-couple-terabytes-of-ai-slop-itch-io-pushes-back-against-the-flood-of-ai-on-its-storefront/",
-      "published": "Tue, 03 Nov 2026 17:57:30 +0000",
-      "summary": "Itch.io added AI filters to let users exclude games created with various generative AI tools.",
-      "image": "https://cdn.mos.cms.futurecdn.net/MzEmQe5m4W2B8ccsdcNUCU-1920-80.jpg",
-      "readMinutes": 3,
-      "whyItMatters": "It helps gamers avoid AI-generated content they prefer not to play."
     },
     {
       "source": "Ars Technica",
@@ -382,16 +519,6 @@
       "readMinutes": 4
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "OpenAI introduces program to reduce AI data center energy demand during peak hours",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/openai-introduces-program-to-reduce-ai-data-center-energy-demand-during-peak-hours-company-testing-grid-protectors-program-system-in-georgia",
-      "published": "Tue, 03 Nov 2026 15:56:51 +0000",
-      "summary": "The Grid Protectors Program applies load shedding, a technique in use since the 1970s, to data centers.",
-      "image": "https://cdn.mos.cms.futurecdn.net/jLrSEhBfozFDLRHWvfzCyJ-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "TB 26-10 Printed Circuit Board Assembly Chip Resistor Body Cracking",
@@ -403,16 +530,6 @@
       "readMinutes": 3
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Intel 14A moves closer to production as PDK 0.9 becomes available",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-moves-closer-to-production-as-pdk-0-9-becomes-available-process-design-kit-gives-developers-important-production-milestone-ahead-of-1-0-in-2027",
-      "published": "Tue, 03 Nov 2026 15:20:27 +0000",
-      "summary": "Intel says its next-generation process technology is reaching expected performance and yield maturity.",
-      "image": "https://cdn.mos.cms.futurecdn.net/rVargrx2PRrE3QdGAf22wX-1920-80.jpg",
-      "readMinutes": 5
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
@@ -421,57 +538,6 @@
       "summary": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of…",
       "excerpt": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of ClassCrunchLabs Foundation. The event, hosted by NASA’s Office of STEM Engagement, celebrates National STEM Day by bringing real‑world science, […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/11/anil-menon-downlink-nov-3.jpg?w=1280",
-      "readMinutes": 2
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "8 converted jet engines are powering xAI data centers as companies look for new energy sources",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide",
-      "published": "Tue, 03 Nov 2026 15:02:09 +0000",
-      "summary": "A Mississippi xAI data center is using eight converted jet engine turbines as a power source despite the known health risks of the carbon monoxide and volatile organic compounds they produce.",
-      "image": "https://cdn.mos.cms.futurecdn.net/6dVyHrCspjuBgQZJoa9oQP-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Apple faces unprecedented memory cost increases as RAM prices continue to surge, manufacturing bill climbs by $33 billion",
-      "link": "https://www.tomshardware.com/pc-components/dram/apple-faces-unprecedented-memory-cost-increases-as-ram-prices-continue-to-surge-manufacturing-bill-climbs-by-usd33-billion-rising-component-expenses-threaten-margins-through-the-holiday-quarter-and-into-2027",
-      "published": "Tue, 03 Nov 2026 14:28:59 +0000",
-      "summary": "Samsung, SK hynix, and Micron are facing strong demand for memory from AI data centers, prompting manufacturers to prioritize higher-margin server products and high-bandwidth memory. That shift is tightening supplies of conventional DRAM…",
-      "excerpt": "Samsung, SK hynix, and Micron are facing strong demand for memory from AI data centers, prompting manufacturers to prioritize higher-margin server products and high-bandwidth memory. That shift is tightening supplies of conventional DRAM and NAND flash used in smartphones, laptops, and other consumer devices. The squeeze is also affecting smaller manufacturers, with Fairphone reporting that memory now accounts for…",
-      "image": "https://cdn.mos.cms.futurecdn.net/HgnpuyfGMdfMwVNFgWGMrh-1920-80.jpg",
-      "readMinutes": 3
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Hands-on with the DockCase Mount Ling 2 Pro",
-      "link": "https://www.tomshardware.com/peripherals/docking-stations-hubs/hands-on-with-the-dockcase-mount-ling-2-pro-handheld-dock-with-a-built-in-capture-card-and-space-for-up-to-4tb-of-nvme-storage",
-      "published": "Tue, 03 Nov 2026 14:20:22 +0000",
-      "summary": "The Mount Ling 2 Pro is a dock for Nintendo Switch 2, Steam Deck, or other PC handhelds that doubles as a capture card and a vehicle for up to 4TB of NVMe SSD storage.",
-      "image": "https://cdn.mos.cms.futurecdn.net/qPa2jKfJm34HERpCbkQ6SM-1920-80.jpg",
-      "readMinutes": 8
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Bambu Lab H3C 3D printer review: A nine-tool monster",
-      "link": "https://www.tomshardware.com/3d-printing/bambu-lab-h3c-3d-printer-review",
-      "published": "Tue, 03 Nov 2026 14:00:00 +0000",
-      "summary": "The Bambu Lab H3C is a massive tool changer that handles TPU like nobody’s business.",
-      "image": "https://cdn.mos.cms.futurecdn.net/3taKczGSFSE7XCDGERcwtN-1920-80.jpg",
-      "readMinutes": 16
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
-      "published": "Tue, 03 Nov 2026 13:31:11 +0000",
-      "summary": "Nvidia has told cloud providers who use its data center products that they must sell less than half of their services to Chinese companies as part of a new policy that will further impact China's ability to keep up with the global AI surge.",
-      "image": "https://cdn.mos.cms.futurecdn.net/QZcD3DTSQ5fCPv5SLvrJxa-1920-80.jpg",
       "readMinutes": 2
     },
     {
@@ -494,16 +560,6 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/GettyImages-546444524.jpg?w=2667",
       "readMinutes": 4
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Google reveals new Gemini 4 Carbon AI model, narrowly beating Claude Opus 5.5",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
-      "published": "Tue, 03 Nov 2026 13:00:00 +0000",
-      "summary": "Last week, Google released its latest AI model, Gemini 4 Carbon, topping intelligence rankings charts.",
-      "image": "https://cdn.mos.cms.futurecdn.net/bCKPeU3stBtYmdyp38NMsd-1920-80.jpg",
-      "readMinutes": 5
     },
     {
       "source": "MIT Technology Review",
@@ -538,39 +594,6 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/11/xcpe-map.png",
       "readMinutes": 5,
       "whyItMatters": "It protects millions of users from hidden malware and reduces ad fraud traffic."
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
-      "published": "Mon, 02 Nov 2026 21:35:59 +0000",
-      "summary": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from…",
-      "excerpt": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/s63-11625.jpg?w=1536",
-      "readMinutes": 7
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "TB 26-09 Measured Hammer-Tap Inputs",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-09-measured-hammer-tap-inputs/",
-      "published": "Mon, 02 Nov 2026 20:47:41 +0000",
-      "summary": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete force and response…",
-      "excerpt": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete force and response are measured accurately, crest ripples and separated contacts remain known inputs. Force shape changes excitation, but does not inherently invalidate the record. […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2015/04/tb-26-09-1-illustrative-hammer-force-time-histories.png?w=1366",
-      "readMinutes": 2
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA’s CHAPEA Crew “Returns” to Earth",
-      "link": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
-      "published": "Mon, 02 Nov 2026 18:50:42 +0000",
-      "summary": "NASA’s CHAPEA crew returns to Earth after a year-long simulated Mars mission, marking the end of their analog training.",
-      "excerpt": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew Montgomery (left), James Spicer (middle left), Ross Elder (middle right), and Ellen Ellis (right) spent more than a year […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e424293orig.jpg?w=2048",
-      "whyItMatters": "It demonstrates progress in long-duration spaceflight training, informing future Mars crew readiness."
     },
     {
       "source": "MIT Technology Review",
@@ -875,6 +898,7 @@
       "published": "Wed, 21 Oct 2026 16:00:00 +0000",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure…",
       "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "readMinutes": 7
     },
     {
@@ -906,6 +930,7 @@
       "published": "Mon, 19 Oct 2026 18:47:22 +0000",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
       "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-3.11.02-PM.png",
       "readMinutes": 5
     },
     {
@@ -927,6 +952,7 @@
       "published": "Thu, 15 Oct 2026 19:39:27 +0000",
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared…",
       "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-12.28.43-PM.png",
       "readMinutes": 4
     },
     {
