@@ -1,432 +1,367 @@
 {
-  "updated": "2026-11-04T01:28:19.900Z",
+  "updated": "2026-11-04T11:08:53.016Z",
   "count": 20,
   "items": [
     {
-      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
-      "summary": "Pixel-UMI learns whole-body robot policies from sensorized human demos by retargeting trajectories to the robot’s environment geometry.",
-      "link": "http://arxiv.org/abs/2611.03647v1",
-      "published": "2026-11-02T18:59:32Z",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "summary": "DreamX learns a universal latent action representation from video by modeling consistent dynamics across varied executions, separating action from visual noise.",
+      "link": "http://arxiv.org/abs/2611.05377v1",
+      "published": "2026-11-03T18:59:56Z",
       "authors": [
-        "Jason Jingzhou Liu",
-        "Tony Tao",
-        "Deepak Pathak",
-        "Ruslan Salakhutdinov"
+        "Jisoo Kim",
+        "Chaehyun Kim",
+        "Junsu Kim",
+        "Jiho Park",
+        "Seongchan Kim",
+        "Eunbeen Hong",
+        "Soowon Son",
+        "Fu-En Yang",
+        "Seungryong Kim"
       ],
       "categories": [
-        "cs.RO",
-        "cs.AI",
         "cs.CV",
-        "cs.LG",
-        "eess.SY"
-      ],
-      "whyItMatters": "It enables faster, more accurate robot learning from human data, reducing embodiment gaps in mobile manipulation."
-    },
-    {
-      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
-      "summary": "Pixel is a co-designed full-stack robot system integrating hardware, data collection, control, and learning for general-purpose mobile manipulation.",
-      "link": "http://arxiv.org/abs/2611.03648v1",
-      "published": "2026-11-02T18:59:32Z",
-      "authors": [
-        "Tony Tao",
-        "Jason Jingzhou Liu",
-        "Ruslan Salakhutdinov",
-        "Deepak Pathak"
-      ],
-      "categories": [
-        "cs.RO",
         "cs.AI",
-        "cs.CV",
-        "cs.LG",
-        "eess.SY"
+        "cs.RO"
       ],
-      "whyItMatters": "It streamlines development, reducing mismatches and accelerating mobile robot capabilities for tech innovators."
+      "whyItMatters": "Tech-savvy readers care because it enables robust action transfer across domains, improving robotics and animation."
     },
     {
-      "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
-      "summary": "The article discusses a neuro-symbolic method that converts natural language into exact cover problems to improve logical reasoning in LLMs.",
-      "link": "http://arxiv.org/abs/2611.03641v1",
-      "published": "2026-11-02T18:58:21Z",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "summary": "The article discusses how AI, especially foundation models and personal agents, can augment human cognition by compensating for memory, attention, and decision gaps.",
+      "link": "http://arxiv.org/abs/2611.05376v1",
+      "published": "2026-11-03T18:59:52Z",
       "authors": [
-        "Paulius Skaisgiris",
-        "Thomas Pammer",
-        "Veronika Semmelrock",
-        "Mykyta Ielanskyi",
-        "Maximilian Heisinger",
-        "Erich Kobler"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "It offers a more reliable, deterministic approach for tech-savvy readers tackling complex reasoning tasks."
-    },
-    {
-      "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
-      "summary": "WebHarbor offers 153 realistic, executable web environments to train and evaluate GUI agents, overcoming live site volatility and synthetic depth gaps.",
-      "link": "http://arxiv.org/abs/2611.03634v1",
-      "published": "2026-11-02T18:57:36Z",
-      "authors": [
-        "Zhaoyang Wang",
-        "Qianhui Wu",
-        "Boyu Gou",
-        "Demi Wang",
-        "Jiacheng Zhang",
-        "Peichun Hua",
-        "Qize Li",
-        "Shi Qiu",
-        "Yifan Jiang",
-        "Yifan Zhang",
-        "Zexu Jin",
-        "Baolin Peng",
-        "Bolin Shen",
-        "Chetan Bansal",
-        "Dehan Kong",
-        "Deren Lei",
-        "Dongshen Peng",
-        "Fengqing Jiang",
-        "Hao Cheng",
-        "Haoqing Wang",
-        "Jiaming Shan",
-        "Jicheng Wang",
-        "Jingguang Zhou",
-        "Jixuan He",
-        "Kaide Zeng",
-        "Kangyu Zhu",
-        "Lama Moukheiber",
-        "Mufan Qiu",
-        "Peng Xia",
-        "Qihan Sun",
-        "Qingwei Lin",
-        "Qiushi Sun",
-        "Ruichen Zhang",
-        "Shuqing Luo",
-        "Si Qin",
-        "Sicheng Fan",
-        "Tao Xiong",
-        "Wenlin Yao",
-        "Xinyu Zhang",
-        "Xinyue Zeng",
-        "Xuanrui Li",
-        "Xuchao Zhang",
-        "Yian Wang",
-        "Yichao Liu",
-        "Yiming Liang",
-        "Yiyang Zhou",
-        "Yizhu Jiao",
-        "Yuetai Li",
-        "Yurun Chen",
-        "Yuxuan Zhang",
-        "Zheyuan Yang",
-        "Zhiyuan Yao",
-        "Zhongyang Li",
-        "Zihao Li",
-        "Zili Wang",
-        "Jianfeng Gao",
-        "Huaxiu Yao"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "whyItMatters": "It enables more reliable, scalable AI training on authentic web interfaces, boosting agent performance and deployment readiness."
-    },
-    {
-      "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
-      "summary": "The paper examines whether Muon’s pretraining speed advantage over AdamW persists during fine-tuning, finding that with enough pretraining data AdamW can close the gap.",
-      "link": "http://arxiv.org/abs/2611.03633v1",
-      "published": "2026-11-02T18:56:43Z",
-      "authors": [
-        "Catherine Li",
-        "Jingchu Gai",
-        "Andrej Risteski",
-        "Jacob Mitchell Springer",
-        "Aditi Raghunathan"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech readers care because optimizer choice impacts training efficiency and model performance in large‑scale NLP projects."
-    },
-    {
-      "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
-      "summary": "The paper explores how reinforcement learning with verifiable rewards can teach large language models generalizable reasoning strategies using a controllable equation‑solving framework.",
-      "link": "http://arxiv.org/abs/2611.03627v1",
-      "published": "2026-11-02T18:53:54Z",
-      "authors": [
-        "Ziqi Pang",
-        "Yu-Xiong Wang"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "It shows a path to more robust, transferable LLM reasoning, valuable for advanced AI applications."
-    },
-    {
-      "title": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
-      "summary": "FADE proposes a factored filtering method for online RLVR scheduling that selectively learns from prompts whose completions disagree, reducing wasted rollouts.",
-      "link": "http://arxiv.org/abs/2611.03625v1",
-      "published": "2026-11-02T18:53:23Z",
-      "authors": [
-        "Tomas Duncun",
-        "Jonah Ellison",
-        "Mateo Ruiz",
-        "Hanae Fujita",
-        "Ingrid Solberg"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it improves sample efficiency in reinforcement learning with verifiable rewards."
-    },
-    {
-      "title": "Thought-deciphering via hierarchical EEG-to-text alignment",
-      "summary": "The article discusses a hierarchical EEG-to-text alignment method for non‑invasive brain‑computer interfaces, aiming to aid communication in people with disabilities like LIS, CP, and dysarthria.",
-      "link": "http://arxiv.org/abs/2611.03623v1",
-      "published": "2026-11-02T18:52:26Z",
-      "authors": [
-        "Xiaopeng Mao",
-        "Morten Mørup",
-        "Xin Xu",
-        "Sang Wan Lee",
-        "Sadasivan Puthusserypady"
-      ],
-      "categories": [
-        "cs.LG",
-        "eess.SP"
-      ],
-      "whyItMatters": "It could enable faster, more accurate communication for users of assistive BCI technologies."
-    },
-    {
-      "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
-      "summary": "The paper shows how separating description from assessment lets VLMs estimate robot task progress without bias, improving zero-shot reward modeling.",
-      "link": "http://arxiv.org/abs/2611.03622v1",
-      "published": "2026-11-02T18:52:11Z",
-      "authors": [
-        "Marius Memmel",
-        "Shawn Yin",
-        "Urvi Rutia",
-        "Angad Wadhwa",
-        "Eldon Li",
-        "Gavin Angeloff",
-        "Ankit Goyal",
-        "Jesse Zhang",
-        "Dieter Fox",
-        "Fabio Ramos",
-        "Anqi Li",
-        "Abhishek Gupta"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CL",
-        "cs.LG",
-        "eess.SY"
-      ],
-      "whyItMatters": "It offers more reliable, nuanced progress feedback for autonomous robots, boosting learning efficiency."
-    },
-    {
-      "title": "Strategist: Evolving Reasoning with Agents",
-      "summary": "The article introduces Strategist, a meta-agent that automatically evolves inference strategies for AI agents across tasks.",
-      "link": "http://arxiv.org/abs/2611.03618v1",
-      "published": "2026-11-02T18:51:04Z",
-      "authors": [
-        "Taiming Lu",
-        "Qi Xu",
-        "Zhigang Hua",
-        "Zhuang Liu"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "whyItMatters": "It promises reusable, adaptive reasoning, reducing manual coding for AI system designers."
-    },
-    {
-      "title": "Tracing the Scientific Discovery Capacity of LLMs to Their Training Data",
-      "summary": "The article investigates how an LLM’s ability to discover scientific facts can be traced back to the training data, focusing on missing probability mass and monofacts.",
-      "link": "http://arxiv.org/abs/2611.03617v1",
-      "published": "2026-11-02T18:50:54Z",
-      "authors": [
-        "Arda Uzunoglu",
-        "Mahler Revsine",
-        "Michael Schatz",
-        "Benjamin Van Durme",
-        "Mehrdad Farajtabar",
-        "Daniel Khashabi",
-        "Eric Nalisnick"
+        "Hao Fei"
       ],
       "categories": [
         "cs.CL",
         "cs.AI"
       ],
-      "whyItMatters": "Understanding this link helps improve model reliability and guide data curation for scientific AI applications."
+      "whyItMatters": "Tech-savvy readers should explore AI’s potential to enhance personal productivity and decision-making."
     },
     {
-      "title": "Benchmark Prediction with Sparse and Unpaired Cached Responses",
-      "summary": "The paper proposes a Product Kernel approach to predict benchmark scores from sparse, unpaired cached responses of generative models.",
-      "link": "http://arxiv.org/abs/2611.03614v1",
-      "published": "2026-11-02T18:49:33Z",
+      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+      "summary": "The paper re‑implements Direct Nash Optimization, a method that aligns language models to general preferences via a Nash equilibrium approach and a practical on‑policy training loop.",
+      "link": "http://arxiv.org/abs/2611.05373v1",
+      "published": "2026-11-03T18:59:15Z",
       "authors": [
-        "Hayden Helm",
-        "Avijit Ghosh",
-        "Ben Johnson",
-        "Carey Priebe"
+        "Austin Tsai",
+        "Saurav Nanda",
+        "Ganapathy Parthasarathy",
+        "Bhuvnesh Kumar",
+        "Parivesh Choudhary"
       ],
       "categories": [
         "cs.LG",
-        "stat.ME",
-        "stat.ML"
+        "cs.AI",
+        "cs.CL"
       ],
-      "whyItMatters": "It enables efficient evaluation of large language models without exhaustive testing."
+      "whyItMatters": "Tech‑savvy readers care because it offers a new, theoretically grounded way to fine‑tune LLMs for broader, user‑centric goals."
     },
     {
-      "title": "Efficient Closure Learning in Dynamical Systems: A Comparison of Data-Assimilated and Embedded Approaches",
-      "summary": "Increased computing power has transformed computational science and improved predictive capabilities for complex systems, but many phenomena still exceed current simulation capabilities or require rapid evaluations for fast design iterations. Closure models address this challenge by approximating unresolved effects in reduced or incomplete dynamical systems. Data-driven closures offer a flexible…",
-      "link": "http://arxiv.org/abs/2611.03612v1",
-      "published": "2026-11-02T18:47:40Z",
+      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+      "summary": "The article presents PolicyIK, a reinforcement-learning approach that improves inverse kinematics precision for robot arms, easing redundancy and singularity issues.",
+      "link": "http://arxiv.org/abs/2611.05372v1",
+      "published": "2026-11-03T18:59:14Z",
       "authors": [
-        "Rileigh Bandy",
-        "Teresa Portone",
-        "Mohammad Khalil",
-        "Eric Crislip",
-        "Kyle Neal"
+        "Yuhan Liu",
+        "Xinqi Liu",
+        "Zixuan Dong",
+        "Keith W. Ross",
+        "Shenji Wan"
       ],
       "categories": [
-        "cs.LG",
-        "math.DS",
-        "stat.ML"
-      ]
+        "cs.RO",
+        "cs.LG"
+      ],
+      "whyItMatters": "It enables faster, more reliable robot control, reducing costly data collection and manual tuning for tech developers."
     },
     {
-      "title": "ufakzeka-kulak: Building and Evaluating a 31.6M-Parameter Turkish Speech Recognizer from Scratch",
-      "summary": "ufakzeka-kulak is an open Turkish speech-to-text model of 31.6M parameters, a FastConformer encoder with a token-and-duration transducer (TDT) and a CTC head, trained from scratch and released under Apache-2.0. It writes cased, punctuated Turkish with numbers as words. Its 4,977 training hours come from sources whose licences allow commercial use; 281 hours are human-transcribed, and for the…",
-      "link": "http://arxiv.org/abs/2611.03605v1",
-      "published": "2026-11-02T18:42:32Z",
+      "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+      "summary": "The paper proposes GUILD, a method to guide data collection for imitation learning, improving policy performance by focusing on informative teleoperation samples.",
+      "link": "http://arxiv.org/abs/2611.05368v1",
+      "published": "2026-11-03T18:57:35Z",
       "authors": [
-        "Sait Furkan Teke"
+        "Shivin Dass",
+        "Kevin Nguyen",
+        "Rohan Yelandur",
+        "Junhong Xu",
+        "Roberto Martín-Martín"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers see better sample efficiency and reduced real‑world costs in robotic learning."
+    },
+    {
+      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+      "summary": "The paper examines how to suppress misaligned behaviors in language models, using two engineered models that trigger misbehavior under different conditions.",
+      "link": "http://arxiv.org/abs/2611.05358v1",
+      "published": "2026-11-03T18:54:08Z",
+      "authors": [
+        "Luxi He",
+        "Pengcheng Jiang",
+        "Jifan Zhang",
+        "Jiawei Han",
+        "Danqi Chen"
       ],
       "categories": [
         "cs.CL",
-        "eess.AS"
-      ]
-    },
-    {
-      "title": "DiabAgent: Toward Agentic Physiological Control",
-      "summary": "As pretraining scales, medical language models have advanced rapidly in clinical question answering. Their ability to achieve effective physiological control through sustained intervention still lacks systematic quantitative evaluation. Type 1 diabetes provides a concrete setting: impaired insulin secretion creates dependence on exogenous insulin, with dosing continually adjusted using…",
-      "link": "http://arxiv.org/abs/2611.03601v1",
-      "published": "2026-11-02T18:41:02Z",
-      "authors": [
-        "Chengxi Li",
-        "Shaoxuan Li",
-        "Deyao Hong",
-        "Qingle Liu",
-        "Yi Huang",
-        "Puheng Bian",
-        "Minzhi Xu",
-        "Lanyue Zhang",
-        "Mingze Sun",
-        "Xin Li",
-        "Calvin Xiao",
-        "Shengyuan Wang",
-        "Huan-ang Gao",
-        "Jiazheng Xu",
-        "Kaisen Yang",
-        "Hongning Wang"
-      ],
-      "categories": [
         "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "Four Bridges: Measuring Deception Propensity in a Multi-Agent Game",
-      "summary": "AI agents are increasingly deployed in settings where they interact and coordinate with other agents, yet honesty is mostly measured in single-turn, single-agent benchmarks that pressure the model to deceive. We study deception that emerges in multi-agent interaction without any instruction to deceive. We introduce Kradle, a platform for evaluating AI models, and Four Bridges, an information…",
-      "link": "http://arxiv.org/abs/2611.03600v1",
-      "published": "2026-11-02T18:40:47Z",
-      "authors": [
-        "Raphael Casey",
-        "Michael Simeone",
-        "Alberto Tosato",
-        "Florian Ernst",
-        "Kemal El Moujahid",
-        "James Tamplin",
-        "Tommaso Tosato"
+        "cs.LG"
       ],
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ]
+      "whyItMatters": "Understanding durable suppression helps build safer AI that stays aligned across training stages."
     },
     {
-      "title": "Should We Combine Our Data? Algorithms and Limits for Privately Assessing Data Sharing",
-      "summary": "In this paper, we study when two parties should pool their data to train a machine learning model. Two agents, Alice and Bob, each hold a sensitive labeled dataset and want to train a classifier from a given hypothesis class H. Even when each party's dataset can be perfectly classified on its own, the two parties may follow conflicting labeling standards or have selection biases that affect their…",
-      "link": "http://arxiv.org/abs/2611.03599v1",
-      "published": "2026-11-02T18:40:38Z",
+      "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
+      "summary": "The article describes a transformer model that replaces standard feed‑forward layers with Born‑measurement‑based attention, yielding class probabilities as polynomials of word amplitudes.",
+      "link": "http://arxiv.org/abs/2611.05355v1",
+      "published": "2026-11-03T18:52:44Z",
       "authors": [
-        "Mahdi Haghifam",
-        "Kumar Kshitij Patel",
-        "Avrim Blum",
-        "Giulia Fanti",
-        "Juba Ziani"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.DS",
-        "cs.IT"
-      ]
-    },
-    {
-      "title": "Structured Visual Landscape: Generating Preferred Representations in Biological and Artificial Neural Networks",
-      "summary": "Understanding how neurons respond to visual stimulus is an important question in both deep learning and neuroscience. It has significant implications for enhancing the interpretability of black-box artificial neural networks and for understanding the visual representation in the human brain. We propose a structured visual representations landscape and design an activation-based prior that allows…",
-      "link": "http://arxiv.org/abs/2611.03597v1",
-      "published": "2026-11-02T18:39:55Z",
-      "authors": [
-        "Yusong Zhao",
-        "Edgar Y. Walker",
-        "Hao Wang",
-        "Mi Lu"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.NE"
-      ]
-    },
-    {
-      "title": "Spacetime Emergence in the Memory of a Learning Agent",
-      "summary": "We show that the causal structure of spacetime can emerge within the memory of a learning agent performing a quantum information task. We train a model-based reinforcement-learning agent to maximize the quantum mutual information between localized quantum probes interacting with a quantum field in Minkowski spacetime, without directly providing it with information regarding the spacetime metric…",
-      "link": "http://arxiv.org/abs/2611.03596v1",
-      "published": "2026-11-02T18:39:52Z",
-      "authors": [
-        "Philip A. LeMaitre",
-        "T. Rick Perche"
+        "Teerawat Tongloy",
+        "Jiraporn Pongsopa",
+        "Rangsan Jomtarak"
       ],
       "categories": [
         "quant-ph",
+        "cs.CL",
+        "cs.LG",
+        "physics.optics"
+      ],
+      "whyItMatters": "It offers a quantum‑inspired, interpretable attention mechanism that could improve explainability and efficiency in NLP models."
+    },
+    {
+      "title": "Agnostic Learning by Imitating",
+      "summary": "The paper compares the difficulty of training discriminative versus generative models within a given hypothesis class, proving one is harder than the other.",
+      "link": "http://arxiv.org/abs/2611.05346v1",
+      "published": "2026-11-03T18:45:38Z",
+      "authors": [
+        "Sílvia Casacuberta",
+        "Parikshit Gopalan",
+        "Varun Kanade",
+        "Omer Reingold",
+        "Konstantinos Stavropoulos",
+        "Pranay Tankala"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CC",
+        "cs.DS"
+      ],
+      "whyItMatters": "It informs algorithm design by highlighting when generative modeling may be computationally more challenging than discrimination."
+    },
+    {
+      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+      "summary": "The paper argues speculative decoding improves long-horizon agent reasoning by training better draft models, challenging the view that it only speeds up decoding.",
+      "link": "http://arxiv.org/abs/2611.05345v1",
+      "published": "2026-11-03T18:45:23Z",
+      "authors": [
+        "Hongyin Luo",
+        "Wei Fang",
+        "Lijie Yang",
+        "Owen Stepan",
+        "Daniel Suit",
+        "Jeff Krapf",
+        "Dana Wensberg",
+        "Jack O'Brien"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "It shows new training strategies can enhance agent performance, not just efficiency, impacting AI planning and decision-making."
+    },
+    {
+      "title": "A Circuit for In-Context Learning",
+      "summary": "The article explains a neural circuit enabling in-context learning for few-shot sentence classification, detailing how components compose to map arbitrary labels during a single forward pass.",
+      "link": "http://arxiv.org/abs/2611.05344v1",
+      "published": "2026-11-03T18:44:34Z",
+      "authors": [
+        "Andrew Gao",
+        "William Gao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "whyItMatters": "It shows how pretrained models can adapt instantly, improving rapid deployment of NLP tasks without fine-tuning."
+    },
+    {
+      "title": "Weight-space programming for auditing clinical decision networks",
+      "summary": "The article investigates whether weight‑space programming can uncover hidden shortcuts in radiotherapy neural networks during auditing.",
+      "link": "http://arxiv.org/abs/2611.05341v1",
+      "published": "2026-11-03T18:41:15Z",
+      "authors": [
+        "Humza Nusrat",
+        "Omar Nusrat"
+      ],
+      "categories": [
+        "physics.med-ph",
+        "cs.AI"
+      ],
+      "whyItMatters": "It highlights potential vulnerabilities in medical AI models that could affect patient safety."
+    },
+    {
+      "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+      "summary": "MedPhysBench provides a benchmark with seeded calculation tasks for evaluating language models on medical physics problems and error detection.",
+      "link": "http://arxiv.org/abs/2611.05340v1",
+      "published": "2026-11-03T18:40:35Z",
+      "authors": [
+        "Omar Nusrat"
+      ],
+      "categories": [
+        "physics.med-ph",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "whyItMatters": "It helps gauge AI reliability in critical radiation therapy calculations, vital for patient safety."
+    },
+    {
+      "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in p-norm geometry",
+      "summary": "Efficient preconditioning plays an important role in large-scale first-order optimization. In this paper, we propose an adaptive accelerated optimistic dual averaging (A^2ODA) method for unconstrained convex optimization that adopts low-cost preconditioning based on p-norm geometry for p∈[2,∞]. The method is line-search-free and employs a new stepsize selection technique based on an aggregated…",
+      "link": "http://arxiv.org/abs/2611.05334v1",
+      "published": "2026-11-03T18:35:20Z",
+      "authors": [
+        "Bowen Li",
+        "Danqing Zhou",
+        "Chuan He"
+      ],
+      "categories": [
+        "math.OC",
         "cs.AI",
         "cs.LG",
-        "gr-qc"
+        "stat.ML"
       ]
     },
     {
-      "title": "DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dynamic Boundaries",
-      "summary": "Neural operators provide efficient surrogates for computational fluid dynamics (CFD), but most are designed for static geometries and are not equipped to model unsteady flows induced by continuously moving boundaries. We study dynamic-boundary 4D CFD prediction for articulated moving geometries and introduce RoboCFD-4D, a temporally resolved robotic CFD benchmark spanning diverse morphologies and…",
-      "link": "http://arxiv.org/abs/2611.03595v1",
-      "published": "2026-11-02T18:39:26Z",
+      "title": "CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting",
+      "summary": "We study context-aware time-series forecasting, in which a single target variable is predicted from its own history and a set of contextual variables, such as weather and calendar information. As the context becomes more diverse, a single model struggles to capture all of its regimes, while ensemble learning and Mixture-of-Experts approaches rely on manual data partitioning or soft routing, which…",
+      "link": "http://arxiv.org/abs/2611.05325v1",
+      "published": "2026-11-03T18:28:04Z",
       "authors": [
-        "Rui Qian",
-        "Shibo Dai",
-        "Mengjun Lin",
-        "Yuk-Kit Hou",
-        "Saining Zhang",
-        "Bohan Li",
-        "Junhao Chen",
-        "Hao Zhao",
-        "Chaojian Li"
+        "Yueqiao Chen",
+        "Dongyu Liu"
       ],
       "categories": [
         "cs.LG"
+      ]
+    },
+    {
+      "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+      "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene…",
+      "link": "http://arxiv.org/abs/2611.05320v1",
+      "published": "2026-11-03T18:25:14Z",
+      "authors": [
+        "Kewei Zhang",
+        "Juncheng Ma",
+        "Guodong Lv",
+        "Duomin Wang",
+        "Feixiang Ruan",
+        "Ruiyang Si",
+        "Chuanrui Zhang",
+        "Yuxuan Chen",
+        "Hao Chen",
+        "Yichen Liu",
+        "Yintianrun Zhang",
+        "Yufan Deng",
+        "Enze Xie",
+        "Daquan Zhou"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
+      "summary": "In LLM-based recommendation, memory acts as a user-level agent in a memory-augmented backbone. Yet users and items remain asymmetric: only the user is given a structured profile; it enters a bandwidth-limited reranker prompt; and it is frozen after warmup. We recast LLM-based recommendation as an agentic-communication process in four stages: BUILD a self-description, TRANSMIT it along the…",
+      "link": "http://arxiv.org/abs/2611.05319v1",
+      "published": "2026-11-03T18:24:20Z",
+      "authors": [
+        "Zhen Tao",
+        "Xun Zhou",
+        "Xuhui Chen",
+        "Ziyue Qiao",
+        "Qingqiang Sun"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution",
+      "summary": "Skill memories encode past experiences as textual prompts to improve reinforcement learning (RL) for self-evolving agents. Complementing RL, On-Policy Self-Distillation (OPSD) provides dense, fine-grained supervision to internalize knowledge from skill-guided trajectories and accelerate policy learning. However, self-generated memories often contain noisy supervision and functionally entangled…",
+      "link": "http://arxiv.org/abs/2611.05313v1",
+      "published": "2026-11-03T18:19:55Z",
+      "authors": [
+        "Dian Jin",
+        "Jinluan Yang",
+        "Kairong Han",
+        "Baohong Li",
+        "Zijing Hu",
+        "Yi He",
+        "Wenlin Zhong",
+        "Yunze Tong",
+        "Minqin Zhu",
+        "Linchuan Li",
+        "Yanan Niu",
+        "Kun Kuang"
+      ],
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "ΦasmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravitational-Wave Signal-to-Noise Ratio Prediction",
+      "summary": "Quantifying selection effects in gravitational-wave population studies requires millions of costly signal-to-noise ratio (SNR) calculations. We present ΦasmaNet, a compact neural architecture for structured tabular regression, with staged spectral refinement as an explicit architectural prior. Learned input tokens are refined through ordered attention-based Φ-Stages, each augmented by a…",
+      "link": "http://arxiv.org/abs/2611.05309v1",
+      "published": "2026-11-03T18:19:11Z",
+      "authors": [
+        "Ioannis Tsioulis",
+        "Anastasios Tefas",
+        "Nikolaos Stergioulas"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "You don't need long context",
+      "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on…",
+      "link": "http://arxiv.org/abs/2611.05306v1",
+      "published": "2026-11-03T18:17:23Z",
+      "authors": [
+        "Peter Belcak",
+        "Saurav Muralidharan",
+        "Jindong Jiang",
+        "Yonggan Fu",
+        "Wonmin Byeon",
+        "Hanrong Ye",
+        "Ryan Angilly",
+        "Ali Taghibakhshi",
+        "Shih-Yang Liu",
+        "Siru Ouyang",
+        "Greg Heinrich",
+        "Pavlo Molchanov"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+      "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step still stores its own keys and values, so the key-value (KV)…",
+      "link": "http://arxiv.org/abs/2611.05304v1",
+      "published": "2026-11-03T18:16:29Z",
+      "authors": [
+        "Minsoo Cheong",
+        "Sungjoo Yoo"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
       ]
     }
   ]
