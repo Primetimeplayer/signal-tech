@@ -128,6 +128,24 @@ function isList(line) {
   return /^(\s*)([-*+]|\d+[.)])\s+/.test(line);
 }
 
+function isTableRow(line) {
+  return /^\s*\|.+\|\s*$/.test(line);
+}
+
+function isTableSep(line) {
+  return /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$/.test(line);
+}
+
+function splitCells(line) {
+  return line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map((cell) => cell.trim());
+}
+
+function tableHtml(header, rows) {
+  const head = header.map((cell) => `<th>${inline(cell)}</th>`).join('');
+  const body = rows.map((row) => `<tr>${row.map((cell) => `<td>${inline(cell)}</td>`).join('')}</tr>`).join('\n');
+  return `<div class="blog-table">\n<table>\n<thead>\n<tr>${head}</tr>\n</thead>\n<tbody>\n${body}\n</tbody>\n</table>\n</div>`;
+}
+
 export function mdToHtml(markdown) {
   const lines = String(markdown).replace(/\r\n/g, '\n').split('\n');
   const blocks = [];
@@ -173,6 +191,18 @@ export function mdToHtml(markdown) {
       continue;
     }
 
+    if (isTableRow(lines[i]) && lines[i + 1] && isTableSep(lines[i + 1])) {
+      const header = splitCells(lines[i]);
+      i += 2;
+      const rows = [];
+      while (i < lines.length && isTableRow(lines[i])) {
+        rows.push(splitCells(lines[i]));
+        i += 1;
+      }
+      blocks.push(tableHtml(header, rows));
+      continue;
+    }
+
     if (isList(lines[i])) {
       const ordered = /^\s*\d+[.)]\s+/.test(lines[i]);
       const items = [];
@@ -193,7 +223,7 @@ export function mdToHtml(markdown) {
     }
 
     const para = [];
-    while (i < lines.length && lines[i].trim() && !isFence(lines[i]) && !isRule(lines[i]) && !isHeading(lines[i]) && !isQuote(lines[i]) && !isList(lines[i])) {
+    while (i < lines.length && lines[i].trim() && !isFence(lines[i]) && !isRule(lines[i]) && !isHeading(lines[i]) && !isQuote(lines[i]) && !isList(lines[i]) && !(isTableRow(lines[i]) && lines[i + 1] && isTableSep(lines[i + 1]))) {
       para.push(lines[i].trim());
       i += 1;
     }

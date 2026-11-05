@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>Local vs cloud AI coding assistants: when to keep code on your machine — Signal Tech</title>
+<meta name="description" content="When a local AI coding assistant should keep code on your machine, and when a cloud assistant is still the better call for solo builders and small teams.">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/blog/local-vs-cloud-ai-coding-assistants">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Local vs cloud AI coding assistants: when to keep code on your machine — Signal Tech">
+<meta property="og:description" content="When a local AI coding assistant should keep code on your machine, and when a cloud assistant is still the better call for solo builders and small teams.">
+<meta property="og:url" content="https://signaltechnews.com/blog/local-vs-cloud-ai-coding-assistants">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="Local vs cloud AI coding assistants: when to keep code on your machine — Signal Tech">
+<meta name="twitter:description" content="When a local AI coding assistant should keep code on your machine, and when a cloud assistant is still the better call for solo builders and small teams.">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://signaltechnews.com/blog/local-vs-cloud-ai-coding-assistants#post",
+      "headline": "Local vs cloud AI coding assistants: when to keep code on your machine",
+      "description": "When a local AI coding assistant should keep code on your machine, and when a cloud assistant is still the better call for solo builders and small teams.",
+      "datePublished": "2026-11-05",
+      "dateModified": "2026-11-05",
+      "inLanguage": "en-GB",
+      "url": "https://signaltechnews.com/blog/local-vs-cloud-ai-coding-assistants",
+      "image": "https://signaltechnews.com/assets/og-preview.png",
+      "author": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "@id": "https://signaltechnews.com/blog#page",
+        "url": "https://signaltechnews.com/blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://signaltechnews.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://signaltechnews.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Local vs cloud AI coding assistants: when to keep code on your machine",
+          "item": "https://signaltechnews.com/blog/local-vs-cloud-ai-coding-assistants"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page blog-post">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a class="wordmark" href="/" aria-label="Signal Tech home">Signal <span>Tech</span></a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <a class="mast-link" href="/blog">Blog</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main" tabindex="-1">
+    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Guide</p>
+        <h1 class="page-title">Local vs cloud AI coding assistants: when to keep code on your machine</h1>
+        <p class="page-sub">The Signal Tech team · <time datetime="2026-11-05">Thursday, 5 November 2026</time></p>
+      </header>
+      <div class="issue-body blog-body">
+<p>Not every coding assistant should see your repo. A cloud assistant is convenient: a strong model, already in the editor, ready to read the files you point at. A local assistant matters when the code cannot leave the machine, when the network is absent, or when an agent loop has started to show up on the bill.</p>
+<p>This is a decision guide for solo builders and small teams, not a ranking of products. The constraints that matter are data, cost, and model quality, plus the hardware you actually have. Latency and a RAM floor matter more than a logo.</p>
+<p>For this task, does the code need to stay here, and is a weaker on-device model good enough to finish it? If yes, keep it local. If the task is hard, wide, or depends on tools you only have in a hosted agent, use the cloud on purpose and review the result. Once a diff exists, the review habit is the same either way. That pass is in <a href="/blog/how-to-review-ai-agent-pull-requests">How to review AI agent pull requests without becoming the bottleneck</a>.</p>
+<h2>The real constraints: data, cost, and model quality</h2>
+<p>Three limits decide the choice.</p>
+<p><strong>Data.</strong> A cloud assistant sends something off the machine: the prompt, the files you attach, and often extra context the tool adds. That can be fine for a public repo or a toy example. It is a different decision for an unreleased product, a client tree, or a fixture full of customer rows. &quot;Local&quot; means the model runs on your hardware. It does not prove the app never phones home for telemetry or a download. Check that once before you trust it with a private tree.</p>
+<p><strong>Cost.</strong> A seat looks predictable until an agent re-reads the repository. Pasting a whole service, asking again, then letting a retry loop do it a third time is how a quiet afternoon becomes the expensive one. A local model moves the cost onto hardware, electricity, and slower answers, and it stops charging per retry. For a solo builder that is often the point. For a small team it keeps an experiment off a shared, uncapped key.</p>
+<p><strong>Model quality.</strong> Hosted models are usually better at long context, ambiguous design, and tool use. Small local models are often good enough for a rename, a test, a comment, or a mechanical edit in the open file. They drift on &quot;rethink this boundary&quot; or &quot;this bug crosses three services&quot;.</p>
+<p>A local diff and a cloud diff can both be confident and wrong. Quality changes how much you lean on the draft. It does not change who signs it.</p>
+<h2>When local wins (compliance, IP, offline, predictable spend)</h2>
+<p>Local wins when leaving the machine is the expensive failure, not the slow answer.</p>
+<p><strong>Compliance.</strong> Some work has a plain rule: source does not leave this network. A client agreement, a lab, a regulated team, an air-gapped build box. If that rule is real, a cloud assistant is out unless you have read a written arrangement that says otherwise. The default habit should be the one that cannot attach the wrong folder by accident.</p>
+<p><strong>Intellectual property and secrets.</strong> An unreleased product, a private key, a <code>.env</code> file, a database dump used as a fixture, an internal URL. These do not belong in a prompt. &quot;The vendor says they do not train on this&quot; is a weaker guarantee than &quot;the bytes never go&quot;. A local assistant can still write a secret into a commit, so the review pass still asks about secrets. Local reduces exposure. It does not replace a look at the diff.</p>
+<p><strong>Offline, and a spend you can see.</strong> On a flight, a locked-down customer site, or a tether you do not trust, a model already on disk still works. A local assistant also cannot surprise you with a usage invoice. A too-small machine fails in front of you. A hosted loop fails later, as a bill.</p>
+<p><a href="/issues/2026-10-30">Issue #3</a> is the Friday edition on agents. Its Tool of the Week was a free, open-source assistant for the Mac that runs on the machine. That is the shape of this category: useful for the files in front of you, not a claim that it out-thinks a hosted model. The week&#39;s source stories sit in the <a href="/digests/">weekly digests</a>.</p>
+<h2>When cloud still wins (hard tasks, tools, multi-repo agents)</h2>
+<p>Cloud still wins when the task is wider than the open file, or when the assistant must use tools you do not want to rebuild on a laptop.</p>
+<p><strong>Hard tasks.</strong> A design you cannot hold in one function. A bug that lives in the contract between two services. A migration that must stay correct for old rows and new rows. A small local model will often sketch something plausible and miss the constraint you forgot to paste. A stronger hosted model is more likely to notice, if those cases are in the prompt. Use it for the question. Do not upload the repository &quot;for context&quot;.</p>
+<p><strong>Tools and several repos.</strong> Some assistants run tests, edit many files, or drive a browser. That loop is useful, and it is how scope explodes. If the repo is one you may share, and the hosted agent already has the tools, it can be the faster path. Give it a goal and a boundary, then read the diff. An agent that must see a front end, an API, and a shared library is usually a cloud job today: the context is large and the stronger models are hosted. Split the work. Let the hosted model propose a plan from a short description and the public interfaces. Change each repo on its own, and review the diffs separately. A private monorepo is a high price for a tour you could have had from the README and two entry points.</p>
+<p>Choose before you send, not after the invoice or the leak.</p>
+<h2>Hardware floor and what &quot;good enough&quot; looks like in practice</h2>
+<p>People want a single number. The honest answer is a range, because the editor, the browser, and the model share the same RAM.</p>
+<p><strong>Around 8GB.</strong> The editor and a very small model can coexist if little else is open. An agent that reads several files will swap. Treat this as a fallback for a short, single-file edit.</p>
+<p><strong>16GB and up.</strong> This is often the floor for a usable local coding assistant next to a normal IDE. You can ask about the open file, generate a test, and rename a symbol, provided you are not also running a stack of containers and a dozen tabs. Long refactors start to crawl. If the reply takes longer than writing the change yourself, the setup is below the job.</p>
+<p><strong>32GB, and a GPU if you have one.</strong> More comfortable when the model, the IDE, a browser, and a local server all stay open. A discrete GPU helps a larger model finish sooner. Many solo builders will not have one, and integrated graphics can still run a small model. Free a full disk before you decide the model is bad.</p>
+<p><strong>Good enough</strong> is a test on a file you know. Ask for a failing test, then the implementation, then one comment on a tricky branch. If you can check it in a few minutes and keep most of it, the local model is earning its place. If you re-prompt more than you edit, the model is too small or the task is too wide. Move that task to the cloud. Skip the benchmark you have not run.</p>
+<h2>A hybrid workflow that does not fight your IDE</h2>
+<p>The setup that survives a week is dull. One assistant lives in the editor. A second is a deliberate trip, not a second writer on the same file.</p>
+<ol>
+<li><strong>Bind the daily assistant to the open file.</strong> Prefer the local one on a private repo. Let it complete, explain the function under the cursor, and draft the test. Do not hand it the tree &quot;just in case&quot;.</li>
+<li><strong>Escalate with an excerpt.</strong> When the local answer is thin, copy the function, the error, and the constraint. Send that. State what must not change. Leave secrets, customer rows, and internal hostnames out.</li>
+<li><strong>One writer at a time.</strong> A local agent and a hosted agent on the same files produce a mess you cannot attribute.</li>
+<li><strong>Apply a small change yourself.</strong> Paste it into the diff view you already trust. For a larger patch, use a branch and the same first pass you would use on a colleague: scope, secrets, tests, blast radius.</li>
+<li><strong>Make the cloud one opt-in.</strong> A plugin that sends context on every save is not a hybrid. It is a cloud assistant with a local sticker. The default should be quiet.</li>
+</ol>
+<p>A small team needs one sentence in the README or the pull-request template: private repos stay on the machine unless the author says what they sent and why. That stops a plugin default from becoming the policy.</p>
+<p>How we separate a vendor&#39;s claim from our own judgement is on the <a href="/editorial">editorial standards</a>. The assistant proposes. A person accepts. Who signs that judgement for the publication is on the <a href="/about">about page</a>.</p>
+<h2>Decision table + next experiment for one week</h2>
+<p>Use the table as a default. Break it when you can say why.</p>
+<div class="blog-table">
+<table>
+<thead>
+<tr><th>Situation</th><th>Prefer</th><th>Why</th></tr>
+</thead>
+<tbody>
+<tr><td>Everyday edit in a private repo</td><td>Local</td><td>The open file is enough, and the code stays put</td></tr>
+<tr><td>Secrets, customer data, or an unreleased product</td><td>Local</td><td>The failure is exposure, not a slower answer</td></tr>
+<tr><td>A hard design, or a change across several repos</td><td>Cloud, then review</td><td>The stronger model earns an excerpt, not the tree</td></tr>
+<tr><td>Offline, air-gapped, or a hard spend cap</td><td>Local</td><td>The hosted tool is unavailable or uncapped</td></tr>
+<tr><td>A public example, or a question you can redact</td><td>Hybrid</td><td>Cloud for the hard part, local for the edit you commit</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Try this for one week.</strong> For five working days, label each request before you send it: local, cloud, or neither. Local gets the open file only. Cloud gets a redacted excerpt and a question, not the repository. Neither means you already know the change. Keep one line when the answer was wrong, or when you wanted to paste more than the excerpt.</p>
+<p>Read the list on Friday. A local column of &quot;had to redo this&quot; means the hardware or the model is below the job. A cloud column of &quot;I pasted the repo again&quot; means the habit is the problem. A green local test and a fluent cloud explanation are both claims. You still own the merge.</p>
+<p>Get chips, models and tools without the noise every Friday — free, about five minutes.</p>
+      </div>
+      <section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Get Signal Tech every Friday</h2>
+    <p class="newsletter-note">One big story, quick hits and a Tool of the Week. Free, 5-minute read.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+    <p class="newsletter-success" id="newsletterThanks" role="status" hidden></p>
+    <p class="newsletter-alt"><a href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=blog&amp;utm_campaign=local-vs-cloud-ai-coding-assistants" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>
+  </section>
+      <nav class="page-actions issue-nav" aria-label="More posts">
+        <a class="page-btn" href="/blog">All posts</a>
+        <a class="page-btn" rel="next" href="/blog/how-to-review-ai-agent-pull-requests">Next &rarr;</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+
+</body>
+</html>

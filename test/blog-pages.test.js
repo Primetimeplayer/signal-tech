@@ -55,6 +55,16 @@ See <script>alert(1)</script> and [site](/blog/x) plus [ext](https://example.com
   assert.match(html, /<pre><code>&lt;script&gt;no&lt;\/script&gt;<\/code><\/pre>/);
 });
 
+test('markdown tables stay escaped and allow safe links', () => {
+  const html = mdToHtml('| Situation | Prefer |\n| --- | --- |\n| Secrets in the tree | Local |\n| A hard design | [Cloud](https://example.com/a) |\n\n<script>alert(1)</script>');
+  assert.match(html, /<table>/);
+  assert.match(html, /<th>Situation<\/th><th>Prefer<\/th>/);
+  assert.match(html, /<td>Local<\/td>/);
+  assert.match(html, /href="https:\/\/example\.com\/a" rel="noopener"/);
+  assert.match(html, /&lt;script&gt;/);
+  assert.doesNotMatch(html, /<script|javascript:/i);
+});
+
 test('loadBlogPosts skips drafts and reads the published sample', () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'blog-'));
   fs.writeFileSync(path.join(dir, '2026-11-05-visible.md'), '---\ntitle: Visible\ndate: 2026-11-05\ndraft: false\n---\nHello\n');
