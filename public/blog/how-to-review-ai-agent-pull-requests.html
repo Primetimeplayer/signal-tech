@@ -32,7 +32,7 @@
   } catch (e) {}
 </script>
 <title>How to review AI agent pull requests without becoming the bottleneck — Signal Tech</title>
-<meta name="description" content="How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.">
+<meta name="description" content="Practical review for AI coding agent pull requests: a ten-minute first pass, the deeper checks worth your time, and which calls only a human should sign.">
 <meta name="author" content="Signal Tech">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests">
@@ -41,7 +41,7 @@
 <meta property="og:site_name" content="Signal Tech">
 <meta property="og:locale" content="en_GB">
 <meta property="og:title" content="How to review AI agent pull requests without becoming the bottleneck — Signal Tech">
-<meta property="og:description" content="How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.">
+<meta property="og:description" content="Practical review for AI coding agent pull requests: a ten-minute first pass, the deeper checks worth your time, and which calls only a human should sign.">
 <meta property="og:url" content="https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests">
 <meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
 <meta property="og:image:width" content="1200">
@@ -49,7 +49,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@SignalTechNews">
 <meta name="twitter:title" content="How to review AI agent pull requests without becoming the bottleneck — Signal Tech">
-<meta name="twitter:description" content="How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.">
+<meta name="twitter:description" content="Practical review for AI coding agent pull requests: a ten-minute first pass, the deeper checks worth your time, and which calls only a human should sign.">
 <meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
 <script type="application/ld+json">
 {
@@ -76,7 +76,7 @@
       "@type": "BlogPosting",
       "@id": "https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests#post",
       "headline": "How to review AI agent pull requests without becoming the bottleneck",
-      "description": "How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.",
+      "description": "Practical review for AI coding agent pull requests: a ten-minute first pass, the deeper checks worth your time, and which calls only a human should sign.",
       "datePublished": "2026-11-05",
       "dateModified": "2026-11-05",
       "inLanguage": "en-GB",
@@ -169,30 +169,96 @@
       <div class="issue-body blog-body">
 <p>Agents open the pull request. You still own the merge. Most teams miss that split in one of two ways.</p>
 <p>Some rubber-stamp a green suite. Others read every line, and the queue becomes the work. Neither scales when an agent can open five pull requests before lunch.</p>
-<p>Review the decision, then the diff. If you cannot say what the change is for in one sentence, do not approve it. The agents theme is in <a href="/issues/">Issue #3</a>, the source stories sit in the <a href="/digests/">weekly digests</a>, and the <a href="/editorial">editorial standards</a> are how we separate a claim from a judgement.</p>
+<p>Review the decision, then the diff. If you cannot say what the change is for in one sentence, do not approve it. The agents theme is in <a href="/issues/2026-10-30">Issue #3</a>, the source stories sit in the <a href="/digests/">weekly digests</a>, and the <a href="/editorial">editorial standards</a> are how we separate a claim from a judgement.</p>
+<p>Where the agent ran is a separate choice. A model on your machine and a hosted one can both produce a tidy, wrong diff. That trade-off is in <a href="/blog/local-vs-cloud-ai-coding-assistants">Local vs cloud AI coding assistants: when to keep code on your machine</a>. Once the diff exists, the review is the same either way.</p>
 <h2>Why agent PRs fail differently from human PRs</h2>
 <p>A colleague knows which files they meant to touch. An agent will also tidy a neighbouring module, rename a helper, or add a dependency you did not ask for. That is a different failure from a sloppy human mistake: the change looks plausible line by line and is wrong in the system around it.</p>
-<p>A forty-line fix can arrive inside four hundred lines of reformatting. Treat unexpected files as a defect, not as free cleanup.</p>
+<p>A human leaves a rough edge where they were unsure. An agent fills the gap. A new helper, a wider type, a retry, a library pulled in for one call. Each of those is a decision. None of them was in the task. The pull request description is written by the same model, so it will sound sure about a change the diff does not make, or stay quiet about the file that matters.</p>
+<p>Tests can freeze the wrong behaviour. A snapshot of whatever the agent printed will pass forever, and it never asks whether that output was the requirement. A green run then protects the invention.</p>
+<p>A forty-line fix can arrive inside four hundred lines of reformatting. Treat unexpected files as a defect, not as free cleanup. The failure is not that the code &quot;looks generated&quot;. The failure is a diff that is locally tidy and globally unasked for. If you cannot point at the decision, you are reviewing prose, not a change.</p>
 <h2>A 10-minute first pass (scope, secrets, tests, blast radius)</h2>
-<p>Set a timer and answer four questions.</p>
+<p>Set a timer and answer four questions. Spend the ten minutes on the edges of the diff, not on style. If you cannot tell, send it back with that sentence. Do not review a pull request whose edges you cannot see. If the honest answer is &quot;I would have to read the whole repository&quot;, that is a fail.</p>
 <ol>
 <li><strong>Scope.</strong> Does the diff match the task, or did the agent wander?</li>
 <li><strong>Secrets.</strong> Any new tokens, <code>.env</code> files, logged credentials, or a wider permission?</li>
 <li><strong>Tests.</strong> Is there a test for the behaviour you care about, and does it fail if that behaviour is removed?</li>
 <li><strong>Blast radius.</strong> Which services, migrations, or users does this touch if it is wrong?</li>
 </ol>
-<p>If you cannot tell, send it back with that sentence. Do not review a pull request whose edges you cannot see.</p>
+<p><strong>Scope fails</strong> when a formatter sweep covers the package, a renamed helper updates every caller, a new dependency appears for one function, or a file the task never named is in the diff. The real edit is often twenty lines you cannot see because of the noise around it.</p>
+<p>Write back: &quot;Keep only the files that implement the task. Revert the rename, the formatter sweep, and the new dependency. Open anything else as its own change, or drop it.&quot;</p>
+<p><strong>Secrets fail</strong> when a <code>.env</code> or a fixture holds a live-looking token, a log line prints an <code>Authorization</code> header, a test copies a key out of a comment, or a role grew &quot;so the job could run&quot;. A sample value that looks real is still a fail until you know it is fake.</p>
+<p>Write back: &quot;Remove the secret from this branch, including the fixture. Rotate it if it was ever real. Log a request id, not headers or bodies. Put the old permission back.&quot;</p>
+<p><strong>Tests fail</strong> when there is no test, when the test only asserts that a function does not throw, when the test mocks the function that changed, when a snapshot covers a whole file, or when the test would still pass if you deleted the feature.</p>
+<p>Write back: &quot;Add a test that fails when this behaviour is removed. Cover an empty input and a duplicate. Do not mock the function this pull request changes.&quot;</p>
+<p><strong>Blast radius fails</strong> when a migration has no note of what a second run does, a shared client used by more than one service changes shape, a default flips from off to on, or a consumer changes while the producer still sends the old payload.</p>
+<p>Write back: &quot;Name the callers. If this is wrong, who sees it on the first request? Keep the new behaviour behind the existing flag, default off. Put the migration in its own pull request.&quot;</p>
+<p>Stop when one answer is no. Another pass on a diff you have already decided to send back is how the queue becomes the work.</p>
 <h2>Deep checks worth the time (correctness, security, idempotency)</h2>
-<p>Use the longer pass only after the first one. Check the empty, duplicate, and partial cases. Check that auth stayed in place, that queries are parameterised, and that nothing new sits on a public route. A job, a webhook, or a migration should be safe to run twice, because agents love a retry.</p>
-<p>A test that only asserts &quot;does not throw&quot; is not a claim. Ask what would still pass if the feature were deleted.</p>
+<p>Use the longer pass only after the first one. You are no longer asking whether the diff is the task. You are asking whether the task, as implemented, survives the cases an agent tends to skip. Check the empty, duplicate, and partial cases. Check that auth stayed in place, that queries are parameterised, and that nothing new sits on a public route.</p>
+<p><strong>Correctness</strong></p>
+<ul>
+<li>Empty, missing, and one-item inputs, not only the happy row.</li>
+<li>The same event delivered twice.</li>
+<li>A loop that fails on the third item, and what is left of the first two.</li>
+<li>A boundary you can name: an inclusive end date, a zero quantity, a clock near midnight.</li>
+<li>Callers that still send the old shape.</li>
+</ul>
+<p><strong>Security</strong></p>
+<ul>
+<li>The route still checks auth. A handler added &quot;for the test&quot; is not public by accident.</li>
+<li>Queries and shell commands are parameterised. User input is not concatenated into them.</li>
+<li>A permission, a role, or a token scope did not grow to make the suite green.</li>
+<li>Input that reaches a path, a redirect, or HTML is allow-listed or escaped.</li>
+<li>Errors do not echo secrets, stack paths, or internal hostnames.</li>
+</ul>
+<p><strong>Idempotency</strong></p>
+<ul>
+<li>A job, a webhook, or a migration is safe to run twice, because agents love a retry.</li>
+<li>A create that already exists returns the first row. It does not insert another.</li>
+<li>A retry does not send the email, take the payment, or fire the outbound call again.</li>
+<li>A migration that adds a column does nothing harmful when the column is already there.</li>
+<li>The &quot;already done&quot; mark is written so a second run can see it, or the side effect itself is safe to repeat.</li>
+</ul>
+<p>A test that only asserts &quot;does not throw&quot; is not a claim. Ask what would still pass if the feature were deleted. If the answer is &quot;the new test&quot;, the test is documenting the agent, not the requirement.</p>
 <h2>What to automate vs what only a human should sign</h2>
-<p>Automate formatting, type checks, secret scanning, and a warning when the diff leaves the task. Label pull requests that change auth, payments, or migrations so they land in the slow queue on purpose.</p>
+<p>Automate formatting, type checks, secret scanning, and a warning when the diff leaves the task. Label pull requests that change auth, payments, or migrations so they land in the slow queue on purpose. The machine should refuse the boring failures before a person opens the diff.</p>
+<div class="blog-table">
+<table>
+<thead>
+<tr><th>Decision</th><th>Who</th><th>Why</th></tr>
+</thead>
+<tbody>
+<tr><td>Formatting, types, lint, secret scan</td><td>Automate</td><td>A person will not catch these reliably at speed</td></tr>
+<tr><td>Diff leaves the paths named in the task</td><td>Automate a warning</td><td>Unexpected files are a defect, not a bonus</td></tr>
+<tr><td>Auth, payments, or a migration</td><td>Label it, then a human</td><td>These belong in the slow queue on purpose</td></tr>
+<tr><td>Intent, and the risk if it is wrong</td><td>Human</td><td>The suite cannot see what the change is for</td></tr>
+<tr><td>Deletes data, or changes a public contract</td><td>Human</td><td>A summary from the agent is not a sign-off</td></tr>
+</tbody>
+</table>
+</div>
 <p>A human still signs the intent, the risk, and anything that deletes data or changes a public contract. An agent&#39;s own summary is a claim, not a review. Who signs our judgement is on the <a href="/about">about page</a>. The same split applies in the repository: the tool proposes, a person accepts.</p>
+<p>Do not automate the approval. A required check can block a merge. It cannot decide that the merge is the change you asked for.</p>
 <h2>Team habits: review queues, ownership, and &quot;approve with comments&quot; rules</h2>
 <p>Give the queue an owner for the day, and cap how many agent pull requests can sit open. More than that cap is waste, not speed.</p>
-<p>&quot;Approve with comments&quot; is for a name, a missing comment, or a follow-up that can wait. If the comment would block a colleague, it blocks the agent. One line is enough for the next run to fix it without a meeting.</p>
+<p>The owner is not the person who merges everything. They notice a pull request that has sat past the cap, and they send it back or close it. A small team can start at two or three open agent pull requests per repository. The number matters less than enforcing it. A fifth pull request that is &quot;almost done&quot; is how the queue becomes the work. Close the stale one. The agent can open it again from a smaller task.</p>
+<p>&quot;Approve with comments&quot; is for a name, a missing comment, or a follow-up that can wait. If the comment would block a colleague, it blocks the agent.</p>
+<p>Fine to approve, and say so in the note:</p>
+<ul>
+<li>A name, a comment, or a log line that is noisy but safe.</li>
+<li>A follow-up for a refactor the task did not ask for, after the extra files are reverted or split out.</li>
+<li>A typo in a string the test already covers.</li>
+</ul>
+<p>Not fine. Request changes:</p>
+<ul>
+<li>A missing test for the behaviour you care about.</li>
+<li>A secret, a wider permission, or a new public route.</li>
+<li>A migration, a payment, or a contract change you have not read.</li>
+<li>A scope you still cannot say in one sentence.</li>
+</ul>
+<p>One line is enough for the next run to fix it without a meeting. Write it as an instruction: the path, the behaviour, and what to leave alone. &quot;Looks good, just double-check&quot; gives the next run nothing to apply.</p>
 <h2>What to practise this week</h2>
 <p>Add the ten-minute pass to one repository&#39;s pull request template. On the next five agent pull requests, note which of the four questions failed. That list is your review policy.</p>
+<p>Write the send-back sentence next to the question, in the same note. After five you will see a pattern: scope on three of them, tests on the other two, or a secret once. Change the template and the instructions you give the agent for the pattern you actually saw. Do not add a checklist line for a failure that did not happen.</p>
 <p>Get one Big Signal, quick hits and a Tool of the Week every Friday — free, about five minutes.</p>
       </div>
       <section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
