@@ -4,7 +4,7 @@
    Pages, and at / when served locally. Cloudflare Pages answers /page.html
    with a 308 to /page, so redirects are passed through to the browser and
    cached copies are stored without the redirected flag. */
-const VERSION = 'signal-tech-v22';
+const VERSION = 'signal-tech-v23';
 const CACHE = VERSION;
 const IMAGE_CACHE = VERSION + '-images';
 const IMAGE_LIMIT = 60;
@@ -17,6 +17,7 @@ const SHELL = [
   './advertise.html',
   './contact.html',
   './digests.html',
+  './blog.html',
   './editorial.html',
   './offline.html',
   './privacy.html',

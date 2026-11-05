@@ -6,7 +6,9 @@
 //   public/issues/YYYY-MM-DD.html   one page per newsletter issue  -> /issues/YYYY-MM-DD
 //   public/issues.html              newsletter archive              -> /issues
 //   public/digests/YYYY-MM-DD.html  one page per weekly digest      -> /digests/YYYY-MM-DD
-//   public/feed.xml                 RSS 2.0 for issues and digests  -> /feed.xml
+//   public/blog.html                original guides index           -> /blog
+//   public/blog/<slug>.html         one page per blog post          -> /blog/<slug>
+//   public/feed.xml                 RSS 2.0 for issues, digests and blog guides -> /feed.xml
 //   public/sitemap.xml              every public page, real lastmod dates
 //
 // Issue text comes from the beehiiv post (the #content-blocks part, up to
@@ -28,6 +30,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { mdToHtml, parseFrontMatter } from './lib/blog-markdown.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLIC = path.join(ROOT, 'public');
@@ -50,6 +53,7 @@ const STATIC_PAGES = [
   ['/', 'index.html'],
   ['/digests', 'digests.html'],
   ['/issues', null],
+  ['/blog', 'blog.html'],
   ['/about', 'about.html'],
   ['/editorial', 'editorial.html'],
   ['/advertise', 'advertise.html'],
@@ -259,10 +263,20 @@ export function readChrome(digestsHtml) {
 // digests.html with a reader-facing heading and note, plus a plain link to
 // the beehiiv subscribe page for browsers that block the embedded form. The
 // link carries UTM tags so beehiiv shows which page each signup came from.
-export function newsletterBox(chrome, medium) {
+function campaignValue(campaign) {
+  if (typeof campaign === 'string' && campaign.trim()) return campaign.trim();
+  if (campaign && typeof campaign === 'object' && String(campaign.campaign || '').trim()) {
+    return String(campaign.campaign).trim();
+  }
+  return 'signup_box';
+}
+
+export function newsletterBox(chrome, medium, campaign) {
   // The beehiiv home page, not /subscribe: /subscribe redirects there with
   // &modal=signup, which stacks a pop-up form over the page's own form.
-  const link = `${NEWSLETTER}/?utm_source=signaltechnews&utm_medium=${medium}&utm_campaign=signup_box`;
+  // The third argument sets utm_campaign (a slug string, or { campaign }).
+  // Callers that omit it keep signup_box.
+  const link = `${NEWSLETTER}/?utm_source=signaltechnews&utm_medium=${encodeURIComponent(medium)}&utm_campaign=${encodeURIComponent(campaignValue(campaign))}`;
   return chrome.newsletter
     .replace(/(<h2 id="newsletterTitle">)[\s\S]*?(<\/h2>)/, '$1Get Signal Tech every Friday$2')
     .replace(/(<p class="newsletter-note">)[\s\S]*?(<\/p>)/, '$1One big story, quick hits and a Tool of the Week. Free, 5-minute read.$2')
@@ -295,9 +309,10 @@ export function sponsorSlot(sponsor = {}) {
       </aside>`;
 }
 
-function page(chrome, { title, description, url, ogType = 'article', graph, bodyClass, main, scripts = [] }) {
+function page(chrome, { title, description, url, ogType = 'article', graph, bodyClass, main, scripts = [], image }) {
   const t = esc(title);
   const d = esc(description);
+  const imageUrl = esc(image || `${SITE}/assets/og-preview.png`);
   return `${chrome.preamble}
 <title>${t}</title>
 <meta name="description" content="${d}">
@@ -311,14 +326,14 @@ function page(chrome, { title, description, url, ogType = 'article', graph, body
 <meta property="og:title" content="${t}">
 <meta property="og:description" content="${d}">
 <meta property="og:url" content="${url}">
-<meta property="og:image" content="${SITE}/assets/og-preview.png">
+<meta property="og:image" content="${imageUrl}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@SignalTechNews">
 <meta name="twitter:title" content="${t}">
 <meta name="twitter:description" content="${d}">
-<meta name="twitter:image" content="${SITE}/assets/og-preview.png">
+<meta name="twitter:image" content="${imageUrl}">
 ${jsonLd(graph)}
 ${chrome.assets}
 </head>
@@ -520,13 +535,148 @@ ${content}      </div>
   });
 }
 
+// ---------- blog (content/blog/*.md -> public/blog.html and public/blog/<slug>.html) ----------
+
+const BLOG_FILE = /^(\d{4}-\d{2}-\d{2})-([a-z0-9-]+)\.md$/i;
+
+function postImage(image) {
+  const raw = String(image || '').trim();
+  if (raw.startsWith('/') && !raw.startsWith('//') && !/[\s<>"']/.test(raw)) return `${SITE}${raw}`;
+  try {
+    const url = new URL(raw);
+    if (url.protocol === 'https:' || url.protocol === 'http:') return url.href;
+  } catch { /* fall through to the default share image */ }
+  return `${SITE}/assets/og-preview.png`;
+}
+
+export function loadBlogPosts(contentDir) {
+  if (!contentDir || !fs.existsSync(contentDir)) return [];
+  const posts = [];
+  for (const name of fs.readdirSync(contentDir)) {
+    const match = BLOG_FILE.exec(name);
+    if (!match) continue;
+    const { meta, body } = parseFrontMatter(fs.readFileSync(path.join(contentDir, name), 'utf8'));
+    if (meta.draft === true) continue;
+    posts.push({
+      slug: match[2],
+      date: DATE_ID.test(meta.date || '') ? meta.date : match[1],
+      title: String(meta.title || match[2]),
+      description: String(meta.description || ''),
+      tags: Array.isArray(meta.tags) ? meta.tags.map((tag) => String(tag)) : [],
+      image: String(meta.image || ''),
+      body,
+    });
+  }
+  return posts.sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));
+}
+
+export function blogIndexPage(chrome, posts) {
+  const url = `${SITE}/blog`;
+  const cards = posts.map((post) => `          <a class="latest-card digest-card" href="/blog/${esc(post.slug)}">
+            <div class="cat">${esc(shortDate(post.date))}</div>
+            <h3>${esc(post.title)}</h3>
+            <p class="digest-card-summary">${esc(post.description)}</p>
+          </a>`).join('\n');
+  const main = `    <header class="page-head">
+      <p class="page-kicker">Original guides</p>
+      <h1 class="page-title">Signal Tech blog</h1>
+      <p class="page-sub">Practical guides for builders — separate from the Friday briefing and the weekly digests.</p>
+    </header>
+    <section class="digest-section" aria-labelledby="blog-all">
+      <h2 class="digest-section-title" id="blog-all">All posts</h2>
+      <div class="digest-grid">
+${cards || '          <p class="digest-empty">The first guide is on its way.</p>'}
+      </div>
+    </section>
+    ${newsletterBox(chrome, 'blog')}`;
+  const graph = [
+    ORGANIZATION,
+    {
+      '@type': 'CollectionPage',
+      '@id': `${url}#page`,
+      name: 'Signal Tech blog',
+      url,
+      inLanguage: 'en-GB',
+      publisher: { '@id': ORGANIZATION['@id'] },
+      hasPart: posts.map((post) => ({
+        '@type': 'BlogPosting',
+        headline: post.title,
+        url: `${SITE}/blog/${post.slug}`,
+        datePublished: post.date,
+      })),
+    },
+  ];
+  return page(chrome, {
+    title: 'Signal Tech blog — Signal Tech',
+    description: 'Practical guides for builders from Signal Tech, separate from the Friday briefing and the weekly digests.',
+    url, ogType: 'website', graph, bodyClass: 'blog-page', main,
+  });
+}
+
+export function blogPostPage(chrome, post, posts) {
+  const url = `${SITE}/blog/${post.slug}`;
+  const index = posts.findIndex((item) => item.slug === post.slug);
+  const newer = index > 0 ? posts[index - 1] : null;
+  const older = posts[index + 1];
+  const image = postImage(post.image);
+  const nav = [
+    older ? `<a class="page-btn" rel="prev" href="/blog/${esc(older.slug)}">&larr; Previous</a>` : '',
+    `<a class="page-btn" href="/blog">All posts</a>`,
+    newer ? `<a class="page-btn" rel="next" href="/blog/${esc(newer.slug)}">Next &rarr;</a>` : '',
+  ].filter(Boolean).join('\n        ');
+  const main = `    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Guide</p>
+        <h1 class="page-title">${esc(post.title)}</h1>
+        <p class="page-sub">The Signal Tech team · <time datetime="${esc(post.date)}">${esc(longDate(post.date))}</time></p>
+      </header>
+      <div class="issue-body blog-body">
+${mdToHtml(post.body)}
+      </div>
+      ${newsletterBox(chrome, 'blog', post.slug)}
+      <nav class="page-actions issue-nav" aria-label="More posts">
+        ${nav}
+      </nav>
+    </article>`;
+  const graph = [
+    ORGANIZATION,
+    {
+      '@type': 'BlogPosting',
+      '@id': `${url}#post`,
+      headline: post.title,
+      description: post.description,
+      datePublished: post.date,
+      dateModified: post.date,
+      inLanguage: 'en-GB',
+      url,
+      image,
+      author: { '@id': ORGANIZATION['@id'] },
+      publisher: { '@id': ORGANIZATION['@id'] },
+      isPartOf: { '@type': 'CollectionPage', '@id': `${SITE}/blog#page`, url: `${SITE}/blog` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+        { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE}/blog` },
+        { '@type': 'ListItem', position: 3, name: post.title, item: url },
+      ],
+    },
+  ];
+  return page(chrome, {
+    title: `${post.title} — Signal Tech`,
+    description: post.description,
+    url, graph, bodyClass: 'blog-post', main, image,
+  });
+}
+
 // ---------- feed and sitemap ----------
 
 function rfc822(value) {
   return new Date(value).toUTCString();
 }
 
-export function buildFeed(issues, digests) {
+export function buildFeed(issues, digests, posts = []) {
   const items = [
     ...issues.map((i) => ({
       title: `Issue #${i.issueNumber}: ${i.title}`,
@@ -542,6 +692,13 @@ export function buildFeed(issues, digests) {
       description: `${d.dateRange}: ${d.itemCount} of the week's most useful tech stories, grouped by section.`,
       category: 'Weekly digest',
     })),
+    ...posts.map((p) => ({
+      title: p.title,
+      link: `${SITE}/blog/${p.slug}`,
+      date: `${p.date}T12:00:00Z`,
+      description: p.description || p.title,
+      category: 'Blog',
+    })),
   ].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 50);
   const built = items.length ? rfc822(items[0].date) : rfc822('2026-01-01T00:00:00Z');
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -549,7 +706,7 @@ export function buildFeed(issues, digests) {
   <channel>
     <title>Signal Tech</title>
     <link>${SITE}/</link>
-    <description>The Signal Tech newsletter and weekly digests: AI engineering, chips and dev tools in plain English.</description>
+    <description>The Signal Tech newsletter, weekly digests and original blog guides: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
     <lastBuildDate>${built}</lastBuildDate>
     <atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/>
@@ -625,13 +782,18 @@ export async function buildStaticPages({ offline = false, request = fetch, log =
     builtDigests.push(entry);
   }
 
-  put('feed.xml', buildFeed(issues, builtDigests));
+  const posts = loadBlogPosts(path.join(ROOT, 'content', 'blog'));
+  posts.forEach((post) => put(`blog/${post.slug}.html`, blogPostPage(chrome, post, posts)));
+  put('blog.html', blogIndexPage(chrome, posts));
+
+  put('feed.xml', buildFeed(issues, builtDigests, posts));
 
   const prev = previousLastmods();
   const dataDay = maxDay(...['news', 'papers', 'reviews', 'signal-issues'].map((n) => day(readJson(path.join(PUBLIC, 'data', `${n}.json`), {}).updated)));
   const newestIssue = issues[0] ? issues[0].date : '';
   const newestDigest = builtDigests[0] ? day(builtDigests[0].generatedAt) : '';
-  const extra = { '/': dataDay, '/digests': newestDigest, '/issues': newestIssue };
+  const newestPost = posts[0] ? posts[0].date : '';
+  const extra = { '/': dataDay, '/digests': newestDigest, '/issues': newestIssue, '/blog': newestPost };
   const urls = STATIC_PAGES.map(([loc, file]) => {
     const full = `${SITE}${loc}`;
     const fromGit = file ? gitDay(`public/${file}`) : '';
@@ -639,6 +801,7 @@ export async function buildStaticPages({ offline = false, request = fetch, log =
   });
   issues.forEach((i) => urls.push({ loc: `${SITE}/issues/${i.date}`, lastmod: maxDay(i.date, day(i.fetchedAt)) }));
   builtDigests.forEach((d) => urls.push({ loc: `${SITE}/digests/${d.id}`, lastmod: day(d.generatedAt) }));
+  posts.forEach((p) => urls.push({ loc: `${SITE}/blog/${p.slug}`, lastmod: p.date }));
   put('sitemap.xml', buildSitemap(urls));
 
   log(written.length ? `wrote ${written.length} file(s): ${written.join(', ')}` : 'static pages already up to date');

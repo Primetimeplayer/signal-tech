@@ -192,3 +192,19 @@
   outline-offset: 2px;
 }
 #main:focus { outline: none; }
+
+/* Blog index reuses the digest cards. Keep code samples inside the column. */
+.blog-page .digest-grid { margin-top: 8px; }
+.issue-body.blog-body pre {
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  overflow-x: auto;
+  border-radius: 8px;
+  background: rgba(128, 134, 139, 0.12);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.issue-body.blog-body :not(pre) > code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.92em;
+}

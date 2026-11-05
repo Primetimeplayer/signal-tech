@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>How to review AI agent pull requests without becoming the bottleneck — Signal Tech</title>
+<meta name="description" content="How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="How to review AI agent pull requests without becoming the bottleneck — Signal Tech">
+<meta property="og:description" content="How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.">
+<meta property="og:url" content="https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="How to review AI agent pull requests without becoming the bottleneck — Signal Tech">
+<meta name="twitter:description" content="How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests#post",
+      "headline": "How to review AI agent pull requests without becoming the bottleneck",
+      "description": "How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.",
+      "datePublished": "2026-11-05",
+      "dateModified": "2026-11-05",
+      "inLanguage": "en-GB",
+      "url": "https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests",
+      "image": "https://signaltechnews.com/assets/og-preview.png",
+      "author": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "@id": "https://signaltechnews.com/blog#page",
+        "url": "https://signaltechnews.com/blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://signaltechnews.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://signaltechnews.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to review AI agent pull requests without becoming the bottleneck",
+          "item": "https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page blog-post">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a class="wordmark" href="/" aria-label="Signal Tech home">Signal <span>Tech</span></a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <a class="mast-link" href="/blog">Blog</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main" tabindex="-1">
+    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Guide</p>
+        <h1 class="page-title">How to review AI agent pull requests without becoming the bottleneck</h1>
+        <p class="page-sub">The Signal Tech team · <time datetime="2026-11-05">Thursday, 5 November 2026</time></p>
+      </header>
+      <div class="issue-body blog-body">
+<p>Agents open the pull request. You still own the merge. Most teams miss that split in one of two ways.</p>
+<p>Some rubber-stamp a green suite. Others read every line, and the queue becomes the work. Neither scales when an agent can open five pull requests before lunch.</p>
+<p>Review the decision, then the diff. If you cannot say what the change is for in one sentence, do not approve it. The agents theme is in <a href="/issues/">Issue #3</a>, the source stories sit in the <a href="/digests/">weekly digests</a>, and the <a href="/editorial">editorial standards</a> are how we separate a claim from a judgement.</p>
+<h2>Why agent PRs fail differently from human PRs</h2>
+<p>A colleague knows which files they meant to touch. An agent will also tidy a neighbouring module, rename a helper, or add a dependency you did not ask for. That is a different failure from a sloppy human mistake: the change looks plausible line by line and is wrong in the system around it.</p>
+<p>A forty-line fix can arrive inside four hundred lines of reformatting. Treat unexpected files as a defect, not as free cleanup.</p>
+<h2>A 10-minute first pass (scope, secrets, tests, blast radius)</h2>
+<p>Set a timer and answer four questions.</p>
+<ol>
+<li><strong>Scope.</strong> Does the diff match the task, or did the agent wander?</li>
+<li><strong>Secrets.</strong> Any new tokens, <code>.env</code> files, logged credentials, or a wider permission?</li>
+<li><strong>Tests.</strong> Is there a test for the behaviour you care about, and does it fail if that behaviour is removed?</li>
+<li><strong>Blast radius.</strong> Which services, migrations, or users does this touch if it is wrong?</li>
+</ol>
+<p>If you cannot tell, send it back with that sentence. Do not review a pull request whose edges you cannot see.</p>
+<h2>Deep checks worth the time (correctness, security, idempotency)</h2>
+<p>Use the longer pass only after the first one. Check the empty, duplicate, and partial cases. Check that auth stayed in place, that queries are parameterised, and that nothing new sits on a public route. A job, a webhook, or a migration should be safe to run twice, because agents love a retry.</p>
+<p>A test that only asserts &quot;does not throw&quot; is not a claim. Ask what would still pass if the feature were deleted.</p>
+<h2>What to automate vs what only a human should sign</h2>
+<p>Automate formatting, type checks, secret scanning, and a warning when the diff leaves the task. Label pull requests that change auth, payments, or migrations so they land in the slow queue on purpose.</p>
+<p>A human still signs the intent, the risk, and anything that deletes data or changes a public contract. An agent&#39;s own summary is a claim, not a review. Who signs our judgement is on the <a href="/about">about page</a>. The same split applies in the repository: the tool proposes, a person accepts.</p>
+<h2>Team habits: review queues, ownership, and &quot;approve with comments&quot; rules</h2>
+<p>Give the queue an owner for the day, and cap how many agent pull requests can sit open. More than that cap is waste, not speed.</p>
+<p>&quot;Approve with comments&quot; is for a name, a missing comment, or a follow-up that can wait. If the comment would block a colleague, it blocks the agent. One line is enough for the next run to fix it without a meeting.</p>
+<h2>What to practise this week</h2>
+<p>Add the ten-minute pass to one repository&#39;s pull request template. On the next five agent pull requests, note which of the four questions failed. That list is your review policy.</p>
+<p>Get one Big Signal, quick hits and a Tool of the Week every Friday — free, about five minutes.</p>
+      </div>
+      <section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Get Signal Tech every Friday</h2>
+    <p class="newsletter-note">One big story, quick hits and a Tool of the Week. Free, 5-minute read.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+    <p class="newsletter-success" id="newsletterThanks" role="status" hidden></p>
+    <p class="newsletter-alt"><a href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=blog&amp;utm_campaign=how-to-review-ai-agent-pull-requests" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>
+  </section>
+      <nav class="page-actions issue-nav" aria-label="More posts">
+        <a class="page-btn" href="/blog">All posts</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+
+</body>
+</html>

@@ -3,15 +3,23 @@
   <channel>
     <title>Signal Tech</title>
     <link>https://signaltechnews.com/</link>
-    <description>The Signal Tech newsletter and weekly digests: AI engineering, chips and dev tools in plain English.</description>
+    <description>The Signal Tech newsletter, weekly digests and original blog guides: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 02 Nov 2026 14:54:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>How to review AI agent pull requests without becoming the bottleneck</title>
+      <link>https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests</link>
+      <guid isPermaLink="true">https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Blog</category>
+      <description>How to review pull requests written by AI coding agents, with a ten-minute first pass, the checks worth your time, and which calls only a human should sign.</description>
+    </item>
     <item>
       <title>Signal Weekly — Oct 26–Nov 2, 2026</title>
       <link>https://signaltechnews.com/digests/2026-11-02</link>
