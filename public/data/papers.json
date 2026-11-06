@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-05T20:04:42.153Z",
+  "updated": "2026-11-06T01:37:06.918Z",
   "count": 20,
   "items": [
     {
       "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
-      "summary": "Researchers propose a framework to enrich context and selectively enhance robustness of LLM agents in social simulations, addressing behavior brittleness from prompt variations.",
+      "summary": "The paper proposes a framework to enrich context and selectively enhance robustness of LLM agents in social simulations, addressing behavior variability from prompt changes.",
       "link": "http://arxiv.org/abs/2611.06914v1",
       "published": "2026-11-04T18:58:23Z",
       "authors": [
@@ -17,7 +17,7 @@
         "cs.CL",
         "cs.LG"
       ],
-      "whyItMatters": "It improves reliability of AI-driven social models, crucial for accurate policy and behavioral research."
+      "whyItMatters": "Tech-savvy readers care because stable LLM agent behavior is critical for reliable AI-driven social modeling."
     },
     {
       "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
@@ -34,11 +34,11 @@
         "physics.flu-dyn",
         "cs.LG"
       ],
-      "whyItMatters": "It guides engineers on when machine learning beats traditional models for accurate, calibrated flow predictions."
+      "whyItMatters": "It helps engineers choose reliable models for accurate, low-cost flow field estimation."
     },
     {
       "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-      "summary": "BEAKER introduces a benchmark for evaluating embodied AI brains in automated chemical labs, focusing on perception, reasoning, and safe action.",
+      "summary": "BEAKER introduces a benchmark for evaluating embodied AI brains in self-driving chemical labs, focusing on perception, reasoning, and safe action in lab environments.",
       "link": "http://arxiv.org/abs/2611.06911v1",
       "published": "2026-11-04T18:57:17Z",
       "authors": [
@@ -64,11 +64,11 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "It helps gauge AI readiness for autonomous, safe lab experimentation, a key step for rapid scientific discovery."
+      "whyItMatters": "Tech-savvy readers care because it advances autonomous chemistry, enabling faster, safer, and more reliable lab automation."
     },
     {
       "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-      "summary": "FrontierPhysics presents a new benchmark of 56 physics tasks, designed by experts to assess AI agents on full research workflows, not just isolated problems.",
+      "summary": "FrontierPhysics presents an end‑to‑end benchmark of 56 physics tasks, crafted by 42 physicists, to assess AI agents on real research quality and correctness.",
       "link": "http://arxiv.org/abs/2611.06910v1",
       "published": "2026-11-04T18:56:22Z",
       "authors": [
@@ -148,11 +148,11 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "It pushes AI toward genuine scientific discovery, offering a realistic test of research quality and innovation."
+      "whyItMatters": "It pushes AI beyond toy problems, enabling evaluation of agents on authentic, complex physics research challenges."
     },
     {
       "title": "Perceptive Humanoid Motion from Simulation",
-      "summary": "The article discusses how humanoid robots can learn motion from simulation, addressing data scarcity by mapping visual and language inputs to joint commands.",
+      "summary": "The article discusses using simulation to generate perceptive humanoid motion data, addressing the lack of large-scale paired pixel-language-to-joint command datasets.",
       "link": "http://arxiv.org/abs/2611.06908v1",
       "published": "2026-11-04T18:55:33Z",
       "authors": [
@@ -171,11 +171,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because it advances scalable, autonomous robot control without costly real-world data collection."
+      "whyItMatters": "It could accelerate development of versatile humanoid robots for complex tasks."
     },
     {
       "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
-      "summary": "Reinforcement learning iteratively refines a generalist robot policy trained on a large corpus, improving performance after initial zero‑shot generalization.",
+      "summary": "The paper shows how reinforcement learning can iteratively refine a generalist robot policy, improving performance after pre-training on diverse tasks.",
       "link": "http://arxiv.org/abs/2611.06905v1",
       "published": "2026-11-04T18:52:28Z",
       "authors": [
@@ -208,11 +208,11 @@
         "cs.LG",
         "cs.RO"
       ],
-      "whyItMatters": "Tech‑savvy readers see how RL boosts versatile robot models, making them more practical for real‑world tasks."
+      "whyItMatters": "Tech-savvy readers care because it enables more efficient, adaptable robot systems without task-specific fine-tuning."
     },
     {
       "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
-      "summary": "The paper shows occlusion can be inferred from disagreements between two monocular distance estimates, avoiding the need for explicit occlusion annotations.",
+      "summary": "The paper shows occlusion can be inferred from disagreement between two monocular depth cues, enabling robots to detect hidden pedestrians without extra annotations.",
       "link": "http://arxiv.org/abs/2611.06899v1",
       "published": "2026-11-04T18:49:13Z",
       "authors": [
@@ -225,11 +225,11 @@
         "cs.CV",
         "cs.AI"
       ],
-      "whyItMatters": "It enables robots to detect hidden pedestrians using existing depth cues, improving safety with minimal extra training."
+      "whyItMatters": "Tech-savvy readers care because it reduces training data needs and improves safety in autonomous navigation."
     },
     {
       "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
-      "summary": "The article analyzes how AI exposure correlates with dull, dirty, and dangerous work conditions across U.S. occupations.",
+      "summary": "The article analyzes how AI exposure correlates with dull, dirty, dangerous work conditions across US occupations.",
       "link": "http://arxiv.org/abs/2611.06888v1",
       "published": "2026-11-04T18:41:40Z",
       "authors": [
@@ -240,11 +240,11 @@
         "cs.HC",
         "econ.GN"
       ],
-      "whyItMatters": "It shows AI could reduce hazardous jobs, informing policy and workforce planning."
+      "whyItMatters": "It shows AI may reduce hazardous jobs, informing policy and workforce planning."
     },
     {
       "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
-      "summary": "Adaptive Multi Mode routes optimizers based on budget and landscape, using online probes to choose among quasi-Newton, trust-region, coordinate, multistart, and evolution strategies.",
+      "summary": "AMM dynamically selects optimizers for black-box problems based on budget and landscape, testing assumptions online to route to the best method.",
       "link": "http://arxiv.org/abs/2611.06879v1",
       "published": "2026-11-04T18:35:35Z",
       "authors": [
@@ -255,11 +255,11 @@
         "cs.NE",
         "math.OC"
       ],
-      "whyItMatters": "It improves efficiency for black-box optimization by selecting the best method for each problem’s constraints."
+      "whyItMatters": "It improves efficiency and success rates for complex optimization tasks in AI and engineering."
     },
     {
       "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
-      "summary": "SpecCompact speeds up LLM agent context compaction by using slot‑parallel semantic speculative verification to balance detail and latency.",
+      "summary": "SpecCompact speeds up LLM agent context compaction by using slot‑parallel semantic speculative verification to balance retention and latency.",
       "link": "http://arxiv.org/abs/2611.06876v1",
       "published": "2026-11-04T18:34:41Z",
       "authors": [
@@ -270,11 +270,11 @@
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "It lets agents handle longer histories faster, improving real‑time performance for AI applications."
+      "whyItMatters": "It reduces delays in agent interactions, improving real‑time performance for AI applications."
     },
     {
       "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
-      "summary": "The paper introduces GBPNet, a neural decoder that improves linear code decoding by preserving message‑passing symmetry.",
+      "summary": "The paper introduces GBPNet, a neural decoder that improves linear code decoding by preserving message-passing symmetry and enhancing learning.",
       "link": "http://arxiv.org/abs/2611.06874v1",
       "published": "2026-11-04T18:29:31Z",
       "authors": [
@@ -283,11 +283,11 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "It offers better error‑correcting performance for reliable, high‑speed communications."
+      "whyItMatters": "It offers higher decoding accuracy for noisy communications, appealing to engineers seeking better error correction with neural methods."
     },
     {
       "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
-      "summary": "The paper tests turn-level best‑of‑N sampling, where a generator produces N actions and a selector picks one, to improve LLM agents on long‑horizon tasks.",
+      "summary": "The paper tests turn-level best‑of‑N sampling, where a generator produces N action candidates and a selector picks one for LLM agents on long‑horizon tasks.",
       "link": "http://arxiv.org/abs/2611.06868v1",
       "published": "2026-11-04T18:23:14Z",
       "authors": [
@@ -303,7 +303,7 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "It offers a lightweight, inference‑time method to boost agent performance without costly training."
+      "whyItMatters": "It offers a lightweight, inference‑time method to improve agent performance without costly training."
     },
     {
       "title": "CounterFactual Retrieval for Evidence-Aware Individual Animal Identification",
