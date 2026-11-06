@@ -1,7 +1,83 @@
 {
-  "updated": "2026-11-06T01:37:06.667Z",
-  "count": 100,
+  "updated": "2026-11-06T11:06:32.120Z",
+  "count": 97,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "UK ministers seek powers to investigate when AI agents are let off the leash",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+      "published": "Fri, 06 Nov 2026 11:00:00 +0000",
+      "summary": "UK ministers propose powers to investigate uncontrolled AI agents under the Cyber Security and Resilience Bill.",
+      "image": "https://image.theregister.com/?imageId=2918046&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech readers should watch for new regulatory controls on autonomous systems."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Gelsinger-backed Nagare Labs’ Z2RAM promises SRAM speed at DRAM density",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
+      "published": "Fri, 06 Nov 2026 11:00:00 +0000",
+      "summary": "Nagare Labs introduces Z2RAM, a capacitorless memory offering SRAM speed with DRAM density for AI accelerator stacks.",
+      "image": "https://cdn.mos.cms.futurecdn.net/wBsiTVdEXUvLhGduqG9Q2d-1920-80.jpg",
+      "readMinutes": 6,
+      "whyItMatters": "It could boost AI performance while saving space and power on accelerators."
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nintendo’s latest Zelda remake already circulating online as a Switch 2 ROM",
+      "link": "https://www.tomshardware.com/video-games/nintendo/nintendos-latest-zelda-remake-already-circulating-online-as-a-switch-2-rom-openai-assisted-software-jailbreak-new-game-dumper-let-pirates-share-game-for-free-immediately-following-release",
+      "published": "Fri, 06 Nov 2026 11:00:00 +0000",
+      "summary": "The Legend of Zelda: Ocarina of Time has been dumped as a Switch 2 ROM, with both the original and a 23GB update online.",
+      "image": "https://cdn.mos.cms.futurecdn.net/2B4RSXUZkL6YomEuwBv8ec-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "It highlights piracy risks and the need for secure distribution for high-value game releases."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Britain's tech ambitions depend on minerals made in China, MPs warn",
+      "link": "https://www.theregister.com/public-sector/2026/11/06/britains-tech-ambitions-depend-on-minerals-made-in-china-mps-warn/5307779",
+      "published": "Fri, 06 Nov 2026 09:30:00 +0000",
+      "summary": "UK MPs warn that Britain's tech ambitions rely on minerals produced in China, with no viable alternatives within a decade.",
+      "image": "https://image.theregister.com/?imageId=5307805&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech leaders need to know supply chain risks could limit future innovation and national security."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Hospital gave very sick doctor a special PC for his personal, erm, pleasure",
+      "link": "https://www.theregister.com/security/2026/11/06/hospital-gave-very-sick-doctor-a-special-pc-for-his-personal-erm-pleasure/5307750",
+      "published": "Fri, 06 Nov 2026 06:31:00 +0000",
+      "summary": "A hospital provided a sick doctor with a personal PC, raising questions about policy compliance and workplace ethics.",
+      "image": "https://image.theregister.com/?imageId=222391&width=800",
+      "readMinutes": 2,
+      "whyItMatters": "Tech-savvy readers should note potential data security and policy breach risks."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "published": "Fri, 06 Nov 2026 06:28:32 +0000",
+      "summary": "Palo Alto Networks is negotiating to acquire AI agent security startup Clutch for $500 million.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2215666246.jpg?resize=1200,800",
+      "whyItMatters": "Highlights major security firms investing heavily in AI-driven threat detection."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "AI agents are a 'bane' for some website operators, says Cloudflare",
+      "link": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
+      "published": "Fri, 06 Nov 2026 04:25:14 +0000",
+      "summary": "Cloudflare CEO claims AI agents harm website operators, citing outdated PHP2SHELL exploits and declaring containers obsolete.",
+      "image": "https://image.theregister.com/?imageId=239494&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "Tech leaders should rethink AI integration and container use for site security."
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -263,17 +339,6 @@
       "whyItMatters": "Tech readers should watch how AI tools evolve to defend against cyber threats."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Muse has a voice mode now",
-      "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-      "published": "2026-11-05T19:03:04.000Z",
-      "summary": "Meta’s Muse AI now supports real‑time voice conversations with animated avatars, allowing tone changes via voice commands.",
-      "excerpt": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of your conversation animates in time with the words that it's saying. You can also change the tone of the voice by just asking your agent…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Voice interaction enhances user engagement and accessibility for AI assistants."
-    },
-    {
       "source": "IEEE Spectrum",
       "category": "news",
       "title": "IEEE Program Schools Preuniversity Educators On Tech Topics",
@@ -338,15 +403,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Stephen_Ward_horiztonal.jpeg?resize=1200,1077"
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Claude can now analyze your spending with its new Personal Finance tool",
-      "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-      "published": "Thu, 05 Nov 2026 18:00:00 +0000",
-      "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Personal-Finance-2.png?resize=1200,675"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "India targets creating homegrown GPUs within 2 years and plans to commercialize indigenous SHAKTI and VEGA processors",
@@ -367,16 +423,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gta6dlss-1152x648.png"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "openSUSE Leap 16.1 gives Linux users the right to remain immutable",
-      "link": "https://www.theregister.com/os-platforms/2026/11/05/opensuse-leap-161-gives-linux-users-the-right-to-remain-immutable/5307874",
-      "published": "Thu, 05 Nov 2026 17:30:00 +0000",
-      "summary": "One installer now offers conventional and read-only systems as separate Micro distro bows out",
-      "image": "https://image.theregister.com/?imageId=243626&width=800",
-      "readMinutes": 3
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
@@ -384,16 +430,6 @@
       "published": "Thu, 05 Nov 2026 17:05:59 +0000",
       "summary": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post Cork Takes the Heat…",
       "excerpt": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post Cork Takes the Heat So DRACO’s Data Can Survive appeared first on SpaceNews."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "OpenAI releases GPT-6 Cyber, and promises this one stays within 'rules of engagement'",
-      "link": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
-      "published": "Thu, 05 Nov 2026 17:00:00 +0000",
-      "summary": "The latest bug hunting model 'avoided exploiting out-of-scope services over 99 percent of the time', claims House of Altman",
-      "image": "https://image.theregister.com/?imageId=262189&width=800",
-      "readMinutes": 2
     },
     {
       "source": "Tom's Hardware",
@@ -458,16 +494,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/11/freedom-crossing-downlink-nov-5.jpg?w=1920"
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Memory makers mint megabucks while buyers beg for mercy",
-      "link": "https://www.theregister.com/systems/2026/11/05/memory-makers-mint-megabucks-while-buyers-beg-for-mercy/5307846",
-      "published": "Thu, 05 Nov 2026 15:07:34 +0000",
-      "summary": "DRAM revenue jumps 369 percent as AI demand keeps supplies tight and prices climbing",
-      "image": "https://image.theregister.com/?imageId=5259665&width=800",
-      "readMinutes": 2
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Intel leaker claims Nova Lake desktop chips have 5.1 GHz clock limit beyond 90°C",
@@ -497,25 +523,6 @@
       "image": "https://media.wired.com/photos/6aea53001ffd9173e25bd6c5/master/pass/Aina%20Ring%20colors%20standing.jpeg"
     },
     {
-      "source": "Wired",
-      "category": "news",
-      "title": "Apple MacBook Pro OLED (2026) Review: The Best Comes at a Cost",
-      "link": "https://www.wired.com/review/apple-macbook-pro-oled-2026/",
-      "published": "Thu, 05 Nov 2026 14:00:00 +0000",
-      "summary": "The new OLED MacBook Pro comes with an incredible-looking touchscreen display—and an equally eye-popping price.",
-      "image": "https://media.wired.com/photos/6aebd874f1d50b8664c56b28/master/pass/macbook-pro-OLED-04.jpg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Apple MacBook Pro with PROLED XDR Display review: The screen that every Mac deserves",
-      "link": "https://www.tomshardware.com/laptops/macbooks/apple-macbook-pro-with-proled-xdr-display-review",
-      "published": "Thu, 05 Nov 2026 14:00:00 +0000",
-      "summary": "Apple's MacBook Pro with PROLED Display has lots of small tweaks that make it a major upgrade, including a lighter weight and touch functionality, but it's exceptionally expensive and out of reach for many.",
-      "image": "https://cdn.mos.cms.futurecdn.net/LbMhawpHCpsfZcmbETFvA4-1920-80.jpg",
-      "readMinutes": 19
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Apple MacBook Pro (14-inch, M6) review: Speedy M6 chip slips into comfortable shoes",
@@ -528,12 +535,12 @@
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "Congresswoman calls for artificial superintelligence ban after Democrats' seismic midterm sweep",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/congresswoman-calls-for-artificial-superintelligence-ban-after-democrats-seismic-midterm-sweep-demands-regulation-of-out-of-control-industry-and-pause-on-advanced-ai",
-      "published": "Thu, 05 Nov 2026 13:30:16 +0000",
-      "summary": "Rep. Yassamin Ansari of Arizona is asking her party to focus on AI issues.",
-      "image": "https://cdn.mos.cms.futurecdn.net/ZHm2Hr79wsvQjDCatFaSj5-1920-80.png",
-      "readMinutes": 3
+      "title": "Apple MacBook Pro with PROLED XDR Display review: The screen that every Mac deserves",
+      "link": "https://www.tomshardware.com/laptops/macbooks/apple-macbook-pro-with-proled-xdr-display-review",
+      "published": "Thu, 05 Nov 2026 14:00:00 +0000",
+      "summary": "Apple's MacBook Pro with PROLED Display has lots of small tweaks that make it a major upgrade, including a lighter weight and touch functionality, but it's exceptionally expensive and out of reach for many.",
+      "image": "https://cdn.mos.cms.futurecdn.net/LbMhawpHCpsfZcmbETFvA4-1920-80.jpg",
+      "readMinutes": 19
     },
     {
       "source": "MIT Technology Review",
@@ -545,15 +552,6 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2024/09/ECUA-240705-Serhii-Beskrestnov-45766_grad.jpg?fit=1920,1280",
       "readMinutes": 4
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Finding New Drugs Is Laborious. This AI Startup Is Skipping The Lab Work",
-      "link": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
-      "published": "Thu, 05 Nov 2026 13:00:00 +0000",
-      "summary": "Potential Sciences, a startup backed by the UK government, is betting that training AI models on computer-generated biochemical data can speed up the plodding process of developing new drugs.",
-      "image": "https://media.wired.com/photos/6aebade028f7263543de445a/master/pass/Business_Drug%20Discovery%20Is%20a%20Needle%20in%20a%20Haystack%20Problem.%20This%20AI%20Startup%20Thinks%20It%20Has%20The%20Answer_v1.jpg"
     },
     {
       "source": "NASA",
@@ -597,28 +595,6 @@
       "summary": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring…",
       "excerpt": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and integration […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg?w=1920"
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
-      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
-      "published": "Wed, 04 Nov 2026 16:52:43 +0000",
-      "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated…",
-      "excerpt": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
-      "image": "https://images-assets.nasa.gov/image/AFRC2026-0152-30/AFRC2026-0152-30~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-      "readMinutes": 3
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
-      "link": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
-      "published": "Wed, 04 Nov 2026 16:16:41 +0000",
-      "summary": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At…",
-      "excerpt": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At nearly every stop across the country, NASA Space Grant has brought students into the heart of the action. In Iowa, NASA Administrator Jared […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/2097409090238472611.png?w=962",
-      "readMinutes": 3
     },
     {
       "source": "MIT Technology Review",
@@ -670,6 +646,7 @@
       "link": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
       "published": "Tue, 03 Nov 2026 16:00:00 +0000",
       "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720",
       "readMinutes": 4
     },
     {
@@ -745,6 +722,7 @@
       "published": "Sun, 01 Nov 2026 21:36:00 +0000",
       "summary": "GitHub’s 14th annual Game Off invites developers to create a game themed SHIFT, encouraging creative changes in perspective and mechanics.",
       "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/og-image.png",
       "readMinutes": 6,
       "whyItMatters": "It offers a platform for showcasing innovative game design and community collaboration."
     },
@@ -818,6 +796,7 @@
       "link": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
       "published": "Wed, 28 Oct 2026 16:09:28 +0000",
       "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png",
       "readMinutes": 5
     },
     {

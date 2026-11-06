@@ -5,13 +5,21 @@
     <link>https://signaltechnews.com/</link>
     <description>The Signal Tech newsletter, weekly digests and original blog guides: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 07:00:00 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>Issue #4: Google&#39;s TPUs leave Google Cloud</title>
+      <link>https://signaltechnews.com/issues/2026-11-06</link>
+      <guid isPermaLink="true">https://signaltechnews.com/issues/2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 07:00:00 GMT</pubDate>
+      <category>Newsletter</category>
+      <description>Google’s TPUs land on a rival cloud: For the first time, you’ll be able to rent Google’s AI chips on a hyperscale… · CUDA 13.5 makes Vera Rubin generally available: NVIDIA’s next GPU architecture is now ready for production CUDA apps. · Tool of the week: QuartusIQ: An AI companion inside Altera’s FPGA tools that knows your project and helps…</description>
+    </item>
     <item>
       <title>How to review AI agent pull requests without becoming the bottleneck</title>
       <link>https://signaltechnews.com/blog/how-to-review-ai-agent-pull-requests</link>

@@ -1,458 +1,371 @@
 {
-  "updated": "2026-11-06T01:37:06.918Z",
+  "updated": "2026-11-06T11:06:32.371Z",
   "count": 20,
   "items": [
     {
-      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
-      "summary": "The paper proposes a framework to enrich context and selectively enhance robustness of LLM agents in social simulations, addressing behavior variability from prompt changes.",
-      "link": "http://arxiv.org/abs/2611.06914v1",
-      "published": "2026-11-04T18:58:23Z",
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "summary": "The paper proposes viewing user embeddings as sparse combinations of interpretable behavioral modes to improve transparency in recommendation systems.",
+      "link": "http://arxiv.org/abs/2611.08487v1",
+      "published": "2026-11-05T18:59:42Z",
       "authors": [
-        "Mattia Greiche",
-        "Reihaneh Rabbany",
-        "Maximilian Puelma Touzel"
+        "Jonathan Kozaczuk",
+        "Zheng Dong",
+        "Noyan Evirgen",
+        "Keivan Majidi",
+        "Eddie K. H. Ng",
+        "Chris Porter",
+        "Qi Zhao",
+        "Jia Geng",
+        "Changmao Li",
+        "Brandon R. Feng"
       ],
       "categories": [
-        "cs.MA",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it offers a clearer, actionable understanding of user behavior for better model debugging and trust."
+    },
+    {
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "summary": "SwarmEvolve uses LLM-guided agent swarms to accelerate evolutionary search by refining and combining high-scoring solutions for computational problems.",
+      "link": "http://arxiv.org/abs/2611.08483v1",
+      "published": "2026-11-05T18:59:29Z",
+      "authors": [
+        "Qile Jiang",
+        "George Em Karniadakis"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.NE"
+      ],
+      "whyItMatters": "It speeds up AI-driven optimization, making complex problem solving more efficient for tech developers."
+    },
+    {
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "summary": "The article introduces Scientist World, a platform that turns research papers into executable environments for AI scientists.",
+      "link": "http://arxiv.org/abs/2611.08478v1",
+      "published": "2026-11-05T18:58:17Z",
+      "authors": [
+        "Taiming Lu",
+        "Sachin Konan",
+        "Zhuang Liu"
+      ],
+      "categories": [
+        "cs.AI",
         "cs.CL",
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because stable LLM agent behavior is critical for reliable AI-driven social modeling."
+      "whyItMatters": "It enables AI systems to run and test scientific ideas directly, accelerating automated research and discovery."
     },
     {
-      "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
-      "summary": "FlowReconBench compares ten learned and five classical flow reconstruction methods on sparse sensor data across laminar cylinder wake regimes.",
-      "link": "http://arxiv.org/abs/2611.06912v1",
-      "published": "2026-11-04T18:57:47Z",
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "summary": "XStack introduces a benchmark for migrating machine‑learning repositories between PyTorch/NVIDIA GPU and JAX/Google TPU ecosystems, enabling cross‑framework portability.",
+      "link": "http://arxiv.org/abs/2611.08472v1",
+      "published": "2026-11-05T18:55:54Z",
       "authors": [
-        "Nicolas Tricard",
-        "Linzheng Wang",
-        "Jason Chen",
-        "Sili Deng"
+        "Linrong Cai",
+        "Taiming Lu",
+        "Haozhe Chen",
+        "Zhuang Liu"
       ],
       "categories": [
-        "physics.flu-dyn",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "whyItMatters": "It helps researchers unlock new hardware and improve reproducibility across popular ML frameworks."
+    },
+    {
+      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+      "summary": "The article examines when finite, noisy experiments can reliably identify causal mechanisms underlying integrated information in AI systems.",
+      "link": "http://arxiv.org/abs/2611.08469v1",
+      "published": "2026-11-05T18:55:31Z",
+      "authors": [
+        "Linqian Wu",
+        "Diaoxuan He"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.NC"
+      ],
+      "whyItMatters": "It informs how to audit and interpret AI consciousness with limited data."
+    },
+    {
+      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+      "summary": "The paper introduces MAEMs, models that map residual stream directions to text exemplars, enabling interpretation beyond corpus limits.",
+      "link": "http://arxiv.org/abs/2611.08465v1",
+      "published": "2026-11-05T18:54:40Z",
+      "authors": [
+        "Celeste De Schamphelaere",
+        "Juan J. Vazquez",
+        "Ari Spiesberger",
+        "Tomáš Gavenčiak",
+        "Gavin Leech",
+        "Euan Ong",
+        "Jiahai Feng"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "whyItMatters": "It offers a scalable way to probe language model internals, aiding debugging and transparency for AI developers."
+    },
+    {
+      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+      "summary": "The paper analyzes how large step sizes affect deterministic gradient descent dynamics in adversarial training, exploring implicit bias, optimization behavior, and loss sharpness.",
+      "link": "http://arxiv.org/abs/2611.08457v1",
+      "published": "2026-11-05T18:48:50Z",
+      "authors": [
+        "Yi Feng",
+        "Andrea Paudice"
+      ],
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "whyItMatters": "Understanding large-step effects can lead to faster, more robust training for real-world deep learning models."
+    },
+    {
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "summary": "The article compares on‑policy distillation (OPD) with Group Relative Policy Optimization (GRPO) to assess compute efficiency across various tasks and model sizes.",
+      "link": "http://arxiv.org/abs/2611.08453v1",
+      "published": "2026-11-05T18:47:05Z",
+      "authors": [
+        "Zeyu Leo Liu",
+        "Yang Li",
+        "Bo Pang",
+        "Emre Can Acikgoz",
+        "Xuan-Phi Nguyen",
+        "Anurag Koul",
+        "Srijan Bansal",
+        "Erik Nijkamp",
+        "Shafiq Joty",
+        "Semih Yavuz"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "whyItMatters": "It informs whether OPD can cut training FLOPs while maintaining accuracy, a key concern for scalable AI development."
+    },
+    {
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "summary": "ReproBridge proposes a system to capture and preserve detailed procedures and decisions from ML experiments, aiding reproducibility across papers, code, and artifacts.",
+      "link": "http://arxiv.org/abs/2611.08452v1",
+      "published": "2026-11-05T18:45:36Z",
+      "authors": [
+        "Yubo Wang",
+        "Rui Meng",
+        "Jaehyun Nam",
+        "Tomas Pfister",
+        "Jinsung Yoon"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "It helps researchers reliably replicate results, saving time and improving trust in AI research."
+    },
+    {
+      "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
+      "summary": "The paper proposes a Hidden Markov Preference Model to predict an attacker's next action, accounting for changing behavior regimes and time-varying action constraints.",
+      "link": "http://arxiv.org/abs/2611.08445v1",
+      "published": "2026-11-05T18:37:07Z",
+      "authors": [
+        "Angel Daruna",
+        "Michael Cogswell",
+        "Tixiao Shan",
+        "Yi Yao",
+        "Han-Pang Chiu",
+        "Ajay Divakaran"
+      ],
+      "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "It helps engineers choose reliable models for accurate, low-cost flow field estimation."
+      "whyItMatters": "It offers defenders a dynamic, probabilistic tool to anticipate and counter evolving cyber threats more effectively."
     },
     {
-      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-      "summary": "BEAKER introduces a benchmark for evaluating embodied AI brains in self-driving chemical labs, focusing on perception, reasoning, and safe action in lab environments.",
-      "link": "http://arxiv.org/abs/2611.06911v1",
-      "published": "2026-11-04T18:57:17Z",
+      "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
+      "summary": "The article examines how adding label wording variations improves a multilingual cross‑encoder’s accuracy on unfamiliar words but not on abbreviations or codes.",
+      "link": "http://arxiv.org/abs/2611.08439v1",
+      "published": "2026-11-05T18:31:24Z",
       "authors": [
-        "Fei Lin",
-        "Tengchao Zhang",
-        "Ziyang Gong",
-        "Xiaotong Yu",
-        "Bohan Zhang",
-        "Yifan Zhou",
-        "Qihao Yang",
-        "Ji Dai",
-        "Dong Li",
-        "Yining Jiang",
-        "Qinghua Ni",
-        "Jun Huang",
-        "Qiang Zhang",
-        "Yue Zhou",
-        "Zhihang Zhong",
-        "Yonglin Tian",
-        "Fei-Yue Wang",
-        "Xue Yang"
+        "Vladimir Beskorovainyi"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech readers should know that surface‑form augmentation can boost model robustness for new vocab, informing better prompt design."
+    },
+    {
+      "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
+      "summary": "The article discusses mechanistic interpretability, exploring how to understand neural networks to ensure AI safety as they grow more autonomous.",
+      "link": "http://arxiv.org/abs/2611.08438v1",
+      "published": "2026-11-05T18:30:54Z",
+      "authors": [
+        "Fazl Barez",
+        "Tung-Yu Wu",
+        "Hunar Batra",
+        "Gabriele Dominici",
+        "Florent Draye",
+        "Yanai Elazar",
+        "Damiano Fornasiere",
+        "Antía García",
+        "Abir Harrasse",
+        "Riley Harris",
+        "Sara Hooker",
+        "Michael Lan",
+        "Belinda Z. Li",
+        "Aaron Maiwald",
+        "Narmeen Fatimah Oozeer",
+        "Naomi Saphra",
+        "Or David Shafran",
+        "Adi Simhi",
+        "Robert Trager",
+        "Shriyash Kaustubh Upadhyay",
+        "Ziyu Yao",
+        "Yu Zhao",
+        "Shay B. Cohen",
+        "Mor Geva",
+        "Yoshua Bengio",
+        "Stella Biderman",
+        "Hassan Sajjad"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers care because deeper insight reduces risks of unintended AI behavior."
+    },
+    {
+      "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+      "summary": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. We present…",
+      "link": "http://arxiv.org/abs/2611.08433v1",
+      "published": "2026-11-05T18:27:20Z",
+      "authors": [
+        "Donghua Zhang",
+        "Zizheng Wang",
+        "Ze Dong",
+        "Yiding Feng",
+        "Siyu Qian"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
+      "summary": "Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and…",
+      "link": "http://arxiv.org/abs/2611.08428v1",
+      "published": "2026-11-05T18:22:24Z",
+      "authors": [
+        "Julian Kunkel",
+        "Ali Doosthosseini"
       ],
       "categories": [
         "cs.AI"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it advances autonomous chemistry, enabling faster, safer, and more reliable lab automation."
+      ]
     },
     {
-      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-      "summary": "FrontierPhysics presents an end‑to‑end benchmark of 56 physics tasks, crafted by 42 physicists, to assess AI agents on real research quality and correctness.",
-      "link": "http://arxiv.org/abs/2611.06910v1",
-      "published": "2026-11-04T18:56:22Z",
+      "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
+      "summary": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people. Deploying VLAs in real-world systems therefore requires a runtime monitor that is timely, calibrated, and informative while being efficient enough to run on the edge. Existing methods…",
+      "link": "http://arxiv.org/abs/2611.08425v1",
+      "published": "2026-11-05T18:21:07Z",
       "authors": [
-        "Bingran You",
-        "Wenjun Ke",
-        "Ria Rosenauer",
-        "Bo Liu",
-        "Wenbo Chen",
-        "Min Chen",
-        "Shuqi Xu",
-        "Yue Ma",
-        "Jiechao Feng",
-        "Bo Chen",
-        "Xiangkai Sun",
-        "Jiarui Liu",
-        "Jinen Guo",
-        "Zeyu Zhou",
-        "Xu Huang",
-        "Zhuohan Li",
-        "Haoyu Li",
-        "Heguang Lin",
-        "Lijie Ding",
-        "Yadong Zeng",
-        "Kangqi Zhang",
-        "Xinge Liu",
-        "Hanwen Liu",
-        "Zhenghong Li",
-        "Alexander von Recum",
-        "Yuchen Zhu",
-        "Felix Schwarzfischer",
-        "Yizhou Zhao",
-        "Jicheng Wang",
-        "Binxu Li",
-        "Qian Yu",
-        "Chan Li",
-        "Cheng Dai",
-        "Di Wang",
-        "Haoyu Zhang",
-        "Jiankai Sun",
-        "Kaituo Feng",
-        "Mian Qin",
-        "Ruihong Yin",
-        "Yiqun Luo",
-        "Weiwei Wu",
-        "Shihong Pan",
-        "Tsung Yeh Hsieh",
-        "Xiao Huang",
-        "Yan Zhang",
-        "Sihan Li",
-        "Zirui Ren",
-        "Zengji Tu",
-        "Kyoung Whan Choe",
-        "Ke Sun",
-        "Vincenzo Galia",
-        "Vaisakhi Mishra",
-        "Jiashu He",
-        "Hongyang Wang",
-        "Zhiheng Yang",
-        "Shubham Gaur",
-        "Yifan Gu",
-        "Shuyi Wang",
-        "Zihao Zuo",
-        "Steven Dillmann",
-        "Yiyou Sun",
-        "Xinyang Han",
-        "Hanchung Lee",
-        "Molei Tao",
-        "Yue Zhao",
-        "Shilong Liu",
-        "Yuchen Wu",
-        "Xuandong Zhao",
-        "Xiangyi Li",
-        "Florian Brand",
-        "Gerbrand Ceder",
-        "Hartmut Haeffner"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "It pushes AI beyond toy problems, enabling evaluation of agents on authentic, complex physics research challenges."
-    },
-    {
-      "title": "Perceptive Humanoid Motion from Simulation",
-      "summary": "The article discusses using simulation to generate perceptive humanoid motion data, addressing the lack of large-scale paired pixel-language-to-joint command datasets.",
-      "link": "http://arxiv.org/abs/2611.06908v1",
-      "published": "2026-11-04T18:55:33Z",
-      "authors": [
-        "Siyuan Hu",
-        "Abulikemu Abuduweili",
-        "Yue Meng",
-        "Shipeng Liu",
-        "Quentin Leboutet",
-        "Chen Chen",
-        "Matthias Müller",
-        "Vladlen Koltun"
+        "Michal P. Podolinsky",
+        "Yunhao Yang",
+        "Daniel Little",
+        "Hong Lu",
+        "Rohan Siva",
+        "Olin Goudey",
+        "Neel P. Bhatt",
+        "Matthias Scheutz",
+        "Ufuk Topcu"
       ],
       "categories": [
         "cs.RO",
-        "cs.AI",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "It could accelerate development of versatile humanoid robots for complex tasks."
+        "cs.AI"
+      ]
     },
     {
-      "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
-      "summary": "The paper shows how reinforcement learning can iteratively refine a generalist robot policy, improving performance after pre-training on diverse tasks.",
-      "link": "http://arxiv.org/abs/2611.06905v1",
-      "published": "2026-11-04T18:52:28Z",
+      "title": "Data-driven discovery of intrinsic Lie point symmetries of differential equation systems",
+      "summary": "Discovering continuous symmetries directly from differential-equation data can reveal geometric structure for model reduction and scientific machine learning without symbolic determining equations or a closed-form representation of the governing system. We formulate intrinsic Lie point-symmetry discovery as an operator-theoretic problem on sampled jet-space data. Admissible generators are…",
+      "link": "http://arxiv.org/abs/2611.08421v1",
+      "published": "2026-11-05T18:19:28Z",
       "authors": [
-        "Michal Korniak",
-        "Marco Bagatella",
-        "Ralf Römer",
-        "Michal Nauman",
-        "Yarden As",
-        "Pranav Vignesh",
-        "Manan Agarwal",
-        "Leander Diaz-Bone",
-        "Piotr Zalewski",
-        "Mikołaj Czarnecki",
-        "Lenart Treven",
-        "Shashwat Saxena",
-        "Sreyas Venkataraman",
-        "Sarvesh Patil",
-        "Zhiyuan Zhou",
-        "Daniel Marta",
-        "Oier Mees",
-        "Nur Muhammad Mahi Shafiullah",
-        "Carmelo Sferrazza",
-        "Bhavya Sukhija",
-        "Angela P. Schoellig",
-        "Andreas Krause",
-        "Max Simchowitz",
-        "Andrew Wagenmaker"
+        "Ilker Gurcan",
+        "Kadir Ustun",
+        "Ramazan Gokberk Cinbis"
       ],
       "categories": [
         "cs.LG",
-        "cs.RO"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it enables more efficient, adaptable robot systems without task-specific fine-tuning."
+        "math.DG",
+        "math.DS",
+        "math.GR",
+        "math.NA"
+      ]
     },
     {
-      "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
-      "summary": "The paper shows occlusion can be inferred from disagreement between two monocular depth cues, enabling robots to detect hidden pedestrians without extra annotations.",
-      "link": "http://arxiv.org/abs/2611.06899v1",
-      "published": "2026-11-04T18:49:13Z",
+      "title": "On the limitations of molecular representations",
+      "summary": "Molecular representations such as fingerprints and learned embeddings play a central role in cheminformatics and small-molecule machine learning. They serve as the primary input for a diverse array of tasks, including clustering, dataset splitting, and virtual screening, yet their evaluation is often limited to downstream model performance on narrow benchmark tasks. We carried out a systematic…",
+      "link": "http://arxiv.org/abs/2611.08420v1",
+      "published": "2026-11-05T18:19:19Z",
       "authors": [
-        "Chibueze Praise Onyenweaku",
-        "Toyibat Adele",
-        "Sikirulahi Opeyemi Abdulkareem",
-        "Obed Honour Eje"
+        "Acer Blake",
+        "Fergus Imrie",
+        "Charlotte M. Deane"
       ],
       "categories": [
-        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+      "summary": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that existing verifiers reject, while changes to evaluation infrastructure can invalidate assumptions embedded in tasks and…",
+      "link": "http://arxiv.org/abs/2611.08417v1",
+      "published": "2026-11-05T18:18:39Z",
+      "authors": [
+        "E. Kelly Buchanan",
+        "Crystal Zhou",
+        "Scott W. Linderman",
+        "Christopher Ré"
+      ],
+      "categories": [
         "cs.AI"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it reduces training data needs and improves safety in autonomous navigation."
+      ]
     },
     {
-      "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
-      "summary": "The article analyzes how AI exposure correlates with dull, dirty, dangerous work conditions across US occupations.",
-      "link": "http://arxiv.org/abs/2611.06888v1",
-      "published": "2026-11-04T18:41:40Z",
+      "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
+      "summary": "Low-rank adaptation (LoRA) is commonly used in both supervised fine-tuning (SFT) and reinforcement learning (RL), often under similar optimizer settings. Yet, how the different dynamics of the two stages manifest in the low-rank increment that LoRA optimizes remains unclear. Tracking the singular spectrum and subspaces of LoRA updates on mathematical reasoning tasks, we find that RL concentrates…",
+      "link": "http://arxiv.org/abs/2611.08414v1",
+      "published": "2026-11-05T18:17:39Z",
       "authors": [
-        "Siyi Yu"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.HC",
-        "econ.GN"
-      ],
-      "whyItMatters": "It shows AI may reduce hazardous jobs, informing policy and workforce planning."
-    },
-    {
-      "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
-      "summary": "AMM dynamically selects optimizers for black-box problems based on budget and landscape, testing assumptions online to route to the best method.",
-      "link": "http://arxiv.org/abs/2611.06879v1",
-      "published": "2026-11-04T18:35:35Z",
-      "authors": [
-        "Benjamin Jacob Bodner"
+        "Chenruo Liu",
+        "Zihan Wang",
+        "Yijun Dong",
+        "Qi Lei"
       ],
       "categories": [
         "cs.LG",
-        "cs.NE",
-        "math.OC"
-      ],
-      "whyItMatters": "It improves efficiency and success rates for complex optimization tasks in AI and engineering."
+        "stat.ML"
+      ]
     },
     {
-      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
-      "summary": "SpecCompact speeds up LLM agent context compaction by using slot‑parallel semantic speculative verification to balance retention and latency.",
-      "link": "http://arxiv.org/abs/2611.06876v1",
-      "published": "2026-11-04T18:34:41Z",
+      "title": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
+      "summary": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by OpenAI provide a rich empirical basis for studying this question. However, several challenges remain: lack of matched case-control pairs; potential…",
+      "link": "http://arxiv.org/abs/2611.08412v1",
+      "published": "2026-11-05T18:17:18Z",
       "authors": [
-        "Yulu An",
-        "Yifei Feng",
-        "Xiangyang Yin"
+        "Yuanchuan Guo",
+        "Jiashun Jin",
+        "Zheng Tracy Ke",
+        "Bingcheng Sui"
       ],
       "categories": [
-        "cs.CL"
-      ],
-      "whyItMatters": "It reduces delays in agent interactions, improving real‑time performance for AI applications."
-    },
-    {
-      "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
-      "summary": "The paper introduces GBPNet, a neural decoder that improves linear code decoding by preserving message-passing symmetry and enhancing learning.",
-      "link": "http://arxiv.org/abs/2611.06874v1",
-      "published": "2026-11-04T18:29:31Z",
-      "authors": [
-        "Samira Malek"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "It offers higher decoding accuracy for noisy communications, appealing to engineers seeking better error correction with neural methods."
-    },
-    {
-      "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
-      "summary": "The paper tests turn-level best‑of‑N sampling, where a generator produces N action candidates and a selector picks one for LLM agents on long‑horizon tasks.",
-      "link": "http://arxiv.org/abs/2611.06868v1",
-      "published": "2026-11-04T18:23:14Z",
-      "authors": [
-        "Jalaj Bhandari",
-        "Dhawal Gupta",
-        "Hongli Zhan",
-        "Zhenting Wang",
-        "Varad Pimpalkhute",
-        "Zhengzhong Liu",
-        "Eric Xing",
-        "Rupesh Srivastava"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "It offers a lightweight, inference‑time method to improve agent performance without costly training."
-    },
-    {
-      "title": "CounterFactual Retrieval for Evidence-Aware Individual Animal Identification",
-      "summary": "Automated identification of individual animals is moving from small curated studies toward shared benchmarks and reusable foundation models. This progress is useful, but current evaluation leaves the evidence behind a match unresolved, i.e., high retrieval accuracy does not show whether a model used animal features or identity-correlated shortcuts. We address this with Counterfactual Foreground…",
-      "link": "http://arxiv.org/abs/2611.06864v1",
-      "published": "2026-11-04T18:19:26Z",
-      "authors": [
-        "Ankit K. Upadhyay",
-        "Aleksandr Algasov",
-        "Ekaterina Nepovinnykh",
-        "Fedor Zolotarev",
-        "Tuomas Eerola",
-        "Heikki Kälviäinen",
-        "Charles V. Stewart",
-        "Lukas Picek"
-      ],
-      "categories": [
-        "cs.CV",
         "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Balancing hierarchical representation and quantization: A performance trade-off in text embeddings",
-      "summary": "Hierarchical text embedding models offer variable-length representations, while quantization reduces numerical precision; both aim to improve computational efficiency. This work is an empirical benchmark study of how these two orthogonal, already-established techniques interact. We evaluate 38 tasks from the Massive Text Embedding Benchmark (MTEB) using four transformer-based embedding models…",
-      "link": "http://arxiv.org/abs/2611.06859v1",
-      "published": "2026-11-04T18:15:08Z",
-      "authors": [
-        "Kai Ponel",
-        "Marco Polignano",
-        "Erasmo Purificato",
-        "Aylin Julia Temizkan",
-        "Marco Levantesi",
-        "Giovanni Semeraro",
-        "Ernesto William De Luca"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.IR",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "CompressionBench: How can your coding agents compress LLMs?",
-      "summary": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously. We formulate compression as a terminal task in which an agent receives a source…",
-      "link": "http://arxiv.org/abs/2611.06858v1",
-      "published": "2026-11-04T18:14:50Z",
-      "authors": [
-        "Xinrui Zhong",
-        "Zhifeng Li",
-        "Zhiming Wang",
-        "Yongqi Liu",
-        "Shanglin Yang",
-        "Yang Zhou",
-        "Zikun Li",
-        "Zhuoming Chen",
-        "Beidi Chen"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
-      "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90…",
-      "link": "http://arxiv.org/abs/2611.06856v1",
-      "published": "2026-11-04T18:11:56Z",
-      "authors": [
-        "Haoxiang Cao",
-        "Yuxuan Zhang",
-        "Penghui Du",
-        "Bo Li",
-        "Jiajiong Cao",
-        "Yingying Fan",
-        "Zimeng Wu",
-        "Yifu Luo",
-        "Mingzhe Zheng",
-        "Junwen Miao",
-        "Huaisong Zhang",
-        "Yang Yao",
-        "Yu Wang",
-        "Dongfu Jiang",
-        "Ping Nie",
-        "Wenhu Chen",
-        "Chaoqun Wang",
-        "Changqian Yu",
-        "Kelsey R. Allen"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "Visual Token Routing: Learning to keep tokens that matter",
-      "summary": "Computer-use agents (CUAs) have recently achieved superhuman performance on several long-horizon benchmarks. However, their computational cost limits their use in long-horizon tasks and real-time domains such as video games. A key bottleneck is representing each screenshot as thousands of visual tokens, which accumulate into long contexts as agents reason over extended interaction histories. We…",
-      "link": "http://arxiv.org/abs/2611.06854v1",
-      "published": "2026-11-04T18:10:33Z",
-      "authors": [
-        "Pranjal Aggarwal",
-        "Sean Welleck"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Persona Perspectives: Adopting Viewpoints Reorganizes Representations in LLMs",
-      "summary": "Common methods for monitoring features in large language models (LLMs) such as linear probes and sparse autoencoders (SAEs) assume that features maintain a consistent representation across contexts. LLMs, however, can flexibly adopt different perspectives or \"personas\" that suggest different underlying systems of conceptual relations. In this paper, we examine whether prompting an LLM to adopt a…",
-      "link": "http://arxiv.org/abs/2611.06848v1",
-      "published": "2026-11-04T18:05:17Z",
-      "authors": [
-        "Austin C. Kozlowski",
-        "Avital Mintz",
-        "Madison Lee"
-      ],
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "Navigating Disagreement Among Criteria for Evaluating Explanation Faithfulness",
-      "summary": "Faithfulness requires that algorithmic explanations accurately reflect the model's behavior. Yet existing operationalizations of faithfulness can disagree about whether the same explanation is faithful, leaving developers and auditors to choose among conflicting evaluations. In this paper, we investigate disagreement among evaluation criteria and offer a practical path forward for evaluating…",
-      "link": "http://arxiv.org/abs/2611.06846v1",
-      "published": "2026-11-04T18:03:15Z",
-      "authors": [
-        "Grant Shanklin",
-        "Jiří Němeček",
-        "Asia Biega"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CY"
-      ]
-    },
-    {
-      "title": "Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrystalline Materials",
-      "summary": "Grain growth during heat treatment strongly affects the microstructure of polycrystalline materials and, consequently, their mechanical properties. Although numerical methods such as front-tracking or front-capturing simulations can accurately describe grain growth, their high computational cost limits their use for long or non-isothermal thermal cycles. In previous work, grain growth was…",
-      "link": "http://arxiv.org/abs/2611.06843v1",
-      "published": "2026-11-04T17:59:26Z",
-      "authors": [
-        "Eliane Younes",
-        "Elie Hachem",
-        "Marc Bernacki"
-      ],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cs.LG"
+        "stat.AP"
       ]
     }
   ]

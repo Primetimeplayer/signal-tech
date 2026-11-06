@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-30T08:11:25.093Z",
+  "updated": "2026-11-06T11:07:44.253Z",
   "issues": [
+    {
+      "issueNumber": 4,
+      "title": "Google's TPUs leave Google Cloud",
+      "date": "2026-11-06",
+      "url": "https://dailysignaltech.beehiiv.com/p/google-s-tpus-leave-google-cloud",
+      "stories": [
+        {
+          "headline": "Google’s TPUs land on a rival cloud",
+          "whyItMatters": "For the first time, you’ll be able to rent Google’s AI chips on a hyperscale…"
+        },
+        {
+          "headline": "CUDA 13.5 makes Vera Rubin generally available",
+          "whyItMatters": "NVIDIA’s next GPU architecture is now ready for production CUDA apps."
+        },
+        {
+          "headline": "Tool of the week: QuartusIQ",
+          "whyItMatters": "An AI companion inside Altera’s FPGA tools that knows your project and helps…"
+        }
+      ]
+    },
     {
       "issueNumber": 3,
       "title": "GitHub bets big on AI agents",
