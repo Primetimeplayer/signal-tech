@@ -1,7 +1,437 @@
 {
-  "updated": "2026-11-06T11:06:32.120Z",
-  "count": 97,
+  "updated": "2026-11-06T19:30:41.942Z",
+  "count": 98,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "published": "Fri, 06 Nov 2026 18:44:38 +0000",
+      "summary": "Security researchers discovered hundreds of servers exposing the Artex penetration testing tool to the internet, granting public access to a hacking utility.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800",
+      "whyItMatters": "Exposed tools enable widespread, low‑barrier attacks, increasing risk for all online systems."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "published": "Fri, 06 Nov 2026 18:44:20 +0000",
+      "summary": "Meta adds Spaces, a new interface for interacting with Muse AI agents, expanding collaboration features and integrations.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+      "whyItMatters": "It could streamline workflow for users who rely on AI assistants for productivity."
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "link": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+      "published": "Fri, 06 Nov 2026 18:43:43 +0000",
+      "summary": "Chinese AI models DeepSeek and GLM can hack simulated networks nearly as well as OpenAI’s top cyber model.",
+      "image": "https://media.wired.com/photos/6aebae965d3f8b6dd99468be/master/pass/Security_Open-WeightAIModels.gif",
+      "whyItMatters": "Shows rising security risks from open-source AI, urging vigilance in cyber defenses."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "PyTorch 2.15 tackles the 'one bad GPU' problem",
+      "link": "https://www.theregister.com/devops/2026/11/06/pytorch-215-tackles-the-one-bad-gpu-problem/5308227",
+      "published": "Fri, 06 Nov 2026 18:36:42 +0000",
+      "summary": "PyTorch 2.15 introduces improvements that prevent a single GPU failure from crashing large‑scale AI training jobs.",
+      "image": "https://image.theregister.com/?imageId=5308231&width=800",
+      "readMinutes": 3,
+      "whyItMatters": "It boosts training reliability and reduces costly downtime for developers and researchers."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "You know the launch market is tough when satellite companies start building rockets",
+      "link": "https://arstechnica.com/space/2026/11/ast-spacemobile-is-so-desperate-for-launch-theyre-building-their-own-rocket/",
+      "published": "Fri, 06 Nov 2026 18:20:47 +0000",
+      "summary": "The Blacklift rocket is positioned as a launch vehicle that will broaden the company's market reach.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Abel__Jason-1152x648.jpg",
+      "whyItMatters": "Tech-savvy readers should note its potential to unlock new revenue streams in satellite deployment."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "published": "2026-11-06T18:10:10.000Z",
+      "summary": "Meta’s Muse AI introduces 'spaces' to create app-like experiences—shopping hubs, dashboards, games—within the assistant, syncing data from connected apps.",
+      "excerpt": "Meta will now allow you to build customized, app-like experiences within its Muse AI assistant. The new feature, called \"spaces,\" allows Muse to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the app. If you connect your space to a relevant app, Muse will update pricing, dates, and other information in the background. Meta says you…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-muse-spaces.png?quality=90&strip=all&crop=8.0752843063528,0,91.924715693647,74.471659887186",
+      "whyItMatters": "Tech-savvy users can streamline workflows and access tailored tools directly in a single AI interface."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "published": "Fri, 06 Nov 2026 17:43:02 +0000",
+      "summary": "Meta removes requirement that Facebook page owners allow AI training on linked content.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1363244761-1152x648.jpg",
+      "whyItMatters": "Tech-savvy readers see reduced data control for AI models."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Just about anyone can rent access to White House IP addresses",
+      "link": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+      "published": "2026-11-06T17:40:06.000Z",
+      "summary": "White House network may allow paid residential proxy access, exposing presidential IPs to outsiders, per security firms Layer3 Intel and Synthient.",
+      "excerpt": "Someone at the White House appears to be running software that could enable outsiders to rent access on the presidential network for just \"a few dollars,\" as reported by Krebs on Security and The Register. That's according to findings from the security firms Layer3 Intel and Synthient, which discovered residential proxy activity on the White House network. A residential proxy opens up a way for people to rent access…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy readers should worry about national security and potential data breaches from such access."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything",
+      "link": "https://www.pcgamer.com/software/linux/all-that-stands-between-a-hacker-and-admin-privileges-on-some-linux-distros-is-a-257-character-long-string-of-literally-anything/",
+      "published": "Fri, 06 Nov 2026 17:31:29 +0000",
+      "summary": "A Linux privilege‑escalation bug, triggered by a 257‑character string, has been fixed in an available patch.",
+      "image": "https://cdn.mos.cms.futurecdn.net/FzqWo3fsvLDFRpTumixHaY-1920-80.jpg",
+      "readMinutes": 2,
+      "whyItMatters": "Tech users should apply the patch to prevent unauthorized admin access."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The iPhone Duo has more than 100,000 optimized apps, Apple says",
+      "link": "https://www.theverge.com/tech/1028813/apple-iphone-duo-optimized-apps",
+      "published": "2026-11-06T17:24:36.000Z",
+      "summary": "Apple reports over 100,000 apps now optimized for its foldable iPhone Duo, highlighting rapid developer adoption.",
+      "excerpt": "Apple's iPhone Duo has been officially on sale for two weeks, and the company said today that the App Store now has over 100,000 apps that are built for the foldable. \"It's been wonderful to see how quickly developers have embraced iPhone Duo, and we're grateful for their creativity and innovation,\" Susan Prescott, Apple's VP of Worldwide Developer Relations, says in a statement. \"Today there are well over 100,000…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1188.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Shows foldable phones gaining traction, boosting app ecosystem and user experience."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "published": "Fri, 06 Nov 2026 17:23:52 +0000",
+      "summary": "The U.S. midterms saw widespread voter approval of data‑center restrictions, signaling a potential slowdown for the AI industry.",
+      "excerpt": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2236543888.jpg?resize=1200,800",
+      "whyItMatters": "Tech leaders must anticipate stricter regulations that could limit AI infrastructure growth and increase operational costs."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Mac lookalikes multiply as Linux raids Apple's wardrobe",
+      "link": "https://www.theregister.com/os-platforms/2026/11/06/mac-lookalikes-multiply-as-linux-raids-apples-wardrobe/5308070",
+      "published": "Fri, 06 Nov 2026 17:02:00 +0000",
+      "summary": "New and revived Linux desktops aim to emulate macOS aesthetics, but initial tests reveal some design flaws.",
+      "image": "https://image.theregister.com/?imageId=254215&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech enthusiasts may want a mac-like experience on Linux without the cost."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "AI is the new dating dealbreaker",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "published": "2026-11-06T17:00:00.000Z",
+      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge…",
+      "excerpt": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where you can say, 'We'll get along if'',\" she recalls. \"Sometimes people will be like, 'Fuck AI.'\" Usually, the people…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268841_When_it_comes_to_dating_is_AI_the_new_politics__CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Oak Ridge labs gets hybrid quantum-HPC system to test qubit error correction",
+      "link": "https://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
+      "published": "Fri, 06 Nov 2026 17:00:00 +0000",
+      "summary": "Co-design platform for quantum error correction melds IBM quantum kit with AMD CPUs and GPUs",
+      "image": "https://image.theregister.com/?imageId=5308191&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Big Tech lost big in the 2026 election",
+      "link": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "published": "2026-11-06T16:38:02.000Z",
+      "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks…",
+      "excerpt": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David discuss what the 2026 midterms mean for the tech industry going forward. They dig into the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_VST_110626_Site.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "M30’s Sparkling Stars",
+      "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+      "published": "Fri, 06 Nov 2026 16:23:41 +0000",
+      "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other…",
+      "excerpt": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg?w=2048"
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Could potential AI clones of GTA VI force a quicker official port?",
+      "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+      "published": "Fri, 06 Nov 2026 16:19:12 +0000",
+      "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gta6-1152x648.jpg"
+    },
+    {
+      "source": "NASA",
+      "category": "news",
+      "title": "Supercomputing Tech Demo Schedule",
+      "link": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
+      "published": "Fri, 06 Nov 2026 16:03:52 +0000",
+      "summary": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe Templates in…",
+      "excerpt": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe Templates in Fortran 2028Tom Clune11:00 AM Type-safe Templates in Fortran 2028Tom Clune1:00PM Mixing and Matching and Multiple Versions, Oh My!Brad Richardson1:30 PMMixing and Matching and Multiple…",
+      "image": "https://assets.science.nasa.gov/content/dam/science/astro/programs/cosmic-origins/images/misc/NASA-Meatball-Feature5.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+      "link": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+      "published": "Fri, 06 Nov 2026 16:00:00 +0000",
+      "summary": "Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled.",
+      "image": "https://media.wired.com/photos/6aece5b7cb93131011507281/master/pass/Backchannel-11062026_Option2.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "published": "Fri, 06 Nov 2026 15:54:47 +0000",
+      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779"
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "WoW: Forever takes 250,000 GB of memory to run, and I can't even joke about Sam Altman being jealous because that's almost nothing compared to the monolithic demands of AI",
+      "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-takes-250-000-gb-of-memory-to-run-and-i-cant-even-joke-about-sam-altman-being-jealous-because-thats-almost-nothing-compared-to-the-monolithic-demands-of-ai/",
+      "published": "Fri, 06 Nov 2026 15:50:34 +0000",
+      "summary": "That's a lotta gigs.",
+      "image": "https://cdn.mos.cms.futurecdn.net/BTbLNfxrcctnP9Wk6NyQ2Z-1920-80.png",
+      "readMinutes": 2
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "It's a weird time to buy a laptop, but the new MacBook Pro doesn't skimp on quality",
+      "link": "https://arstechnica.com/apple/2026/11/its-a-weird-time-to-buy-a-laptop-but-the-new-macbook-pro-doesnt-skimp-on-quality/",
+      "published": "Fri, 06 Nov 2026 15:28:07 +0000",
+      "summary": "It has the best laptop screen we've used, but there may be reasons to wait.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MacBook-Pro-closed-lid-1152x648.jpg"
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "DoJ's 'Super Intelligence Task Force' up and running",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/06/dojs-super-intelligence-task-force-up-and-running/5308074",
+      "published": "Fri, 06 Nov 2026 15:15:00 +0000",
+      "summary": "Organization responsible for countering anyone who wishes to scupper the US's ambition for AI supremacy",
+      "image": "https://image.theregister.com/?imageId=5308118&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Crowd fave Linux Mint update approaches, fresh from autumn release of Cinnamon desktop",
+      "link": "https://www.theregister.com/os-platforms/2026/11/06/crowd-fave-linux-mint-update-approaches-fresh-from-autumn-release-of-cinnamon-desktop/5307951",
+      "published": "Fri, 06 Nov 2026 14:29:00 +0000",
+      "summary": "Mint 27 to land before Christmas, with stable Wayland display upgrades, as punters try out Cinnamon 6.8",
+      "image": "https://image.theregister.com/?imageId=243195&width=800",
+      "readMinutes": 3
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
+      "link": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
+      "published": "Fri, 06 Nov 2026 14:13:32 +0000",
+      "summary": "Lawmakers want answers about Jensen Huang’s ties to an alleged Chinese intelligence asset.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285710586-1024x648.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "GlobalFoundries VP details FDX Fusion technology, sporting 7nm-class performance without the need for EUV tools — company targets 2030 for high-volume manufacturing, with planar transistors in tow",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
+      "published": "Fri, 06 Nov 2026 14:00:00 +0000",
+      "summary": "GlobalFoundries reveals new details about its FDX Fusion technology, which promises 7nm-class performance and 8nm-class logic density using planar FD-SOI transistors without EUV lithography, shares what is next for FDX Fusion node, and the…",
+      "excerpt": "GlobalFoundries reveals new details about its FDX Fusion technology, which promises 7nm-class performance and 8nm-class logic density using planar FD-SOI transistors without EUV lithography, shares what is next for FDX Fusion node, and the FDX program in general.",
+      "image": "https://cdn.mos.cms.futurecdn.net/D9nDwQshY7nGhWkCejQmk5-1920-80.jpg",
+      "readMinutes": 22
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Protesters storm Microsoft AI data center construction site",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
+      "published": "Fri, 06 Nov 2026 13:59:09 +0000",
+      "summary": "The protesters stormed over the walls and took over the construction site, with the Stop Dirty Data Centers coalition saying that more actions are planned across Europe.",
+      "image": "https://cdn.mos.cms.futurecdn.net/xXzamwF8bgCcyR6kJW47Pb-1920-80.png",
+      "readMinutes": 3
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
+      "link": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+      "published": "Fri, 06 Nov 2026 13:49:33 +0000",
+      "summary": "Nvidia is requiring Southeast Asian cloud providers seeking Nvidia Cloud Partner status to enroll in its Fleet Intelligence tracking program, giving the chipmaker greater visibility into where its AI GPUs are deployed. The move comes as…",
+      "excerpt": "Nvidia is requiring Southeast Asian cloud providers seeking Nvidia Cloud Partner status to enroll in its Fleet Intelligence tracking program, giving the chipmaker greater visibility into where its AI GPUs are deployed. The move comes as Washington increases pressure over suspected chip smuggling into China, with investigations involving Megaspeed International and Super Micro highlighting the challenges of enforcing…",
+      "image": "https://cdn.mos.cms.futurecdn.net/bBGEYE8htq38xZgt4xCdTQ-1920-80.jpg",
+      "readMinutes": 3
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist",
+      "link": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+      "published": "Fri, 06 Nov 2026 13:35:16 +0000",
+      "summary": "The latest incident comes amid growing concerns over GPU theft, with experts warning that advanced Nvidia chips can command significantly higher prices abroad and could end up in black-market channels.",
+      "image": "https://cdn.mos.cms.futurecdn.net/WJysu4KWtLyywCbvdHhuLF-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Rocket Report: Artemis II literally tore through the atmosphere; New Glenn delay",
+      "link": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy/",
+      "published": "Fri, 06 Nov 2026 13:33:20 +0000",
+      "summary": "Interstellar Technologies announces more government funding for the Japanese Zero rocket.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/NHQ202604010115orig-1152x648-1793950034.jpg"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "link": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "published": "Fri, 06 Nov 2026 13:00:00 +0000",
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/physicl-studio-hero-kitchen-16x9-1.jpg?resize=1200,675"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Save 26% on this 142-piece toolkit for your PC repairs and hobbyist projects, now under $28",
+      "link": "https://www.tomshardware.com/desktops/pc-building/save-26-percent-on-this-142-piece-toolkit-for-your-pc-repairs-and-hobbyist-projects-now-under-usd28-precision-screwdriver-kit-includes-120-magnetic-bits-and-20-different-repair-tools-for-your-next-project",
+      "published": "Fri, 06 Nov 2026 13:00:00 +0000",
+      "summary": "This 142-in-1 repair toolkit from Strebito has 120 bits and a number of other tools, and right now it's just $27.99, saving you 26% overall.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Zo53u7UxW9N6oLj6fqyZsN-1920-80.png",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Home Office cloud services contract may net AWS £1B",
+      "link": "https://www.theregister.com/public-sector/2026/11/06/home-office-cloud-services-contract-may-net-aws-1b/5308106",
+      "published": "Fri, 06 Nov 2026 12:47:00 +0000",
+      "summary": "Planning notice puts renewal at nearly twice the 2023 value, just as Whitehall frets about US tech dependence",
+      "image": "https://image.theregister.com/?imageId=252143&width=800",
+      "readMinutes": 2
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
+      "published": "Fri, 06 Nov 2026 12:45:00 +0000",
+      "summary": "Brightspeed has over 130 facilities located across the U.S., with Nvidia estimating that they could produce up to 1GW of compute capacity.",
+      "image": "https://cdn.mos.cms.futurecdn.net/sxvDhNiPDVHWxcdqjWitH4-1920-80.png",
+      "readMinutes": 2
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "published": "Fri, 06 Nov 2026 12:12:12 +0000",
+      "summary": "A University of Chicago lecturer has revealed a rogue Claude AI agent deleted his entire syllabus and year's worth of lecture notes by mistake.",
+      "image": "https://cdn.mos.cms.futurecdn.net/ee2RHsQxMkag3gfYBWeoA5-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
+      "link": "https://www.pcgamer.com/hardware/discord-is-cutting-memory-usage-and-speeding-up-boot-times-joins-xbox-epic-steam-and-more-for-similar-upgrades-just-this-year/",
+      "published": "Fri, 06 Nov 2026 12:06:34 +0000",
+      "summary": "If it's quicker and more efficient, I'm in.",
+      "image": "https://cdn.mos.cms.futurecdn.net/bK4uZhxvRgcb85EAubQrc-1920-80.jpg",
+      "readMinutes": 2
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
+      "link": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes/",
+      "published": "Fri, 06 Nov 2026 12:05:00 +0000",
+      "summary": "With these high-tech automatic litter boxes, gone are the days of scooping and smells. Welcome to the future.",
+      "image": "https://media.wired.com/photos/69d4403d94490f13c636bd21/master/pass/The-Best-Automatic-Litter-Boxes-Tested-by-Our-Spoiled-Cats.jpg"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Tesla unveils AI accelerator roadmap, adopts new 'SI' branding in 'Super Intelligence' push",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
+      "published": "Fri, 06 Nov 2026 12:00:00 +0000",
+      "summary": "Tesla is ramping up its custom silicon ambitions with training-oriented Dojo D3 that can eventually go to orbital data centers and massive SI6 inference accelerator.",
+      "image": "https://cdn.mos.cms.futurecdn.net/c7SXsstwCWqWGyvTD7KQAA-1920-80.jpg",
+      "readMinutes": 6
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Intel’s next-gen Nova Lake needs new motherboards — what we expect from Nova Point and Z990, Z970, and B960 chipsets",
+      "link": "https://www.tomshardware.com/pc-components/chipsets/intels-next-gen-nova-lake-needs-new-motherboards-what-we-expect-from-nova-point-and-z990-z970-and-b960-chipsets",
+      "published": "Fri, 06 Nov 2026 12:00:00 +0000",
+      "summary": "New Intel CPUs mean a new LGA 1954 socket and new motherboards. Here’s what we know about Nova Point’s Z990, Z970, and B960 chipsets, including more PCIe 5.0, Thunderbolt 5, faster base RAM speeds, and active cooling",
+      "image": "https://cdn.mos.cms.futurecdn.net/3JguTaB6k8VyZTixTzb5tE-1920-80.jpg",
+      "readMinutes": 9
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Tesla will stop making the Cybertruck in 2027",
+      "link": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+      "published": "Fri, 06 Nov 2026 11:50:10 +0000",
+      "summary": "Elon Musk said the company will use the factory space to make more Cybercabs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/04/Cybertruck_78-resized.jpeg?resize=1200,800"
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Score a huge $600 saving on this RTX 5070 Ti gaming laptop from HP, now under $2,100",
+      "link": "https://www.tomshardware.com/laptops/gaming-laptops/score-a-huge-usd600-saving-on-this-rtx-5070-ti-gaming-laptop-from-hp-now-under-usd2-100-hyperx-omen-max-16-machine-is-fully-customizable-base-model-ships-with-16gb-ddr5-and-a-512gb-ssd",
+      "published": "Fri, 06 Nov 2026 11:44:37 +0000",
+      "summary": "Save $600 on this customizable RTX 5070 Ti HP Omen Max 16 gaming laptop with 16GB DDR5, 512GB SSD, and a 16-inch display.",
+      "image": "https://cdn.mos.cms.futurecdn.net/9zs7fJHoksphk4fSsZeY9k-1920-80.png",
+      "readMinutes": 3
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
+      "link": "https://www.pcgamer.com/software/zelda-ocarina-of-time-remake-reportedly-running-at-60-fps-on-pc-just-hours-after-games-official-nintendo-switch-2-release/",
+      "published": "Fri, 06 Nov 2026 11:43:06 +0000",
+      "summary": "Visual and performance issues not quite ironed out yet, which will be music to Nintendo's ears.",
+      "image": "https://cdn.mos.cms.futurecdn.net/GJBjS9vsYe7y6P8yspKN8f-1920-80.png",
+      "readMinutes": 2
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Bank of England pours cold water on AI productivity boom",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059",
+      "published": "Fri, 06 Nov 2026 11:43:00 +0000",
+      "summary": "Turns out throwing billions at GPUs doesn't automatically mean everyone gets more done",
+      "image": "https://image.theregister.com/?imageId=1683227&width=800",
+      "readMinutes": 3
+    },
     {
       "source": "The Register",
       "category": "news",
@@ -25,37 +455,15 @@
       "whyItMatters": "It could boost AI performance while saving space and power on accelerators."
     },
     {
-      "source": "Tom's Hardware",
+      "source": "MIT Technology Review",
       "category": "news",
-      "title": "Nintendo’s latest Zelda remake already circulating online as a Switch 2 ROM",
-      "link": "https://www.tomshardware.com/video-games/nintendo/nintendos-latest-zelda-remake-already-circulating-online-as-a-switch-2-rom-openai-assisted-software-jailbreak-new-game-dumper-let-pirates-share-game-for-free-immediately-following-release",
-      "published": "Fri, 06 Nov 2026 11:00:00 +0000",
-      "summary": "The Legend of Zelda: Ocarina of Time has been dumped as a Switch 2 ROM, with both the original and a 23GB update online.",
-      "image": "https://cdn.mos.cms.futurecdn.net/2B4RSXUZkL6YomEuwBv8ec-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "It highlights piracy risks and the need for secure distribution for high-value game releases."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Britain's tech ambitions depend on minerals made in China, MPs warn",
-      "link": "https://www.theregister.com/public-sector/2026/11/06/britains-tech-ambitions-depend-on-minerals-made-in-china-mps-warn/5307779",
-      "published": "Fri, 06 Nov 2026 09:30:00 +0000",
-      "summary": "UK MPs warn that Britain's tech ambitions rely on minerals produced in China, with no viable alternatives within a decade.",
-      "image": "https://image.theregister.com/?imageId=5307805&width=800",
-      "readMinutes": 4,
-      "whyItMatters": "Tech leaders need to know supply chain risks could limit future innovation and national security."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Hospital gave very sick doctor a special PC for his personal, erm, pleasure",
-      "link": "https://www.theregister.com/security/2026/11/06/hospital-gave-very-sick-doctor-a-special-pc-for-his-personal-erm-pleasure/5307750",
-      "published": "Fri, 06 Nov 2026 06:31:00 +0000",
-      "summary": "A hospital provided a sick doctor with a personal PC, raising questions about policy compliance and workplace ethics.",
-      "image": "https://image.theregister.com/?imageId=222391&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech-savvy readers should note potential data security and policy breach risks."
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "published": "Fri, 06 Nov 2026 10:00:00 +0000",
+      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning…",
+      "excerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/TauRobot-3up.jpg?resize=1200,600",
+      "readMinutes": 6
     },
     {
       "source": "TechCrunch",
@@ -68,39 +476,6 @@
       "whyItMatters": "Highlights major security firms investing heavily in AI-driven threat detection."
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "AI agents are a 'bane' for some website operators, says Cloudflare",
-      "link": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
-      "published": "Fri, 06 Nov 2026 04:25:14 +0000",
-      "summary": "Cloudflare CEO claims AI agents harm website operators, citing outdated PHP2SHELL exploits and declaring containers obsolete.",
-      "image": "https://image.theregister.com/?imageId=239494&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "Tech leaders should rethink AI integration and container use for site security."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Threat actor targets Indian fintechs on weekends when defenders aren’t watching",
-      "link": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
-      "published": "Fri, 06 Nov 2026 01:17:40 +0000",
-      "summary": "CERT-IN reports a surge in AI-driven attacks targeting Indian fintechs, especially over weekends when defenses are weaker.",
-      "image": "https://image.theregister.com/?imageId=5308010&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech-savvy readers should monitor weekend security gaps to protect fintech assets."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "OpenAI is stepping back from NDAs for data center projects",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-      "published": "2026-11-06T00:37:56.000Z",
-      "summary": "OpenAI will no longer use NDAs with public officials for its data center projects, following voter opposition to expansion.",
-      "excerpt": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions between developers and local…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It signals greater transparency and community engagement in AI infrastructure development."
-    },
-    {
       "source": "Ars Technica",
       "category": "news",
       "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
@@ -109,28 +484,6 @@
       "summary": "Blue Origin claims to develop a more powerful rocket engine that costs only a quarter of current prices.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/News_BlueOrigin-Northstar-Engine-1152x648.webp",
       "whyItMatters": "Lower launch costs could accelerate space access and reduce barriers for commercial and scientific missions."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Airbnb is working on an AI travel agent",
-      "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-      "published": "2026-11-06T00:06:12.000Z",
-      "summary": "Airbnb will launch an AI travel agent by mid‑2027 to help users plan and book trips on its platform.",
-      "excerpt": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But planning a trip on Airbnb is different.\" The company argued that its experience matching hosts…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/acastro_STK090_06.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It could streamline travel planning and boost Airbnb’s competitive edge in the hospitality tech space."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "T-Mobile owner on Elon Musk launching a wireless carrier: ‘Welcome to the party’",
-      "link": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
-      "published": "2026-11-05T23:17:10.000Z",
-      "summary": "T-Mobile’s parent CEO doubts SpaceX’s Starlink Mobile can become a major US carrier, citing high costs and spectrum gaps.",
-      "excerpt": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim Höttges says he takes the Elon Musk-owned company \"super serious,\" but that it will cost at least $200 billion to pull off: He [Musk] has now bought 76 megahertz of spectrum. By the way, we have 400. So if you now say he can buy…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2259379374.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech readers should watch this rivalry as it could reshape the US wireless market."
     },
     {
       "source": "Ars Technica",
@@ -153,59 +506,6 @@
       "whyItMatters": "It signals NASA’s continued investment in cutting‑edge aviation technology."
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "published": "Thu, 05 Nov 2026 22:40:55 +0000",
-      "summary": "Airbnb will launch an AI travel agent in 2027 to plan trips, compare options, manage bookings, and assist during stays.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/05/Airbnb-Summer-feat.jpg?resize=1200,675",
-      "whyItMatters": "It could streamline travel planning and improve booking efficiency for tech-savvy users."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Feds warn grocers: Don't chill on cyber defenses as freezer hacking spree heats up",
-      "link": "https://www.theregister.com/security/2026/11/05/feds-warn-grocers-dont-chill-on-cyber-defenses-as-freezer-hacking-spree-heats-up/5307978",
-      "published": "Thu, 05 Nov 2026 22:37:06 +0000",
-      "summary": "Federal officials warn grocery stores to strengthen cyber defenses amid rising freezer hacking threats.",
-      "image": "https://image.theregister.com/?imageId=5303687&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "Tech-savvy readers should note growing risks to retail infrastructure."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Xbox enters the 'faster PC launcher' arms race, its app loads faster now too",
-      "link": "https://www.pcgamer.com/software/platforms/xbox-enters-the-faster-pc-launcher-arms-race-its-app-loads-faster-now-too/",
-      "published": "Thu, 05 Nov 2026 22:32:22 +0000",
-      "summary": "Xbox updated its PC app, now loading up to 60% faster with additional improvements.",
-      "image": "https://cdn.mos.cms.futurecdn.net/sJW4PwmHa8qeKCbWo57MJ8-1920-80.png",
-      "readMinutes": 2,
-      "whyItMatters": "Faster launch speeds boost productivity and enhance gaming experience for PC users."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Perplexity launches its own take on AI agents for work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-      "published": "2026-11-05T22:26:50.000Z",
-      "summary": "Perplexity introduces work‑focused AI agents called Teammates that integrate with existing tools and deploy on devices to automate tasks.",
-      "excerpt": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device to complete tasks. But Perplexity says Teammates \"build on…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472503/STK271_PERPLEXITY_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech‑savvy users can boost productivity by embedding AI directly into their workflow."
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "How Elon Musk and Big Tech Poured Millions Into the Midterms, and Lost",
-      "link": "https://www.wired.com/story/uncanny-valley-podcast-how-elon-musk-and-big-tech-poured-millions-into-the-midterms-and-lost/",
-      "published": "Thu, 05 Nov 2026 22:18:42 +0000",
-      "summary": "The article examines how Elon Musk and other tech firms invested heavily in the 2024 midterms, yet the blue wave defeated their influence.",
-      "image": "https://media.wired.com/photos/6ae91976d809b451458cb25a/master/pass/Uncanny-Valley-Midterms-Politics-138711413.jpg",
-      "whyItMatters": "Tech leaders should note that political spending may not sway election outcomes as expected."
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
@@ -213,71 +513,6 @@
       "published": "Thu, 05 Nov 2026 21:45:00 +0000",
       "summary": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than […] The post CesiumAstro Secures $730 Million…",
       "excerpt": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than […] The post CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission appeared first on…"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
-      "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-      "published": "Thu, 05 Nov 2026 21:40:36 +0000",
-      "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
-      "published": "Thu, 05 Nov 2026 21:39:40 +0000",
-      "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2240656304-1024x648.jpg"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
-      "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
-      "published": "Thu, 05 Nov 2026 21:37:18 +0000",
-      "summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.",
-      "image": "https://media.wired.com/photos/6aeccd4b5e88c9a490858b81/master/pass/Model-Behavior-11052026-option2.jpg"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Serve Robotics launches new business to become the AWS for robots",
-      "link": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
-      "published": "Thu, 05 Nov 2026 21:15:00 +0000",
-      "summary": "Serve Robotics announced alonsgside its third-quarter earnings that it will launch a new business line called Physical AI Services to offer customers its connectivity and data tools.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/08/Serve_robot_05.jpg?resize=1200,800"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Grab a Nintendo Switch 2 controller upgrade from $49, just in time for Zelda: Ocarina of Time's remaster",
-      "link": "https://www.tomshardware.com/video-games/handheld-gaming/grab-a-nintendo-switch-2-controller-upgrade-from-usd49-just-in-time-for-zelda-ocarina-of-times-remaster-secure-the-tools-to-defeat-ganondorf-with-these-top-wireless-gamepads-from-8bitdo-gamesir-and-others",
-      "published": "Thu, 05 Nov 2026 21:00:00 +0000",
-      "summary": "A selection of the best Switch 2 controllers for getting your best Zelda game on.",
-      "image": "https://cdn.mos.cms.futurecdn.net/3NJwsDb2ZHUq86gkXxgZs8-1920-80.png",
-      "readMinutes": 2
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Blue Origin’s next launch now won’t happen until 2027",
-      "link": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
-      "published": "2026-11-05T20:47:14.000Z",
-      "summary": "Blue Origin CEO reportedly sent a memo to staff about the new timeline. | Anadolu via Getty Images Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from…",
-      "excerpt": "Blue Origin CEO reportedly sent a memo to staff about the new timeline. | Anadolu via Getty Images Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from CEO Dave Limp sent to staff. The new timeline follows a May launchpad explosion that damaged Blue Origin's New Glenn launchpad ahead of a flight that would have brought Amazon Leo…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2281421326.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "BMW bumps battery for the better: The 2027 i7 60 xDrive, driven",
-      "link": "https://arstechnica.com/cars/2026/11/bmw-bumps-battery-for-the-better-the-2027-i7-60-xdrive-driven/",
-      "published": "Thu, 05 Nov 2026 20:45:50 +0000",
-      "summary": "BMW has updated its flagship sedan with the newest EV and infotainment tech.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/BMW_i7_60_xD_Vancouver-Green_023-1152x648.jpg"
     },
     {
       "source": "GitHub Blog",
@@ -288,55 +523,6 @@
       "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/11/customer-growth.png?resize=1024%2C483",
       "readMinutes": 14
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Software squeezes more data out of Webb Telescope for imaging exoplanets",
-      "link": "https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/",
-      "published": "Thu, 05 Nov 2026 19:59:22 +0000",
-      "summary": "Software optimizes a physical model of the telescope to reduce noise.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-1152x648.png"
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Meta says US users can now video chat with their Muse AI avatar",
-      "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-      "published": "Thu, 05 Nov 2026 19:48:28 +0000",
-      "summary": "Meta’s Muse AI can now video‑chat as a customizable animated avatar, preceding a Tamagotchi‑style wearable launch.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
-      "whyItMatters": "Tech readers should note this expands AI avatar interactivity, hinting at new AR/VR social experiences."
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Nvidia, Micron, and other AI stocks take a dive after elections",
-      "link": "https://www.pcgamer.com/software/ai/nvidia-micron-and-other-ai-stocks-take-a-dive-after-elections/",
-      "published": "Thu, 05 Nov 2026 19:32:47 +0000",
-      "summary": "AI stocks like Nvidia and Micron are falling after the elections, signaling a market correction in the AI sector.",
-      "image": "https://cdn.mos.cms.futurecdn.net/8N9tGF8SW8x4iuVV9hNLRR-1920-80.jpg",
-      "whyItMatters": "Tech investors should watch for potential buying opportunities amid the downturn."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-      "published": "Thu, 05 Nov 2026 19:12:39 +0000",
-      "summary": "Meta cautions that rising political opposition to data centers may hinder future AI expansion due to community pushback on large infrastructure projects.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/data-center-2.jpg?resize=1200,899",
-      "whyItMatters": "Tech leaders must anticipate regulatory and public resistance that could slow AI deployment."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "published": "Thu, 05 Nov 2026 19:06:12 +0000",
-      "summary": "OpenAI unveiled a new cybersecurity model amid growing scrutiny of AI labs protecting digital infrastructure.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/08/openai-daybreak.jpg?resize=1200,798",
-      "whyItMatters": "Tech readers should watch how AI tools evolve to defend against cyber threats."
     },
     {
       "source": "IEEE Spectrum",
@@ -351,78 +537,6 @@
       "whyItMatters": "It equips educators to integrate cutting‑edge tech into curricula, boosting student readiness for STEM careers."
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "EA's releasing a truckload of classic games on Steam, and 7 of them are remasters",
-      "link": "https://www.pcgamer.com/games/eas-releasing-a-truckload-of-classic-games-on-steam-and-7-of-them-are-remasters/",
-      "published": "Thu, 05 Nov 2026 18:30:00 +0000",
-      "summary": "EA is launching a collection of classic titles on Steam, including seven remastered games that will also appear on GOG.",
-      "image": "https://cdn.mos.cms.futurecdn.net/CXVER5uoyDmDA9NqhfxMtZ-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Tech-savvy readers may want to know about new access to nostalgic titles and platform availability."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Get root on a musl Linux system by slamming it with an overly long password",
-      "link": "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910",
-      "published": "Thu, 05 Nov 2026 18:29:00 +0000",
-      "summary": "An old OpenSSH flaw that allowed root access via overly long passwords has been patched.",
-      "image": "https://image.theregister.com/?imageId=258580&width=800",
-      "readMinutes": 3,
-      "whyItMatters": "Tech readers should know the fix protects against privilege escalation on Linux."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Combined OpenSSH and musl-libc flaws let anyone into Alpine Linux and other distros by typing anything over 256 characters as a password",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/combined-flaws-let-anyone-into-alpine-linux-and-other-distros-by-typing-anything-over-256-characters-as-a-password-emergency-fixes-for-openssh-and-musl-libc-issued-for-millions-of-systems-patch-immediately",
-      "published": "Thu, 05 Nov 2026 18:14:56 +0000",
-      "summary": "A combination of OpenSSH and musl-libc bugs allows attackers to log into Alpine Linux and similar systems by using passwords longer than 256 characters.",
-      "image": "https://cdn.mos.cms.futurecdn.net/BptY8MpPGXGUqczAtupMHF-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "It exposes a critical authentication bypass that could compromise many lightweight Linux distributions."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "published": "Thu, 05 Nov 2026 18:02:27 +0000",
-      "summary": "OpenAI president Greg Brockman says the company could be IPO ready by 2027, citing accelerating enterprise revenue and a business turnaround.",
-      "image": "https://techcrunch.com/wp-content/uploads/2019/10/Greg-Brockman-OpenAIDSC02862.jpg?resize=1200,800",
-      "whyItMatters": "Tech readers should watch for OpenAI’s potential public listing and its impact on AI market dynamics."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "The ex-Secret Service agent who flipped a hacker is now raising a second $250M cybersecurity fund",
-      "link": "https://techcrunch.com/2026/11/05/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
-      "published": "Thu, 05 Nov 2026 18:00:00 +0000",
-      "summary": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Stephen_Ward_horiztonal.jpeg?resize=1200,1077"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "India targets creating homegrown GPUs within 2 years and plans to commercialize indigenous SHAKTI and VEGA processors",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry",
-      "published": "Thu, 05 Nov 2026 18:00:00 +0000",
-      "summary": "MeitY Secretary S. Krishnan says India plans to develop its own GPU under Semiconductor Mission 2.0, with a target of approximately two years. The country is also looking to commercialize its SHAKTI and VEGA RISC-V processors, expand…",
-      "excerpt": "MeitY Secretary S. Krishnan says India plans to develop its own GPU under Semiconductor Mission 2.0, with a target of approximately two years. The country is also looking to commercialize its SHAKTI and VEGA RISC-V processors, expand domestic server production, and attract more semiconductor investment. Krishnan sees the AI boom as a potential repeat of the Y2K-era opportunity that helped India's IT services…",
-      "image": "https://cdn.mos.cms.futurecdn.net/EN5Ypr5L9wXQ4gEa4VKpKJ-1920-80.jpg",
-      "readMinutes": 3
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Gamers go to ridiculous lengths to \"improve\" GTA VI with Nvidia's DLSS 5",
-      "link": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
-      "published": "Thu, 05 Nov 2026 17:40:27 +0000",
-      "summary": "Using a capture card and open source software to run PS5 video through a PC GPU.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gta6dlss-1152x648.png"
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
@@ -430,26 +544,6 @@
       "published": "Thu, 05 Nov 2026 17:05:59 +0000",
       "summary": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post Cork Takes the Heat…",
       "excerpt": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post Cork Takes the Heat So DRACO’s Data Can Survive appeared first on SpaceNews."
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Chinese AI lab Moonshot reportedly looked at European data centers to access Nvidia chips, report claims",
-      "link": "https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters",
-      "published": "Thu, 05 Nov 2026 16:48:30 +0000",
-      "summary": "The lab is reportedly interested in renting at least 8,000 Nvidia Blackwell GPUs.",
-      "image": "https://cdn.mos.cms.futurecdn.net/fmbubhzMvhqdXsuXX8CbYA-1920-80.png",
-      "readMinutes": 2
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Nintendo Switch 2 sales dropped by 41% from last year due to console's price increase",
-      "link": "https://www.tomshardware.com/video-games/nintendo/nintendo-switch-2-sales-dropped-by-41-percent-from-last-year-due-to-consoles-price-increase-pressure-to-release-more-big-games-to-make-up-for-shortfall",
-      "published": "Thu, 05 Nov 2026 16:27:28 +0000",
-      "summary": "Nintendo's Switch 2 sales decreased by 41% compared to the same time frame last year due to an increase in the console's price. Investors are pressuring Nintendo to release more big games to attract more Switch 2 buyers.",
-      "image": "https://cdn.mos.cms.futurecdn.net/sNP6WfnjWQHABKfn5DkdAG-1920-80.png",
-      "readMinutes": 2
     },
     {
       "source": "IEEE Spectrum",
@@ -474,16 +568,6 @@
       "readMinutes": 4
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "45% of PC Gamer readers cleaned out their rig in the last six months and now I feel like a right grubchild for not remembering the last time I dusted mine",
-      "link": "https://www.pcgamer.com/hardware/45-percent-of-pc-gamer-readers-cleaned-out-their-rig-in-the-last-six-months-and-now-i-feel-like-a-right-grubchild-for-not-remembering-the-last-time-i-dusted-mine/",
-      "published": "Thu, 05 Nov 2026 15:33:41 +0000",
-      "summary": "My, what a wholesome bunch you are.",
-      "image": "https://cdn.mos.cms.futurecdn.net/dYjhk7Px7Vfg5DJ9WppP2T-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "NASA Astronauts to Answer Questions from Florida Students",
@@ -494,16 +578,6 @@
       "image": "https://www.nasa.gov/wp-content/uploads/2026/11/freedom-crossing-downlink-nov-5.jpg?w=1920"
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Intel leaker claims Nova Lake desktop chips have 5.1 GHz clock limit beyond 90°C",
-      "link": "https://www.tomshardware.com/pc-components/cpus/intel-leaker-claims-nova-lake-desktop-chips-have-5-1-ghz-clock-limit-beyond-90-c-high-clock-speeds-could-demand-significant-cooling-for-next-gen-chips",
-      "published": "Thu, 05 Nov 2026 14:57:51 +0000",
-      "summary": "A known Intel leaker claims that Intel's next-generation processors will top out at 5.1 GHz if the CPU core temperatures aren't kept below 90°C.",
-      "image": "https://cdn.mos.cms.futurecdn.net/B4avSRi36yewaj7Wyj3k5Q-1920-80.jpg",
-      "readMinutes": 4
-    },
-    {
       "source": "SpaceNews",
       "category": "news",
       "title": "Building a ‘highway to the moon and back’ with Winnie Lai",
@@ -512,35 +586,6 @@
       "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on […] The post Building a ‘highway to the moon…",
       "excerpt": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on […] The post Building a ‘highway to the moon and back’ with Winnie Lai appeared first on SpaceNews.",
       "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/space-minds-podcast-auriga-2000-1500.jpg?fit=1024%2C768&ssl=1"
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
-      "link": "https://www.wired.com/story/aina-smart-ring/",
-      "published": "Thu, 05 Nov 2026 14:00:00 +0000",
-      "summary": "The startup Aina bets you won’t need to rely on your phone to control virtual assistants. It’s making a smart ring that lets you control the actions of your autonomous agents with one tap.",
-      "image": "https://media.wired.com/photos/6aea53001ffd9173e25bd6c5/master/pass/Aina%20Ring%20colors%20standing.jpeg"
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Apple MacBook Pro (14-inch, M6) review: Speedy M6 chip slips into comfortable shoes",
-      "link": "https://www.tomshardware.com/laptops/macbooks/apple-macbook-pro-14-inch-m6-review",
-      "published": "Thu, 05 Nov 2026 14:00:00 +0000",
-      "summary": "Apple’s brings its powerful M6 chip and N1 Wi-Fi 7 chip to the MacBook Pro.",
-      "image": "https://cdn.mos.cms.futurecdn.net/XboBy8yJ9eRv85BbDErmUM-1920-80.jpg",
-      "readMinutes": 12
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Apple MacBook Pro with PROLED XDR Display review: The screen that every Mac deserves",
-      "link": "https://www.tomshardware.com/laptops/macbooks/apple-macbook-pro-with-proled-xdr-display-review",
-      "published": "Thu, 05 Nov 2026 14:00:00 +0000",
-      "summary": "Apple's MacBook Pro with PROLED Display has lots of small tweaks that make it a major upgrade, including a lighter weight and touch functionality, but it's exceptionally expensive and out of reach for many.",
-      "image": "https://cdn.mos.cms.futurecdn.net/LbMhawpHCpsfZcmbETFvA4-1920-80.jpg",
-      "readMinutes": 19
     },
     {
       "source": "MIT Technology Review",
@@ -565,17 +610,6 @@
       "readMinutes": 2
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
-      "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
-      "published": "Wed, 04 Nov 2026 21:04:10 +0000",
-      "summary": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously announced acceleration…",
-      "excerpt": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously announced acceleration plans for the Artemis program, advancing toward the agency’s Artemis III test flight in 2027 and Artemis IV Moon […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
-      "readMinutes": 4
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
@@ -585,16 +619,6 @@
       "excerpt": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600",
       "readMinutes": 3
-    },
-    {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
-      "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
-      "published": "Wed, 04 Nov 2026 18:00:02 +0000",
-      "summary": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring…",
-      "excerpt": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and integration […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg?w=1920"
     },
     {
       "source": "MIT Technology Review",
@@ -679,17 +703,6 @@
       "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are…",
       "excerpt": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/cake.jpg?resize=1200,600",
-      "readMinutes": 5
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-      "link": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-      "published": "Tue, 03 Nov 2026 04:18:47 +0000",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive…",
-      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/superai-trump.jpg?resize=1200,600",
       "readMinutes": 5
     },
     {
@@ -796,7 +809,6 @@
       "link": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
       "published": "Wed, 28 Oct 2026 16:09:28 +0000",
       "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png",
       "readMinutes": 5
     },
     {
@@ -808,7 +820,7 @@
       "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The…",
       "excerpt": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogVisual_1.jpg?resize=1024%2C576",
-      "readMinutes": 20
+      "readMinutes": 21
     },
     {
       "source": "SpaceNews",
@@ -849,17 +861,6 @@
       "excerpt": "This article is brought to you by VicOne. A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of those inputs is wrong, and the robot still responds exactly as…",
       "image": "https://spectrum.ieee.org/media-library/humanoid-robot-and-robot-dog-meet-a-woman-on-a-sunny-terrace-at-sunset.jpg?id=68002098&width=980",
       "readMinutes": 5
-    },
-    {
-      "source": "IEEE Spectrum",
-      "category": "news",
-      "title": "I Used AI to Fake a Scientific Paper. Here’s What Happened",
-      "link": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-      "published": "Tue, 27 Oct 2026 13:00:03 +0000",
-      "summary": "Science has a spam problem. And the spam filter is getting clogged up. According to all reports, academic publishing is drowning in what has come to be called AI slop: low-quality, mass-produced content generated with AI. By 2025, an…",
-      "excerpt": "Science has a spam problem. And the spam filter is getting clogged up. According to all reports, academic publishing is drowning in what has come to be called AI slop: low-quality, mass-produced content generated with AI. By 2025, an estimated 57 percent of all published academic articles exhibited detectable evidence of large language model (LLM) influence, a massive jump from 12 percent in 2023. What’s more, over…",
-      "image": "https://spectrum.ieee.org/media-library/man-in-glasses-at-night-his-face-reflected-in-a-window-beside-him.jpg?id=68515605&width=980",
-      "readMinutes": 16
     },
     {
       "source": "SpaceNews",
