@@ -1,7 +1,28 @@
 {
-  "updated": "2026-11-07T00:58:32.442Z",
-  "count": 94,
+  "updated": "2026-11-07T10:25:05.032Z",
+  "count": 92,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "link": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "published": "Sat, 07 Nov 2026 04:16:43 +0000",
+      "summary": "Big Tech shifts from White House allies to courting Democrats amid upcoming state and market scrutiny.",
+      "excerpt": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/SHAWN-THEW-Contributor-Getty.jpg?w=1024",
+      "whyItMatters": "Tech leaders must navigate political shifts that could reshape regulation and public perception."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "published": "Sat, 07 Nov 2026 01:40:28 +0000",
+      "summary": "Crusoe sold its struggling Wyoming AI data center project to Google, underscoring the difficulties of building large-scale AI infrastructure.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/crusoe-ceo-getty.jpg?resize=1200,800",
+      "whyItMatters": "Shows how even major firms face hurdles in expanding AI data center capacity."
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -367,15 +388,6 @@
       "readMinutes": 4
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Physicl raises $10M to make the digital world real enough for robots",
-      "link": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
-      "published": "Fri, 06 Nov 2026 13:00:00 +0000",
-      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/physicl-studio-hero-kitchen-16x9-1.jpg?resize=1200,675"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Save 26% on this 142-piece toolkit for your PC repairs and hobbyist projects, now under $28",
@@ -445,15 +457,6 @@
       "readMinutes": 9
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Tesla will stop making the Cybertruck in 2027",
-      "link": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
-      "published": "Fri, 06 Nov 2026 11:50:10 +0000",
-      "summary": "The decision to wind down the EV comes after just a few short years of underwhelming sales. Elon Musk said the company will use the factory space to make more Cybercabs.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/04/Cybertruck_78-resized.jpeg?resize=1200,800"
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "Score a huge $600 saving on this RTX 5070 Ti gaming laptop from HP, now under $2,100",
@@ -464,25 +467,14 @@
       "readMinutes": 3
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Bank of England pours cold water on AI productivity boom",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059",
-      "published": "Fri, 06 Nov 2026 11:43:00 +0000",
-      "summary": "Turns out throwing billions at GPUs doesn't automatically mean everyone gets more done",
-      "image": "https://image.theregister.com/?imageId=1683227&width=800",
-      "readMinutes": 3
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "Gelsinger-backed Nagare Labs’ Z2RAM promises SRAM speed at DRAM density",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
+      "title": "Nintendo’s latest Zelda remake already circulating online as a Switch 2 ROM",
+      "link": "https://www.tomshardware.com/video-games/nintendo/nintendos-latest-zelda-remake-already-circulating-online-as-a-switch-2-rom-openai-assisted-software-jailbreak-new-game-dumper-let-pirates-share-game-for-free-immediately-following-release",
       "published": "Fri, 06 Nov 2026 11:00:00 +0000",
-      "summary": "Nagare Labs introduces Z2RAM, a capacitorless memory offering SRAM speed with DRAM density for AI accelerator stacks.",
-      "image": "https://cdn.mos.cms.futurecdn.net/wBsiTVdEXUvLhGduqG9Q2d-1920-80.jpg",
-      "readMinutes": 6,
-      "whyItMatters": "It could boost AI performance while saving space and power on accelerators."
+      "summary": "The Legend of Zelda: Ocarina of Time has reportedly been dumped on its Switch 2 launch day, with its original release and a 23GB update already circulating online.",
+      "image": "https://cdn.mos.cms.futurecdn.net/2B4RSXUZkL6YomEuwBv8ec-1920-80.jpg",
+      "readMinutes": 2
     },
     {
       "source": "MIT Technology Review",
@@ -589,17 +581,6 @@
       "readMinutes": 4
     },
     {
-      "source": "NASA",
-      "category": "news",
-      "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
-      "link": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
-      "published": "Thu, 05 Nov 2026 01:43:21 +0000",
-      "summary": "On Wednesday, NASA unveiled its newest experimental aircraft, the X-70 Fractal, during the UP.Summit at the agency’s Kennedy Space Center in Florida. This high-performance, highly adaptable research platform is designed to accelerate the…",
-      "excerpt": "On Wednesday, NASA unveiled its newest experimental aircraft, the X-70 Fractal, during the UP.Summit at the agency’s Kennedy Space Center in Florida. This high-performance, highly adaptable research platform is designed to accelerate the development and testing of advanced aviation technologies. The crewed X-70 features advanced, rapidly reconfigurable flight-control technology that will allow NASA to explore […]",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/nasa-x-70-image.png?w=1672",
-      "readMinutes": 2
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
@@ -660,7 +641,6 @@
       "link": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
       "published": "Tue, 03 Nov 2026 16:00:00 +0000",
       "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720",
       "readMinutes": 4
     },
     {
@@ -714,7 +694,6 @@
       "published": "Sun, 01 Nov 2026 21:36:00 +0000",
       "summary": "GitHub’s 14th annual Game Off invites developers to create a game themed SHIFT, encouraging creative changes in perspective and mechanics.",
       "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
-      "image": "https://github.blog/wp-content/uploads/2026/10/og-image.png",
       "readMinutes": 6,
       "whyItMatters": "It offers a platform for showcasing innovative game design and community collaboration."
     },
