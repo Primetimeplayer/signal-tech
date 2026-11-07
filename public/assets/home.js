@@ -1784,6 +1784,7 @@ initAuth();
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
+          ${item.score ? `<div class="score-badge" style="display:inline-block;margin:4px 0;padding:2px 6px;background:#eef;border-radius:4px;font-size:0.75rem;color:#336;">Score ${item.score}</div>` : ''}
           ${relatedLinks(item)}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
@@ -1801,6 +1802,7 @@ initAuth();
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${item.summary ? `<p>${textHtml(item.summary)}</p>` : ''}
+          ${item.score ? `<div class="score-badge" style="display:inline-block;margin:4px 0;padding:2px 6px;background:#eef;border-radius:4px;font-size:0.75rem;color:#336;">Score ${item.score}</div>` : ''}
           ${relatedLinks(item)}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
@@ -1943,7 +1945,24 @@ initAuth();
     setTimeout(run, 1600);
   }
 
+
+  function renderRiver() {
+    const riverEl = document.getElementById('river');
+    if (!riverEl) return;
+    const riverItems = allItems
+      .filter(i => (i.score || 0) < 85)
+      .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
+      .slice(0, 12);
+    if (!riverItems.length) { riverEl.innerHTML = ''; return; }
+    riverEl.innerHTML = `<h3 style="margin:16px 0 8px;font-size:1rem;">River</h3>` +
+      riverItems.map(item => `
+        <div class="river-item" style="padding:6px 0;border-bottom:1px solid #eee;font-size:0.9rem;">
+          <a href="${escapeAttr(item.link)}" target="_blank">${escapeHtml(item.title)}</a>
+          <span style="color:#888;margin-left:6px;">${escapeHtml(item.source || '')}</span>
+        </div>`).join('');
+  }
   function renderAll() {
+    renderRiver();
     renderLatest();
     render();
   }

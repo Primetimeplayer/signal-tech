@@ -15,6 +15,7 @@ import { isPromo } from './lib/promo-filter.js';
 import { readMinutes } from './lib/read-time.js';
 import { scoreItem } from './lib/score.js';
 import { clusterItems } from './lib/cluster.js';
+import { applyEditorial } from './lib/editorial.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'news.json');
@@ -221,8 +222,12 @@ export async function runNewsFetcher({
     item.score = scoreItem(item);
   });
   const clustered = clusterItems(items);
-  // Use clustered primaries as the main list (related attached)
-  items = clustered;
+  // Phase 4: apply editorial overrides if present
+  let editorial = {};
+  try {
+    editorial = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'editorial.json'), 'utf-8'));
+  } catch {}
+  items = applyEditorial(clustered, editorial);
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(
