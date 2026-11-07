@@ -9155,3 +9155,5 @@ main .grid,
   text-decoration: none;
 }
 .related-links a:hover { text-decoration: underline; }
+
+.cluster-count { color: var(--text-muted, #888); font-size: 0.78rem; }

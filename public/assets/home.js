@@ -1739,7 +1739,8 @@ initAuth();
       const links = item.related.slice(0, 3).map(r =>
         `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.source)}</a>`
       ).join(' · ');
-      return `<div class="related-links"><span>More:</span> ${links}</div>`;
+      const extra = item.clusterSize > 4 ? ` <span class="cluster-count">+${item.clusterSize - 1} more</span>` : '';
+      return `<div class="related-links"><span>More:</span> ${links}${extra}</div>`;
     }
 
     const storyFields = (item) => {
