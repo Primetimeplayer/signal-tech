@@ -1,4 +1,5 @@
 
+  // cache-bust 2026-11-07T14:15
   const feedEl = document.getElementById('feed');
   const newsletterCardEl = document.getElementById('newsletterCard');
   let statusClock = '';
