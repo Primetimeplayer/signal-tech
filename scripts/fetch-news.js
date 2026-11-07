@@ -52,6 +52,13 @@ const FEEDS = [
   { name: 'SpaceNews', category: 'news', url: 'https://spacenews.com/feed/' },
   { name: 'IEEE Spectrum', category: 'news', url: 'https://spectrum.ieee.org/feeds/feed.rss' },
   { name: 'PC Gamer', category: 'news', url: 'https://www.pcgamer.com/feeds.xml' },
+  // Expanded high-signal sources
+  { name: 'SemiAnalysis', category: 'news', url: 'https://semianalysis.com/feed/' },
+  { name: 'SemiEngineering', category: 'news', url: 'https://semiengineering.com/feed/' },
+  { name: 'OpenAI Blog', category: 'news', url: 'https://openai.com/blog/rss.xml' },
+  { name: 'Anthropic', category: 'news', url: 'https://www.anthropic.com/news/rss.xml' },
+  { name: 'NVIDIA Blog', category: 'news', url: 'https://blogs.nvidia.com/feed/' },
+  { name: 'The Information', category: 'news', url: 'https://www.theinformation.com/feed' },
 ];
 
 export function buildNewsFeeds(region, language, baseFeeds = FEEDS) {
