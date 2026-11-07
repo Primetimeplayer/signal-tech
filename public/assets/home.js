@@ -743,13 +743,16 @@ initAuth();
   // picture. Nothing is removed. Latest, the hero, and the grid read this
   // order so image-less Google News items do not fill those slots.
   function withImageFirst(items) {
-    const pictured = [];
-    const textOnly = [];
-    (items || []).forEach((item) => {
-      if (storyImageUrl(item)) pictured.push(item);
-      else textOnly.push(item);
+    // Phase 3: keep high-score items near the top even without images
+    return (items || []).slice().sort((a, b) => {
+      const sa = Number(a.score) || 0;
+      const sb = Number(b.score) || 0;
+      if (sb !== sa) return sb - sa;
+      const hasA = !!storyImageUrl(a);
+      const hasB = !!storyImageUrl(b);
+      if (hasA !== hasB) return hasB ? 1 : -1;
+      return 0;
     });
-    return pictured.concat(textOnly);
   }
 
   function storyCategory(item) {
@@ -1743,7 +1746,7 @@ initAuth();
         `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.source)}</a>`
       ).join(' · ');
       const extra = item.clusterSize > 4 ? ` <span class="cluster-count">+${item.clusterSize - 1} more</span>` : '';
-      return `<div class="related-links"><span>More:</span> ${links}${extra}</div>`;
+      return `<div class="related-links" style="margin-top:6px;font-size:0.82rem;color:#555;"><span style="font-weight:600;">More:</span> ${links}${extra}</div>`;
     }
 
     const storyFields = (item) => {
