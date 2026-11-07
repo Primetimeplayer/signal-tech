@@ -1,6 +1,8 @@
 
   // cache-bust 2026-11-07T14:15
   const feedEl = document.getElementById('feed');
+  // Phase 3 debug
+  console.log('Phase3 static force active');
   const newsletterCardEl = document.getElementById('newsletterCard');
   let statusClock = '';
   function t(key, vars) {
