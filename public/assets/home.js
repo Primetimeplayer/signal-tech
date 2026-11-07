@@ -1947,8 +1947,15 @@ initAuth();
 
 
   function renderRiver() {
-    const riverEl = document.getElementById('river');
-    if (!riverEl) return;
+    let riverEl = document.getElementById('river');
+    if (!riverEl) {
+      riverEl = document.createElement('div');
+      riverEl.id = 'river';
+      riverEl.style.marginTop = '24px';
+      const feed = document.getElementById('feed');
+      if (feed && feed.parentNode) feed.parentNode.insertBefore(riverEl, feed.nextSibling);
+      else document.body.appendChild(riverEl);
+    }
     const riverItems = allItems
       .filter(i => (i.score || 0) < 85)
       .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
