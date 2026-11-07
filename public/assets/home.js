@@ -1743,10 +1743,10 @@ initAuth();
     function relatedLinks(item) {
       if (!item.related || !item.related.length) return '';
       const links = item.related.slice(0, 3).map(r =>
-        `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.source)}</a>`
+        `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;">${escapeHtml(r.source)}</a>`
       ).join(' · ');
-      const extra = item.clusterSize > 4 ? ` <span class="cluster-count">+${item.clusterSize - 1} more</span>` : '';
-      return `<div class="related-links" style="margin-top:6px;font-size:0.82rem;color:#555;"><span style="font-weight:600;">More:</span> ${links}${extra}</div>`;
+      const extra = (item.clusterSize || item.related.length + 1) > 4 ? ` <span style="color:#888;">+${(item.clusterSize || item.related.length + 1) - 1} more</span>` : '';
+      return `<div class="related-links" style="margin-top:8px;font-size:0.85rem;"><strong>More:</strong> ${links}${extra}</div>`;
     }
 
     const storyFields = (item) => {
