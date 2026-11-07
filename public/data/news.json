@@ -1,32 +1,48 @@
 {
-  "updated": "2026-11-07T13:53:07.526Z",
-  "count": 123,
+  "updated": "2026-11-07T14:06:12.043Z",
+  "count": 125,
   "items": [
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "Nvidia's Jensen Huang officially called to Congress due to reports of a Chinese spy plot",
-      "link": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
-      "published": "Sat, 07 Nov 2026 13:30:00 +0000",
-      "summary": "Nvidia CEO Jensen Huang was summoned to testify before Congress amid allegations of a Chinese espionage plot targeting the company.",
-      "image": "https://cdn.mos.cms.futurecdn.net/umLVLKxLCxcj2CWHug2Wb8-1920-80.jpg",
-      "readMinutes": 3,
-      "whyItMatters": "It signals heightened scrutiny of AI supply chains and national security risks in the tech sector.",
+      "title": "TeamGroup GA Pro 2TB SSD Review: A faltering attempt at a mid-range PCIe 5.0 SSD",
+      "link": "https://www.tomshardware.com/pc-components/ssds/teamgroup-ga-pro-2tb-ssd-review",
+      "published": "Sat, 07 Nov 2026 14:00:00 +0000",
+      "summary": "The TeamGroup GA Pro 2TB PCIe 5.0 SSD underperforms, with weak overall speed, low efficiency, and high temperatures despite decent QD8 and steady writes.",
+      "image": "https://cdn.mos.cms.futurecdn.net/4uccTHKwWnDD6go5YwpkAk-1920-80.jpg",
+      "readMinutes": 16,
+      "score": 86,
+      "isPrimary": true,
+      "clusterId": "https://www.tomshardware.com/pc-components/ssds/teamgroup-ga-pro-2tb-ssd-review",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech users seeking reliable mid‑range PCIe 5.0 storage should avoid this model due to its subpar performance and heat issues."
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "Jensen Huang Asked to Brief Congress Over Alleged Chinese Spy Plot",
+      "link": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
+      "published": "2026-11-06T06:20:16.000Z",
+      "summary": "Nvidia CEO Jensen Huang is summoned by Congress to discuss alleged ties to a Chinese spy, Alice Huang, amid national security concerns.",
+      "excerpt": "Leaders of three U.S. House committees have summoned Nvidia CEO Jensen Huang to a closed-door briefing later this month over his ties to Alice Huang, a tech executive reportedly identified as a Chinese spy. The New York Times reported last month that U.S. officials had found the Nvidia CEO had a ...",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
+      "clusterId": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
+      "clusterSize": 3,
       "related": [
         {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
-          "title": "Jensen Huang Asked to Brief Congress Over Alleged Chinese Spy Plot"
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
+          "title": "Nvidia's Jensen Huang officially called to Congress due to reports of a Chinese spy plot"
         },
         {
           "source": "The Verge",
           "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
           "title": "China reportedly recruited AI exec to spy on Jensen Huang"
         }
-      ]
+      ],
+      "whyItMatters": "Tech leaders must monitor potential espionage risks that could compromise AI innovation and U.S. data security."
     },
     {
       "source": "Wired",
@@ -40,6 +56,7 @@
       "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -55,6 +72,7 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -67,31 +85,28 @@
       "excerpt": "Anthropic CEO Dario Amodei. | Photo: Jason Henry/Bloomberg via Getty Images Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "Fast, unchecked AI gains could outpace safety measures, impacting industry standards and regulatory oversight.",
-      "score": 100,
+      "score": 99,
       "isPrimary": true,
       "clusterId": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "clusterSize": 1,
       "related": []
     },
     {
-      "source": "TechCrunch",
+      "source": "Tom's Hardware",
       "category": "news",
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "published": "Fri, 06 Nov 2026 17:23:52 +0000",
-      "summary": "The U.S. midterms saw widespread voter approval of data‑center restrictions, signaling a potential slowdown for the AI industry.",
-      "excerpt": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2236543888.jpg?resize=1200,800",
-      "whyItMatters": "Tech leaders must anticipate stricter regulations that could limit AI infrastructure growth and increase operational costs.",
-      "score": 100,
+      "title": "Enthusiast abandons self-hosted Microsoft Exchange after 27 years, moving mailboxes to Microsoft 365",
+      "link": "https://www.tomshardware.com/software/enthusiast-abandons-self-hosted-microsoft-exchange-after-27-years-moving-mailboxes-to-microsoft-365-replaces-final-on-premises-relay-with-postfix-starttls-and-lets-encrypt-certificates",
+      "published": "Sat, 07 Nov 2026 12:30:00 +0000",
+      "summary": "A homelab enthusiast ends a 27‑year Microsoft Exchange run, migrating mailboxes to Microsoft 365 while keeping Exchange 2019 for local alerts and switching to Postfix on Ubuntu for future mail handling.",
+      "excerpt": "A homelab enthusiast is retiring a Microsoft Exchange installation that began with Exchange 5.5 on Windows NT 4 in 1999. After migrating mailboxes to Microsoft 365, he kept Exchange 2019 running to relay local hardware and software alerts. Postfix on Ubuntu Server LTS will take over, with plans to add STARTTLS, Let's Encrypt certificates, and boot encryption",
+      "image": "https://cdn.mos.cms.futurecdn.net/GpApBtoCh4tb9AUh89kM3m-1920-80.jpg",
+      "readMinutes": 3,
+      "score": 85,
       "isPrimary": true,
-      "clusterId": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "related": [
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/software/enthusiast-abandons-self-hosted-microsoft-exchange-after-27-years-moving-mailboxes-to-microsoft-365-replaces-final-on-premises-relay-with-postfix-starttls-and-lets-encrypt-certificates",
-          "title": "Enthusiast abandons self-hosted Microsoft Exchange after 27 years, moving mailboxes to Microsoft 365"
-        }
-      ]
+      "clusterId": "https://www.tomshardware.com/software/enthusiast-abandons-self-hosted-microsoft-exchange-after-27-years-moving-mailboxes-to-microsoft-365-replaces-final-on-premises-relay-with-postfix-starttls-and-lets-encrypt-certificates",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Shows how legacy systems can be phased out while preserving critical alerts, illustrating practical migration strategies for tech professionals."
     },
     {
       "source": "PC Gamer",
@@ -106,6 +121,7 @@
       "score": 79,
       "isPrimary": true,
       "clusterId": "https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -121,6 +137,7 @@
       "score": 79,
       "isPrimary": true,
       "clusterId": "https://www.pcgamer.com/games/rpg/nier-automata-developer-is-currently-investigating-a-bizarre-update-bug-that-drastically-inflated-the-games-file-size-from-50gb-to-366gb/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -135,13 +152,8 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/this-totally-free-app-can-free-up-space-on-your-mac-purge/",
-      "related": [
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/desktops/pc-building/save-26-percent-on-this-142-piece-toolkit-for-your-pc-repairs-and-hobbyist-projects-now-under-usd28-precision-screwdriver-kit-includes-120-magnetic-bits-and-20-different-repair-tools-for-your-next-project",
-          "title": "Save 26% on this 142-piece toolkit for your PC repairs and hobbyist projects, now under $28"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "Wired",
@@ -155,6 +167,7 @@
       "score": 93,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -165,18 +178,12 @@
       "published": "Sat, 07 Nov 2026 04:16:43 +0000",
       "summary": "Big Tech shifts from White House allies to courting Democrats amid upcoming state and market scrutiny.",
       "excerpt": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/SHAWN-THEW-Contributor-Getty.jpg?w=1024",
       "whyItMatters": "Tech leaders must navigate political shifts that could reshape regulation and public perception.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
-      "related": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
-          "title": "FAA to finally ditch floppy disks in what it calls \"historic\" tech upgrade"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "The Information",
@@ -186,11 +193,12 @@
       "published": "2026-11-07T01:45:22.000Z",
       "summary": "Meta’s chief strategy officer Dave Wehner is leaving to become CFO of AI inference startup Fireworks.",
       "excerpt": "Meta Platform’s chief strategy officer Dave Wehner is leaving the company to become chief finance officer of AI inference startup Fireworks, Wehner confirmed on X Friday. Wehner joined Facebook in 2012 as vice president of corporate finance and business planning and became CFO in 2014, a role he ...",
-      "score": 96,
+      "whyItMatters": "Tech leaders may track talent shifts that signal strategic moves in AI finance and corporate governance.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/exclusive-meta-strategy-chief-dave-wehner-become-fireworks-cfo",
-      "related": [],
-      "whyItMatters": "Tech leaders may track talent shifts that signal strategic moves in AI finance and corporate governance."
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -199,30 +207,25 @@
       "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "published": "Sat, 07 Nov 2026 01:40:28 +0000",
       "summary": "Crusoe sold its struggling Wyoming AI data center project to Google, underscoring the difficulties of building large-scale AI infrastructure.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/crusoe-ceo-getty.jpg?resize=1200,800",
       "whyItMatters": "Shows how even major firms face hurdles in expanding AI data center capacity.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "related": [
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
-          "title": "Protesters storm Microsoft AI data center construction site"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
-      "source": "TechCrunch",
+      "source": "The Information",
       "category": "news",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "published": "Fri, 06 Nov 2026 22:53:46 +0000",
-      "summary": "OpenAI is reportedly securing an additional $11 billion in funding, pushing its valuation to $1.25 trillion, though the round is not yet closed.",
-      "whyItMatters": "It signals continued investor confidence and could accelerate AI product development and market dominance.",
+      "title": "Anthropic to Proceed With IPO Roadshow Next Week",
+      "link": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
+      "published": "2026-11-06T21:56:59.000Z",
+      "summary": "Anthropic next week plans to proceed with formal marketing to potential investors for its upcoming initial public offering, say people familiar with the matter. The IPO roadshow will follow two weeks of volatility for tech stocks after…",
+      "excerpt": "Anthropic next week plans to proceed with formal marketing to potential investors for its upcoming initial public offering, say people familiar with the matter. The IPO roadshow will follow two weeks of volatility for tech stocks after investors reacted to massive AI spending plans from Amazon ...",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "clusterId": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
+      "clusterSize": 3,
       "related": [
         {
           "source": "TechCrunch",
@@ -237,6 +240,20 @@
       ]
     },
     {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "published": "Fri, 06 Nov 2026 22:53:46 +0000",
+      "summary": "OpenAI is reportedly securing an additional $11 billion in funding, pushing its valuation to $1.25 trillion, though the round is not yet closed.",
+      "whyItMatters": "It signals continued investor confidence and could accelerate AI product development and market dominance.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
       "source": "The Information",
       "category": "news",
       "title": "Longtime SpaceX Board Member Resigns",
@@ -247,6 +264,7 @@
       "score": 95,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/longtime-spacex-board-member-resigns",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -262,6 +280,7 @@
       "score": 89,
       "isPrimary": true,
       "clusterId": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -274,16 +293,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/QAh2KbRTQ6Y9BSbgacF6VT-1920-80.jpg",
       "readMinutes": 6,
       "whyItMatters": "Tech-savvy readers should watch this, as it highlights emerging legal, ethical, and creative tensions shaping the future of game development.",
-      "score": 75,
+      "score": 74,
       "isPrimary": true,
       "clusterId": "https://www.pcgamer.com/software/ai/the-ai-posting-war-is-heating-up-please-leave-me-behind-says-artist-who-got-into-it-with-epic-ceo-tim-sweeney-on-x/",
-      "related": [
-        {
-          "source": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-          "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "GitHub Blog",
@@ -295,9 +309,10 @@
       "excerpt": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog.",
       "readMinutes": 7,
       "whyItMatters": "It shows how AI tools can boost productivity but still need skilled oversight.",
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -312,6 +327,7 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -325,13 +341,8 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/openai-secured-11-billion-targets-9-billion-fundraising",
-      "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
-          "title": "Anthropic to Proceed With IPO Roadshow Next Week"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "The Register",
@@ -346,6 +357,7 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -359,6 +371,7 @@
       "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/google-buys-548-million-qualcomm-shares",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -373,6 +386,7 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -387,33 +401,38 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
-      "related": [
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
-          "title": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
-      "source": "SemiEngineering",
+      "source": "The Verge",
       "category": "news",
-      "title": "Adding Network Security To AI, HPC, And Data Centers",
-      "link": "https://semiengineering.com/adding-network-security-to-ai-hpc-and-data-centers-2/",
-      "published": "Thu, 05 Nov 2026 08:06:45 +0000",
-      "summary": "The location of security functions such as MACsec or IPsec has become a key architectural decision. The post Adding Network Security To AI, HPC, And Data Centers appeared first on Semiconductor Engineering.",
-      "image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/11/Rambus_Adding-Network-Security-AI-HPC-fig1.png?resize=1378%2C520&ssl=1",
-      "readMinutes": 4,
+      "title": "All the latest updates on AI data centers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "published": "2026-11-06T20:02:22.000Z",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids…",
+      "excerpt": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead of the 2026 midterms, and voters largely opposed data center expansion at…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "readMinutes": 9,
+      "score": 80,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "FAA to finally ditch floppy disks in what it calls \"historic\" tech upgrade",
+      "link": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+      "published": "Fri, 06 Nov 2026 19:12:28 +0000",
+      "summary": "FAA information display systems to be floppy-free at 435 sites by end of 2028.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/sean-duffy-faa-tech-1152x648-1793989923.jpg",
       "score": 93,
       "isPrimary": true,
-      "clusterId": "https://semiengineering.com/adding-network-security-to-ai-hpc-and-data-centers-2/",
-      "related": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-          "title": "All the latest updates on AI data centers"
-        }
-      ]
+      "clusterId": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -422,11 +441,11 @@
       "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
       "published": "Fri, 06 Nov 2026 18:44:38 +0000",
       "summary": "Security researchers discovered hundreds of servers exposing the Artex penetration testing tool to the internet, granting public access to a hacking utility.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800",
       "whyItMatters": "Exposed tools enable widespread, low‑barrier attacks, increasing risk for all online systems.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -436,18 +455,12 @@
       "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
       "published": "Fri, 06 Nov 2026 18:44:20 +0000",
       "summary": "Meta adds Spaces, a new interface for interacting with Muse AI agents, expanding collaboration features and integrations.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
       "whyItMatters": "It could streamline workflow for users who rely on AI assistants for productivity.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "related": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-          "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "The Register",
@@ -462,6 +475,7 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/devops/2026/11/06/pytorch-215-tackles-the-one-bad-gpu-problem/5308227",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -476,6 +490,22 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/space/2026/11/ast-spacemobile-is-so-desperate-for-launch-theyre-building-their-own-rocket/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "published": "2026-11-06T18:10:10.000Z",
+      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you…",
+      "excerpt": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by describing it. If you connect an outside app to Muse - like Gmail, Google Calendar, OpenTable…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-muse-spaces.png?quality=90&strip=all&crop=8.0752843063528,0,91.924715693647,74.471659887186",
+      "score": 79,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -491,6 +521,22 @@
       "score": 73,
       "isPrimary": true,
       "clusterId": "https://www.pcgamer.com/software/linux/all-that-stands-between-a-hacker-and-admin-privileges-on-some-linux-distros-is-a-257-character-long-string-of-literally-anything/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "published": "Fri, 06 Nov 2026 17:23:52 +0000",
+      "summary": "The U.S. midterms saw widespread voter approval of data‑center restrictions, signaling a potential slowdown for the AI industry.",
+      "excerpt": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+      "whyItMatters": "Tech leaders must anticipate stricter regulations that could limit AI infrastructure growth and increase operational costs.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -506,6 +552,7 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/os-platforms/2026/11/06/mac-lookalikes-multiply-as-linux-raids-apples-wardrobe/5308070",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -520,6 +567,7 @@
       "score": 93,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -534,6 +582,7 @@
       "score": 64,
       "isPrimary": true,
       "clusterId": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -547,6 +596,7 @@
       "score": 64,
       "isPrimary": true,
       "clusterId": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -562,13 +612,8 @@
       "score": 83,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "related": [
-        {
-          "source": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-          "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "The Information",
@@ -581,6 +626,7 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/gpu-futures-hopes-hit-another-roadblock-cme-delays-launch-second-time",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -594,6 +640,7 @@
       "score": 92,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/amazon-says-shoppers-can-now-text-ai-shopping-assistant-alexa-shopping",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -608,6 +655,7 @@
       "score": 92,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/06/dojs-super-intelligence-task-force-up-and-running/5308074",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -622,6 +670,7 @@
       "score": 92,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/os-platforms/2026/11/06/crowd-fave-linux-mint-update-approaches-fresh-from-autumn-release-of-cinnamon-desktop/5307951",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -635,13 +684,8 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending",
-      "related": [
-        {
-          "source": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-          "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -656,13 +700,23 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
-      "related": [
-        {
-          "source": "OpenAI Blog",
-          "url": "https://openai.com/index/merge-builds-with-openai",
-          "title": "Merge builds product and business tools with OpenAI technology"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Protesters storm Microsoft AI data center construction site",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
+      "published": "Fri, 06 Nov 2026 13:59:09 +0000",
+      "summary": "The protesters stormed over the walls and took over the construction site, with the Stop Dirty Data Centers coalition saying that more actions are planned across Europe.",
+      "image": "https://cdn.mos.cms.futurecdn.net/xXzamwF8bgCcyR6kJW47Pb-1920-80.png",
+      "readMinutes": 3,
+      "score": 78,
+      "isPrimary": true,
+      "clusterId": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -677,6 +731,22 @@
       "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist",
+      "link": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+      "published": "Fri, 06 Nov 2026 13:35:16 +0000",
+      "summary": "The latest incident comes amid growing concerns over GPU theft, with experts warning that advanced Nvidia chips can command significantly higher prices abroad and could end up in black-market channels.",
+      "image": "https://cdn.mos.cms.futurecdn.net/WJysu4KWtLyywCbvdHhuLF-1920-80.jpg",
+      "readMinutes": 2,
+      "score": 89,
+      "isPrimary": true,
+      "clusterId": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -692,13 +762,8 @@
       "score": 91,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-      "related": [
-        {
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
-          "title": "The Download: Texas’s fragile AI boom and energy policy shifts"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "MIT Technology Review",
@@ -713,6 +778,7 @@
       "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -728,6 +794,7 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/chip-industry-week-in-review-163/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -737,9 +804,10 @@
       "link": "https://openai.com/index/partnering-with-hacktron",
       "published": "Fri, 06 Nov 2026 08:00:00 GMT",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "score": 82,
+      "score": 81,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/partnering-with-hacktron",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -753,6 +821,7 @@
       "score": 87,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/silver-lake-saudi-arabias-pif-made-takeover-approach-unity-software",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -765,19 +834,7 @@
       "score": 79,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
-      "link": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
-      "published": "Thu, 05 Nov 2026 21:45:00 +0000",
-      "summary": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than […] The post CesiumAstro Secures $730 Million…",
-      "excerpt": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than […] The post CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission appeared first on…",
-      "score": 58,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -792,6 +849,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -807,6 +865,7 @@
       "score": 69,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -823,19 +882,23 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/ieee-preuniversity",
+      "clusterSize": 1,
       "related": []
     },
     {
-      "source": "SpaceNews",
+      "source": "NVIDIA Blog",
       "category": "news",
-      "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
-      "link": "https://spacenews.com/cork-takes-the-heat-so-dracos-data-can-survive/",
-      "published": "Thu, 05 Nov 2026 17:05:59 +0000",
-      "summary": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post Cork Takes the Heat…",
-      "excerpt": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post Cork Takes the Heat So DRACO’s Data Can Survive appeared first on SpaceNews.",
-      "score": 56,
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "published": "Thu, 05 Nov 2026 17:00:35 +0000",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to…",
+      "excerpt": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through […]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/Copy-of-nvidia-ov-x-astra-4up-KV-r1-press-4k-r2-scaled.png",
+      "readMinutes": 9,
+      "score": 68,
       "isPrimary": true,
-      "clusterId": "https://spacenews.com/cork-takes-the-heat-so-dracos-data-can-survive/",
+      "clusterId": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -848,6 +911,7 @@
       "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -863,6 +927,23 @@
       "score": 84,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/how-to-get-a-promotion",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "NVIDIA Blog",
+      "category": "news",
+      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "link": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "published": "Thu, 05 Nov 2026 16:00:05 +0000",
+      "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning…",
+      "excerpt": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers. […]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Chris-Alexiuk_portrait-1280-720.png",
+      "readMinutes": 3,
+      "score": 63,
+      "isPrimary": true,
+      "clusterId": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -878,6 +959,23 @@
       "score": 77,
       "isPrimary": true,
       "clusterId": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "NVIDIA Blog",
+      "category": "news",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "published": "Thu, 05 Nov 2026 16:00:00 +0000",
+      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly…",
+      "excerpt": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. […]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/memory-codesign-1920x1080-1.jpg",
+      "readMinutes": 5,
+      "score": 68,
+      "isPrimary": true,
+      "clusterId": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -892,20 +990,7 @@
       "score": 56,
       "isPrimary": true,
       "clusterId": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Building a ‘highway to the moon and back’ with Winnie Lai",
-      "link": "https://spacenews.com/building-a-highway-to-the-moon-and-back-with-winnie-lai/",
-      "published": "Thu, 05 Nov 2026 14:15:38 +0000",
-      "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on […] The post Building a ‘highway to the moon…",
-      "excerpt": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on […] The post Building a ‘highway to the moon and back’ with Winnie Lai appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/space-minds-podcast-auriga-2000-1500.jpg?fit=1024%2C768&ssl=1",
-      "score": 55,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/building-a-highway-to-the-moon-and-back-with-winnie-lai/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -921,6 +1006,23 @@
       "score": 67,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "published": "Thu, 05 Nov 2026 13:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/09/ECUA-240705-Serhii-Beskrestnov-45766_grad.jpg?fit=1920,1280",
+      "readMinutes": 4,
+      "score": 83,
+      "isPrimary": true,
+      "clusterId": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -933,6 +1035,22 @@
       "score": 73,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/introducing-gpt-6-cyber",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "SemiEngineering",
+      "category": "news",
+      "title": "Adding Network Security To AI, HPC, And Data Centers",
+      "link": "https://semiengineering.com/adding-network-security-to-ai-hpc-and-data-centers-2/",
+      "published": "Thu, 05 Nov 2026 08:06:45 +0000",
+      "summary": "The location of security functions such as MACsec or IPsec has become a key architectural decision. The post Adding Network Security To AI, HPC, And Data Centers appeared first on Semiconductor Engineering.",
+      "image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/11/Rambus_Adding-Network-Security-AI-HPC-fig1.png?resize=1378%2C520&ssl=1",
+      "readMinutes": 4,
+      "score": 93,
+      "isPrimary": true,
+      "clusterId": "https://semiengineering.com/adding-network-security-to-ai-hpc-and-data-centers-2/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -946,6 +1064,7 @@
       "score": 93,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/turning-conv2d-into-a-practical-gpu-compute-pattern/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -961,6 +1080,7 @@
       "score": 81,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/a-system-level-approach-to-protecting-3d-ic-signal-integrity/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -975,6 +1095,7 @@
       "score": 93,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/fitting-ai-models-to-edge-applications/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -988,6 +1109,7 @@
       "score": 93,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/why-testing-automated-driving-is-harder-than-it-looks/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1003,6 +1125,7 @@
       "score": 81,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/why-integrated-gate-drive-regulation-matters-for-high-reliability-space-gan-designs/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1018,6 +1141,7 @@
       "score": 81,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/physical-ai-pushes-the-limits-of-hardware/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1032,6 +1156,20 @@
       "score": 93,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/college-grads-and-ai/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "OpenAI Blog",
+      "category": "news",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "link": "https://openai.com/index/merge-builds-with-openai",
+      "published": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "score": 73,
+      "isPrimary": true,
+      "clusterId": "https://openai.com/index/merge-builds-with-openai",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1044,6 +1182,7 @@
       "score": 71,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1056,6 +1195,7 @@
       "score": 65,
       "isPrimary": true,
       "clusterId": "https://openai.com/ads/customers/flipsnack",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1068,6 +1208,7 @@
       "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/franklin-templeton",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1083,6 +1224,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1095,6 +1237,7 @@
       "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/openai-to-acquire-pierre",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1110,6 +1253,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1124,6 +1268,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1137,6 +1282,7 @@
       "score": 90,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/accelerating-plug-and-play-prototyping-in-chiplet-based-designs/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1149,6 +1295,7 @@
       "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1161,6 +1308,7 @@
       "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1177,20 +1325,7 @@
       "score": 86,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/ieee-industry-experts-webinar",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
-      "link": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
-      "published": "Tue, 03 Nov 2026 16:59:43 +0000",
-      "summary": "Czech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and heavier satellites. Simera Sense xScape200 […] The post Simera Sense and…",
-      "excerpt": "Czech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and heavier satellites. Simera Sense xScape200 […] The post Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/simera-space.png?fit=1024%2C1024&ssl=1",
-      "score": 50,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1206,6 +1341,7 @@
       "score": 62,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1219,20 +1355,7 @@
       "score": 71,
       "isPrimary": true,
       "clusterId": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "DETUMBLER: Airbus’ Passive Spin Stabilization Solution",
-      "link": "https://spacenews.com/detumbler-airbus-passive-spin-stabilization-solution/",
-      "published": "Tue, 03 Nov 2026 13:30:00 +0000",
-      "summary": "The tumbling crisis: why dead satellites threaten orbit Every year, hundreds of satellites reach end-of-life, most are deorbited, but some fail abruptly. Yet, even when properly decommissioned, some dead satellites […] The post DETUMBLER…",
-      "excerpt": "The tumbling crisis: why dead satellites threaten orbit Every year, hundreds of satellites reach end-of-life, most are deorbited, but some fail abruptly. Yet, even when properly decommissioned, some dead satellites […] The post DETUMBLER: Airbus’ Passive Spin Stabilization Solution appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/AIRBUS_Blue.png?fit=1024%2C1024&ssl=1",
-      "score": 50,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/detumbler-airbus-passive-spin-stabilization-solution/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1248,6 +1371,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1263,6 +1387,7 @@
       "score": 62,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1279,20 +1404,7 @@
       "score": 58,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "How to Expand Reliable, Flexible Access to Space",
-      "link": "https://spacenews.com/how-to-expand-reliable-flexible-access-to-space/",
-      "published": "Mon, 02 Nov 2026 14:00:00 +0000",
-      "summary": "The space industry launched more rockets into orbit last year than ever before, yet satellite operators are confronting an unexpected problem: There still aren’t enough rides to go around. And […] The post How to Expand Reliable, Flexible…",
-      "excerpt": "The space industry launched more rockets into orbit last year than ever before, yet satellite operators are confronting an unexpected problem: There still aren’t enough rides to go around. And […] The post How to Expand Reliable, Flexible Access to Space appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/SpaceNews_AD-1-1.png?fit=1024%2C794&ssl=1",
-      "score": 50,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/how-to-expand-reliable-flexible-access-to-space/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1308,6 +1420,7 @@
       "score": 79,
       "isPrimary": true,
       "clusterId": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1324,19 +1437,7 @@
       "score": 86,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/ai-slop-trust-science",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "ESI supplying solar array components to missile defense programs",
-      "link": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
-      "published": "Fri, 30 Oct 2026 18:54:34 +0000",
-      "summary": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array components to missile defense programs…",
-      "excerpt": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array components to missile defense programs appeared first on SpaceNews.",
-      "score": 50,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1352,6 +1453,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1366,6 +1468,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://event.on24.com/wcc/r/5546816/67D0147A8B8D057FCE11A17D61A8BB0D?utm_source=IEEE",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1381,27 +1484,8 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/ai-personal-assistant-intelligent-wearables",
+      "clusterSize": 1,
       "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Advice for optimizing the space industry with Laura Crabtree",
-      "link": "https://spacenews.com/advice-for-optimizing-the-space-industry-with-laura-crabtree/",
-      "published": "Thu, 29 Oct 2026 15:01:09 +0000",
-      "summary": "In this episode, Mike Gruss speaks with Laura Crabtree, the CEO of Epsilon3, who is also a former SpaceX astronaut trainer. They talk about ways that space companies can organize […] The post Advice for optimizing the space industry with…",
-      "excerpt": "In this episode, Mike Gruss speaks with Laura Crabtree, the CEO of Epsilon3, who is also a former SpaceX astronaut trainer. They talk about ways that space companies can organize […] The post Advice for optimizing the space industry with Laura Crabtree appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Epsilon3-2000-1500.jpg?fit=1024%2C768&ssl=1",
-      "score": 50,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/advice-for-optimizing-the-space-industry-with-laura-crabtree/",
-      "related": [
-        {
-          "source": "SpaceNews",
-          "url": "https://spacenews.com/flexell-space-and-satoro-agree-to-collaborate-on-in-orbit-demonstration-of-next-generation-space-solar-cells/",
-          "title": "Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells"
-        }
-      ]
     },
     {
       "source": "NVIDIA Blog",
@@ -1415,6 +1499,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1430,6 +1515,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1443,6 +1529,7 @@
       "score": 71,
       "isPrimary": true,
       "clusterId": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1458,6 +1545,7 @@
       "score": 64,
       "isPrimary": true,
       "clusterId": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1473,6 +1561,7 @@
       "score": 62,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1488,19 +1577,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/beta-technologies-electric-aircraft",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Ukrainian startup, GomSpace test satellite for future communications network",
-      "link": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
-      "published": "Tue, 27 Oct 2026 20:21:30 +0000",
-      "summary": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace test satellite for future communications network appeared first on SpaceNews.",
-      "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-3.41.11-PM.png?fit=1024%2C588&ssl=1",
-      "score": 50,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1516,6 +1593,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1531,32 +1609,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Craft Prospect kicks off PERSEUS project to advance optical communications for space",
-      "link": "https://spacenews.com/craft-prospect-kicks-off-perseus-project-to-advance-optical-communications-for-space/",
-      "published": "Tue, 27 Oct 2026 12:00:00 +0000",
-      "summary": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The…",
-      "excerpt": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications […] The post Craft Prospect kicks off PERSEUS project to advance optical communications for space appeared first on SpaceNews.",
-      "score": 50,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/craft-prospect-kicks-off-perseus-project-to-advance-optical-communications-for-space/",
-      "related": []
-    },
-    {
-      "source": "SpaceNews",
-      "category": "news",
-      "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
-      "link": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
-      "published": "Mon, 26 Oct 2026 20:00:00 +0000",
-      "summary": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space…",
-      "excerpt": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The post Flexell Space Establishes French Subsidiary to Strengthen European Presence appeared first on SpaceNews.",
-      "score": 50,
-      "isPrimary": true,
-      "clusterId": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1571,6 +1624,7 @@
       "score": 71,
       "isPrimary": true,
       "clusterId": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1585,6 +1639,7 @@
       "score": 71,
       "isPrimary": true,
       "clusterId": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1600,6 +1655,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1614,6 +1670,7 @@
       "score": 71,
       "isPrimary": true,
       "clusterId": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1629,6 +1686,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1644,6 +1702,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1659,6 +1718,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1674,6 +1734,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1689,6 +1750,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1704,6 +1766,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1719,6 +1782,7 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1734,6 +1798,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1749,6 +1814,7 @@
       "score": 90,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1764,6 +1830,7 @@
       "score": 90,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1779,6 +1846,7 @@
       "score": 84,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1794,6 +1862,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1809,6 +1878,7 @@
       "score": 84,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1824,6 +1894,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1839,6 +1910,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/07/21/vlsi2025/",
+      "clusterSize": 1,
       "related": []
     },
     {
@@ -1854,6 +1926,7 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+      "clusterSize": 1,
       "related": []
     }
   ]
