@@ -1746,10 +1746,10 @@ initAuth();
     function relatedLinks(item) {
       if (!item.related || !item.related.length) return '';
       const links = item.related.slice(0, 3).map(r =>
-        `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;">${escapeHtml(r.source)}</a>`
-      ).join(' · ');
-      const extra = (item.clusterSize || item.related.length + 1) > 4 ? ` <span style="color:#888;">+${(item.clusterSize || item.related.length + 1) - 1} more</span>` : '';
-      return `<div class="related-links" style="margin-top:8px;font-size:0.85rem;"><strong>More:</strong> ${links}${extra}</div>`;
+        `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;text-decoration:none;border-bottom:1px dotted #1a73e8;">${escapeHtml(r.source)}</a>`
+      ).join(' <span style="color:#ccc;">·</span> ');
+      const extra = (item.clusterSize || item.related.length + 1) > 4 ? ` <span style="color:#888;font-size:0.8rem;">+${(item.clusterSize || item.related.length + 1) - 1} more</span>` : '';
+      return `<div class="related-links" style="margin-top:10px;font-size:0.84rem;line-height:1.4;"><span style="font-weight:600;color:#333;">More:</span> ${links}${extra}</div>`;
     }
 
     const storyFields = (item) => {
@@ -1958,7 +1958,7 @@ initAuth();
       if (feed && feed.parentNode) feed.parentNode.insertBefore(riverEl, feed.nextSibling);
       else document.body.appendChild(riverEl);
     }
-    riverEl.style.cssText = 'margin-top:32px;padding:18px 20px;background:#fafafa;border-radius:10px;border:1px solid #e5e5e5;';
+    riverEl.style.cssText = 'margin-top:36px;padding:20px 22px;background:#fafafa;border-radius:12px;border:1px solid #e8e8e8;box-shadow:0 1px 2px rgba(0,0,0,0.04);';
     const riverItems = allItems
       .filter(i => (i.score || 0) < 92)
       .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
@@ -1974,7 +1974,35 @@ initAuth();
         </div>`).join('') +
       `</div>`;
   }
+
+  function renderLeaderboard() {
+    let el = document.getElementById('leaderboard');
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'leaderboard';
+      el.style.cssText = 'margin-top:28px;padding:16px 18px;background:#fff;border-radius:10px;border:1px solid #eee;';
+      const river = document.getElementById('river');
+      if (river && river.parentNode) river.parentNode.insertBefore(el, river);
+      else {
+        const feed = document.getElementById('feed');
+        if (feed && feed.parentNode) feed.parentNode.insertBefore(el, feed.nextSibling);
+      }
+    }
+    const counts = {};
+    allItems.forEach(item => {
+      const s = item.source || 'Unknown';
+      counts[s] = (counts[s] || 0) + 1;
+    });
+    const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8);
+    if (!top.length) { el.innerHTML = ''; return; }
+    el.innerHTML = `
+      <h3 style="margin:0 0 12px;font-size:1.02rem;font-weight:600;">Most covered sources</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">` +
+      top.map(([src, n]) => `<span style="background:#f0f4f8;padding:4px 10px;border-radius:20px;font-size:0.82rem;color:#333;">${escapeHtml(src)} <b>${n}</b></span>`).join('') +
+      `</div>`;
+  }
   function renderAll() {
+    renderLeaderboard();
     renderRiver();
     renderLatest();
     render();

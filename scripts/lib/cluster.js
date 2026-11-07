@@ -47,10 +47,12 @@ export function clusterItems(items) {
       const hoursApart = Math.abs(baseTime - new Date(items[j].published || 0).getTime()) / 36e5;
 
       // Tighter threshold + time window; boost if high-signal keywords overlap
-      const highSignal = /\b(nvidia|openai|anthropic|tsmc|hbm|gpu|tpu)\b/.test(
-        (items[i].title + ' ' + items[j].title).toLowerCase()
-      );
-      const threshold = highSignal ? 0.18 : 0.25;
+      const combined = (items[i].title + ' ' + items[j].title).toLowerCase();
+      const highSignal = /\b(nvidia|openai|anthropic|tsmc|hbm|gpu|tpu|jensen|huang|semiconductor)\b/.test(combined);
+      // Entity match bonus
+      const entities = ['nvidia', 'openai', 'anthropic', 'tsmc', 'jensen', 'huang', 'meta', 'google', 'amd', 'intel'];
+      const entityOverlap = entities.filter(e => combined.includes(e)).length;
+      const threshold = highSignal ? 0.15 : (entityOverlap >= 1 ? 0.20 : 0.28);
 
       if (sim >= threshold && hoursApart < 48) {
         cluster.push(items[j]);
