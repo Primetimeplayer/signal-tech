@@ -1954,22 +1954,25 @@ initAuth();
     if (!riverEl) {
       riverEl = document.createElement('div');
       riverEl.id = 'river';
-      riverEl.style.marginTop = '24px';
       const feed = document.getElementById('feed');
       if (feed && feed.parentNode) feed.parentNode.insertBefore(riverEl, feed.nextSibling);
       else document.body.appendChild(riverEl);
     }
+    riverEl.style.cssText = 'margin-top:32px;padding:18px 20px;background:#fafafa;border-radius:10px;border:1px solid #e5e5e5;';
     const riverItems = allItems
-      .filter(i => (i.score || 0) < 85)
+      .filter(i => (i.score || 0) < 92)
       .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
-      .slice(0, 12);
+      .slice(0, 20);
     if (!riverItems.length) { riverEl.innerHTML = ''; return; }
-    riverEl.innerHTML = `<h3 style="margin:16px 0 8px;font-size:1rem;">River</h3>` +
+    riverEl.innerHTML = `
+      <h3 style="margin:0 0 14px;font-size:1.08rem;font-weight:600;color:#1a1a1a;">River</h3>
+      <div style="display:flex;flex-direction:column;gap:2px;">` +
       riverItems.map(item => `
-        <div class="river-item" style="padding:6px 0;border-bottom:1px solid #eee;font-size:0.9rem;">
-          <a href="${escapeAttr(item.link)}" target="_blank">${escapeHtml(item.title)}</a>
-          <span style="color:#888;margin-left:6px;">${escapeHtml(item.source || '')}</span>
-        </div>`).join('');
+        <div class="river-item" style="padding:9px 0;border-bottom:1px solid #eee;font-size:0.93rem;line-height:1.45;">
+          <a href="${escapeAttr(item.link)}" target="_blank" style="color:#111;text-decoration:none;font-weight:500;">${escapeHtml(item.title)}</a>
+          <div style="font-size:0.78rem;color:#666;margin-top:3px;">${escapeHtml(item.source || '')}${item.published ? ' · ' + new Date(item.published).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}) : ''}</div>
+        </div>`).join('') +
+      `</div>`;
   }
   function renderAll() {
     renderRiver();
