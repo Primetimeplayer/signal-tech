@@ -743,11 +743,14 @@ initAuth();
   // picture. Nothing is removed. Latest, the hero, and the grid read this
   // order so image-less Google News items do not fill those slots.
   function withImageFirst(items) {
-    // Phase 3: keep high-score items near the top even without images
+    // Keep high-score and items with related near the top
     return (items || []).slice().sort((a, b) => {
       const sa = Number(a.score) || 0;
       const sb = Number(b.score) || 0;
       if (sb !== sa) return sb - sa;
+      const relA = (a.related && a.related.length) ? 1 : 0;
+      const relB = (b.related && b.related.length) ? 1 : 0;
+      if (relB !== relA) return relB - relA;
       const hasA = !!storyImageUrl(a);
       const hasB = !!storyImageUrl(b);
       if (hasA !== hasB) return hasB ? 1 : -1;
