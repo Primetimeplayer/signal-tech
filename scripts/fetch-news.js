@@ -13,6 +13,8 @@ import { applyLocaleParams } from './lib/news-locale.js';
 import { splitGoogleTitle } from './lib/parse-google-news.js';
 import { isPromo } from './lib/promo-filter.js';
 import { readMinutes } from './lib/read-time.js';
+import { scoreItem } from './lib/score.js';
+import { clusterItems } from './lib/cluster.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'news.json');
@@ -205,7 +207,15 @@ export async function runNewsFetcher({
     .sort((a, b) => new Date(b.published ?? 0) - new Date(a.published ?? 0));
   const kept = topicItems.filter((item) => !isPromo(item.title));
   const promoDropped = topicItems.length - kept.length;
-  const items = carryOverNotes(kept, outputPath);
+  let items = carryOverNotes(kept, outputPath);
+
+  // Phase 1: score and cluster
+  items.forEach(item => {
+    item.score = scoreItem(item);
+  });
+  const clustered = clusterItems(items);
+  // Use clustered primaries as the main list (related attached)
+  items = clustered;
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(
@@ -217,7 +227,7 @@ export async function runNewsFetcher({
     )
   );
   console.log(`[fetch-news] Dropped ${promoDropped} promo items`);
-  console.log(`[fetch-news] Wrote ${items.length} topic items to ${outputPath}`);
+  console.log(`[fetch-news] Wrote ${items.length} scored/clustered items to ${outputPath}`);
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
