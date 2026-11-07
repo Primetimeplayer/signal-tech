@@ -1791,7 +1791,7 @@ initAuth();
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
-          ${item.score ? `<span class="score-badge" style="display:inline-block;margin:2px 0 4px;padding:1px 6px;background:#f5f7fa;border-radius:8px;font-size:0.7rem;font-weight:500;color:#5f6b7a;">${item.score}</span>` : ''}
+          ${item.score ? `<span class="score-badge" style="display:inline-block;margin:1px 0 2px;padding:0 4px;font-size:0.65rem;font-weight:400;color:#9aa0a6;opacity:0.75;">${item.score}</span>` : ''}
           ${relatedLinks(item)}
           ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;"><a href="https://x.com/search?q=${encodeURIComponent(item.title || '')}&src=typed_query" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;text-decoration:none;">See discussion on X</a></div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
@@ -1810,7 +1810,7 @@ initAuth();
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${item.summary ? `<p>${textHtml(item.summary)}</p>` : ''}
-          ${item.score ? `<span class="score-badge" style="display:inline-block;margin:2px 0 4px;padding:1px 6px;background:#f5f7fa;border-radius:8px;font-size:0.7rem;font-weight:500;color:#5f6b7a;">${item.score}</span>` : ''}
+          ${item.score ? `<span class="score-badge" style="display:inline-block;margin:1px 0 2px;padding:0 4px;font-size:0.65rem;font-weight:400;color:#9aa0a6;opacity:0.75;">${item.score}</span>` : ''}
           ${relatedLinks(item)}
           ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;color:#666;font-style:italic;">Discussion building across sources</div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
