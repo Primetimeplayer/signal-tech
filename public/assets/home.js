@@ -635,12 +635,15 @@ initAuth();
   }
 
   function sortItems(list) {
-    const byDate = list.slice().sort((a, b) => {
+    const byScore = list.slice().sort((a, b) => {
+      const sa = Number(a.score) || 0;
+      const sb = Number(b.score) || 0;
+      if (sb !== sa) return sb - sa; // higher score first
       const da = new Date(a.published || 0).getTime() || 0;
       const db = new Date(b.published || 0).getTime() || 0;
-      return db - da;
+      return db - da; // fresher as tiebreaker
     });
-    return withImageFirst(byDate);
+    return withImageFirst(byScore);
   }
 
   // Contextual chips come only from fields the feed actually provides.
@@ -1730,6 +1733,15 @@ initAuth();
     pullPartner(rest, [tail]);
     silicon.concat(spaceItems, rest).forEach((item) => usedLinks.add(item.link));
 
+
+    function relatedLinks(item) {
+      if (!item.related || !item.related.length) return '';
+      const links = item.related.slice(0, 3).map(r =>
+        `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.source)}</a>`
+      ).join(' · ');
+      return `<div class="related-links"><span>More:</span> ${links}</div>`;
+    }
+
     const storyFields = (item) => {
       const saved = !!savedMap[item.link];
       return {
@@ -1751,6 +1763,7 @@ initAuth();
           ${leadFields.chips.length ? `<div class="card-chips">${leadFields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${lead.summary ? `<p class="hero-dek">${textHtml(lead.summary)}</p>` : ''}
           ${lead.whyItMatters ? `<div class="why"><b>${escapeHtml(t('whyItMatters'))}</b>${textHtml(lead.whyItMatters)}</div>` : ''}
+          ${relatedLinks(lead)}
           ${cardActions(lead, leadFields.saved, leadFields.note)}
         </div>
       </article>`;
@@ -1764,6 +1777,7 @@ initAuth();
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
+          ${relatedLinks(item)}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
         ${storyThumb(item, 96, 72)}
@@ -1780,6 +1794,7 @@ initAuth();
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${item.summary ? `<p>${textHtml(item.summary)}</p>` : ''}
+          ${relatedLinks(item)}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
         ${storyThumb(item, 96, 72)}
@@ -3821,3 +3836,4 @@ initAuth();
     document.body.classList.remove('search-scrolled');
   }
 });
+
