@@ -1789,7 +1789,7 @@ initAuth();
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${item.score ? `<div class="score-badge" style="display:inline-block;margin:4px 0;padding:2px 6px;background:#eef;border-radius:4px;font-size:0.75rem;color:#336;">Score ${item.score}</div>` : ''}
           ${relatedLinks(item)}
-          ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;color:#666;font-style:italic;">Discussion building across sources</div>` : ''}
+          ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;"><a href="https://x.com/search?q=${encodeURIComponent(item.title || '')}&src=typed_query" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;text-decoration:none;">See discussion on X</a></div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
         ${storyThumb(item, 96, 72)}
