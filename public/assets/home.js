@@ -1945,7 +1945,24 @@ initAuth();
     setTimeout(run, 1600);
   }
 
+
+  function renderRiver() {
+    const riverEl = document.getElementById('river');
+    if (!riverEl) return;
+    const riverItems = allItems
+      .filter(i => (i.score || 0) < 85)
+      .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
+      .slice(0, 12);
+    if (!riverItems.length) { riverEl.innerHTML = ''; return; }
+    riverEl.innerHTML = `<h3 style="margin:16px 0 8px;font-size:1rem;">River</h3>` +
+      riverItems.map(item => `
+        <div class="river-item" style="padding:6px 0;border-bottom:1px solid #eee;font-size:0.9rem;">
+          <a href="${escapeAttr(item.link)}" target="_blank">${escapeHtml(item.title)}</a>
+          <span style="color:#888;margin-left:6px;">${escapeHtml(item.source || '')}</span>
+        </div>`).join('');
+  }
   function renderAll() {
+    renderRiver();
     renderLatest();
     render();
   }
