@@ -9144,3 +9144,14 @@ main .grid,
 }
 .home-intro { padding-bottom: 14px !important; }
 @media (max-width: 800px) { .home-intro { padding-bottom: 12px !important; } }
+
+.related-links {
+  font-size: 0.82rem;
+  color: var(--text-muted, #888);
+  margin: 6px 0 4px;
+}
+.related-links a {
+  color: var(--accent, #3b82f6);
+  text-decoration: none;
+}
+.related-links a:hover { text-decoration: underline; }
