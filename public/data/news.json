@@ -1,28 +1,122 @@
 {
-  "updated": "2026-11-07T14:59:20.085Z",
-  "count": 161,
+  "updated": "2026-11-07T15:05:32.745Z",
+  "count": 158,
   "items": [
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "The Blue Wave May Not Stop Musk’s Texas Data Center Ambitions",
+      "link": "https://www.theinformation.com/articles/blue-wave-may-stop-musks-texas-data-center-ambitions",
+      "published": "2026-11-07T15:01:25.000Z",
+      "summary": "Elon Musk is pursuing AI data centers in Texas, but a new Democratic governor could delay his plans.",
+      "excerpt": "Elon Musk moved early to build AI data centers in Tennessee and Mississippi and reaped the rewards. Later, he began working on ambitious plans to open SpaceX data centers in Texas, following on the heels of OpenAI and others that are farther along in the state. Democrat Gina Hinojosa’s surprise election as governor this week could delay parts of Musk’s projects, though, even if it doesn’t derail them completely. New…",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/blue-wave-may-stop-musks-texas-data-center-ambitions",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech leaders may face regulatory shifts affecting AI infrastructure investment."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "published": "2026-11-07T15:00:00.000Z",
+      "summary": "Alex Stamos discusses how AI is disrupting the traditional cybersecurity industry and what the future might hold.",
+      "excerpt": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say that the multibillion-dollar cybersecurity industry as we’ve known it is essentially overdue to the…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_110726.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "readMinutes": 47,
+      "score": 86,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech readers should understand AI’s impact on security strategies and industry shifts."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Fireworks says you’re wasting money on AI unless you’re using all the models",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/07/fireworks-says-youre-wasting-money-on-ai-unless-youre-using-all-the-models/5308277",
+      "published": "Sat, 07 Nov 2026 15:00:00 +0000",
+      "summary": "The article argues for managed inference, automatically directing queries to the most suitable AI model to avoid costly misuse of resources.",
+      "image": "https://image.theregister.com/?imageId=5308281&width=800",
+      "readMinutes": 4,
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/07/fireworks-says-youre-wasting-money-on-ai-unless-youre-using-all-the-models/5308277",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech-savvy readers should optimize AI spending and performance by adopting automated model routing."
+    },
     {
       "source": "Tom's Hardware",
       "category": "news",
-      "title": "US intelligence believes Jensen Huang had romantic relationship with Chinese spy in honeypot operation",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-intelligence-believes-jensen-huang-had-romantic-relationship-with-chinese-spy-in-honeypot-operation-spy-suspect-linked-to-company-accused-of-smuggling-usd2-billion-in-ai-chips",
-      "published": "Sat, 07 Nov 2026 14:47:37 +0000",
-      "summary": "U.S. intelligence claims Nvidia CEO Jensen Huang was targeted by Chinese spies in a honeypot operation involving Alice Huang.",
-      "image": "https://cdn.mos.cms.futurecdn.net/fjFkN4c5HUsWwQPK4dVKZR-1920-80.png",
-      "readMinutes": 3,
+      "title": "This week in Tom's Hardware Premium: November 7, 2026 — Micron roadmap, Apple's touchscreen ambitions, GlobalFoundries interview, and much more",
+      "link": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-7-2026-micron-roadmap-apples-touchscreen-ambitions-globalfoundries-interview-and-much-more",
+      "published": "Sat, 07 Nov 2026 15:00:00 +0000",
+      "summary": "Tom's Hardware Premium releases interviews, roadmaps, and features covering Micron, Apple, GlobalFoundries, and other tech topics.",
+      "image": "https://cdn.mos.cms.futurecdn.net/EJymn9UT9oot2ydST6x9yd-1920-80.jpg",
+      "readMinutes": 4,
+      "score": 86,
+      "isPrimary": true,
+      "clusterId": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-7-2026-micron-roadmap-apples-touchscreen-ambitions-globalfoundries-interview-and-much-more",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech readers gain early industry insights and strategic trends."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice",
+      "link": "https://www.pcgamer.com/software/linux/linux-on-the-desktop-marches-on-as-gog-announces-its-galaxy-client-is-getting-a-revamp-headed-to-windows-macos-and-your-distro-of-choice/",
+      "published": "Sat, 07 Nov 2026 15:00:00 +0000",
+      "summary": "GOG is revamping its Galaxy client to support Windows, macOS, and Linux, expanding native desktop gaming options.",
+      "image": "https://cdn.mos.cms.futurecdn.net/eyYchBd274FJCGzgDdyxyT-1920-80.jpg",
+      "readMinutes": 2,
+      "score": 72,
+      "isPrimary": true,
+      "clusterId": "https://www.pcgamer.com/software/linux/linux-on-the-desktop-marches-on-as-gog-announces-its-galaxy-client-is-getting-a-revamp-headed-to-windows-macos-and-your-distro-of-choice/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Gamers on Linux will gain a native, unified client for managing and playing games."
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "Jensen Huang Asked to Brief Congress Over Alleged Chinese Spy Plot",
+      "link": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
+      "published": "2026-11-06T06:20:16.000Z",
+      "summary": "Nvidia CEO Jensen Huang is summoned by Congress to discuss alleged ties to a Chinese spy, Alice Huang, amid national security concerns.",
+      "excerpt": "Leaders of three U.S. House committees have summoned Nvidia CEO Jensen Huang to a closed-door briefing later this month over his ties to Alice Huang, a tech executive reportedly identified as a Chinese spy. The New York Times reported last month that U.S. officials had found the Nvidia CEO had a ...",
+      "whyItMatters": "Tech leaders must monitor potential espionage risks that could compromise AI innovation and U.S. data security.",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-intelligence-believes-jensen-huang-had-romantic-relationship-with-chinese-spy-in-honeypot-operation-spy-suspect-linked-to-company-accused-of-smuggling-usd2-billion-in-ai-chips",
-      "clusterSize": 2,
+      "clusterId": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
+      "clusterSize": 5,
       "related": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "title": "China reportedly recruited AI exec to spy on Jensen Huang"
+        },
+        {
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-intelligence-believes-jensen-huang-had-romantic-relationship-with-chinese-spy-in-honeypot-operation-spy-suspect-linked-to-company-accused-of-smuggling-usd2-billion-in-ai-chips",
+          "title": "US intelligence believes Jensen Huang had romantic relationship with Chinese spy in honeypot operation"
+        },
         {
           "source": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
           "title": "Nvidia's Jensen Huang officially called to Congress due to reports of a Chinese spy plot"
+        },
+        {
+          "source": "The Next Web",
+          "url": "https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed",
+          "title": "House chairs ask Nvidia’s Jensen Huang to explain reported spy link"
         }
-      ],
-      "whyItMatters": "Highlights potential security risks for high-profile tech leaders and corporate espionage threats."
+      ]
     },
     {
       "source": "Engadget",
@@ -32,12 +126,12 @@
       "published": "Sat, 07 Nov 2026 14:45:00 +0000",
       "summary": "PowerToys offers a suite of utilities that automate repetitive Windows tasks, boosting productivity.",
       "image": "https://www.engadget.com/img/gallery/windows-powertoys-can-automate-some-of-your-more-tedious-pc-tasks/l-intro-1793722923.jpg",
-      "score": 72,
+      "whyItMatters": "Tech-savvy users can streamline workflows and reduce manual effort.",
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://www.engadget.com/2305351/windows-powertoys-automate-pc-tasks/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy users can streamline workflows and reduce manual effort."
+      "related": []
     },
     {
       "source": "Engadget",
@@ -47,34 +141,27 @@
       "published": "Sat, 07 Nov 2026 14:15:00 +0000",
       "summary": "The article compares tablets and touchscreen laptops, noting that laptops can handle touch workflows while offering more versatility.",
       "image": "https://www.engadget.com/img/gallery/whats-the-point-of-buying-a-touchscreen-laptop-when-you-could-just-get-a-tablet/l-intro-1793717553.jpg",
-      "score": 72,
+      "whyItMatters": "Tech users may prefer the hybrid flexibility of a laptop with touch capability over a single-purpose tablet.",
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://www.engadget.com/2305214/touchscreen-laptop-whats-the-point-could-use-tablet/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech users may prefer the hybrid flexibility of a laptop with touch capability over a single-purpose tablet."
+      "related": []
     },
     {
-      "source": "The Verge",
+      "source": "Engadget",
       "category": "news",
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "published": "2026-11-06T23:00:44.000Z",
-      "summary": "China’s MSS allegedly recruited Nvidia‑related exec Alice Huang to spy on CEO Jensen Huang and influence chip availability.",
-      "excerpt": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 100,
+      "title": "China's main intelligence agency reportedly recruited the spy who targeted NVIDIA's CEO",
+      "link": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo/",
+      "published": "Sat, 07 Nov 2026 14:00:06 +0000",
+      "summary": "China’s main intelligence agency allegedly recruited a spy who targeted NVIDIA CEO Jensen Huang.",
+      "image": "https://www.engadget.com/img/gallery/chinas-main-intelligence-agency-reportedly-recruited-the-spy-who-targeted-nvidias-ceo/l-intro-1794059747.jpg",
+      "score": 84,
       "isPrimary": true,
-      "clusterId": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "Engadget",
-          "url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo/",
-          "title": "China's main intelligence agency reportedly recruited the spy who targeted NVIDIA's CEO"
-        }
-      ],
-      "whyItMatters": "Highlights espionage risks for AI firms and potential supply‑chain vulnerabilities."
+      "clusterId": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Highlights rising cyber‑espionage threats to global tech leaders."
     },
     {
       "source": "Tom's Hardware",
@@ -100,12 +187,12 @@
       "published": "Sat, 07 Nov 2026 14:00:00 +0000",
       "summary": "Sony’s PS5 offers limited backward compatibility compared to Xbox, due to a past decision that restricted its library.",
       "image": "https://www.engadget.com/img/gallery/why-playstation-cant-hold-a-candle-to-xboxs-backward-compatibility/l-intro-1793706665.jpg",
-      "score": 72,
+      "whyItMatters": "Tech-savvy gamers value extensive game libraries and cross-generational play, making Xbox’s compatibility a key advantage.",
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://www.engadget.com/2305049/playstation-cant-hold-candle-to-xbox-backwards-compatibility/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy gamers value extensive game libraries and cross-generational play, making Xbox’s compatibility a key advantage."
+      "related": []
     },
     {
       "source": "Engadget",
@@ -115,12 +202,12 @@
       "published": "Sat, 07 Nov 2026 13:45:00 +0000",
       "summary": "It explains how to enable Gboard’s advanced features to increase productivity on Android.",
       "image": "https://www.engadget.com/img/gallery/how-to-use-gboard-to-boost-productivity-on-your-android-phone/l-intro-1793704835.jpg",
-      "score": 72,
+      "whyItMatters": "Enabling these features can streamline typing and multitasking for tech users.",
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://www.engadget.com/2305040/how-to-use-gboard-boost-productivity-android-phone/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Enabling these features can streamline typing and multitasking for tech users."
+      "related": []
     },
     {
       "source": "Engadget",
@@ -130,12 +217,12 @@
       "published": "Sat, 07 Nov 2026 13:30:00 +0000",
       "summary": "External DACs can upgrade smartphone audio quality for users seeking better sound.",
       "image": "https://www.engadget.com/img/gallery/this-is-when-external-dacs-for-your-phone-are-worth-buying/l-intro-1793681756.jpg",
-      "score": 71,
+      "whyItMatters": "Improved audio enhances media consumption and professional audio work on mobile.",
+      "score": 79,
       "isPrimary": true,
       "clusterId": "https://www.engadget.com/2304952/when-external-dac-worth-buying-for-phone/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Improved audio enhances media consumption and professional audio work on mobile."
+      "related": []
     },
     {
       "source": "Wired",
@@ -182,12 +269,12 @@
       "published": "2026-11-07T13:00:00.000Z",
       "summary": "A comparison of the camera systems on Apple’s iPhone Duo and Samsung’s Galaxy Z Fold 8 foldable smartphones.",
       "image": "https://www.cnet.com/wp-content/uploads/sites/2/iPhone-Duo-vs.-Galaxy-Z-Fold-8-camera-comparison-e1793912595895.jpg",
-      "score": 71,
+      "whyItMatters": "Tech readers can gauge which foldable offers better photography features for mobile use.",
+      "score": 79,
       "isPrimary": true,
       "clusterId": "https://www.cnet.com/tech/mobile/iphone-duo-vs-galaxy-z-fold-8-camera-comparison/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers can gauge which foldable offers better photography features for mobile use."
+      "related": []
     },
     {
       "source": "The Verge",
@@ -331,21 +418,6 @@
     {
       "source": "The Next Web",
       "category": "news",
-      "title": "House chairs ask Nvidia’s Jensen Huang to explain reported spy link",
-      "link": "https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed",
-      "published": "Sat, 07 Nov 2026 10:05:00 +0000",
-      "summary": "Three Republican House committee chairs have asked Nvidia chief executive Jensen Huang to attend a closed-door briefing on 18 November. They want to ask about his contacts with Alice Huang, a former executive at Megaspeed, and how Nvidia…",
-      "excerpt": "Three Republican House committee chairs have asked Nvidia chief executive Jensen Huang to attend a closed-door briefing on 18 November. They want to ask about his contacts with Alice Huang, a former executive at Megaspeed, and how Nvidia guards against spies.John Moolenaar, Brian Mast, and Rick Crawford sent the letter on Wednesday, according to a China […] This story continues at The Next Web",
-      "image": "https://media.thenextweb.com/2026/10/jensen-huang-nvidia-gtc-2026-keynote-speaking-sap-center.avif",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
       "title": "AI teddy for three-year-olds gave unprompted self-harm reply, BBC finds",
       "link": "https://thenextweb.com/news/ai-teddy-for-three-year-olds-gave-unprompted-self-harm-reply-bbc-finds",
       "published": "Sat, 07 Nov 2026 09:52:56 +0000",
@@ -405,18 +477,23 @@
       "related": []
     },
     {
-      "source": "The Information",
+      "source": "TechCrunch",
       "category": "news",
-      "title": "Anthropic to Proceed With IPO Roadshow Next Week",
-      "link": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
-      "published": "2026-11-06T21:56:59.000Z",
-      "summary": "Anthropic next week plans to proceed with formal marketing to potential investors for its upcoming initial public offering, say people familiar with the matter. The IPO roadshow will follow two weeks of volatility for tech stocks after…",
-      "excerpt": "Anthropic next week plans to proceed with formal marketing to potential investors for its upcoming initial public offering, say people familiar with the matter. The IPO roadshow will follow two weeks of volatility for tech stocks after investors reacted to massive AI spending plans from Amazon ...",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "published": "Fri, 06 Nov 2026 22:53:46 +0000",
+      "summary": "OpenAI is reportedly securing an additional $11 billion in funding, pushing its valuation to $1.25 trillion, though the round is not yet closed.",
+      "whyItMatters": "It signals continued investor confidence and could accelerate AI product development and market dominance.",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
-      "clusterSize": 3,
+      "clusterId": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "clusterSize": 5,
       "related": [
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
+          "title": "Anthropic to Proceed With IPO Roadshow Next Week"
+        },
         {
           "source": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
@@ -426,6 +503,11 @@
           "source": "The Verge",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
           "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO"
+        },
+        {
+          "source": "CNET",
+          "url": "https://www.cnet.com/tech/services-and-software/roundup-chatgpt-claude-gpt-6-cyber-images-2-6-personal-finance/",
+          "title": "OpenAI and Anthropic Drop New AI Tools for Cybersecurity, Images and Finance"
         }
       ]
     },
@@ -440,20 +522,6 @@
       "score": 66,
       "isPrimary": true,
       "clusterId": "https://www.cnet.com/tech/mobile/apple-iphone-duo-100000-apps-available/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "published": "Fri, 06 Nov 2026 22:53:46 +0000",
-      "summary": "OpenAI is reportedly securing an additional $11 billion in funding, pushing its valuation to $1.25 trillion, though the round is not yet closed.",
-      "whyItMatters": "It signals continued investor confidence and could accelerate AI product development and market dominance.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "clusterSize": 1,
       "related": []
     },
@@ -743,35 +811,6 @@
       "related": []
     },
     {
-      "source": "CNET",
-      "category": "news",
-      "title": "OpenAI and Anthropic Drop New AI Tools for Cybersecurity, Images and Finance",
-      "link": "https://www.cnet.com/tech/services-and-software/roundup-chatgpt-claude-gpt-6-cyber-images-2-6-personal-finance/",
-      "published": "2026-11-06T18:10:17.000Z",
-      "summary": "",
-      "image": "https://www.cnet.com/wp-content/uploads/sites/2/AdobeStock_1957197742_Editorial_Use_Only.jpeg",
-      "score": 71,
-      "isPrimary": true,
-      "clusterId": "https://www.cnet.com/tech/services-and-software/roundup-chatgpt-claude-gpt-6-cyber-images-2-6-personal-finance/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-      "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-      "published": "2026-11-06T18:10:10.000Z",
-      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you…",
-      "excerpt": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by describing it. If you connect an outside app to Muse - like Gmail, Google Calendar, OpenTable…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-muse-spaces.png?quality=90&strip=all&crop=8.0752843063528,0,91.924715693647,74.471659887186",
-      "score": 79,
-      "isPrimary": true,
-      "clusterId": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
       "source": "SemiWiki",
       "category": "news",
       "title": "ChipNexus Brings Agentic AI into Established Analog Design Flows",
@@ -782,22 +821,6 @@
       "score": 93,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/eda/chipnexus/375471-chipnexus-brings-agentic-ai-into-established-analog-design-flows/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything",
-      "link": "https://www.pcgamer.com/software/linux/all-that-stands-between-a-hacker-and-admin-privileges-on-some-linux-distros-is-a-257-character-long-string-of-literally-anything/",
-      "published": "Fri, 06 Nov 2026 17:31:29 +0000",
-      "summary": "A Linux privilege‑escalation bug, triggered by a 257‑character string, has been fixed in an available patch.",
-      "image": "https://cdn.mos.cms.futurecdn.net/FzqWo3fsvLDFRpTumixHaY-1920-80.jpg",
-      "readMinutes": 2,
-      "whyItMatters": "Tech users should apply the patch to prevent unauthorized admin access.",
-      "score": 72,
-      "isPrimary": true,
-      "clusterId": "https://www.pcgamer.com/software/linux/all-that-stands-between-a-hacker-and-admin-privileges-on-some-linux-distros-is-a-257-character-long-string-of-literally-anything/",
       "clusterSize": 1,
       "related": []
     },
@@ -1025,21 +1048,6 @@
       "related": []
     },
     {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Protesters storm Microsoft AI data center construction site",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
-      "published": "Fri, 06 Nov 2026 13:59:09 +0000",
-      "summary": "The protesters stormed over the walls and took over the construction site, with the Stop Dirty Data Centers coalition saying that more actions are planned across Europe.",
-      "image": "https://cdn.mos.cms.futurecdn.net/xXzamwF8bgCcyR6kJW47Pb-1920-80.png",
-      "readMinutes": 3,
-      "score": 77,
-      "isPrimary": true,
-      "clusterId": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
@@ -1097,35 +1105,6 @@
       "score": 81,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/partnering-with-hacktron",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Jensen Huang Asked to Brief Congress Over Alleged Chinese Spy Plot",
-      "link": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
-      "published": "2026-11-06T06:20:16.000Z",
-      "summary": "Nvidia CEO Jensen Huang is summoned by Congress to discuss alleged ties to a Chinese spy, Alice Huang, amid national security concerns.",
-      "excerpt": "Leaders of three U.S. House committees have summoned Nvidia CEO Jensen Huang to a closed-door briefing later this month over his ties to Alice Huang, a tech executive reportedly identified as a Chinese spy. The New York Times reported last month that U.S. officials had found the Nvidia CEO had a ...",
-      "whyItMatters": "Tech leaders must monitor potential espionage risks that could compromise AI innovation and U.S. data security.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Silver Lake, Saudi Arabia’s PIF Made Takeover Approach for Unity Software",
-      "link": "https://www.theinformation.com/briefings/silver-lake-saudi-arabias-pif-made-takeover-approach-unity-software",
-      "published": "2026-11-06T01:51:32.000Z",
-      "summary": "Video game software maker Unity Software has been approached for a potential takeover by an investor consortium including Saudi Arabia’s PIF and Silver Lake, according to people familiar with the matter. Unity has been working with…",
-      "excerpt": "Video game software maker Unity Software has been approached for a potential takeover by an investor consortium including Saudi Arabia’s PIF and Silver Lake, according to people familiar with the matter. Unity has been working with investment banks to weigh its options, the people said. Unity ...",
-      "score": 87,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/silver-lake-saudi-arabias-pif-made-takeover-approach-unity-software",
       "clusterSize": 1,
       "related": []
     },
@@ -1756,6 +1735,7 @@
       "link": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
       "published": "Tue, 03 Nov 2026 16:00:00 +0000",
       "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720",
       "readMinutes": 4,
       "score": 71,
       "isPrimary": true,
@@ -1850,6 +1830,7 @@
       "published": "Sun, 01 Nov 2026 21:36:00 +0000",
       "summary": "GitHub’s 14th annual Game Off invites developers to create a game themed SHIFT, encouraging creative changes in perspective and mechanics.",
       "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/og-image.png",
       "readMinutes": 6,
       "whyItMatters": "It offers a platform for showcasing innovative game design and community collaboration.",
       "score": 79,
