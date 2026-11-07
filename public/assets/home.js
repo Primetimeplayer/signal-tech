@@ -1784,6 +1784,7 @@ initAuth();
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
+          ${item.score ? `<div class="score-badge" style="display:inline-block;margin:4px 0;padding:2px 6px;background:#eef;border-radius:4px;font-size:0.75rem;color:#336;">Score ${item.score}</div>` : ''}
           ${relatedLinks(item)}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
@@ -1801,6 +1802,7 @@ initAuth();
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${item.summary ? `<p>${textHtml(item.summary)}</p>` : ''}
+          ${item.score ? `<div class="score-badge" style="display:inline-block;margin:4px 0;padding:2px 6px;background:#eef;border-radius:4px;font-size:0.75rem;color:#336;">Score ${item.score}</div>` : ''}
           ${relatedLinks(item)}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
