@@ -1,7 +1,134 @@
 {
-  "updated": "2026-11-06T19:30:41.942Z",
-  "count": 98,
+  "updated": "2026-11-07T00:58:32.442Z",
+  "count": 94,
   "items": [
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "published": "2026-11-06T23:46:18.000Z",
+      "summary": "OpenAI reached a $1.25 trillion valuation after a new $11 billion funding round, marking it among the world’s most valuable companies.",
+      "excerpt": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It signals AI’s escalating economic influence and competitive pressure on other tech firms."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "published": "2026-11-06T23:00:44.000Z",
+      "summary": "China’s MSS allegedly recruited a Megaspeed executive to spy on Nvidia CEO Jensen Huang for AI chip intelligence.",
+      "excerpt": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Highlights geopolitical risks for AI supply chains and corporate security."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "published": "Fri, 06 Nov 2026 22:53:46 +0000",
+      "summary": "OpenAI is reportedly securing an additional $11 billion in funding, pushing its valuation to $1.25 trillion, though the round is not yet closed.",
+      "whyItMatters": "It signals continued investor confidence and could accelerate AI product development and market dominance."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Starlink Mobile: All the news on SpaceX’s major mobile carrier ambitions",
+      "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+      "published": "2026-11-06T22:45:43.000Z",
+      "summary": "SpaceX plans to launch Starlink Mobile as a major 5G carrier, partnering with Qualcomm to deploy its cellular tech worldwide.",
+      "excerpt": "SpaceX has declared that it’s going to make Starlink Mobile a “major” mobile carrier. The Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but its next big challenge is building out its 5G network here on Earth. As part of its plans to rival AT&T, Verizon, and T-Mobile, SpaceX has inked a deal with Qualcomm, which will deploy its cellular technology across tens of thousands of 5G…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy readers should watch as SpaceX could reshape global mobile infrastructure and competition."
+    },
+    {
+      "source": "PC Gamer",
+      "category": "news",
+      "title": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
+      "link": "https://www.pcgamer.com/software/ai/the-ai-posting-war-is-heating-up-please-leave-me-behind-says-artist-who-got-into-it-with-epic-ceo-tim-sweeney-on-x/",
+      "published": "Fri, 06 Nov 2026 22:21:50 +0000",
+      "summary": "The article discusses a heated conflict between gamers and developers over AI-generated content, featuring an artist’s plea to stay out of the debate with Epic CEO Tim Sweeney on X.",
+      "image": "https://cdn.mos.cms.futurecdn.net/QAh2KbRTQ6Y9BSbgacF6VT-1920-80.jpg",
+      "readMinutes": 6,
+      "whyItMatters": "Tech-savvy readers should watch this, as it highlights emerging legal, ethical, and creative tensions shaping the future of game development."
+    },
+    {
+      "source": "GitHub Blog",
+      "category": "news",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "published": "Fri, 06 Nov 2026 22:15:59 +0000",
+      "summary": "The article explains how GitHub Copilot can help developers plan, write, review, and debug code, while highlighting tasks still requiring human judgment.",
+      "excerpt": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog.",
+      "readMinutes": 7,
+      "whyItMatters": "It shows how AI tools can boost productivity but still need skilled oversight."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Re-releases of Wing Commander, Ultima titles hit Steam and GOG",
+      "link": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+      "published": "Fri, 06 Nov 2026 22:08:47 +0000",
+      "summary": "Classic Wing Commander and Ultima games are now available on Steam and GOG, marking a preservation effort for older titles.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/EACOM-News-EA_Classics_Feature_Article_16x9-Screenshot_09.avif",
+      "whyItMatters": "Tech enthusiasts value access to legacy software and the preservation of gaming history."
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Agents reveal secrets when offered to team up with each other",
+      "link": "https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260",
+      "published": "Fri, 06 Nov 2026 21:39:23 +0000",
+      "summary": "Agents disclose confidential info when collaborating, so avoid sharing sensitive data with models.",
+      "image": "https://image.theregister.com/?imageId=254748&width=800",
+      "readMinutes": 5,
+      "whyItMatters": "Tech-savvy readers should protect data integrity when using AI agents."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "published": "Fri, 06 Nov 2026 20:56:41 +0000",
+      "summary": "Chainalysis reports a multi‑front cyberattack that stole customer credentials and tokens, using AI agents and on‑path data interception.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/08/getty-blockchain-1152x648.jpg",
+      "whyItMatters": "Tech readers should note the breach exposes crypto‑asset security risks."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
+      "link": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
+      "published": "Fri, 06 Nov 2026 20:05:30 +0000",
+      "summary": "Six pallets of Nvidia hardware worth $11.4 million disappeared while shipping from Oakland to Texas, with no arrests after two months.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303158972-1152x648.jpg",
+      "whyItMatters": "Highlights supply chain security risks for high‑value tech assets."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "All the latest updates on AI data centers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "published": "2026-11-06T20:02:22.000Z",
+      "summary": "New AI data centers are rapidly expanding, sparking global debates over power, community, and environmental impacts amid political scrutiny.",
+      "excerpt": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead of the 2026 midterms, and voters largely opposed data center expansion at…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "readMinutes": 9,
+      "whyItMatters": "Tech readers should track these shifts to anticipate infrastructure, regulatory, and sustainability challenges."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "FAA to finally ditch floppy disks in what it calls \"historic\" tech upgrade",
+      "link": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+      "published": "Fri, 06 Nov 2026 19:12:28 +0000",
+      "summary": "The FAA will remove all floppy disks from 435 information display sites by 2028, marking a historic tech upgrade.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/sean-duffy-faa-tech-1152x648-1793989923.jpg",
+      "whyItMatters": "Tech-savvy readers will see this as a move toward modern, secure, and efficient aviation infrastructure."
+    },
     {
       "source": "TechCrunch",
       "category": "news",
@@ -60,7 +187,7 @@
       "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
       "published": "2026-11-06T18:10:10.000Z",
       "summary": "Meta’s Muse AI introduces 'spaces' to create app-like experiences—shopping hubs, dashboards, games—within the assistant, syncing data from connected apps.",
-      "excerpt": "Meta will now allow you to build customized, app-like experiences within its Muse AI assistant. The new feature, called \"spaces,\" allows Muse to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the app. If you connect your space to a relevant app, Muse will update pricing, dates, and other information in the background. Meta says you…",
+      "excerpt": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by describing it. If you connect an outside app to Muse - like Gmail, Google Calendar, OpenTable…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-muse-spaces.png?quality=90&strip=all&crop=8.0752843063528,0,91.924715693647,74.471659887186",
       "whyItMatters": "Tech-savvy users can streamline workflows and access tailored tools directly in a single AI interface."
     },
@@ -97,17 +224,6 @@
       "whyItMatters": "Tech users should apply the patch to prevent unauthorized admin access."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The iPhone Duo has more than 100,000 optimized apps, Apple says",
-      "link": "https://www.theverge.com/tech/1028813/apple-iphone-duo-optimized-apps",
-      "published": "2026-11-06T17:24:36.000Z",
-      "summary": "Apple reports over 100,000 apps now optimized for its foldable iPhone Duo, highlighting rapid developer adoption.",
-      "excerpt": "Apple's iPhone Duo has been officially on sale for two weeks, and the company said today that the App Store now has over 100,000 apps that are built for the foldable. \"It's been wonderful to see how quickly developers have embraced iPhone Duo, and we're grateful for their creativity and innovation,\" Susan Prescott, Apple's VP of Worldwide Developer Relations, says in a statement. \"Today there are well over 100,000…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1188.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Shows foldable phones gaining traction, boosting app ecosystem and user experience."
-    },
-    {
       "source": "TechCrunch",
       "category": "news",
       "title": "After the midterms, is the AI industry in for a rough two years?",
@@ -130,16 +246,6 @@
       "whyItMatters": "Tech enthusiasts may want a mac-like experience on Linux without the cost."
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "AI is the new dating dealbreaker",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-      "published": "2026-11-06T17:00:00.000Z",
-      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge…",
-      "excerpt": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where you can say, 'We'll get along if'',\" she recalls. \"Sometimes people will be like, 'Fuck AI.'\" Usually, the people…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268841_When_it_comes_to_dating_is_AI_the_new_politics__CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Oak Ridge labs gets hybrid quantum-HPC system to test qubit error correction",
@@ -150,16 +256,6 @@
       "readMinutes": 2
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Big Tech lost big in the 2026 election",
-      "link": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
-      "published": "2026-11-06T16:38:02.000Z",
-      "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks…",
-      "excerpt": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David discuss what the 2026 midterms mean for the tech industry going forward. They dig into the…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_VST_110626_Site.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "source": "NASA",
       "category": "news",
       "title": "M30’s Sparkling Stars",
@@ -168,15 +264,6 @@
       "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other…",
       "excerpt": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg?w=2048"
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Could potential AI clones of GTA VI force a quicker official port?",
-      "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
-      "published": "Fri, 06 Nov 2026 16:19:12 +0000",
-      "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gta6-1152x648.jpg"
     },
     {
       "source": "NASA",
@@ -207,25 +294,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779"
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "WoW: Forever takes 250,000 GB of memory to run, and I can't even joke about Sam Altman being jealous because that's almost nothing compared to the monolithic demands of AI",
-      "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-takes-250-000-gb-of-memory-to-run-and-i-cant-even-joke-about-sam-altman-being-jealous-because-thats-almost-nothing-compared-to-the-monolithic-demands-of-ai/",
-      "published": "Fri, 06 Nov 2026 15:50:34 +0000",
-      "summary": "That's a lotta gigs.",
-      "image": "https://cdn.mos.cms.futurecdn.net/BTbLNfxrcctnP9Wk6NyQ2Z-1920-80.png",
-      "readMinutes": 2
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "It's a weird time to buy a laptop, but the new MacBook Pro doesn't skimp on quality",
-      "link": "https://arstechnica.com/apple/2026/11/its-a-weird-time-to-buy-a-laptop-but-the-new-macbook-pro-doesnt-skimp-on-quality/",
-      "published": "Fri, 06 Nov 2026 15:28:07 +0000",
-      "summary": "It has the best laptop screen we've used, but there may be reasons to wait.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MacBook-Pro-closed-lid-1152x648.jpg"
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "DoJ's 'Super Intelligence Task Force' up and running",
@@ -244,15 +312,6 @@
       "summary": "Mint 27 to land before Christmas, with stable Wayland display upgrades, as punters try out Cinnamon 6.8",
       "image": "https://image.theregister.com/?imageId=243195&width=800",
       "readMinutes": 3
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
-      "link": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
-      "published": "Fri, 06 Nov 2026 14:13:32 +0000",
-      "summary": "Lawmakers want answers about Jensen Huang’s ties to an alleged Chinese intelligence asset.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285710586-1024x648.jpg"
     },
     {
       "source": "Tom's Hardware",
@@ -297,13 +356,15 @@
       "readMinutes": 2
     },
     {
-      "source": "Ars Technica",
+      "source": "MIT Technology Review",
       "category": "news",
-      "title": "Rocket Report: Artemis II literally tore through the atmosphere; New Glenn delay",
-      "link": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy/",
-      "published": "Fri, 06 Nov 2026 13:33:20 +0000",
-      "summary": "Interstellar Technologies announces more government funding for the Japanese Zero rocket.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/NHQ202604010115orig-1152x648-1793950034.jpg"
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "published": "Fri, 06 Nov 2026 13:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/2026_BA_Reno_15.jpg?w=840",
+      "readMinutes": 4
     },
     {
       "source": "TechCrunch",
@@ -355,16 +416,6 @@
       "readMinutes": 2
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
-      "link": "https://www.pcgamer.com/hardware/discord-is-cutting-memory-usage-and-speeding-up-boot-times-joins-xbox-epic-steam-and-more-for-similar-upgrades-just-this-year/",
-      "published": "Fri, 06 Nov 2026 12:06:34 +0000",
-      "summary": "If it's quicker and more efficient, I'm in.",
-      "image": "https://cdn.mos.cms.futurecdn.net/bK4uZhxvRgcb85EAubQrc-1920-80.jpg",
-      "readMinutes": 2
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
@@ -399,7 +450,7 @@
       "title": "Tesla will stop making the Cybertruck in 2027",
       "link": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
       "published": "Fri, 06 Nov 2026 11:50:10 +0000",
-      "summary": "Elon Musk said the company will use the factory space to make more Cybercabs.",
+      "summary": "The decision to wind down the EV comes after just a few short years of underwhelming sales. Elon Musk said the company will use the factory space to make more Cybercabs.",
       "image": "https://techcrunch.com/wp-content/uploads/2024/04/Cybertruck_78-resized.jpeg?resize=1200,800"
     },
     {
@@ -413,16 +464,6 @@
       "readMinutes": 3
     },
     {
-      "source": "PC Gamer",
-      "category": "news",
-      "title": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
-      "link": "https://www.pcgamer.com/software/zelda-ocarina-of-time-remake-reportedly-running-at-60-fps-on-pc-just-hours-after-games-official-nintendo-switch-2-release/",
-      "published": "Fri, 06 Nov 2026 11:43:06 +0000",
-      "summary": "Visual and performance issues not quite ironed out yet, which will be music to Nintendo's ears.",
-      "image": "https://cdn.mos.cms.futurecdn.net/GJBjS9vsYe7y6P8yspKN8f-1920-80.png",
-      "readMinutes": 2
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "Bank of England pours cold water on AI productivity boom",
@@ -431,17 +472,6 @@
       "summary": "Turns out throwing billions at GPUs doesn't automatically mean everyone gets more done",
       "image": "https://image.theregister.com/?imageId=1683227&width=800",
       "readMinutes": 3
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "UK ministers seek powers to investigate when AI agents are let off the leash",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
-      "published": "Fri, 06 Nov 2026 11:00:00 +0000",
-      "summary": "UK ministers propose powers to investigate uncontrolled AI agents under the Cyber Security and Resilience Bill.",
-      "image": "https://image.theregister.com/?imageId=2918046&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech readers should watch for new regulatory controls on autonomous systems."
     },
     {
       "source": "Tom's Hardware",
@@ -464,46 +494,6 @@
       "excerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/TauRobot-3up.jpg?resize=1200,600",
       "readMinutes": 6
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-      "published": "Fri, 06 Nov 2026 06:28:32 +0000",
-      "summary": "Palo Alto Networks is negotiating to acquire AI agent security startup Clutch for $500 million.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2215666246.jpg?resize=1200,800",
-      "whyItMatters": "Highlights major security firms investing heavily in AI-driven threat detection."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
-      "link": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
-      "published": "Fri, 06 Nov 2026 00:17:06 +0000",
-      "summary": "Blue Origin claims to develop a more powerful rocket engine that costs only a quarter of current prices.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/News_BlueOrigin-Northstar-Engine-1152x648.webp",
-      "whyItMatters": "Lower launch costs could accelerate space access and reduce barriers for commercial and scientific missions."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
-      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
-      "published": "Thu, 05 Nov 2026 23:09:36 +0000",
-      "summary": "The article discusses the sshole vulnerability that lets attackers gain SSH access to Linux devices, notably affecting Alpine and potentially other distributions.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2017/05/getty-hacking-1152x648.jpg",
-      "whyItMatters": "It exposes critical remote access risks for tech-savvy users and administrators."
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
-      "link": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
-      "published": "Thu, 05 Nov 2026 22:49:03 +0000",
-      "summary": "NASA announced the X-70 Fractal, a new experimental aircraft, as part of its plan to expand the X-plane fleet.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/nasa-x-70-image-1152x648.jpeg",
-      "whyItMatters": "It signals NASA’s continued investment in cutting‑edge aviation technology."
     },
     {
       "source": "SpaceNews",
@@ -693,17 +683,6 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/GettyImages-546444524.jpg?w=2667",
       "readMinutes": 4
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "How “reverse game theory” could keep AI agents in check",
-      "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-      "published": "Tue, 03 Nov 2026 10:43:41 +0000",
-      "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are…",
-      "excerpt": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/cake.jpg?resize=1200,600",
-      "readMinutes": 5
     },
     {
       "source": "Krebs on Security",
@@ -920,16 +899,6 @@
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first…",
       "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog.",
       "readMinutes": 16
-    },
-    {
-      "source": "GitHub Blog",
-      "category": "news",
-      "title": "How to continue a GitHub Copilot app session in VS Code",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
-      "published": "Mon, 19 Oct 2026 18:47:22 +0000",
-      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub…",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "readMinutes": 5
     },
     {
       "source": "Krebs on Security",
