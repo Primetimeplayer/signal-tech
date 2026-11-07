@@ -60,6 +60,15 @@ const FEEDS = [
   { name: 'Anthropic', category: 'news', url: 'https://www.anthropic.com/news/rss.xml' },
   { name: 'NVIDIA Blog', category: 'news', url: 'https://blogs.nvidia.com/feed/' },
   { name: 'The Information', category: 'news', url: 'https://www.theinformation.com/feed' },
+  // Additional news-rich sources
+  { name: 'SemiWiki', category: 'news', url: 'https://semiwiki.com/feed/' },
+  { name: 'AnandTech', category: 'news', url: 'https://www.anandtech.com/rss/' },
+  { name: 'ZDNet', category: 'news', url: 'https://www.zdnet.com/news/rss.xml' },
+  { name: 'VentureBeat', category: 'news', url: 'https://venturebeat.com/feed/' },
+  { name: 'The Next Web', category: 'news', url: 'https://thenextweb.com/feed' },
+  { name: 'Engadget', category: 'news', url: 'https://www.engadget.com/rss.xml' },
+  { name: 'CNET', category: 'news', url: 'https://www.cnet.com/rss/news/' },
+  { name: 'Reuters Tech', category: 'news', url: 'https://www.reuters.com/technology/rss' },
 ];
 
 export function buildNewsFeeds(region, language, baseFeeds = FEEDS) {

@@ -2519,8 +2519,6 @@ initAuth();
   const LIVE_FEED_MS = 2500;
 
   async function loadLocalizedNews(region, language) {
-    // Phase 3: force static scored data
-    return null;
     const deadline = Date.now() + LIVE_FEED_MS;
     let lastError = null;
     for (let attempt = 0; attempt < 2; attempt++) {
