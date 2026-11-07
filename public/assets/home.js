@@ -1747,13 +1747,13 @@ initAuth();
       if (!item.related || !item.related.length) return '';
       const shown = item.related.slice(0, 3);
       const links = shown.map(r =>
-        `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;text-decoration:none;font-weight:500;">${escapeHtml(r.source)}</a>`
-      ).join('<span style="color:#ccc;margin:0 4px;">·</span>');
+        `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;text-decoration:none;">${escapeHtml(r.source)}</a>`
+      ).join('<span style="color:#ccc;margin:0 3px;">·</span>');
       const total = item.clusterSize || (item.related.length + 1);
       const extra = total > shown.length + 1
-        ? ` <span style="color:#666;font-size:0.8rem;margin-left:4px;">+${total - 1} more</span>`
+        ? ` <span style="color:#888;font-size:0.78rem;">+${total - 1}</span>`
         : '';
-      return `<div class="related-links" style="margin-top:8px;font-size:0.84rem;line-height:1.5;color:#444;"><span style="font-weight:600;color:#222;">More:</span> ${links}${extra}</div>`;
+      return `<div class="related-links" style="margin-top:4px;font-size:0.8rem;line-height:1.4;color:#555;">${links}${extra}</div>`;
     }
 
     const storyFields = (item) => {
@@ -1791,7 +1791,7 @@ initAuth();
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
-          ${item.score ? `<span class="score-badge" style="display:inline-flex;align-items:center;margin:6px 0 2px;padding:3px 8px;background:#f0f4f8;border-radius:12px;font-size:0.75rem;font-weight:600;color:#1a73e8;letter-spacing:0.01em;">Score ${item.score}</span>` : ''}
+          ${item.score ? `<span class="score-badge" style="display:inline-block;margin:2px 0 4px;padding:1px 6px;background:#f5f7fa;border-radius:8px;font-size:0.7rem;font-weight:500;color:#5f6b7a;">${item.score}</span>` : ''}
           ${relatedLinks(item)}
           ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;"><a href="https://x.com/search?q=${encodeURIComponent(item.title || '')}&src=typed_query" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;text-decoration:none;">See discussion on X</a></div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
@@ -1810,7 +1810,7 @@ initAuth();
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
           ${item.summary ? `<p>${textHtml(item.summary)}</p>` : ''}
-          ${item.score ? `<span class="score-badge" style="display:inline-flex;align-items:center;margin:6px 0 2px;padding:3px 8px;background:#f0f4f8;border-radius:12px;font-size:0.75rem;font-weight:600;color:#1a73e8;letter-spacing:0.01em;">Score ${item.score}</span>` : ''}
+          ${item.score ? `<span class="score-badge" style="display:inline-block;margin:2px 0 4px;padding:1px 6px;background:#f5f7fa;border-radius:8px;font-size:0.7rem;font-weight:500;color:#5f6b7a;">${item.score}</span>` : ''}
           ${relatedLinks(item)}
           ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;color:#666;font-style:italic;">Discussion building across sources</div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
