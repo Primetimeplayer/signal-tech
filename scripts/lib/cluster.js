@@ -1,35 +1,58 @@
 // scripts/lib/cluster.js
-// Basic clustering of related stories (Phase 1)
+// Stronger clustering of related stories (Phase 3)
+
+const STOP = new Set([
+  'the', 'a', 'an', 'of', 'for', 'in', 'on', 'with', 'and', 'or', 'to', 'from', 'by',
+  'is', 'are', 'was', 'were', 'be', 'been', 'being', 'at', 'as', 'it', 'its', 'this',
+  'that', 'these', 'those', 'but', 'if', 'then', 'than', 'so', 'not', 'no', 'yes'
+]);
 
 function normalize(str) {
   return (str || '')
     .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '')
-    .replace(/\b(the|a|an|of|for|in|on|with|and|or|to|from|by)\b/g, '')
-    .replace(/\s+/g, ' ')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length > 2 && !STOP.has(w))
+    .join(' ')
     .trim();
+}
+
+function wordSet(str) {
+  return new Set(normalize(str).split(' ').filter(Boolean));
+}
+
+function jaccard(a, b) {
+  if (!a.size || !b.size) return 0;
+  let inter = 0;
+  for (const w of a) if (b.has(w)) inter++;
+  const union = a.size + b.size - inter;
+  return union ? inter / union : 0;
 }
 
 export function clusterItems(items) {
   const clusters = [];
   const used = new Set();
+  const sets = items.map(item => wordSet(item.title));
 
   for (let i = 0; i < items.length; i++) {
     if (used.has(i)) continue;
     const cluster = [items[i]];
     used.add(i);
-    const base = normalize(items[i].title);
+    const baseSet = sets[i];
+    const baseTime = new Date(items[i].published || 0).getTime();
 
     for (let j = i + 1; j < items.length; j++) {
       if (used.has(j)) continue;
-      const other = normalize(items[j].title);
-      const words = new Set(base.split(' ').filter(w => w.length > 3));
-      const overlap = other.split(' ').filter(w => words.has(w)).length;
-      const hoursApart = Math.abs(
-        new Date(items[i].published || 0) - new Date(items[j].published || 0)
-      ) / 36e5;
+      const sim = jaccard(baseSet, sets[j]);
+      const hoursApart = Math.abs(baseTime - new Date(items[j].published || 0).getTime()) / 36e5;
 
-      if (overlap >= 2 && hoursApart < 36) {
+      // Tighter threshold + time window; boost if high-signal keywords overlap
+      const highSignal = /\b(nvidia|openai|anthropic|tsmc|hbm|gpu|tpu)\b/.test(
+        (items[i].title + ' ' + items[j].title).toLowerCase()
+      );
+      const threshold = highSignal ? 0.18 : 0.25;
+
+      if (sim >= threshold && hoursApart < 48) {
         cluster.push(items[j]);
         used.add(j);
       }
@@ -38,10 +61,16 @@ export function clusterItems(items) {
   }
 
   return clusters.map(cluster => {
-    cluster.sort((a, b) => (b.score || 0) - (a.score || 0));
+    // Prefer higher score, then source diversity
+    cluster.sort((a, b) => {
+      const scoreDiff = (b.score || 0) - (a.score || 0);
+      if (scoreDiff !== 0) return scoreDiff;
+      return (a.source || '').localeCompare(b.source || '');
+    });
     const primary = { ...cluster[0] };
     primary.isPrimary = true;
     primary.clusterId = primary.link || primary.title;
+    primary.clusterSize = cluster.length;
     primary.related = cluster.slice(1).map(item => ({
       source: item.source,
       url: item.link,
