@@ -2511,8 +2511,10 @@ initAuth();
       }
     }
     console.warn('Localized news feed failed; using static JSON', lastError);
-    return null;
+    return null; // Phase 3: force static scored data
   }
+  // Force static scored/clustered data for now
+  async function loadLocalizedNewsForcedNull() { return null; }
 
   async function loadStaticBuckets() {
     const [staticNews, papers, reviews, reddit] = await Promise.all([
@@ -2528,6 +2530,8 @@ initAuth();
   }
 
   function mergeNews(localized, publisher) {
+    // Phase 3: prefer static scored data when available
+    if (publisher && publisher.some(i => i.score != null)) return publisher;
     if (!localized || !localized.length) return publisher;
     const seen = new Set(localized.map((item) => (item.title || '').toLowerCase().trim()).filter(Boolean));
     const rest = publisher.filter((item) => item.source !== 'Google News' && !seen.has((item.title || '').toLowerCase().trim()));
