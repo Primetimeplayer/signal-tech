@@ -9196,7 +9196,29 @@ main .grid,
   body.feed-compact #feed .card.pick-card,
   body.feed-compact #feed .card.story-row,
   body.feed-compact #feed .gn-col > .card.story-row,
-  body.feed-compact #feed .briefing-fill > .card.story-row {
+  body.feed-compact #feed .briefing-fill > .card.story-row,
+  :root[data-theme="dark"] #feed .card.hero-story,
+  :root[data-theme="dark"] #feed .card.hero-story.is-hardware,
+  :root[data-theme="dark"] #feed .card.follow-card,
+  :root[data-theme="dark"] #feed .card.follow-card.is-hardware,
+  :root[data-theme="dark"] #feed .card.pick-card,
+  :root[data-theme="dark"] #feed .card.pick-card.is-hardware,
+  :root[data-theme="dark"] #feed .card.story-row,
+  :root[data-theme="dark"] #feed .gn-col > .card.story-row,
+  :root[data-theme="dark"] #feed .gn-col > .card.story-row.is-hardware,
+  :root[data-theme="dark"] #feed .briefing-fill > .card.story-row,
+  :root[data-theme="dark"] #feed .briefing-fill > .card.story-row.is-hardware,
+  :root[data-theme="dark"] #feed .card.hero-story:hover,
+  :root[data-theme="dark"] #feed .card.hero-story.is-hardware:hover,
+  :root[data-theme="dark"] #feed .card.follow-card:hover,
+  :root[data-theme="dark"] #feed .card.follow-card.is-hardware:hover,
+  :root[data-theme="dark"] #feed .card.pick-card:hover,
+  :root[data-theme="dark"] #feed .card.pick-card.is-hardware:hover,
+  :root[data-theme="dark"] #feed .card.story-row:hover,
+  :root[data-theme="dark"] #feed .gn-col > .card.story-row:hover,
+  :root[data-theme="dark"] #feed .gn-col > .card.story-row.is-hardware:hover,
+  :root[data-theme="dark"] #feed .briefing-fill > .card.story-row:hover,
+  :root[data-theme="dark"] #feed .briefing-fill > .card.story-row.is-hardware:hover {
     display: flex !important;
     flex-flow: row wrap !important;
     align-items: flex-start !important;
@@ -9213,10 +9235,23 @@ main .grid,
     background-color: transparent !important;
     background-image: none !important;
     border: 0 !important;
-    border-bottom: 1px solid var(--line) !important;
     border-radius: 0 !important;
     box-shadow: none !important;
     transform: none !important;
+  }
+
+  /* The rounded inset ring is decorative, so phones drop the pseudo. */
+  #feed .card::before,
+  #feed .card::after {
+    content: none !important;
+    display: none !important;
+    box-shadow: none !important;
+  }
+
+  /* No card footer: the action row loses its rule and extra padding. */
+  #feed .card .card-actions {
+    border-top: 0 !important;
+    padding-top: 0 !important;
   }
 
   #feed .card.hero-story:hover,
