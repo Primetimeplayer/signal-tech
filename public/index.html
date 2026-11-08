@@ -346,6 +346,12 @@
 <style>
   :root:not([data-theme="dark"]) { --bg: #ffffff; }
 
+  /* Articles end on the gradient: no rule above the Save/Share row. */
+  #feed .card .card-actions,
+  #feed .card .actions {
+    border-top: 0 !important;
+  }
+
   #feed .card:is(.hero-story, .hero-story.is-hardware, .follow-card, .follow-card.is-hardware, .pick-card, .pick-card.is-hardware, .story-row, .story-row.is-hardware),
   #feed .card:is(.hero-story, .hero-story.is-hardware, .follow-card, .follow-card.is-hardware, .pick-card, .pick-card.is-hardware, .story-row, .story-row.is-hardware):hover,
   #feed .briefing-card > .card:is(.hero-story, .hero-story.is-hardware, .follow-card, .follow-card.is-hardware, .pick-card, .pick-card.is-hardware, .story-row, .story-row.is-hardware),
