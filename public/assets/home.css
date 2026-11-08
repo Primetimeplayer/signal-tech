@@ -9157,3 +9157,378 @@ main .grid,
 .related-links a:hover { text-decoration: underline; }
 
 .cluster-count { color: var(--text-muted, #888); font-size: 0.78rem; }
+/* Summaries added for the phone feed stay out of the desktop cards. */
+#feed .story-summary { display: none !important; }
+
+/* Phone feed cards only (the site's 800px breakpoint). */
+@media (max-width: 800px) {
+  #feed .follow-ups,
+  #feed .picks-list,
+  #feed .lower-grid,
+  #feed .lower-grid.pair-row,
+  #feed .lower-grid.cols-1,
+  #feed .lower-grid.cols-2,
+  #feed .lower-grid.cols-3 {
+    gap: 0 !important;
+    row-gap: 0 !important;
+    column-gap: 0 !important;
+  }
+
+  #feed .card.hero-story,
+  #feed .briefing-card > .card.hero-story,
+  #feed .briefing-card > .card.hero-story.is-hardware,
+  #feed .card.hero-story.is-hardware,
+  #feed .card.follow-card,
+  #feed .card.follow-card.is-hardware,
+  #feed .card.pick-card,
+  #feed .card.pick-card.is-hardware,
+  #feed .card.story-row,
+  #feed .gn-col > .card.story-row,
+  #feed .gn-col > .card.story-row:last-child,
+  #feed .gn-col > .card.story-row.is-hardware,
+  #feed .gn-col > .card.story-row.is-hardware:last-child,
+  #feed .briefing-fill > .card.story-row,
+  #feed .briefing-fill > .card.story-row:last-child,
+  #feed .briefing-fill > .card.story-row.is-hardware,
+  #feed .briefing-fill > .card.story-row.is-hardware:last-child,
+  body.feed-compact #feed .card.hero-story,
+  body.feed-compact #feed .card.follow-card,
+  body.feed-compact #feed .card.pick-card,
+  body.feed-compact #feed .card.story-row,
+  body.feed-compact #feed .gn-col > .card.story-row,
+  body.feed-compact #feed .briefing-fill > .card.story-row {
+    display: flex !important;
+    flex-flow: row wrap !important;
+    align-items: flex-start !important;
+    align-content: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 22px 0 20px !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: 0 !important;
+    border-bottom: 1px solid var(--line) !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  #feed .card.hero-story:hover,
+  #feed .briefing-card > .card.hero-story:hover,
+  #feed .card.follow-card:hover,
+  #feed .card.follow-card.is-hardware:hover,
+  #feed .card.pick-card:hover,
+  #feed .card.pick-card.is-hardware:hover,
+  #feed .card.story-row:hover,
+  #feed .gn-col > .card.story-row:hover,
+  #feed .gn-col > .card.story-row:last-child:hover,
+  #feed .gn-col > .card.story-row.is-hardware:hover,
+  #feed .gn-col > .card.story-row.is-hardware:last-child:hover,
+  #feed .briefing-fill > .card.story-row:hover,
+  #feed .briefing-fill > .card.story-row:last-child:hover,
+  #feed .briefing-fill > .card.story-row.is-hardware:hover,
+  #feed .briefing-fill > .card.story-row.is-hardware:last-child:hover,
+  :root[data-theme="dark"] #feed .card.hero-story,
+  :root[data-theme="dark"] #feed .card.follow-card,
+  :root[data-theme="dark"] #feed .card.pick-card,
+  :root[data-theme="dark"] #feed .card.story-row,
+  :root[data-theme="dark"] #feed .gn-col > .card.story-row,
+  :root[data-theme="dark"] #feed .briefing-fill > .card.story-row,
+  :root[data-theme="dark"] #feed .gn-col > .card.story-row.is-hardware,
+  :root[data-theme="dark"] #feed .briefing-fill > .card.story-row.is-hardware {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  #feed .card .story-copy,
+  #feed .card .hero-copy,
+  #feed .card .card-actions,
+  #feed .card .note-box,
+  #feed .card .why,
+  #feed .card h2,
+  #feed .card .source-line,
+  #feed .card .card-meta,
+  #feed .card .story-summary,
+  #feed .card .hero-dek {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+
+  #feed .card.hero-story > .hero-copy,
+  #feed .card.follow-card > .story-copy,
+  #feed .card.pick-card > .story-copy,
+  #feed .card.story-row > .story-copy,
+  #feed .gn-col > .card.story-row > .story-copy,
+  #feed .briefing-fill > .card.story-row > .story-copy {
+    display: contents !important;
+  }
+
+  #feed .card.hero-story > .hero-copy > *,
+  #feed .card.follow-card > .story-copy > *,
+  #feed .card.pick-card > .story-copy > *,
+  #feed .card.story-row > .story-copy > *,
+  #feed .gn-col > .card.story-row > .story-copy > *,
+  #feed .briefing-fill > .card.story-row > .story-copy > * {
+    flex: 1 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    order: 8 !important;
+  }
+
+  #feed .card.hero-story > .hero-media,
+  #feed .card > .story-thumb,
+  #feed .card > .story-media,
+  #feed .card > .pick-thumb,
+  #feed .card > .pick-media,
+  #feed .card.follow-card > .story-thumb,
+  #feed .card.follow-card > .story-media,
+  #feed .gn-col > .card.story-row > .story-thumb,
+  #feed .gn-col > .card.story-row > .story-media,
+  #feed .briefing-fill > .card.story-row > .story-thumb,
+  #feed .briefing-fill > .card.story-row > .story-media,
+  #feed .pick-card > .pick-thumb,
+  #feed .pick-card > .pick-media {
+    order: 1 !important;
+  }
+
+  #feed .card.hero-story > .hero-copy > h2,
+  #feed .card.follow-card > .story-copy > h2,
+  #feed .card.pick-card > .story-copy > h2,
+  #feed .card.story-row > .story-copy > h2,
+  #feed .gn-col > .card.story-row > .story-copy > h2,
+  #feed .briefing-fill > .card.story-row > .story-copy > h2 {
+    order: 2 !important;
+    margin: 0 !important;
+  }
+
+  #feed .card.hero-story > .hero-copy > .source-line,
+  #feed .card > .story-copy > .source-line,
+  #feed .gn-col > .card.story-row > .story-copy > .source-line,
+  #feed .briefing-fill > .card.story-row > .story-copy > .source-line {
+    order: 3 !important;
+    margin: 8px 0 0 !important;
+  }
+
+  #feed .card.hero-story > .hero-copy > .card-meta,
+  #feed .card > .story-copy > .card-meta,
+  #feed .gn-col > .card.story-row > .story-copy > .card-meta,
+  #feed .briefing-fill > .card.story-row > .story-copy > .card-meta {
+    order: 4 !important;
+    margin: 2px 0 0 !important;
+  }
+
+  #feed .card > .story-copy > .card-chips,
+  #feed .card.hero-story > .hero-copy > .card-chips { order: 5 !important; }
+
+  #feed .card > .story-copy > .story-summary,
+  #feed .card > .story-copy > .hero-dek,
+  #feed .card.hero-story > .hero-copy > .hero-dek,
+  #feed .card.story-row .story-summary,
+  #feed .card.follow-card .story-summary,
+  #feed .card.pick-card .story-summary { order: 6 !important; }
+
+  #feed .card > .story-copy > .why,
+  #feed .card.hero-story > .hero-copy > .why { order: 7 !important; }
+
+  #feed .card > .story-copy > .card-actions,
+  #feed .card.hero-story > .hero-copy > .card-actions {
+    order: 9 !important;
+    margin-top: 12px !important;
+  }
+
+  #feed .card > .story-copy > .note-box,
+  #feed .card.hero-story > .hero-copy > .note-box { order: 10 !important; }
+
+  #feed .card.hero-story > .hero-media {
+    position: relative !important;
+    display: block !important;
+    flex: 1 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    aspect-ratio: 2 / 1 !important;
+    margin: 0 0 14px !important;
+    overflow: hidden !important;
+    border-radius: 8px !important;
+    background: var(--skeleton, #f3f4f6) !important;
+  }
+
+  #feed .card.hero-story > .hero-media > .hero-thumb,
+  #feed .card.hero-story > .hero-media > img,
+  #feed .card.hero-story .hero-media .media-fallback,
+  #feed .card.hero-story .hero-media .media-fallback.media-tile {
+    position: absolute !important;
+    inset: 0 !important;
+    display: flex !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+  }
+
+  #feed .card > .story-thumb,
+  #feed .card > .story-media,
+  #feed .card > .pick-thumb,
+  #feed .card > .pick-media,
+  #feed .card.story-row .story-thumb,
+  #feed .card.story-row .story-media,
+  #feed .card.follow-card .story-thumb,
+  #feed .card.follow-card .story-media,
+  #feed .gn-col > .card.story-row .story-thumb,
+  #feed .gn-col > .card.story-row .story-media,
+  #feed .briefing-fill > .card.story-row .story-thumb,
+  #feed .briefing-fill > .card.story-row .story-media,
+  #feed .pick-thumb,
+  #feed .pick-card .pick-thumb,
+  #feed .pick-card .pick-media,
+  #feed .pick-card .story-thumb,
+  #feed .pick-card .story-media,
+  #feed .card.story-row .media-fallback.media-tile,
+  #feed .card.follow-card .media-fallback.media-tile,
+  #feed .pick-card .media-fallback.media-tile {
+    display: block !important;
+    flex: 1 0 100% !important;
+    align-self: stretch !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    aspect-ratio: 2 / 1 !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+    margin: 0 0 14px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    background: var(--skeleton, #f3f4f6) !important;
+  }
+
+  #feed .card .media-fallback.media-tile {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  #feed .card .media-fallback.media-tile .media-fallback-mark {
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 36px !important;
+    min-height: 36px !important;
+    max-width: 36px !important;
+    max-height: 36px !important;
+    flex: 0 0 36px !important;
+  }
+
+  #feed .card.hero-story h2,
+  #feed .card.hero-story h2 a,
+  #feed .briefing-card > .card.hero-story h2,
+  #feed .briefing-card > .card.hero-story h2 a,
+  #feed .briefing-card > .card:first-child h2,
+  #feed .card.story-row h2,
+  #feed .card.story-row h2 a,
+  #feed .gn-col > .card.story-row h2,
+  #feed .gn-col > .card.story-row h2 a,
+  #feed .briefing-fill > .card.story-row h2,
+  #feed .briefing-fill > .card.story-row h2 a,
+  #feed .card.follow-card h2,
+  #feed .card.follow-card h2 a,
+  #feed .card.pick-card h2,
+  #feed .card.pick-card h2 a {
+    margin: 0 !important;
+    color: var(--text) !important;
+    font-family: 'Space Grotesk', Inter, sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 1.28 !important;
+    letter-spacing: -0.02em !important;
+    text-wrap: pretty;
+  }
+
+  #feed .card .source-line {
+    color: var(--text-muted) !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+  }
+
+  #feed .card .source-name,
+  #feed .card.story-row .source-name,
+  #feed .card.follow-card .source-name,
+  #feed .card.pick-card .source-name,
+  #feed .card.hero-story .source-name {
+    color: var(--text-muted) !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+  }
+
+  #feed .card .card-meta,
+  #feed .card.story-row .card-meta,
+  #feed .card.follow-card .card-meta,
+  #feed .card.pick-card .card-meta,
+  #feed .card.hero-story .card-meta,
+  #feed .briefing-card > .card.hero-story .card-meta,
+  #feed .card .card-meta .meta-time,
+  #feed .card .card-meta .meta-author,
+  #feed .briefing-card > .card.hero-story .card-meta .meta-time,
+  #feed .briefing-card > .card.hero-story .card-meta .meta-author {
+    color: var(--text-muted) !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+  }
+
+  #feed .card.story-row .story-summary,
+  #feed .card.follow-card .story-summary,
+  #feed .card.pick-card .story-summary,
+  #feed .card.story-row .story-copy > p.story-summary,
+  #feed .card.hero-story .hero-dek,
+  #feed .briefing-card > .card.hero-story .hero-dek {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 3 !important;
+    line-clamp: 3 !important;
+    overflow: hidden !important;
+    margin: 10px 0 0 !important;
+    color: var(--text-muted) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+  }
+
+  #feed .card.hero-story .why { margin-top: 10px !important; }
+
+  #feed .card > .media-fallback.media-tile,
+  #feed .card.follow-card > .media-fallback.media-tile,
+  #feed .card.pick-card > .media-fallback.media-tile,
+  #feed .card.story-row > .media-fallback.media-tile,
+  #feed .gn-col > .card.story-row > .media-fallback.media-tile,
+  #feed .briefing-fill > .card.story-row > .media-fallback.media-tile,
+  #feed .card.hero-story .hero-media .media-fallback.media-tile {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    background: #1A73E8 !important;
+    color: #ffffff !important;
+  }
+}

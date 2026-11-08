@@ -855,17 +855,25 @@ initAuth();
     link.setAttribute('fetchpriority', 'high');
   }
 
+  function feedImageWidth(kind) {
+    if (kind === 'hero') return 800;
+    try {
+      if (typeof window.matchMedia === 'function' && window.matchMedia('(max-width: 800px)').matches) return 480;
+    } catch (err) { /* a missing matchMedia keeps the 80px list thumbs */ }
+    return 80;
+  }
+
   function cardImage(item, kind, width, height) {
     const url = storyImageUrl(item);
     if (!url) return kind === 'hero' ? mediaPlaceholder(item, kind) : '';
     const cls = kind === 'hero' ? 'hero-thumb' : kind === 'pick' ? 'pick-thumb' : 'story-thumb';
     const host = publisherHost(item && item.link);
     // List thumbs request 80px (160px at 2x, 240px at 3x). The hero stays 800.
-    const sized = resizedImage(url, kind === 'hero' ? 800 : 80);
+    const sized = resizedImage(url, feedImageWidth(kind));
     if (kind === 'hero' && heroLeadsViewport()) preloadHeroImage(url);
     const loading = kind === 'hero' ? 'eager' : 'lazy';
     const priority = kind === 'hero' ? ' fetchpriority="high"' : '';
-    const sizes = kind === 'hero' ? ' sizes="(max-width: 800px) 100vw, 640px"' : ' sizes="96px"';
+    const sizes = kind === 'hero' ? ' sizes="(max-width: 800px) 100vw, 640px"' : ' sizes="(max-width: 800px) 100vw, 96px"';
     const srcAttr = ` src="${escapeAttr(sized.src)}" srcset="${escapeAttr(sized.srcset)}"`;
     return `<img class="${cls}" alt="${escapeAttr(imageAltText(item))}" width="${width}" height="${height}" loading="${loading}" decoding="async" referrerpolicy="no-referrer"${priority}${sizes}${srcAttr} data-src="${escapeAttr(url)}" data-category="${escapeAttr(storyCategory(item))}" data-source-host="${escapeAttr(host)}" onerror="signalImageFallback(this)">`;
   }
@@ -890,7 +898,7 @@ initAuth();
       }
       const original = img.dataset.src;
       if (original) {
-        const sized = resizedImage(original, hero ? 800 : 80);
+        const sized = resizedImage(original, feedImageWidth(hero ? 'hero' : 'story'));
         img.src = sized.src;
         img.srcset = sized.srcset;
         if (hero) preloadHeroImage(original);
@@ -906,6 +914,11 @@ initAuth();
 
   function storyThumb(item, width = 96, height = 72) {
     return cardImage(item, 'story', width, height);
+  }
+
+  function storySummary(item) {
+    if (!item || !item.summary) return '';
+    return `<p class="story-summary">${textHtml(item.summary)}</p>`;
   }
 
   function storyByline(item) {
@@ -1791,9 +1804,10 @@ initAuth();
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
+          ${storySummary(item)}
           ${item.score ? `<span class="score-badge" style="display:inline-block;margin:1px 0 2px;padding:0 4px;font-size:0.65rem;font-weight:400;color:#9aa0a6;opacity:0.75;">${item.score}</span>` : ''}
           ${relatedLinks(item)}
-          ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;"><a href="https://x.com/search?q=${encodeURIComponent(item.title || '')}&src=typed_query" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;text-decoration:none;">See discussion on X</a></div>` : ''}
+          ${item.score >= 95 ? `<div class="story-discussion" style="margin-top:6px;font-size:0.78rem;"><a href="https://x.com/search?q=${encodeURIComponent(item.title || '')}&src=typed_query" target="_blank" rel="noopener noreferrer" style="color:#1a73e8;text-decoration:none;">See discussion on X</a></div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
         ${storyThumb(item, 96, 72)}
@@ -1809,7 +1823,7 @@ initAuth();
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
-          ${item.summary ? `<p>${textHtml(item.summary)}</p>` : ''}
+          ${storySummary(item)}
           ${item.score ? `<span class="score-badge" style="display:inline-block;margin:1px 0 2px;padding:0 4px;font-size:0.65rem;font-weight:400;color:#9aa0a6;opacity:0.75;">${item.score}</span>` : ''}
           ${relatedLinks(item)}
           ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;color:#666;font-style:italic;">Discussion building across sources</div>` : ''}
@@ -1894,6 +1908,7 @@ initAuth();
           <h2><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${textHtml(item.title)}</a></h2>
           ${cardMeta(item)}
           ${fields.chips.length ? `<div class="card-chips">${fields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
+          ${storySummary(item)}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
         ${pickThumb(item)}
