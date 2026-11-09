@@ -9806,8 +9806,22 @@ main .grid,
   }
 
   #main #feed .card .card-actions {
-    margin: 8px 0 0 !important;
+    margin: 8px 8px 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     border-top: 0 !important;
+  }
+
+  /* Under the summary, phones keep only Save, Share, and Preview. */
+  #main #feed .card .why,
+  #main #feed .card .card-chips,
+  #main #feed .card .related-links,
+  #main #feed .card .story-discussion,
+  #main #feed .card .score-badge,
+  #main #feed .card .note-box {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
 

@@ -1841,7 +1841,7 @@ initAuth();
           ${storySummary(item)}
           ${item.score ? `<span class="score-badge" style="display:inline-block;margin:1px 0 2px;padding:0 4px;font-size:0.65rem;font-weight:400;color:#9aa0a6;opacity:0.75;">${item.score}</span>` : ''}
           ${relatedLinks(item)}
-          ${item.score >= 95 ? `<div style="margin-top:6px;font-size:0.78rem;color:#666;font-style:italic;">Discussion building across sources</div>` : ''}
+          ${item.score >= 95 ? `<div class="story-discussion" style="margin-top:6px;font-size:0.78rem;color:#666;font-style:italic;">Discussion building across sources</div>` : ''}
           ${cardActions(item, fields.saved, fields.note)}
         </div>
         ${storyThumb(item, 96, 72)}
