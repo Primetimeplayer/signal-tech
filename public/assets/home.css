@@ -9162,7 +9162,10 @@ main .grid,
 #feed .story-summary { display: none !important; }
 
 @media (min-width: 801px) {
-  #feed .card .story-summary {
+  /* Story rows hide every paragraph in the copy column. The summary class
+     has to outrank that rule or the lower feed stays heading-only. */
+  #feed .card .story-summary,
+  #feed .story-row .story-copy > p.story-summary {
     display: -webkit-box !important;
     -webkit-box-orient: vertical !important;
     -webkit-line-clamp: 3 !important;

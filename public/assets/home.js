@@ -916,9 +916,22 @@ initAuth();
     return cardImage(item, 'story', width, height);
   }
 
+  // Existing story text only: the written summary, then an excerpt, then
+  // the short "why it matters" note. Nothing is generated when all three
+  // are empty.
+  function storyBlurb(item) {
+    if (!item) return '';
+    const summary = String(item.summary || '').trim();
+    if (summary) return summary;
+    const excerpt = String(item.excerpt || '').trim();
+    if (excerpt) return excerpt;
+    return String(item.whyItMatters || '').trim();
+  }
+
   function storySummary(item) {
-    if (!item || !item.summary) return '';
-    return `<p class="story-summary">${textHtml(item.summary)}</p>`;
+    const text = storyBlurb(item);
+    if (!text) return '';
+    return `<p class="story-summary">${textHtml(text)}</p>`;
   }
 
   function storyByline(item) {
@@ -1780,6 +1793,8 @@ initAuth();
     };
 
     const leadFields = storyFields(lead);
+    const leadBlurb = storyBlurb(lead);
+    const leadDekIsWhy = !!leadBlurb && leadBlurb === String(lead.whyItMatters || '').trim();
     const hero = `
       <article class="card hero-story ${kindClass(lead)}${leadFields.hw ? ' is-hardware' : ''}">
         <a class="hero-media" href="${escapeAttr(lead.link)}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">${cardImage(lead, 'hero', 640, 248)}</a>
@@ -1788,8 +1803,8 @@ initAuth();
           <h2><a href="${escapeAttr(lead.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(lead.title)}">${textHtml(lead.title)}</a></h2>
           ${cardMeta(lead)}
           ${leadFields.chips.length ? `<div class="card-chips">${leadFields.chips.map((chip) => `<span class="chip chip-${chip.kind}">${escapeHtml(chip.text)}</span>`).join('')}</div>` : ''}
-          ${lead.summary ? `<p class="hero-dek">${textHtml(lead.summary)}</p>` : ''}
-          ${lead.whyItMatters ? `<div class="why"><b>${escapeHtml(t('whyItMatters'))}</b>${textHtml(lead.whyItMatters)}</div>` : ''}
+          ${leadBlurb ? `<p class="hero-dek">${textHtml(leadBlurb)}</p>` : ''}
+          ${lead.whyItMatters && !leadDekIsWhy ? `<div class="why"><b>${escapeHtml(t('whyItMatters'))}</b>${textHtml(lead.whyItMatters)}</div>` : ''}
           ${relatedLinks(lead)}
           ${cardActions(lead, leadFields.saved, leadFields.note)}
         </div>
