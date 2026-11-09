@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-09T11:46:56.796Z",
+  "updated": "2026-11-09T22:29:24.732Z",
   "count": 20,
   "items": [
     {
       "title": "On Agentic Manipulation Policies",
-      "summary": "The article demonstrates that generalist AI models outperform specialist policies in robot manipulation tasks, offering more reliable control via agentic manipulation policies.",
+      "summary": "The article shows generalist AI models outperform specialist policies in robot manipulation tasks, analyzing agentic manipulation policies (AMPs).",
       "link": "http://arxiv.org/abs/2611.09892v1",
       "published": "2026-11-06T18:59:34Z",
       "authors": [
@@ -28,11 +28,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers should note this could streamline robotic deployment and reduce reliance on task-specific training."
+      "whyItMatters": "Tech-savvy readers care because it suggests broader, more reliable AI control for robotics."
     },
     {
       "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
-      "summary": "The paper proposes CPU-ARC, a method that caches reasoning steps so a language model can reuse solutions for new problems, reducing redundant computation.",
+      "summary": "The paper proposes CPU-ARC, a method that caches reasoning steps so LLMs can reuse solutions for new tasks, reducing redundant computation.",
       "link": "http://arxiv.org/abs/2611.09891v1",
       "published": "2026-11-06T18:58:50Z",
       "authors": [
@@ -45,11 +45,11 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "It cuts inference costs and speeds up LLM-powered applications by reusing prior reasoning."
+      "whyItMatters": "It could speed up on‑CPU inference and lower costs for developers using large language models."
     },
     {
       "title": "On the (non-)closedness of the set of ReLU networks",
-      "summary": "The paper shows that one‑hidden‑layer ReLU networks with up to N neurons form a weakly closed set in Sobolev space, ensuring existence of minimizers for certain energies.",
+      "summary": "The paper shows ReLU networks with limited neurons form a weakly closed set in Sobolev space, ensuring energy minimizers exist for methods like Deep Ritz.",
       "link": "http://arxiv.org/abs/2611.09887v1",
       "published": "2026-11-06T18:58:06Z",
       "authors": [
@@ -63,11 +63,11 @@
         "math.NA",
         "math.OC"
       ],
-      "whyItMatters": "It guarantees convergence and optimality for training methods like Deep Ritz and Lipschitz learning in practical neural network design."
+      "whyItMatters": "Tech readers care because it guarantees convergence and optimality for popular neural network training techniques."
     },
     {
       "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
-      "summary": "FlowMoP introduces a stochastic multi-person motion prediction model using conditional flow matching to generate diverse future trajectories.",
+      "summary": "FlowMoP introduces a stochastic multi-person motion prediction model using conditional flow matching to generate diverse future trajectories for each agent.",
       "link": "http://arxiv.org/abs/2611.09882v1",
       "published": "2026-11-06T18:56:41Z",
       "authors": [
@@ -79,11 +79,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It enables more realistic, uncertainty-aware planning for autonomous systems interacting with crowds."
+      "whyItMatters": "It enables more realistic, uncertainty-aware planning for autonomous systems interacting with humans."
     },
     {
       "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
-      "summary": "The paper shows how graded convolutional networks achieve scale invariance and blur robustness by using scale-normalized jets and weighted sphere retractions.",
+      "summary": "The paper shows how graded convolutional networks achieve scale invariance and blur robustness by using scale‑normalized jets and weighted spheres.",
       "link": "http://arxiv.org/abs/2611.09878v1",
       "published": "2026-11-06T18:54:03Z",
       "authors": [
@@ -93,11 +93,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because it offers a principled way to build CNNs that handle scale changes and unknown blur."
+      "whyItMatters": "Tech readers care because it offers a principled way to build neural nets that handle size changes and blur without extra training."
     },
     {
       "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
-      "summary": "The paper examines how reliable majority‑vote pseudo‑labels are for test‑time reinforcement learning of language models, dissecting bias and rollout noise.",
+      "summary": "The paper examines how reliable majority-vote pseudo-labels are for test-time reinforcement learning of language models, breaking down errors into bias and rollout variation.",
       "link": "http://arxiv.org/abs/2611.09872v1",
       "published": "2026-11-06T18:49:02Z",
       "authors": [
@@ -110,11 +110,11 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "Understanding label reliability can improve domain adaptation and reduce costly manual labeling for AI developers."
+      "whyItMatters": "Understanding pseudo-label trustworthiness helps improve adaptive language model performance on new data."
     },
     {
       "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
-      "summary": "CodeQuant2 introduces outlier mitigation and adaptive clustering to improve low‑precision quantization of large reasoning models during early decoding steps.",
+      "summary": "CodeQuant2 improves low‑precision large reasoning models by mitigating outliers and adapting clustering during early decoding steps.",
       "link": "http://arxiv.org/abs/2611.09868v1",
       "published": "2026-11-06T18:48:04Z",
       "authors": [
@@ -127,11 +127,11 @@
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "It reduces inference costs while preserving reasoning accuracy, benefiting developers deploying LLMs on resource‑constrained hardware."
+      "whyItMatters": "It reduces inference cost while preserving reasoning accuracy for tech‑savvy users."
     },
     {
       "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
-      "summary": "The paper introduces GRAC, a graph-based retrieval-augmented model that generates surgical scene captions to streamline operative report creation.",
+      "summary": "GRAC uses graph-based retrieval to generate automated captions for surgical scenes, aiming to streamline operative report creation.",
       "link": "http://arxiv.org/abs/2611.09866v1",
       "published": "2026-11-06T18:47:23Z",
       "authors": [
@@ -150,7 +150,7 @@
     },
     {
       "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
-      "summary": "The paper presents Grasp-TAGS, a method for selecting task-aware grasps using critic distillation to improve mobile manipulators’ long-horizon loco‑manipulation.",
+      "summary": "The paper presents Grasp-TAGS, a method that uses critic distillation to select task-aware grasps for mobile manipulators performing long-horizon loco-manipulation tasks.",
       "link": "http://arxiv.org/abs/2611.09864v1",
       "published": "2026-11-06T18:44:33Z",
       "authors": [
@@ -163,11 +163,11 @@
         "cs.AI",
         "cs.LG"
       ],
-      "whyItMatters": "It offers a way to boost reliability in service and warehouse robots that must move and manipulate large objects."
+      "whyItMatters": "It improves reliability of mobile robots handling large objects, benefiting warehouse automation and service robotics."
     },
     {
       "title": "Flow-Guided Target-Space Alignment via Path Consistency",
-      "summary": "The paper proposes a flow-guided method that aligns source data into a target modality’s space, preserving global structure and instance-level pairing for downstream use.",
+      "summary": "The paper proposes a flow-guided method that aligns source modalities into a target space, preserving global structure and instance-level correspondence for downstream tasks.",
       "link": "http://arxiv.org/abs/2611.09863v1",
       "published": "2026-11-06T18:44:08Z",
       "authors": [
@@ -183,11 +183,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It improves multimodal integration, enabling more accurate cross-modal analysis and better downstream performance."
+      "whyItMatters": "Tech-savvy readers benefit from improved multimodal integration and accurate downstream analysis."
     },
     {
       "title": "How far does a hash-only sender go? A pre-registered map of sender memory versus bits for short text messages",
-      "summary": "The study tests if a sender using only hashes, with a language model at the receiver, can send short English texts more cheaply than a fully trained sender.",
+      "summary": "The article investigates whether a sender that only transmits hash bits, with a language model at the receiver, can send short English texts more cheaply than a fully trained sender, using a pre‑registered experiment on 1,000 Taskmaster‑1 utterances.",
       "link": "http://arxiv.org/abs/2611.09848v1",
       "published": "2026-11-06T18:31:24Z",
       "authors": [
@@ -197,11 +197,11 @@
         "cs.IT",
         "cs.CL"
       ],
-      "whyItMatters": "It explores cost‑efficient text transmission for edge devices and low‑bandwidth scenarios."
+      "whyItMatters": "It explores a novel, potentially lower‑cost communication protocol that could reduce bandwidth and computation for edge devices."
     },
     {
       "title": "Computer-Use Agents Are Embodied Generalists",
-      "summary": "The article argues embodied AI can shift to general-purpose models by treating physical interactions as digital software tasks, enabling versatile agents.",
+      "summary": "The article argues embodied AI will shift to general-purpose models, using software to render physical environments and provide controls for agents.",
       "link": "http://arxiv.org/abs/2611.09847v1",
       "published": "2026-11-06T18:31:17Z",
       "authors": [
@@ -212,7 +212,7 @@
         "cs.LG",
         "cs.RO"
       ],
-      "whyItMatters": "Tech readers should watch this for its potential to unify robotics and software AI, simplifying development and deployment."
+      "whyItMatters": "Tech-savvy readers should watch this trend for its impact on AI flexibility and cross-domain applications."
     },
     {
       "title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization",
