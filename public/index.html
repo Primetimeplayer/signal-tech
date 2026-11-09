@@ -406,11 +406,132 @@
       rgba(138, 180, 248, 0.07) 100%);
   }
 
-  /* Phones only: no sidebar sits beside the feed, so the same layer can
-     bleed 12px past each article box. Desktop keeps the layer flush with
-     the article, exactly as it was. */
+  /* PHONE FEED — The Hacker News proportions, applied only below the 800px
+     breakpoint. Measured on thehackernews.com at 390px: 24px page margins,
+     4px corners, 24px between articles, 17px/27px bold headlines, 13px/21px
+     descriptions, 11px metadata, a lead image at 52.29% of the card width,
+     and a white surface that only turns #f2f6fc in its last few percent.
+
+     home.css declares these properties with !important on selectors such as
+     "#feed .card.hero-story", so each rule below is written one class deeper
+     (and repeated for briefing cards) to outrank them outright, whatever the
+     sheet order. Everything is inside the narrow-screen query, so desktop
+     keeps its own spacing, type scale and card radius. */
   @media (max-width: 800px) {
-    #feed .card::after { inset-inline: -12px; }
+    /* The reference page is a soft white-to-grey wash behind white cards. */
+    :root:not([data-theme="dark"]) body {
+      background-color: #f4f6fb !important;
+      background-image: linear-gradient(90deg, #ffffff 0%, #f4f6fb 35%, #f5f7fb 65%, #ffffff 100%) !important;
+    }
+
+    /* 24px of air at the page edge, matching the reference container. */
+    #main #feed.grid { margin-left: 8px !important; margin-right: 8px !important; gap: 24px !important; }
+
+    /* Article box: no top padding, 4px corners, 16px of room at the foot. */
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row),
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) {
+      padding: 0 0 16px !important;
+      border-radius: 4px !important;
+      gap: 0 !important;
+    }
+
+    /* Lead image spans the full card at the reference ratio (342 x 179). */
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) > .hero-media,
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) > .story-thumb,
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) > .card-media,
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) > .hero-media,
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) > .story-thumb {
+      width: auto !important;
+      height: auto !important;
+      margin: 0 0 16px !important;
+      aspect-ratio: 342 / 179 !important;
+      border-radius: 4px !important;
+      overflow: hidden !important;
+      object-fit: cover !important;
+    }
+
+    /* Reference headline scale: 17px on a 27px line, tight tracking. */
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) h2,
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) h2 {
+      font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+      font-size: 17px !important;
+      line-height: 27px !important;
+      font-weight: 700 !important;
+      letter-spacing: -0.1px !important;
+      margin: 0 !important;
+    }
+
+    /* 11px metadata on a 24px line, as in the reference byline strip. */
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .source-line,
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .card-meta,
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) .source-line,
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) .card-meta {
+      font-size: 11px !important;
+      line-height: 24px !important;
+      letter-spacing: 0 !important;
+      gap: 6px !important;
+    }
+
+    /* 13px/21px summary, clamped to three lines like the reference dek. */
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .story-summary,
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .hero-dek,
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) .story-summary,
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) .hero-dek {
+      font-size: 13px !important;
+      line-height: 21px !important;
+      margin-top: 6px !important;
+      display: -webkit-box !important;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden !important;
+    }
+
+    /* The 10px "why it matters" box was unreadable on a phone. */
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .why {
+      font-size: 12px !important;
+      line-height: 18px !important;
+      padding: 8px 10px !important;
+      margin-top: 8px !important;
+    }
+
+    #main #feed .card .card-chips { margin-top: 6px !important; }
+    #main #feed .card .chip { font-size: 10px !important; padding: 2px 6px !important; }
+
+    #main #feed .card .card-actions,
+    #main #feed .card .actions { margin-top: 10px !important; }
+    #main #feed .card .actions button,
+    #main #feed .card .card-actions button {
+      font-size: 11px !important;
+      padding: 2px 9px !important;
+      min-height: 28px !important;
+    }
+
+    /* Reference palette, light theme only: dark keeps its own tints. */
+    :root:not([data-theme="dark"]) #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) h2 a,
+    :root:not([data-theme="dark"]) #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row) h2 a { color: #34343d !important; }
+    :root:not([data-theme="dark"]) #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .source-line,
+    :root:not([data-theme="dark"]) #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .card-meta,
+    :root:not([data-theme="dark"]) #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .story-summary,
+    :root:not([data-theme="dark"]) #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row) .hero-dek { color: #525260 !important; }
+
+    /* White card, cool band only at the foot (#f2f6fc), 4px corners. The
+       12px side bleed from the previous pass stays as it was. */
+    #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row)::after,
+    #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row)::after {
+      inset-inline: -12px !important;
+      border-radius: 4px !important;
+      background-image: linear-gradient(180deg, #ffffff 0%, #ffffff 92%, #f2f6fc 100%) !important;
+    }
+    /* Dark keeps its own faint blue foot so the card never turns white. */
+    :root[data-theme="dark"] #main #feed .card:is(.hero-story, .follow-card, .pick-card, .story-row)::after,
+    :root[data-theme="dark"] #main #feed .briefing-card > .card:is(.hero-story, .follow-card, .pick-card, .story-row)::after {
+      border-radius: 4px !important;
+      background-image: linear-gradient(180deg,
+        rgba(138, 180, 248, 0) 0%,
+        rgba(138, 180, 248, 0) 45%,
+        rgba(138, 180, 248, 0.04) 72%,
+        rgba(138, 180, 248, 0.07) 100%) !important;
+    }
   }
 </style>
 
