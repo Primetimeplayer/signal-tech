@@ -9567,3 +9567,237 @@ main .grid,
     color: #ffffff !important;
   }
 }
+
+/* Phone editorial cards. Measured on thehackernews.com (mobile layout,
+   below its 600px switch) at 390px and 430px:
+   page inset 24px, card radius 4px, margin-bottom 24px, padding 0 0 16px,
+   image box 52.2875817% of the card width with 4px corners,
+   text inset 8px and 16px under the image (.home-right padding 16px 8px 0),
+   headline Roboto 17px/27px/700, letter-spacing normal, #34343d,
+   metadata 11px/24px/400, padding 4px 0, #525260,
+   description 13px/21px/400, 3-line clamp, #525260, margin 0,
+   card fill linear-gradient(0deg, #f2f6fc 0%, #fff 8%).
+   Selectors start at #main so they beat the earlier !important feed rules
+   and the desktop gradient painted on #feed .card::after. Desktop is outside
+   this query. At 709px the reference itself goes side-by-side; Signal keeps
+   this stacked phone treatment through the site's 800px breakpoint. */
+@media (max-width: 800px) {
+  #main #feed.grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    gap: 0 !important;
+    row-gap: 0 !important;
+    column-gap: 0 !important;
+  }
+
+  #main #feed .feed-top,
+  #main #feed .lower-feed,
+  #main #feed .lower-section,
+  #main #feed .lower-grid,
+  #main #feed .briefing-col,
+  #main #feed .briefing-card,
+  #main #feed .picks-col,
+  #main #feed .follow-ups,
+  #main #feed .picks-list {
+    gap: 0 !important;
+    row-gap: 0 !important;
+    column-gap: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    background-image: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  #main #feed .card::before,
+  #main #feed .card::after {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+  }
+
+  #main #feed .card.hero-story,
+  #main #feed .briefing-card > .card.hero-story,
+  #main #feed .card.follow-card,
+  #main #feed .card.pick-card,
+  #main #feed .card.story-row,
+  #main #feed .gn-col > .card.story-row,
+  #main #feed .briefing-fill > .card.story-row {
+    padding: 0 0 16px !important;
+    margin: 0 0 24px !important;
+    border: 0 !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    background-image: linear-gradient(0deg, #f2f6fc 0%, #ffffff 8%) !important;
+    box-sizing: border-box !important;
+  }
+
+  :root[data-theme="dark"] #main #feed .card.hero-story,
+  :root[data-theme="dark"] #main #feed .briefing-card > .card.hero-story,
+  :root[data-theme="dark"] #main #feed .card.follow-card,
+  :root[data-theme="dark"] #main #feed .card.pick-card,
+  :root[data-theme="dark"] #main #feed .card.story-row,
+  :root[data-theme="dark"] #main #feed .gn-col > .card.story-row,
+  :root[data-theme="dark"] #main #feed .briefing-fill > .card.story-row {
+    background-color: transparent !important;
+    background-image: linear-gradient(0deg, rgba(138, 180, 248, 0.10) 0%, rgba(138, 180, 248, 0) 8%) !important;
+  }
+
+  #main #feed .card > .hero-media,
+  #main #feed .card > .story-thumb,
+  #main #feed .card > .pick-thumb,
+  #main #feed .card > .story-media,
+  #main #feed .card > .pick-media,
+  #main #feed .card > .media-fallback.media-tile {
+    display: block !important;
+    flex: 1 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 !important;
+    aspect-ratio: 1 / 0.522875817 !important;
+    border-radius: 4px !important;
+    overflow: hidden !important;
+    object-fit: cover !important;
+    box-sizing: border-box !important;
+  }
+
+  #main #feed .card > .media-fallback.media-tile {
+    display: flex !important;
+  }
+
+  #main #feed .card h2,
+  #main #feed .card h2 a {
+    margin: 16px 0 0 !important;
+    padding: 0 8px !important;
+    box-sizing: border-box !important;
+    color: var(--text) !important;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    line-height: 27px !important;
+    letter-spacing: normal !important;
+  }
+
+  #main #feed .card h2 a {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  :root:not([data-theme="dark"]) #main #feed .card h2,
+  :root:not([data-theme="dark"]) #main #feed .card h2 a {
+    color: #34343d !important;
+  }
+
+  #main #feed .card .source-line,
+  #main #feed .card .card-meta {
+    order: 3 !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+    flex-wrap: nowrap !important;
+    white-space: nowrap !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 4px 8px !important;
+    box-sizing: border-box !important;
+    color: var(--text-muted) !important;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    letter-spacing: normal !important;
+  }
+
+  #main #feed .card .source-line {
+    padding-right: 12px !important;
+  }
+
+  #main #feed .card .source-name,
+  #main #feed .card .source-extra,
+  #main #feed .card .source-domain,
+  #main #feed .card .source-read,
+  #main #feed .card .cat-label,
+  #main #feed .card .meta-time,
+  #main #feed .card .meta-author {
+    margin: 0 !important;
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    letter-spacing: normal !important;
+  }
+
+  :root:not([data-theme="dark"]) #main #feed .card .source-line,
+  :root:not([data-theme="dark"]) #main #feed .card .card-meta {
+    color: #525260 !important;
+  }
+
+  #main #feed .card .story-summary,
+  #main #feed .card .hero-dek {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 3 !important;
+    line-clamp: 3 !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 8px !important;
+    box-sizing: border-box !important;
+    color: var(--text-muted) !important;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 21px !important;
+    letter-spacing: normal !important;
+  }
+
+  :root:not([data-theme="dark"]) #main #feed .card .story-summary,
+  :root:not([data-theme="dark"]) #main #feed .card .hero-dek {
+    color: #525260 !important;
+  }
+
+  #main #feed .card .card-chips,
+  #main #feed .card .why,
+  #main #feed .card .card-actions,
+  #main #feed .card .related-links,
+  #main #feed .card .note-box {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  #main #feed .card .why {
+    margin: 8px 0 0 !important;
+    font-size: 13px !important;
+    line-height: 21px !important;
+  }
+
+  #main #feed .card .card-actions {
+    margin: 8px 0 0 !important;
+    border-top: 0 !important;
+  }
+}
+
+/* Below 768px the shared page wrap is 16px. The extra 8px lands the
+   articles on the measured 24px page inset without moving the mast. */
+@media (max-width: 768px) {
+  #main #feed.grid {
+    width: calc(100% - 16px) !important;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+  }
+}
