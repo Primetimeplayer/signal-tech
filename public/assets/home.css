@@ -9157,8 +9157,24 @@ main .grid,
 .related-links a:hover { text-decoration: underline; }
 
 .cluster-count { color: var(--text-muted, #888); font-size: 0.78rem; }
-/* Summaries added for the phone feed stay out of the desktop cards. */
+/* Phone cards opt into .story-summary below 800px. Desktop shows the same
+   existing summary under the heading, clamped like the hero dek. */
 #feed .story-summary { display: none !important; }
+
+@media (min-width: 801px) {
+  #feed .card .story-summary {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 3 !important;
+    line-clamp: 3 !important;
+    overflow: hidden !important;
+    margin: 8px 0 0 !important;
+    color: var(--text-muted) !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.4 !important;
+  }
+}
 
 /* Phone feed cards only (the site's 800px breakpoint). */
 @media (max-width: 800px) {
