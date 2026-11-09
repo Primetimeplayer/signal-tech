@@ -1,371 +1,373 @@
 {
-  "updated": "2026-11-09T00:59:30.062Z",
+  "updated": "2026-11-09T11:46:56.796Z",
   "count": 20,
   "items": [
     {
-      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
-      "summary": "User embeddings can be viewed as sparse combinations of clear behavioral modes, improving interpretability in recommendation systems.",
-      "link": "http://arxiv.org/abs/2611.08487v1",
-      "published": "2026-11-05T18:59:42Z",
+      "title": "On Agentic Manipulation Policies",
+      "summary": "The article demonstrates that generalist AI models outperform specialist policies in robot manipulation tasks, offering more reliable control via agentic manipulation policies.",
+      "link": "http://arxiv.org/abs/2611.09892v1",
+      "published": "2026-11-06T18:59:34Z",
       "authors": [
-        "Jonathan Kozaczuk",
-        "Zheng Dong",
-        "Noyan Evirgen",
-        "Keivan Majidi",
-        "Eddie K. H. Ng",
-        "Chris Porter",
-        "Qi Zhao",
-        "Jia Geng",
-        "Changmao Li",
-        "Brandon R. Feng"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it offers transparent, actionable insights into user behavior for better personalization."
-    },
-    {
-      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-      "summary": "SwarmEvolve uses AI agents to accelerate LLM-guided evolutionary search by refining and combining high-scoring solutions for math and computational problems.",
-      "link": "http://arxiv.org/abs/2611.08483v1",
-      "published": "2026-11-05T18:59:29Z",
-      "authors": [
-        "Qile Jiang",
-        "George Em Karniadakis"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.NE"
-      ],
-      "whyItMatters": "It speeds up AI-driven optimization, making complex problem solving more efficient for tech developers."
-    },
-    {
-      "title": "Scientist World: Grow a Research World for AI-Scientists",
-      "summary": "The article introduces Scientist World, a platform that transforms research papers into executable environments for AI scientists, enabling autonomous experimentation.",
-      "link": "http://arxiv.org/abs/2611.08478v1",
-      "published": "2026-11-05T18:58:17Z",
-      "authors": [
-        "Taiming Lu",
-        "Sachin Konan",
-        "Zhuang Liu"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "whyItMatters": "It lets AI systems directly run and test scientific ideas, accelerating discovery and reducing human bottlenecks."
-    },
-    {
-      "title": "XStack: A Benchmark for ML Repo Migration",
-      "summary": "XStack introduces a benchmark to evaluate and streamline migrating machine‑learning repositories between PyTorch/NVIDIA GPUs and JAX/Google TPUs.",
-      "link": "http://arxiv.org/abs/2611.08472v1",
-      "published": "2026-11-05T18:55:54Z",
-      "authors": [
-        "Linrong Cai",
-        "Taiming Lu",
-        "Haozhe Chen",
-        "Zhuang Liu"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "whyItMatters": "It helps researchers switch hardware platforms efficiently, expanding computational options and accelerating model development."
-    },
-    {
-      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-      "summary": "The article examines when finite, noisy experiments can reliably identify mechanism-level measures of integrated information in AI systems.",
-      "link": "http://arxiv.org/abs/2611.08469v1",
-      "published": "2026-11-05T18:55:31Z",
-      "authors": [
-        "Linqian Wu",
-        "Diaoxuan He"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "q-bio.NC"
-      ],
-      "whyItMatters": "It informs how we audit and interpret AI consciousness with limited data."
-    },
-    {
-      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
-      "summary": "The paper introduces MAEMs, models that map residual stream directions to text exemplars, enabling interpretation beyond corpus limits.",
-      "link": "http://arxiv.org/abs/2611.08465v1",
-      "published": "2026-11-05T18:54:40Z",
-      "authors": [
-        "Celeste De Schamphelaere",
-        "Juan J. Vazquez",
-        "Ari Spiesberger",
-        "Tomáš Gavenčiak",
-        "Gavin Leech",
-        "Euan Ong",
-        "Jiahai Feng"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "whyItMatters": "It expands interpretability tools for language models, helping tech-savvy readers understand internal representations."
-    },
-    {
-      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
-      "summary": "The paper analyzes how large step sizes affect deterministic gradient descent dynamics in adversarial training, exploring bias, optimization, and loss sharpness.",
-      "link": "http://arxiv.org/abs/2611.08457v1",
-      "published": "2026-11-05T18:48:50Z",
-      "authors": [
-        "Yi Feng",
-        "Andrea Paudice"
-      ],
-      "categories": [
-        "cs.LG",
-        "math.OC"
-      ],
-      "whyItMatters": "Understanding large-step behavior can lead to faster, more practical robust model training."
-    },
-    {
-      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
-      "summary": "The article compares on‑policy distillation (OPD) with Group Relative Policy Optimization (GRPO) to evaluate compute efficiency across various settings.",
-      "link": "http://arxiv.org/abs/2611.08453v1",
-      "published": "2026-11-05T18:47:05Z",
-      "authors": [
-        "Zeyu Leo Liu",
-        "Yang Li",
-        "Bo Pang",
-        "Emre Can Acikgoz",
-        "Xuan-Phi Nguyen",
-        "Anurag Koul",
-        "Srijan Bansal",
-        "Erik Nijkamp",
-        "Shafiq Joty",
-        "Semih Yavuz"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CL"
-      ],
-      "whyItMatters": "Tech readers care because it shows whether OPD can cut training FLOPs while maintaining accuracy."
-    },
-    {
-      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
-      "summary": "ReproBridge proposes a system to capture and preserve reconstructed ML experiment procedures for easier future reproduction.",
-      "link": "http://arxiv.org/abs/2611.08452v1",
-      "published": "2026-11-05T18:45:36Z",
-      "authors": [
-        "Yubo Wang",
-        "Rui Meng",
-        "Jaehyun Nam",
-        "Tomas Pfister",
-        "Jinsung Yoon"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "It helps tech researchers save time and improve reproducibility of ML studies."
-    },
-    {
-      "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
-      "summary": "The paper proposes a Hidden Markov Preference Model to predict attackers’ next actions by modeling persistent and switching behavioral regimes and time‑varying action constraints.",
-      "link": "http://arxiv.org/abs/2611.08445v1",
-      "published": "2026-11-05T18:37:07Z",
-      "authors": [
-        "Angel Daruna",
-        "Michael Cogswell",
-        "Tixiao Shan",
-        "Yi Yao",
-        "Han-Pang Chiu",
-        "Ajay Divakaran"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "It offers defenders a probabilistic framework to anticipate and counter evolving cyber attacks more effectively."
-    },
-    {
-      "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
-      "summary": "The article evaluates how adding label wording variations improves a multilingual cross‑encoder’s performance on unfamiliar words, but not on abbreviations or codes.",
-      "link": "http://arxiv.org/abs/2611.08439v1",
-      "published": "2026-11-05T18:31:24Z",
-      "authors": [
-        "Vladimir Beskorovainyi"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech readers care because it shows practical ways to boost model accuracy without changing the underlying data."
-    },
-    {
-      "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
-      "summary": "The article discusses the growing importance of mechanistic interpretability for AI safety as powerful neural networks become more autonomous.",
-      "link": "http://arxiv.org/abs/2611.08438v1",
-      "published": "2026-11-05T18:30:54Z",
-      "authors": [
-        "Fazl Barez",
-        "Tung-Yu Wu",
-        "Hunar Batra",
-        "Gabriele Dominici",
-        "Florent Draye",
-        "Yanai Elazar",
-        "Damiano Fornasiere",
-        "Antía García",
-        "Abir Harrasse",
-        "Riley Harris",
-        "Sara Hooker",
-        "Michael Lan",
-        "Belinda Z. Li",
-        "Aaron Maiwald",
-        "Narmeen Fatimah Oozeer",
-        "Naomi Saphra",
-        "Or David Shafran",
-        "Adi Simhi",
-        "Robert Trager",
-        "Shriyash Kaustubh Upadhyay",
-        "Ziyu Yao",
-        "Yu Zhao",
-        "Shay B. Cohen",
-        "Mor Geva",
-        "Yoshua Bengio",
-        "Stella Biderman",
-        "Hassan Sajjad"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "whyItMatters": "Understanding AI behavior is crucial for preventing societal harm from increasingly capable systems."
-    },
-    {
-      "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
-      "summary": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. We present…",
-      "link": "http://arxiv.org/abs/2611.08433v1",
-      "published": "2026-11-05T18:27:20Z",
-      "authors": [
-        "Donghua Zhang",
-        "Zizheng Wang",
-        "Ze Dong",
-        "Yiding Feng",
-        "Siyu Qian"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
-      "summary": "Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and…",
-      "link": "http://arxiv.org/abs/2611.08428v1",
-      "published": "2026-11-05T18:22:24Z",
-      "authors": [
-        "Julian Kunkel",
-        "Ali Doosthosseini"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
-      "summary": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people. Deploying VLAs in real-world systems therefore requires a runtime monitor that is timely, calibrated, and informative while being efficient enough to run on the edge. Existing methods…",
-      "link": "http://arxiv.org/abs/2611.08425v1",
-      "published": "2026-11-05T18:21:07Z",
-      "authors": [
-        "Michal P. Podolinsky",
-        "Yunhao Yang",
-        "Daniel Little",
-        "Hong Lu",
-        "Rohan Siva",
-        "Olin Goudey",
-        "Neel P. Bhatt",
-        "Matthias Scheutz",
-        "Ufuk Topcu"
+        "Chen Chen",
+        "Omid Bagherieh",
+        "Naveen Nikamanth Appiah Balaji",
+        "Jesse T. Gonzalez",
+        "Negin Heravi",
+        "Fahad Islam",
+        "Xueting Li",
+        "Jean-Baptiste Regli",
+        "Kejia Ren",
+        "Petr Švec",
+        "David J. Yoon",
+        "Matthias Müller",
+        "Vladlen Koltun"
       ],
       "categories": [
         "cs.RO",
-        "cs.AI"
-      ]
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers should note this could streamline robotic deployment and reduce reliance on task-specific training."
     },
     {
-      "title": "Data-driven discovery of intrinsic Lie point symmetries of differential equation systems",
-      "summary": "Discovering continuous symmetries directly from differential-equation data can reveal geometric structure for model reduction and scientific machine learning without symbolic determining equations or a closed-form representation of the governing system. We formulate intrinsic Lie point-symmetry discovery as an operator-theoretic problem on sampled jet-space data. Admissible generators are…",
-      "link": "http://arxiv.org/abs/2611.08421v1",
-      "published": "2026-11-05T18:19:28Z",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "summary": "The paper proposes CPU-ARC, a method that caches reasoning steps so a language model can reuse solutions for new problems, reducing redundant computation.",
+      "link": "http://arxiv.org/abs/2611.09891v1",
+      "published": "2026-11-06T18:58:50Z",
       "authors": [
-        "Ilker Gurcan",
-        "Kadir Ustun",
-        "Ramazan Gokberk Cinbis"
+        "Peter Belcak",
+        "Greg Heinrich",
+        "Saurav Muralidharan",
+        "Shizhe Diao",
+        "Pavlo Molchanov"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "It cuts inference costs and speeds up LLM-powered applications by reusing prior reasoning."
+    },
+    {
+      "title": "On the (non-)closedness of the set of ReLU networks",
+      "summary": "The paper shows that one‑hidden‑layer ReLU networks with up to N neurons form a weakly closed set in Sobolev space, ensuring existence of minimizers for certain energies.",
+      "link": "http://arxiv.org/abs/2611.09887v1",
+      "published": "2026-11-06T18:58:06Z",
+      "authors": [
+        "Eloi Martinet",
+        "Leon Bungert"
       ],
       "categories": [
         "cs.LG",
-        "math.DG",
-        "math.DS",
-        "math.GR",
-        "math.NA"
+        "math.CA",
+        "math.FA",
+        "math.NA",
+        "math.OC"
+      ],
+      "whyItMatters": "It guarantees convergence and optimality for training methods like Deep Ritz and Lipschitz learning in practical neural network design."
+    },
+    {
+      "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+      "summary": "FlowMoP introduces a stochastic multi-person motion prediction model using conditional flow matching to generate diverse future trajectories.",
+      "link": "http://arxiv.org/abs/2611.09882v1",
+      "published": "2026-11-06T18:56:41Z",
+      "authors": [
+        "Aadya Agrawal",
+        "Ho Kei Cheng",
+        "Alexander Schwing"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "whyItMatters": "It enables more realistic, uncertainty-aware planning for autonomous systems interacting with crowds."
+    },
+    {
+      "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
+      "summary": "The paper shows how graded convolutional networks achieve scale invariance and blur robustness by using scale-normalized jets and weighted sphere retractions.",
+      "link": "http://arxiv.org/abs/2611.09878v1",
+      "published": "2026-11-06T18:54:03Z",
+      "authors": [
+        "Tanush Shaska"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it offers a principled way to build CNNs that handle scale changes and unknown blur."
+    },
+    {
+      "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+      "summary": "The paper examines how reliable majority‑vote pseudo‑labels are for test‑time reinforcement learning of language models, dissecting bias and rollout noise.",
+      "link": "http://arxiv.org/abs/2611.09872v1",
+      "published": "2026-11-06T18:49:02Z",
+      "authors": [
+        "Haoyu Wang",
+        "Ru Wang",
+        "Yuanyuan Wang",
+        "Jiaxian Guo",
+        "Mingming Gong"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "Understanding label reliability can improve domain adaptation and reduce costly manual labeling for AI developers."
+    },
+    {
+      "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
+      "summary": "CodeQuant2 introduces outlier mitigation and adaptive clustering to improve low‑precision quantization of large reasoning models during early decoding steps.",
+      "link": "http://arxiv.org/abs/2611.09868v1",
+      "published": "2026-11-06T18:48:04Z",
+      "authors": [
+        "Xingyu Liu",
+        "Xiangyang Yin",
+        "Tianhua Xia",
+        "Haiyu Wang",
+        "Sai Qian Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "whyItMatters": "It reduces inference costs while preserving reasoning accuracy, benefiting developers deploying LLMs on resource‑constrained hardware."
+    },
+    {
+      "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
+      "summary": "The paper introduces GRAC, a graph-based retrieval-augmented model that generates surgical scene captions to streamline operative report creation.",
+      "link": "http://arxiv.org/abs/2611.09866v1",
+      "published": "2026-11-06T18:47:23Z",
+      "authors": [
+        "Rochak Dhakal",
+        "Chen Zhao",
+        "Soup Cobb",
+        "Xin Qian",
+        "Xiaofeng Yang",
+        "Weihua Zhou"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it automates documentation, saving time and improving surgical training."
+    },
+    {
+      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+      "summary": "The paper presents Grasp-TAGS, a method for selecting task-aware grasps using critic distillation to improve mobile manipulators’ long-horizon loco‑manipulation.",
+      "link": "http://arxiv.org/abs/2611.09864v1",
+      "published": "2026-11-06T18:44:33Z",
+      "authors": [
+        "Xun Tu",
+        "Minghao Zou",
+        "Karthik Desingh"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "whyItMatters": "It offers a way to boost reliability in service and warehouse robots that must move and manipulate large objects."
+    },
+    {
+      "title": "Flow-Guided Target-Space Alignment via Path Consistency",
+      "summary": "The paper proposes a flow-guided method that aligns source data into a target modality’s space, preserving global structure and instance-level pairing for downstream use.",
+      "link": "http://arxiv.org/abs/2611.09863v1",
+      "published": "2026-11-06T18:44:08Z",
+      "authors": [
+        "Ruizhi Yuan",
+        "Zeqiu Yu",
+        "Wei Gao",
+        "Wei Chen",
+        "Xiwei Tang",
+        "Lu Tang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "whyItMatters": "It improves multimodal integration, enabling more accurate cross-modal analysis and better downstream performance."
+    },
+    {
+      "title": "How far does a hash-only sender go? A pre-registered map of sender memory versus bits for short text messages",
+      "summary": "The study tests if a sender using only hashes, with a language model at the receiver, can send short English texts more cheaply than a fully trained sender.",
+      "link": "http://arxiv.org/abs/2611.09848v1",
+      "published": "2026-11-06T18:31:24Z",
+      "authors": [
+        "Marcelo Samoilenko"
+      ],
+      "categories": [
+        "cs.IT",
+        "cs.CL"
+      ],
+      "whyItMatters": "It explores cost‑efficient text transmission for edge devices and low‑bandwidth scenarios."
+    },
+    {
+      "title": "Computer-Use Agents Are Embodied Generalists",
+      "summary": "The article argues embodied AI can shift to general-purpose models by treating physical interactions as digital software tasks, enabling versatile agents.",
+      "link": "http://arxiv.org/abs/2611.09847v1",
+      "published": "2026-11-06T18:31:17Z",
+      "authors": [
+        "Pranjal Aggarwal",
+        "Sean Welleck"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "whyItMatters": "Tech readers should watch this for its potential to unify robotics and software AI, simplifying development and deployment."
+    },
+    {
+      "title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization",
+      "summary": "This paper describes an approach and use case to estimate the correctness of LLM-generated COBOL summaries without access to human-authored references. The core intuition is that inter-model agreement on semantics is informative about truth, and that an LLM-as-judge can provide higher-fidelity pairwise assessments than traditional string- or embedding-based metrics. We operationalise this…",
+      "link": "http://arxiv.org/abs/2611.09846v1",
+      "published": "2026-11-06T18:29:48Z",
+      "authors": [
+        "Marco Colombo",
+        "Balaji A Jayaram",
+        "Sowmyakumari Selvaraj",
+        "Sumit Tokkar",
+        "Animesh Kumar",
+        "Aravinda Prasad Sistla",
+        "Ravishankar Shetty",
+        "Rigel Gjomemo"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.PL"
       ]
     },
     {
-      "title": "On the limitations of molecular representations",
-      "summary": "Molecular representations such as fingerprints and learned embeddings play a central role in cheminformatics and small-molecule machine learning. They serve as the primary input for a diverse array of tasks, including clustering, dataset splitting, and virtual screening, yet their evaluation is often limited to downstream model performance on narrow benchmark tasks. We carried out a systematic…",
-      "link": "http://arxiv.org/abs/2611.08420v1",
-      "published": "2026-11-05T18:19:19Z",
+      "title": "Fifty-Two Shades of Pig: What the UCR Archive Really Asks Classifiers to Do",
+      "summary": "The pigs were bleeding. That was the point of the experiment: could airway pressure reveal hemorrhage before it became critical? In the UCR Time Series Classification Archive, the de facto benchmark for Time Series Classification (TSC), the same recordings ask a different question: \"which of 52 pigs produced this trace?\". The dataset PigAirwayPressure is not an outlier. Although the archive is…",
+      "link": "http://arxiv.org/abs/2611.09843v1",
+      "published": "2026-11-06T18:28:12Z",
       "authors": [
-        "Acer Blake",
-        "Fergus Imrie",
-        "Charlotte M. Deane"
+        "Omar Swelam",
+        "Jaris Küken",
+        "Shi Bin Hoo",
+        "Frank Hutter",
+        "Lennart Purucker"
       ],
       "categories": [
         "cs.LG"
       ]
     },
     {
-      "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
-      "summary": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that existing verifiers reject, while changes to evaluation infrastructure can invalidate assumptions embedded in tasks and…",
-      "link": "http://arxiv.org/abs/2611.08417v1",
-      "published": "2026-11-05T18:18:39Z",
+      "title": "Can Agentic Systems Close the Gap in Radiology with Production AI Tools?",
+      "summary": "Radiology AI has developed along two paths: specialized models that perform well on narrow tasks but cover few clinical findings, and generalist models that address a broader range of tasks but remain prone to hallucination and inaccurate measurements. Combining the two through agentic systems offers a route towards comprehensive radiology reporting, but published systems are tied to one modality…",
+      "link": "http://arxiv.org/abs/2611.09836v1",
+      "published": "2026-11-06T18:23:14Z",
       "authors": [
-        "E. Kelly Buchanan",
-        "Crystal Zhou",
-        "Scott W. Linderman",
-        "Christopher Ré"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
-      "summary": "Low-rank adaptation (LoRA) is commonly used in both supervised fine-tuning (SFT) and reinforcement learning (RL), often under similar optimizer settings. Yet, how the different dynamics of the two stages manifest in the low-rank increment that LoRA optimizes remains unclear. Tracking the singular spectrum and subspaces of LoRA updates on mathematical reasoning tasks, we find that RL concentrates…",
-      "link": "http://arxiv.org/abs/2611.08414v1",
-      "published": "2026-11-05T18:17:39Z",
-      "authors": [
-        "Chenruo Liu",
-        "Zihan Wang",
-        "Yijun Dong",
-        "Qi Lei"
-      ],
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ]
-    },
-    {
-      "title": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
-      "summary": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by OpenAI provide a rich empirical basis for studying this question. However, several challenges remain: lack of matched case-control pairs; potential…",
-      "link": "http://arxiv.org/abs/2611.08412v1",
-      "published": "2026-11-05T18:17:18Z",
-      "authors": [
-        "Yuanchuan Guo",
-        "Jiashun Jin",
-        "Zheng Tracy Ke",
-        "Bingcheng Sui"
+        "Aubin Charley",
+        "Julien Khlaut",
+        "Charles Corbière",
+        "Pierre Manceron",
+        "Corentin Dancette",
+        "Léo Machado"
       ],
       "categories": [
         "cs.AI",
-        "stat.AP"
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Designing Effective Monitor-Based Interventions for Mitigating Reward Hacking During RL",
+      "summary": "Reinforcement learning (RL) rewards are notoriously difficult to design and control, often leading to the model learning unintended behaviors such as reward hacking. One potential solution is to monitor for reward hacking and penalize it when detected; however, training against a monitor could lead to evasive behavior, and our general understanding of how to apply monitors effectively during…",
+      "link": "http://arxiv.org/abs/2611.09828v1",
+      "published": "2026-11-06T18:14:52Z",
+      "authors": [
+        "Aria Wong",
+        "Joshua Engels",
+        "Neel Nanda"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+      "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling formats (NVFP4, MXFP4) shrink the cache and run attention on FP4 Tensor Cores, a fundamental gap remains between algorithmic quantization and system-aware acceleration: existing FP4 KV systems use vanilla quantization that causes severe accuracy drops, whereas accuracy-oriented…",
+      "link": "http://arxiv.org/abs/2611.09825v1",
+      "published": "2026-11-06T18:13:54Z",
+      "authors": [
+        "Dayou Du",
+        "Woon Yee Ng",
+        "Guangming Sheng",
+        "Nick Lau",
+        "Jianyi Cheng",
+        "Luo Mai"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.AR",
+        "cs.CL",
+        "cs.PF"
+      ]
+    },
+    {
+      "title": "Discovering formally verified quantum programs with AI",
+      "summary": "The timeline by which quantum computers can solve breakthrough problems in science depends on improved quantum algorithms as much as on better hardware. Such algorithmic advances are typically achieved through many years of expert human collaboration. In mathematics and computer science, large language models have accelerated progress through automated discovery loops. However, quantum algorithms…",
+      "link": "http://arxiv.org/abs/2611.09822v1",
+      "published": "2026-11-06T18:08:06Z",
+      "authors": [
+        "Sergey Shirobokov",
+        "Ben Jaderberg",
+        "Katerina Hristova",
+        "George Tsoukalas",
+        "Johannes Bausch",
+        "Eric Wieser",
+        "Francisco J. H. Heras",
+        "Nicholas C. Rubin",
+        "Guang Hao Low",
+        "Sébastien Racanière",
+        "Nenad Tomašev",
+        "Lei M. Zhang",
+        "James Watson",
+        "Tanuj Khattar",
+        "Aws Albarghouthi",
+        "Stavan Jain",
+        "Harun Khan",
+        "Leopoldo Sarra",
+        "Andrew W. Senior",
+        "Michael Broughton",
+        "Hussain Masoom",
+        "Sergio Boixo",
+        "Ryan Babbush",
+        "Swarat Chaudhuri",
+        "Pushmeet Kohli"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.AI",
+        "cs.PL"
+      ]
+    },
+    {
+      "title": "Generative Latent Priors for Interpreting and Steering Protein Language Models",
+      "summary": "Dominant methods for interpreting large models impose strong structural assumptions. Generative Latent Priors (GLP) are a complementary approach: a diffusion model that learns the distribution of a frozen model's activations directly, imposing no assumptions. We port GLP to ESM-2 activations (UniRef50) and evaluate it at two host scales (ESM-2-8M and -650M), both as a lens for protein…",
+      "link": "http://arxiv.org/abs/2611.09818v1",
+      "published": "2026-11-06T18:06:39Z",
+      "authors": [
+        "Daniel Hinjos",
+        "Lucía Urcelay"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Machine learning for lattice QCD",
+      "summary": "Machine learning (ML) methods have been explored as a means of optimizing lattice field theory calculations, with increasing interest in recent years. This chapter gives an introduction and summary to the use of ML methods to optimize lattice field theory without introducing any uncontrolled approximations. We focus on those directions which are clearly established as of late 2025, marking the…",
+      "link": "http://arxiv.org/abs/2611.09817v1",
+      "published": "2026-11-06T18:05:06Z",
+      "authors": [
+        "Gurtej Kanwar",
+        "Scott Lawrence",
+        "Alessandro Nada",
+        "Phiala Shanahan"
+      ],
+      "categories": [
+        "hep-lat",
+        "cs.LG"
       ]
     }
   ]
