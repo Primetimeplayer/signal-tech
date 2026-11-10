@@ -136,6 +136,10 @@
 /* Newsletter issue pages (/issues/YYYY-MM-DD) and the archive (/issues). */
 .issue-article { max-width: 720px; }
 .issue-body { font-size: 17px; line-height: 1.7; overflow-wrap: anywhere; }
+.week-glance { list-style: none; margin: 0 0 18px; padding: 12px 14px; border: 1px solid rgba(127, 127, 127, .35); border-radius: 10px; }
+.week-glance li { margin: 0 0 8px; font-size: 15px; line-height: 1.45; }
+.week-glance li:last-child { margin: 0; }
+:root[data-theme="dark"] .week-glance { border-color: #3c4043; }
 .issue-body h2 { margin: 32px 0 8px; font-size: 22px; line-height: 1.3; font-weight: 700; }
 .issue-body h3 { margin: 24px 0 6px; font-size: 19px; line-height: 1.35; }
 .issue-body h4 { margin: 20px 0 6px; font-size: 17px; }

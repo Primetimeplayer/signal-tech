@@ -58,6 +58,15 @@
   p, li { font-size: 15px; }
   ul { padding-left: 1.2rem; }
   footer { margin-top: 12px; padding: 16px 0 28px; border-top: 1px solid #e5e7eb; color: #5f6368; font-size: 13px; }
+  @media (prefers-color-scheme: dark) {
+    :root { color-scheme: dark; }
+    body { background: #202124; color: #e8eaed; }
+    a { color: #8ab4f8; }
+    .mast { background: #202124; border-bottom-color: #3c4043; }
+    .wordmark { color: #e8eaed; }
+    .back, .updated, footer, .footer-legal a, .footer-contact a { color: #bdc1c6; }
+    footer { border-top-color: #3c4043; }
+  }
   .footer-legal { display: flex; flex-wrap: wrap; gap: 8px 16px; }
   .footer-legal a { color: #5f6368; font-weight: 600; text-decoration: none; }
   .footer-legal a:hover { color: #1a73e8; }
@@ -164,7 +173,7 @@
 </header>
 <article class="wrap" id="main" tabindex="-1">
   <h1>About Signal Tech</h1>
-  <p class="updated">Last updated 10 October 2026</p>
+  <p class="updated">Last updated 9 November 2026</p>
   <p>Signal Tech is a briefing for people who build and buy technology. It gathers AI engineering, chips, and developer tools into one page, with a Friday briefing for readers who want the week in one note.</p>
 
   <h2>Mission</h2>
@@ -184,6 +193,9 @@
     <li>Weekly digests are generated from the same collected items and stored as files on this site.</li>
   </ul>
   <p>Source lists and the rules for excerpts live in <code>scripts/</code>. Corrections and takedown requests go through the <a href="/contact">contact page</a>. The <a href="/editorial">editorial policy</a> describes attribution and fixes.</p>
+
+  <h2>Who curates this</h2>
+  <p>Innocent Ncube, based in Poland, curates Signal Tech for people who build software, with a focus on AI engineering, chips, and developer tools. Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a>.</p>
 </article>
 <section class="signup" aria-labelledby="newsletterTitle">
   <div class="wrap">

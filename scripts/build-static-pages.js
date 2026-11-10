@@ -31,6 +31,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { mdToHtml, parseFrontMatter } from './lib/blog-markdown.js';
+import { decodeEntities } from './lib/decode-entities.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLIC = path.join(ROOT, 'public');
@@ -362,6 +363,151 @@ function storiesText(issue) {
   return (issue.stories || []).map((s) => s.headline).filter(Boolean).join(' · ');
 }
 
+function blockText(inner = '') {
+  return decodeEntities(String(inner).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+}
+
+// A source line that ends on "·", or a following paragraph that is only
+// "·" plus one link, is one list split across two paragraphs. Join them.
+// "Notify me" on an st.com link is the publisher's signup button, not the
+// source name; the page is ST's.
+export function repairSourceLines(html = '') {
+  let out = String(html).replace(
+    /<a href="([^"]*st\.com[^"]*)"([^>]*)>Notify me<\/a>/gi,
+    '<a href="$1"$2>ST</a>',
+  );
+  let prev = '';
+  while (out !== prev) {
+    prev = out;
+    out = out.replace(
+      /<p>([\s\S]*?)\s*(?:·|&middot;)\s*<\/p>\s*<p>\s*(?:·|&middot;)?\s*(<a\b[\s\S]*?<\/a>)\s*<\/p>/gi,
+      '<p>$1 · $2</p>',
+    );
+    out = out.replace(
+      /<p>([\s\S]*?)<\/p>\s*<p>\s*(?:·|&middot;)\s*(<a\b[\s\S]*?<\/a>)\s*<\/p>/gi,
+      '<p>$1 · $2</p>',
+    );
+  }
+  return out;
+}
+
+function sectionKind(heading = '') {
+  const text = heading.toLowerCase();
+  if (text.includes('big signal')) return 'big';
+  if (text.includes('quick hit')) return 'quick';
+  if (text.includes('tool of the week')) return 'tool';
+  return '';
+}
+
+function afterColon(heading = '') {
+  const at = heading.indexOf(':');
+  return (at >= 0 ? heading.slice(at + 1) : heading).trim();
+}
+
+function inShort(text = '') {
+  return String(text).replace(/^in short\s*:\s*/i, '').trim();
+}
+
+function firstSentence(text = '') {
+  const match = /^(.+?[.!?])(?=\s|$)/.exec(String(text).trim());
+  return (match ? match[1] : String(text)).trim();
+}
+
+function sectionParas(blocks, index) {
+  const out = [];
+  for (let j = index + 1; j < blocks.length && blocks[j].tag !== 'h2'; j += 1) out.push(blocks[j]);
+  return out;
+}
+
+// Prefer the issue's own "In short:" line. If a section only has
+// "Why it matters:", use that sentence. Never write a new one.
+function soWhatIn(paras) {
+  const short = paras.find((b) => /^in short\s*:/i.test(b.text));
+  if (short) return inShort(short.text);
+  const why = paras.find((b) => /^why (?:it|this) matters\s*:/i.test(b.text));
+  if (!why) return '';
+  return firstSentence(why.text.replace(/^why (?:it|this) matters\s*:\s*/i, ''));
+}
+
+// One scannable line per story already in the issue: Big Signal, each
+// Quick Hit, and Tool of the Week. Titles and so-whats come from the
+// headings and "In short:" lines. Nothing is added.
+export function glanceItems(html = '') {
+  const blocks = [...String(html).matchAll(/<(h2|p)\b[^>]*>([\s\S]*?)<\/\1>/gi)].map((m) => ({
+    tag: m[1].toLowerCase(),
+    html: m[2],
+    text: blockText(m[2]),
+  })).filter((b) => b.text);
+  const items = [];
+  let kind = '';
+  for (let i = 0; i < blocks.length; i += 1) {
+    const block = blocks[i];
+    if (block.tag === 'h2') {
+      kind = sectionKind(block.text);
+      if (kind === 'big' || kind === 'tool') {
+        items.push({
+          label: kind === 'big' ? 'Big Signal' : 'Tool of the Week',
+          title: afterColon(block.text),
+          soWhat: soWhatIn(sectionParas(blocks, i)),
+        });
+      }
+      continue;
+    }
+    if (kind !== 'quick' || block.tag !== 'p') continue;
+    if (/^in short\s*:/i.test(block.text)) {
+      let title = '';
+      for (let j = i + 1; j < blocks.length && j < i + 4 && blocks[j].tag === 'p'; j += 1) {
+        const strong = /<strong>([\s\S]*?)<\/strong>/i.exec(blocks[j].html);
+        if (strong) {
+          title = blockText(strong[1]).replace(/\.$/, '');
+          break;
+        }
+      }
+      if (title) items.push({ label: 'Quick hit', title, soWhat: inShort(block.text) });
+      continue;
+    }
+    const strong = /^<strong>([\s\S]*?)<\/strong>/i.exec(block.html.trim());
+    if (!strong) continue;
+    const title = blockText(strong[1]).replace(/\.$/, '');
+    if (title && !items.some((item) => item.title === title)) {
+      items.push({ label: 'Quick hit', title, soWhat: '' });
+    }
+  }
+  return items;
+}
+
+export function glanceHtml(items = []) {
+  const rows = items.filter((item) => item && item.title);
+  if (!rows.length) return '';
+  const lis = rows.map((item) => {
+    const so = item.soWhat ? ` — ${esc(item.soWhat)}` : '';
+    return `<li><strong>${esc(item.label)}.</strong> ${esc(item.title)}${so}</li>`;
+  }).join('\n');
+  return `<h2>This week at a glance</h2>\n<ul class="week-glance">\n${lis}\n</ul>`;
+}
+
+function glanceFromStories(stories = []) {
+  return stories.filter((s) => s && s.headline).map((story, index) => {
+    const headline = String(story.headline);
+    const tool = /tool of the week/i.test(headline);
+    return {
+      label: tool ? 'Tool of the Week' : index === 0 ? 'Big Signal' : 'Quick hit',
+      title: headline.replace(/^tool of the week:\s*/i, ''),
+      soWhat: String(story.whyItMatters || '').trim(),
+    };
+  });
+}
+
+// Presentation fixes applied when a page is built. The archive keeps the
+// fetched post; this is what readers see at /issues/YYYY-MM-DD.
+export function prepareIssueHtml(html = '') {
+  let body = repairSourceLines(html).replace(/The Signal Tech team/g, 'Innocent Ncube');
+  if (/This week at a glance/i.test(body)) return body;
+  const glance = glanceHtml(glanceItems(body));
+  if (!glance) return body;
+  return body.replace(/<h2\b/i, `${glance}\n<h2`);
+}
+
 function issueDescription(issue) {
   const first = (issue.stories || [])[0];
   const text = first ? `${first.headline}. ${first.whyItMatters || ''}` : issue.title;
@@ -370,10 +516,13 @@ function issueDescription(issue) {
 
 export function issuePage(chrome, issue, older, newer, sponsor = {}) {
   const url = `${SITE}/issues/${issue.date}`;
+  const beehiiv = /beehiiv\.com/i.test(String(issue.url || '')) ? String(issue.url) : '';
+  const also = beehiiv ? ` <a href="${esc(beehiiv)}" rel="noopener">Also on beehiiv</a>.` : '';
   const body = issue.html
-    ? `<div class="issue-body">\n${issue.html}\n</div>`
+    ? `<div class="issue-body">\n${prepareIssueHtml(issue.html)}\n</div>`
     : `<div class="issue-body">
-<p>This week's stories in short. The full issue is on beehiiv.</p>
+<p>This week's stories in short. The full write-up is added when the Friday issue is copied onto this page.</p>
+${glanceHtml(glanceFromStories(issue.stories || []))}
 <ul>
 ${(issue.stories || []).map((s) => `<li><strong>${esc(s.headline)}.</strong> ${esc(s.whyItMatters || '')}</li>`).join('\n')}
 </ul>
@@ -390,12 +539,12 @@ ${(issue.stories || []).map((s) => `<li><strong>${esc(s.headline)}.</strong> ${e
         <p class="page-sub"><time datetime="${issue.date}">${esc(longDate(issue.date))}</time></p>
         <div class="page-actions">
           <a class="page-btn page-btn-primary" href="#newsletterCard">Subscribe free</a>
-          <a class="page-btn" href="${esc(issue.url)}" rel="noopener">Read on beehiiv</a>
+          ${beehiiv ? `<a class="page-btn" href="${esc(beehiiv)}" rel="noopener">Also on beehiiv</a>` : ''}
         </div>
       </header>
 ${sponsorSlot(sponsor)}
 ${body}
-      <p class="issue-source">First sent by email on ${esc(longDate(issue.date))}. <a href="${esc(issue.url)}" rel="noopener">View this issue on beehiiv</a>.</p>
+      <p class="issue-source">First sent by email on ${esc(longDate(issue.date))}. <a href="${esc(url)}">View this issue</a>.${also}</p>
       ${newsletterBox(chrome, 'issue_page')}
       <nav class="page-actions issue-nav" aria-label="More issues">
         ${nav}
@@ -628,7 +777,7 @@ export function blogPostPage(chrome, post, posts) {
       <header class="page-head">
         <p class="page-kicker">Guide</p>
         <h1 class="page-title">${esc(post.title)}</h1>
-        <p class="page-sub">The Signal Tech team · <time datetime="${esc(post.date)}">${esc(longDate(post.date))}</time></p>
+        <p class="page-sub">Innocent Ncube · <time datetime="${esc(post.date)}">${esc(longDate(post.date))}</time></p>
       </header>
       <div class="issue-body blog-body">
 ${mdToHtml(post.body)}

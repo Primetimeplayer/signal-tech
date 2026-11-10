@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {
   SITE, sanitiseHtml, extractPostBody, mergeArchive, parseDigest, buildFeed, buildSitemap,
-  readChrome, newsletterBox, sponsorSlot,
+  readChrome, newsletterBox, sponsorSlot, prepareIssueHtml, issuePage,
 } from '../scripts/build-static-pages.js';
 
 test('sanitiseHtml keeps safe tags and http(s) links only', () => {
@@ -73,6 +73,26 @@ test('newsletter copy uses the current format everywhere', () => {
     assert.doesNotMatch(text, /sourced stories|practical takeaway/i, file);
   }
   assert.match(fs.readFileSync(new URL('../public/index.html', import.meta.url), 'utf8'), /one big story, quick hits and a Tool of the Week/);
+});
+
+test('issue pages use the site URL, name the curator, and keep every source', () => {
+  const archive = JSON.parse(fs.readFileSync(new URL('../public/data/issue-archive.json', import.meta.url), 'utf8'));
+  const issue = archive.issues.find((item) => item.date === '2026-11-06');
+  const html = prepareIssueHtml(issue.html);
+  assert.match(html, /This week at a glance/);
+  assert.match(html, /Big Signal\./);
+  assert.match(html, /QuartusIQ/);
+  assert.match(html, /Agilex 2X/);
+  assert.match(html, /Innocent Ncube/);
+  assert.doesNotMatch(html, /The Signal Tech team/);
+  assert.doesNotMatch(html, /Notify me/);
+  assert.doesNotMatch(html, /Sources:[^<]*<\/p>\s*<p>/);
+  assert.match(html, /Oracle<\/a> · <a href="https:\/\/cloud\.google\.com\/blog\/products\/infrastructure\/bringing-google-tpus-to-oracle-cloud-infrastructure"/);
+  const chrome = readChrome(fs.readFileSync(new URL('../public/digests.html', import.meta.url), 'utf8'));
+  const page = issuePage(chrome, issue, null, null, {});
+  assert.match(page, /href="https:\/\/signaltechnews\.com\/issues\/2026-11-06">View this issue</);
+  assert.match(page, /Also on beehiiv/);
+  assert.doesNotMatch(page, /View this issue on beehiiv|Read on beehiiv/);
 });
 
 test('sponsorSlot shows the placeholder until data/sponsor.json is filled', () => {

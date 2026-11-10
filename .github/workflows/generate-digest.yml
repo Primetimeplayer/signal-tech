@@ -3,6 +3,7 @@ name: Generate Weekly Digest
 on:
   schedule:
     - cron: '0 14 * * 1'   # every Monday at 14:00 UTC
+    - cron: '0 15 * * 1'   # same job again at 15:00 UTC if the 14:00 run was skipped
   workflow_dispatch: {}
 
 permissions:

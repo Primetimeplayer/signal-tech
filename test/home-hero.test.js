@@ -18,21 +18,16 @@ test('home page has exactly one h1, the hero headline', () => {
   assert.equal(document.querySelectorAll('h1.wordmark').length, 0, 'Wordmark must not be an h1');
 });
 
-test('hero subscribe link points at the beehiiv signup with home_hero UTM and opens safely', () => {
+test('hero signup is the on-page beehiiv embed, not an off-site subscribe link', () => {
   const { document } = new JSDOM(html).window;
-  const link = document.querySelector('#heroSignup a#heroSubscribe');
-  assert.ok(link, 'Hero subscribe link must exist');
-  assert.equal(document.querySelectorAll('#heroSignup form, #heroSignup input, #heroSignup script').length, 0,
-    'Hero signup must be a plain link with no form, input or script');
-  const url = new URL(link.getAttribute('href'));
-  // The beehiiv home, not /subscribe: /subscribe redirects to ?modal=signup,
-  // which stacks a pop-up form on top of the home page form.
-  assert.equal(url.origin + url.pathname, 'https://dailysignaltech.beehiiv.com/');
-  assert.equal(url.searchParams.has('modal'), false);
-  assert.equal(url.searchParams.get('utm_source'), 'signaltechnews');
-  assert.equal(url.searchParams.get('utm_medium'), 'home_hero');
-  assert.equal(url.searchParams.get('utm_campaign'), 'signup_box');
-  assert.equal(link.getAttribute('target'), '_blank');
-  assert.ok((link.getAttribute('rel') || '').split(/\s+/).includes('noopener'), 'rel must include noopener');
-  assert.equal(link.textContent.trim(), 'Subscribe free');
+  const frame = document.querySelector('#heroSignup iframe#heroSubscribe');
+  assert.ok(frame, 'Hero signup embed must exist');
+  assert.equal(document.querySelectorAll('#heroSignup a[href*="beehiiv"], #heroSignup a[href*="/subscribe"]').length, 0,
+    'Hero must not send the reader to beehiiv or /subscribe');
+  const url = new URL(frame.getAttribute('src'));
+  assert.equal(url.origin + url.pathname, 'https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef');
+  assert.equal(url.searchParams.get('slim'), 'true');
+  assert.equal(frame.getAttribute('height'), '52');
+  assert.equal(document.querySelector('#heroSignup .hero-signup-submit').textContent.trim(), 'Subscribe');
+  assert.equal(document.querySelector('#heroTitle').textContent.trim(), 'Tech news that matters, in 5 minutes');
 });
