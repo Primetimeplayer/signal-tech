@@ -9834,3 +9834,136 @@ main .grid,
     margin-right: 8px !important;
   }
 }
+
+/* Desktop lead card only. Under the two-line summary, keep Save and Share.
+   Phones stay on the 800px rules (Save, Share, and Preview). */
+@media (min-width: 801px) {
+  #main #feed .briefing-card > .card.hero-story,
+  #main #feed .briefing-card > .card.hero-story.is-hardware,
+  #main #feed .card.hero-story {
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  #main #feed .card.hero-story > .hero-copy > .hero-dek ~ :not(.card-actions),
+  #main #feed .card.hero-story .why,
+  #main #feed .card.hero-story .related-links,
+  #main #feed .card.hero-story .story-discussion,
+  #main #feed .card.hero-story .score-badge,
+  #main #feed .card.hero-story .note-box,
+  #main #feed .card.hero-story .coverage {
+    display: none !important;
+  }
+
+  #main #feed .card.hero-story .card-actions .preview-btn {
+    display: none !important;
+  }
+}
+
+/* Most covered and River. Light values match the previous inline styles.
+   Dark uses the same palette as the rest of the homepage. */
+#leaderboard:not(:empty) {
+  margin-top: 28px;
+  padding: 16px 18px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  color: rgb(23, 33, 43);
+}
+#leaderboard h3 {
+  margin: 0 0 12px;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+#leaderboard .source-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+#leaderboard .source-chip {
+  background: #f0f4f8;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  color: #333;
+}
+#river:not(:empty) {
+  margin-top: 36px;
+  padding: 20px 22px;
+  background: #fafafa;
+  border-radius: 12px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+#river h3 {
+  margin: 0 0 14px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+#river .river-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+#river .river-item {
+  padding: 9px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.93rem;
+  line-height: 1.45;
+}
+#river .river-item a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+}
+#river .river-meta {
+  font-size: 0.78rem;
+  color: #666;
+  margin-top: 3px;
+}
+:root[data-theme="dark"] #leaderboard:not(:empty) {
+  background: #292a2d;
+  border-color: #3c4043;
+  color: #e8eaed;
+}
+:root[data-theme="dark"] #leaderboard h3 {
+  color: #e8eaed;
+}
+:root[data-theme="dark"] #leaderboard .source-chip {
+  background: #3c4043;
+  color: #e8eaed;
+}
+:root[data-theme="dark"] #leaderboard .source-chip b {
+  color: #8ab4f8;
+}
+:root[data-theme="dark"] #leaderboard .source-chip:hover {
+  background: #4a4e51;
+}
+:root[data-theme="dark"] #river:not(:empty) {
+  background: #292a2d;
+  border-color: #3c4043;
+  box-shadow: none;
+  color: #e8eaed;
+}
+:root[data-theme="dark"] #river h3 {
+  color: #e8eaed;
+}
+:root[data-theme="dark"] #river .river-item {
+  border-bottom-color: #3c4043;
+}
+:root[data-theme="dark"] #river .river-item a {
+  color: #e8eaed;
+}
+:root[data-theme="dark"] #river .river-item a:hover {
+  color: #8ab4f8;
+  text-decoration: underline;
+}
+:root[data-theme="dark"] #river .river-item a:focus-visible {
+  outline: 2px solid #8ab4f8;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+:root[data-theme="dark"] #river .river-meta {
+  color: #bdc1c6;
+}

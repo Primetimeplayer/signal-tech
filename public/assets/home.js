@@ -1994,19 +1994,19 @@ initAuth();
       if (feed && feed.parentNode) feed.parentNode.insertBefore(riverEl, feed.nextSibling);
       else document.body.appendChild(riverEl);
     }
-    riverEl.style.cssText = 'margin-top:36px;padding:20px 22px;background:#fafafa;border-radius:12px;border:1px solid #e8e8e8;box-shadow:0 1px 2px rgba(0,0,0,0.04);';
+    riverEl.removeAttribute('style');
     const riverItems = allItems
       .filter(i => (i.score || 0) < 92)
       .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
       .slice(0, 20);
     if (!riverItems.length) { riverEl.innerHTML = ''; return; }
     riverEl.innerHTML = `
-      <h3 style="margin:0 0 14px;font-size:1.08rem;font-weight:600;color:#1a1a1a;">River</h3>
-      <div style="display:flex;flex-direction:column;gap:2px;">` +
+      <h3>River</h3>
+      <div class="river-list">` +
       riverItems.map(item => `
-        <div class="river-item" style="padding:9px 0;border-bottom:1px solid #eee;font-size:0.93rem;line-height:1.45;">
-          <a href="${escapeAttr(item.link)}" target="_blank" style="color:#111;text-decoration:none;font-weight:500;">${escapeHtml(item.title)}</a>
-          <div style="font-size:0.78rem;color:#666;margin-top:3px;">${escapeHtml(item.source || '')}${item.published ? ' · ' + new Date(item.published).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}) : ''}</div>
+        <div class="river-item">
+          <a href="${escapeAttr(item.link)}" target="_blank">${escapeHtml(item.title)}</a>
+          <div class="river-meta">${escapeHtml(item.source || '')}${item.published ? ' · ' + new Date(item.published).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}) : ''}</div>
         </div>`).join('') +
       `</div>`;
   }
@@ -2016,7 +2016,6 @@ initAuth();
     if (!el) {
       el = document.createElement('div');
       el.id = 'leaderboard';
-      el.style.cssText = 'margin-top:28px;padding:16px 18px;background:#fff;border-radius:10px;border:1px solid #eee;';
       const river = document.getElementById('river');
       if (river && river.parentNode) river.parentNode.insertBefore(el, river);
       else {
@@ -2030,11 +2029,12 @@ initAuth();
       counts[s] = (counts[s] || 0) + 1;
     });
     const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8);
+    el.removeAttribute('style');
     if (!top.length) { el.innerHTML = ''; return; }
     el.innerHTML = `
-      <h3 style="margin:0 0 12px;font-size:1.02rem;font-weight:600;">Most covered sources</h3>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;">` +
-      top.map(([src, n]) => `<span style="background:#f0f4f8;padding:4px 10px;border-radius:20px;font-size:0.82rem;color:#333;">${escapeHtml(src)} <b>${n}</b></span>`).join('') +
+      <h3>Most covered sources</h3>
+      <div class="source-chips">` +
+      top.map(([src, n]) => `<span class="source-chip">${escapeHtml(src)} <b>${n}</b></span>`).join('') +
       `</div>`;
   }
   function renderAll() {
