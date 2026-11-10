@@ -142,10 +142,11 @@
   :root[data-theme="dark"] #heroSignup .hero-signup-control:focus-within{outline-color:#8ab4f8}
   :root[data-theme="dark"] #heroSignup .hero-signup-control:focus-within .hero-signup-field{border-color:#8ab4f8}
   @media (max-width:899px){
-    #heroSignup,#heroSignup .hero-signup-inner{min-height:248px}
+    /* The copy's flex-grow is for the desktop row. In this column it was swallowing the reserved height and opening a band under the tagline. Size the hero to its content instead. */
+    #heroSignup,#heroSignup .hero-signup-inner{min-height:0}
     #heroSignup .hero-signup-inner{flex-direction:column;align-items:stretch;justify-content:flex-start;padding-top:14px;padding-bottom:14px}
-    #heroSignup .hero-signup-title{font-size:22px;line-height:28px;min-height:56px}
-    #heroSignup .tagline{min-height:40px}
+    #heroSignup .hero-signup-copy{flex:0 1 auto}
+    #heroSignup .hero-signup-title{font-size:22px;line-height:28px}
     #heroSignup .hero-signup-cta{width:100%;max-width:420px}
     #heroSignup .hero-signup-meta{white-space:normal}
   }
