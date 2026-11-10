@@ -31,3 +31,19 @@ test('hero signup is the on-page beehiiv embed, not an off-site subscribe link',
   assert.equal(document.querySelector('#heroSignup .hero-signup-submit').textContent.trim(), 'Subscribe');
   assert.equal(document.querySelector('#heroTitle').textContent.trim(), 'Tech news that matters, in 5 minutes');
 });
+
+test('Latest Stories strip is gone and the Signal strip remains', () => {
+  const { document } = new JSDOM(html).window;
+  assert.equal(document.getElementById('latestSection'), null);
+  assert.equal(document.getElementById('latestRow'), null);
+  assert.equal(document.getElementById('latest'), null);
+  assert.equal(document.querySelector('.latest-nav'), null);
+  assert.equal(document.querySelector('#signalStrip'), document.querySelector('.signal-strip'));
+  assert.ok(document.querySelector('#signalStrip'), 'Signal strip must stay on the page');
+  const homeJs = fs.readFileSync(path.resolve(__dirname, '../public/assets/home.js'), 'utf8');
+  assert.equal(homeJs.includes('function renderLatest'), false);
+  assert.equal(homeJs.includes('LATEST_WINDOW_MS'), false);
+  assert.equal(homeJs.includes('function dedupeByTitle'), true);
+  assert.equal(html.includes('#latestSection{min-height'), false);
+  assert.equal(html.includes('#latestRow{min-height'), false);
+});

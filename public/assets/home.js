@@ -44,10 +44,6 @@
   const themeToggleEl = document.getElementById('themeToggle');
   const themeIconEl = document.getElementById('themeIcon');
   const resultCountEl = document.getElementById('resultCount');
-  const latestSectionEl = document.getElementById('latestSection');
-  const latestRowEl = document.getElementById('latestRow');
-  const latestPrevEl = document.getElementById('latestPrev');
-  const latestNextEl = document.getElementById('latestNext');
   const hwToggleEl = document.getElementById('hwToggle');
   const savedToggleEl = document.getElementById('savedToggle');
   const errorBannerEl = document.getElementById('errorBanner');
@@ -60,7 +56,6 @@
 
 
   const AUTO_REFRESH_MS = 300000;
-  const LATEST_WINDOW_MS = 12 * 60 * 60 * 1000;
   const PAGE_SIZE = 18;
   const SEARCH_DEBOUNCE_MS = 150;
 
@@ -1053,63 +1048,6 @@ initAuth();
     return /\b(coupons?|promo[\s-]*codes?|discounts?|lingerie)\b/i.test((item && item.title) || '');
   }
 
-  function renderLatest() {
-    const latest = allItems
-      .filter((i) => i.published && !Number.isNaN(new Date(i.published).getTime()) && !isPromoItem(i))
-      .slice(0, 10);
-    const latestCountEl = document.getElementById('latestCount');
-    if (latestRowEl) latestRowEl.setAttribute('aria-busy', 'false');
-    if (!latest.length) {
-      latestSectionEl.hidden = true;
-      if (latestCountEl) latestCountEl.textContent = '';
-      return;
-    }
-    latestSectionEl.hidden = false;
-    if (latestCountEl) {
-      latestCountEl.textContent = latest.length === 1 ? t('newestOne') : t('newestMany', { n: latest.length });
-    }
-    latestRowEl.innerHTML = latest.map((item) => {
-      const sourceName = (item.source && String(item.source).trim()) || catLabel(item.category);
-      return `
-      <a class="latest-card ${item.category}" href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">
-        <div class="cat">${textHtml(sourceName)} · ${timeAgo(item.published)}</div>
-        <h3>${textHtml(item.title)}</h3>
-      </a>
-    `;
-    }).join('');
-    syncLatestNav();
-  }
-
-  // --- Latest Stories carousel controls ---
-  // Prev/next drive the existing horizontal scroll container (no autoplay).
-  function syncLatestNav() {
-    if (!latestRowEl || !latestPrevEl || !latestNextEl) return;
-    const max = latestRowEl.scrollWidth - latestRowEl.clientWidth;
-    latestPrevEl.disabled = latestRowEl.scrollLeft <= 1;
-    latestNextEl.disabled = max <= 1 || latestRowEl.scrollLeft >= max - 1;
-    const bar = document.getElementById('latestProgressBar');
-    if (!bar) return;
-    const total = latestRowEl.scrollWidth;
-    const view = latestRowEl.clientWidth;
-    const thumb = total > 0 ? Math.min(100, Math.max(8, (view / total) * 100)) : 100;
-    const ratio = max <= 1 ? 0 : Math.min(1, Math.max(0, latestRowEl.scrollLeft / max));
-    bar.style.width = `${thumb}%`;
-    bar.style.marginLeft = `${ratio * (100 - thumb)}%`;
-  }
-
-  function scrollLatest(dir) {
-    const card = latestRowEl && latestRowEl.querySelector('.latest-card');
-    if (!card) return;
-    const gap = parseFloat(getComputedStyle(latestRowEl).gap) || 0;
-    const step = card.getBoundingClientRect().width + gap;
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    latestRowEl.scrollBy({ left: dir * step, behavior: reduce ? 'auto' : 'smooth' });
-  }
-
-  latestPrevEl.addEventListener('click', () => scrollLatest(-1));
-  latestNextEl.addEventListener('click', () => scrollLatest(1));
-  latestRowEl.addEventListener('scroll', syncLatestNav, { passive: true });
-  window.addEventListener('resize', syncLatestNav);
   window.addEventListener('resize', () => {
     if (feedEl && feedEl.querySelector('.picks-col')) balanceColumns();
   });
@@ -1677,8 +1615,8 @@ initAuth();
     // The reset control only exists while something is actually narrowed down,
     // so the default, unfiltered view stays exactly what it was before.
     syncFilterChrome();
-    const latestWrapEl = document.getElementById('latest');
-    if (latestWrapEl) latestWrapEl.classList.toggle('is-filtered-out', hasActiveFilters());
+    const signalStripEl = document.getElementById('signalStrip');
+    if (signalStripEl) signalStripEl.classList.toggle('is-filtered-out', hasActiveFilters());
 
     // A failed load is not an empty filter result. Drop the skeleton and the
     // "loading feed…" line, and leave the retry banner as the status.
@@ -2040,7 +1978,6 @@ initAuth();
   function renderAll() {
     renderLeaderboard();
     renderRiver();
-    renderLatest();
     render();
   }
 

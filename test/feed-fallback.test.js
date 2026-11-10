@@ -437,10 +437,10 @@ test('headlines with feed markup render as plain text', async (t) => {
 
   const doc = dom.window.document;
   await waitFor(() => [...doc.querySelectorAll('#feed h2 a')].some((a) => a.textContent === "Reg readers land on 'Binface'"), 2000);
-  const headlines = [...doc.querySelectorAll('#feed h2 a, #latestRow h3')].map((el) => el.textContent);
+  const headlines = [...doc.querySelectorAll('#feed h2 a')].map((el) => el.textContent);
   assert.ok(headlines.includes('Chip news'));
   assert.equal(headlines.some((text) => /<|data-lab/.test(text)), false);
-  assert.equal(doc.querySelector('#feed h2 a span, #feed h2 a img, #latestRow h3 img'), null);
+  assert.equal(doc.querySelector('#feed h2 a span, #feed h2 a img'), null);
   assert.equal(dom.window.__pwned, undefined);
   const recent = [...doc.querySelectorAll('#feed [data-recent-title]')].map((el) => el.getAttribute('data-recent-title'));
   assert.equal(recent.some((text) => /<span|<img/.test(text)), false);

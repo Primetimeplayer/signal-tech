@@ -153,8 +153,6 @@
   #topicBar{min-height:40px;margin:0 0 8px}
   #topicBar .top-nav,#topicBar .top-nav-section{display:flex;flex-flow:row nowrap;align-items:center;gap:6px;overflow:hidden}
   #topicBar .filter{flex:0 0 auto;white-space:nowrap}
-  #latestSection{min-height:188px}
-  #latestRow{min-height:120px}
   #signalStrip{display:flex;align-items:center;gap:16px;box-sizing:border-box;height:100px;min-height:100px;max-height:100px;margin:12px 0 0;padding:10px 18px;overflow:hidden;background:var(--panel-raised);color:var(--text);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px}
   #signalStrip .signal-main{flex:1 1 auto;min-width:0}
   #signalStrip .signal-kicker{margin:0;color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.04em;line-height:1.2;white-space:nowrap}
@@ -189,7 +187,6 @@
   @media (max-width:640px){
     #signalStrip{flex-direction:column;align-items:stretch;height:auto;min-height:240px;max-height:none;padding:14px 18px;gap:10px}
     #signalStrip .signal-kicker,#signalStrip .signal-title{white-space:normal}
-    #latestSection{min-height:210px}
     .cookie-banner{flex-direction:column;align-items:stretch}
     .cookie-banner-actions{width:100%}
     .cookie-banner-actions button{flex:1}
@@ -221,19 +218,6 @@
    .result-meta{display:flex;align-items:center;gap:8px;min-height:17px;margin-top:8px}
    .result-count{margin:0;font-size:13px;line-height:17px;white-space:nowrap}
    .search-toggle{display:none}
-   #latest{margin:10px 0 12px;padding:4px 0 0}
-   .latest-label{display:flex;align-items:center;gap:10px;margin:0 1px 8px;font-size:17px;font-weight:650;line-height:21.25px}
-   .latest-label h2{margin:0;font-size:25.5px;font-weight:700;line-height:31.875px;white-space:nowrap}
-   #latestCount{white-space:nowrap}
-   .latest-nav{display:flex;gap:6px;margin-left:auto}
-   .latest-nav-btn{display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:36px;height:36px;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:inherit}
-   .latest-nav-btn svg{width:18px;height:18px}
-   #latestRow{display:flex;gap:8px;box-sizing:border-box;height:120px;padding:2px 0 0;overflow:hidden}
-   #latestRow .latest-card{display:flex;flex-direction:column;flex:0 0 230px;box-sizing:border-box;width:230px;padding:14.4px 17.6px;border:1px solid var(--line);border-radius:10px;color:inherit;text-decoration:none}
-   #latestRow .latest-card .cat{margin:0 0 4.8px;font-size:11.2px;line-height:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-   #latestRow .latest-card h3{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;min-height:61.824px;margin:0;font-size:14.72px;font-weight:650;line-height:20.608px}
-   .latest-progress{display:block;height:3px;margin:8px 0 2px;overflow:hidden}
-   #latestProgressBar{display:block;height:100%;width:0}
    #signalStrip{position:relative}
    #signalStrip .signal-main{display:flex;flex-direction:column;justify-content:center;gap:2px}
    #signalStrip .signal-kicker{display:flex;align-items:baseline;flex-wrap:nowrap;gap:8px;overflow:hidden;font-size:11px;line-height:13.2px}
@@ -257,7 +241,7 @@
    #signalTitle:empty{min-height:20.7px}
    #signalStories:empty{min-height:47.25px}
    @media (max-width:800px){
-     .mast-link,.status,.mast-account,.latest-nav{display:none}
+     .mast-link,.status,.mast-account{display:none}
      .controls{gap:.8rem;padding-bottom:4px}
      .wrap{padding:0 16px}
      .mast>.wrap,body>.wrap{padding:0 24px}
@@ -282,7 +266,6 @@
      #signalStories:empty{min-height:63.5px}
    }
    @media (max-width:640px){
-     #latestRow .latest-card{flex:0 0 78vw;width:78vw;max-width:calc(100% - 40px)}
      #signalStrip .signal-kicker{flex-direction:column;flex-wrap:wrap;align-items:flex-start;gap:2px;padding-right:68px}
      #signalStories{grid-template-columns:minmax(0,1fr);gap:8px}
      #signalStrip .signal-story:nth-child(n+3){display:none}
@@ -339,8 +322,8 @@
      <style media="not all"> sheet, so source order is not the cascade. -->
 
 
-<!-- MOBILE COMFORT — compact drawer, touch-sized dismiss affordances, a
-     swipe-friendly Latest strip and a search placeholder that fits phones.
+<!-- MOBILE COMFORT — compact drawer, touch-sized dismiss affordances, and a
+     search placeholder that fits phones.
      Placed after every other sheet (only focus-visibility follows) so it wins
      ties against the older mobile rules; every rule is inside a narrow-screen
      media query, so desktop rendering is untouched. -->
@@ -426,7 +409,7 @@
 <a class="skip-link" href="#main" data-i18n="skipToMain">Skip to main content</a>
 
 <noscript>
-  <style>#skeleton,.latest-skeleton{display:none !important}</style>
+  <style>#skeleton{display:none !important}</style>
   <div class="mast"><div class="wrap">
     <p class="wordmark">Signal <span>Tech</span></p>
     <p class="tagline" data-i18n="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
@@ -659,27 +642,7 @@
     </button>
   </div>
 
-<div class="wrap latest-wrap" id="latest">
-  <div class="latest" id="latestSection">
-    <div class="latest-label">
-  <h2 data-i18n="latestStories">Latest Stories</h2>
-  <span id="latestCount">Newest stories</span>
-  <div class="latest-nav">
-    <button type="button" class="latest-nav-btn" id="latestPrev" data-i18n-aria="prevStories" aria-label="Previous stories" aria-controls="latestRow">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" focusable="false"><path d="m14 6-6 6 6 6"/></svg>
-    </button>
-    <button type="button" class="latest-nav-btn" id="latestNext" data-i18n-aria="nextStories" aria-label="Next stories" aria-controls="latestRow">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" focusable="false"><path d="m10 6 6 6-6 6"/></svg>
-    </button>
-  </div>
-</div>
-    <div class="latest-row" id="latestRow" aria-busy="true">
-      <div class="latest-skeleton" aria-hidden="true"></div>
-      <div class="latest-skeleton" aria-hidden="true"></div>
-      <div class="latest-skeleton" aria-hidden="true"></div>
-    </div>
-    <div class="latest-progress" id="latestProgress" aria-hidden="true"><span id="latestProgressBar"></span></div>
-  </div>
+<div class="wrap latest-wrap">
   <section class="signal-strip" id="signalStrip" aria-labelledby="signalKickerLabel">
     <div class="signal-main">
       <p class="signal-kicker">
