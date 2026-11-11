@@ -1,360 +1,339 @@
 {
-  "updated": "2026-11-10T23:29:52.998Z",
+  "updated": "2026-11-11T06:42:07.288Z",
   "count": 20,
   "items": [
     {
-      "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
-      "summary": "The paper examines if perfectly balanced training data is essential for robust performance across subpopulations, questioning the necessity of full balance.",
-      "link": "http://arxiv.org/abs/2611.12884v1",
-      "published": "2026-11-09T18:59:40Z",
+      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+      "summary": "The article compares adapting large foundation models to medical image segmentation versus training task-specific models, highlighting limited evidence for new data scenarios.",
+      "link": "http://arxiv.org/abs/2611.14519v1",
+      "published": "2026-11-10T18:59:54Z",
       "authors": [
-        "Zhaoying Pan",
-        "Yipei Wang",
-        "Shenyu Lu",
-        "Xiaoqian Wang"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "whyItMatters": "It could reduce data collection costs while maintaining model fairness and reliability."
-    },
-    {
-      "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
-      "summary": "The article introduces Kolmogorov-Chapman maps, a trajectory-free method that uses deep learning to accelerate molecular dynamics simulations by bypassing sequential SDE steps.",
-      "link": "http://arxiv.org/abs/2611.12880v1",
-      "published": "2026-11-09T18:59:13Z",
-      "authors": [
-        "Majdi Hassan",
-        "Marta Skreta",
-        "Dominique Beaini",
-        "Kirill Neklyudov"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "It promises faster, more efficient simulations, benefiting researchers needing rapid, high-fidelity molecular insights."
-    },
-    {
-      "title": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels",
-      "summary": "The paper shows that adaptive quantization allows TD learning with linear function approximation to maintain fast convergence rates even when updates are sent over limited-bandwidth channels.",
-      "link": "http://arxiv.org/abs/2611.12878v1",
-      "published": "2026-11-09T18:58:41Z",
-      "authors": [
-        "Sreejeet Maity",
-        "Aritra Mitra"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "It enables efficient distributed RL in bandwidth‑constrained settings, crucial for edge devices and IoT deployments."
-    },
-    {
-      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-      "summary": "The paper proposes HiVe-Mem, a memory architecture that interleaves horizontal memory expansion with vertical evidence composition to improve retrieval in multimodal agents.",
-      "link": "http://arxiv.org/abs/2611.12872v1",
-      "published": "2026-11-09T18:57:00Z",
-      "authors": [
-        "Haozhen Zhang",
-        "Bohan Liu",
-        "Jianzhu Bao",
-        "Qingyuan Liu",
-        "Haodong Yue",
-        "Xiao Li",
-        "Zi Pong Lim",
-        "Wenya Wang"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "whyItMatters": "It offers a more flexible memory system for agents, potentially enhancing long‑term context handling and performance."
-    },
-    {
-      "title": "Vendi Anomaly Scores for Efficient and Accurate Anomaly Detection",
-      "summary": "The paper introduces Vendi Anomaly Scores, a new method for anomaly detection that improves accuracy and efficiency by redefining anomaly detection beyond local density or isolation heuristics.",
-      "link": "http://arxiv.org/abs/2611.12871v1",
-      "published": "2026-11-09T18:56:15Z",
-      "authors": [
-        "Amey Pasarkar",
-        "Adji Bousso Dieng"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "It offers more reliable anomaly detection for trustworthy ML and scientific discovery, reducing sensitivity to parameter choices."
-    },
-    {
-      "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
-      "summary": "The article examines the Platonic Representation Hypothesis, exploring how neural networks’ representations converge and align across modalities, and questioning its validity in newer language models.",
-      "link": "http://arxiv.org/abs/2611.12869v1",
-      "published": "2026-11-09T18:53:57Z",
-      "authors": [
-        "Julia Herbst",
-        "Simon Roschmann",
-        "Quentin Bouniot",
-        "Zeynep Akata"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Understanding alignment informs cross‑modal transfer, model efficiency, and the limits of shared representations in AI."
-    },
-    {
-      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
-      "summary": "The paper explores how reinforcement learning can lead to reward hacking by favoring shortcuts that violate contextual safety, and proposes verifiable methods to detect such conflicts.",
-      "link": "http://arxiv.org/abs/2611.12865v1",
-      "published": "2026-11-09T18:52:20Z",
-      "authors": [
-        "Xinjie Shen"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CR"
-      ],
-      "whyItMatters": "Understanding and preventing RL misalignment is crucial for deploying safe, reliable AI systems."
-    },
-    {
-      "title": "Is Persona Generalization Predictable?",
-      "summary": "The article examines how fine‑tuning a language model in one domain can unintentionally alter its behavior in other domains, revealing a predictable probit‑linear relationship.",
-      "link": "http://arxiv.org/abs/2611.12864v1",
-      "published": "2026-11-09T18:51:03Z",
-      "authors": [
-        "Olina Mukherjee",
-        "Arnav Goel",
-        "Aditi Raghunathan",
-        "Jacob Mitchell Springer"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "whyItMatters": "Understanding this helps developers anticipate and mitigate cross‑domain safety risks in AI systems."
-    },
-    {
-      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
-      "summary": "The paper benchmarks how well large language models can design and orchestrate executable workflows for multi‑agent systems at runtime.",
-      "link": "http://arxiv.org/abs/2611.12856v1",
-      "published": "2026-11-09T18:45:28Z",
-      "authors": [
-        "Zheng Jiang",
-        "Fang Niu",
-        "Bo Peng",
-        "Houde Qian",
-        "Wenyi Li",
-        "Deyao Hong",
-        "Mingju Gao",
-        "Yizhe Chi",
-        "Youjie Zheng",
-        "Kaisen Yang",
-        "Calvin Xiao",
-        "Lifeng Sun",
-        "Huan-ang Gao"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.SE"
-      ],
-      "whyItMatters": "It shows whether LLMs can autonomously build efficient, reliable agent workflows, impacting future AI system design."
-    },
-    {
-      "title": "What kills v-prediction? A Patch-wise PCA Perspective on Pixel-Space Flow Matching",
-      "summary": "Pixel-space Flow Matching struggles with v-prediction due to off-manifold noise, prompting a patch-wise PCA approach to improve training stability.",
-      "link": "http://arxiv.org/abs/2611.12852v1",
-      "published": "2026-11-09T18:44:37Z",
-      "authors": [
-        "Tianze Luo",
-        "Haofeng Huang",
-        "Yuan Yao"
+        "Emre Kutlusan",
+        "Yongmin Li"
       ],
       "categories": [
         "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "It offers a simpler, end-to-end alternative to complex latent diffusion pipelines."
-    },
-    {
-      "title": "Mitigating Agentic Deception via Evaluation-Side Partially Observable Games",
-      "summary": "The article discusses how large language models can deceive humans by cheating for rewards, attributing this to evaluation-side partial observability and proposing mitigation strategies.",
-      "link": "http://arxiv.org/abs/2611.12835v1",
-      "published": "2026-11-09T18:33:13Z",
-      "authors": [
-        "Hanxiao Li",
-        "Shutong Liu",
-        "Yongjia Ma",
-        "Jiaming Ji",
-        "Juntao Dai",
-        "Shuning Zhang",
-        "Kejian Shi",
-        "Kai Chen",
-        "Pu Feng",
-        "Yuqing Ma",
-        "Qi Dou",
-        "Yaodong Yang",
-        "Xianglong Liu",
-        "Simin Li"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers should care because it highlights risks in AI reliability and the need for better evaluation methods."
-    },
-    {
-      "title": "Programming Prescience: Issues in Human Construction of Forecasting Bots",
-      "summary": "The paper examines how human developers build and evaluate AI forecasting bots through qualitative interviews.",
-      "link": "http://arxiv.org/abs/2611.12834v1",
-      "published": "2026-11-09T18:33:13Z",
-      "authors": [
-        "Priya Dhawka",
-        "Benjamin Wilson",
-        "Andrew Head"
-      ],
-      "categories": [
-        "cs.HC",
         "cs.AI"
       ],
-      "whyItMatters": "Understanding these challenges helps tech leaders design better, more reliable predictive systems."
+      "whyItMatters": "Tech-savvy readers should know if foundation models truly outperform specialized training in medical imaging."
     },
     {
-      "title": "What the Loss Curve Misses: FP4 Pretraining Slows the Acquisition of Rare Facts",
-      "summary": "Low-precision pretraining is usually judged by validation loss. We ask whether matching loss also means learning rare facts as efficiently. We train transformers from scratch with emulated 4-bit matrix multiplications on synthetic biographies with controlled exposure counts, on their own and mixed into web text. NVFP4 needs 1.32× and 1.52× as many exposures as BF16 to match its recall while…",
-      "link": "http://arxiv.org/abs/2611.12832v1",
-      "published": "2026-11-09T18:30:41Z",
+      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+      "summary": "The paper proposes EM-DETR, a foundation detection model that uses example-based grounding to improve medical lesion detection with limited annotations.",
+      "link": "http://arxiv.org/abs/2611.14518v1",
+      "published": "2026-11-10T18:59:17Z",
       "authors": [
-        "Chang Lu",
-        "Mengjiao Zhang"
+        "Sheethal Bhat",
+        "Bogdan Georgescu",
+        "Awais Mansoor",
+        "Florin C. Ghesu",
+        "Sasa Grbic",
+        "Andreas Maier"
       ],
       "categories": [
-        "cs.LG"
-      ]
+        "cs.CV",
+        "cs.AI"
+      ],
+      "whyItMatters": "It could enable more accurate, data‑efficient CAD systems for clinicians."
     },
     {
-      "title": "MaxIM: Maximally Informative Incremental Summarization via Reinforcement Learning",
-      "summary": "AI systems must often maintain bounded memory of unbounded interaction histories. However, optimizing the memory representation, and its updates, for downstream task utility is difficult for standard reinforcement learning (RL) due to severe credit assignment bottlenecks induced by sparse, delayed rewards. We introduce MaxIM (Maximally Informative Incremental Memory), a framework that formulates…",
-      "link": "http://arxiv.org/abs/2611.12825v1",
-      "published": "2026-11-09T18:25:42Z",
+      "title": "TorchCurves: Differentiable Parametric Curves",
+      "summary": "TorchCurves is a PyTorch library that treats vector-valued parametric curves as learnable primitives, enabling differentiation through inputs and coefficients.",
+      "link": "http://arxiv.org/abs/2611.14516v1",
+      "published": "2026-11-10T18:58:52Z",
       "authors": [
-        "Jihwan Jeong",
-        "Guy Tennenholtz",
-        "Yinlam Chow",
-        "Chih-Wei Hsu",
-        "Craig Boutilier"
+        "Alex Shtoff"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "whyItMatters": "It lets tech-savvy developers embed trainable curves directly into neural networks for advanced shape modeling."
+    },
+    {
+      "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+      "summary": "AutoScaffold uses AI to generate training scaffolds that convert detailed RL rewards into actionable prompts for language models.",
+      "link": "http://arxiv.org/abs/2611.14515v1",
+      "published": "2026-11-10T18:58:46Z",
+      "authors": [
+        "Zijian Zhang",
+        "Rizhen Hu",
+        "Jiangweizhi Peng",
+        "Shiyang Li",
+        "Sujay Bhatt",
+        "Sihan Zeng",
+        "Mingyi Hong"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "whyItMatters": "It automates scaffold design, improving RL efficiency and reducing human effort in training language models."
+    },
+    {
+      "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+      "summary": "The paper introduces Contrastive Discovery, a method letting LLM agents evaluate competing scientific hypotheses simultaneously, improving alternative hypothesis identification.",
+      "link": "http://arxiv.org/abs/2611.14514v1",
+      "published": "2026-11-10T18:58:43Z",
+      "authors": [
+        "Ziang Liu",
+        "James J. Kim",
+        "Yijia Dai",
+        "Jennifer J. Sun"
       ],
       "categories": [
         "cs.AI",
+        "cs.CL",
         "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it enhances AI’s scientific reasoning, enabling more accurate model-driven discoveries."
+    },
+    {
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "summary": "Pyrite introduces a benchmark of 1,500 protein‑ligand pose pairs to evaluate pairwise ranking models for drug‑binding predictions.",
+      "link": "http://arxiv.org/abs/2611.14511v1",
+      "published": "2026-11-10T18:56:32Z",
+      "authors": [
+        "Megha Srivastava",
+        "Michael H. Lim",
+        "Allison M. Keys",
+        "Pranav Murugan",
+        "Nate Gruver"
+      ],
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "whyItMatters": "It helps researchers assess and improve ranking algorithms, accelerating accurate drug‑target interaction modeling."
+    },
+    {
+      "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
+      "summary": "The article critiques how connectome-based models may falsely attribute functional superiority to real wiring due to confounding model tuning.",
+      "link": "http://arxiv.org/abs/2611.14508v1",
+      "published": "2026-11-10T18:55:48Z",
+      "authors": [
+        "Yeyuan Liu"
+      ],
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "whyItMatters": "It warns tech-savvy readers that claimed structure-function links might be artifacts, affecting neural network design and interpretation."
+    },
+    {
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "summary": "The paper introduces Continual-ARC, a benchmark for measuring skill acquisition across a lifetime, addressing limitations of prior tests by enabling cross-system comparisons.",
+      "link": "http://arxiv.org/abs/2611.14505v1",
+      "published": "2026-11-10T18:55:01Z",
+      "authors": [
+        "Daniel Lenton"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It helps evaluate and improve lifelong learning models, crucial for adaptive AI in real-world applications."
+    },
+    {
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "summary": "Bonbon, a foundation model trained on 3.2 trillion protein‑ligand tokens, shows zero‑shot emergent capabilities for molecular interaction tasks.",
+      "link": "http://arxiv.org/abs/2611.14504v1",
+      "published": "2026-11-10T18:53:01Z",
+      "authors": [
+        "Adi Mashiach"
+      ],
+      "categories": [
+        "cs.LG",
+        "q-bio.BM"
+      ],
+      "whyItMatters": "It could accelerate drug discovery by predicting interactions without task‑specific training."
+    },
+    {
+      "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+      "summary": "The article compares three evaluation frameworks for LLM-based analytics agents, focusing on stability, failure detection, and discovery in complex enterprise workflows.",
+      "link": "http://arxiv.org/abs/2611.14493v1",
+      "published": "2026-11-10T18:50:06Z",
+      "authors": [
+        "Howard Zhang",
+        "Chuck Arvin",
+        "Logan Brown",
+        "Mihir Bhatia",
+        "Neelu Choudhary",
+        "Lily Miao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "whyItMatters": "Tech leaders need reliable agent evaluation to ensure robust, error-free analytics in business environments."
+    },
+    {
+      "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+      "summary": "ReTrace transforms SOPs and logged LLM agent runs into reusable, code-based workflows, eliminating per-step LLM calls for faster, cheaper automation.",
+      "link": "http://arxiv.org/abs/2611.14492v1",
+      "published": "2026-11-10T18:49:47Z",
+      "authors": [
+        "Kaiyuan Hou",
+        "Yang Ping Kuo",
+        "Indranil Bhattacharya",
+        "Rohith Nama",
+        "Arushi Gupta",
+        "Carlos D. Castillo",
+        "Prathap Ramachandra",
+        "Xiaofan Jiang",
+        "Francesco Carbone"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "whyItMatters": "It cuts latency and cost, enabling scalable, efficient business process automation for tech teams."
+    },
+    {
+      "title": "TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time Series Analytics",
+      "summary": "TimeSeek introduces multi-task, multi-domain pretraining to improve time series foundation models beyond large Transformer stacks.",
+      "link": "http://arxiv.org/abs/2611.14491v1",
+      "published": "2026-11-10T18:49:26Z",
+      "authors": [
+        "Peng Chen",
+        "Yihang Wang",
+        "Zhongwen Rao",
+        "Yang Shu",
+        "Yuying Qiu",
+        "Yuxuan Chen",
+        "Lujia Pan",
+        "Bin Yang",
+        "Chenjuan Guo"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It offers more adaptable, efficient models for diverse time‑series applications, appealing to tech‑savvy users seeking better performance."
+    },
+    {
+      "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+      "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Questions to research ideation: given only the research problem of a published…",
+      "link": "http://arxiv.org/abs/2611.14487v1",
+      "published": "2026-11-10T18:47:22Z",
+      "authors": [
+        "Muhan Gao",
+        "Hangxiao Zhu",
+        "Xinqi Su",
+        "Yu Zhang",
+        "Daniel Khashabi",
+        "Kuan-Hao Huang"
+      ],
+      "categories": [
+        "cs.AI"
       ]
     },
     {
-      "title": "How Well Does AI Peer Review Work? A Benchmark Built from 100 Planted Errors",
-      "summary": "One hundred known errors were planted into 10 open-access psychology papers, and the modified papers were then run through frontier models and two commercial AI review tools. The best single system caught 71 of the 100 errors, while the worst caught 30. Pooling every system's output caught 93. Models are only partly correlated in the errors they find, which makes ensembling a big lever for…",
-      "link": "http://arxiv.org/abs/2611.12820v1",
-      "published": "2026-11-09T18:22:19Z",
+      "title": "Mechanistic Interpretability Needs a Logic of Inference",
+      "summary": "Neural networks are increasingly studied not merely as predictive systems, but as complex systems whose internal computations are themselves objects of scientific inquiry. Recent progress in mechanistic interpretability (MI) has made it possible to identify neurons, features, circuits, population structures, and dynamical patterns associated with model behavior. As these tools improve, attention…",
+      "link": "http://arxiv.org/abs/2611.14483v1",
+      "published": "2026-11-10T18:45:07Z",
       "authors": [
-        "Paul Litvak"
+        "Zhimin Hu",
+        "Chen Jiang",
+        "Hanbo Xie",
+        "N. Apurva Ratan Murty",
+        "Sashank Varma"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation",
+      "summary": "In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-low cost system optimized for binary classification in translation triage and data…",
+      "link": "http://arxiv.org/abs/2611.14480v1",
+      "published": "2026-11-10T18:41:37Z",
+      "authors": [
+        "Evelyn Y. Garland",
+        "Carola F. Berger"
       ],
       "categories": [
         "cs.CL"
       ]
     },
     {
-      "title": "LUCQUE: A lung cancer screening dataset from Québec for reliable AI evaluation",
-      "summary": "BACKGROUND: AI-based tools are expected to play a key role in lung cancer screening (LCS). The evaluation of these tools often relied on private datasets or fragmented public datasets with inconsistent availability of clinical data and expert nodule annotations. This has hindered reproducibility, comparability, and independent assessment of AI tools. To address these gaps, we present LUCQUE, a…",
-      "link": "http://arxiv.org/abs/2611.12817v1",
-      "published": "2026-11-09T18:21:18Z",
+      "title": "FERN: Cross-Benchmark Table Retrieval for Text-to-SQL with Frozen Retrievers and Learned Ranking",
+      "summary": "Text-to-SQL systems over large pooled catalogs must first retrieve the tables a question needs. We compare against the published table recall of RASL, which uses Claude 3.5 models to extract keywords and select tables, on pooled BIRD, Spider, and Fiben catalogs. FERN (Feature-Engineered Ranking with No generative LLM) instead fuses three frozen retrievers into 100 candidates, describes each with…",
+      "link": "http://arxiv.org/abs/2611.14477v1",
+      "published": "2026-11-10T18:39:49Z",
       "authors": [
-        "Johanna Topalis",
-        "Yannick Lemaréchal",
-        "Gabriel Couture",
-        "Hanife Ersay",
-        "Loran Nas",
-        "Balthasar Schachtner",
-        "Bastian Oliver Sabel",
-        "Michael Ingrisch",
-        "Philippe Després",
-        "Katharina Jeblick"
+        "Arjun Rao",
+        "Nishant Gopinath"
       ],
       "categories": [
-        "cs.DB",
-        "cs.AI"
+        "cs.IR",
+        "cs.CL"
       ]
     },
     {
-      "title": "Automated Knowledge Acquisition Pipeline for Disassembly Instructions: A Comparison of NLP and Generative AI Frameworks",
-      "summary": "The push towards circularity and Re-X principles presents a challenge to SMEs, particularly due to increasing product complexity that impedes the adoption of disassembly automation. This paper introduces and compares two frameworks for extracting disassembly instructions from unstructured information sources, such as disassembly manuals. Our goal is to transform natural language text into a…",
-      "link": "http://arxiv.org/abs/2611.12816v1",
-      "published": "2026-11-09T18:19:57Z",
+      "title": "C^2-Routing: Complementary Cropping and Compression for Efficient Vision-Language Inference",
+      "summary": "Visual Question Answering (VQA) imposes substantial computational overhead on vision-language models (VLMs), motivating model-agnostic input reduction methods that can be readily applied across diverse VLMs, including in black-box settings. Simply enforcing a visual-token cap reduces computation, but it can discard information needed to answer the question. A single reduction strategy also…",
+      "link": "http://arxiv.org/abs/2611.14469v1",
+      "published": "2026-11-10T18:32:28Z",
       "authors": [
-        "Tim Schnieders",
-        "Tareq Maximilian Gabriel Ahrari",
-        "Oliver Petrovic",
-        "Christian Brecher"
+        "Guorui Lu",
+        "Qinyu Chen"
       ],
       "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Inversion-Free High-Dimensional Counterfactual Inference",
-      "summary": "Counterfactual inference is the task of answering hypothetical \"what-if\" queries about a unit, given an observational dataset, modeling assumptions, and a causal graph. This enables a modeler to reason about hypothetical scenarios that cannot otherwise be answered without assumptions or a causal graph. The simpler case involves a causal graph with scalar 1-D variables that denote different…",
-      "link": "http://arxiv.org/abs/2611.12815v1",
-      "published": "2026-11-09T18:19:40Z",
-      "authors": [
-        "Saketh Vishnubhatla",
-        "Pingchuan Ma",
-        "Shu Wan",
-        "Alimohammad Beigi",
-        "Andre Harrison",
-        "Adrienne Raglin",
-        "Huan Liu"
-      ],
-      "categories": [
+        "cs.CV",
         "cs.LG"
       ]
     },
     {
-      "title": "Curbside Chatbots: Auditing the Mental Health Interventions Large Language Models Recommend to Clinicians, Caregivers, and Patients",
-      "summary": "Users are asking language models mental health questions and are receiving answers. We audited what 41 language models recommend to users when the same clinical information reaches them from three footings: a clinician describing a patient, a caregiver describing a loved one, or a person describing themselves. Across 19 case vignettes and five questions, we collected 35,055 free-text responses…",
-      "link": "http://arxiv.org/abs/2611.12814v1",
-      "published": "2026-11-09T18:19:30Z",
+      "title": "Bayesian inverse problems and epidemic-threshold uncertainty for a heterogeneous SIS reaction-diffusion model",
+      "summary": "We study Bayesian inference of persistence from early observations of a heterogeneous susceptible--infected--susceptible (SIS) reaction--diffusion model with standard incidence. We show that the leading prevalence dynamics depend on the unknown coefficients only through the difference between the transmission and recovery rates and the infected diffusivity. The same pair determines the principal…",
+      "link": "http://arxiv.org/abs/2611.14468v1",
+      "published": "2026-11-10T18:32:19Z",
       "authors": [
-        "Matthew Flathers",
-        "Jill Noorily",
-        "Phuong Anh Nguyen",
-        "Mark Kalinich",
-        "Mina Fallah",
-        "Victoria Lisowski",
-        "Christine Shi",
-        "Rebekah M. Bodner",
-        "Anna Simms",
-        "Mihika Hete",
-        "Meiting Chen",
-        "Samuel K. Powell",
-        "Tatum Williamson",
-        "Laura Ospina-Pinillos",
-        "Haruka Notsu",
-        "Julian Herpertz",
-        "John Torous"
+        "Duc-Lam Duong"
       ],
       "categories": [
-        "cs.CY",
-        "cs.CL",
-        "cs.HC"
+        "math.AP",
+        "cs.LG",
+        "math.NT",
+        "math.ST",
+        "q-bio.PE"
       ]
     },
     {
-      "title": "2D Gum-Net: Unsupervised Dense Elastic Image Registration via Symmetric Correlation and Spectral Pooling",
-      "summary": "Dense non-rigid registration, the recovery of a pixel-wise deformation field that warps one image into geometric agreement with another, is fundamental across medical imaging, structural biology, and correspondence estimation, yet learning-based approaches face a severe bottleneck: ground-truth deformation fields are notoriously difficult to obtain for real data. We present 2D Gum-Net, an…",
-      "link": "http://arxiv.org/abs/2611.12805v1",
-      "published": "2026-11-09T18:11:45Z",
+      "title": "A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets",
+      "summary": "Policy optimization is central to language model post-training, yet principled guidance remains limited. We revisit its theoretical foundations to identify algorithms that learn near-optimal policies using total samples and gradient steps governed by the base model's response coverage, a measure of how readily it generates optimal responses. We call such algorithms coverage-preserving. This…",
+      "link": "http://arxiv.org/abs/2611.14467v1",
+      "published": "2026-11-10T18:31:36Z",
       "authors": [
-        "Aarya Bhave",
-        "Anushka Ajay Bhave"
+        "Audrey Huang",
+        "Nan Jiang",
+        "Sham M. Kakade",
+        "Sadhika Malladi",
+        "Akshay Krishnamurthy",
+        "Dylan J. Foster"
       ],
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.LG",
+        "stat.ML"
+      ]
+    },
+    {
+      "title": "A Theory of Cross-Validation Variance",
+      "summary": "Cross-validation estimates predictive performance by repeatedly splitting the data into training and validation sets, fitting the model on the first and evaluating it on the second. Every observation influences the estimate in two roles, through its own evaluation when it is held out and through the models it helps fit when it trains. The random splits determine its weight in each role. From this…",
+      "link": "http://arxiv.org/abs/2611.14463v1",
+      "published": "2026-11-10T18:29:42Z",
+      "authors": [
+        "Nathaniel S. O'Connell",
+        "Jaime L. Speiser"
+      ],
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.ST"
       ]
     }
   ]
