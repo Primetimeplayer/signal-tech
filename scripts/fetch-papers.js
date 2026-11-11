@@ -17,8 +17,8 @@ const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'papers.json');
 
 // cs.AI = Artificial Intelligence, cs.LG = Machine Learning, cs.CL = Computation & Language.
 // Full category list: https://arxiv.org/category_taxonomy
-const CATEGORIES = ['cs.AI', 'cs.LG', 'cs.CL'];
-const MAX_RESULTS = 20;
+export const CATEGORIES = ['cs.AI', 'cs.LG', 'cs.CL'];
+export const MAX_RESULTS = 20;
 
 function buildUrl() {
   const query = CATEGORIES.map((c) => `cat:${c}`).join('+OR+');

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>How we select stories — Signal Tech</title>
+<meta name="description" content="How Signal Tech chooses stories: the human check, a simple score, and the sources we read.">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/methodology">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="How we select stories — Signal Tech">
+<meta property="og:description" content="How Signal Tech chooses stories: the human check, a simple score, and the sources we read.">
+<meta property="og:url" content="https://signaltechnews.com/methodology">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="How we select stories — Signal Tech">
+<meta name="twitter:description" content="How Signal Tech chooses stories: the human check, a simple score, and the sources we read.">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://signaltechnews.com/methodology#page",
+      "name": "How we select stories",
+      "description": "How Signal Tech chooses stories: the human check, a simple score, and the sources we read.",
+      "url": "https://signaltechnews.com/methodology",
+      "inLanguage": "en-GB",
+      "dateModified": "2026-11-11",
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://signaltechnews.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How we select stories",
+          "item": "https://signaltechnews.com/methodology"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page methodology-page">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a class="wordmark" href="/" aria-label="Signal Tech home">Signal <span>Tech</span></a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <a class="mast-link" href="/blog">Blog</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main" tabindex="-1">
+    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Desk</p>
+        <h1 class="page-title">How we select stories</h1>
+        <p class="page-sub">Last updated <time datetime="2026-11-11">11 November 2026</time></p>
+      </header>
+      <div class="issue-body blog-body">
+        <h2>Who picks</h2>
+        <p>Signal Tech is a human-curated aggregation desk for people who build and buy AI systems, chips and developer tools. Innocent Ncube, based in Poland, makes the final selection and writes the commentary. Automation only brings candidates in and applies the pre-filters below.</p>
+        <h2>What we cover</h2>
+        <p>We cover AI engineering, chips and silicon, and developer tools. A news story is kept only when the headline or the short summary is clearly about that work: software and the tools people build with, machine learning, chips, data centres, or software security. Gaming, spaceflight, phones, and general consumer gadgets are not enough on their own. A funding story is kept only when it is also about something a builder would ship.</p>
+        <p>We skip general AI hype that does not name a system, a chip, or a tool. We also skip pure promotion. Headlines about deals, coupons, discounts, and percent-off offers are dropped before they reach the page. There is no extra filter that tries to guess the tone of a product announcement beyond that.</p>
+        <h2>How a story is ranked</h2>
+        <p>Innocent uses the questions below when deciding what to comment on. They are a human check. They are not hidden weights, and the page does not award points for “shipping impact” or “cost per token” as separate scores.</p>
+        <div class="blog-table">
+          <table>
+            <thead><tr><th>Question</th><th>What we ask</th></tr></thead>
+            <tbody>
+              <tr><td>Shipping impact</td><td>Does this change what a builder ships this week?</td></tr>
+              <tr><td>Production relevance</td><td>Is it about a system someone can run, not a demo for its own sake?</td></tr>
+              <tr><td>Silicon and roadmap</td><td>Does it move chips, supply, or the next hardware generation?</td></tr>
+              <tr><td>Cost, latency, reliability</td><td>Does it change the bill, the wait, or whether the system stays up?</td></tr>
+              <tr><td>Open and closed</td><td>Does it change what you can inspect, run, or take with you?</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>The automatic sort</h3>
+        <p>News stories also get a simple score that favours recent stories from our core sources and stories with clear builder impact: chips, open tools, and the work of building models. Newer stories rank higher. A “Why it matters” note adds a little, because someone has already marked the story as worth a comment. There are no boosts for particular people or companies.</p>
+        <p>Papers, reviews, and community posts are not given that score. They are ordered by how new they are, and a story with a picture is preferred when everything else is equal. Stories that look like the same event are grouped, and the strongest one leads. The others stay as related links.</p>
+        <h2>Attribution</h2>
+        <ul>
+          <li>We do not rewrite a headline to change its meaning. Titles come from the source. Leftover formatting is removed, and a publisher name stuck on the end of a Google News headline is taken off.</li>
+          <li>We do not present aggregated material as original reporting. Every card names the publisher, then the headline, then links to the original source.</li>
+          <li>A “Why it matters” note is Signal Tech’s view, and it is labelled as such. It is not quoted as the publisher’s words.</li>
+          <li>Sponsored items are not filled in yet. When one is added, it will always be labelled “Sponsored”.</li>
+        </ul>
+        <h2>Source list</h2>
+        <p>These are the sources configured today. This list is rebuilt from that configuration, so it stays in step with the desk. Nothing is added by hand on this page.</p>
+        <h3>News feeds (22)</h3>
+        <p>Each feed contributes a short recent list. A story is then kept only if it matches the topics above, and sale headlines are dropped.</p>
+        <ul>
+  <li><a href="https://www.theverge.com/rss/index.xml" rel="noopener">The Verge</a></li>
+  <li><a href="https://feeds.arstechnica.com/arstechnica/index" rel="noopener">Ars Technica</a></li>
+  <li><a href="https://techcrunch.com/feed/" rel="noopener">TechCrunch</a></li>
+  <li><a href="https://www.wired.com/feed/rss" rel="noopener">Wired</a></li>
+  <li><a href="https://www.theregister.com/headlines.atom" rel="noopener">The Register</a></li>
+  <li><a href="https://www.technologyreview.com/feed/" rel="noopener">MIT Technology Review</a></li>
+  <li><a href="https://www.tomshardware.com/feeds.xml" rel="noopener">Tom&#39;s Hardware</a></li>
+  <li><a href="https://krebsonsecurity.com/feed/" rel="noopener">Krebs on Security</a></li>
+  <li><a href="https://github.blog/feed/" rel="noopener">GitHub Blog</a></li>
+  <li><a href="https://spectrum.ieee.org/feeds/feed.rss" rel="noopener">IEEE Spectrum</a></li>
+  <li><a href="https://semianalysis.com/feed/" rel="noopener">SemiAnalysis</a></li>
+  <li><a href="https://semiengineering.com/feed/" rel="noopener">SemiEngineering</a></li>
+  <li><a href="https://openai.com/blog/rss.xml" rel="noopener">OpenAI Blog</a></li>
+  <li><a href="https://www.anthropic.com/news/rss.xml" rel="noopener">Anthropic</a></li>
+  <li><a href="https://blogs.nvidia.com/feed/" rel="noopener">NVIDIA Blog</a></li>
+  <li><a href="https://www.theinformation.com/feed" rel="noopener">The Information</a></li>
+  <li><a href="https://semiwiki.com/feed/" rel="noopener">SemiWiki</a></li>
+  <li><a href="https://www.anandtech.com/rss/" rel="noopener">AnandTech</a></li>
+  <li><a href="https://www.zdnet.com/news/rss.xml" rel="noopener">ZDNet</a></li>
+  <li><a href="https://venturebeat.com/feed/" rel="noopener">VentureBeat</a></li>
+  <li><a href="https://thenextweb.com/feed" rel="noopener">The Next Web</a></li>
+  <li><a href="https://www.reuters.com/technology/rss" rel="noopener">Reuters Tech</a></li>
+</ul>
+        <h3>Review feeds (1)</h3>
+        <p>Each review feed contributes a short recent list.</p>
+        <ul>
+  <li><a href="https://www.theverge.com/rss/reviews/index.xml" rel="noopener">The Verge Reviews</a></li>
+</ul>
+        <h3>Research papers (3)</h3>
+        <p>The newest papers in artificial intelligence, machine learning, and language, from arXiv. Up to 20 at a time, newest first.</p>
+        <ul>
+  <li><a href="https://arxiv.org/list/cs.AI/recent" rel="noopener">cs.AI</a></li>
+  <li><a href="https://arxiv.org/list/cs.LG/recent" rel="noopener">cs.LG</a></li>
+  <li><a href="https://arxiv.org/list/cs.CL/recent" rel="noopener">cs.CL</a></li>
+</ul>
+        <h3>Community posts (2)</h3>
+        <p>A few of the day’s top posts from each community. Pinned posts are left out. These posts are not given the news score.</p>
+        <ul>
+  <li><a href="https://www.reddit.com/r/MachineLearning/" rel="noopener">r/MachineLearning</a></li>
+  <li><a href="https://www.reddit.com/r/hardware/" rel="noopener">r/hardware</a></li>
+</ul>
+        <h3>Optional Google News editions (27)</h3>
+        <p>Google News is not one of the fixed publishers. When a reader picks a region and a language, the site asks for that edition. The same editions are prepared in advance. The default, Worldwide / US, English, is <a href="https://news.google.com/rss?hl=en-US&amp;gl=US&amp;ceid=US:en" rel="noopener">this feed</a>.</p>
+        <ul>
+  <li><a href="https://news.google.com/rss?hl=en-US&amp;gl=US&amp;ceid=US:en" rel="noopener">Worldwide / US, English</a></li>
+  <li><a href="https://news.google.com/rss?hl=en-GB&amp;gl=GB&amp;ceid=GB:en" rel="noopener">United Kingdom, English</a></li>
+  <li><a href="https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&amp;gl=US&amp;ceid=US:en" rel="noopener">Global / International, English</a></li>
+  <li><a href="https://news.google.com/rss?hl=de&amp;gl=DE&amp;ceid=DE:de" rel="noopener">Germany, German</a></li>
+  <li><a href="https://news.google.com/rss?hl=fr&amp;gl=FR&amp;ceid=FR:fr" rel="noopener">France, French</a></li>
+  <li><a href="https://news.google.com/rss?hl=ja&amp;gl=JP&amp;ceid=JP:ja" rel="noopener">Japan, Japanese</a></li>
+  <li><a href="https://news.google.com/rss?hl=en-IN&amp;gl=IN&amp;ceid=IN:en" rel="noopener">India, English</a></li>
+  <li><a href="https://news.google.com/rss?hl=es-419&amp;gl=ES&amp;ceid=ES:es-419" rel="noopener">Spain, Spanish</a></li>
+  <li><a href="https://news.google.com/rss?hl=pt-BR&amp;gl=BR&amp;ceid=BR:pt-419" rel="noopener">Brazil, Portuguese</a></li>
+  <li><a href="https://news.google.com/rss?hl=es-419&amp;gl=MX&amp;ceid=MX:es-419" rel="noopener">Mexico, Spanish</a></li>
+  <li><a href="https://news.google.com/rss?hl=en-CA&amp;gl=CA&amp;ceid=CA:en" rel="noopener">Canada, English</a></li>
+  <li><a href="https://news.google.com/rss?hl=en-AU&amp;gl=AU&amp;ceid=AU:en" rel="noopener">Australia, English</a></li>
+  <li><a href="https://news.google.com/rss?hl=ko&amp;gl=KR&amp;ceid=KR:ko" rel="noopener">South Korea, Korean</a></li>
+  <li><a href="https://news.google.com/rss?hl=it&amp;gl=IT&amp;ceid=IT:it" rel="noopener">Italy, Italian</a></li>
+  <li><a href="https://news.google.com/rss?hl=nl&amp;gl=NL&amp;ceid=NL:nl" rel="noopener">Netherlands, Dutch</a></li>
+  <li><a href="https://news.google.com/rss?hl=hi&amp;gl=IN&amp;ceid=IN:hi" rel="noopener">India, Hindi</a></li>
+  <li><a href="https://news.google.com/rss?hl=fr&amp;gl=CA&amp;ceid=CA:fr" rel="noopener">Canada, French</a></li>
+  <li><a href="https://news.google.com/rss?hl=es-419&amp;gl=US&amp;ceid=US:es-419" rel="noopener">Worldwide / US, Spanish</a></li>
+  <li><a href="https://news.google.com/rss?hl=fr&amp;gl=US&amp;ceid=US:fr" rel="noopener">Worldwide / US, French</a></li>
+  <li><a href="https://news.google.com/rss?hl=de&amp;gl=US&amp;ceid=US:de" rel="noopener">Worldwide / US, German</a></li>
+  <li><a href="https://news.google.com/rss?hl=ja&amp;gl=US&amp;ceid=US:ja" rel="noopener">Worldwide / US, Japanese</a></li>
+  <li><a href="https://news.google.com/rss?hl=pt-BR&amp;gl=US&amp;ceid=US:pt-419" rel="noopener">Worldwide / US, Portuguese</a></li>
+  <li><a href="https://news.google.com/rss?hl=hi&amp;gl=US&amp;ceid=US:hi" rel="noopener">Worldwide / US, Hindi</a></li>
+  <li><a href="https://news.google.com/rss?hl=ko&amp;gl=US&amp;ceid=US:ko" rel="noopener">Worldwide / US, Korean</a></li>
+  <li><a href="https://news.google.com/rss?hl=zh-CN&amp;gl=US&amp;ceid=US:zh-Hans" rel="noopener">Worldwide / US, Chinese</a></li>
+  <li><a href="https://news.google.com/rss?hl=it&amp;gl=US&amp;ceid=US:it" rel="noopener">Worldwide / US, Italian</a></li>
+  <li><a href="https://news.google.com/rss?hl=nl&amp;gl=US&amp;ceid=US:nl" rel="noopener">Worldwide / US, Dutch</a></li>
+</ul>
+        <h2>Suggest a source</h2>
+        <p>If a feed belongs on this list, reply to the Friday email and name it. Innocent reads those replies.</p>
+      </div>
+      <section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Get Signal Tech every Friday</h2>
+    <p class="newsletter-note">One big story, quick hits and a Tool of the Week. Free, 5-minute read.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+    <p class="newsletter-success" id="newsletterThanks" role="status" hidden></p>
+    <p class="newsletter-alt"><a href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=methodology&amp;utm_campaign=signup_box" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>
+  </section>
+    </article>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/methodology">How we select</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+
+</body>
+</html>

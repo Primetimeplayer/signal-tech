@@ -13,10 +13,10 @@ const REGISTER_ATOM = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>The Register</title>
   <entry>
-    <title type="html">&lt;span data-lab-italic_desktop=&quot;italic&quot; class=&quot;italic m-italic&quot;&gt;Reg&lt;/span&gt; readers land on &amp;apos;Binface&amp;apos; as name for UK space cleanup mission</title>
+    <title type="html">&lt;span data-lab-italic_desktop=&quot;italic&quot; class=&quot;italic m-italic&quot;&gt;Reg&lt;/span&gt; readers land on &amp;apos;Binface&amp;apos; as name for the new GPU driver</title>
     <link href="https://www.theregister.com/2026/10/25/binface/"/>
     <updated>2026-10-25T10:00:00Z</updated>
-    <summary type="html">A space junk satellite gets a name.</summary>
+    <summary type="html">A chip driver gets a name.</summary>
   </entry>
 </feed>`;
 
@@ -50,7 +50,7 @@ test('news fetcher stores The Register atom title without markup', async (t) => 
   });
   const data = JSON.parse(await readFile(outputPath, 'utf8'));
   assert.equal(data.items.length, 1);
-  assert.equal(data.items[0].title, "Reg readers land on 'Binface' as name for UK space cleanup mission");
+  assert.equal(data.items[0].title, "Reg readers land on 'Binface' as name for the new GPU driver");
   assert.doesNotMatch(JSON.stringify(data), /<span|data-lab/);
 });
 

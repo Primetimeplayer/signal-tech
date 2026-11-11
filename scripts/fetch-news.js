@@ -39,7 +39,7 @@ const parser = new Parser({
 });
 
 // Dedicated tech sources only. Google News is not added here.
-const FEEDS = [
+export const FEEDS = [
   { name: 'The Verge', category: 'news', url: 'https://www.theverge.com/rss/index.xml' },
   { name: 'Ars Technica', category: 'news', url: 'https://feeds.arstechnica.com/arstechnica/index' },
   { name: 'TechCrunch', category: 'news', url: 'https://techcrunch.com/feed/' },
@@ -47,12 +47,9 @@ const FEEDS = [
   { name: 'The Register', category: 'news', url: 'https://www.theregister.com/headlines.atom' },
   { name: 'MIT Technology Review', category: 'news', url: 'https://www.technologyreview.com/feed/' },
   { name: "Tom's Hardware", category: 'news', url: 'https://www.tomshardware.com/feeds.xml' },
-  { name: 'NASA', category: 'news', url: 'https://www.nasa.gov/news-release/feed/' },
   { name: 'Krebs on Security', category: 'news', url: 'https://krebsonsecurity.com/feed/' },
   { name: 'GitHub Blog', category: 'news', url: 'https://github.blog/feed/' },
-  { name: 'SpaceNews', category: 'news', url: 'https://spacenews.com/feed/' },
   { name: 'IEEE Spectrum', category: 'news', url: 'https://spectrum.ieee.org/feeds/feed.rss' },
-  { name: 'PC Gamer', category: 'news', url: 'https://www.pcgamer.com/feeds.xml' },
   // Expanded high-signal sources
   { name: 'SemiAnalysis', category: 'news', url: 'https://semianalysis.com/feed/' },
   { name: 'SemiEngineering', category: 'news', url: 'https://semiengineering.com/feed/' },
@@ -66,8 +63,6 @@ const FEEDS = [
   { name: 'ZDNet', category: 'news', url: 'https://www.zdnet.com/news/rss.xml' },
   { name: 'VentureBeat', category: 'news', url: 'https://venturebeat.com/feed/' },
   { name: 'The Next Web', category: 'news', url: 'https://thenextweb.com/feed' },
-  { name: 'Engadget', category: 'news', url: 'https://www.engadget.com/rss.xml' },
-  { name: 'CNET', category: 'news', url: 'https://www.cnet.com/rss/news/' },
   { name: 'Reuters Tech', category: 'news', url: 'https://www.reuters.com/technology/rss' },
 ];
 
@@ -78,10 +73,12 @@ export function buildNewsFeeds(region, language, baseFeeds = FEEDS) {
   }));
 }
 
-// Software, AI, chips, gaming, space, cybersecurity, hardware, technology.
+// AI engineering, chips and silicon, and developer tools.
 // A story is kept only when the title or summary clearly hits one of these.
-// Broad words (security, model, game, hack, phone, review, funding, launch)
-// are omitted so politics, crime, and lifestyle do not slip through.
+// Gaming, spaceflight, consumer gadgets, and the bare word "technology" are
+// omitted. Security stays limited to software, supply-chain, and AI security.
+// Broad words (security, model, hack, phone, review, funding, launch) stay
+// off the list so politics, crime, and lifestyle do not slip through.
 const TOPIC_TERMS = [
   'software', 'developer', 'programmer', 'programming', 'open source', 'github',
   'devops', 'sdk', 'compiler', 'kubernetes', 'linux', 'api',
@@ -89,15 +86,11 @@ const TOPIC_TERMS = [
   'grok', 'openai', 'chatbot', 'generative', 'neural network', 'language model',
   'chip', 'semiconductor', 'silicon', 'gpu', 'cpu', 'tpu', 'nvidia', 'amd', 'intel',
   'arm', 'foundry', 'wafer', 'process node',
-  'gaming', 'gamer', 'video game', 'steam', 'playstation', 'xbox', 'nintendo', 'esports',
-  'space', 'rocket', 'satellite', 'nasa', 'spacex', 'orbit', 'spacecraft', 'astronaut',
-  'space station', 'spaceflight',
-  'cybersecurity', 'cyber security', 'cyberattack', 'hacker', 'hacking', 'malware',
-  'ransomware', 'vulnerability', 'encryption', 'encrypted', 'infosec', 'zero-day',
-  'zero day', 'phishing', 'data breach',
-  'hardware', 'gadget', 'laptop', 'smartphone', 'iphone', 'android', 'macbook',
-  'data center', 'pc',
-  'technology', 'robotics', 'robot', 'quantum',
+  'cybersecurity', 'cyber security', 'malware', 'ransomware', 'vulnerability',
+  'encryption', 'encrypted', 'infosec', 'zero-day', 'zero day',
+  'software supply chain',
+  'hardware', 'data center',
+  'quantum',
 ];
 
 function escapeRegExp(value) {
@@ -107,16 +100,9 @@ function escapeRegExp(value) {
 function termMatcher(term) {
   if (term === 'ai') return /\bai(?:'s|s)?\b|\ba\.i\.?\b/i;
   if (term === 'arm') return /\barm(?:64|v\d+|\d+)?\b/i;
-  if (term === 'pc') return /\bpcs?\b|\bpcie\b/i;
   if (term === 'gpt') return /gpt/i;
   if (term === 'chip') return /\b(?:micro)?chips?(?:set)?\b/i;
-  if (term === 'technology') return /\b(?:fin|bio|clean|deep|high[- ])?tech(?:nolog(?:y|ies))?\b/i;
-  // "office space" and "parking space" are not the space topic.
-  if (term === 'space') {
-    return /\b(?<!office\s|green\s|safe\s|parking\s|breathing\s|white\s|public\s|floor\s|storage\s|shelf\s|crawl\s|personal\s|living\s|closet\s|retail\s)space(?:craft|flight|ship|suit|walk|s)?\b/i;
-  }
   if (term === 'vulnerability') return /\bvulnerabilit(?:y|ies)\b/i;
-  if (term === 'esports') return /\be-?sports?\b/i;
   if (term === 'api' || term === 'llm' || term === 'amd' || term === 'intel') {
     return new RegExp(`\\b${term}s?\\b`, 'i');
   }

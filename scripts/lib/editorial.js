@@ -2,6 +2,8 @@
 // Lightweight Phase 4 editorial overrides
 // Format: { "link-or-title-substring": { pin: true, boost: 15, hide: false } }
 
+export const PIN_FLOOR = 95;
+
 export function applyEditorial(items, overrides = {}) {
   return items
     .map(item => {
@@ -12,7 +14,7 @@ export function applyEditorial(items, overrides = {}) {
       const o = overrides[key];
       if (o.hide) return null;
       const next = { ...item };
-      if (o.pin) next.score = Math.max(next.score || 0, 95);
+      if (o.pin) next.score = Math.max(next.score || 0, PIN_FLOOR);
       if (o.boost) next.score = Math.min(100, (next.score || 50) + o.boost);
       if (o.note) next.whyItMatters = o.note;
       return next;

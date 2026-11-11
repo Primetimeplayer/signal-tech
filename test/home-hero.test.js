@@ -32,6 +32,14 @@ test('hero signup is the on-page beehiiv embed, not an off-site subscribe link',
   assert.equal(document.querySelector('#heroTitle').textContent.trim(), 'Tech news that matters, in 5 minutes');
 });
 
+test('homepage topic bar has no Gaming or Space filters', () => {
+  const { document } = new JSDOM(html).window;
+  assert.equal(document.querySelectorAll('[data-cat="gaming"]').length, 0);
+  assert.equal(document.querySelectorAll('[data-cat="space"]').length, 0);
+  assert.ok(document.querySelector('[data-cat="chips"]'));
+  assert.ok(document.querySelector('[data-cat="security"]'));
+});
+
 test('Latest Stories strip is gone and the Signal strip remains', () => {
   const { document } = new JSDOM(html).window;
   assert.equal(document.getElementById('latestSection'), null);

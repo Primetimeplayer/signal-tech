@@ -32,8 +32,7 @@ const parser = new Parser({
 
 // Section-specific feeds tend to be cleaner than filtering a firehose feed
 // by keyword. Swap in whatever outlets you actually read.
-const FEEDS = [
-  { name: 'Engadget', url: 'https://www.engadget.com/rss.xml' },
+export const FEEDS = [
   { name: 'The Verge Reviews', url: 'https://www.theverge.com/rss/reviews/index.xml' },
 ];
 

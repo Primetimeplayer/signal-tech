@@ -143,11 +143,12 @@ test('topic allow-list matches words, not substrings inside unrelated words', ()
   assert.equal(matches('Cybersecurity teams patch vulnerabilities'), true);
   assert.equal(matches('iPhone review covers the new chipset'), true);
   assert.equal(matches('Open-source libraries for data centers'), true);
-  assert.equal(matches('E-sports league uses a quantum startup'), true);
+  assert.equal(matches('A quantum startup publishes a compiler'), true);
   assert.equal(matches('Fintech funding hits a new process node'), true);
   assert.equal(matches('Weekly roundup', 'A ransomware breach'), true);
-  assert.equal(matches('SpaceX launches a rocket to orbit'), true);
-  assert.equal(matches('Steam sale boosts PC gaming'), true);
+  assert.equal(matches('SpaceX launches a rocket to orbit'), false);
+  assert.equal(matches('Steam sale boosts PC gaming'), false);
+  assert.equal(matches('E-sports league sells tickets'), false);
   assert.equal(matches('Developers ship new software for Linux'), true);
 
   assert.equal(matches('Senate passes the budget after a late vote'), false);

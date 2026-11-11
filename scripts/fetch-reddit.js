@@ -13,8 +13,8 @@ import { enrichStoryImage } from './lib/story-image.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'public', 'data', 'reddit.json');
 
-const SUBREDDITS = ['technology', 'MachineLearning', 'hardware'];
-const POSTS_PER_SUB = 8;
+export const SUBREDDITS = ['MachineLearning', 'hardware'];
+export const POSTS_PER_SUB = 8;
 const USER_AGENT = 'personal-tech-dashboard/1.0 (by u/your-username)';
 
 function cleanText(raw = '') {

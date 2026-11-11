@@ -66,8 +66,6 @@
   const VERTICALS = {
     software: ['software', 'developer', 'programming', 'github', 'linux', 'windows', 'open source', 'open-source', 'javascript', 'python'],
     chips: ['chip', 'chips', 'silicon', 'semiconductor', 'nvidia', 'amd', 'intel', 'tsmc', 'gpu', 'cpu', 'qualcomm', 'wafer'],
-    gaming: ['game', 'games', 'gaming', 'console', 'playstation', 'xbox', 'nintendo', 'steam', 'esports'],
-    space: ['spacex', 'nasa', 'rocket', 'rockets', 'satellite', 'orbit', 'lunar', 'astronaut', 'apollo'],
     security: ['security', 'cybersecurity', 'ransomware', 'vulnerability', 'malware', 'breach', 'encrypt', 'encryption'],
     gadgets: ['laptop', 'smartphone', 'iphone', 'android', 'tablet', 'macbook', 'ipad', 'headphone', 'wearable', 'gadget'],
     ai: ['ai', 'a.i.', 'artificial intelligence', 'machine learning', 'deep learning', 'neural network', 'llm', 'llms', 'large language model', 'language model', 'generative', 'genai', 'chatbot', 'chatgpt', 'gpt', 'openai', 'anthropic', 'claude', 'gemini', 'copilot', 'grok', 'xai', 'deepseek', 'mistral', 'llama', 'perplexity', 'hugging face', 'agentic', 'ai agent', 'ai agents', 'ai model', 'ai models', 'ai chip', 'ai chips'],
@@ -95,8 +93,6 @@
     ['chips', 'catChips'],
     ['software', 'catSoftware'],
     ['security', 'catSecurity'],
-    ['space', 'catSpace'],
-    ['gaming', 'catGaming'],
   ];
 
   let allItems = [];
@@ -1675,17 +1671,15 @@ initAuth();
     picks.forEach((item) => usedLinks.add(item.link));
     const featurePool = pool.filter((item) => !usedLinks.has(item.link));
     const silicon = [];
-    const spaceItems = [];
     const rest = [];
     featurePool.forEach((item) => {
       if (silicon.length < 2 && matchesKeywords(item, VERTICALS.chips)) silicon.push(item);
-      else if (spaceItems.length < 2 && matchesKeywords(item, VERTICALS.space)) spaceItems.push(item);
       else rest.push(item);
     });
-    const inLower = new Set(silicon.concat(spaceItems, rest).map((item) => item.link));
+    const inLower = new Set(silicon.concat(rest).map((item) => item.link));
     const tail = items.filter((item) => item && item.link && !usedLinks.has(item.link) && !inLower.has(item.link));
     let extraPlaced = 0;
-    while (silicon.length + spaceItems.length + rest.length < 12 && tail.length) {
+    while (silicon.length + rest.length < 12 && tail.length) {
       const item = tail.shift();
       rest.push(item);
       inLower.add(item.link);
@@ -1702,9 +1696,8 @@ initAuth();
       }
     };
     pullPartner(silicon, [rest, tail]);
-    pullPartner(spaceItems, [rest, tail]);
     pullPartner(rest, [tail]);
-    silicon.concat(spaceItems, rest).forEach((item) => usedLinks.add(item.link));
+    silicon.concat(rest).forEach((item) => usedLinks.add(item.link));
 
 
     function relatedLinks(item) {
@@ -1831,7 +1824,6 @@ initAuth();
     };
     const storySections = [
       lowerSection(t('silicon'), silicon),
-      lowerSection(t('deepSpace'), spaceItems),
       lowerSection(t('moreStories'), rest, 'more-stories'),
     ].filter(Boolean);
     const inFeedAd = `
@@ -3459,8 +3451,6 @@ initAuth();
     reddit: 'reddit',
     software: 'software',
     chips: 'chips',
-    gaming: 'gaming',
-    space: 'space',
     security: 'security',
     gadgets: 'gadgets',
   };

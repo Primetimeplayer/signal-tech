@@ -58,8 +58,11 @@ test('locale query is applied to publisher feeds and skipped for The Verge', () 
 
   assert.equal(byName['Google News'], undefined);
   assert.equal(feeds.some((feed) => feed.url.includes('news.google.com')), false);
-  assert.equal(feeds.some((feed) => feed.name === 'NASA'), true);
-  assert.equal(feeds.some((feed) => feed.name === 'PC Gamer'), true);
+  assert.equal(feeds.some((feed) => feed.name === 'NASA'), false);
+  assert.equal(feeds.some((feed) => feed.name === 'SpaceNews'), false);
+  assert.equal(feeds.length, 22);
+  assert.equal(feeds.some((feed) => feed.name === 'GitHub Blog'), true);
+  assert.equal(feeds.some((feed) => feed.name === 'PC Gamer'), false);
 });
 
 test('news fetcher asks rss-parser for dedicated tech feeds, not Google News', async (t) => {

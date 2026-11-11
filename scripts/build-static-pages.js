@@ -32,6 +32,13 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { mdToHtml, parseFrontMatter } from './lib/blog-markdown.js';
 import { decodeEntities } from './lib/decode-entities.js';
+import { FEEDS as NEWS_FEEDS } from './fetch-news.js';
+import { FEEDS as REVIEW_FEEDS } from './fetch-reviews.js';
+import { CATEGORIES as ARXIV_CATEGORIES, MAX_RESULTS as ARXIV_MAX } from './fetch-papers.js';
+import { SUBREDDITS, POSTS_PER_SUB } from './fetch-reddit.js';
+import {
+  googleNewsUrl, PREBUILT_NEWS_LOCALES, REGIONS, LANGUAGES, DEFAULT_REGION, DEFAULT_LANGUAGE,
+} from './lib/news-locale.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLIC = path.join(ROOT, 'public');
@@ -57,6 +64,7 @@ const STATIC_PAGES = [
   ['/blog', 'blog.html'],
   ['/about', 'about.html'],
   ['/editorial', 'editorial.html'],
+  ['/methodology', 'methodology.html'],
   ['/advertise', 'advertise.html'],
   ['/contact', 'contact.html'],
   ['/privacy', 'privacy.html'],
@@ -820,6 +828,113 @@ ${mdToHtml(post.body)}
   });
 }
 
+function sourceLinks(items) {
+  return `<ul>\n${items.map((item) => `  <li><a href="${esc(item.url)}" rel="noopener">${esc(item.name)}</a></li>`).join('\n')}\n</ul>`;
+}
+
+function localeName(region, language) {
+  const regionLabel = REGIONS.find((item) => item.id === region)?.label || region;
+  const languageLabel = LANGUAGES.find((item) => item.id === language)?.label || language;
+  return `${regionLabel}, ${languageLabel}`;
+}
+
+// The public ranking page. Source names and URLs come from the fetch
+// configuration, so a new feed shows up here on the next static build.
+export function methodologyPage(chrome) {
+  const url = `${SITE}/methodology`;
+  const news = NEWS_FEEDS.map((feed) => ({ name: feed.name, url: feed.url }));
+  const reviews = REVIEW_FEEDS.map((feed) => ({ name: feed.name, url: feed.url }));
+  const papers = ARXIV_CATEGORIES.map((code) => ({ name: code, url: `https://arxiv.org/list/${code}/recent` }));
+  const reddit = SUBREDDITS.map((name) => ({ name: `r/${name}`, url: `https://www.reddit.com/r/${name}/` }));
+  const google = PREBUILT_NEWS_LOCALES.map((item) => ({
+    name: localeName(item.region, item.language),
+    url: googleNewsUrl(item.region, item.language),
+  }));
+  const main = `    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Desk</p>
+        <h1 class="page-title">How we select stories</h1>
+        <p class="page-sub">Last updated <time datetime="2026-11-11">11 November 2026</time></p>
+      </header>
+      <div class="issue-body blog-body">
+        <h2>Who picks</h2>
+        <p>Signal Tech is a human-curated aggregation desk for people who build and buy AI systems, chips and developer tools. Innocent Ncube, based in Poland, makes the final selection and writes the commentary. Automation only brings candidates in and applies the pre-filters below.</p>
+        <h2>What we cover</h2>
+        <p>We cover AI engineering, chips and silicon, and developer tools. A news story is kept only when the headline or the short summary is clearly about that work: software and the tools people build with, machine learning, chips, data centres, or software security. Gaming, spaceflight, phones, and general consumer gadgets are not enough on their own. A funding story is kept only when it is also about something a builder would ship.</p>
+        <p>We skip general AI hype that does not name a system, a chip, or a tool. We also skip pure promotion. Headlines about deals, coupons, discounts, and percent-off offers are dropped before they reach the page. There is no extra filter that tries to guess the tone of a product announcement beyond that.</p>
+        <h2>How a story is ranked</h2>
+        <p>Innocent uses the questions below when deciding what to comment on. They are a human check. They are not hidden weights, and the page does not award points for “shipping impact” or “cost per token” as separate scores.</p>
+        <div class="blog-table">
+          <table>
+            <thead><tr><th>Question</th><th>What we ask</th></tr></thead>
+            <tbody>
+              <tr><td>Shipping impact</td><td>Does this change what a builder ships this week?</td></tr>
+              <tr><td>Production relevance</td><td>Is it about a system someone can run, not a demo for its own sake?</td></tr>
+              <tr><td>Silicon and roadmap</td><td>Does it move chips, supply, or the next hardware generation?</td></tr>
+              <tr><td>Cost, latency, reliability</td><td>Does it change the bill, the wait, or whether the system stays up?</td></tr>
+              <tr><td>Open and closed</td><td>Does it change what you can inspect, run, or take with you?</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>The automatic sort</h3>
+        <p>News stories also get a simple score that favours recent stories from our core sources and stories with clear builder impact: chips, open tools, and the work of building models. Newer stories rank higher. A “Why it matters” note adds a little, because someone has already marked the story as worth a comment. There are no boosts for particular people or companies.</p>
+        <p>Papers, reviews, and community posts are not given that score. They are ordered by how new they are, and a story with a picture is preferred when everything else is equal. Stories that look like the same event are grouped, and the strongest one leads. The others stay as related links.</p>
+        <h2>Attribution</h2>
+        <ul>
+          <li>We do not rewrite a headline to change its meaning. Titles come from the source. Leftover formatting is removed, and a publisher name stuck on the end of a Google News headline is taken off.</li>
+          <li>We do not present aggregated material as original reporting. Every card names the publisher, then the headline, then links to the original source.</li>
+          <li>A “Why it matters” note is Signal Tech’s view, and it is labelled as such. It is not quoted as the publisher’s words.</li>
+          <li>Sponsored items are not filled in yet. When one is added, it will always be labelled “Sponsored”.</li>
+        </ul>
+        <h2>Source list</h2>
+        <p>These are the sources configured today. This list is rebuilt from that configuration, so it stays in step with the desk. Nothing is added by hand on this page.</p>
+        <h3>News feeds (${news.length})</h3>
+        <p>Each feed contributes a short recent list. A story is then kept only if it matches the topics above, and sale headlines are dropped.</p>
+        ${sourceLinks(news)}
+        <h3>Review feeds (${reviews.length})</h3>
+        <p>Each review feed contributes a short recent list.</p>
+        ${sourceLinks(reviews)}
+        <h3>Research papers (${papers.length})</h3>
+        <p>The newest papers in artificial intelligence, machine learning, and language, from arXiv. Up to ${ARXIV_MAX} at a time, newest first.</p>
+        ${sourceLinks(papers)}
+        <h3>Community posts (${reddit.length})</h3>
+        <p>A few of the day’s top posts from each community. Pinned posts are left out. These posts are not given the news score.</p>
+        ${sourceLinks(reddit)}
+        <h3>Optional Google News editions (${google.length})</h3>
+        <p>Google News is not one of the fixed publishers. When a reader picks a region and a language, the site asks for that edition. The same editions are prepared in advance. The default, ${esc(localeName(DEFAULT_REGION, DEFAULT_LANGUAGE))}, is <a href="${esc(googleNewsUrl(DEFAULT_REGION, DEFAULT_LANGUAGE))}" rel="noopener">this feed</a>.</p>
+        ${sourceLinks(google)}
+        <h2>Suggest a source</h2>
+        <p>If a feed belongs on this list, reply to the Friday email and name it. Innocent reads those replies.</p>
+      </div>
+      ${newsletterBox(chrome, 'methodology')}
+    </article>`;
+  const graph = [
+    ORGANIZATION,
+    {
+      '@type': 'WebPage',
+      '@id': `${url}#page`,
+      name: 'How we select stories',
+      description: 'How Signal Tech chooses stories: the human check, a simple score, and the sources we read.',
+      url,
+      inLanguage: 'en-GB',
+      dateModified: '2026-11-11',
+      publisher: { '@id': ORGANIZATION['@id'] },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+        { '@type': 'ListItem', position: 2, name: 'How we select stories', item: url },
+      ],
+    },
+  ];
+  return page(chrome, {
+    title: 'How we select stories — Signal Tech',
+    description: 'How Signal Tech chooses stories: the human check, a simple score, and the sources we read.',
+    url, ogType: 'website', graph, bodyClass: 'methodology-page', main,
+  });
+}
+
 // ---------- feed and sitemap ----------
 
 function rfc822(value) {
@@ -932,6 +1047,8 @@ export async function buildStaticPages({ offline = false, request = fetch, log =
     builtDigests.push(entry);
   }
 
+  put('methodology.html', methodologyPage(chrome));
+
   const posts = loadBlogPosts(path.join(ROOT, 'content', 'blog'));
   posts.forEach((post) => put(`blog/${post.slug}.html`, blogPostPage(chrome, post, posts)));
   put('blog.html', blogIndexPage(chrome, posts));
@@ -952,6 +1069,9 @@ export async function buildStaticPages({ offline = false, request = fetch, log =
   issues.forEach((i) => urls.push({ loc: `${SITE}/issues/${i.date}`, lastmod: maxDay(i.date, day(i.fetchedAt)) }));
   builtDigests.forEach((d) => urls.push({ loc: `${SITE}/digests/${d.id}`, lastmod: day(d.generatedAt) }));
   posts.forEach((p) => urls.push({ loc: `${SITE}/blog/${p.slug}`, lastmod: p.date }));
+  for (const u of urls) {
+    if (u.loc === `${SITE}/methodology` && !u.lastmod) u.lastmod = '2026-11-11';
+  }
   put('sitemap.xml', buildSitemap(urls));
 
   log(written.length ? `wrote ${written.length} file(s): ${written.join(', ')}` : 'static pages already up to date');
