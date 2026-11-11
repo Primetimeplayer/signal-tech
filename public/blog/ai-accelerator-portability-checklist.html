@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>How to keep your AI stack portable across GPUs and TPUs: a practical checklist — Signal Tech</title>
+<meta name="description" content="A practical checklist for tech leads to keep AI training and serving portable across NVIDIA GPUs, AMD GPUs, Google TPUs and AWS Trainium.">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/blog/ai-accelerator-portability-checklist">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="How to keep your AI stack portable across GPUs and TPUs: a practical checklist — Signal Tech">
+<meta property="og:description" content="A practical checklist for tech leads to keep AI training and serving portable across NVIDIA GPUs, AMD GPUs, Google TPUs and AWS Trainium.">
+<meta property="og:url" content="https://signaltechnews.com/blog/ai-accelerator-portability-checklist">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="How to keep your AI stack portable across GPUs and TPUs: a practical checklist — Signal Tech">
+<meta name="twitter:description" content="A practical checklist for tech leads to keep AI training and serving portable across NVIDIA GPUs, AMD GPUs, Google TPUs and AWS Trainium.">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://signaltechnews.com/blog/ai-accelerator-portability-checklist#post",
+      "headline": "How to keep your AI stack portable across GPUs and TPUs: a practical checklist",
+      "description": "A practical checklist for tech leads to keep AI training and serving portable across NVIDIA GPUs, AMD GPUs, Google TPUs and AWS Trainium.",
+      "datePublished": "2026-11-11",
+      "dateModified": "2026-11-11",
+      "inLanguage": "en-GB",
+      "url": "https://signaltechnews.com/blog/ai-accelerator-portability-checklist",
+      "image": "https://signaltechnews.com/assets/og-preview.png",
+      "author": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "@id": "https://signaltechnews.com/blog#page",
+        "url": "https://signaltechnews.com/blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://signaltechnews.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://signaltechnews.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to keep your AI stack portable across GPUs and TPUs: a practical checklist",
+          "item": "https://signaltechnews.com/blog/ai-accelerator-portability-checklist"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page blog-post">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a class="wordmark" href="/" aria-label="Signal Tech home">Signal <span>Tech</span></a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <a class="mast-link" href="/blog">Blog</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main" tabindex="-1">
+    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Guide</p>
+        <h1 class="page-title">How to keep your AI stack portable across GPUs and TPUs: a practical checklist</h1>
+        <p class="page-sub">Innocent Ncube, based in Poland · <time datetime="2026-11-11">Wednesday, 11 November 2026</time></p>
+      </header>
+      <div class="issue-body blog-body">
+<p>For years, &quot;which accelerator?&quot; was a question most teams answered once. You picked NVIDIA, wrote CUDA-flavoured code, and moved on. That default is getting weaker.</p>
+<p>In late October, <a href="https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/" rel="noopener">Oracle</a> and <a href="https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure" rel="noopener">Google</a> announced that Google&#39;s Tensor Processing Units will be available on Oracle Cloud Infrastructure from calendar year 2027 — the first time TPUs will be offered on a hyperscale cloud outside Google. A week earlier, <a href="https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus" rel="noopener">Google open-sourced TorchTPU</a>, a native PyTorch backend for TPUs, built with the PyTorch team at Meta. And <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm" rel="noopener">Anthropic&#39;s IPO filing</a> describes a &quot;multi-chip compute architecture across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs&quot;, and says it manages compute &quot;as a single, fungible pool&quot;.</p>
+<p>That was the theme of <a href="/issues/2026-11-06">Signal Tech Issue #4</a>: build for chip choice, not chip loyalty. You probably do not need a four-vendor compute pool. You do want switching accelerators to be a configuration and testing exercise, not a rewrite. This is a checklist for getting there, aimed at tech leads and engineers who train, fine-tune or serve models.</p>
+<h2>Why portability is worth some effort now</h2>
+<ul>
+<li><strong>More real options.</strong> TPUs are moving beyond Google Cloud. Google says TorchTPU makes TPUs a native PyTorch option alongside GPUs and CPUs.</li>
+<li><strong>Price and queue leverage.</strong> If your code only runs on one accelerator brand, that vendor&#39;s availability and pricing set your bill and your timelines.</li>
+<li><strong>Fast-moving hardware.</strong> NVIDIA&#39;s <a href="https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/" rel="noopener">CUDA 13.5</a>, published this month, moved support for the Vera Rubin architecture from early access to general availability. Portable code makes it cheaper to try whichever generation, from whichever vendor, offers the better price or a freer queue.</li>
+</ul>
+<p>Portability is not free, and it is not the same as peak performance on every chip. The aim is to keep the expensive, hard-to-move parts small and well fenced.</p>
+<h2>1. Stay on the framework&#39;s device abstraction</h2>
+<p>The cheapest portability win is not hard-coding the hardware.</p>
+<ul>
+<li>Pick the device from configuration, never with <code>.cuda()</code> or <code>&quot;cuda&quot;</code> sprinkled through model code. The <a href="https://pytorch.org/blog/introducing-torchtpu/" rel="noopener">PyTorch blog on TorchTPU</a> puts the basic migration as changing <code>.to(&quot;cuda&quot;)</code> to <code>.to(&quot;tpu&quot;)</code>. That only stays a small change if the device string lives in one place.</li>
+<li>Prefer the framework&#39;s accelerator helper where you have it. The same blog shows a device-agnostic pattern: <code>torch.accelerator.current_accelerator()</code> and <code>torch.distributed.init_process_group()</code> with no hard-coded backend, instead of pinning <code>&quot;nccl&quot;</code> or <code>&quot;tpu_dist&quot;</code> throughout the training script.</li>
+<li>Use standard PyTorch APIs: eager mode for debugging, <code>torch.compile</code> for performance, <code>torch.distributed</code> for scaling. <a href="https://docs.cloud.google.com/tpu/docs/pytorch-on-tpu" rel="noopener">Google&#39;s Cloud TPU documentation</a> says TorchTPU supports all three.</li>
+<li>If you still run PyTorch/XLA on TPUs, note that <a href="https://docs.cloud.google.com/tpu/docs/pytorch-on-tpu" rel="noopener">Google&#39;s Cloud TPU documentation</a> now says TorchTPU replaces PyTorch/XLA, and recommends starting new work on TorchTPU and migrating existing workloads.</li>
+</ul>
+<p>One honest limit, also from the PyTorch blog: that device-string change should let a model <em>run</em>. It will not automatically deliver peak TPU performance, because shapes, sharding and ops may still be skewed towards a GPU. Treat &quot;it runs&quot; and &quot;it is cheap enough to keep&quot; as two separate checks.</p>
+<h2>2. Fence off custom kernels</h2>
+<p>Hand-written kernels are where portability usually dies.</p>
+<ul>
+<li>Keep custom kernels in a separate module behind a small interface, with a plain framework fallback that runs anywhere.</li>
+<li>Record which kernels exist for which back ends. The <a href="https://pytorch.org/blog/introducing-torchtpu/" rel="noopener">PyTorch blog</a> says TorchTPU lets you author custom kernels via JAX/Pallas (described as production-ready) and, experimentally, via the Helion DSL. On NVIDIA you may be using CUDA or CUDA Tile.</li>
+<li>Measure what each custom kernel actually buys you on your workload. If the fallback is close enough, the kernel may not be worth carrying on every platform.</li>
+</ul>
+<h2>3. Serve through an engine that supports several back ends</h2>
+<p>For inference, the serving engine is your biggest portability lever.</p>
+<ul>
+<li><a href="https://docs.vllm.ai/en/stable/getting_started/installation/" rel="noopener">vLLM&#39;s installation docs</a> list NVIDIA CUDA, AMD ROCm, Intel XPU and CPUs among the platforms in the main project, and a hardware plugin system for accelerators that live outside that repository. Google documents a PyTorch-native TPU path as <a href="https://docs.vllm.ai/projects/vllm-torchtpu/en/latest/" rel="noopener">vLLM-TorchTPU</a> (with a separate JAX path alongside it). AWS Trainium is covered by the <a href="https://github.com/vllm-project/vllm-neuron" rel="noopener">vLLM Neuron plugin</a>, which the project calls the recommended serving solution for large language models on Trainium.</li>
+<li><a href="https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus" rel="noopener">Google says TorchTPU works with vLLM, SGLang, llm-d, TorchTitan, Ray and Hugging Face</a>, so an existing vLLM or SGLang deployment has a documented path to TPUs.</li>
+<li>Keep your API layer (OpenAI-compatible endpoints, request schema, auth) independent of the engine and hardware underneath, so clients never notice a move.</li>
+</ul>
+<h2>4. Make model artefacts hardware-neutral</h2>
+<ul>
+<li>Store canonical weights in a neutral format (for example, safetensors, following Hugging Face conventions) and treat compiled, quantised or hardware-specific builds as <em>derived</em> artefacts you can regenerate.</li>
+<li>Version your quantisation recipes as code. A recipe tuned for one chip&#39;s number formats may not carry over, so make re-running it cheap.</li>
+<li>Pin tokeniser and preprocessing versions so outputs stay comparable across platforms.</li>
+</ul>
+<h2>5. Test on more than one back end, continuously</h2>
+<p>Portability you do not test is portability you do not have.</p>
+<ul>
+<li>Add at least one non-primary back end to CI, even a small nightly job. CPU runs catch many device-hard-coding bugs for almost nothing.</li>
+<li>Compare outputs with sensible numerical tolerances rather than exact matches. Different hardware and compilers produce slightly different floating-point results, and default precision modes are not the same everywhere: the PyTorch blog notes that TorchTPU defaults to a &quot;medium&quot; mode (bfloat16 on the TPU&#39;s matrix units, with FP32 accumulation), whereas PyTorch on CUDA defaults to &quot;highest&quot; (pure FP32).</li>
+<li>Keep a short, fixed evaluation set and a throughput benchmark so you can compare cost per token or cost per training step across platforms on your own workload, not on vendor headline numbers.</li>
+</ul>
+<h2>6. Keep infrastructure and observability vendor-neutral</h2>
+<ul>
+<li>Describe clusters and jobs with orchestration you already use (Kubernetes, Ray or similar) and keep accelerator type as a parameter.</li>
+<li>Track the metrics that decide cost. <a href="https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure" rel="noopener">Google&#39;s TPU-on-OCI announcement</a> frames training economics around goodput (the share of time spent on productive computation) and inference around latency and cost per token. Those are useful, hardware-neutral yardsticks on any platform.</li>
+<li>Use vendor profilers for deep dives, but publish a common set of metrics to one dashboard.</li>
+</ul>
+<h2>The checklist</h2>
+<div class="blog-table">
+<table>
+<thead>
+<tr><th>Area</th><th>Check</th><th>Done?</th></tr>
+</thead>
+<tbody>
+<tr><td>Code</td><td>Device chosen in config, no hard-coded <code>&quot;cuda&quot;</code></td><td>☐</td></tr>
+<tr><td>Code</td><td>Standard framework APIs (eager, <code>torch.compile</code>, <code>torch.distributed</code>)</td><td>☐</td></tr>
+<tr><td>Kernels</td><td>Custom kernels isolated, with a portable fallback</td><td>☐</td></tr>
+<tr><td>Serving</td><td>Engine supports at least two back ends you might use</td><td>☐</td></tr>
+<tr><td>Serving</td><td>Client API independent of engine and hardware</td><td>☐</td></tr>
+<tr><td>Artefacts</td><td>Canonical weights stored neutrally; hardware builds reproducible</td><td>☐</td></tr>
+<tr><td>Testing</td><td>Nightly CI on a second back end (CPU counts)</td><td>☐</td></tr>
+<tr><td>Testing</td><td>Fixed eval set plus throughput and cost benchmark</td><td>☐</td></tr>
+<tr><td>Infra</td><td>Accelerator type is a deployment parameter</td><td>☐</td></tr>
+<tr><td>Metrics</td><td>Goodput, latency and cost per token tracked per platform</td><td>☐</td></tr>
+</tbody>
+</table>
+</div>
+<h2>What not to do</h2>
+<ul>
+<li><strong>Do not chase lowest-common-denominator code everywhere.</strong> Optimise hot paths for your main platform, but keep them behind an interface.</li>
+<li><strong>Do not trust headline benchmarks.</strong> Vendor figures are useful signals, but your model, batch sizes and sequence lengths decide the real result.</li>
+<li><strong>Do not plan around capacity that does not exist yet.</strong> TPUs on OCI are due in calendar year 2027, ramping over several years. Pricing, first regions and year-one capacity were not disclosed in the announcement. Treat it as an option to prepare for, not a line in this quarter&#39;s budget.</li>
+</ul>
+<h2>Conclusion</h2>
+<p>The lesson from this autumn&#39;s chip news is simple: build for chip choice, not chip loyalty. You do not need Anthropic&#39;s orchestration layer to benefit. Keeping device choice in config, fencing off custom kernels, serving through a multi-back-end engine and testing on a second platform will get most teams most of the way. The day a better price or a shorter queue appears elsewhere, moving should be a pull request, not a project.</p>
+<p><em>If this was useful, Signal Tech sends a five-minute Friday briefing on AI engineering, chips and dev tools. You can</em> <a href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=blog&amp;utm_campaign=ai-accelerator-portability-checklist" rel="noopener"><em>subscribe free on beehiiv</em></a>.</p>
+      </div>
+      <section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Get Signal Tech every Friday</h2>
+    <p class="newsletter-note">One big story, quick hits and a Tool of the Week. Free, 5-minute read.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+    <p class="newsletter-success" id="newsletterThanks" role="status" hidden></p>
+    <p class="newsletter-alt"><a href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=blog&amp;utm_campaign=ai-accelerator-portability-checklist" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>
+  </section>
+      <nav class="page-actions issue-nav" aria-label="More posts">
+        <a class="page-btn" rel="prev" href="/blog/how-to-review-ai-agent-pull-requests">&larr; Previous</a>
+        <a class="page-btn" href="/blog">All posts</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+
+</body>
+</html>

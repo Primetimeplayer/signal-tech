@@ -713,6 +713,7 @@ export function loadBlogPosts(contentDir) {
       description: String(meta.description || ''),
       tags: Array.isArray(meta.tags) ? meta.tags.map((tag) => String(tag)) : [],
       image: String(meta.image || ''),
+      byline: String(meta.byline || ''),
       body,
     });
   }
@@ -777,7 +778,7 @@ export function blogPostPage(chrome, post, posts) {
       <header class="page-head">
         <p class="page-kicker">Guide</p>
         <h1 class="page-title">${esc(post.title)}</h1>
-        <p class="page-sub">Innocent Ncube · <time datetime="${esc(post.date)}">${esc(longDate(post.date))}</time></p>
+        <p class="page-sub">${esc(post.byline || 'Innocent Ncube')} · <time datetime="${esc(post.date)}">${esc(longDate(post.date))}</time></p>
       </header>
       <div class="issue-body blog-body">
 ${mdToHtml(post.body)}
