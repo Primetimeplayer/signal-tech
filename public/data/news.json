@@ -1,69 +1,7 @@
 {
-  "updated": "2026-11-12T18:36:44.213Z",
-  "count": 108,
+  "updated": "2026-11-12T20:04:53.593Z",
+  "count": 105,
   "items": [
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Free Chinese AI Can Hack Companies While Frontier Developers Face Diminishing Returns",
-      "link": "https://www.theinformation.com/articles/free-chinese-ai-can-hack-companies-frontier-developers-face-diminishing-returns",
-      "published": "2026-11-12T18:31:33.000Z",
-      "summary": "Free Chinese AI can infiltrate corporate networks, while leading AI tools for cybersecurity are becoming more expensive and less effective.",
-      "excerpt": "Chinese AI that anyone can download for free has become good enough to break into corporate networks, said Ariel Zeitlin, co-founder and chief technology officer of Tenzai, an Israeli startup that sells hacking software for testing corporate defenses, known as continuous penetration testing. At the same time, the most advanced AI that had an early lead in cybersecurity capabilities is getting harder and costlier to…",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/free-chinese-ai-can-hack-companies-frontier-developers-face-diminishing-returns",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders must monitor open-source AI threats and reassess investment in costly security solutions."
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "Axle raises $9M to bring AI agents to Wall Street’s meeting-makers",
-      "link": "https://thenextweb.com/news/axle-9m-ai-agents-investment-banks-corporate-access",
-      "published": "Thu, 12 Nov 2026 18:09:00 +0000",
-      "summary": "Axle raised $9M to expand AI agents that help investment banks schedule meetings between investors and company management.",
-      "excerpt": "Axle has raised $9M led by Eniac and Bonfire Ventures. It makes software that helps investment banks arrange meetings between investors and company management, and will add more AI agents. It says some of North America’s biggest banks use it. Axle, a startup that makes software for investment banks, has raised $9M in a round […] This story continues at The Next Web",
-      "image": "https://media.thenextweb.com/2026/10/ai-text-inside-open-human-head-3d-render.avif",
-      "score": 72,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/axle-9m-ai-agents-investment-banks-corporate-access",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers see AI-driven efficiency gains in high-stakes financial operations."
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "SpaceXSI’s Grok Build left 35,000 apps open, security firm Claroc says",
-      "link": "https://thenextweb.com/news/grok-build-apps-exposed-claroc-spacexsi",
-      "published": "Thu, 12 Nov 2026 18:03:30 +0000",
-      "summary": "SpaceXSI’s Grok Build exposed over 35,000 apps, revealing sensitive internal documents, per Claroc’s security research.",
-      "excerpt": "Anyone who found the address of a Grok Build app could open more than 35,000 of them, security firm Claroc found in research published on 10 November. Two dozen belonged to staff at SpaceXSI, the company that makes Grok. They held a confidential onboarding plan, a sales territory map and advertising proposals. SpaceXSI took its […] This story continues at The Next Web",
-      "score": 78,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/grok-build-apps-exposed-claroc-spacexsi",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Highlights critical data leakage risks in SaaS platforms, urging tighter access controls for tech firms."
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Software Samaritan revamps borked Indian certs to block smart TV ads",
-      "link": "https://www.theregister.com/security/2026/11/12/software-samaritan-revamps-borked-indian-certs-to-block-smart-tv-ads/5309467",
-      "published": "Thu, 12 Nov 2026 18:02:55 +0000",
-      "summary": "A software tweak blocks Samsung TV ads and tracking, but a firmware update later removes the fix.",
-      "image": "https://image.theregister.com/?imageId=5266492&width=800",
-      "readMinutes": 4,
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theregister.com/security/2026/11/12/software-samaritan-revamps-borked-indian-certs-to-block-smart-tv-ads/5309467",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech users value ad-free experiences and privacy on smart TVs."
-    },
     {
       "source": "Ars Technica",
       "category": "news",
@@ -76,17 +14,47 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
-      "clusterSize": 7,
+      "clusterSize": 16,
       "related": [
         {
           "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-          "title": "The unfolding Jensen Huang scandal: a timeline"
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question"
+        },
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+          "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry"
         },
         {
           "source": "The Information",
-          "url": "https://www.theinformation.com/articles/jensen-huang-out-inference-providers-screwed",
-          "title": "Jensen Huang Is Out; Are Inference Providers Screwed?"
+          "url": "https://www.theinformation.com/briefings/ex-nvidia-ceo-huang-hires-lawyers",
+          "title": "Ex-Nvidia CEO Huang Hires Lawyers"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/nvidias-dealmaking-binge-faces-reckoning-jensen-huangs-exit",
+          "title": "Nvidia’s Dealmaking Binge Faces a Reckoning After Jensen Huang’s Exit"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/interim-nvidia-ceo-colette-kress-tried-tame-nvidias-riskiest-bets",
+          "title": "Interim Nvidia CEO Colette Kress Has Tried to Tame Nvidia’s Riskiest Bets"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/alice-huangs-companies-invested-deepseek-promising-nvidia-chips",
+          "title": "Alice Huang’s Companies Invested in DeepSeek, Promising Nvidia Chips"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/nvidia-ceo-jensen-huang-resigns-creating-uncertainty-ai-sector",
+          "title": "Nvidia CEO Jensen Huang Resigns, Creating Uncertainty for the AI Sector"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/nvidia-ceos-exit-looms",
+          "title": "Nvidia CEO’s Exit Looms"
         },
         {
           "source": "The Register",
@@ -94,68 +62,9 @@
           "title": "Jensen Huang resigns as Nvidia chief executive"
         },
         {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-          "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month"
-        },
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
-          "title": "Jensen Huang Resigns as Nvidia CEO"
-        },
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
-          "title": "The Jensen Huang scandal is hardly over"
-        }
-      ]
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "OpenAI’s quarterly revenue reportedly hits $10bn as its losses grow",
-      "link": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss",
-      "published": "Thu, 12 Nov 2026 17:55:22 +0000",
-      "summary": "OpenAI reported $10bn revenue in Q3, a 50% rise, driven by demand for new models and enterprise products, though losses widened.",
-      "excerpt": "OpenAI’s revenue reached $10bn in the third quarter, up almost 50% from the second, The Information reported. OpenAI shared the figures with investors on Tuesday. Demand for its newer models and enterprise products had picked up, Valida Pau and Jemima McEvoy wrote, citing a person familiar with the matter. It is the first quarter in […] This story continues at The Next Web",
-      "score": 78,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows AI growth and investor interest, but highlights rising costs and potential valuation impacts."
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "SpaceX plans $74B of AI computing centres in Arizona and Texas",
-      "link": "https://thenextweb.com/news/spacex-74b-ai-computing-centers-arizona-texas",
-      "published": "Thu, 12 Nov 2026 17:54:21 +0000",
-      "summary": "SpaceX will invest $74B to build AI supercomputing centers in Arizona and Texas, selling power to Anthropic and Google amid local opposition.",
-      "excerpt": "SpaceX plans to spend $74B on two AI supercomputing sites: a $50B campus in Cochise County, Arizona, and a $24B site with its own gas power plant near Starbase, Texas. It now sells computing power to Anthropic and Google, but faces local pushback in Arizona. SpaceX plans to spend $74B on two AI supercomputing sites, […] This story continues at The Next Web",
-      "score": 78,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/spacex-74b-ai-computing-centers-arizona-texas",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It signals a major shift in AI infrastructure ownership and could reshape cloud computing economics."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "published": "Thu, 12 Nov 2026 17:36:40 +0000",
-      "summary": "Hugging Face CEO vows to continue championing open‑source AI after Nvidia CEO Jensen Huang leaves, prompting speculation over Nvidia’s $12.9 billion acquisition.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "clusterSize": 4,
-      "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/articles/nvidia-ceo-jensen-huang-resigns-creating-uncertainty-ai-sector",
-          "title": "Nvidia CEO Jensen Huang Resigns, Creating Uncertainty for the AI Sector"
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board",
+          "title": "President Trump says Apple’s Tim Cook is the only man to replace Jensen Huang as Nvidia CEO"
         },
         {
           "source": "Tom's Hardware",
@@ -166,41 +75,316 @@
           "source": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
           "title": "Nvidia CEO Jensen Huang resigns in the wake of multiple affairs, Chinese spy allegations"
+        },
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+          "title": "Meet Colette Kress, Nvidia’s New Interim CEO"
+        },
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+          "title": "Jensen Huang Resigns as Nvidia CEO"
+        },
+        {
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
+          "title": "Nvidia’s Board reportedly preparing to oust CEO Jensen Huang as second extra-marital affair emerges"
+        }
+      ]
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Ars Live: Can the cloud survive drone strikes on data centers?",
+      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "published": "Thu, 12 Nov 2026 19:59:59 +0000",
+      "summary": "Ars Live hosts a discussion on November 17 about the resilience of cloud data centers to drone attacks.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech readers should know how cloud infrastructure withstands emerging physical threats."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "The Elder Scrolls' most obscure adventure gets a 4K PC makeover",
+      "link": "https://arstechnica.com/gaming/2026/11/the-elder-scrolls-most-obscure-adventure-gets-a-4k-pc-makeover/",
+      "published": "Thu, 12 Nov 2026 19:49:11 +0000",
+      "summary": "The N‑Gage exclusive Shadowkey is remastered in 4K for PC, adding new features and AI-generated visual enhancements.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/torch-hall-1152x648.webp",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://arstechnica.com/gaming/2026/11/the-elder-scrolls-most-obscure-adventure-gets-a-4k-pc-makeover/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Fans and retro gamers can experience a forgotten title with modern graphics and AI polish."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "AMD plans to invest in PsiQuantum as they team up on quantum computers",
+      "link": "https://thenextweb.com/news/psiquantum-amd-partnership-equity-investment-quantum",
+      "published": "Thu, 12 Nov 2026 19:45:22 +0000",
+      "summary": "AMD will invest in PsiQuantum, expanding their partnership to develop fault-tolerant quantum computers using AMD’s Versal FPGAs.",
+      "excerpt": "AMD plans to invest in PsiQuantum, as the two expand their partnership on quantum computing. The companies announced the deal on 12 November. Neither said how much AMD will invest. PsiQuantum already uses AMD’s Versal FPGAs to develop its fault-tolerant quantum computer. These are chips that engineers can reprogram after manufacture. The new deal adds […] This story continues at The Next Web",
+      "score": 72,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/psiquantum-amd-partnership-equity-investment-quantum",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It signals growing corporate interest in quantum tech, potentially accelerating hardware innovation and market opportunities."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "No, AI agents did not discover a previously unknown Maya site",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "published": "2026-11-12T19:42:40.000Z",
+      "summary": "Google researchers claimed AI agents found a new Maya site, but it was already known.",
+      "excerpt": "“I woke up and checked the agents' reports. 'DAMN!' They had found lots of villages and other regular shapes that looked like structures or houses,“ Pietro Miotti wrote on his blog. | Image: Pietro Miotti Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "score": 86,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Highlights AI’s limitations in archaeological discovery and the importance of human verification."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Nebius shares fall 16% as data centre delays cut its 2026 outlook",
+      "link": "https://thenextweb.com/news/nebius-q3-2026-shares-fall-data-centre-delays-outlook",
+      "published": "Thu, 12 Nov 2026 19:34:15 +0000",
+      "summary": "Nebius shares dropped 16% after cutting its 2026 outlook and raising spending, despite a 571% jump in Q3 revenue to $980.8m.",
+      "excerpt": "Nebius shares fell 16% on Thursday after the Amsterdam-based AI cloud company cut its outlook for this year. It also raised its spending plans, CNBC’s Jordan Novet reported. The fall came despite third-quarter revenue that rose 571% from a year earlier, to $980.8m. Analysts surveyed by LSEG had expected $907.5m, according to CNBC. Nebius posted […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/11/arkady-volozh-nebius-speaking-stage.avif",
+      "score": 72,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/nebius-q3-2026-shares-fall-data-centre-delays-outlook",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Investors and AI infrastructure watchers should note the mismatch between revenue growth and cautious outlook."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "published": "Thu, 12 Nov 2026 19:27:45 +0000",
+      "summary": "Google’s new Search upgrade, powered by Gemini 4 Hydrogen, improves AI Mode’s ability to handle complex queries, find relevant links, and provide richer visual answers.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It enhances search precision and visual content, boosting productivity for tech-savvy users."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "published": "Thu, 12 Nov 2026 19:11:00 +0000",
+      "summary": "Nectar introduces an AI agent that automates influencer discovery, outreach, partnership management, and campaign tracking for brands.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It streamlines influencer marketing, saving time and improving ROI for tech-savvy marketers."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Anthropic lets companies run Claude’s agent service on their own servers",
+      "link": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents",
+      "published": "Thu, 12 Nov 2026 19:06:13 +0000",
+      "summary": "Anthropic enables companies to host Claude Managed Agents on their own servers, keeping histories and credentials in‑house while still calling external models.",
+      "excerpt": "Anthropic now lets companies run Claude Managed Agents in their own cloud or data centre. Agent histories and credentials stay on their systems, but each model call still goes to an outside provider such as Anthropic or AWS. Anthropic now lets companies run its Claude Managed Agents service on their own servers, Help Net Security […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/10/anthropic-wordmark-3d-render-purple-glass.avif",
+      "score": 78,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It offers tighter data control and compliance for enterprises using AI agents."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+      "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "published": "Thu, 12 Nov 2026 16:12:44 +0000",
+      "summary": "Trump claims Tim Cook should replace Jensen Huang as Nvidia CEO.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "clusterSize": 5,
+      "related": [
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/jensen-huang-out-inference-providers-screwed",
+          "title": "Jensen Huang Is Out; Are Inference Providers Screwed?"
+        },
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+          "title": "Jensen Huang’s $470 Billion Affair"
+        },
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+          "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month"
+        },
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+          "title": "The Jensen Huang scandal is hardly over"
         }
       ],
-      "whyItMatters": "Tech leaders should watch how open‑source commitments influence major AI acquisitions."
+      "whyItMatters": "Highlights political influence on tech leadership decisions."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "published": "Thu, 12 Nov 2026 18:57:45 +0000",
+      "summary": "Google is under scrutiny after a lawsuit claims its Gemini AI acted as a suicide coach, prompting calls for school AI moratoriums.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-1152x648.jpeg",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech readers should watch policy shifts that could limit AI deployment in education."
     },
     {
       "source": "The Next Web",
       "category": "news",
-      "title": "Orakl Oncology raises $34M to predict cancer drug results with AI",
-      "link": "https://thenextweb.com/news/orakl-oncology-34m-series-a-ai-cancer-drug-prediction",
-      "published": "Thu, 12 Nov 2026 17:31:47 +0000",
-      "summary": "Orakl Oncology raised $34M Series A to grow patient tumor models, test drugs, and use AI to forecast clinical trial outcomes, expanding into lung and gastric cancer.",
-      "excerpt": "Paris-based Orakl Oncology has raised a $34M Series A co-led by Norrsken VC and Singular. It grows copies of patients’ tumours in the lab, tests drugs on them and uses AI to predict trial results. It will expand into lung and gastric cancer. Paris-based Orakl Oncology has raised a $34M Series A to predict how […] This story continues at The Next Web",
-      "image": "https://media.thenextweb.com/2026/10/ai-chip-brain-inside-light-bulb-purple-background.avif",
-      "score": 72,
+      "title": "J.Crew launches an AI stylist built on Anthropic’s Claude",
+      "link": "https://thenextweb.com/news/jcrew-style-advisor-claude-ai-stylist",
+      "published": "Thu, 12 Nov 2026 18:37:14 +0000",
+      "summary": "J.Crew unveiled Style Advisor, an AI stylist on its US site using Anthropic’s Claude to suggest complete outfits for shoppers' occasions.",
+      "excerpt": "J.Crew has launched Style Advisor, an AI stylist on its US website built with Anthropic’s Claude. Shoppers describe an occasion and get complete outfits from looks J.Crew’s stylists put together. Personal recommendations based on past purchases will come later. J.Crew has launched Style Advisor, an AI stylist on its website built with Anthropic’s Claude, Anthropic […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/11/claude-website-thinking-partner-screen.avif",
+      "score": 77,
       "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/orakl-oncology-34m-series-a-ai-cancer-drug-prediction",
+      "clusterId": "https://thenextweb.com/news/jcrew-style-advisor-claude-ai-stylist",
       "clusterSize": 1,
       "related": [],
-      "whyItMatters": "AI-driven trial prediction could speed drug development and reduce costs for biotech firms."
+      "whyItMatters": "It shows AI’s growing role in personalized fashion shopping, enhancing user experience and driving sales."
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "Free Chinese AI Can Hack Companies While Frontier Developers Face Diminishing Returns",
+      "link": "https://www.theinformation.com/articles/free-chinese-ai-can-hack-companies-frontier-developers-face-diminishing-returns",
+      "published": "2026-11-12T18:31:33.000Z",
+      "summary": "Free Chinese AI can infiltrate corporate networks, while leading AI tools for cybersecurity are becoming more expensive and less effective.",
+      "excerpt": "Chinese AI that anyone can download for free has become good enough to break into corporate networks, said Ariel Zeitlin, co-founder and chief technology officer of Tenzai, an Israeli startup that sells hacking software for testing corporate defenses, known as continuous penetration testing. At the same time, the most advanced AI that had an early lead in cybersecurity capabilities is getting harder and costlier to…",
+      "whyItMatters": "Tech leaders must monitor open-source AI threats and reassess investment in costly security solutions.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/free-chinese-ai-can-hack-companies-frontier-developers-face-diminishing-returns",
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "The Next Web",
       "category": "news",
-      "title": "Doctors push back on Amodei’s claim AI will end cancer within a decade",
-      "link": "https://thenextweb.com/news/amodei-ai-cure-cancer-decade-lauterbach-doctors",
-      "published": "Thu, 12 Nov 2026 17:20:44 +0000",
-      "summary": "Doctors and experts dispute claims that AI will cure cancer, Alzheimer’s, and mental illness within ten years.",
-      "excerpt": "Germany’s former health minister Karl Lauterbach has said that curing cancer, Alzheimer’s and mental illness within ten years is impossible. He was answering Dario Amodei, whose company’s IPO roadshow video says those diseases will be “relics of the past” within a decade. Doctors and a biotech executive have pushed back too, Business Insider reported on […] This story continues at The Next Web",
-      "image": "https://media.thenextweb.com/2026/10/dario-amodei-fortune-brainstorm-tech-2023.avif",
-      "score": 72,
+      "title": "Axle raises $9M to bring AI agents to Wall Street’s meeting-makers",
+      "link": "https://thenextweb.com/news/axle-9m-ai-agents-investment-banks-corporate-access",
+      "published": "Thu, 12 Nov 2026 18:09:00 +0000",
+      "summary": "Axle raised $9M to expand AI agents that help investment banks schedule meetings between investors and company management.",
+      "excerpt": "Axle has raised $9M led by Eniac and Bonfire Ventures. It makes software that helps investment banks arrange meetings between investors and company management, and will add more AI agents. It says some of North America’s biggest banks use it. Axle, a startup that makes software for investment banks, has raised $9M in a round […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/10/ai-text-inside-open-human-head-3d-render.avif",
+      "whyItMatters": "Tech-savvy readers see AI-driven efficiency gains in high-stakes financial operations.",
+      "score": 79,
       "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/amodei-ai-cure-cancer-decade-lauterbach-doctors",
+      "clusterId": "https://thenextweb.com/news/axle-9m-ai-agents-investment-banks-corporate-access",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should question overhyped AI promises that could mislead funding and public expectations."
+      "related": []
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "SpaceXSI’s Grok Build left 35,000 apps open, security firm Claroc says",
+      "link": "https://thenextweb.com/news/grok-build-apps-exposed-claroc-spacexsi",
+      "published": "Thu, 12 Nov 2026 18:03:30 +0000",
+      "summary": "SpaceXSI’s Grok Build exposed over 35,000 apps, revealing sensitive internal documents, per Claroc’s security research.",
+      "excerpt": "Anyone who found the address of a Grok Build app could open more than 35,000 of them, security firm Claroc found in research published on 10 November. Two dozen belonged to staff at SpaceXSI, the company that makes Grok. They held a confidential onboarding plan, a sales territory map and advertising proposals. SpaceXSI took its […] This story continues at The Next Web",
+      "whyItMatters": "Highlights critical data leakage risks in SaaS platforms, urging tighter access controls for tech firms.",
+      "score": 85,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/grok-build-apps-exposed-claroc-spacexsi",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Software Samaritan revamps borked Indian certs to block smart TV ads",
+      "link": "https://www.theregister.com/security/2026/11/12/software-samaritan-revamps-borked-indian-certs-to-block-smart-tv-ads/5309467",
+      "published": "Thu, 12 Nov 2026 18:02:55 +0000",
+      "summary": "A software tweak blocks Samsung TV ads and tracking, but a firmware update later removes the fix.",
+      "image": "https://image.theregister.com/?imageId=5266492&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "Tech users value ad-free experiences and privacy on smart TVs.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/security/2026/11/12/software-samaritan-revamps-borked-indian-certs-to-block-smart-tv-ads/5309467",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "OpenAI’s quarterly revenue reportedly hits $10bn as its losses grow",
+      "link": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss",
+      "published": "Thu, 12 Nov 2026 17:55:22 +0000",
+      "summary": "OpenAI reported $10bn revenue in Q3, a 50% rise, driven by demand for new models and enterprise products, though losses widened.",
+      "excerpt": "OpenAI’s revenue reached $10bn in the third quarter, up almost 50% from the second, The Information reported. OpenAI shared the figures with investors on Tuesday. Demand for its newer models and enterprise products had picked up, Valida Pau and Jemima McEvoy wrote, citing a person familiar with the matter. It is the first quarter in […] This story continues at The Next Web",
+      "whyItMatters": "Shows AI growth and investor interest, but highlights rising costs and potential valuation impacts.",
+      "score": 85,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "SpaceX plans $74B of AI computing centres in Arizona and Texas",
+      "link": "https://thenextweb.com/news/spacex-74b-ai-computing-centers-arizona-texas",
+      "published": "Thu, 12 Nov 2026 17:54:21 +0000",
+      "summary": "SpaceX will invest $74B to build AI supercomputing centers in Arizona and Texas, selling power to Anthropic and Google amid local opposition.",
+      "excerpt": "SpaceX plans to spend $74B on two AI supercomputing sites: a $50B campus in Cochise County, Arizona, and a $24B site with its own gas power plant near Starbase, Texas. It now sells computing power to Anthropic and Google, but faces local pushback in Arizona. SpaceX plans to spend $74B on two AI supercomputing sites, […] This story continues at The Next Web",
+      "whyItMatters": "It signals a major shift in AI infrastructure ownership and could reshape cloud computing economics.",
+      "score": 85,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/spacex-74b-ai-computing-centers-arizona-texas",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "published": "Thu, 12 Nov 2026 17:36:40 +0000",
+      "summary": "Hugging Face CEO vows to continue championing open‑source AI after Nvidia CEO Jensen Huang leaves, prompting speculation over Nvidia’s $12.9 billion acquisition.",
+      "whyItMatters": "Tech leaders should watch how open‑source commitments influence major AI acquisitions.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -209,33 +393,12 @@
       "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
       "published": "Thu, 12 Nov 2026 17:17:58 +0000",
       "summary": "United Airlines prohibits AI agents from booking flights or managing reservations due to cybersecurity concerns.",
+      "whyItMatters": "Tech-savvy readers should note this limits automation and raises questions about AI integration in travel services.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/briefings/united-airlines-blocks-ai-agents-like-muse-instinct-booking-flights",
-          "title": "United Airlines Blocks AI Agents Like Muse and Instinct From Booking Flights"
-        }
-      ],
-      "whyItMatters": "Tech-savvy readers should note this limits automation and raises questions about AI integration in travel services."
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "Anthropic says it has met its own threshold for AI-accelerated research",
-      "link": "https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing",
-      "published": "Thu, 12 Nov 2026 17:15:35 +0000",
-      "summary": "Anthropic announced it has reached its internal benchmark for AI‑accelerated research, based on future model expectations rather than current performance.",
-      "excerpt": "Anthropic has formally decided that it meets its own threshold for AI dramatically speeding up its research. It based the call on “what we expect from future models and our overall rate of progress,” not on its current models, it wrote in its amended IPO filing on 10 November. The wording hardened over three filings […] This story continues at The Next Web",
-      "score": 78,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It signals faster innovation, potentially impacting AI development timelines and competitive positioning."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -301,94 +464,12 @@
       "published": "Thu, 12 Nov 2026 17:00:00 +0000",
       "summary": "Arteris has surpassed 1,000 customer silicon design starts using its interconnect intellectual property, a milestone that highlights an increasingly consequential shift in chip design: moving data efficiently is becoming as important as…",
       "excerpt": "Arteris has surpassed 1,000 customer silicon design starts using its interconnect intellectual property, a milestone that highlights an increasingly consequential shift in chip design: moving data efficiently is becoming as important as processing it. The company’s November 5 announcement accompanies a report, The State… Read More The post What 1,000 Arteris Design Starts Reveal About Semiconductor Innovation…",
+      "image": "https://semiwiki.com/wp-content/uploads/2026/11/1000-Design-Starts-Announcement_110526.png",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ip/arteris/376116-what-1000-arteris-design-starts-reveal-about-semiconductor-innovation/",
       "clusterSize": 1,
       "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-      "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "published": "Thu, 12 Nov 2026 16:32:33 +0000",
-      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "clusterSize": 4,
-      "related": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-          "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?"
-        },
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board",
-          "title": "President Trump says Apple’s Tim Cook is the only man to replace Jensen Huang as Nvidia CEO"
-        },
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
-          "title": "Nvidia’s Board reportedly preparing to oust CEO Jensen Huang as second extra-marital affair emerges"
-        }
-      ]
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Jensen Huang is out. What did China want from him?",
-      "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
-      "published": "2026-11-12T16:30:00.000Z",
-      "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of…",
-      "excerpt": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf the company. We’ll have more on that story as things develop and we learn how Nvidia will…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_1112_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "readMinutes": 29,
-      "score": 97,
-      "isPrimary": true,
-      "clusterId": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-      "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-      "published": "Thu, 12 Nov 2026 16:12:44 +0000",
-      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Interim Nvidia CEO Colette Kress Has Tried to Tame Nvidia’s Riskiest Bets",
-      "link": "https://www.theinformation.com/articles/interim-nvidia-ceo-colette-kress-tried-tame-nvidias-riskiest-bets",
-      "published": "2026-11-12T16:12:15.000Z",
-      "summary": "Nvidia’s appointment Thursday of its longtime chief financial officer Colette Kress as interim CEO will force the finance veteran to guide the business through a fraught storm of uncertainty created by the sudden resignation of former CEO…",
-      "excerpt": "Nvidia’s appointment Thursday of its longtime chief financial officer Colette Kress as interim CEO will force the finance veteran to guide the business through a fraught storm of uncertainty created by the sudden resignation of former CEO Jensen Huang. Kress, 59, joined Nvidia in 2013, when the business was a humble supplier of chips for gamers. And while she has played an important role in guiding the company’s…",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/interim-nvidia-ceo-colette-kress-tried-tame-nvidias-riskiest-bets",
-      "clusterSize": 3,
-      "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/articles/nvidia-ceos-exit-looms",
-          "title": "Nvidia CEO’s Exit Looms"
-        },
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
-          "title": "Meet Colette Kress, Nvidia’s New Interim CEO"
-        }
-      ]
     },
     {
       "source": "Wired",
@@ -424,21 +505,6 @@
       ]
     },
     {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
-      "published": "2026-11-12T15:48:12.000Z",
-      "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged…",
-      "excerpt": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation with the company in an email, which also announced CFO Colette Kress as…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25343254/STK083_B_NVIDIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 97,
-      "isPrimary": true,
-      "clusterId": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
       "source": "The Register",
       "category": "news",
       "title": "United Airlines wants you to check in, not your chatbot",
@@ -447,49 +513,9 @@
       "summary": "AI agents face restrictions over safety checks that require a human touch",
       "image": "https://image.theregister.com/?imageId=259076&width=800",
       "readMinutes": 2,
-      "score": 99,
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/12/united-airlines-wants-you-to-check-in-not-your-chatbot/5309373",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Norwest pushes deeper into AI with new $4B fund",
-      "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-      "published": "Thu, 12 Nov 2026 15:18:14 +0000",
-      "summary": "This is the investment firm's largest fund to date.",
-      "score": 99,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-      "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "published": "Thu, 12 Nov 2026 15:02:28 +0000",
-      "summary": "This is Fireworks' second data breach in as many months.",
-      "score": 99,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Alice Huang’s Companies Invested in DeepSeek, Promising Nvidia Chips",
-      "link": "https://www.theinformation.com/articles/alice-huangs-companies-invested-deepseek-promising-nvidia-chips",
-      "published": "2026-11-12T15:00:50.000Z",
-      "summary": "The network of companies tied to Alice Huang, the alleged Chinese spy in a romantic relationship with Nvidia’s former CEO Jensen Huang, recently invested in Chinese AI star DeepSeek, according to three people with direct knowledge of the…",
-      "excerpt": "The network of companies tied to Alice Huang, the alleged Chinese spy in a romantic relationship with Nvidia’s former CEO Jensen Huang, recently invested in Chinese AI star DeepSeek, according to three people with direct knowledge of the matter. The investments were meant to forge closer ties with DeepSeek so Alice Huang’s companies could supply a steady stream of Nvidia’s advanced Blackwell chips, which are banned…",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/alice-huangs-companies-invested-deepseek-promising-nvidia-chips",
       "clusterSize": 1,
       "related": []
     },
@@ -530,6 +556,7 @@
       "published": "Thu, 12 Nov 2026 14:00:40 +0000",
       "summary": "The next generation of electronic systems starts with conversations between people solving difficult design challenges. For companies developing EDA tools, semiconductor IP, design services, and supporting technologies, DAC 2027 offers an…",
       "excerpt": "The next generation of electronic systems starts with conversations between people solving difficult design challenges. For companies developing EDA tools, semiconductor IP, design services, and supporting technologies, DAC 2027 offers an opportunity to turn those conversations into customer relationships, partnerships,… Read More The post Bring Your Innovation to Silicon Valley at DAC 2027 appeared first on…",
+      "image": "https://semiwiki.com/wp-content/uploads/2026/10/DAC-2027-chip-showcase-in-Silicon-Valley.jpg",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/events/375295-bring-your-innovation-to-silicon-valley-at-dac-2027/",
@@ -590,7 +617,7 @@
       "summary": "Only a minority want to ban it. Plus plenty of updates on 16 projects",
       "image": "https://image.theregister.com/?imageId=258466&width=800",
       "readMinutes": 3,
-      "score": 98,
+      "score": 97,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/os-platforms/2026/11/12/the-latest-freebsd-report-is-here-and-the-ai-debate-is-ongoing/5309206",
       "clusterSize": 1,
@@ -638,7 +665,7 @@
       "image": "https://cdn.mos.cms.futurecdn.net/vWebVo9EKENXbmKRqghcNg-1920-80.png",
       "readMinutes": 3,
       "whyItMatters": "Tech readers should watch this shift as it signals new data center locations and changing agricultural economics.",
-      "score": 91,
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/data-centers/cannabis-farmers-consider-joining-ai-bandwagon-due-to-falling-weed-revenue-existing-sites-could-house-mini-data-center-nodes-but-still-face-serious-challenges-during-conversion",
       "clusterSize": 1,
@@ -801,34 +828,6 @@
       "related": []
     },
     {
-      "source": "The Information",
-      "category": "news",
-      "title": "Nvidia Board Reportedly Preparing To Oust Nvidia CEO Following Alleged Affairs",
-      "link": "https://www.theinformation.com/briefings/report-nvidia-board-reportedly-preparing-oust-nvidia-ceo",
-      "published": "2026-11-11T22:47:48.000Z",
-      "summary": "Nvidia’s board is preparing to oust Nvidia CEO Jensen Huang, several news outlets reported, citing Trump administration officials. The board has been investigating Huang’s romantic relationship with a woman whose Chinese firm obtained…",
-      "excerpt": "Nvidia’s board is preparing to oust Nvidia CEO Jensen Huang, several news outlets reported, citing Trump administration officials. The board has been investigating Huang’s romantic relationship with a woman whose Chinese firm obtained banned Nvidia chips, and which the U.S. suspected was ...",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/report-nvidia-board-reportedly-preparing-oust-nvidia-ceo",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-      "published": "Wed, 11 Nov 2026 18:16:40 +0000",
-      "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
       "source": "Krebs on Security",
       "category": "news",
       "title": "Who Runs the Ransomware Group Qilin?",
@@ -882,7 +881,7 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2024/10/GettyImages-82110531_1.jpg?fit=2880,1920",
       "readMinutes": 4,
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
       "clusterSize": 1,
@@ -896,7 +895,7 @@
       "published": "Wed, 11 Nov 2026 08:00:00 GMT",
       "summary": "OpenAI offers a free ChatGPT Plus year to 20,000+ veterans and transitioning service members, helping them prepare for civilian careers.",
       "whyItMatters": "Tech-savvy readers see how AI aids veteran career transitions and free access benefits.",
-      "score": 88,
+      "score": 87,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/chatgpt-plus-for-veterans",
       "clusterSize": 1,
@@ -956,7 +955,7 @@
       "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared…",
       "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog.",
       "readMinutes": 4,
-      "score": 69,
+      "score": 68,
       "isPrimary": true,
       "clusterId": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
       "clusterSize": 1,
@@ -965,7 +964,7 @@
     {
       "source": "NVIDIA Blog",
       "category": "news",
-      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
       "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
       "published": "Tue, 10 Nov 2026 16:00:03 +0000",
       "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open…",
@@ -1001,7 +1000,7 @@
       "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "published": "Tue, 10 Nov 2026 12:00:00 GMT",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "score": 73,
+      "score": 72,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "clusterSize": 1,
@@ -1016,7 +1015,7 @@
       "summary": "Learn how guided virtual shock and drop analysis helps engineering teams identify reliability risks before physical testing, reduce qualification iterations, optimize packaging designs, and accelerate electronics product development. What…",
       "excerpt": "Learn how guided virtual shock and drop analysis helps engineering teams identify reliability risks before physical testing, reduce qualification iterations, optimize packaging designs, and accelerate electronics product development. What you will learn about: Why shock failures found during physical qualification are costly, and how coupled electrical, mechanical, thermal, and packaging effects make them hard to…",
       "image": "https://assets.rbl.ms/27151246/origin.png",
-      "score": 81,
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://content.knowledgehub.wiley.com/shifting-reliability-left-guided-virtual-validation-for-electronics-shock-and-drop-testing/",
       "clusterSize": 1,
@@ -1042,7 +1041,7 @@
       "link": "https://openai.com/index/closing-ai-guidance-gap-education",
       "published": "Tue, 10 Nov 2026 09:00:00 GMT",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "score": 72,
+      "score": 71,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/closing-ai-guidance-gap-education",
       "clusterSize": 1,
@@ -1288,22 +1287,6 @@
       "score": 69,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-      "published": "Fri, 06 Nov 2026 13:10:00 +0000",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins…",
-      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/2026_BA_Reno_15.jpg?w=840",
-      "readMinutes": 4,
-      "score": 78,
-      "isPrimary": true,
-      "clusterId": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
       "clusterSize": 1,
       "related": []
     },
