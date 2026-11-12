@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-11T20:58:05.475Z",
+  "updated": "2026-11-12T00:49:55.860Z",
   "count": 10,
   "items": [
+    {
+      "source": "The Verge Reviews",
+      "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+      "link": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+      "published": "2026-11-11T22:00:00.000Z",
+      "summary": "Home Assistant Connect Aux‑2 is a multi‑function box that lets users integrate non‑smart devices into their smart home setup.",
+      "excerpt": "The Aux-2 can be many things. Even a hat for your amp! | Photo: Nathan Edwards / The Verge Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-friendly. And it's working. I've…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/aux2-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It expands Home Assistant’s reach, making smart‑home control easier for tech‑savvy users who want broader device compatibility."
+    },
     {
       "source": "The Verge Reviews",
       "title": "Sony’s latest Pulse wireless headset packs planar magnetic drivers at a good price",
@@ -37,18 +47,20 @@
       "title": "Hands-on with Ring’s new AI drone camera for your home",
       "link": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
       "published": "2026-11-10T13:30:00.000Z",
-      "summary": "Ring’s new Drone Cam is a flying indoor security camera. Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a…",
+      "summary": "Ring releases a flying indoor security camera, the Drone Cam, priced at $249.99 and shipping January 27, 2027.",
       "excerpt": "Ring’s new Drone Cam is a flying indoor security camera. Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years after the company announced its first flying camera, the Ring Always Home Cam…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC01268.jpg?quality=90&strip=all&crop=0,0,100,100"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC01268.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It adds autonomous aerial surveillance to home security, expanding Ring’s product line and offering new coverage angles."
     },
     {
       "source": "The Verge Reviews",
       "title": "Real Motors’ Project Ares is a cyberpunk fantasy made real",
       "link": "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
       "published": "2026-11-10T11:00:00.000Z",
-      "summary": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the results have been occasionally brilliant. I'm a…",
+      "summary": "Real Motors’ Project Ares showcases a fully electric motorcycle that blends retrofuturistic design with cutting‑edge technology, redefining motorcycle aesthetics.",
       "excerpt": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the results have been occasionally brilliant. I'm a big fan of the vaguely retrofuturistic stylings of the Maeving RM2 and the quirky minimalism of BMW's CE 02, but nothing yet has quite left me so awestruck as Project Ares. This…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/2026-Real-Motors-Project-Ares-009.jpg?quality=90&strip=all&crop=0,0,100,100"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/2026-Real-Motors-Project-Ares-009.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It demonstrates how electrification frees designers, offering new performance and style possibilities for tech‑savvy riders."
     },
     {
       "source": "The Verge Reviews",
@@ -89,16 +101,6 @@
       "excerpt": "The Bambu P2S Combo. | Image: Bambu I've been wanting to try 3D printing, people tell me. Which printer should I get? I finally have a fairly easy answer: the Bambu Lab P2S Combo. The auto-loading, fully enclosed touchscreen printer is one of the very few I can recommend. It's the only one I'd buy for myself. It's on sale for $649 through December 1st, but I'd vouch for it even at its normal $749 price. I've spent…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/bambu-p2s.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "Tech readers value reliable, user-friendly printers that deliver quality prints at a competitive price."
-    },
-    {
-      "source": "The Verge Reviews",
-      "title": "Sony’s retro headphones brought me back to my childhood in the best way",
-      "link": "https://www.theverge.com/tech/1026958/sony-mdr-3r-headphones-review",
-      "published": "2026-11-05T16:00:00.000Z",
-      "summary": "The author reminisces about childhood memories triggered by Sony’s retro headphones, recalling walks, biking, and music listening experiences.",
-      "excerpt": "Even though I used a phone instead of a Walkman to listen on the Sony MDR-3R, the experience brought back familiar memories. Many of my childhood summer afternoons were spent riding around my hometown on my Huffy bike or, in later years, taking the bus into Harvard Square to walk around and hang out at The Garage. My Sony Walkman was always in my jacket pocket, and a pair of headphones were always on my head. For…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268854_Sony_MDR-3R_JHiggins_0002.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It highlights how nostalgic tech can evoke personal memories, appealing to tech enthusiasts who value design heritage."
     }
   ]
 }
