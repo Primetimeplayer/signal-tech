@@ -1,107 +1,28 @@
 {
-  "updated": "2026-11-13T00:42:12.543Z",
-  "count": 103,
+  "updated": "2026-11-13T01:55:26.440Z",
+  "count": 106,
   "items": [
-    {
-      "source": "GitHub Blog",
-      "category": "news",
-      "title": "GitHub availability report: October 2026",
-      "link": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
-      "published": "Fri, 13 Nov 2026 00:20:16 +0000",
-      "summary": "GitHub reported eight incidents in October 2026 that caused degraded performance across its services.",
-      "image": "https://github.blog/wp-content/uploads/2026/11/oct5-actions-jobs-starting-late.png?resize=1024%2C466",
-      "readMinutes": 13,
-      "score": 93,
-      "isPrimary": true,
-      "clusterId": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech users should monitor for potential impact on code hosting and CI/CD workflows."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Humble Bundle redesign removes two-factor verification from settings",
-      "link": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
-      "published": "2026-11-12T23:30:52.000Z",
-      "summary": "Humble Bundle’s new storefront redesign removed the option to add or update two‑factor authentication in account settings.",
-      "excerpt": "The Humble Bundle storefront for buying games and other software recently got a new look, but on the settings page, it no longer offers a way to add or update two-factor verification methods, as reported by Kotaku. PC Gamer also points out that there are Humble Bundle support pages discussing two-factor verification, and the writer for the publication said that they had set up two-factor verification on the old…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-12-at-3.28.10-PM.png?quality=90&strip=all&crop=0,0,100,88.092261904762",
-      "score": 86,
-      "isPrimary": true,
-      "clusterId": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech users may lose a key security feature, raising concerns about account protection on a popular digital storefront."
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "How Much Is Anthropic Really Worth?",
-      "link": "https://www.theinformation.com/articles/anthropic-worth",
-      "published": "2026-11-12T23:28:37.000Z",
-      "summary": "The article discusses Anthropic’s upcoming Nasdaq debut and its projected valuation range of $1.25–$1.4 trillion amid Nvidia leadership changes.",
-      "excerpt": "While investors digest the news of Nvidia boss Jensen Huang’s exit and its implications on the AI build-out, they are simultaneously mulling another nebulous question: How much is Anthropic worth? If everything goes according to plan, the market should give its answer when the company debuts on the Nasdaq exchange next week. Anthropic has set a tentative pricing range of between $1.25 trillion and $1.4 trillion, but…",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/anthropic-worth",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch Anthropic’s valuation as it signals AI market dynamics and investor confidence."
-    },
     {
       "source": "TechCrunch",
       "category": "news",
-      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
-      "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "published": "Thu, 12 Nov 2026 22:42:51 +0000",
-      "summary": "Congress investigates Nvidia’s China sales and alleged Trump ties, marking a second probe since the spy‑affair claim surfaced.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205211212-1.jpg?resize=1200,800",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "link": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "published": "Thu, 12 Nov 2026 21:35:00 +0000",
+      "summary": "Jensen Huang resigned from Nvidia amid an affair, potentially impacting U.S.-China AI competition and national security.",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "clusterSize": 3,
+      "clusterId": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "clusterSize": 13,
       "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/briefings/ex-nvidia-ceo-huang-hires-lawyers",
-          "title": "Ex-Nvidia CEO Huang Hires Lawyers"
-        },
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board",
-          "title": "President Trump says Apple’s Tim Cook is the only man to replace Jensen Huang as Nvidia CEO"
-        }
-      ],
-      "whyItMatters": "It signals heightened scrutiny of AI supply chains and political influence on tech companies."
-    },
-    {
-      "source": "SemiWiki",
-      "category": "news",
-      "title": "Bring Your Innovation to Silicon Valley at DAC 2027",
-      "link": "https://semiwiki.com/events/375295-bring-your-innovation-to-silicon-valley-at-dac-2027/",
-      "published": "Thu, 12 Nov 2026 14:00:40 +0000",
-      "summary": "DAC 2027 invites EDA, semiconductor IP, and design service firms to network and forge partnerships in Silicon Valley.",
-      "excerpt": "The next generation of electronic systems starts with conversations between people solving difficult design challenges. For companies developing EDA tools, semiconductor IP, design services, and supporting technologies, DAC 2027 offers an opportunity to turn those conversations into customer relationships, partnerships,… Read More The post Bring Your Innovation to Silicon Valley at DAC 2027 appeared first on…",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://semiwiki.com/events/375295-bring-your-innovation-to-silicon-valley-at-dac-2027/",
-      "clusterSize": 12,
-      "related": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-          "title": "The unfolding Jensen Huang scandal: a timeline"
-        },
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-          "title": "Jensen Huang was having a third affair, Reuters reports"
-        },
         {
           "source": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
           "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/briefings/ex-nvidia-ceo-huang-hires-lawyers",
+          "title": "Ex-Nvidia CEO Huang Hires Lawyers"
         },
         {
           "source": "The Information",
@@ -119,9 +40,9 @@
           "title": "Jensen Huang's self-sabotage sends Nvidia into a midlife crisis"
         },
         {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
-          "title": "‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation"
+          "source": "Wired",
+          "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+          "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return"
         },
         {
           "source": "Wired",
@@ -139,12 +60,114 @@
           "title": "Jensen Huang’s $470 Billion Affair"
         },
         {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-          "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month"
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board",
+          "title": "President Trump says Apple’s Tim Cook is the only man to replace Jensen Huang as Nvidia CEO"
+        },
+        {
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-it-would-be-an-honor-to-hire-ousted-nvidia-ceo-jensen-huang-possible-projects-could-include-terafab-spacexs-planned-gpu-manufacturing-or-teslas-ai-accelerators",
+          "title": "Elon Musk says it ‘would be an honor’ to hire ousted Nvidia CEO Jensen Huang"
+        },
+        {
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
+          "title": "Nvidia CEO Jensen Huang resigns in the wake of multiple affairs, Chinese spy allegations"
         }
       ],
-      "whyItMatters": "It offers a platform to connect with potential clients and collaborators, boosting business growth."
+      "whyItMatters": "Leadership changes at Nvidia could shift AI development dynamics between the U.S. and China."
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "Abrupt End to Nvidia’s Jensen Drama Leaves Unanswered Questions",
+      "link": "https://www.theinformation.com/articles/abrupt-end-nvidias-jensen-drama-leaves-unanswered-questions",
+      "published": "2026-11-13T01:01:16.000Z",
+      "summary": "Nvidia CEO Jensen Huang abruptly resigned, leaving many questions about the board’s confidence and the events leading to his departure.",
+      "excerpt": "Jensen Huang’s long-running Nvidia drama ended on a cliffhanger with the news of the CEO’s resignation Thursday morning. We’re going to have to wait a while for the scriptwriters to figure out the next installment of this thriller. At the moment, we’ve got far more questions than answers: What happened between Sunday, when the board said it had confidence in Huang, and Wednesday night when Huang quit (as Nvidia…",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/abrupt-end-nvidias-jensen-drama-leaves-unanswered-questions",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It signals potential instability for Nvidia’s leadership and could impact stock performance and AI product timelines."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Donald Trump really wants Tim Cook to run Nvidia",
+      "link": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+      "published": "2026-11-13T00:46:07.000Z",
+      "summary": "Trump suggests Apple’s former CEO Tim Cook replace Nvidia’s CEO after Jensen Huang’s resignation amid scandal.",
+      "excerpt": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an interim basis. But President Donald Trump is already throwing around one person he thinks should take over the chipmaking giant: former Apple CEO Tim Cook, who stepped down from leading the company on September 1st and moved into an executive…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/gettyimages-2228842017.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "score": 98,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech leaders may gauge how political influence could reshape the semiconductor industry."
+    },
+    {
+      "source": "GitHub Blog",
+      "category": "news",
+      "title": "GitHub availability report: October 2026",
+      "link": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "published": "Fri, 13 Nov 2026 00:20:16 +0000",
+      "summary": "GitHub reported eight incidents in October 2026 that caused degraded performance across its services.",
+      "image": "https://github.blog/wp-content/uploads/2026/11/oct5-actions-jobs-starting-late.png?resize=1024%2C466",
+      "readMinutes": 13,
+      "whyItMatters": "Tech users should monitor for potential impact on code hosting and CI/CD workflows.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Humble Bundle redesign removes two-factor verification from settings",
+      "link": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+      "published": "2026-11-12T23:30:52.000Z",
+      "summary": "Humble Bundle’s new storefront redesign removed the option to add or update two‑factor authentication in account settings.",
+      "excerpt": "The Humble Bundle storefront for buying games and other software recently got a new look, but on the settings page, it no longer offers a way to add or update two-factor verification methods, as reported by Kotaku. PC Gamer also points out that there are Humble Bundle support pages discussing two-factor verification, and the writer for the publication said that they had set up two-factor verification on the old…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-12-at-3.28.10-PM.png?quality=90&strip=all&crop=0,0,100,88.092261904762",
+      "whyItMatters": "Tech users may lose a key security feature, raising concerns about account protection on a popular digital storefront.",
+      "score": 93,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "How Much Is Anthropic Really Worth?",
+      "link": "https://www.theinformation.com/articles/anthropic-worth",
+      "published": "2026-11-12T23:28:37.000Z",
+      "summary": "The article discusses Anthropic’s upcoming Nasdaq debut and its projected valuation range of $1.25–$1.4 trillion amid Nvidia leadership changes.",
+      "excerpt": "While investors digest the news of Nvidia boss Jensen Huang’s exit and its implications on the AI build-out, they are simultaneously mulling another nebulous question: How much is Anthropic worth? If everything goes according to plan, the market should give its answer when the company debuts on the Nasdaq exchange next week. Anthropic has set a tentative pricing range of between $1.25 trillion and $1.4 trillion, but…",
+      "whyItMatters": "Tech readers should watch Anthropic’s valuation as it signals AI market dynamics and investor confidence.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/anthropic-worth",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "published": "Thu, 12 Nov 2026 22:42:51 +0000",
+      "summary": "Congress investigates Nvidia’s China sales and alleged Trump ties, marking a second probe since the spy‑affair claim surfaced.",
+      "whyItMatters": "It signals heightened scrutiny of AI supply chains and political influence on tech companies.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "Ars Technica",
@@ -154,12 +177,12 @@
       "published": "Thu, 12 Nov 2026 22:28:47 +0000",
       "summary": "The FAA has broadened its AI-based advisory system to help manage air traffic congestion nationwide, though the controllers’ union was not consulted.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
-      "score": 99,
+      "whyItMatters": "Tech-savvy readers should note how AI is reshaping aviation operations and the importance of stakeholder inclusion.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers should note how AI is reshaping aviation operations and the importance of stakeholder inclusion."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -168,13 +191,32 @@
       "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
       "published": "Thu, 12 Nov 2026 22:22:28 +0000",
       "summary": "Muse’s AI now offers paid outbound calling to U.S. businesses.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-calls.jpg?w=1104",
-      "score": 99,
+      "whyItMatters": "Tech users may leverage automated outreach for sales or support, but must budget for the service.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech users may leverage automated outreach for sales or support, but must budget for the service."
+      "related": []
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "published": "Thu, 12 Nov 2026 20:26:47 +0000",
+      "summary": "Reuters reports that Nvidia CEO Jensen Huang is having a third affair with a new employee, whose identity is undisclosed.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "clusterSize": 2,
+      "related": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
+          "title": "‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation"
+        }
+      ],
+      "whyItMatters": "It highlights potential governance and ethical concerns for a leading AI company."
     },
     {
       "source": "The Register",
@@ -185,12 +227,12 @@
       "summary": "Anthropic has introduced behavior standards to shield its Claude AI from abusive user interactions.",
       "image": "https://image.theregister.com/?imageId=5309512&width=800",
       "readMinutes": 3,
+      "whyItMatters": "Tech readers should know how AI safety protocols evolve to handle harassment and protect model integrity.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/12/a-third-of-us-ai-chatters-are-hot-at-bots-hurling-insults-at-llms/5309506",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should know how AI safety protocols evolve to handle harassment and protect model integrity."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -199,12 +241,12 @@
       "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
       "published": "Thu, 12 Nov 2026 21:27:10 +0000",
       "summary": "Nebius plans to fund a $40 billion AI infrastructure expansion via customer prepayments and loans, amid concerns over Microsoft data center delays.",
-      "score": 99,
+      "whyItMatters": "Tech readers should watch Nebius’ financing strategy and its impact on AI infrastructure reliability.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch Nebius’ financing strategy and its impact on AI infrastructure reliability."
+      "related": []
     },
     {
       "source": "The Information",
@@ -214,18 +256,12 @@
       "published": "2026-11-12T20:50:21.000Z",
       "summary": "Nvidia will keep probing if former CEO Jensen Huang was targeted by foreign intelligence due to his affair with a suspected Chinese spy.",
       "excerpt": "Nvidia is planning to continue its investigation into whether former CEO Jensen Huang “has been the target of a foreign intelligence effort” related to his affair with a person alleged to be a Chinese spy will continue, said a person familiar with the situation. The company is expected to ...",
+      "whyItMatters": "It signals ongoing security concerns for high-profile tech leaders and potential impacts on company trust and investor confidence.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/nvidia-will-continue-investigation-former-ceo-alleged-chinese-spy",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
-          "title": "Nvidia CEO Jensen Huang resigns in the wake of multiple affairs, Chinese spy allegations"
-        }
-      ],
-      "whyItMatters": "It signals ongoing security concerns for high-profile tech leaders and potential impacts on company trust and investor confidence."
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "The Register",
@@ -236,12 +272,12 @@
       "summary": "OpenAI announces new security tools and warns organizations that without them they risk vulnerability, amid a lawsuit from nonprofits alleging AI-fueled cyberattacks.",
       "image": "https://image.theregister.com/?imageId=241526&width=800",
       "readMinutes": 2,
+      "whyItMatters": "Tech leaders should consider these tools to protect against rising AI-enabled threats.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders should consider these tools to protect against rising AI-enabled threats."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -252,12 +288,28 @@
       "summary": "Google released Gemini 4 Hydrogen, a faster, cheaper model for coding and AI agents, priced at $1.50 per million input tokens.",
       "excerpt": "Google has launched Gemini 4 Hydrogen, a fast, lower-cost model for coding and AI agents. It is available to everyone in the Gemini app and Search, and to developers at $1.50 per million input tokens. Google says it nearly matches its flagship Argon. Google has launched Gemini 4 Hydrogen, a faster and cheaper model built […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/google-gemini-4-hydrogen-bubble-graphic.avif",
-      "score": 70,
+      "whyItMatters": "It offers developers a cost‑effective, high‑performance alternative to flagship models, boosting accessibility and efficiency.",
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It offers developers a cost‑effective, high‑performance alternative to flagship models, boosting accessibility and efficiency."
+      "related": []
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "published": "Thu, 12 Nov 2026 20:16:24 +0000",
+      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on…",
+      "excerpt": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/foster-huang2a.jpg?resize=1200,600",
+      "readMinutes": 3,
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "The Information",
@@ -270,19 +322,8 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/ex-nvidia-ceo-huang-affair-second-employee",
-      "clusterSize": 3,
-      "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/articles/alice-huangs-companies-invested-deepseek-promising-nvidia-chips",
-          "title": "Alice Huang’s Companies Invested in DeepSeek, Promising Nvidia Chips"
-        },
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-it-would-be-an-honor-to-hire-ousted-nvidia-ceo-jensen-huang-possible-projects-could-include-terafab-spacexs-planned-gpu-manufacturing-or-teslas-ai-accelerators",
-          "title": "Elon Musk says it ‘would be an honor’ to hire ousted Nvidia CEO Jensen Huang"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "OpenAI Blog",
@@ -427,7 +468,7 @@
       "excerpt": "J.Crew has launched Style Advisor, an AI stylist on its US website built with Anthropic’s Claude. Shoppers describe an occasion and get complete outfits from looks J.Crew’s stylists put together. Personal recommendations based on past purchases will come later. J.Crew has launched Style Advisor, an AI stylist on its website built with Anthropic’s Claude, Anthropic […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/claude-website-thinking-partner-screen.avif",
       "whyItMatters": "It shows AI’s growing role in personalized fashion shopping, enhancing user experience and driving sales.",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/jcrew-style-advisor-claude-ai-stylist",
       "clusterSize": 1,
@@ -458,7 +499,7 @@
       "excerpt": "Axle has raised $9M led by Eniac and Bonfire Ventures. It makes software that helps investment banks arrange meetings between investors and company management, and will add more AI agents. It says some of North America’s biggest banks use it. Axle, a startup that makes software for investment banks, has raised $9M in a round […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/ai-text-inside-open-human-head-3d-render.avif",
       "whyItMatters": "Tech-savvy readers see AI-driven efficiency gains in high-stakes financial operations.",
-      "score": 78,
+      "score": 77,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/axle-9m-ai-agents-investment-banks-corporate-access",
       "clusterSize": 1,
@@ -473,7 +514,7 @@
       "summary": "SpaceXSI’s Grok Build exposed over 35,000 apps, revealing sensitive internal documents, per Claroc’s security research.",
       "excerpt": "Anyone who found the address of a Grok Build app could open more than 35,000 of them, security firm Claroc found in research published on 10 November. Two dozen belonged to staff at SpaceXSI, the company that makes Grok. They held a confidential onboarding plan, a sales territory map and advertising proposals. SpaceXSI took its […] This story continues at The Next Web",
       "whyItMatters": "Highlights critical data leakage risks in SaaS platforms, urging tighter access controls for tech firms.",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/grok-build-apps-exposed-claroc-spacexsi",
       "clusterSize": 1,
@@ -504,7 +545,7 @@
       "summary": "OpenAI reported $10bn revenue in Q3, a 50% rise, driven by demand for new models and enterprise products, though losses widened.",
       "excerpt": "OpenAI’s revenue reached $10bn in the third quarter, up almost 50% from the second, The Information reported. OpenAI shared the figures with investors on Tuesday. Demand for its newer models and enterprise products had picked up, Valida Pau and Jemima McEvoy wrote, citing a person familiar with the matter. It is the first quarter in […] This story continues at The Next Web",
       "whyItMatters": "Shows AI growth and investor interest, but highlights rising costs and potential valuation impacts.",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss",
       "clusterSize": 1,
@@ -607,23 +648,9 @@
       "summary": "AI agents face restrictions over safety checks that require a human touch",
       "image": "https://image.theregister.com/?imageId=259076&width=800",
       "readMinutes": 2,
-      "score": 97,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/12/united-airlines-wants-you-to-check-in-not-your-chatbot/5309373",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Alice Huang Barred from Re-Entering Singapore After Lying to Authorities",
-      "link": "https://www.theinformation.com/briefings/alice-huang-barred-re-entering-singapore-lying-authorities",
-      "published": "2026-11-12T15:00:50.000Z",
-      "summary": "Alice Huang, the alleged Chinese spy at the heart of an Nvidia scandal, has been barred from Singapore after local authorities determined she had provided inaccurate information during an investigation they conducted into data center…",
-      "excerpt": "Alice Huang, the alleged Chinese spy at the heart of an Nvidia scandal, has been barred from Singapore after local authorities determined she had provided inaccurate information during an investigation they conducted into data center company Megaspeed. Huang was probed for her suspected ...",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/alice-huang-barred-re-entering-singapore-lying-authorities",
       "clusterSize": 1,
       "related": []
     },
@@ -639,6 +666,21 @@
       "score": 80,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "SemiWiki",
+      "category": "news",
+      "title": "Bring Your Innovation to Silicon Valley at DAC 2027",
+      "link": "https://semiwiki.com/events/375295-bring-your-innovation-to-silicon-valley-at-dac-2027/",
+      "published": "Thu, 12 Nov 2026 14:00:40 +0000",
+      "summary": "DAC 2027 invites EDA, semiconductor IP, and design service firms to network and forge partnerships in Silicon Valley.",
+      "excerpt": "The next generation of electronic systems starts with conversations between people solving difficult design challenges. For companies developing EDA tools, semiconductor IP, design services, and supporting technologies, DAC 2027 offers an opportunity to turn those conversations into customer relationships, partnerships,… Read More The post Bring Your Innovation to Silicon Valley at DAC 2027 appeared first on…",
+      "whyItMatters": "It offers a platform to connect with potential clients and collaborators, boosting business growth.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://semiwiki.com/events/375295-bring-your-innovation-to-silicon-valley-at-dac-2027/",
       "clusterSize": 1,
       "related": []
     },
@@ -664,7 +706,7 @@
       "link": "https://openai.com/business/customer-stories/gondola",
       "published": "Thu, 12 Nov 2026 12:00:00 GMT",
       "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "score": 82,
+      "score": 81,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/gondola",
       "clusterSize": 1,
@@ -712,7 +754,7 @@
       "image": "https://cdn.mos.cms.futurecdn.net/vWebVo9EKENXbmKRqghcNg-1920-80.png",
       "readMinutes": 3,
       "whyItMatters": "Tech readers should watch this shift as it signals new data center locations and changing agricultural economics.",
-      "score": 89,
+      "score": 88,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/data-centers/cannabis-farmers-consider-joining-ai-bandwagon-due-to-falling-weed-revenue-existing-sites-could-house-mini-data-center-nodes-but-still-face-serious-challenges-during-conversion",
       "clusterSize": 1,
@@ -900,7 +942,7 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2024/10/GettyImages-82110531_1.jpg?fit=2880,1920",
       "readMinutes": 4,
-      "score": 88,
+      "score": 87,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
       "clusterSize": 1,
@@ -914,7 +956,7 @@
       "published": "Wed, 11 Nov 2026 08:00:00 GMT",
       "summary": "OpenAI offers a free ChatGPT Plus year to 20,000+ veterans and transitioning service members, helping them prepare for civilian careers.",
       "whyItMatters": "Tech-savvy readers see how AI aids veteran career transitions and free access benefits.",
-      "score": 86,
+      "score": 85,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/chatgpt-plus-for-veterans",
       "clusterSize": 1,
@@ -974,7 +1016,7 @@
       "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared…",
       "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog.",
       "readMinutes": 4,
-      "score": 67,
+      "score": 66,
       "isPrimary": true,
       "clusterId": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
       "clusterSize": 1,
@@ -1019,7 +1061,7 @@
       "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "published": "Tue, 10 Nov 2026 12:00:00 GMT",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "score": 71,
+      "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "clusterSize": 1,
@@ -1185,22 +1227,6 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The climate case for AI has not been made",
-      "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
-      "published": "Mon, 09 Nov 2026 10:00:00 +0000",
-      "summary": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring that AI is…",
-      "excerpt": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring that AI is designed, powered, and deployed in ways that support climate action. But so far, industries around the world…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/hands.jpg?resize=1200,600",
-      "readMinutes": 5,
-      "score": 78,
-      "isPrimary": true,
-      "clusterId": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
       "clusterSize": 1,
       "related": []
     },
