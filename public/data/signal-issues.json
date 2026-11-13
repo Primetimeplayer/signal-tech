@@ -1,6 +1,26 @@
 {
-  "updated": "2026-11-06T11:07:44.253Z",
+  "updated": "2026-11-13T08:47:53.780Z",
   "issues": [
+    {
+      "issueNumber": 5,
+      "title": "Gemini 4 Hydrogen: frontier-ish, budget price",
+      "date": "2026-11-13",
+      "url": "https://dailysignaltech.beehiiv.com/p/gemini-4-hydrogen-frontier-ish-budget-price",
+      "stories": [
+        {
+          "headline": "Gemini 4 Hydrogen makes fast cheap",
+          "whyItMatters": "Google released a fast, low-cost coding model that matches its flagship on a…"
+        },
+        {
+          "headline": "Google's TPU family gets 8tx and 8i Max",
+          "whyItMatters": "Google added two specialised TPUs, one for confidential AI and one for huge…"
+        },
+        {
+          "headline": "Tool of the week: Modern Web Guidance 1.0",
+          "whyItMatters": "A free skill pack that teaches your coding agent today's web best practices."
+        }
+      ]
+    },
     {
       "issueNumber": 4,
       "title": "Google's TPUs leave Google Cloud",

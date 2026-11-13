@@ -5,13 +5,21 @@
     <link>https://signaltechnews.com/</link>
     <description>The Signal Tech newsletter, weekly digests and original blog guides: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 11 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 07:00:00 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>Issue #5: Gemini 4 Hydrogen: frontier-ish, budget price</title>
+      <link>https://signaltechnews.com/issues/2026-11-13</link>
+      <guid isPermaLink="true">https://signaltechnews.com/issues/2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 07:00:00 GMT</pubDate>
+      <category>Newsletter</category>
+      <description>Gemini 4 Hydrogen makes fast cheap: Google released a fast, low-cost coding model that matches its flagship on a… · Google&#39;s TPU family gets 8tx and 8i Max: Google added two specialised TPUs, one for confidential AI and one for huge… · Tool of the week: Modern Web Guidance 1.0: A free skill pack that teaches your coding agent today&#39;s web best practices.</description>
+    </item>
     <item>
       <title>How to keep your AI stack portable across GPUs and TPUs: a practical checklist</title>
       <link>https://signaltechnews.com/blog/ai-accelerator-portability-checklist</link>
