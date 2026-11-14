@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T00:28:30.111Z",
+  "updated": "2026-11-14T01:29:07.300Z",
   "count": 103,
   "items": [
     {
@@ -10,12 +10,12 @@
       "published": "Fri, 13 Nov 2026 22:43:00 +0000",
       "summary": "Nvidia’s investment in AI startups, led by Jensen Huang, has created a funding gap, causing VCs and founders to expect smaller checks and lower valuations.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+      "whyItMatters": "Tech founders may face tighter capital and valuation pressure without Huang’s influence.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech founders may face tighter capital and valuation pressure without Huang’s influence."
+      "related": []
     },
     {
       "source": "Ars Technica",
@@ -25,12 +25,12 @@
       "published": "Fri, 13 Nov 2026 21:20:47 +0000",
       "summary": "The FAA is deploying an AI system to help reduce air traffic congestion nationwide, a move welcomed by airlines but not yet endorsed by controllers’ union.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
-      "score": 99,
+      "whyItMatters": "Tech-savvy readers should note how AI could reshape air traffic management and industry efficiency.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers should note how AI could reshape air traffic management and industry efficiency."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -39,6 +39,7 @@
       "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "published": "Fri, 13 Nov 2026 18:40:30 +0000",
       "summary": "China’s top AI models were trained using Nvidia chips that are banned for export.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795",
       "whyItMatters": "It highlights a breach of export controls, raising security and compliance concerns for tech stakeholders.",
       "score": 100,
       "isPrimary": true,
@@ -61,7 +62,8 @@
       "summary": "Nvidia’s board reportedly contacted Arm CEO Rene Haas during its CEO search.",
       "image": "https://cdn.mos.cms.futurecdn.net/qBiTnikCtK5QZ46zhHfiXm-1920-80.jpg",
       "readMinutes": 3,
-      "score": 97,
+      "whyItMatters": "Shows Nvidia’s strategic ties to Arm and potential leadership direction.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void",
       "clusterSize": 2,
@@ -71,8 +73,7 @@
           "url": "https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
           "title": "‘Broken and shattered’ Nvidia CEO Jensen Huang surrendered during resignation meeting, report claims"
         }
-      ],
-      "whyItMatters": "Shows Nvidia’s strategic ties to Arm and potential leadership direction."
+      ]
     },
     {
       "source": "The Next Web",
@@ -83,12 +84,12 @@
       "summary": "Dyania Health’s Synapsis AI analyzed 7,800 Cleveland Clinic heart‑valve patients’ records on Nvidia servers to predict valve failure.",
       "excerpt": "Dyania Health’s Synapsis AI reviewed the records of more than 7,800 Cleveland Clinic heart-valve patients, running on the hospital’s own Nvidia servers. The data was used to build a model predicting when replacement valves fail. Doctors still make every decision. An AI system has read up to 16 years of records for more than 7,800 […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/dyania-synapsis-ai-patient-record-timeline.avif",
-      "score": 83,
+      "whyItMatters": "Shows AI can process long-term clinical data locally, improving predictive care while keeping decisions in doctors’ hands.",
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/dyania-health-synapsis-ai-cleveland-clinic-nvidia-hospital",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows AI can process long-term clinical data locally, improving predictive care while keeping decisions in doctors’ hands."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -97,6 +98,7 @@
       "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "published": "Fri, 13 Nov 2026 16:00:12 +0000",
       "summary": "ChatGPT Wallet enables AI agents to shop and checkout for users, initially available to U.S. Pro subscribers.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
       "whyItMatters": "It expands AI’s practical use in e-commerce, streamlining purchases for tech-savvy users.",
       "score": 100,
       "isPrimary": true,
@@ -134,12 +136,12 @@
       "summary": "The article discusses how humans struggle to detect lies from language models, suggesting AI should self-verify.",
       "image": "https://image.theregister.com/?imageId=227602&width=800",
       "readMinutes": 2,
-      "score": 99,
+      "whyItMatters": "Tech readers should know AI self-checking could improve trust.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/offbeat/2026/11/13/meatbags-suck-at-spotting-lying-llms-so-let-ai-narc-on-itself/5309876",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should know AI self-checking could improve trust."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -148,12 +150,13 @@
       "link": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
       "published": "Fri, 13 Nov 2026 20:07:24 +0000",
       "summary": "Drogue plans to use ocean heat to power floating data centers, launching a prototype in under two years.",
-      "score": 98,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/drogue-team.jpeg?resize=1200,900",
+      "whyItMatters": "Tech-savvy readers see a low‑carbon, scalable energy source for data centers.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers see a low‑carbon, scalable energy source for data centers."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -162,6 +165,7 @@
       "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
       "published": "Fri, 13 Nov 2026 19:37:57 +0000",
       "summary": "LangChain reports 7,000 customers for its agent management tool LangSmith, reaching a $3B valuation.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
       "whyItMatters": "Shows rapid adoption of AI agent tools, indicating strong market traction for platform-agnostic solutions.",
       "score": 100,
       "isPrimary": true,
@@ -185,25 +189,20 @@
       "related": []
     },
     {
-      "source": "The Information",
+      "source": "The Next Web",
       "category": "news",
-      "title": "How Much Is Anthropic Really Worth?",
-      "link": "https://www.theinformation.com/articles/anthropic-worth",
-      "published": "2026-11-12T23:28:37.000Z",
-      "summary": "The article discusses Anthropic’s upcoming Nasdaq debut and its projected valuation range of $1.25–$1.4 trillion amid Nvidia leadership changes.",
-      "excerpt": "While investors digest the news of Nvidia boss Jensen Huang’s exit and its implications on the AI build-out, they are simultaneously mulling another nebulous question: How much is Anthropic worth? If everything goes according to plan, the market should give its answer when the company debuts on the Nasdaq exchange next week. Anthropic has set a tentative pricing range of between $1.25 trillion and $1.4 trillion, but…",
-      "whyItMatters": "Tech readers should track Anthropic’s valuation to gauge AI market dynamics and investment opportunities.",
-      "score": 100,
+      "title": "Anthropic says its AI safety scores depend heavily on how they’re measured",
+      "link": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm",
+      "published": "Fri, 13 Nov 2026 19:01:04 +0000",
+      "summary": "Anthropic reports its AI safety scores vary greatly depending on measurement methods, noting Claude Fable 5.1 passed only 60% of self-harm tests via API versus 94% after a fix.",
+      "excerpt": "Anthropic has published advice on building AI safety tests. It shows Claude Fable 5.1 behaved appropriately in only 60% of self-harm test conversations via its API, against 94% in the Claude app after a fix, and warns that many headline safety scores hide wide uncertainty. Anthropic has published advice on how to build reliable AI […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/11/anthropic-safety-evaluations-grid-illustration.avif",
+      "score": 76,
       "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/anthropic-worth",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm",
-          "title": "Anthropic says its AI safety scores depend heavily on how they’re measured"
-        }
-      ]
+      "clusterId": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech readers should note that safety metrics can be misleading and require careful interpretation for reliable AI deployment."
     },
     {
       "source": "IEEE Spectrum",
@@ -264,7 +263,7 @@
       "excerpt": "Cornelis, which Intel spun out in 2020, has launched CN6000, a family of 800G network cards and switches for AI and supercomputers. It claims lower latency than Nvidia’s InfiniBand, based on its own tests. Partner systems arrive in early 2027. Cornelis, a networking company spun out of Intel, has launched CN6000, a family of 800G […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/cornelis-cn6000-supernic-switch.avif",
       "whyItMatters": "Tech leaders will watch this as a potential shift in high‑performance networking standards.",
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/cornelis-cn6000-800g-networking-ai-supercomputers",
       "clusterSize": 1,
@@ -279,7 +278,7 @@
       "summary": "Google is rolling out a Google Wallet connection to all Gemini app users in the US. Gemini can analyse spending, find subscriptions and suggest budgets, with read-only access. Google says it may train AI on summaries of that data if users…",
       "excerpt": "Google is rolling out a Google Wallet connection to all Gemini app users in the US. Gemini can analyse spending, find subscriptions and suggest budgets, with read-only access. Google says it may train AI on summaries of that data if users keep activity on. Google is letting every Gemini app user in the US connect […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/google-gemini-personal-intelligence-wallet-graphic.avif",
-      "score": 70,
+      "score": 69,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid",
       "clusterSize": 1,
@@ -331,7 +330,7 @@
       "excerpt": "GridAI Technologies has agreed to buy Wyoming natural gas producer Pronghorn Resources in an all-stock deal. It plans to build gas-fired power plants for AI data centres, aiming for 300 MW in 2027, but has no named customers yet. GridAI Technologies has agreed to buy Pronghorn Resources, a natural gas producer in Wyoming, to power […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/ai-microchip-green-pastel-reflective-surface.avif",
       "whyItMatters": "Securing dedicated power could reduce AI center costs and carbon footprints, appealing to tech investors and sustainability-focused firms.",
-      "score": 78,
+      "score": 77,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/gridai-pronghorn-wyoming-gas-ai-data-centre-power",
       "clusterSize": 1,
@@ -482,7 +481,8 @@
       "link": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
       "published": "Fri, 13 Nov 2026 14:57:55 +0000",
       "summary": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
-      "score": 97,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2043993878-e1722276196662.jpg?resize=1200,676",
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
       "clusterSize": 1,
@@ -512,7 +512,7 @@
       "summary": "After several years of pushing organizationwide AI adoption, companies are now confronting the cost. As boardroom conversations shift to return on investment, business leaders are taking a harder look at which AI bets to fund and scale. To…",
       "excerpt": "After several years of pushing organizationwide AI adoption, companies are now confronting the cost. As boardroom conversations shift to return on investment, business leaders are taking a harder look at which AI bets to fund and scale. To understand what questions executives should be asking ahead of AI investments, Meredith Mazzilli, The Information’s finance editor, spoke with three experts approaching AI from…",
       "readMinutes": 3,
-      "score": 97,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/companies-place-ai-bets",
       "clusterSize": 1,
@@ -586,6 +586,7 @@
       "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
       "published": "Fri, 13 Nov 2026 12:52:19 +0000",
       "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303769281.jpg?resize=1200,800",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
@@ -600,7 +601,7 @@
       "published": "Fri, 13 Nov 2026 11:45:00 +0000",
       "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
       "image": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/master/pass/Startup-Betting-on-AI-Microdramas-Culture.jpg",
-      "score": 82,
+      "score": 81,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
       "clusterSize": 1,
@@ -736,7 +737,7 @@
       "image": "https://github.blog/wp-content/uploads/2026/11/oct5-actions-jobs-starting-late.png?resize=1024%2C466",
       "readMinutes": 13,
       "whyItMatters": "Tech users should monitor for potential impact on code hosting and CI/CD workflows.",
-      "score": 93,
+      "score": 92,
       "isPrimary": true,
       "clusterId": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
       "clusterSize": 1,
