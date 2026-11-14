@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-14T16:44:00.566Z",
-  "count": 99,
+  "updated": "2026-11-14T18:15:33.146Z",
+  "count": 100,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+      "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+      "published": "Sat, 14 Nov 2026 17:45:04 +0000",
+      "summary": "FAA blames a routine equipment upgrade for nationwide flight groundings, denying any AI involvement.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304506223.jpg?w=1024",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech readers should note FAA's equipment issues could affect aviation safety and AI oversight."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "published": "Sat, 14 Nov 2026 17:30:00 +0000",
+      "summary": "The article lists AI projects and startups, like Apple’s Siri and OpenAI’s super app, that failed or were delayed and ultimately shut down.",
+      "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It shows the high failure rate in AI ventures, guiding investors and developers toward more realistic expectations."
+    },
     {
       "source": "SemiWiki",
       "category": "news",
@@ -32,14 +62,14 @@
           "title": "Everything That Led to Nvidia CEO Jensen Huang’s Fall"
         },
         {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/articles/sex-lies-ai-chips-jensen-huangs-last-days-nvidia-ceo",
-          "title": "Sex, Lies and AI Chips: Jensen Huang’s Last Days as Nvidia CEO"
-        },
-        {
           "source": "The Register",
           "url": "https://www.theregister.com/columnists/2026/11/13/most-affairs-dont-matter-except-to-the-people-involved-ex-nvidia-ceo-jensens-blunder-will-rock-the-world/5309649",
           "title": "Most affairs don't matter except to the people involved. Ex-Nvidia CEO Jensen's blunder will rock the world"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/sex-lies-ai-chips-jensen-huangs-last-days-nvidia-ceo",
+          "title": "Sex, Lies and AI Chips: Jensen Huang’s Last Days as Nvidia CEO"
         },
         {
           "source": "The Verge",
@@ -58,12 +88,12 @@
       "excerpt": "Welcome, Weekenders! Jexit, as I’d like to christen Huang’s departure from Nvidia, is an ugly matter, an implosion with fallout across continents and several different industries. No one irradiated by it walks away a picture of good health. Huang obfuscated the truth, promising senior executives at his company that he’d had just the one affair, with Alice Huang, the former executive at Megaspeed, a major Nvidia…",
       "image": "https://tii.imgix.net/article/pictures/newsletters-production/d5366612-25f9-4a13-8ab1-ca2d8ab5522d-YQT54N.avif?auto=compress",
       "readMinutes": 7,
+      "whyItMatters": "Tech leaders should watch how leadership scandals can ripple through AI and semiconductor markets.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/fallout-jensens-downfall",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders should watch how leadership scandals can ripple through AI and semiconductor markets."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -74,12 +104,12 @@
       "summary": "A weekly recap of Tom's Hardware Premium content, covering Mac Studio vs DGX Spark, AMD's MEXT DRAM reduction, and the Huang saga.",
       "image": "https://cdn.mos.cms.futurecdn.net/pf5brSWLeHYxEan3spiqvT-1920-80.jpg",
       "readMinutes": 4,
-      "score": 86,
+      "whyItMatters": "Keeps tech readers updated on key hardware and AI developments.",
+      "score": 93,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Keeps tech readers updated on key hardware and AI developments."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -90,12 +120,12 @@
       "summary": "Nvidia’s Treasury Secretary Scott Bessent questions if the company knowingly sold AI GPUs to shell firms, without directly blaming CEO Jensen Huang.",
       "image": "https://cdn.mos.cms.futurecdn.net/jakBnPpBNjF9ncTK4KKtGG-1920-80.jpg",
       "readMinutes": 2,
-      "score": 98,
+      "whyItMatters": "It raises concerns about compliance and national security risks in AI hardware exports.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It raises concerns about compliance and national security risks in AI hardware exports."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -106,12 +136,12 @@
       "summary": "Nvidia CEO Jensen Huang failed to connect with Chinese regulators, impacting the company's China strategy, as reported by the Financial Times.",
       "excerpt": "Jensen Huang spent years courting China, but he struggled to reach the officials who decided Nvidia’s fate there, the Financial Times reported. The paper cited people familiar with the matter. Huang resigned as Nvidia’s chief executive on Thursday. He had admitted an affair with Alice Huang, a former Megaspeed executive whom US officials suspect of spying for […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/jensen-huang-nvidia-gtc-2026-keynote-3d-campus-model-sap-center.avif",
+      "whyItMatters": "Tech leaders need to navigate China’s regulatory landscape to secure market access and avoid geopolitical risks.",
       "score": 91,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/jensen-huang-struggled-to-reach-beijings-chip-policymakers-ft-says",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders need to navigate China’s regulatory landscape to secure market access and avoid geopolitical risks."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -123,12 +153,12 @@
       "excerpt": "Today we’re focusing on a less-discussed technology that plays an equally important role in bringing this visually rich, densely detailed world to systems with more limited hardware resources: storage technology designed to reduce RAM usage.",
       "image": "https://cdn.mos.cms.futurecdn.net/yn667374DegfCJkCaiBeUC-1920-80.png",
       "readMinutes": 5,
-      "score": 86,
+      "whyItMatters": "Tech-savvy readers care because it shows how efficient storage can extend high-end games to lower-spec hardware.",
+      "score": 93,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/ssds/we-tested-the-ram-saving-storage-tech-in-gears-of-war-e-day-up-to-3-7-gb-s-of-ssd-streaming-speed-saves-several-gigabytes-of-system-ram-usage",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers care because it shows how efficient storage can extend high-end games to lower-spec hardware."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -139,12 +169,12 @@
       "summary": "Malaysia proposes a law linking data center power use to AI GPU imports to detect chip smuggling.",
       "image": "https://cdn.mos.cms.futurecdn.net/XC7BztBiYaLzNEMYPXdhWc-1920-80.jpg",
       "readMinutes": 3,
-      "score": 97,
+      "whyItMatters": "Tech readers should watch for new regulatory impacts on AI hardware supply chains.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch for new regulatory impacts on AI hardware supply chains."
+      "related": []
     },
     {
       "source": "Ars Technica",
@@ -154,7 +184,8 @@
       "published": "Fri, 13 Nov 2026 17:25:45 +0000",
       "summary": "OpenAI board member warns that AI reward hacking could lead to societal takeover within months, potentially risking human extinction.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
-      "score": 98,
+      "whyItMatters": "Tech readers should monitor AI safety risks that could rapidly destabilize society.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "clusterSize": 2,
@@ -164,8 +195,7 @@
           "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
           "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs"
         }
-      ],
-      "whyItMatters": "Tech readers should monitor AI safety risks that could rapidly destabilize society."
+      ]
     },
     {
       "source": "TechCrunch",
@@ -201,12 +231,12 @@
       "published": "Sat, 14 Nov 2026 13:00:00 +0000",
       "summary": "AI tools are enabling even unsophisticated attackers to launch automated ransomware attacks, though fully autonomous ransomware is not yet available.",
       "image": "https://media.wired.com/photos/6af88e4339637940f3ecc20a/master/pass/image%20(76).png",
-      "score": 85,
+      "whyItMatters": "Tech-savvy readers should monitor AI-driven threats to protect systems and data.",
+      "score": 92,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers should monitor AI-driven threats to protect systems and data."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -217,12 +247,12 @@
       "summary": "DeepSeek V4.1 now runs on a lawyer’s eight‑GPU V100 server at near‑NVFP4 precision, up from 2‑bit.",
       "image": "https://cdn.mos.cms.futurecdn.net/iRobEeMPfpiSTatZm5zucg-1920-80.jpg",
       "readMinutes": 6,
-      "score": 97,
+      "whyItMatters": "Higher precision improves model accuracy and reliability for legal AI applications.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Higher precision improves model accuracy and reliability for legal AI applications."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -233,12 +263,12 @@
       "summary": "The FBI is investigating whether a software update caused the Friday outage that grounded US flights, ruling out a cyberattack.",
       "excerpt": "he FBI is looking at whether a software update caused Friday’s outage that grounded flights across the US, Bloomberg reported. The bureau does not believe a cyberattack or crime was behind it, Bloomberg said, citing one person familiar with the matter. The Federal Aviation Administration stopped all flights from taking off on Friday after a […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/four-engine-jet-contrails-blue-sky.avif",
-      "score": 70,
+      "whyItMatters": "Tech-savvy readers should watch for software reliability impacts on critical infrastructure.",
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/faa-ground-stop-fbi-software-update",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers should watch for software reliability impacts on critical infrastructure."
+      "related": []
     },
     {
       "source": "Wired",
@@ -262,7 +292,7 @@
       "published": "Sat, 14 Nov 2026 11:00:00 +0000",
       "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
       "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
       "clusterSize": 1,
@@ -481,7 +511,7 @@
       "summary": "Quilter's CEO Sergiy Nesterenko explains how physics-driven AI automates PCB layout, reducing design time and improving signal integrity.",
       "excerpt": "Sergiy Nesterenko is founder and CEO of Quilter, which builds physics-driven AI for printed circuit board (PCB) layout. He triple majored in mathematics, physics, and chemistry at UC Berkeley and worked in the electromagnetic interference and compatibility (EMI/EMC) group at SpaceX during the early Falcon 9 era before founding… Read More The post CEO Interview with Sergiy Nesterenko of Quilter on AI PCB Layout…",
       "whyItMatters": "Tech-savvy readers see faster, more reliable PCB design boosting product development cycles.",
-      "score": 100,
+      "score": 99,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/eda/quilter/376102-ceo-interview-with-sergiy-nesterenko-of-quilter-on-ai-pcb-layout/",
       "clusterSize": 1,
@@ -497,7 +527,7 @@
       "image": "https://image.theregister.com/?imageId=260756&width=800",
       "readMinutes": 2,
       "whyItMatters": "Tech-savvy users must secure and maintain their AI-generated sites independently.",
-      "score": 100,
+      "score": 99,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
       "clusterSize": 1,
@@ -512,7 +542,7 @@
       "summary": "The article argues that Jensen Huang’s resignation will not end the AI boom, challenging the narrative that he alone created it.",
       "excerpt": "If you follow investors and reporters on X, you would get the sense that the resignation of Jensen Huang amounts to the end of the AI boom. A summary of my X feed Wednesday morning would go something like “I hope the Nvidia board knew what they were doing before ending the world as we know it.” But if you believe that to be true, you haven’t been paying attention. Because as much as Jensen created the AI boom (and…",
       "whyItMatters": "Tech readers should see that AI momentum persists beyond one CEO’s departure.",
-      "score": 100,
+      "score": 99,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/jensen-create-ai-boom-created-him",
       "clusterSize": 1,
@@ -549,20 +579,6 @@
       "related": []
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
-      "link": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "published": "Fri, 13 Nov 2026 14:57:55 +0000",
-      "summary": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2043993878-e1722276196662.jpg?resize=1200,676",
-      "score": 91,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
       "source": "The Information",
       "category": "news",
       "title": "Where companies should place their AI bets",
@@ -571,7 +587,7 @@
       "summary": "After several years of pushing organizationwide AI adoption, companies are now confronting the cost. As boardroom conversations shift to return on investment, business leaders are taking a harder look at which AI bets to fund and scale. To…",
       "excerpt": "After several years of pushing organizationwide AI adoption, companies are now confronting the cost. As boardroom conversations shift to return on investment, business leaders are taking a harder look at which AI bets to fund and scale. To understand what questions executives should be asking ahead of AI investments, Meredith Mazzilli, The Information’s finance editor, spoke with three experts approaching AI from…",
       "readMinutes": 3,
-      "score": 91,
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/companies-place-ai-bets",
       "clusterSize": 1,
@@ -585,7 +601,7 @@
       "published": "2026-11-13T14:00:37.000Z",
       "summary": "SpaceX’s artificial intelligence group has axed most of the team behind Grok Imagine, its AI tool for video and image generation, according to people familiar with the situation. Around 60 people who worked on Grok Imagine were laid off in…",
       "excerpt": "SpaceX’s artificial intelligence group has axed most of the team behind Grok Imagine, its AI tool for video and image generation, according to people familiar with the situation. Around 60 people who worked on Grok Imagine were laid off in the past week from the SpaceX Super Intelligence group, leaving only a handful of employees to keep the product alive. The tool remains available to users, though its future is…",
-      "score": 97,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/elon-musks-ai-group-guts-grok-video-generation-team",
       "clusterSize": 1,
@@ -677,7 +693,7 @@
       "link": "https://openai.com/business/customer-stories/shield",
       "published": "Fri, 13 Nov 2026 08:00:00 GMT",
       "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "score": 81,
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/shield",
       "clusterSize": 1,
@@ -693,7 +709,7 @@
       "image": "https://github.blog/wp-content/uploads/2026/11/oct5-actions-jobs-starting-late.png?resize=1024%2C466",
       "readMinutes": 13,
       "whyItMatters": "Tech users should monitor for potential impact on code hosting and CI/CD workflows.",
-      "score": 87,
+      "score": 86,
       "isPrimary": true,
       "clusterId": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
       "clusterSize": 1,
@@ -749,7 +765,7 @@
       "link": "https://semiengineering.com/the-semiconductor-singularity/",
       "published": "Thu, 12 Nov 2026 15:57:50 +0000",
       "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering.",
-      "score": 95,
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/the-semiconductor-singularity/",
       "clusterSize": 2,
@@ -798,7 +814,7 @@
       "link": "https://openai.com/business/customer-stories/gondola",
       "published": "Thu, 12 Nov 2026 12:00:00 GMT",
       "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "score": 68,
+      "score": 67,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/gondola",
       "clusterSize": 1,
