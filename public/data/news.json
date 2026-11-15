@@ -1,7 +1,116 @@
 {
-  "updated": "2026-11-15T19:28:34.944Z",
-  "count": 100,
+  "updated": "2026-11-15T22:57:13.352Z",
+  "count": 99,
   "items": [
+    {
+      "source": "OpenAI Blog",
+      "category": "news",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "published": "Sun, 15 Nov 2026 22:00:01 GMT",
+      "summary": "The article discusses a new nonperturbative lattice approach to defining the Standard Model and GPT‑6 Astra’s role in developing its proof.",
+      "score": 92,
+      "isPrimary": true,
+      "clusterId": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It could enable precise simulations of particle physics beyond perturbation theory, benefiting computational physicists."
+    },
+    {
+      "source": "OpenAI Blog",
+      "category": "news",
+      "title": "Our new blog for science",
+      "link": "https://openai.com/index/our-new-blog-for-science",
+      "published": "Sun, 15 Nov 2026 22:00:00 GMT",
+      "summary": "The OpenAI science blog presents new research, methods, and researcher experiences using AI for scientific discovery.",
+      "score": 92,
+      "isPrimary": true,
+      "clusterId": "https://openai.com/index/our-new-blog-for-science",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It offers insights into AI-driven science, useful for tech-savvy readers interested in cutting-edge research applications."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "published": "Sun, 15 Nov 2026 21:56:35 +0000",
+      "summary": "The article questions whether negative news about Nvidia’s CEO Jensen Huang signals broader risks for the AI sector.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "clusterSize": 7,
+      "related": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/everything-led-nvidia-ceo-jensen-huangs-fall",
+          "title": "Everything That Led to Nvidia CEO Jensen Huang’s Fall"
+        },
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama"
+        },
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+          "title": "An overview of Jensen Huang’s messy days"
+        },
+        {
+          "source": "The Next Web",
+          "url": "https://thenextweb.com/news/jensen-huang-is-discussing-a-return-to-nvidia-ft-reports",
+          "title": "Jensen Huang is discussing a return to Nvidia, FT reports"
+        },
+        {
+          "source": "The Next Web",
+          "url": "https://thenextweb.com/news/jensen-huang-struggled-to-reach-beijings-chip-policymakers-ft-says",
+          "title": "Jensen Huang struggled to reach Beijing’s chip policymakers, FT says"
+        }
+      ],
+      "whyItMatters": "It highlights how Nvidia’s fortunes influence AI investment and market sentiment."
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "Huang Weighs Nvidia Comeback as Bessent Pushes Board to Look Outside",
+      "link": "https://www.theinformation.com/briefings/huang-weighs-nvidia-comeback-bessent-pushes-board-look-outside",
+      "published": "2026-11-15T20:19:24.000Z",
+      "summary": "Jensen Huang is considering a comeback as Nvidia CEO amid board pressure and scandal, with a Silicon Valley war room forming to lobby for his return.",
+      "excerpt": "Jensen Huang has discussed with confidants a return as Nvidia CEO, the Financial Times reported, days after he resigned over reports of affairs with a suspected Chinese spy and a subordinate. One Huang ally said they were assembling a “war room” of Silicon Valley executives to lobby the board ...",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/briefings/huang-weighs-nvidia-comeback-bessent-pushes-board-look-outside",
+      "clusterSize": 2,
+      "related": [
+        {
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan",
+          "title": "Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal"
+        }
+      ],
+      "whyItMatters": "It signals potential leadership shifts and board dynamics that could affect Nvidia’s strategy and market confidence."
+    },
+    {
+      "source": "SemiWiki",
+      "category": "news",
+      "title": "CEO Interview with Kurt Busch of Syntiant",
+      "link": "https://semiwiki.com/ceo-interviews/376259-ceo-interview-with-kurt-busch-of-syntiant/",
+      "published": "Sun, 15 Nov 2026 20:00:41 +0000",
+      "summary": "Kurt Busch, CEO of Syntiant, discusses his background in product development across SaaS, semiconductors, consumer electronics, and data center systems.",
+      "excerpt": "Kurt Busch is the chief executive officer of Syntiant Corp. He has extensive experience in product development, having driven the successful launch of new products, ranging from SaaS and semiconductors for telecom and broadcast video to consumer electronics and data center systems. Prior to Syntiant, he was president, chief… Read More The post CEO Interview with Kurt Busch of Syntiant appeared first on SemiWiki.",
+      "score": 99,
+      "isPrimary": true,
+      "clusterId": "https://semiwiki.com/ceo-interviews/376259-ceo-interview-with-kurt-busch-of-syntiant/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech leaders can learn how diverse product experience drives innovation in AI and edge computing."
+    },
     {
       "source": "The Verge",
       "category": "news",
@@ -11,12 +120,12 @@
       "summary": "Congress seeks stricter export controls on AI chips after Nvidia CEO scandal involving a suspected Chinese spy.",
       "excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority Leader Chuck Schumer has already said that…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 98,
+      "whyItMatters": "Tech leaders must anticipate tighter regulations that could limit international sales and affect global AI supply chains.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders must anticipate tighter regulations that could limit international sales and affect global AI supply chains."
+      "related": []
     },
     {
       "source": "SemiWiki",
@@ -26,37 +135,28 @@
       "published": "Sun, 15 Nov 2026 18:00:47 +0000",
       "summary": "IEDM 2026 showcases semiconductor advances to boost AI performance, power efficiency, and memory speed across the tech stack.",
       "excerpt": "The semiconductor industry is entering an unusually promising period. Artificial intelligence is demanding more computing power, faster memory, and better energy efficiency, and researchers are responding across the entire technology stack. The upcoming 2026 IEEE International Electron Devices Meeting offers an encouraging… Read More The post IEDM 2026 Reveals New Paths to Faster, More Efficient AI appeared first on…",
+      "whyItMatters": "Tech readers should track these innovations to anticipate AI hardware trends and potential performance gains.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/events/376230-iedm-2026-reveals-new-paths-to-faster-more-efficient-ai/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should track these innovations to anticipate AI hardware trends and potential performance gains."
+      "related": []
     },
     {
-      "source": "TechCrunch",
+      "source": "Tom's Hardware",
       "category": "news",
-      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "published": "Sat, 14 Nov 2026 16:34:15 +0000",
-      "summary": "Asian governments are responding to Nvidia CEO Jensen Huang’s departure by securing chip supply agreements, monitoring local projects, and addressing investigations.",
-      "score": 100,
+      "title": "Nvidia engineer leaves company over lack of transparency around Jensen Huang’s exit, details decision",
+      "link": "https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures",
+      "published": "Sun, 15 Nov 2026 17:56:15 +0000",
+      "summary": "An Nvidia engineer resigned due to insufficient transparency about CEO Jensen Huang’s departure.",
+      "image": "https://cdn.mos.cms.futurecdn.net/V58pCYCTU9ChhLRLiLHMe5-1920-80.jpg",
+      "readMinutes": 3,
+      "score": 96,
       "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "clusterSize": 3,
-      "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/articles/everything-led-nvidia-ceo-jensen-huangs-fall",
-          "title": "Everything That Led to Nvidia CEO Jensen Huang’s Fall"
-        },
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures",
-          "title": "Nvidia engineer leaves company over lack of transparency around Jensen Huang’s exit, details decision"
-        }
-      ],
-      "whyItMatters": "Tech leaders and supply chain stakeholders must anticipate shifts in Nvidia’s influence on semiconductor markets."
+      "clusterId": "https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Highlights internal trust issues that could affect Nvidia’s innovation and employee morale."
     },
     {
       "source": "TechCrunch",
@@ -65,13 +165,12 @@
       "link": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
       "published": "Sun, 15 Nov 2026 17:05:00 +0000",
       "summary": "Nvidia is positioning a backup strategy to support China’s autonomous vehicle sector.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Pony-AI.jpg?w=1024",
+      "whyItMatters": "Tech-savvy readers should note Nvidia’s influence on AI-driven mobility in a key market.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers should note Nvidia’s influence on AI-driven mobility in a key market."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -82,12 +181,12 @@
       "summary": "Nvidia’s RTX 5090 GPUs, previously rumored to be pulled from retail, are now available in 21 models on Newegg.",
       "image": "https://cdn.mos.cms.futurecdn.net/jzKCnT5TDpoxxFHV85FXgk-1920-80.jpg",
       "readMinutes": 2,
-      "score": 97,
+      "whyItMatters": "Tech buyers can finally access high‑end GPUs, potentially boosting gaming and AI workloads.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-stock-returns-to-newegg-with-21-models-but-scarcity-pricing-keeps-the-cheapest-air-cooled-cards-at-least-three-times-msrp",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech buyers can finally access high‑end GPUs, potentially boosting gaming and AI workloads."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -97,12 +196,12 @@
       "published": "Sun, 15 Nov 2026 16:56:54 +0000",
       "summary": "Uber warns drivers that hackers stole their personal and driver’s licence data from vendor Fireworks AI.",
       "excerpt": "Uber is warning drivers that hackers stole their personal and driver’s licence information from one of its vendors, TechCrunch reported. TechCrunch identified the vendor as Fireworks AI, and Uber confirmed it. Uber said Fireworks told it on 9 October that hackers had stolen internal credentials. Those credentials were then used to reach Uber’s data, TechCrunch […] This story continues at The Next Web",
-      "score": 71,
+      "whyItMatters": "Highlights third‑party security risks affecting driver privacy and Uber’s data protection.",
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/uber-drivers-licence-data-stolen-in-fireworks-ai-hack",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Highlights third‑party security risks affecting driver privacy and Uber’s data protection."
+      "related": []
     },
     {
       "source": "The Information",
@@ -112,12 +211,12 @@
       "published": "2026-11-15T16:30:59.000Z",
       "summary": "Envision Energy in Ulanqab uses an 800‑volt DC power system to run AI chips, showcasing China's advanced data‑center power tech.",
       "excerpt": "Ulanqab, a city in China’s Inner Mongolia region, used to be known for its potatoes. Now it’s where a Chinese renewable energy firm is trying out a new way to plug in AI chips that shows China’s edge in the power systems that data centers need. Envision Energy has started using an 800-volt direct-current system to power computing workloads at its data center there, the Shanghai-based company said earlier this month…",
-      "score": 99,
+      "whyItMatters": "Tech readers should note China’s lead in high‑voltage DC infrastructure could reshape global AI data‑center efficiency.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/chinese-energy-company-outpacing-u-s-ai-power-technology",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should note China’s lead in high‑voltage DC infrastructure could reshape global AI data‑center efficiency."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -128,12 +227,12 @@
       "summary": "The FBI partially disrupted a North Korean FaceStealer cyber campaign that stole $400 million, targeting open‑source software and cloud infrastructure, and uncovered 900 videos of tech workers.",
       "image": "https://cdn.mos.cms.futurecdn.net/eRmC2ngDGJBX3pdq9XNxjX-1920-80.jpg",
       "readMinutes": 2,
-      "score": 92,
+      "whyItMatters": "It shows state‑backed threats to cloud services and highlights the need for stronger security in open‑source ecosystems.",
+      "score": 99,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It shows state‑backed threats to cloud services and highlights the need for stronger security in open‑source ecosystems."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -143,12 +242,12 @@
       "published": "Sun, 15 Nov 2026 16:25:16 +0000",
       "summary": "Microsoft’s 24‑hour outage during the EU AI summit spurred renewed calls for European control over digital infrastructure.",
       "excerpt": "Friday’s Microsoft outage has prompted fresh calls for Europe to control its own digital infrastructure, Politico Europe reported. The outage hit as EU leaders met in Dublin for their first summit on AI. The Outlook and Teams outage lasted nearly 24 hours and affected millions of users in 74 countries, Politico said. Many of the officials gathered in […] This story continues at The Next Web",
-      "score": 71,
+      "whyItMatters": "Tech leaders may see this as a catalyst for stronger EU data sovereignty and reduced reliance on US cloud services.",
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/microsoft-outage-revives-europes-tech-sovereignty-push-politico-says",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders may see this as a catalyst for stronger EU data sovereignty and reduced reliance on US cloud services."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -160,7 +259,7 @@
       "image": "https://cdn.mos.cms.futurecdn.net/HPnMtb7oLbF3AwF8u3rXDU-1920-80.jpg",
       "readMinutes": 2,
       "whyItMatters": "Shows processor evolution, useful for hardware historians and design enthusiasts.",
-      "score": 93,
+      "score": 92,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/cpus/357-detailed-cpu-die-shots-spanning-1971-to-2024-crammed-into-a-new-gallery-motorola-68000-intel-486dx2-amd-athlon-xp-apple-m1-and-many-more-in-beautiful-detail",
       "clusterSize": 1,
@@ -175,7 +274,7 @@
       "summary": "Nvidia protested to Taiwanese officials after prosecutors charged a manager with chip smuggling, claiming the charges were wrong and the manager should not be investigated.",
       "excerpt": "Nvidia raised concerns with Taiwanese political officials after prosecutors charged one of its managers in a chip smuggling case, Bloomberg reported. It cited people familiar with the matter. Nvidia’s representatives said they disagreed with the charges against the manager, surnamed Chang, the people said. They also said he should not be under investigation. The officials replied […] This story continues at The Next…",
       "whyItMatters": "Shows Nvidia’s influence on international legal matters and potential impact on supply chain trust.",
-      "score": 91,
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/nvidia-taiwan-officials-indicted-manager-smuggling",
       "clusterSize": 1,
@@ -191,7 +290,7 @@
       "excerpt": "Data centre developer Applied Digital has asked tenants including Oracle and Meta for billions of dollars in guarantees before signing leases, Bloomberg reported. The money secures power for the sites, it said, citing a person familiar with the matter. Applied Digital is also asking chipmakers Nvidia and AMD for guarantees, the person said. These are set […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/07/Meta-el-paso-data-center.avif",
       "whyItMatters": "It signals rising power costs and the importance of energy security for large‑scale tech infrastructure.",
-      "score": 91,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/applied-digital-power-guarantees-oracle-meta-grid-costs",
       "clusterSize": 1,
@@ -213,52 +312,6 @@
       "related": []
     },
     {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "published": "Sat, 14 Nov 2026 21:41:22 +0000",
-      "summary": "Tech leaders, including Elon Musk, petitioned Nvidia to reinstate CEO Jensen Huang after his dismissal.",
-      "whyItMatters": "Shows industry pressure on Nvidia’s leadership, impacting AI and GPU market dynamics.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan",
-          "title": "Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal"
-        }
-      ]
-    },
-    {
-      "source": "SemiWiki",
-      "category": "news",
-      "title": "Jensen Huang and the Cost of Unchecked Influence",
-      "link": "https://semiwiki.com/semiconductor-manufacturers/376254-jensen-huang-and-the-accountability-crisis-at-nvidia/",
-      "published": "Fri, 13 Nov 2026 13:00:18 +0000",
-      "summary": "An industry veteran reflects on his long-term view of Nvidia’s CEO Jensen Huang and the influence he has wielded.",
-      "excerpt": "As a semiconductor professional with 45 years in the industry, born and raised in Silicon Valley, I’ve followed Nvidia and Jensen Huang from the beginning. Jensen has been my No. 1 semiconductor CEO for many years, and he still is today. My wife and I have met Jensen and his wife, Lori, on several social occasions, and we’ve always … Read More The post Jensen Huang and the Cost of Unchecked Influence appeared first…",
-      "whyItMatters": "It offers insider perspective on leadership impact in the semiconductor sector.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://semiwiki.com/semiconductor-manufacturers/376254-jensen-huang-and-the-accountability-crisis-at-nvidia/",
-      "clusterSize": 3,
-      "related": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-          "title": "An overview of Jensen Huang’s messy days"
-        },
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/jensen-huang-struggled-to-reach-beijings-chip-policymakers-ft-says",
-          "title": "Jensen Huang struggled to reach Beijing’s chip policymakers, FT says"
-        }
-      ]
-    },
-    {
       "source": "Wired",
       "category": "news",
       "title": "AI DJs Completely Kill My Groove",
@@ -267,7 +320,7 @@
       "summary": "YouTube Music and Spotify plan to use synthetic hosts for playlist curation, but their awkward banter and fake trivia disrupt the listening experience.",
       "image": "https://media.wired.com/photos/6af7840bd2837972f5ddf4f3/master/pass/Untitled-1.jpg",
       "whyItMatters": "Tech-savvy listeners may dislike AI hosts that compromise music discovery and engagement.",
-      "score": 91,
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
       "clusterSize": 1,
@@ -282,26 +335,31 @@
       "summary": "Carnegie Mellon students created tiny E Ink gadgets called OATs that give everyday objects personalities to encourage better habits.",
       "image": "https://media.wired.com/photos/6af4802ffbe5af43ea5dee0a/master/pass/Screenshot%202026-11-11%20at%2014.47.44.png",
       "whyItMatters": "Tech-savvy readers may find this blend of IoT and behavioral nudging intriguing for smart home innovation.",
-      "score": 91,
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
       "clusterSize": 1,
       "related": []
     },
     {
-      "source": "The Information",
+      "source": "TechCrunch",
       "category": "news",
-      "title": "Thousands of Nvidia Staff Sign Petition to Bring Back Huang",
-      "link": "https://www.theinformation.com/briefings/thousands-nvidia-staff-sign-petition-bring-back-huang",
-      "published": "2026-11-15T01:23:24.000Z",
-      "summary": "Nvidia employees and tech leaders signed a petition demanding the return of CEO Jensen Huang after his resignation amid scandal.",
-      "excerpt": "A petition urging Nvidia’s board to reinstate Jensen Huang passed 100,000 signatures Saturday, including 5,248 people who said they are current Nvidia employees. Signers include Elon Musk, Epic Games’ Tim Sweeney and Y Combinator’s Garry Tan. Huang resigned Nov. 12 following reports of an affair ...",
-      "whyItMatters": "Shows internal dissent and leadership concerns that could affect Nvidia’s market position and investor confidence.",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "published": "Sat, 14 Nov 2026 21:41:22 +0000",
+      "summary": "Tech leaders, including Elon Musk, petitioned Nvidia to reinstate CEO Jensen Huang after his dismissal.",
+      "whyItMatters": "Shows industry pressure on Nvidia’s leadership, impacting AI and GPU market dynamics.",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/thousands-nvidia-staff-sign-petition-bring-back-huang",
-      "clusterSize": 1,
-      "related": []
+      "clusterId": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "clusterSize": 2,
+      "related": [
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/briefings/thousands-nvidia-staff-sign-petition-bring-back-huang",
+          "title": "Thousands of Nvidia Staff Sign Petition to Bring Back Huang"
+        }
+      ]
     },
     {
       "source": "TechCrunch",
@@ -326,7 +384,7 @@
       "published": "Sat, 14 Nov 2026 17:45:04 +0000",
       "summary": "FAA blames a routine equipment upgrade for nationwide flight groundings, denying any AI involvement.",
       "whyItMatters": "Tech readers should note FAA's equipment issues could affect aviation safety and AI oversight.",
-      "score": 99,
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
       "clusterSize": 1,
@@ -372,7 +430,7 @@
       "summary": "AI tools are enabling even unsophisticated attackers to launch automated ransomware attacks, though fully autonomous ransomware is not yet available.",
       "image": "https://media.wired.com/photos/6af88e4339637940f3ecc20a/master/pass/image%20(76).png",
       "whyItMatters": "Tech-savvy readers should monitor AI-driven threats to protect systems and data.",
-      "score": 83,
+      "score": 82,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
       "clusterSize": 1,
@@ -386,23 +444,9 @@
       "published": "Sat, 14 Nov 2026 12:00:00 +0000",
       "summary": "A free app lets you boot SteamOS in a virtual machine on your Apple Silicon Mac, unlocking PC and legacy games that otherwise won’t run.",
       "image": "https://media.wired.com/photos/6af484753d0afc8b01fd0f21/master/pass/GettyImages-1394116979.jpg",
-      "score": 75,
+      "score": 74,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/get-steamos-easily-running-on-your-mac/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "published": "Fri, 13 Nov 2026 22:43:00 +0000",
-      "summary": "Nvidia’s investment in AI startups, led by Jensen Huang, has created a funding gap, causing VCs and founders to expect smaller checks and lower valuations.",
-      "whyItMatters": "Tech founders may face tighter capital and valuation pressure without Huang’s influence.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
       "clusterSize": 1,
       "related": []
     },
@@ -415,7 +459,7 @@
       "summary": "The FAA is deploying an AI system to help reduce air traffic congestion nationwide, a move welcomed by airlines but not yet endorsed by controllers’ union.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
       "whyItMatters": "Tech-savvy readers should note how AI could reshape air traffic management and industry efficiency.",
-      "score": 92,
+      "score": 91,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "clusterSize": 1,
@@ -446,7 +490,7 @@
       "image": "https://image.theregister.com/?imageId=227602&width=800",
       "readMinutes": 2,
       "whyItMatters": "Tech readers should know AI self-checking could improve trust.",
-      "score": 92,
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/offbeat/2026/11/13/meatbags-suck-at-spotting-lying-llms-so-let-ai-narc-on-itself/5309876",
       "clusterSize": 1,
@@ -460,7 +504,7 @@
       "published": "2026-11-13T20:20:27.000Z",
       "summary": "OpenAI on Friday announced a ChatGPT digital wallet, giving the company’s “dot” assistant a new way to buy things online without directly accessing shoppers’ card details. The company partnered with card giants Visa, Mastercard and…",
       "excerpt": "OpenAI on Friday announced a ChatGPT digital wallet, giving the company’s “dot” assistant a new way to buy things online without directly accessing shoppers’ card details. The company partnered with card giants Visa, Mastercard and American Express on the wallet, and is rolling it out starting ...",
-      "score": 90,
+      "score": 88,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/openai-launches-chatgpt-wallet",
       "clusterSize": 2,
@@ -483,7 +527,7 @@
       "image": "https://spectrum.ieee.org/media-library/conceptual-illustration-of-planet-earth-surrounded-by-educational-objects-such-as-a-microscope-beaker-and-textbook.jpg?id=68675346&width=980",
       "readMinutes": 2,
       "whyItMatters": "They help tech teams meet regulatory standards while accelerating trustworthy AI development.",
-      "score": 91,
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
       "clusterSize": 1,
@@ -498,7 +542,7 @@
       "summary": "OpenAI board member warns that AI reward hacking could lead to societal takeover within months, potentially risking human extinction.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
       "whyItMatters": "Tech readers should monitor AI safety risks that could rapidly destabilize society.",
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "clusterSize": 1,
@@ -513,7 +557,7 @@
       "summary": "Quilter's CEO Sergiy Nesterenko explains how physics-driven AI automates PCB layout, reducing design time and improving signal integrity.",
       "excerpt": "Sergiy Nesterenko is founder and CEO of Quilter, which builds physics-driven AI for printed circuit board (PCB) layout. He triple majored in mathematics, physics, and chemistry at UC Berkeley and worked in the electromagnetic interference and compatibility (EMI/EMC) group at SpaceX during the early Falcon 9 era before founding… Read More The post CEO Interview with Sergiy Nesterenko of Quilter on AI PCB Layout…",
       "whyItMatters": "Tech-savvy readers see faster, more reliable PCB design boosting product development cycles.",
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/eda/quilter/376102-ceo-interview-with-sergiy-nesterenko-of-quilter-on-ai-pcb-layout/",
       "clusterSize": 1,
@@ -529,7 +573,7 @@
       "image": "https://image.theregister.com/?imageId=260756&width=800",
       "readMinutes": 2,
       "whyItMatters": "Tech-savvy users must secure and maintain their AI-generated sites independently.",
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
       "clusterSize": 1,
@@ -544,7 +588,7 @@
       "summary": "The article argues that Jensen Huang’s resignation will not end the AI boom, challenging the narrative that he alone created it.",
       "excerpt": "If you follow investors and reporters on X, you would get the sense that the resignation of Jensen Huang amounts to the end of the AI boom. A summary of my X feed Wednesday morning would go something like “I hope the Nvidia board knew what they were doing before ending the world as we know it.” But if you believe that to be true, you haven’t been paying attention. Because as much as Jensen created the AI boom (and…",
       "whyItMatters": "Tech readers should see that AI momentum persists beyond one CEO’s departure.",
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/jensen-create-ai-boom-created-him",
       "clusterSize": 1,
@@ -560,7 +604,7 @@
       "image": "https://image.theregister.com/?imageId=5270573&width=800",
       "readMinutes": 2,
       "whyItMatters": "Highlights challenges in open-source projects that can affect system stability and contributor health.",
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/13/another-linux-kernel-developer-steps-back-from-some-duties-due-to-overload/5309628",
       "clusterSize": 1,
@@ -574,7 +618,7 @@
       "published": "2026-11-13T15:12:16.000Z",
       "summary": "The White House’s task force on artificial intelligence held its second meeting on Thursday, according to an administration official, focusing on implementing an accord between major AI companies including Anthropic and OpenAI, reviewing…",
       "excerpt": "The White House’s task force on artificial intelligence held its second meeting on Thursday, according to an administration official, focusing on implementing an accord between major AI companies including Anthropic and OpenAI, reviewing the Trump administration’s voluntary framework for testing ...",
-      "score": 88,
+      "score": 86,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/white-house-ai-task-force-discussed-cyber-threats-critical-infrastructure-second-meeting",
       "clusterSize": 1,
@@ -589,23 +633,9 @@
       "summary": "After several years of pushing organizationwide AI adoption, companies are now confronting the cost. As boardroom conversations shift to return on investment, business leaders are taking a harder look at which AI bets to fund and scale. To…",
       "excerpt": "After several years of pushing organizationwide AI adoption, companies are now confronting the cost. As boardroom conversations shift to return on investment, business leaders are taking a harder look at which AI bets to fund and scale. To understand what questions executives should be asking ahead of AI investments, Meredith Mazzilli, The Information’s finance editor, spoke with three experts approaching AI from…",
       "readMinutes": 3,
-      "score": 82,
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/companies-place-ai-bets",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Elon Musk’s AI Group Guts Grok Video Generation Team",
-      "link": "https://www.theinformation.com/articles/elon-musks-ai-group-guts-grok-video-generation-team",
-      "published": "2026-11-13T14:00:37.000Z",
-      "summary": "SpaceX’s artificial intelligence group has axed most of the team behind Grok Imagine, its AI tool for video and image generation, according to people familiar with the situation. Around 60 people who worked on Grok Imagine were laid off in…",
-      "excerpt": "SpaceX’s artificial intelligence group has axed most of the team behind Grok Imagine, its AI tool for video and image generation, according to people familiar with the situation. Around 60 people who worked on Grok Imagine were laid off in the past week from the SpaceX Super Intelligence group, leaving only a handful of employees to keep the product alive. The tool remains available to users, though its future is…",
-      "score": 87,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/elon-musks-ai-group-guts-grok-video-generation-team",
       "clusterSize": 1,
       "related": []
     },
@@ -619,7 +649,7 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/mars2026-kvitsoy4.jpg?w=840",
       "readMinutes": 4,
-      "score": 93,
+      "score": 92,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
       "clusterSize": 1,
@@ -635,7 +665,7 @@
       "excerpt": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png",
       "readMinutes": 2,
-      "score": 53,
+      "score": 52,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
       "clusterSize": 1,
@@ -651,7 +681,7 @@
       "excerpt": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year road map for Facebook in 2016, and Google famously told investors before its public offering that it was unconcerned…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2297757667.jpg?resize=1200,600",
       "readMinutes": 4,
-      "score": 86,
+      "score": 85,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
       "clusterSize": 1,
@@ -668,7 +698,7 @@
       "image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/09/Oct26-news-alert-Understanding-Wafer-Stress-1270x240-1.jpg?resize=1270%2C240&ssl=1",
       "readMinutes": 12,
       "whyItMatters": "Shows key trends and security issues shaping the semiconductor landscape.",
-      "score": 99,
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/chip-industry-week-in-review-164/",
       "clusterSize": 1,
@@ -681,7 +711,7 @@
       "link": "https://openai.com/business/customer-stories/shield",
       "published": "Fri, 13 Nov 2026 08:00:00 GMT",
       "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "score": 71,
+      "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/shield",
       "clusterSize": 1,
@@ -1053,32 +1083,6 @@
       "score": 78,
       "isPrimary": true,
       "clusterId": "https://content.knowledgehub.wiley.com/shifting-reliability-left-guided-virtual-validation-for-electronics-shock-and-drop-testing/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "OpenAI Blog",
-      "category": "news",
-      "title": "Introducing Businesses in ChatGPT",
-      "link": "https://openai.com/index/introducing-businesses-chatgpt",
-      "published": "Tue, 10 Nov 2026 10:00:00 GMT",
-      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "score": 64,
-      "isPrimary": true,
-      "clusterId": "https://openai.com/index/introducing-businesses-chatgpt",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "OpenAI Blog",
-      "category": "news",
-      "title": "Closing the AI guidance gap in education",
-      "link": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "published": "Tue, 10 Nov 2026 09:00:00 GMT",
-      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "score": 70,
-      "isPrimary": true,
-      "clusterId": "https://openai.com/index/closing-ai-guidance-gap-education",
       "clusterSize": 1,
       "related": []
     },
