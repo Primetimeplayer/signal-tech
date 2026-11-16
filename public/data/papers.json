@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-16T06:45:02.817Z",
+  "updated": "2026-11-16T19:41:18.959Z",
   "count": 20,
   "items": [
     {
       "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
-      "summary": "The article evaluates a Markovian method that fuses AIS data with space‑based RF observations to improve maritime monitoring.",
+      "summary": "The article evaluates a Markovian method that fuses AIS data with space‑based RF observations to improve maritime surveillance accuracy.",
       "link": "http://arxiv.org/abs/2611.18563v1",
       "published": "2026-11-13T18:59:43Z",
       "authors": [
@@ -19,11 +19,11 @@
         "cs.LG",
         "cs.CR"
       ],
-      "whyItMatters": "It offers a more robust, multi‑source detection system for maritime security and anti‑smuggling efforts."
+      "whyItMatters": "It offers a more reliable detection of illicit maritime activity, benefiting security analysts and maritime operators."
     },
     {
       "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
-      "summary": "The paper presents FETTUCCINE, a mobile-friendly brain‑to‑text decoder that reduces computational load while maintaining high accuracy by leveraging efficient language models.",
+      "summary": "FETTUCCINE presents a lightweight brain‑to‑text decoder that runs efficiently on mobile devices, reducing the computational load of speech neuroprostheses.",
       "link": "http://arxiv.org/abs/2611.18561v1",
       "published": "2026-11-13T18:59:02Z",
       "authors": [
@@ -40,11 +40,11 @@
         "q-bio.NC",
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because it enables low‑power, real‑time neural communication on smartphones."
+      "whyItMatters": "Tech‑savvy readers will value its low‑resource design, enabling real‑time neural communication on everyday hardware."
     },
     {
       "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
-      "summary": "An open-weight 27B reasoning model is trained in simulation to control real robots natively, bridging the gap between proprietary and open models.",
+      "summary": "An open-weight 27B reasoning model is trained to control real robots directly via simulation, bridging the gap between proprietary and open models.",
       "link": "http://arxiv.org/abs/2611.18562v1",
       "published": "2026-11-13T18:59:02Z",
       "authors": [
@@ -64,11 +64,11 @@
         "cs.RO",
         "cs.LG"
       ],
-      "whyItMatters": "It enables broader access to advanced robot control without costly proprietary systems."
+      "whyItMatters": "It enables broader, cost‑effective robot control for developers without access to proprietary AI."
     },
     {
       "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
-      "summary": "The paper introduces Bidirectional Autoregression in Latent Space (BAL) to learn human movement representations from 3D pose sequences without heuristic assumptions.",
+      "summary": "The paper introduces Bidirectional Autoregression in Latent Space to learn human movement representations from 3D pose sequences without relying on heuristic augmentations.",
       "link": "http://arxiv.org/abs/2611.18559v1",
       "published": "2026-11-13T18:58:54Z",
       "authors": [
@@ -79,11 +79,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It offers a more principled, self‑supervised approach that could improve motion modeling and downstream tasks like animation or action recognition."
+      "whyItMatters": "It offers a more principled, self-supervised approach that could improve motion modeling for robotics and animation."
     },
     {
       "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-      "summary": "The paper introduces WeightBench, a benchmark for evaluating large language models that program neural network weights directly, without gradient descent.",
+      "summary": "The paper introduces a benchmark for testing large language models that can modify neural network weights directly, a technique called Weight‑Space Programming.",
       "link": "http://arxiv.org/abs/2611.18553v1",
       "published": "2026-11-13T18:58:08Z",
       "authors": [
@@ -95,11 +95,11 @@
         "cs.LG",
         "cs.AI"
       ],
-      "whyItMatters": "It enables rapid, gradient-free network design, promising faster AI development and new ways to debug and customize models."
+      "whyItMatters": "It shows LLMs can edit models without gradients, opening new ways to repair and design AI systems."
     },
     {
       "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
-      "summary": "The paper introduces R2BC, a method letting one human demonstrate to multiple agents by alternating control, speeding up multi-agent RL.",
+      "summary": "The paper introduces Round‑Robin Behavior Cloning, enabling a single demonstrator to train multiple agents by controlling them sequentially.",
       "link": "http://arxiv.org/abs/2611.18543v1",
       "published": "2026-11-13T18:50:05Z",
       "authors": [
@@ -111,11 +111,11 @@
         "cs.AI",
         "cs.MA"
       ],
-      "whyItMatters": "It simplifies training complex multi-agent systems, saving time and resources for developers."
+      "whyItMatters": "It simplifies data collection for multi‑agent RL, speeding up training for complex cooperative tasks."
     },
     {
       "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
-      "summary": "The paper proposes a joint design framework for interpolant schedules and discretization in stochastic interpolant-based generative models using ODE analyticity.",
+      "summary": "The paper proposes a framework to jointly design interpolant schedules and discretizations for stochastic interpolants using ODE trajectory analyticity.",
       "link": "http://arxiv.org/abs/2611.18542v1",
       "published": "2026-11-13T18:49:36Z",
       "authors": [
@@ -130,11 +130,11 @@
         "cs.AI",
         "cs.LG"
       ],
-      "whyItMatters": "It could improve training efficiency and sample quality for diffusion-like generative models."
+      "whyItMatters": "It could improve efficiency and accuracy in diffusion-based generative models."
     },
     {
       "title": "Why Finite Intelligence Works in an Infinite World: A Mathematical Theory",
-      "summary": "The article explains how finite models can capture infinite environments by preserving only the information needed for future tasks.",
+      "summary": "The article explains how finite representations can capture essential information for future tasks without modeling an infinite environment, using a mathematical framework.",
       "link": "http://arxiv.org/abs/2611.18538v1",
       "published": "2026-11-13T18:47:24Z",
       "authors": [
@@ -145,11 +145,11 @@
         "cs.LG",
         "stat.ML"
       ],
-      "whyItMatters": "It shows efficient AI design can generalize without exhaustive data, crucial for scalable, resource‑constrained systems."
+      "whyItMatters": "It shows efficient AI design can generalize from limited data, crucial for scalable, resource‑constrained systems."
     },
     {
       "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-      "summary": "ModHarness‑RL proposes learning and evolving harnesses—dynamic scaffolds that adapt what agents observe and how they are guided—rather than using static, hand‑written ones.",
+      "summary": "ModHarness‑RL proposes learning and evolving harnesses—dynamic scaffolds that adapt what agents observe and how they are guided—rather than fixed hand‑written ones.",
       "link": "http://arxiv.org/abs/2611.18533v1",
       "published": "2026-11-13T18:45:49Z",
       "authors": [
@@ -167,11 +167,11 @@
         "cs.CL",
         "cs.LG"
       ],
-      "whyItMatters": "It enables more efficient, domain‑specific agent training, potentially improving performance and reducing manual design effort."
+      "whyItMatters": "Tech‑savvy readers see improved agent performance and adaptability by automating harness design."
     },
     {
       "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-      "summary": "The paper examines how evolutionary selection influences AI agents’ tradeoffs between task performance and rule adherence, and whether experience aligns them with human values.",
+      "summary": "The paper explores how evolutionary selection influences AI agents' tradeoffs between task performance and rule compliance, assessing if experience aligns choices with human values.",
       "link": "http://arxiv.org/abs/2611.18531v1",
       "published": "2026-11-13T18:43:24Z",
       "authors": [
@@ -184,11 +184,11 @@
         "q-bio.PE",
         "q-fin.GN"
       ],
-      "whyItMatters": "Understanding this helps design AI that balances efficiency and ethics, crucial for safe, trustworthy deployment."
+      "whyItMatters": "Understanding selection-driven alignment helps design AI that balances efficiency and ethics under changing conditions."
     },
     {
       "title": "Understanding Contextual Bias in Agricultural CNNs Through Hidden-Neuron Concept Induction",
-      "summary": "The paper shows CNNs can rely on background context for image classification and uses concept induction to interpret hidden-layer representations.",
+      "summary": "The article explores how CNNs use background context for image classification and applies Concept Induction to interpret hidden-layer representations in agricultural imagery.",
       "link": "http://arxiv.org/abs/2611.18530v1",
       "published": "2026-11-13T18:43:15Z",
       "authors": [
@@ -200,11 +200,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It reveals hidden biases in AI models, helping developers build more reliable and transparent agricultural image systems."
+      "whyItMatters": "It helps tech-savvy readers understand and mitigate bias in AI models used for precision agriculture."
     },
     {
       "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
-      "summary": "WaferTetris proposes a new efficient freeform mapping technique for programming wafer-scale accelerators, moving beyond template-based methods.",
+      "summary": "WaferTetris introduces a new method for efficiently mapping applications onto wafer-scale accelerators, addressing challenges of programming and resource allocation.",
       "link": "http://arxiv.org/abs/2611.18527v1",
       "published": "2026-11-13T18:41:44Z",
       "authors": [
@@ -219,7 +219,7 @@
         "cs.AR",
         "cs.CL"
       ],
-      "whyItMatters": "It could unlock the full performance of massive wafer-scale hardware for advanced AI workloads."
+      "whyItMatters": "It could boost productivity and performance on next‑generation wafer‑scale hardware."
     },
     {
       "title": "StreamEmbed: Real-Time Indexing from Pixels for Screenshot Retrieval",
