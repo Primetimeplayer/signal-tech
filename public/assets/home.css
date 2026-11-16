@@ -9272,13 +9272,15 @@ main .grid,
   }
 }
 
-/* Below 768px the feed takes the full shared page wrap (16px page
-   gutter only), so phones lose the old extra 8px inset per side. */
+/* Below 768px the feed overhangs the shared page wrap by 8px on each side,
+   so phones see only an 8px gutter at the screen edge while the header, the
+   Latest strip and every card style stay on the wrap's 16px gutter. */
 @media (max-width: 768px) {
   #main #feed.grid {
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    width: calc(100% + 16px) !important;
+    max-width: none !important;
+    margin-left: -8px !important;
+    margin-right: -8px !important;
   }
 }
 
