@@ -5972,10 +5972,17 @@ main .grid,
 }
 
 @media (max-width: 768px) {
+  /* The page frame now sits 8px inland, so every shared block — the mast,
+     the masthead tagline, the mast search row, the topic bar, the Latest
+     strip, the section headings (Top stories and every feed section), the
+     result count, controls, and the cards across the briefing, picks and
+     lower sections — keeps a uniform 8px left and right edge. Only the
+     story feed itself overhangs that edge for fewer wraps; the cards keep
+     the same text wrapping and card padding as before. */
   .mast > .wrap,
   body > .wrap {
     max-width: 100% !important;
-    padding: 0 16px !important;
+    padding: 0 8px !important;
   }
 
   main {
