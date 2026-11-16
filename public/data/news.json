@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T06:38:24.510Z",
+  "updated": "2026-11-16T06:45:02.566Z",
   "count": 100,
   "items": [
     {
@@ -11,12 +11,12 @@
       "summary": "Microsoft’s Azure Linux now uses Fedora 4.0, offering a free, Fedora-based Linux distribution for its cloud services.",
       "image": "https://image.theregister.com/?imageId=5310021&width=800",
       "readMinutes": 2,
+      "whyItMatters": "It gives developers a familiar, open‑source OS for Azure workloads at no cost.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/os-platforms/2026/11/16/microsofts-azure-linux-dons-fedora-to-dress-itself-up-for-mainstream-workloads/5310016",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It gives developers a familiar, open‑source OS for Azure workloads at no cost."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -26,7 +26,8 @@
       "published": "Mon, 16 Nov 2026 01:30:00 +0000",
       "summary": "Apple released a new app to gather data on how users ask medical questions via AI.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Apple-Health-AI-Usage-Study.jpg?resize=1200,800",
-      "score": 98,
+      "whyItMatters": "It helps improve AI health tools and informs future medical app development.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
       "clusterSize": 2,
@@ -36,8 +37,7 @@
           "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
           "title": "Apple’s new study looks to improve the effectiveness of AI health tools"
         }
-      ],
-      "whyItMatters": "It helps improve AI health tools and informs future medical app development."
+      ]
     },
     {
       "source": "NVIDIA Blog",
@@ -49,12 +49,12 @@
       "excerpt": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ai-day-seoul-wrapup-1920x1080-1.jpg",
       "readMinutes": 2,
-      "score": 70,
+      "whyItMatters": "It showcases Korea’s growing AI ecosystem and potential for robotics and edge AI innovation.",
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It showcases Korea’s growing AI ecosystem and potential for robotics and edge AI innovation."
+      "related": []
     },
     {
       "source": "The Register",
@@ -65,12 +65,12 @@
       "summary": "Microsoft increased cloud prices in India by 15% while reducing costs in China, reflecting regional pricing strategies.",
       "image": "https://image.theregister.com/?imageId=252018&width=800",
       "readMinutes": 3,
-      "score": 98,
+      "whyItMatters": "Tech readers should watch pricing shifts that affect global cloud service costs and competitive dynamics.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch pricing shifts that affect global cloud service costs and competitive dynamics."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -80,12 +80,12 @@
       "published": "Sun, 15 Nov 2026 23:30:00 +0000",
       "summary": "Indian startup Bharat Semi raised $24M seed funding and secured design wins for its AI-enabled sensor tech with firms like General Atomics.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/bharat-semi-co-founders-vinayak-dalmia-vrinda-kapoor.jpg?resize=1200,800",
-      "score": 98,
+      "whyItMatters": "Shows India's growing AI hardware presence, offering new sensor solutions for defense and industrial AI applications.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows India's growing AI hardware presence, offering new sensor solutions for defense and industrial AI applications."
+      "related": []
     },
     {
       "source": "The Information",
@@ -95,12 +95,12 @@
       "published": "2026-11-15T23:00:54.000Z",
       "summary": "The article discusses Nvidia’s upcoming earnings and the anticipation surrounding Anthropic’s public debut, noting potential competing news could affect the IPO spotlight.",
       "excerpt": "If life was simple, the biggest question this week for people in tech would be where Anthropic shares open when the AI firm goes public. (Above $150 a share? See below.) Instead, we can’t rule out that more news breaks in the Nvidia drama and overwhelms Anthropic’s week in the sun. That news could be anything from reports of other women who had affairs with the now-departed CEO, Jensen Huang to developments in the…",
+      "whyItMatters": "Tech readers should track Nvidia’s performance and Anthropic’s valuation to gauge AI market trends and investment opportunities.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/nvidias-earnings-deck-anthropics-public-debut",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should track Nvidia’s performance and Anthropic’s valuation to gauge AI market trends and investment opportunities."
+      "related": []
     },
     {
       "source": "OpenAI Blog",
