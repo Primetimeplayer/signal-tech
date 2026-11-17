@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-17T16:12:37.177Z",
+  "updated": "2026-11-17T22:52:22.854Z",
   "count": 10,
   "items": [
+    {
+      "source": "The Verge Reviews",
+      "title": "The iPhone Duo feels far more intuitive with Apple’s new face unlock",
+      "link": "https://www.theverge.com/tech/1035437/iphone-duo-face-unlock-front-camera-hands-on",
+      "published": "2026-11-17T17:41:22.000Z",
+      "summary": "Apple is testing a simplified face unlock on the iPhone Duo, improving speed and comfort over Touch ID while keeping some security limits.",
+      "excerpt": "Apple is testing adding face unlock to the iPhone Duo - not true Face ID, but something a little simpler and less secure. So far, it works great, and even with a few Apple-imposed security limitations, it makes the Duo quicker and more comfortable to use than relying on Touch ID every time. That's one of my gripes with the phone taken care of. The Duo's foldable architecture means that Apple couldn't fit in the full…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/iphone-duo-face-unlock-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech users will appreciate faster, easier access on a foldable device, though security trade‑offs remain."
+    },
+    {
+      "source": "The Verge Reviews",
+      "title": "Windows 11 actually runs better on 8GB of RAM now",
+      "link": "https://www.theverge.com/tech/1035159/windows-11-8gb-ram-updates-performance-improvements-surface-laptop-testing",
+      "published": "2026-11-17T14:00:00.000Z",
+      "summary": "Windows 11 now runs smoothly on 8GB RAM, improving performance on budget Surface laptops after recent updates.",
+      "excerpt": "The 13-inch Surface Laptop with 8GB of RAM is much improved after recent Windows updates. | Photo: Antonio G. Di Benedetto / The Verge As recently as the beginning of the year, 16GB of RAM was common on sub-$800 Windows laptops, which helped compensate for an increasingly bloated-feeling Windows 11. But with the cost of RAM skyrocketing this year, 8GB is once again typical for a starting configuration. The MacBook…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268655_Microsoft_Surface_Laptop_13-inch_8GB_2026_review_ADiBenedetto_0018.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech readers will appreciate lower-cost laptops staying viable with Windows 11."
+    },
     {
       "source": "The Verge Reviews",
       "title": "This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers",
@@ -81,26 +101,6 @@
       "excerpt": "The Aux-2 can be many things. Even a hat for your amp! | Photo: Nathan Edwards / The Verge Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-friendly. And it's working. I've…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/aux2-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "It expands Home Assistant’s reach, making smart‑home control easier for tech‑savvy users who want broader device compatibility."
-    },
-    {
-      "source": "The Verge Reviews",
-      "title": "Sony’s latest Pulse wireless headset packs planar magnetic drivers at a good price",
-      "link": "https://www.theverge.com/games/1031291/sony-playstation-pulse-wireless-gaming-headset-hands-on",
-      "published": "2026-11-11T14:00:00.000Z",
-      "summary": "Sony’s $99.99 PlayStation Pulse headset offers solid sound with planar magnetic drivers and essential features for gamers.",
-      "excerpt": "It's tempting to seek out the do-everything wireless gaming headset with noise cancellation, phenomenal sound quality, multiplatform connectivity, swappable batteries - you name it. But if you just want the basics done well, Sony's new $99.99 PlayStation Pulse headset is worth considering. It has very good sound and just enough extras, even if you use more gadgets than just your PlayStation 5. Inside the Pulse's…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/pulseheadset.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It delivers good audio quality and key gaming features at a budget-friendly price."
-    },
-    {
-      "source": "The Verge Reviews",
-      "title": "Aura’s next color E Ink photo frame is smaller, cheaper, sharper, and more colorful",
-      "link": "https://www.theverge.com/tech/1027926/aura-e-ink-digital-photo-frame-10-inch-price-availability",
-      "published": "2026-11-10T14:00:00.000Z",
-      "summary": "Aura released a 10‑inch color E Ink photo frame with higher pixel density, more colors, a black frame, and a lower price of $349.",
-      "excerpt": "Aura just launched a smaller version of its color E Ink frame with a handful of improvements and a more affordable price. The new Aura Ink frame features a 10-inch E Ink panel that can display more colors at a higher pixel density. It's also differentiated from the original 13-inch model with a black frame and matching mat board that helps photos stand out. The Aura Ink 10 is now available in the US for $349, $150…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/aura1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech readers may value the improved display quality and cost savings for digital photo displays."
     }
   ]
 }
