@@ -1,348 +1,346 @@
 {
-  "updated": "2026-11-16T19:41:18.959Z",
+  "updated": "2026-11-17T03:58:42.659Z",
   "count": 20,
   "items": [
     {
-      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
-      "summary": "The article evaluates a Markovian method that fuses AIS data with space‑based RF observations to improve maritime surveillance accuracy.",
-      "link": "http://arxiv.org/abs/2611.18563v1",
-      "published": "2026-11-13T18:59:43Z",
+      "title": "Found, but Not Fixed : From Software Vulnerability Discovery to Fixes with Iterative LLM Pipelines",
+      "summary": "The paper explores using iterative large language model pipelines to automate fixing software vulnerabilities after detection.",
+      "link": "http://arxiv.org/abs/2611.19719v1",
+      "published": "2026-11-15T02:02:33Z",
       "authors": [
-        "Daniel Grimm",
-        "Kyra Jongman",
-        "Renato Cordeiro Ferreira",
-        "Giuseppe Cascavilla",
-        "Alfredo Cuzzocrea",
-        "Willem-Jan Van Den Heuvel"
+        "Youssef Gamal",
+        "Mohamad Fakih",
+        "Halima Bouzidi",
+        "Rahul Dharmaji",
+        "Gustavo Quiros Araya",
+        "Oluwatosin Ogundare",
+        "Mst Ayesha Siddika",
+        "Mohammad Abdullah Al Faruque"
       ],
       "categories": [
+        "cs.SE",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "whyItMatters": "It could speed up secure coding and reduce costly manual patching for developers."
+    },
+    {
+      "title": "Set-based State Estimation for Unknown Dynamical Systems from Noisy Output Data with Probabilistic Guarantees",
+      "summary": "The paper presents a set-based state estimation method for unknown dynamical systems using noisy output data, deriving bounds on state set diameter and formulating a linear program for tightness.",
+      "link": "http://arxiv.org/abs/2611.19716v1",
+      "published": "2026-11-15T01:58:15Z",
+      "authors": [
+        "Georgios Pantazis",
+        "Michelle S. Chong"
+      ],
+      "categories": [
+        "math.OC",
         "cs.LG",
-        "cs.CR"
+        "eess.SY"
       ],
-      "whyItMatters": "It offers a more reliable detection of illicit maritime activity, benefiting security analysts and maritime operators."
+      "whyItMatters": "It offers a model-free, data-driven approach with probabilistic guarantees, useful for robust control and fault detection in uncertain systems."
     },
     {
-      "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
-      "summary": "FETTUCCINE presents a lightweight brain‑to‑text decoder that runs efficiently on mobile devices, reducing the computational load of speech neuroprostheses.",
-      "link": "http://arxiv.org/abs/2611.18561v1",
-      "published": "2026-11-13T18:59:02Z",
+      "title": "An Interpretable Acoustic Coordinate System for Japanese Consonant Morae in Dysarthric Speech",
+      "summary": "The paper proposes a visual feedback system using an interpretable acoustic coordinate framework for Japanese consonant morae to aid dysarthria rehabilitation.",
+      "link": "http://arxiv.org/abs/2611.19714v1",
+      "published": "2026-11-15T01:51:55Z",
       "authors": [
-        "Jonathan D. McCart",
-        "Pranav I. Deevi",
-        "Mehdi Azabou",
-        "Nanda H. Krishna",
-        "Caleb A. McKinney",
-        "Nicholas S. Card",
-        "Sergey D. Stavisky",
-        "Chethan Pandarinath"
+        "Yuma Enomoto",
+        "Misa Yamaguchi",
+        "Hiroki Nishikawa",
+        "Ittetsu Taniguchi",
+        "Kazuhide Matsunaga",
+        "Narikazu Uzawa",
+        "Takao Onoye"
       ],
       "categories": [
-        "q-bio.NC",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech‑savvy readers will value its low‑resource design, enabling real‑time neural communication on everyday hardware."
-    },
-    {
-      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
-      "summary": "An open-weight 27B reasoning model is trained to control real robots directly via simulation, bridging the gap between proprietary and open models.",
-      "link": "http://arxiv.org/abs/2611.18562v1",
-      "published": "2026-11-13T18:59:02Z",
-      "authors": [
-        "Jiaming Tang",
-        "Zhuoyang Zhang",
-        "Junxian Guo",
-        "Fangzhou Zhao",
-        "Yilong Zhao",
-        "Zekai Li",
-        "Xingyang Li",
-        "Yuyang Zhao",
-        "Song Bian",
-        "Zhijian Liu",
-        "Song Han"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "whyItMatters": "It enables broader, cost‑effective robot control for developers without access to proprietary AI."
-    },
-    {
-      "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
-      "summary": "The paper introduces Bidirectional Autoregression in Latent Space to learn human movement representations from 3D pose sequences without relying on heuristic augmentations.",
-      "link": "http://arxiv.org/abs/2611.18559v1",
-      "published": "2026-11-13T18:58:54Z",
-      "authors": [
-        "Genki Kinoshita",
-        "Ko Nishino"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "It offers a more principled, self-supervised approach that could improve motion modeling for robotics and animation."
-    },
-    {
-      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-      "summary": "The paper introduces a benchmark for testing large language models that can modify neural network weights directly, a technique called Weight‑Space Programming.",
-      "link": "http://arxiv.org/abs/2611.18553v1",
-      "published": "2026-11-13T18:58:08Z",
-      "authors": [
-        "Aayush Marasini",
-        "Barsat Khadka",
-        "Nick Rahimi"
-      ],
-      "categories": [
-        "cs.LG",
+        "cs.SD",
         "cs.AI"
       ],
-      "whyItMatters": "It shows LLMs can edit models without gradients, opening new ways to repair and design AI systems."
+      "whyItMatters": "Tech-savvy readers care because it offers a novel, fine-grained, language-specific tool for speech therapy and AI-driven feedback."
     },
     {
-      "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
-      "summary": "The paper introduces Round‑Robin Behavior Cloning, enabling a single demonstrator to train multiple agents by controlling them sequentially.",
-      "link": "http://arxiv.org/abs/2611.18543v1",
-      "published": "2026-11-13T18:50:05Z",
+      "title": "Joint Learning of Factual and Counterfactual Worlds for Causal Prior-data Fitted Networks",
+      "summary": "The paper discusses how to jointly learn factual and counterfactual outcomes for causal inference using synthetic data.",
+      "link": "http://arxiv.org/abs/2611.19710v1",
+      "published": "2026-11-15T01:41:28Z",
       "authors": [
-        "Tony H. Zhang",
-        "Connor Mattson",
-        "Daniel S. Brown"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ],
-      "whyItMatters": "It simplifies data collection for multi‑agent RL, speeding up training for complex cooperative tasks."
-    },
-    {
-      "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
-      "summary": "The paper proposes a framework to jointly design interpolant schedules and discretizations for stochastic interpolants using ODE trajectory analyticity.",
-      "link": "http://arxiv.org/abs/2611.18542v1",
-      "published": "2026-11-13T18:49:36Z",
-      "authors": [
-        "Cole Becker",
-        "Taylan Kargin",
-        "Kimia Hassibi",
-        "Asuman Ozdaglar",
-        "Pablo A. Parrilo"
+        "Furkan Danisman",
+        "Luke Zhang",
+        "Zhijing Jin",
+        "Dehan Kong"
       ],
       "categories": [
         "stat.ML",
         "cs.AI",
         "cs.LG"
       ],
-      "whyItMatters": "It could improve efficiency and accuracy in diffusion-based generative models."
+      "whyItMatters": "It offers a new approach to estimate treatment effects when real data only shows factual outcomes."
     },
     {
-      "title": "Why Finite Intelligence Works in an Infinite World: A Mathematical Theory",
-      "summary": "The article explains how finite representations can capture essential information for future tasks without modeling an infinite environment, using a mathematical framework.",
-      "link": "http://arxiv.org/abs/2611.18538v1",
-      "published": "2026-11-13T18:47:24Z",
+      "title": "Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model",
+      "summary": "The article compares caching versus reducing denoising steps in flow-matching robot policies using a 6B model on LIBERO-Goal.",
+      "link": "http://arxiv.org/abs/2611.19709v1",
+      "published": "2026-11-15T01:40:18Z",
       "authors": [
-        "Mojtaba Soltanalian"
+        "Abhinav Gupta",
+        "Nissan Pow"
       ],
       "categories": [
-        "cs.IT",
-        "cs.LG",
-        "stat.ML"
-      ],
-      "whyItMatters": "It shows efficient AI design can generalize from limited data, crucial for scalable, resource‑constrained systems."
-    },
-    {
-      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-      "summary": "ModHarness‑RL proposes learning and evolving harnesses—dynamic scaffolds that adapt what agents observe and how they are guided—rather than fixed hand‑written ones.",
-      "link": "http://arxiv.org/abs/2611.18533v1",
-      "published": "2026-11-13T18:45:49Z",
-      "authors": [
-        "Zelin He",
-        "Siyu Zhu",
-        "Jacob Helwig",
-        "Yujian Liu",
-        "Li An",
-        "Rohit Jain",
-        "Shiyu Chang",
-        "Alborz Geramifard"
-      ],
-      "categories": [
+        "cs.RO",
         "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech‑savvy readers see improved agent performance and adaptability by automating harness design."
-    },
-    {
-      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-      "summary": "The paper explores how evolutionary selection influences AI agents' tradeoffs between task performance and rule compliance, assessing if experience aligns choices with human values.",
-      "link": "http://arxiv.org/abs/2611.18531v1",
-      "published": "2026-11-13T18:43:24Z",
-      "authors": [
-        "Thomas Brennan",
-        "Andrew W. Lo",
-        "Chaoyi Zhao"
-      ],
-      "categories": [
-        "cs.AI",
-        "q-bio.PE",
-        "q-fin.GN"
-      ],
-      "whyItMatters": "Understanding selection-driven alignment helps design AI that balances efficiency and ethics under changing conditions."
-    },
-    {
-      "title": "Understanding Contextual Bias in Agricultural CNNs Through Hidden-Neuron Concept Induction",
-      "summary": "The article explores how CNNs use background context for image classification and applies Concept Induction to interpret hidden-layer representations in agricultural imagery.",
-      "link": "http://arxiv.org/abs/2611.18530v1",
-      "published": "2026-11-13T18:43:15Z",
-      "authors": [
-        "Abhilekha Dalal",
-        "Avishek Das",
-        "Samatha Ereshi Akkamahadevi"
-      ],
-      "categories": [
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It helps tech-savvy readers understand and mitigate bias in AI models used for precision agriculture."
+      "whyItMatters": "It informs efficient policy design for large-scale robotic planning."
     },
     {
-      "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
-      "summary": "WaferTetris introduces a new method for efficiently mapping applications onto wafer-scale accelerators, addressing challenges of programming and resource allocation.",
-      "link": "http://arxiv.org/abs/2611.18527v1",
-      "published": "2026-11-13T18:41:44Z",
+      "title": "Minimax Estimation of Discrete Distributions under Hockey-stick Divergence",
+      "summary": "The paper studies minimax estimation of discrete distributions under hockey‑stick divergence, giving non‑asymptotic bounds and showing add‑constant estimators achieve them.",
+      "link": "http://arxiv.org/abs/2611.19702v1",
+      "published": "2026-11-15T01:19:31Z",
       "authors": [
-        "Dayou Du",
-        "Congjie He",
-        "Andrew Boutros",
-        "Luo Mai",
-        "Vaughn Betz",
-        "Jianyi Cheng"
+        "Manaka Ueno",
+        "Geoffrey Wolfer"
       ],
       "categories": [
-        "cs.AR",
+        "stat.ML",
+        "cs.LG",
+        "math.ST"
+      ],
+      "whyItMatters": "It informs how many samples are needed for accurate distribution estimation in high‑dimensional settings."
+    },
+    {
+      "title": "Multiaccuracy as an Error Benchmark for Learning with Distribution Shift",
+      "summary": "The paper proposes multiaccuracy as a benchmark for learning when training and test data come from different distributions.",
+      "link": "http://arxiv.org/abs/2611.19701v1",
+      "published": "2026-11-15T01:12:18Z",
+      "authors": [
+        "Konstantinos Stavropoulos"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DS"
+      ],
+      "whyItMatters": "It offers a practical way to evaluate models under real-world distribution shifts."
+    },
+    {
+      "title": "Where Should LLM Agents Adapt at Test Time? In Context, in Weights, or Both",
+      "summary": "The article explores how large language model agents can adapt during test time by storing experience in context and adjusting model weights, especially in repetitive environments.",
+      "link": "http://arxiv.org/abs/2611.19700v1",
+      "published": "2026-11-15T01:07:23Z",
+      "authors": [
+        "Parsa Mirtaheri",
+        "Mohammadreza Armandpour",
+        "Keivan Alizadeh",
+        "Iman Mirzadeh",
+        "Parshin Shojaee",
+        "Aryo Lotfi",
+        "David Harrison",
+        "Mehrdad Farajtabar"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
         "cs.CL"
       ],
-      "whyItMatters": "It could boost productivity and performance on next‑generation wafer‑scale hardware."
+      "whyItMatters": "It shows ways to boost agent efficiency and personalization in real-world applications."
     },
     {
-      "title": "StreamEmbed: Real-Time Indexing from Pixels for Screenshot Retrieval",
-      "summary": "Screen history can serve as searchable visual memory for people and agents, but unlike an offline corpus, it must be encoded and indexed as each screenshot arrives. OCR-based indexing is fast but loses visual information; visual encoding takes over two seconds. Yet screens change incrementally: most pixels repeat within and across screenshots. This raises a question: do visual encoders need to…",
-      "link": "http://arxiv.org/abs/2611.18516v1",
-      "published": "2026-11-13T18:35:17Z",
+      "title": "Data Attribution Should Steer Pretraining",
+      "summary": "The article argues that pretraining should be guided by data attribution, using testable properties to select useful documents for model learning.",
+      "link": "http://arxiv.org/abs/2611.19698v1",
+      "published": "2026-11-15T01:03:01Z",
       "authors": [
-        "Dayoon Ko",
-        "Yichuan Wang",
-        "Soyeong Jeong",
-        "Joseph E. Gonzalez",
-        "Gunhee Kim",
-        "Sewon Min"
+        "Glenn Matlin",
+        "Chandreyi Chakraborty",
+        "Mohammed Rehan Parwani",
+        "Saehee Eom",
+        "Anthony Wen-Ming Zang",
+        "Akhil Theerthala",
+        "Arjun Chatterjee",
+        "Tejas Khandwekar",
+        "Brandon Michaels",
+        "Alvin Deng",
+        "Mark Riedl"
       ],
       "categories": [
-        "cs.CV",
-        "cs.IR",
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "whyItMatters": "It offers a smarter, cost‑effective way to improve AI performance by curating training data based on model knowledge."
+    },
+    {
+      "title": "MathaMAGICal: Validating Trajectory Data Attribution During Capability Acquisition",
+      "summary": "The paper evaluates MAGIC, an influence-function method, on large GPT-2 models trained on arithmetic tasks to assess trajectory data attribution accuracy.",
+      "link": "http://arxiv.org/abs/2611.19692v1",
+      "published": "2026-11-15T00:51:17Z",
+      "authors": [
+        "Jason Lee",
+        "Dikshanta Pokhrel",
+        "Phonn Nay Khant",
+        "Victor Lee",
+        "Moritz Weckbecker",
+        "Sebastian Lapuschkin",
+        "Wojciech Samek",
+        "Mark Riedl",
+        "Glenn Matlin"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "whyItMatters": "It informs how well influence-based attribution predicts data removal effects in large language models."
+    },
+    {
+      "title": "Elicited Adaptation: Auditable Localized Fairness via Pairwise Queries",
+      "summary": "The paper investigates how much a model’s scores must shift to maintain fairness when a community’s fairness standard changes, using pairwise similarity queries.",
+      "link": "http://arxiv.org/abs/2611.19686v1",
+      "published": "2026-11-15T00:43:53Z",
+      "authors": [
+        "Shrey Shah"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it offers a measurable, auditable method to adjust models for localized fairness."
+    },
+    {
+      "title": "RIFT: Reward Improvement Field Transfer for Cross-Domain Offline RL",
+      "summary": "RIFT learns how source and target transitions differ in reward to improve cross-domain offline RL with limited target data.",
+      "link": "http://arxiv.org/abs/2611.19681v1",
+      "published": "2026-11-15T00:22:51Z",
+      "authors": [
+        "Jinhee Won",
+        "Mardavij Roozbehani",
+        "Munther Dahleh"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It enables better policy transfer when dynamics vary, boosting efficiency for tech‑savvy RL practitioners."
+    },
+    {
+      "title": "Attacker Diversity Reduction in Adaptive LLM Red Teaming",
+      "summary": "Reinforcement learning can make automated red-teaming more successful while narrowing the attacks it produces. Co-training an attacker and a defender with group-relative policy optimization (GRPO) has been reported to reduce attacker diversity. This experiment reproduces attack diversity reduction using three runs with a Qwen2.5-14B attacker and a Phi-4-mini defender trained by direct preference…",
+      "link": "http://arxiv.org/abs/2611.19680v1",
+      "published": "2026-11-15T00:15:57Z",
+      "authors": [
+        "Chris Tava"
+      ],
+      "categories": [
+        "cs.CR",
         "cs.LG"
       ]
     },
     {
-      "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
-      "summary": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web…",
-      "link": "http://arxiv.org/abs/2611.18514v1",
-      "published": "2026-11-13T18:30:58Z",
+      "title": "Score-Based Stochastic Closure Modeling via Offline Indirect Learning and Online Data Assimilation",
+      "summary": "Stochastic closure modeling is an emerging area in reduced-order modeling of large and complex (e.g., multiscale, multi-physics) systems, for which the computationally affordable reduced-order physical descriptions (e.g., digital twins for additive manufacturing, world models for AI agents) in numerical simulations inevitably lead to information losses that cannot be well addressed by classical…",
+      "link": "http://arxiv.org/abs/2611.19676v1",
+      "published": "2026-11-15T00:09:31Z",
       "authors": [
-        "Mohamed Aghzal",
-        "Mor Geva",
-        "Gregory J. Stein",
-        "Ziyu Yao"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
-      "summary": "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at-once type of way, thereby risking narrative spoilers, MeReader confines both retrieval and…",
-      "link": "http://arxiv.org/abs/2611.18513v1",
-      "published": "2026-11-13T18:29:51Z",
-      "authors": [
-        "Mohammed Efaz",
-        "Udo Bub",
-        "Itilekha Podder"
-      ],
-      "categories": [
-        "cs.IR",
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "On numerical issues of divergences between nearly equal distributions",
-      "summary": "Barron et al. (2026) recently identified numerical issues in the softmax and soft cross-entropy loss. We show that similar issues are present in standard divergence operations between categorical distributions. This includes the forward and reverse Kullback-Leibler (KL) divergence and generalized Jensen-Shannon divergence (JSD), as well as Monte Carlo KL estimates and entropy. When the…",
-      "link": "http://arxiv.org/abs/2611.18511v1",
-      "published": "2026-11-13T18:26:07Z",
-      "authors": [
-        "Brandon Amos"
+        "Xinghao Dong",
+        "Huchen Yang",
+        "Jin-Long Wu"
       ],
       "categories": [
         "cs.LG",
-        "math.NA",
-        "stat.ML"
+        "physics.comp-ph",
+        "physics.flu-dyn"
       ]
     },
     {
-      "title": "Asymptotic Margins and Feature Confinement in Conic Classification Heads under Softmax Cross-Entropy",
-      "summary": "Classification heads built on conic functions give each class a bounded region of the feature space, and such regions are used to reject samples of unseen classes. We ask whether these regions also keep the features bounded when the head is trained with softmax cross-entropy. For a head whose class scores combine a linear term with a Euclidean norm, we first show that the region of each class is…",
-      "link": "http://arxiv.org/abs/2611.18507v1",
-      "published": "2026-11-13T18:24:04Z",
+      "title": "Architecting the Corporate AI Infrastructure: The Evolving Roles of AI Governance Committees and Chief Ethics Officers",
+      "summary": "The accelerating integration of artificial intelligence (AI) into core business operations has created an urgent need for robust corporate governance infrastructures capable of managing complex ethical, legal, and operational risks. While organizations have increasingly adopted high-level AI ethics principles, a critical implementation gap persists: fewer than half of organizations that cite AI…",
+      "link": "http://arxiv.org/abs/2611.19670v1",
+      "published": "2026-11-14T23:48:47Z",
       "authors": [
-        "Omer Nezih Gerek"
+        "David Hason Rudd",
+        "Dennis Singh",
+        "Cesar Sanin",
+        "Bryn James"
       ],
       "categories": [
-        "cs.LG",
-        "eess.SP"
-      ]
-    },
-    {
-      "title": "Agentic induction of common data elements and information extraction from sarcoma case report abstracts",
-      "summary": "Common data elements (CDEs) support clinical data comparability but are usually defined manually. We investigated whether large language model agents could derive a CDE schema from sarcoma case report abstracts and apply it at scale. An agent proposed 72,909 candidate CDEs from 24,588 PubMed abstracts; agentic consolidation yielded 1,570 CDEs. We retained 53 supported by at least 50 abstracts and…",
-      "link": "http://arxiv.org/abs/2611.18506v1",
-      "published": "2026-11-13T18:23:11Z",
-      "authors": [
-        "Daniel Reichenpfader",
-        "Kwaku Appiagyei",
-        "Manovah Nadarajah",
-        "Ahmed Reda Bahr",
-        "Irina Filchenko",
-        "Fabio Dennstädt"
-      ],
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
-      "summary": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several tasks: preparation of logical code states, implementation of logical gates, logical routines on encoded qubits, etc. Yet, these circuits are largely designed by…",
-      "link": "http://arxiv.org/abs/2611.18504v1",
-      "published": "2026-11-13T18:20:23Z",
-      "authors": [
-        "Aritra Lahiri",
-        "Florian Marquardt"
-      ],
-      "categories": [
-        "quant-ph",
+        "cs.CY",
         "cs.AI"
       ]
     },
     {
-      "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
-      "summary": "Small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce ARCHER: Action-trace Reinforcement for Calculator-grounded Hierarchical Executable Reasoning, a two-stage framework for training small language models (SLMs) to…",
-      "link": "http://arxiv.org/abs/2611.18494v1",
-      "published": "2026-11-13T18:05:33Z",
+      "title": "When AI Agents Should Repair, Replan, or Abandon: A Threshold Theory of Plan Commitment",
+      "summary": "AI agents often discover mid-execution that their plan is broken, for example when an action fails or a tool is withdrawn. Deployed systems use conventions such as retry loops or \"always replan,\" and a recent benchmark finds no fixed strategy dominates. This paper derives the optimal policy. In the model, a disruption destroys the causal support of part of a plan; repair is a partial reset that…",
+      "link": "http://arxiv.org/abs/2611.19663v1",
+      "published": "2026-11-14T23:19:31Z",
       "authors": [
-        "Dhruv Dixit",
-        "Khushi Patel",
-        "Congcong Xu",
-        "Min Song"
+        "Gaurav Tewari"
       ],
       "categories": [
         "cs.AI"
+      ]
+    },
+    {
+      "title": "Mesoscale Neural Operators: Learning Nonlinear Constitutive Laws from Molecular Dynamics for Scalable Fracture Predictions",
+      "summary": "Molecular dynamics (MD) simulations can capture the nanoscale physics of fracture at the atomistic level, but their computational cost prohibits predictions at the length scales and time scales needed for many applications. Machine learning approaches, on the other hand, have been proposed as heuristic surrogates for material fracture, yet they cannot guarantee the physical consistency of the…",
+      "link": "http://arxiv.org/abs/2611.19658v1",
+      "published": "2026-11-14T23:04:16Z",
+      "authors": [
+        "Yue Yu",
+        "Jihong Wang",
+        "Stewart Silling",
+        "Ziwei Yang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cond-mat.mtrl-sci"
+      ]
+    },
+    {
+      "title": "BadGCL: Towards Persistent Backdoor Attack on Graph Continual Learning Systems",
+      "summary": "Backdoor attacks pose a persistent security threat to machine learning systems, yet their behavior under graph continual learning (GCL) remains underexplored. Conventional graph backdoor attacks often lose effectiveness as models are updated across successive tasks, creating the impression that continual updates naturally weaken malicious associations. This work reveals a contrasting…",
+      "link": "http://arxiv.org/abs/2611.19656v1",
+      "published": "2026-11-14T22:56:28Z",
+      "authors": [
+        "Dong Li",
+        "Yufei Han",
+        "Xintao Wu",
+        "Xujiang Zhao",
+        "Wei Cheng",
+        "Chen Zhao"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "A Geometric Understanding of Denoising Autoencoder with Applications to Image Denoising",
+      "summary": "Denoising autoencoders have shown strong empirical performance in recovering clean data from their noisy observations, yet their underlying statistical behavior remains underexplored. In this paper, we study denoising autoencoders under the manifold hypothesis, assuming that clean data are supported on low-dimensional smooth manifolds embedded in a high-dimensional ambient space, while noisy…",
+      "link": "http://arxiv.org/abs/2611.19653v1",
+      "published": "2026-11-14T22:49:47Z",
+      "authors": [
+        "Haoran Yan",
+        "Rongjie Lai",
+        "Wenjing Liao"
+      ],
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "With the Right Representation, Classical Machine Learning Rivals Deep Models for Olfactory Mixture Similarity",
+      "summary": "Modeling olfactory mixtures remains a critical challenge in machine olfaction because the task requires reasoning over relationships between sets of odorants rather than over individual molecules in isolation. However, prior comparisons between deep and classical approaches also varied how the relationship between the two mixtures was represented, since the classical baselines primarily relied on…",
+      "link": "http://arxiv.org/abs/2611.19650v1",
+      "published": "2026-11-14T22:42:09Z",
+      "authors": [
+        "Ze Dong",
+        "Yi Wang",
+        "Ambuj Tewari"
+      ],
+      "categories": [
+        "cs.LG"
       ]
     }
   ]
