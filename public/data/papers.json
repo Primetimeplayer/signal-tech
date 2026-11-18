@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-18T09:09:59.121Z",
+  "updated": "2026-11-18T11:54:35.823Z",
   "count": 20,
   "items": [
     {
       "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-      "summary": "The paper proposes Ambient LLMs, a method that uses temperature matching to make supervised fine-tuning more data‑efficient and reduce overfitting.",
+      "summary": "The paper proposes Ambient LLMs, a temperature-matching technique that makes supervised fine-tuning data-efficient, reducing overfitting and catastrophic forgetting in language models.",
       "link": "http://arxiv.org/abs/2611.23229v1",
       "published": "2026-11-17T18:59:37Z",
       "authors": [
@@ -19,11 +19,11 @@
         "cs.AI",
         "cs.CL"
       ],
-      "whyItMatters": "It offers a practical way to improve fine‑tuning performance without needing massive new datasets."
+      "whyItMatters": "It enables smaller, cheaper datasets to train robust LLMs, saving resources and improving generalization for tech developers."
     },
     {
       "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-      "summary": "Spool presents a low‑latency streaming inference system for hybrid vision‑language models that efficiently handles sliding windows of recent video frames.",
+      "summary": "Spool introduces a low‑latency streaming inference method for hybrid vision‑language models, enabling quick answers over a sliding window of recent video frames.",
       "link": "http://arxiv.org/abs/2611.23228v1",
       "published": "2026-11-17T18:59:27Z",
       "authors": [
@@ -35,11 +35,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It enables real‑time visual understanding in accessibility tools and robotics, reducing computational cost while preserving accuracy."
+      "whyItMatters": "It speeds up real‑time visual tasks like accessibility and robotics, reducing computational cost while maintaining accuracy."
     },
     {
       "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-      "summary": "StringQFT is an 18-volume, 3,795-page textbook collection on string constructions of quantum field theory, designed for AI-assisted research.",
+      "summary": "StringQFT is a 18-volume, 3,795-page textbook series on string theory constructions of QFT, designed for AI-assisted research.",
       "link": "http://arxiv.org/abs/2611.23225v1",
       "published": "2026-11-17T18:58:40Z",
       "authors": [
@@ -49,11 +49,11 @@
         "hep-th",
         "cs.AI"
       ],
-      "whyItMatters": "It offers a comprehensive, AI-ready resource for advanced theoretical physics studies."
+      "whyItMatters": "It offers a comprehensive, AI-ready resource for advanced theoretical physics exploration."
     },
     {
       "title": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
-      "summary": "The paper proposes an inexact stochastic variance‑reduced gradient algorithm for constrained convex finite‑sum problems, ensuring solutions are nearly feasible and optimal.",
+      "summary": "The paper introduces an inexact stochastic variance‑reduced gradient algorithm that guarantees ε‑surely feasible solutions for constrained convex finite‑sum optimization.",
       "link": "http://arxiv.org/abs/2611.23221v1",
       "published": "2026-11-17T18:57:16Z",
       "authors": [
@@ -64,11 +64,11 @@
         "math.OC",
         "cs.LG"
       ],
-      "whyItMatters": "It offers faster, constraint‑aware optimization for large‑scale machine learning tasks."
+      "whyItMatters": "It offers a practical method for ensuring hard constraints are met while maintaining efficient stochastic convergence."
     },
     {
       "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-      "summary": "The paper explores whether highly capable LLM agents can autonomously self-improve without explicit human guidance, using basic primitives and resources.",
+      "summary": "The paper explores whether advanced LLM agents can autonomously self-improve without explicit human guidance, using basic primitives and resources for optimization.",
       "link": "http://arxiv.org/abs/2611.23219v1",
       "published": "2026-11-17T18:57:10Z",
       "authors": [
@@ -80,11 +80,11 @@
         "cs.LG",
         "cs.AI"
       ],
-      "whyItMatters": "It questions the future of AI autonomy and reduces reliance on human oversight in model optimization."
+      "whyItMatters": "Understanding autonomous self‑improvement could reduce human oversight and accelerate AI development."
     },
     {
       "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
-      "summary": "The article critiques head-level bias attribution methods in LLMs, showing they lack evidence that selected heads truly measure bias.",
+      "summary": "The article critiques head-level bias attribution methods, showing they lack evidence that selected heads truly measure bias, using Qwen-2.5-7B and Llama-3.1-8B as case studies.",
       "link": "http://arxiv.org/abs/2611.23218v1",
       "published": "2026-11-17T18:57:08Z",
       "authors": [
@@ -98,7 +98,7 @@
     },
     {
       "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
-      "summary": "The article examines whether higher benchmark scores in coding models translate to increased real-world productivity, using a recent export ban as a natural experiment.",
+      "summary": "The article examines whether higher benchmark scores in coding models translate to increased real-world productivity, using a recent export ban on Claude Fable 5 as a case study.",
       "link": "http://arxiv.org/abs/2611.23216v1",
       "published": "2026-11-17T18:56:42Z",
       "authors": [
@@ -109,11 +109,11 @@
         "cs.AI",
         "cs.LG"
       ],
-      "whyItMatters": "It questions the practical value of benchmark bragging for developers and businesses."
+      "whyItMatters": "It questions the real value of benchmark bragging rights for developers and businesses."
     },
     {
       "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
-      "summary": "ID-MAE uses a multimodal masked-diffusion autoencoder to self-supervisedly predict driver impairment from cognitive state, gaze, and behavior data.",
+      "summary": "The paper introduces ID‑MAE, a multimodal masked‑diffusion autoencoder that self‑supervises to predict driver impairment from cognitive state, gaze, and behavior data.",
       "link": "http://arxiv.org/abs/2611.23211v1",
       "published": "2026-11-17T18:50:22Z",
       "authors": [
@@ -133,11 +133,11 @@
         "cs.LG",
         "cs.RO"
       ],
-      "whyItMatters": "It offers scalable, cost‑effective impairment detection, enhancing driver safety tech."
+      "whyItMatters": "It offers scalable, label‑efficient impairment detection, improving AI‑driven driver assistance systems."
     },
     {
       "title": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
-      "summary": "The paper introduces a distortion‑free semantic watermarking method for black‑box generative models, ensuring watermarking doesn’t alter output distribution.",
+      "summary": "The paper introduces a distortion‑free semantic watermarking method for black‑box generative models, guaranteeing no change to output distribution.",
       "link": "http://arxiv.org/abs/2611.23208v1",
       "published": "2026-11-17T18:49:17Z",
       "authors": [
@@ -150,11 +150,11 @@
         "cs.CR",
         "cs.CV"
       ],
-      "whyItMatters": "It lets developers embed ownership marks without compromising model quality or user experience."
+      "whyItMatters": "It enables secure model tracking without compromising output quality, crucial for AI deployment and compliance."
     },
     {
       "title": "Reading Scene States: Uncovering Safety Failures in Vision-Language Models",
-      "summary": "The paper reveals that vision‑language models can inadvertently assist harmful actions by interpreting scene states and introduces a benchmark to test this vulnerability.",
+      "summary": "The paper reveals that vision‑language models can inadvertently assist harmful actions by interpreting scene states, and presents SceneSafetyBench to evaluate this vulnerability.",
       "link": "http://arxiv.org/abs/2611.23206v1",
       "published": "2026-11-17T18:48:02Z",
       "authors": [
@@ -170,11 +170,11 @@
         "cs.CV",
         "cs.AI"
       ],
-      "whyItMatters": "Tech readers should know this flaw to improve AI safety and prevent misuse of VLMs."
+      "whyItMatters": "Tech readers should know VLMs may enable unintended harm, impacting safety and policy decisions."
     },
     {
       "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
-      "summary": "Fine-tuning Gemma 4 edge models with SFT and QLoRA on a laptop iGPU improves MATLAB DSP code generation accuracy.",
+      "summary": "Fine-tuning Gemma 4 edge models with SFT and QLoRA on a laptop iGPU improves their handling of MATLAB DSP tasks.",
       "link": "http://arxiv.org/abs/2611.23205v1",
       "published": "2026-11-17T18:47:37Z",
       "authors": [
@@ -186,11 +186,11 @@
         "cs.SE",
         "eess.SP"
       ],
-      "whyItMatters": "Tech-savvy readers can deploy efficient, low‑resource models for offline signal‑processing development."
+      "whyItMatters": "Enables accurate, offline signal‑processing code generation on low‑power devices."
     },
     {
       "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
-      "summary": "The article introduces Agent Trust Infrastructure (ATI), a federated system for verifying identity, integrity, and authorization of AI agents across organizations.",
+      "summary": "The paper introduces Agent Trust Infrastructure (ATI), a federated system for verifying identity, integrity, and authorization of AI agents across organizations.",
       "link": "http://arxiv.org/abs/2611.23202v1",
       "published": "2026-11-17T18:44:25Z",
       "authors": [
@@ -200,7 +200,7 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "It enables secure, trustworthy collaboration among autonomous agents in multi‑entity environments."
+      "whyItMatters": "It enables secure, trustworthy collaboration between autonomous agents from different entities."
     },
     {
       "title": "Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency",
