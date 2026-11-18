@@ -121,24 +121,23 @@ export async function processFile(filename, provider, options = {}) {
 
   const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
   const items = data.items ?? [];
-  const n = Math.min(items.length, maxItems);
-
-  console.log(`[summarize] ${filename}: checking ${n} of ${items.length} items via ${provider.name}...`);
+  console.log(`[summarize] ${filename}: checking ${items.length} items for up to ${maxItems} calls via ${provider.name}...`);
 
   let called = 0;
   let skipped = 0;
-  for (let i = 0; i < n; i++) {
-    if (alreadySummarized(items[i])) {
+  for (const item of items) {
+    if (called >= maxItems) break;
+    if (alreadySummarized(item)) {
       skipped += 1;
       continue;
     }
     called += 1;
     try {
-      const result = await provider.call(items[i].title, items[i].excerpt || items[i].summary);
-      if (result?.summary) items[i].summary = result.summary;
-      if (result?.why_it_matters) items[i].whyItMatters = result.why_it_matters;
+      const result = await provider.call(item.title, item.excerpt || item.summary);
+      if (result?.summary) item.summary = result.summary;
+      if (result?.why_it_matters) item.whyItMatters = result.why_it_matters;
     } catch (err) {
-      console.error(`[summarize] Skipping "${items[i].title}": ${err.message}`);
+      console.error(`[summarize] Skipping "${item.title}": ${err.message}`);
     }
     await sleepFn(DELAY_BETWEEN_CALLS_MS);
   }

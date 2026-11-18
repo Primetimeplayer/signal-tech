@@ -243,17 +243,14 @@
    @media (max-width:800px){
      .mast-link,.status,.mast-account{display:none}
      .controls{gap:.8rem;padding-bottom:4px}
-     .wrap{padding:0 16px}
-     .mast>.wrap,body>.wrap{padding:0 24px}
+     body.home-page .wrap:not(.latest-wrap){padding-inline:8px}
+     body.home-page .wrap.latest-wrap{margin-inline:0;padding-inline:0}
      #topicBar{display:block}
      #topicBar .top-nav,#topicBar .top-nav-section{flex-wrap:wrap;gap:2px;overflow:visible}
      #topicBar #digestsNav{display:inline-flex;padding:.45rem .95rem;border:1px solid var(--line);font-size:.82rem;line-height:1.2}
    }
    @media (min-width:801px){
      #topicBar #digestsNav{display:none}
-   }
-   @media (max-width:768px){
-     .mast>.wrap,body>.wrap{padding:0 16px}
    }
    @media (max-width:767px){
      #topicBar{display:flex;flex-wrap:wrap;align-items:normal;padding:0}
@@ -404,7 +401,7 @@
 </style>
 
 </head>
-<body>
+<body class="home-page">
 
 <a class="skip-link" href="#main" data-i18n="skipToMain">Skip to main content</a>
 

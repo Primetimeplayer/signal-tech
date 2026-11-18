@@ -9284,8 +9284,8 @@ main .grid,
   }
 }
 
-/* Desktop lead card only. Under the two-line summary, keep Save and Share.
-   Phones stay on the 800px rules (Save, Share, and Preview). */
+/* Desktop lead card only. Under the two-line summary, keep Save, Share and
+   Preview. The shared pointer rules control Preview button visibility. */
 @media (min-width: 801px) {
   #main #feed .briefing-card > .card.hero-story,
   #main #feed .briefing-card > .card.hero-story.is-hardware,
@@ -9301,10 +9301,6 @@ main .grid,
   #main #feed .card.hero-story .score-badge,
   #main #feed .card.hero-story .note-box,
   #main #feed .card.hero-story .coverage {
-    display: none !important;
-  }
-
-  #main #feed .card.hero-story .card-actions .preview-btn {
     display: none !important;
   }
 }
@@ -9415,4 +9411,55 @@ main .grid,
 }
 :root[data-theme="dark"] #river .river-meta {
   color: #bdc1c6;
+}
+
+/* Home feed action rows and the phone page gutter. */
+#main #feed .card.pick-card .card-actions {
+  flex-wrap: nowrap !important;
+  gap: 4px !important;
+}
+#main #feed .card.pick-card .card-actions .icon-btn {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+@media (min-width: 801px) {
+  /* Allow the actions to extend below the 96px thumbnail and 12px gap. */
+  #main #feed .card.pick-card:has(> .pick-thumb, > .pick-media) .card-actions {
+    width: max-content !important;
+    max-width: calc(100% + 108px) !important;
+  }
+}
+
+@media (min-width: 801px) and (hover: none), (min-width: 801px) and (pointer: coarse) {
+  /* On narrow touch tablets, fit the row under the hero image's lower edge. */
+  #main #feed .card.hero-story .card-actions {
+    flex-wrap: nowrap !important;
+    width: max-content;
+    min-width: 100%;
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 800px) {
+  body.home-page .mast > .wrap,
+  body.home-page .wrap:not(.latest-wrap),
+  body.home-page #heroSignup .hero-signup-inner {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  body.home-page .wrap.latest-wrap {
+    margin-inline: 0 !important;
+    padding-inline: 0 !important;
+  }
+  body.home-page #main #feed.grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  body.home-page #newsletterCard,
+  body.home-page #river {
+    margin-inline: 0;
+  }
 }

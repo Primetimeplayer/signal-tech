@@ -919,6 +919,17 @@ initAuth();
     return String(item.whyItMatters || '').trim();
   }
 
+  function whyItMattersFor(item) {
+    const text = String(item.whyItMatters || '').trim();
+    if (text) return { text, fallback: false };
+
+    const topic = ['ai', 'chips', 'security', 'software', 'gadgets']
+      .find((vertical) => matchesKeywords(item, VERTICALS[vertical]));
+    const category = topic || storyKind(item);
+    const key = `whyFallback${category[0].toUpperCase()}${category.slice(1)}`;
+    return { text: t(key), fallback: true };
+  }
+
   function storySummary(item) {
     const text = storyBlurb(item);
     if (!text) return '';
@@ -2174,10 +2185,9 @@ initAuth();
 
   function showPreview(card, sheet, source) {
     const item = previewItemFor(card);
-    if (!item) return;
+    if (!String(item?.title || '').trim()) return;
     const body = String(item.excerpt || item.summary || '').trim();
-    const why = String(item.whyItMatters || '').trim();
-    if (!body && !why) return;
+    const why = whyItMattersFor(item);
     const el = ensurePreviewEl();
     const img = previewImageSrc(item);
     const when = relativeDate(item.published);
@@ -2188,7 +2198,7 @@ initAuth();
         <p class="story-preview-meta">${textHtml(item.source || '')}${when ? ` · ${escapeHtml(when)}` : ''}</p>
         <h3 class="story-preview-title" id="storyPreviewTitle">${textHtml(item.title)}</h3>
         ${body ? `<p class="story-preview-summary">${textHtml(body)}</p>` : ''}
-        ${why ? `<p class="story-preview-why"><b>${escapeHtml(t('whyItMatters'))}</b> ${textHtml(why)}</p>` : ''}
+        <p class="story-preview-why${why.fallback ? ' is-fallback' : ''}"><b>${escapeHtml(t('whyItMatters'))}</b> ${textHtml(why.text)}</p>
         <a class="story-preview-open" href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" data-recent-title="${textAttr(item.title)}">${escapeHtml(t('openOriginal'))} ↗</a>
       </div>`;
     previewCard = card;
