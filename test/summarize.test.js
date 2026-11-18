@@ -82,3 +82,32 @@ test('summarize does not rewrite a file when every item is already summarized', 
   assert.equal(calls, 0);
   assert.equal(await readFile(file, 'utf8'), body);
 });
+
+test('summarize finds incomplete items throughout the feed and caps provider calls', async (t) => {
+  const directory = await mkdtemp(path.join(os.tmpdir(), 'summarize-'));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+
+  const titles = Array.from({ length: 20 }, (_, index) => `Story ${index + 1}`);
+  const calls = [];
+  const provider = {
+    name: 'Test',
+    call: async (title) => {
+      calls.push(title);
+      return { summary: 'Summary', why_it_matters: 'Reason' };
+    },
+  };
+  const options = { dataDir: directory, sleep: async () => {} };
+
+  const mixed = titles.slice(0, 15).map((title, index) =>
+    index < 12 ? { title, summary: 'Done.', whyItMatters: 'Done.' } : { title });
+  await writeFile(path.join(directory, 'news.json'), JSON.stringify({ items: mixed }));
+  await processFile('news.json', provider, options);
+  assert.deepEqual(calls, titles.slice(12, 15));
+
+  calls.length = 0;
+  await writeFile(path.join(directory, 'news.json'), JSON.stringify({
+    items: titles.map((title) => ({ title })),
+  }));
+  await processFile('news.json', provider, { ...options, maxItems: 12 });
+  assert.deepEqual(calls, titles.slice(0, 12));
+});
