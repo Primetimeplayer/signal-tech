@@ -1,7 +1,59 @@
 {
-  "updated": "2026-11-17T22:52:22.481Z",
-  "count": 97,
+  "updated": "2026-11-18T01:00:31.545Z",
+  "count": 98,
   "items": [
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "Jensen Huang’s Right-Hand Man Oversaw Chip Customers—Including Alice Huang",
+      "link": "https://www.theinformation.com/articles/jensen-huangs-right-hand-man-oversaw-chip-customers-including-alice-huang",
+      "published": "2026-11-18T00:33:57.000Z",
+      "summary": "Jay Puri, Nvidia’s former sales chief, handled major customer requests, including those from Alice Huang, Jensen Huang’s former partner, amid leadership turmoil.",
+      "excerpt": "For years, anytime a major Nvidia customer wanted to buy chips or otherwise needed attention, they could turn to the company’s longtime former sales chief Jay Puri. That included Alice Huang, the former mistress of Jensen Huang, the Nvidia co-founder and former CEO who was pressured to resign last week by the company’s board, according to a person with knowledge of Nvidia’s operations. Alice Huang worked with a…",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/jensen-huangs-right-hand-man-oversaw-chip-customers-including-alice-huang",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It highlights internal power dynamics that could affect Nvidia’s customer relations and future strategy."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "published": "Wed, 18 Nov 2026 00:16:50 +0000",
+      "summary": "Nvidia forecasts continued record revenue growth despite leadership turmoil after Jensen Huang's departure.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg?resize=1200,776",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "clusterSize": 2,
+      "related": [
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/briefings/nvidia-says-revenue-rose-103-first-earnings-report-since-huang-departure",
+          "title": "Nvidia Boosts 2027 Revenue Forecast to 75% Growth"
+        }
+      ],
+      "whyItMatters": "Tech readers should watch Nvidia’s financial resilience amid executive changes."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "published": "2026-11-17T23:41:18.000Z",
+      "summary": "Microsoft CEO Satya Nadella says he’s ‘AGI-pilled,’ highlighting AI’s potential to reshape the economy and politics.",
+      "excerpt": "Microsoft CEO Satya Nadella on stage at Microsoft Ignite. | Image: Microsoft / YouTube Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at a roundtable…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-at-3.00.15-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "score": 86,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech leaders should watch how AGI could alter market dynamics and regulatory landscapes."
+    },
     {
       "source": "Ars Technica",
       "category": "news",
@@ -10,11 +62,32 @@
       "published": "Tue, 17 Nov 2026 20:32:55 +0000",
       "summary": "Jensen Huang apologizes, claiming patriotism, as Nvidia faces growing investigations.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
+      "whyItMatters": "Tech readers should watch Nvidia's regulatory scrutiny and leadership responses.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
-      "clusterSize": 15,
+      "clusterSize": 19,
       "related": [
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
+          "title": "The Download: Jensen Huang’s open-source dilemma and cognitive immortality"
+        },
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+          "title": "The open-source movement wants Jensen Huang back"
+        },
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+          "title": "Nvidia is abandoning China after Jensen Huang’s ouster"
+        },
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+          "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit"
+        },
         {
           "source": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
@@ -27,8 +100,8 @@
         },
         {
           "source": "The Information",
-          "url": "https://www.theinformation.com/briefings/jensen-huang-would-honored-return-ceo-board-asks",
-          "title": "Jensen Huang: “Would Be Honored” To Return As CEO If Board Asks"
+          "url": "https://www.theinformation.com/briefings/nvidia-board-chair-jensen-huangs-personal-behavior-doomed-reinstated",
+          "title": "Nvidia Board Chair: Jensen Huang’s ‘Personal Behavior’ Doomed Him and He Won’t Be Reinstated"
         },
         {
           "source": "The Register",
@@ -36,9 +109,9 @@
           "title": "Jensen Huang thrilled to be spending time with family, but will retake leadership burden if Nvidia asks"
         },
         {
-          "source": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear",
-          "title": "Former Nvidia CEO Jensen Huang will appear before a House Foreign Affairs panel amid concerns over his affair with a suspected Chinese spy"
+          "source": "The Register",
+          "url": "https://www.theregister.com/systems/2026/11/17/nvidia-places-chip-exports-under-boardroom-supervision-after-huangs-exit/5310429",
+          "title": "Nvidia places chip exports under boardroom supervision after Huang's exit"
         },
         {
           "source": "The Verge",
@@ -56,14 +129,14 @@
           "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing"
         },
         {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
-          "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang"
-        },
-        {
           "source": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-employee-warns-of-irreplaceable-talent-exodus-if-jensen-huang-not-reinstated-cautions-board-and-top-brass-that-talent-at-nvidia-is-now-contemplating-departing",
           "title": "Nvidia employee warns of 'irreplaceable' talent exodus if Jensen Huang not reinstated"
+        },
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
+          "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang"
         },
         {
           "source": "Tom's Hardware",
@@ -85,8 +158,7 @@
           "url": "https://thenextweb.com/news/jensen-huang-statement-return-nvidia-ceo-board-investigation",
           "title": "Jensen Huang offers to return as Nvidia CEO if the board asks, CNBC reports"
         }
-      ],
-      "whyItMatters": "Tech readers should watch Nvidia's regulatory scrutiny and leadership responses."
+      ]
     },
     {
       "source": "The Register",
@@ -97,12 +169,12 @@
       "summary": "Nvidia releases an HPC-optimized Rubin GPU to compete with AMD's 288 teraFLOPS MI430X.",
       "image": "https://image.theregister.com/?imageId=5310625&width=800",
       "readMinutes": 3,
+      "whyItMatters": "It signals Nvidia’s push into high‑performance computing, potentially reshaping supercomputing workloads.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/hpc/2026/11/17/gpu-giants-throw-hpc-users-some-tasty-crumbs/5310611",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It signals Nvidia’s push into high‑performance computing, potentially reshaping supercomputing workloads."
+      "related": []
     },
     {
       "source": "Ars Technica",
@@ -112,12 +184,12 @@
       "published": "Tue, 17 Nov 2026 22:32:16 +0000",
       "summary": "Hundreds of sites are distributing a malware bundle that steals crypto and exploits iOS devices, targeting unsuspecting visitors.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-1152x648.jpg",
+      "whyItMatters": "Stay alert—this widespread threat can compromise accounts and devices, impacting security and privacy.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Stay alert—this widespread threat can compromise accounts and devices, impacting security and privacy."
+      "related": []
     },
     {
       "source": "The Register",
@@ -128,12 +200,12 @@
       "summary": "Windows‑Azure is emphasizing its Copilot AI features at Ignite.",
       "image": "https://image.theregister.com/?imageId=5250857&width=800",
       "readMinutes": 5,
+      "whyItMatters": "Tech readers should watch how Microsoft’s cloud AI shapes enterprise productivity.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/17/satya-sorry-for-saas-y-snafu-look-over-there-more-ai/5310594",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch how Microsoft’s cloud AI shapes enterprise productivity."
+      "related": []
     },
     {
       "source": "The Information",
@@ -143,33 +215,12 @@
       "published": "2026-11-17T21:36:36.000Z",
       "summary": "Salesforce will cap employees’ AI tool spending between $100 and $1,000 monthly based on role.",
       "excerpt": "Salesforce on Monday told employees they will have a cap on AI spending that will vary depending on their role, ranging between $100 to $1,000 a month, an employee of the software firm said. The email Salesforce sent to staffers about the change said the caps were a response to some ...",
+      "whyItMatters": "Shows how big tech limits internal AI adoption, affecting innovation and cost control.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/salesforce-memo-details-caps-employees-ai-spending",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows how big tech limits internal AI adoption, affecting innovation and cost control."
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Nvidia Boosts 2027 Revenue Forecast to 75% Growth",
-      "link": "https://www.theinformation.com/briefings/nvidia-says-revenue-rose-103-first-earnings-report-since-huang-departure",
-      "published": "2026-11-17T21:34:58.000Z",
-      "summary": "Nvidia’s interim CEO raised the 2027 revenue forecast to a 75% increase year‑over‑year, up 5 percentage points from her earlier projection.",
-      "excerpt": "Nvidia Interim CEO Colette Kress said Tuesday that the chip designer’s revenue would rise 75% in the 12 months ending Jan. 31 2028, compared to the prior fiscal year, or 5 percentage points higher than the forecast she gave three months ago. While that figure represents a comedown from the ...",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/nvidia-says-revenue-rose-103-first-earnings-report-since-huang-departure",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
-          "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics"
-        }
-      ],
-      "whyItMatters": "It signals stronger AI chip demand, potentially boosting Nvidia’s market dominance and investor returns."
+      "related": []
     },
     {
       "source": "The Information",
@@ -179,12 +230,12 @@
       "published": "2026-11-17T21:32:45.000Z",
       "summary": "JPMorgan and Citi lent $2.8 billion to a Southeast Asian data center tied to Megaspeed, now linked to Nvidia scandal, raising national‑security concerns.",
       "excerpt": "A Southeast Asian data center boom has attracted billions in financing from major U.S. banks. JPMorgan and Citigroup, for instance, lent money in 2025 to a data center operator that did business with Megaspeed, a company now at the center of the scandal surrounding Nvidia and former CEO Jensen Huang. Now, as scrutiny of the region’s role in national security intensifies, those loans highlight an emerging risk for…",
+      "whyItMatters": "Tech readers should note rising geopolitical risks in data center financing and potential regulatory fallout.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/jpmorgan-citi-missed-megaspeed-risks-2-8-billion-data-center-loan",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should note rising geopolitical risks in data center financing and potential regulatory fallout."
+      "related": []
     },
     {
       "source": "The Verge",
@@ -195,12 +246,12 @@
       "summary": "The article reports Instagram deepfakes featuring tech leaders, including Sam Altman, Meta’s AI officer, and Mark Zuckerberg, highlighting rising AI-generated content on social media.",
       "excerpt": "Open AI CEO Sam Altman does a television interview | Getty Images Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and Jolly…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 85,
+      "whyItMatters": "Tech readers should watch for deepfake risks that could misinform audiences and impact reputations.",
+      "score": 93,
       "isPrimary": true,
       "clusterId": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch for deepfake risks that could misinform audiences and impact reputations."
+      "related": []
     },
     {
       "source": "The Information",
@@ -210,12 +261,12 @@
       "published": "2026-11-17T20:49:14.000Z",
       "summary": "Google released open-source TorchTPU, a software layer for its Tensor Processing Units, marking a major software advance for its AI chip strategy.",
       "excerpt": "A software launch last month that got little attention in the wider world could have big implications for Google’s burgeoning AI chip business. Google late last month announced an open-source version of TorchTPU, a software layer for its tensor processing units that represents the biggest leap on the software side of the Google chip business in years.",
+      "whyItMatters": "It could strengthen Google’s AI chip competitiveness against Nvidia, benefiting developers and AI infrastructure users.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/googles-new-ai-chip-software-helps-battle-nvidia",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It could strengthen Google’s AI chip competitiveness against Nvidia, benefiting developers and AI infrastructure users."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -226,12 +277,12 @@
       "summary": "The article explains how to create high-quality videos using AI agents by mastering prompt phrasing and having a strong creative concept.",
       "excerpt": "Today, anyone can describe a video in a sentence and get a finished one back from an AI video agent. Getting a good one still comes down to two things: knowing how to ask for it, and having a creative idea worth asking for. If you run a small business or a small team, AI […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/ai-text-inside-open-human-head-3d-render.avif",
-      "score": 71,
+      "whyItMatters": "Tech-savvy readers can streamline video production, saving time and resources while boosting content quality.",
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/how-to-make-great-video-ai-agent",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers can streamline video production, saving time and resources while boosting content quality."
+      "related": []
     },
     {
       "source": "SemiWiki",
@@ -241,12 +292,12 @@
       "published": "Tue, 17 Nov 2026 20:00:50 +0000",
       "summary": "Paweł Banachowicz, Director of Analog & Mixed-Signal Design at Silicon Creations, discusses his extensive PLL and clocking IP work and building advanced-node design infrastructure.",
       "excerpt": "Paweł Banachowicz is a Director of Analog & Mixed-Signal Design at Silicon Creations, where he has worked since 2012. He has designed or led the design of hundreds of PLL and clocking IPs, with a focus on FinFET and GAA processes, and played a key role in building the company’s advanced-node design infrastructure from 16nm onward.… Read More The post CTO Interview with Paweł Banachowicz of Silicon Creations appeared…",
-      "score": 99,
+      "whyItMatters": "Tech leaders can learn best practices for high‑performance clocking in FinFET/GAA processes.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ip/silicon-creations/375932-cto-interview-with-pawel-banachowicz-of-silicon-creations/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders can learn best practices for high‑performance clocking in FinFET/GAA processes."
+      "related": []
     },
     {
       "source": "The Information",
@@ -256,12 +307,12 @@
       "published": "2026-11-17T19:55:09.000Z",
       "summary": "OpenAI board member Paul Christiano warns that there is a reasonable chance humanity could lose control of AI within the next year.",
       "excerpt": "Paul Christiano, a prominent AI safety researcher and member of the board that controls OpenAI, offered an alarming assessment of where the technology is heading in an interview with a popular technology podcast, saying the likelihood of humans completely losing control of AI next year is ...",
+      "whyItMatters": "Tech leaders should heed this risk to prioritize safety research and policy.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/openai-director-says-reasonable-chance-ai-disaster-within-year",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders should heed this risk to prioritize safety research and policy."
+      "related": []
     },
     {
       "source": "The Register",
@@ -272,7 +323,7 @@
       "summary": "If you design a test to find misalignment, you will find misalignment",
       "image": "https://image.theregister.com/?imageId=223243&width=800",
       "readMinutes": 4,
-      "score": 99,
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
       "clusterSize": 1,
@@ -286,23 +337,9 @@
       "published": "2026-11-17T19:40:35.000Z",
       "summary": "Microsoft debuted a suite of new AI models at its annual Ignite conference in San Francisco on Tuesday and said it will license the models’ weights—the settings that determine how the models answer questions—so customers can create highly…",
       "excerpt": "Microsoft debuted a suite of new AI models at its annual Ignite conference in San Francisco on Tuesday and said it will license the models’ weights—the settings that determine how the models answer questions—so customers can create highly customized versions for their businesses. The move ...",
-      "score": 99,
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/microsoft-let-customers-customize-ai-models-weights",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Google Unveils More Agentic Tools Within Gemini",
-      "link": "https://www.theinformation.com/briefings/google-unveils-agentic-tools-within-gemini",
-      "published": "2026-11-17T19:15:55.000Z",
-      "summary": "Google has announced updates to Gemini, called Tasks, that will give it more agentic features, comparable to tools already released by Meta with Muse and OpenAI with Dots. The Task features will be free. Gemini will now be able to call…",
-      "excerpt": "Google has announced updates to Gemini, called Tasks, that will give it more agentic features, comparable to tools already released by Meta with Muse and OpenAI with Dots. The Task features will be free. Gemini will now be able to call businesses, make purchases, and read and send emails, ...",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/google-unveils-agentic-tools-within-gemini",
       "clusterSize": 1,
       "related": []
     },
@@ -315,7 +352,7 @@
       "summary": "Anthropic has launched Linked billing in beta, letting apps built on Claude bill API usage to a customer’s own Claude organisation. Customers can set a spend cap or unlink the app, but only organisations that pay Anthropic directly…",
       "excerpt": "Anthropic has launched Linked billing in beta, letting apps built on Claude bill API usage to a customer’s own Claude organisation. Customers can set a spend cap or unlink the app, but only organisations that pay Anthropic directly qualify, and their own data protections do not carry over. Apps built on Claude can now charge […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/anthropic-sign-office-building-entrance.avif",
-      "score": 77,
+      "score": 76,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/anthropic-linked-billing-claude-api-customers-pay",
       "clusterSize": 1,
@@ -331,7 +368,7 @@
       "excerpt": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE Standards Association has been working for the past decade on ways to prioritize the responsible…",
       "image": "https://spectrum.ieee.org/media-library/illustration-of-floating-hands-inspecting-the-use-of-ai-features-across-a-laptop-computer-academic-paper-and-the-world-wide-web.jpg?id=68699342&width=980",
       "readMinutes": 5,
-      "score": 99,
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
       "clusterSize": 1,
@@ -363,19 +400,6 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-      "link": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
-      "published": "Tue, 17 Nov 2026 18:04:16 +0000",
-      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
-      "score": 98,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
       "clusterSize": 1,
       "related": []
     },
@@ -414,7 +438,7 @@
       "link": "https://openai.com/index/introducing-openai-for-chile",
       "published": "Tue, 17 Nov 2026 00:00:00 GMT",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/introducing-openai-for-chile",
       "clusterSize": 2,
@@ -435,7 +459,7 @@
       "summary": "Cheap tiny e-readers and the perils of LLM-generated drive-by pull requests – plus much more",
       "image": "https://image.theregister.com/?imageId=2918386&width=800",
       "readMinutes": 4,
-      "score": 98,
+      "score": 97,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/software/2026/11/17/inspiring-foss-project-crosspoint-reader-has-lessons-about-tech-communities-and-llms/5310424",
       "clusterSize": 1,
@@ -448,7 +472,7 @@
       "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "published": "Tue, 17 Nov 2026 17:45:00 GMT",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "clusterSize": 1,
@@ -463,22 +487,9 @@
       "summary": "As organizations expand their digital infrastructure, their external attack surfaces are becoming increasingly difficult to secure. Cloud environments, third-party vendors, subsidiaries, web applications and AI services introduce new…",
       "excerpt": "As organizations expand their digital infrastructure, their external attack surfaces are becoming increasingly difficult to secure. Cloud environments, third-party vendors, subsidiaries, web applications and AI services introduce new potential entry points. At the same time, AI is accelerating how quickly attackers can discover vulnerabilities, identify exposed assets and turn weaknesses into opportunities for…",
       "image": "https://media.thenextweb.com/2026/11/ionix-ceo-marc-gaffan-black-polo-arms-crossed-office.avif",
-      "score": 70,
+      "score": 69,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/ionix-external-exposure-management-live-exposure-defense",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-      "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-      "published": "Tue, 17 Nov 2026 17:32:25 +0000",
-      "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
       "clusterSize": 1,
       "related": []
     },
@@ -492,7 +503,7 @@
       "excerpt": "Nvidia's Vera CPU, powered by its custom Olympus Arm cores, already offers strong performance with unoptimized code, but at SC26, the company demonstrated that further software optimizations can improve performance by nearly 39% with certain workloads.",
       "image": "https://cdn.mos.cms.futurecdn.net/HLdVAsCHvfXFb5ZjVFtz2b-1920-80.jpg",
       "readMinutes": 4,
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/cpus/nvidia-claims-its-vera-cpu-can-gain-up-to-39-percent-performance-boost-via-software-optimization-at-sc26-architectural-fine-tuning-is-needed-to-fully-unleash-custom-olympus-cores",
       "clusterSize": 1,
@@ -507,7 +518,7 @@
       "summary": "Ambience Healthcare has added Rounding Assistant and Discharge Readiness to its hospital AI software, to help care teams prioritise tasks and spot barriers to discharge earlier. The company also points to customer results on billing…",
       "excerpt": "Ambience Healthcare has added Rounding Assistant and Discharge Readiness to its hospital AI software, to help care teams prioritise tasks and spot barriers to discharge earlier. The company also points to customer results on billing, including a 6.5% rise in case mix index at Onvida Health. Ambience Healthcare has added two AI tools that help […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/ambience-inpatient-care-orchestration-graphic.avif",
-      "score": 70,
+      "score": 69,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/ambience-healthcare-ai-rounding-discharge-readiness-hospitals",
       "clusterSize": 1,
@@ -521,7 +532,7 @@
       "published": "Tue, 17 Nov 2026 16:50:10 +0000",
       "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
-      "score": 98,
+      "score": 97,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
       "clusterSize": 2,
@@ -541,23 +552,9 @@
       "published": "Tue, 17 Nov 2026 16:50:13 +0000",
       "summary": "Google Labs has bought Howie, an AI scheduling tool that users copy into emails to arrange meetings, Bloomberg reported. Terms were not disclosed; PitchBook valued Howie at $14M in 2024. Google said it wants to build AI tools for small…",
       "excerpt": "Google Labs has bought Howie, an AI scheduling tool that users copy into emails to arrange meetings, Bloomberg reported. Terms were not disclosed; PitchBook valued Howie at $14M in 2024. Google said it wants to build AI tools for small businesses with the team. Google has bought Howie, an AI tool that schedules meetings and […] This story continues at The Next Web",
-      "score": 70,
+      "score": 69,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/google-labs-buys-howie-ai-scheduling-agent",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "To Strengthen OpenAI, Brockman Goes ‘Full Management Mode’",
-      "link": "https://www.theinformation.com/articles/brockman-pushes-openai-toward-cybersecurity-and-showdown-ai-safety",
-      "published": "2026-11-17T16:46:30.000Z",
-      "summary": "In August, OpenAI President Greg Brockman called up Denise Dresser, then the company’s chief revenue officer, with a tough message: Her time with OpenAI was coming to an end. Dresser, a former Slack CEO, had been in the job for only eight…",
-      "excerpt": "In August, OpenAI President Greg Brockman called up Denise Dresser, then the company’s chief revenue officer, with a tough message: Her time with OpenAI was coming to an end. Dresser, a former Slack CEO, had been in the job for only eight months, and while OpenAI had seen promising growth selling its AI to businesses, Brockman had someone else in mind for the position, who he hoped would run the sales team in a more…",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/brockman-pushes-openai-toward-cybersecurity-and-showdown-ai-safety",
       "clusterSize": 1,
       "related": []
     },
@@ -570,7 +567,7 @@
       "summary": "AI music company Suno has launched Visuals, which makes images and video clips of up to 15 seconds to match users’ songs, including lyric videos that lip-sync. It is on the web now, uses separate credits, and comes with filters meant to…",
       "excerpt": "AI music company Suno has launched Visuals, which makes images and video clips of up to 15 seconds to match users’ songs, including lyric videos that lip-sync. It is on the web now, uses separate credits, and comes with filters meant to block likenesses of artists, public figures and copyrighted work. AI music company Suno […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/blue-ai-letters-blurred-textured-background.avif",
-      "score": 70,
+      "score": 69,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/suno-visuals-ai-video-lyric-videos-album-art",
       "clusterSize": 1,
@@ -585,7 +582,7 @@
       "summary": "Ride-hailing biz says stolen credentials allowed crooks to help themselves to driver's license data",
       "image": "https://image.theregister.com/?imageId=5310468&width=800",
       "readMinutes": 2,
-      "score": 98,
+      "score": 97,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/security/2026/11/17/hackers-smash-n-grab-ai-vendor-take-off-with-license-data-of-uber-drivers/5310464",
       "clusterSize": 1,
@@ -601,9 +598,25 @@
       "image": "https://cdn.mos.cms.futurecdn.net/ro83GMaCee5Y8zRs2EBSBX-1920-80.jpg",
       "readMinutes": 6,
       "whyItMatters": "Tech readers should watch how policy shapes competition and innovation in AI.",
-      "score": 92,
+      "score": 91,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-safety-legislation-has-a-conflict-of-interest-problem-big-us-labs-are-warning-of-risk-just-as-cheaper-chinese-open-weight-models-erode-their-commercial-edge",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Former Nvidia CEO Jensen Huang will appear before a House Foreign Affairs panel amid concerns over his affair with a suspected Chinese spy",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear",
+      "published": "Tue, 17 Nov 2026 15:50:51 +0000",
+      "summary": "Former Nvidia CEO Jensen Huang will appear before the House Foreign Affairs, Intelligence, and China Select Committees on December 1, with Nvidia's lawyer following him on December 2. The appearances follow Huang's admission of an affair…",
+      "excerpt": "Former Nvidia CEO Jensen Huang will appear before the House Foreign Affairs, Intelligence, and China Select Committees on December 1, with Nvidia's lawyer following him on December 2. The appearances follow Huang's admission of an affair with a woman who worked for an Nvidia customer who is also believed to be a Chinese spy.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kFmgkKKC9bnWnRVaUKyZzJ-1920-80.jpg",
+      "readMinutes": 1,
+      "score": 95,
+      "isPrimary": true,
+      "clusterId": "https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear",
       "clusterSize": 1,
       "related": []
     },
@@ -623,21 +636,6 @@
       "related": []
     },
     {
-      "source": "The Register",
-      "category": "news",
-      "title": "Nvidia places chip exports under boardroom supervision after Huang's exit",
-      "link": "https://www.theregister.com/systems/2026/11/17/nvidia-places-chip-exports-under-boardroom-supervision-after-huangs-exit/5310429",
-      "published": "Tue, 17 Nov 2026 15:01:00 +0000",
-      "summary": "Standing committee will oversee export compliance following allegations its GPUs were diverted to China",
-      "image": "https://image.theregister.com/?imageId=242719&width=800",
-      "readMinutes": 2,
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theregister.com/systems/2026/11/17/nvidia-places-chip-exports-under-boardroom-supervision-after-huangs-exit/5310429",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
       "source": "Tom's Hardware",
       "category": "news",
       "title": "AMD attacks Nvidia's FP64 emulation at SC26, touts native double-precision on Instinct MI430X",
@@ -647,23 +645,9 @@
       "excerpt": "AMD is touting the benefits of the native FP64 support provided by its MI430X accelerator at Supercomputing 2026. The company says that Ozaki FP64 emulation only covers the needs of a small portion of HPC workloads, making the MI430X a unique foundation for next-gen supercomputing installations.",
       "image": "https://cdn.mos.cms.futurecdn.net/aYqjYmHikYgdUmCHUJ3Wbk-1920-80.png",
       "readMinutes": 4,
-      "score": 95,
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "Ars Technica",
-      "category": "news",
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "published": "Tue, 17 Nov 2026 14:00:29 +0000",
-      "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
       "clusterSize": 1,
       "related": []
     },
@@ -677,7 +661,7 @@
       "excerpt": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
       "readMinutes": 3,
-      "score": 81,
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
       "clusterSize": 2,
@@ -699,7 +683,7 @@
       "excerpt": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4 billion in 2022. One projection suggests that the market will continue to grow exponentially in the coming…",
       "image": "https://spectrum.ieee.org/media-library/close-up-of-a-green-circuit-board-with-a-central-microchip-and-intricate-traces.jpg?id=68692424&width=980",
       "readMinutes": 16,
-      "score": 97,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/optical-computing-ai",
       "clusterSize": 1,
@@ -714,7 +698,7 @@
       "summary": "This warning comes amid Jensen Huang's scandal, a new rule from the U.S. Department of Commerce, and a pending bill in the Senate.",
       "image": "https://cdn.mos.cms.futurecdn.net/YAxQQsbvwDfFaHJ7zGMocj-1920-80.jpg",
       "readMinutes": 2,
-      "score": 95,
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/policy/nvidia-warns-customers-of-new-us-rule-that-could-expose-them-to-lawsuits-for-serving-chinese-clients-commerce-department-releases-interim-regulations-preventing-foreign-actors-from-using-advanced-compute-based-on-american-tech",
       "clusterSize": 1,
@@ -734,36 +718,6 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/data-centers/us-government-confirms-criminal-investigation-into-singapore-company-at-the-heart-of-jensen-huang-scandal-megaspeed-identified-over-suspicious-activity-company-placed-on-no-sell-list-by-nvidia",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "Tom's Hardware",
-      "category": "news",
-      "title": "Phison Pascari X201P 15.36TB SSD Review: Fast PCIe 5.0 write performance for AI and ingest servers",
-      "link": "https://www.tomshardware.com/pc-components/ssds/phison-pascari-x201p-15-36tb-ssd-review",
-      "published": "Tue, 17 Nov 2026 13:13:48 +0000",
-      "summary": "The Phison Pascari X201P 15.36TB SSD delivers PCIe 5.0 write speeds that meet ratings and accelerate AI checkpoints, but lags on low‑queue‑depth writes.",
-      "image": "https://cdn.mos.cms.futurecdn.net/w7yzko35quwLmLvdm4oKP7-1920-80.jpg",
-      "readMinutes": 27,
-      "whyItMatters": "High write throughput boosts AI training and data ingestion, though performance dips at low queue depths may affect certain workloads.",
-      "score": 91,
-      "isPrimary": true,
-      "clusterId": "https://www.tomshardware.com/pc-components/ssds/phison-pascari-x201p-15-36tb-ssd-review",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
-      "link": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
-      "published": "Tue, 17 Nov 2026 11:00:00 +0000",
-      "summary": "The French CEO of Hugging Face, a mega-hub of open-source AI software, says the attack by OpenAI models earlier this year proved one thing: Humanity can’t let AI be controlled by the few.",
-      "image": "https://media.wired.com/photos/6af4d05353156106eee176d7/master/pass/WWF-Clement-Delangue-1.jpg",
-      "score": 95,
-      "isPrimary": true,
-      "clusterId": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
       "clusterSize": 1,
       "related": []
     },
@@ -801,7 +755,7 @@
       "link": "https://openai.com/index/introducing-chatgpt-for-sales",
       "published": "Tue, 17 Nov 2026 08:00:00 GMT",
       "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-      "score": 81,
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/introducing-chatgpt-for-sales",
       "clusterSize": 1,
@@ -814,7 +768,7 @@
       "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
       "published": "Tue, 17 Nov 2026 00:00:00 GMT",
       "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
       "clusterSize": 1,
@@ -827,7 +781,7 @@
       "link": "https://openai.com/index/astra-law-6-2",
       "published": "Tue, 17 Nov 2026 00:00:00 GMT",
       "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "score": 78,
+      "score": 77,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/astra-law-6-2",
       "clusterSize": 1,
@@ -860,7 +814,7 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
       "readMinutes": 4,
       "whyItMatters": "It offers a compact, high-performance lab setup for AI and HPC research, accelerating development and experimentation.",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
       "clusterSize": 2,
@@ -882,7 +836,7 @@
       "excerpt": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
       "readMinutes": 7,
-      "score": 75,
+      "score": 74,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
       "clusterSize": 1,
@@ -909,9 +863,41 @@
       "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "published": "Mon, 16 Nov 2026 17:00:00 GMT",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "score": 76,
+      "score": 75,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Building trustworthy AI by fencing it in, not predicting it",
+      "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "published": "Mon, 16 Nov 2026 16:04:28 +0000",
+      "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring…",
+      "excerpt": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/BA5098150_Post-NEXUS_MIT_1920x1080.jpg?w=840",
+      "readMinutes": 4,
+      "score": 94,
+      "isPrimary": true,
+      "clusterId": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "NVIDIA Blog",
+      "category": "news",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "published": "Mon, 16 Nov 2026 16:00:51 +0000",
+      "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud…",
+      "excerpt": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1.jpeg",
+      "readMinutes": 2,
+      "score": 72,
+      "isPrimary": true,
+      "clusterId": "https://blogs.nvidia.com/blog/lambda-photonics/",
       "clusterSize": 1,
       "related": []
     },
@@ -925,7 +911,7 @@
       "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/vera-rubin-mlperf-training-endpoints.png",
       "readMinutes": 4,
-      "score": 73,
+      "score": 72,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
       "clusterSize": 1,
@@ -941,7 +927,7 @@
       "excerpt": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
       "readMinutes": 3,
-      "score": 73,
+      "score": 72,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
       "clusterSize": 2,
@@ -954,13 +940,29 @@
       ]
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Building AI that can work across the enterprise",
+      "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "published": "Mon, 16 Nov 2026 13:00:00 +0000",
+      "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots…",
+      "excerpt": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTRInfosysSAP-social-card.png?resize=1200,600",
+      "readMinutes": 24,
+      "score": 87,
+      "isPrimary": true,
+      "clusterId": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
       "source": "OpenAI Blog",
       "category": "news",
       "title": "Science at the Frontier: How scientists use ChatGPT",
       "link": "https://openai.com/index/science-at-the-frontier",
       "published": "Mon, 16 Nov 2026 12:00:00 GMT",
       "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "score": 74,
+      "score": 73,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/science-at-the-frontier",
       "clusterSize": 1,
@@ -992,7 +994,7 @@
       "excerpt": "This article is brought to you by VicOne. VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are classified as zero-day vulnerabilities. The count may change…",
       "image": "https://spectrum.ieee.org/media-library/humanoid-and-dog-robots-watch-a-massive-swirling-storm-over-a-modern-city-walkway.jpg?id=68562173&width=980",
       "readMinutes": 4,
-      "score": 87,
+      "score": 86,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
       "clusterSize": 1,
@@ -1005,7 +1007,7 @@
       "link": "https://openai.com/business/customer-stories/revolut",
       "published": "Mon, 16 Nov 2026 09:30:00 GMT",
       "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "score": 79,
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/revolut",
       "clusterSize": 1,
@@ -1018,7 +1020,7 @@
       "link": "https://openai.com/index/lvmh-media-division-partnership",
       "published": "Mon, 16 Nov 2026 09:00:00 GMT",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "score": 79,
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/lvmh-media-division-partnership",
       "clusterSize": 1,
@@ -1073,7 +1075,7 @@
       "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "published": "Mon, 16 Nov 2026 06:00:00 GMT",
       "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "score": 72,
+      "score": 71,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "clusterSize": 1,
@@ -1090,7 +1092,7 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ai-day-seoul-wrapup-1920x1080-1.jpg",
       "readMinutes": 2,
       "whyItMatters": "It showcases Korea’s growing AI ecosystem and potential for robotics and edge AI innovation.",
-      "score": 76,
+      "score": 75,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
       "clusterSize": 1,
@@ -1114,6 +1116,22 @@
       "related": []
     },
     {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+      "link": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+      "published": "Fri, 13 Nov 2026 13:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/mars2026-kvitsoy4.jpg?w=840",
+      "readMinutes": 4,
+      "score": 90,
+      "isPrimary": true,
+      "clusterId": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
       "source": "NVIDIA Blog",
       "category": "news",
       "title": "AI Is Helping Care Teams Get Patients the Right Care, Sooner",
@@ -1126,6 +1144,22 @@
       "score": 50,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
+      "link": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+      "published": "Fri, 13 Nov 2026 10:00:00 +0000",
+      "summary": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year…",
+      "excerpt": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year road map for Facebook in 2016, and Google famously told investors before its public offering that it was unconcerned…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2297757667.jpg?resize=1200,600",
+      "readMinutes": 4,
+      "score": 84,
+      "isPrimary": true,
+      "clusterId": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
       "clusterSize": 1,
       "related": []
     },
@@ -1159,6 +1193,22 @@
       "score": 79,
       "isPrimary": true,
       "clusterId": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "MIT Technology Review",
+      "category": "news",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "published": "Thu, 12 Nov 2026 20:16:24 +0000",
+      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on…",
+      "excerpt": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/foster-huang2a.jpg?resize=1200,600",
+      "readMinutes": 3,
+      "score": 90,
+      "isPrimary": true,
+      "clusterId": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
       "clusterSize": 1,
       "related": []
     },

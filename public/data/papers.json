@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T22:52:22.723Z",
+  "updated": "2026-11-18T01:00:31.718Z",
   "count": 20,
   "items": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "title": "Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction",
-      "summary": "The study evaluates how National Hurricane Center forecaster discussions improve tropical cyclone intensity predictions beyond numerical models.",
+      "summary": "The study evaluates how much National Hurricane Center forecaster discussions improve tropical cyclone intensity predictions beyond numerical models.",
       "link": "http://arxiv.org/abs/2611.21602v1",
       "published": "2026-11-16T18:58:55Z",
       "authors": [
@@ -63,11 +63,11 @@
         "cs.LG",
         "cs.CL"
       ],
-      "whyItMatters": "Tech-savvy readers can gauge the value of human expertise in enhancing forecast accuracy."
+      "whyItMatters": "It shows whether human expertise adds measurable value to automated forecasts, guiding resource allocation in weather prediction."
     },
     {
       "title": "How VLMs Plan What's Next",
-      "summary": "The article explains how vision‑language models decide the order of object descriptions by binding text tokens to image regions before generating captions.",
+      "summary": "The article explains how vision‑language models determine the order of object descriptions in an image, detailing a four‑part planning mechanism.",
       "link": "http://arxiv.org/abs/2611.21600v1",
       "published": "2026-11-16T18:58:30Z",
       "authors": [
@@ -81,11 +81,11 @@
         "cs.CL",
         "cs.LG"
       ],
-      "whyItMatters": "Understanding this planning reveals how VLMs process visual scenes, informing better design for accurate, efficient captioning."
+      "whyItMatters": "Understanding this planning reveals how VLMs efficiently parse visual scenes, improving AI interpretability and performance."
     },
     {
       "title": "Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks",
-      "summary": "Hyperlyve is a framework that certifies stability of nonlinear systems with neural network controllers by learning piecewise-affine Lyapunov functions via CEGIS.",
+      "summary": "Hyperlyve is a framework that certifies asymptotic stability of nonlinear systems with ReLU neural controllers by learning CPA Lyapunov functions via CEGIS.",
       "link": "http://arxiv.org/abs/2611.21599v1",
       "published": "2026-11-16T18:58:29Z",
       "authors": [
@@ -102,11 +102,11 @@
         "cs.LO",
         "math.DS"
       ],
-      "whyItMatters": "It enables formal safety guarantees for AI-driven control systems, crucial for high-assurance applications."
+      "whyItMatters": "It enables formal safety guarantees for AI‑controlled dynamics, critical for high‑stakes autonomous systems."
     },
     {
       "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
-      "summary": "The paper explores using evolutionarily generated specialist neural networks as a reusable memory to prevent catastrophic forgetting in continual reinforcement learning.",
+      "summary": "The paper explores using evolutionary search to create specialist neural networks that help continual reinforcement learning retain past knowledge while adapting to new environments.",
       "link": "http://arxiv.org/abs/2611.21598v1",
       "published": "2026-11-16T18:58:20Z",
       "authors": [
@@ -118,11 +118,11 @@
         "cs.AI",
         "cs.NE"
       ],
-      "whyItMatters": "Tech-savvy readers care because it offers a novel, biologically inspired method to maintain performance across changing environments."
+      "whyItMatters": "Tech-savvy readers care because it offers a novel way to reduce catastrophic forgetting in lifelong learning systems."
     },
     {
       "title": "Optimal Autoregressive Chain-of-Thought Learning via Bagging",
-      "summary": "The paper proposes a bagging algorithm that trains multiple autoregressive generators on bootstrap samples to produce a majority-vote model consistent with chain-of-thought demonstrations.",
+      "summary": "The paper introduces a bagging algorithm that learns an autoregressive next-token generator by majority voting over models trained on bootstrap samples to match chain-of-thought demonstrations.",
       "link": "http://arxiv.org/abs/2611.21597v1",
       "published": "2026-11-16T18:58:07Z",
       "authors": [
@@ -134,11 +134,11 @@
         "cs.LG",
         "stat.ML"
       ],
-      "whyItMatters": "It offers a statistically optimal method for learning next-token models from CoT data, improving sample efficiency for AI developers."
+      "whyItMatters": "It offers an optimal sample‑efficient method for training CoT models, improving efficiency for AI developers."
     },
     {
       "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
-      "summary": "The paper explains why constrained projectors in Joint-Embedding Predictive Architectures fail to avoid representation collapse, due to a shared component dominating early encoder outputs.",
+      "summary": "The paper shows that in Joint-Embedding Predictive Architectures, representation collapse occurs because a shared component dominates the encoder, and batch‑norm removes it.",
       "link": "http://arxiv.org/abs/2611.21596v1",
       "published": "2026-11-16T18:58:03Z",
       "authors": [
@@ -157,11 +157,11 @@
         "cs.RO",
         "cs.LG"
       ],
-      "whyItMatters": "Understanding this flaw helps design better self-supervised models that avoid collapse and improve feature quality."
+      "whyItMatters": "Tech readers should know that standard regularization may fail to prevent collapse in JEPAs, impacting self‑supervised learning."
     },
     {
       "title": "Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K",
-      "summary": "The article details fitting BSIM4 parameters for SKY130 CMOS transistors at 77 K using a neural surrogate of NGSpice to create accurate compact models for cryogenic circuit design.",
+      "summary": "The article presents a neural surrogate approach to fit BSIM4 parameters for SKY130 CMOS transistors at 77 K, enabling accurate cryogenic modeling in circuit simulators.",
       "link": "http://arxiv.org/abs/2611.21594v1",
       "published": "2026-11-16T18:57:06Z",
       "authors": [
@@ -181,11 +181,11 @@
         "cs.LG",
         "physics.app-ph"
       ],
-      "whyItMatters": "Accurate low‑temperature models enable reliable cryogenic IC simulation, critical for quantum computing and deep‑space electronics."
+      "whyItMatters": "Accurate low‑temperature models are crucial for designing reliable cryogenic electronics and quantum‑compatible circuits."
     },
     {
       "title": "Beyond Job Titles: Interpreting Early-Career Job Advertisements with Sparse Autoencoders and Semantic Clustering",
-      "summary": "The paper uses sparse autoencoders and semantic clustering to analyze early-career tech job ads from LinkedIn, revealing nuanced role differences.",
+      "summary": "The paper uses deep learning and transformer models to analyze early‑career LinkedIn job ads, clustering roles beyond titles to reveal industry and skill differences.",
       "link": "http://arxiv.org/abs/2611.21586v1",
       "published": "2026-11-16T18:54:40Z",
       "authors": [
@@ -197,11 +197,11 @@
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "It helps recruiters and job seekers better match skills to evolving tech roles."
+      "whyItMatters": "It offers tech recruiters a data‑driven way to identify niche roles and skill gaps in a fast‑evolving job market."
     },
     {
       "title": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts",
-      "summary": "CertiSum ensures bitwise-identical MXFP4 training across different parallelism layouts and GPU vendors.",
+      "summary": "CertiSum ensures MXFP4 4‑bit training yields identical bitwise results across different parallelism layouts and GPU vendors.",
       "link": "http://arxiv.org/abs/2611.21584v1",
       "published": "2026-11-16T18:54:07Z",
       "authors": [
@@ -215,11 +215,11 @@
         "cs.LG",
         "cs.DC"
       ],
-      "whyItMatters": "It stabilizes debugging, audits, and consistency between training and inference for 4-bit microscaling models."
+      "whyItMatters": "It stabilizes debugging and auditability for low‑precision AI models, reducing costly inconsistencies."
     },
     {
       "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
-      "summary": "ScenarioForge automates cyber‑exercise creation by converting high‑level requirements into deployable scenarios with validated infrastructure, services, attack paths, and success conditions.",
+      "summary": "ScenarioForge automates turning high-level cyber‑exercise requirements into deployable scenarios with validated infrastructure, services, attack paths, and success conditions.",
       "link": "http://arxiv.org/abs/2611.21579v1",
       "published": "2026-11-16T18:49:56Z",
       "authors": [
@@ -231,7 +231,7 @@
         "cs.CR",
         "cs.AI"
       ],
-      "whyItMatters": "It saves time for security teams, enabling rapid, realistic training without manual setup."
+      "whyItMatters": "It cuts manual labor, speeds up realistic training, and ensures exercises are actually executable and verifiable for security teams."
     },
     {
       "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
