@@ -1,7 +1,157 @@
 {
-  "updated": "2026-11-19T19:10:04.609Z",
-  "count": 102,
+  "updated": "2026-11-19T20:46:47.306Z",
+  "count": 109,
   "items": [
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "published": "Thu, 19 Nov 2026 20:18:49 +0000",
+      "summary": "Jensen Huang resigned from Nvidia amid an affair, potentially impacting U.S.-China AI competition and national security.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "clusterSize": 2,
+      "related": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
+          "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants"
+        }
+      ],
+      "whyItMatters": "Leadership changes at Nvidia could shift AI development dynamics between the U.S. and China."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Man charged with spying on Silicon Valley tech and defense company for Russia",
+      "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+      "published": "Thu, 19 Nov 2026 20:29:46 +0000",
+      "summary": "A 25‑year‑old was charged with spying on Silicon Valley tech and defense employees, stalking them at a coffee shop and during a car chase.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/05/getty-digital-gavel-1152x648.jpg",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It highlights rising insider threats and the need for stronger security protocols in tech and defense sectors."
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "Meta Bets on $300 Muse Charm to Boost AI Hardware Business",
+      "link": "https://www.theinformation.com/articles/meta-bets-300-muse-charm-boost-ai-hardware-business",
+      "published": "2026-11-19T19:11:58.000Z",
+      "summary": "Meta plans to sell its Muse Charm AI device for $300, offering subsidies and a free 12‑month Verizon 5G plan to boost hardware sales and attract users to its assistant.",
+      "excerpt": "Meta Platforms plans to charge $300 for its forthcoming Muse Charm device and offer user subsidies, according to a person familiar with the matter, betting that the pocket-sized AI gadget will help energize its hardware business and draw users to its new personal assistant. To lure buyers, Meta plans to offer a free 5G data plan from Verizon for up to 12 months that would enable faster responses from Muse, its…",
+      "score": 99,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/meta-bets-300-muse-charm-boost-ai-hardware-business",
+      "clusterSize": 2,
+      "related": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+          "title": "Meta’s Muse Charm might cost $300"
+        }
+      ],
+      "whyItMatters": "It signals Meta’s push into consumer AI hardware, potentially reshaping the market and offering a new revenue stream."
+    },
+    {
+      "source": "Ars Technica",
+      "category": "news",
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "published": "Thu, 19 Nov 2026 20:19:28 +0000",
+      "summary": "Traumatized teens sue school and police after a Doritos bag triggers an AI gun alert, claiming over 99% of alerts were false positives.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Highlights AI safety flaws and legal risks for schools using gun‑detection systems."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Google Quantum AI tests quantum contextuality on up to 105 qubits",
+      "link": "https://thenextweb.com/news/google-quantum-ai-contextuality-science-105-qubits",
+      "published": "Thu, 19 Nov 2026 20:06:54 +0000",
+      "summary": "Google Quantum AI demonstrated quantum contextuality on up to 105 qubits, revealing hardware errors but no proven advantage over classical computing.",
+      "excerpt": "Google Quantum AI says it has shown contextuality, a quantum property thought to power some algorithms, on up to 105 qubits, in a paper on the cover of Science. The tests also expose subtle hardware errors, but the paper does not claim an unconditional advantage over classical computers. Google Quantum AI says a quantum property […] This story continues at The Next Web",
+      "score": 79,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/google-quantum-ai-contextuality-science-105-qubits",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It shows progress in scaling quantum effects, informing future algorithmic and hardware development."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Google is putting AI chats right on the homepage",
+      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "published": "2026-11-19T20:05:06.000Z",
+      "summary": "Google’s homepage now features an AI chat sidebar that lets users view and continue conversations directly from the search page.",
+      "excerpt": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the gray bar that appears on the left side of your screen. From there, Google will show a list of the searches you've made using…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "score": 86,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It streamlines AI interactions, saving time for power users who rely on quick, integrated search and chat tools."
+    },
+    {
+      "source": "NVIDIA Blog",
+      "category": "news",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "link": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
+      "summary": "NVIDIA and Microsoft broaden their partnership, offering NVIDIA‑powered Azure VMs and expanding access to Windows PCs for building intelligent applications.",
+      "excerpt": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to […]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft.png",
+      "readMinutes": 4,
+      "score": 84,
+      "isPrimary": true,
+      "clusterId": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech-savvy users gain faster AI workloads on cloud and local PCs, boosting productivity and innovation."
+    },
+    {
+      "source": "SemiWiki",
+      "category": "news",
+      "title": "CEO Interview with Khaled Alashmouny of AIDAChip",
+      "link": "https://semiwiki.com/ceo-interviews/376621-ceo-interview-with-khaled-alashmouny-of-aidachip/",
+      "published": "Thu, 19 Nov 2026 20:00:15 +0000",
+      "summary": "Khaled Alashmouny, ex-Apple analog design leader, founded AIDAChip to prevent silicon waste from team misalignment in complex programs.",
+      "excerpt": "Khaled Alashmouny is the founder and CEO of AIDAChip. He spent 13 years at Apple leading analog and mixed-signal design teams and has about two decades of experience building silicon. He founded AIDAChip to solve the problem he saw on every complex program: talented teams losing time, and sometimes silicon, to misalignment across… Read More The post CEO Interview with Khaled Alashmouny of AIDAChip appeared first on…",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://semiwiki.com/ceo-interviews/376621-ceo-interview-with-khaled-alashmouny-of-aidachip/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech leaders need tools that keep silicon projects on schedule and reduce costly delays."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Everful raises $48.5M for AI agents that source products from factories",
+      "link": "https://thenextweb.com/news/everful-48-5m-series-a-ai-sourcing-global-commerce",
+      "published": "Thu, 19 Nov 2026 19:21:20 +0000",
+      "summary": "Everful, a San Francisco startup, raised $48.5M Series A to develop AI agents that source and vet factories for retailers and brands.",
+      "excerpt": "San Francisco startup Everful has raised a $48.5M Series A led by Vertex Ventures Southeast Asia & India and January Capital. Its AI agents find and vet factories and manage orders for retailers and brands, and it says it is on track for $100M in annualised revenue by year-end. Everful, a San Francisco startup that […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/10/ai-chip-purple-glow-glass-render.avif",
+      "score": 72,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/everful-48-5m-series-a-ai-sourcing-global-commerce",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It could streamline supply chains, cutting costs and speeding product launches for tech‑savvy retailers."
+    },
     {
       "source": "IEEE Spectrum",
       "category": "news",
@@ -12,12 +162,12 @@
       "excerpt": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State University Extension, CSU’s outreach arm. She works in Logan County and serves a 10-county farming area in Colorado’s northeast…",
       "image": "https://spectrum.ieee.org/media-library/a-young-asian-woman-in-a-suit-jacket-smiling-while-holding-up-a-digital-tablet-with-an-ai-chatbot-on-its-screen-a-mountain-rang.jpg?id=68721300&width=980",
       "readMinutes": 8,
+      "whyItMatters": "It bridges tech gaps, boosting farm efficiency and innovation for local agriculture.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://spectrum.ieee.org/ai-tools-for-rural-communities",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It bridges tech gaps, boosting farm efficiency and innovation for local agriculture."
+      "related": []
     },
     {
       "source": "The Information",
@@ -27,12 +177,27 @@
       "published": "2026-11-19T18:56:54.000Z",
       "summary": "AMD's stock fell after a short-seller report revealed ties to Chinese companies, some blacklisted by the U.S. government.",
       "excerpt": "Shares of Advanced Micro Devices dropped 9% on Thursday after Wall Street short-selling research firm Hunterbrook Capital published a report detailing AMD’s business relationships in China, including ties to companies blacklisted by the U.S. government. The report comes after a deluge of ...",
+      "whyItMatters": "Tech investors worry about supply chain risks and regulatory scrutiny affecting AMD's market position.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/wall-street-short-seller-alleges-amd-business-ties-china",
       "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Nvidia adds possible hack to list of very bad things under investigation",
+      "link": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
+      "published": "Thu, 19 Nov 2026 18:52:53 +0000",
+      "summary": "Nvidia is under investigation for a potential hack that could expose data, with a ransomware group demanding payment before leaking information.",
+      "image": "https://image.theregister.com/?imageId=5311157&width=800",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
+      "clusterSize": 1,
       "related": [],
-      "whyItMatters": "Tech investors worry about supply chain risks and regulatory scrutiny affecting AMD's market position."
+      "whyItMatters": "Tech readers should monitor this to assess security risks and potential impacts on chip supply chains."
     },
     {
       "source": "Ars Technica",
@@ -42,12 +207,12 @@
       "published": "Thu, 19 Nov 2026 18:44:39 +0000",
       "summary": "The article discusses how large language models often misinterpret or misrepresent climate information, despite some variations in performance.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-465648135-1024x648.jpg",
+      "whyItMatters": "Tech readers should be cautious using LLMs for climate data accuracy.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should be cautious using LLMs for climate data accuracy."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -58,12 +223,28 @@
       "summary": "Microsoft unveiled MAI Code 2, an internal coding model claiming 98% of GPT‑6.1 Sol’s performance for 40% of the cost, showcased at Ignite.",
       "excerpt": "Microsoft has released MAI Code 2, an in-house coding model. It says the model delivers 98% of the performance of OpenAI’s GPT-6.1 Sol at 40% of the price. The company presented it at its Ignite conference in San Francisco on Tuesday. New models for security and image editing launched alongside it. Against Anthropic’s Claude Opus […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/mustafa-suleyman-microsoft-ai-ignite-2026-mai-models-stage.avif",
-      "score": 78,
+      "whyItMatters": "Tech readers should note its competitive pricing and potential impact on coding AI adoption.",
+      "score": 85,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/microsoft-mai-code-2-licensed-weights-ignite",
       "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "XXRI-OS explores the lowest end of the Linux desktop",
+      "link": "https://www.theregister.com/os-platforms/2026/11/19/xxri-os-explores-the-lowest-end-of-the-linux-desktop/5311036",
+      "published": "Thu, 19 Nov 2026 18:35:00 +0000",
+      "summary": "XXRI-OS examines how minimal a Linux desktop can be while remaining functional.",
+      "image": "https://image.theregister.com/?imageId=5311047&width=800",
+      "readMinutes": 2,
+      "score": 99,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/os-platforms/2026/11/19/xxri-os-explores-the-lowest-end-of-the-linux-desktop/5311036",
+      "clusterSize": 1,
       "related": [],
-      "whyItMatters": "Tech readers should note its competitive pricing and potential impact on coding AI adoption."
+      "whyItMatters": "Tech enthusiasts may use it to build ultra‑light, resource‑efficient systems."
     },
     {
       "source": "The Information",
@@ -74,34 +255,27 @@
       "summary": "ServiceNow is developing an AI tool aimed at Salesforce customers, amid a broader trend of AI tools like Anthropic’s Claude Cowork expanding beyond coding into business functions.",
       "excerpt": "After a late summer rally, the Saaspocalypse slump in software stocks such as ServiceNow and Salesforce has returned. One reason may be signs that Anthropic’s expansion into tools outside of coding—such as tools to automate legal, finance, human resources, and sales functions, via Claude Cowork—is gaining traction with businesses, Kevin and I reported today. Another factor: established software-as-a-service firms…",
       "readMinutes": 2,
+      "whyItMatters": "Tech leaders should watch this as it signals intensified competition and potential shifts in SaaS market dynamics.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/servicenow-builds-ai-weapon-target-salesforce-customers",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders should watch this as it signals intensified competition and potential shifts in SaaS market dynamics."
+      "related": []
     },
     {
-      "source": "The Verge",
+      "source": "The Next Web",
       "category": "news",
-      "title": "Apple’s iPhone camera leader has reportedly left the company",
-      "link": "https://www.theverge.com/tech/1037846/apple-jon-mccormack-retired-iphone-camera",
-      "published": "2026-11-19T18:13:05.000Z",
-      "summary": "Apple’s VP of camera software, Jon McCormack, has retired after eight years, leaving a key role in its Camera and Photos apps vacant.",
-      "excerpt": "Jon McCormack, Apple's vice president of camera software engineering, left the company last month, Bloomberg reports. Its sources say McCormack retired \"at the end of October after more than eight years at the company.\" Apple reportedly has not yet named a new VP to step in for McCormack, who oversaw its Camera and Photos apps, and the tech that defined generations of photos and the photography and editing…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268735_iPhone_18_Pro_AKrales_0542.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 86,
+      "title": "The Apple executive behind the iPhone’s Camera app has left",
+      "link": "https://thenextweb.com/news/apple-iphone-camera-chief-jon-mccormack-retires",
+      "published": "Thu, 19 Nov 2026 18:11:09 +0000",
+      "summary": "Apple’s long‑time camera chief Jon McCormack retired after eight years, leaving the iPhone’s Camera and Photos software without a named successor.",
+      "excerpt": "Jon McCormack, Apple’s head of camera and photo software, retired at the end of October after more than eight years, Bloomberg reported. Apple has not named a replacement, and his deputies are taking over his work under other executives. Jon McCormack, the Apple executive in charge of the iPhone’s Camera and Photos software, has retired, […] This story continues at The Next Web",
+      "score": 71,
       "isPrimary": true,
-      "clusterId": "https://www.theverge.com/tech/1037846/apple-jon-mccormack-retired-iphone-camera",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/apple-iphone-camera-chief-jon-mccormack-retires",
-          "title": "The Apple executive behind the iPhone’s Camera app has left"
-        }
-      ],
-      "whyItMatters": "His departure could signal shifts in Apple’s photography tech and future camera innovations."
+      "clusterId": "https://thenextweb.com/news/apple-iphone-camera-chief-jon-mccormack-retires",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It signals potential shifts in iPhone photography features and could affect future camera software innovations."
     },
     {
       "source": "TechCrunch",
@@ -110,6 +284,7 @@
       "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
       "published": "Thu, 19 Nov 2026 18:09:11 +0000",
       "summary": "Google’s Gemini update adds a Mac AI agent that organizes files, fills forms, and handles multistep workflows.",
+      "whyItMatters": "It boosts productivity by automating routine tasks directly on your Mac.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
@@ -120,8 +295,7 @@
           "url": "https://thenextweb.com/news/google-gemini-mac-computer-use-multi-step-tasks",
           "title": "Google’s Gemini can now take over tasks on your Mac"
         }
-      ],
-      "whyItMatters": "It boosts productivity by automating routine tasks directly on your Mac."
+      ]
     },
     {
       "source": "SemiWiki",
@@ -131,12 +305,12 @@
       "published": "Thu, 19 Nov 2026 18:00:57 +0000",
       "summary": "Ceva and Mobilint collaborate on a production-ready edge AI SoC combining Ceva’s DSP and NPU for everyday devices.",
       "excerpt": "Physical AI is moving closer to everyday reality, and a new collaboration between Ceva and Mobilint offers an encouraging example of how that progress can reach commercial devices. Mobilint’s REGULUS edge AI System-on-Chip brings together Ceva’s SensPro AI DSP and NeuPro-Nano NPU, marking the first production deployment … Read More The post Ceva and Mobilint Bring Physical AI Closer to Everyday Devices appeared…",
+      "whyItMatters": "It enables smarter, low-power AI in consumer electronics, boosting performance and efficiency.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ip/ceva/375820-ceva-and-mobilint-bring-physical-ai-closer-to-everyday-devices/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It enables smarter, low-power AI in consumer electronics, boosting performance and efficiency."
+      "related": []
     },
     {
       "source": "Ars Technica",
@@ -146,12 +320,12 @@
       "published": "Thu, 19 Nov 2026 18:00:33 +0000",
       "summary": "Google will enforce Android app verification worldwide by January 2027, with most developers already compliant.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg",
+      "whyItMatters": "It ensures higher security and trust for users, impacting app distribution and developer compliance.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It ensures higher security and trust for users, impacting app distribution and developer compliance."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -162,12 +336,12 @@
       "summary": "London AI startup Model ML raised $250m, valuing it at $1.5bn to build AI agents for finance professionals.",
       "excerpt": "Model ML, a London startup that builds AI agents for bankers, consultants and investors, has raised $250m at a $1.5bn valuation. General Atlantic and QED Investors co-led the Series B round, the company said on Tuesday. Evolution Equity Partners, Airtree, Forestay Capital, Y Combinator, FT Partners, Latitude, Inception Fund and 13Books Capital also took part. […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/chaz-arnie-englander-model-ml-founders-london-rooftop.avif",
-      "score": 72,
+      "whyItMatters": "Tech-savvy readers see a major bet on AI tools reshaping banking and investment workflows.",
+      "score": 79,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/model-ml-250m-series-b-1-5bn-valuation-ai-agents-bankers",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers see a major bet on AI tools reshaping banking and investment workflows."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -178,38 +352,24 @@
       "summary": "Trump’s accounts traded Nvidia shares 103 times between Jan and Aug 2025, totaling $27M–$97.5M per CNBC analysis.",
       "excerpt": "President Donald Trump’s accounts have bought or sold Nvidia shares at least 103 times since January 2025, a CNBC analysis found. Luke Fountain’s review of the financial disclosures, updated through August, values the trades at $27M to $97.5M in total. The filings give dollar ranges rather than share counts. By the end of 2025, Nvidia […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/donald-trump-jensen-huang-white-house-cross-hall-podium.avif",
-      "score": 84,
+      "whyItMatters": "Shows potential insider influence on a major tech stock, relevant for market watchers and regulators.",
+      "score": 91,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/trump-nvidia-trades-97-5m-cnbc-huang-briefing",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows potential insider influence on a major tech stock, relevant for market watchers and regulators."
+      "related": []
     },
     {
       "source": "TechCrunch",
       "category": "news",
-      "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
       "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
       "published": "Thu, 19 Nov 2026 17:38:40 +0000",
       "summary": "Meta’s AI agent Muse mistakenly displays unrelated private messages and personal data, confusing users and revealing sensitive information.",
-      "score": 99,
+      "whyItMatters": "Tech readers should worry about privacy risks and AI reliability in corporate tools.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should worry about privacy risks and AI reliability in corporate tools."
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "Google staff push back on cutting off Search for schools that reject AI",
-      "link": "https://thenextweb.com/news/google-workers-petition-schools-search-without-ai",
-      "published": "Thu, 19 Nov 2026 17:36:23 +0000",
-      "summary": "More than 540 Google employees and contractors have signed a union petition asking the company to let K-12 schools use Search without its AI features, Bloomberg reported. Google plans to turn AI off by default for students, but schools…",
-      "excerpt": "More than 540 Google employees and contractors have signed a union petition asking the company to let K-12 schools use Search without its AI features, Bloomberg reported. Google plans to turn AI off by default for students, but schools that want Search must accept the AI that comes with it. More than 540 Google employees […] This story continues at The Next Web",
-      "score": 71,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/google-workers-petition-schools-search-without-ai",
       "clusterSize": 1,
       "related": []
     },
@@ -224,27 +384,6 @@
       "score": 99,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/google-selects-bezos-blue-origin-data-center-satellite-test",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/google-blue-origin-new-glenn-project-suncatcher-2029",
-          "title": "Google books Blue Origin’s New Glenn to launch its AI satellites in 2029"
-        }
-      ]
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "MegaRobo raises nearly $200M to let AI run real lab experiments",
-      "link": "https://thenextweb.com/news/megarobo-200m-oman-investment-authority-ai-lab-experiments",
-      "published": "Thu, 19 Nov 2026 17:11:56 +0000",
-      "summary": "Chinese lab automation company MegaRobo Technologies has raised nearly $200M in a round joined by the Oman Investment Authority and CMB International. It builds systems that let AI design experiments, run them in robotic labs and learn…",
-      "excerpt": "Chinese lab automation company MegaRobo Technologies has raised nearly $200M in a round joined by the Oman Investment Authority and CMB International. It builds systems that let AI design experiments, run them in robotic labs and learn from the results, and plans to expand across North America, Europe, the Middle East and Asia. China’s MegaRobo […] This story continues at The Next Web",
-      "image": "https://media.thenextweb.com/2026/10/ai-orange-neon-sign-dark-circuit-wall.avif",
-      "score": 71,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/megarobo-200m-oman-investment-authority-ai-lab-experiments",
       "clusterSize": 1,
       "related": []
     },
@@ -277,27 +416,6 @@
       "clusterId": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
       "clusterSize": 1,
       "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "U.S. Commerce Department Rushed to Clear Nvidia H200 Exports to China",
-      "link": "https://www.theinformation.com/articles/u-s-commerce-department-rushed-clear-nvidia-h200-exports-china",
-      "published": "2026-11-19T02:34:39.000Z",
-      "summary": "The U.S. Commerce Department expedited approvals for Nvidia H200 GPU exports to China, overriding internal objections.",
-      "excerpt": "In recent months, Jeffrey Kessler, the official overseeing the U.S. Bureau of Industry and Security, has pressured staff to expedite the approval of sales of Nvidia’s H200 graphics processing units to China, according to three people with knowledge of the matter. In some cases, Kessler directed staff at BIS —an agency under the Commerce Department—to approve the exports over objections from other U.S. government…",
-      "whyItMatters": "It highlights potential policy shifts affecting tech supply chains and national security.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/u-s-commerce-department-rushed-clear-nvidia-h200-exports-china",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/nvidia-h200-china-exports-commerce-kessler-the-information",
-          "title": "US official rushed Nvidia H200 approvals for China, The Information reports"
-        }
-      ]
     },
     {
       "source": "TechCrunch",
@@ -333,10 +451,26 @@
       "link": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
       "published": "Thu, 19 Nov 2026 16:00:00 +0000",
       "summary": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/11/67977d9dac0cf6bc4f8b12cd3a64c4867b87c2f1a9fffa39fc77255b7c0247c3-1920x1080-1.png",
       "readMinutes": 4,
-      "score": 92,
+      "score": 91,
       "isPrimary": true,
       "clusterId": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "European Commission scrambles to contain AI-assisted cyberattack",
+      "link": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+      "published": "Thu, 19 Nov 2026 15:14:54 +0000",
+      "summary": "Staff HR and medical reimbursement systems taken offline as officials investigate whether personal data was compromised",
+      "image": "https://image.theregister.com/?imageId=5311112&width=800",
+      "readMinutes": 2,
+      "score": 98,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
       "clusterSize": 1,
       "related": []
     },
@@ -387,9 +521,24 @@
       "summary": "Intel continues to reduce headcount, IT department affected this time.",
       "image": "https://cdn.mos.cms.futurecdn.net/HtxYQrfbwNDmi4SjXbdcqn-1920-80.jpg",
       "readMinutes": 2,
-      "score": 85,
+      "score": 84,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/cpus/intel-continues-layoffs-with-cuts-to-its-it-department-hundreds-of-employees-reportedly-affected-companys-workforce-reduced-by-27-800-under-lip-bu-tan",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Qualcomm offers test drive of its rack-scale Nvidia AI challenger",
+      "link": "https://www.theregister.com/systems/2026/11/19/qualcomm-offers-test-drive-of-its-rack-scale-nvidia-ai-challenger/5310966",
+      "published": "Thu, 19 Nov 2026 14:03:00 +0000",
+      "summary": "Selected customers can put Dragonfly AI200 through its paces on Cirrascale's cloud",
+      "image": "https://image.theregister.com/?imageId=5310970&width=800",
+      "readMinutes": 1,
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/systems/2026/11/19/qualcomm-offers-test-drive-of-its-rack-scale-nvidia-ai-challenger/5310966",
       "clusterSize": 1,
       "related": []
     },
@@ -431,7 +580,7 @@
       "summary": "There’s a new vibe-coded OS in town going by the name of LiberNT.",
       "image": "https://cdn.mos.cms.futurecdn.net/5p8cbG9PKWyM6kkPPAFXyP-1920-80.jpg",
       "readMinutes": 2,
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/software/windows/developer-vibe-codes-windows-11-alternative-operating-system-for-amd64-arm64-and-riscv64-hardware-libernt-is-a-free-64-bit-clone-promising-reliable-stable-and-efficient-performance",
       "clusterSize": 1,
@@ -446,7 +595,7 @@
       "summary": "Intel's 18A yields achieve an important milestone as the company signs a long-term Xeon supply deal and EMIB usage agreement with Microsoft.",
       "image": "https://cdn.mos.cms.futurecdn.net/hrvPDHp2MHzLKpBMubSioa-1920-80.jpg",
       "readMinutes": 3,
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology",
       "clusterSize": 1,
@@ -556,7 +705,7 @@
       "image": "https://cdn.mos.cms.futurecdn.net/YLHMPaFkhUHLEnWHhAFuBS-1920-80.jpg",
       "readMinutes": 3,
       "whyItMatters": "Tech users must patch Java immediately to prevent potential system compromise.",
-      "score": 91,
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/cyber-security/critical-java-vulnerability-puts-millions-of-sites-services-and-devices-at-risk-of-remote-code-execution-triggers-with-64-as-and-an-sign-openjdk-optimization-bug-lets-an-attacker-trigger-it-just-by-inputting-repeated-text",
       "clusterSize": 1,
@@ -711,15 +860,15 @@
     {
       "source": "The Information",
       "category": "news",
-      "title": "Anthropic’s Public Debut Looms",
-      "link": "https://www.theinformation.com/articles/anthropics-public-debut-looms",
-      "published": "2026-11-19T01:01:20.000Z",
-      "summary": "Anthropic’s IPO priced at $83 per share, valuing the company at roughly $1.5 trillion, marking a significant public debut in the AI sector.",
-      "excerpt": "We all need a break from the Nvidia soap opera, so we’re switching things up today and talking about that other drama percolating in the background—Anthropic’s public debut. The company behind Claude priced its initial public offering on Wednesday night at $83 a share, several dollars above its preliminary pricing range, and at a level that values the whole company at around $1.5 trillion. Seeing as this is the…",
-      "whyItMatters": "It signals major investor confidence and could reshape competitive dynamics for AI startups.",
+      "title": "U.S. Commerce Department Rushed to Clear Nvidia H200 Exports to China",
+      "link": "https://www.theinformation.com/articles/u-s-commerce-department-rushed-clear-nvidia-h200-exports-china",
+      "published": "2026-11-19T02:34:39.000Z",
+      "summary": "The U.S. Commerce Department expedited approvals for Nvidia H200 GPU exports to China, overriding internal objections.",
+      "excerpt": "In recent months, Jeffrey Kessler, the official overseeing the U.S. Bureau of Industry and Security, has pressured staff to expedite the approval of sales of Nvidia’s H200 graphics processing units to China, according to three people with knowledge of the matter. In some cases, Kessler directed staff at BIS —an agency under the Commerce Department—to approve the exports over objections from other U.S. government…",
+      "whyItMatters": "It highlights potential policy shifts affecting tech supply chains and national security.",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/anthropics-public-debut-looms",
+      "clusterId": "https://www.theinformation.com/articles/u-s-commerce-department-rushed-clear-nvidia-h200-exports-china",
       "clusterSize": 1,
       "related": []
     },
@@ -739,35 +888,6 @@
       "related": []
     },
     {
-      "source": "The Information",
-      "category": "news",
-      "title": "At All Hands, Nvidia Interim CEO Tried To Reassure Employees, Prevent Talent Loss",
-      "link": "https://www.theinformation.com/briefings/hands-nvidia-interim-ceo-tried-reassure-employees-prevent-talent-loss",
-      "published": "2026-11-18T23:58:51.000Z",
-      "summary": "Nvidia interim CEO Colette Kress addressed employees in an all‑hands meeting, promising pay raises and equity to curb talent loss.",
-      "excerpt": "In Nvidia’s all-hands meeting Wednesday, interim CEO Colette Kress tried to soothe employees and prevent a potential talent exodus, according to people present at the meeting. She told employees that they can expect pay raises and more equity at the end of this year. Kress’ remarks come after ...",
-      "whyItMatters": "Tech leaders need to know how Nvidia’s leadership actions affect its talent pipeline and market confidence.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/hands-nvidia-interim-ceo-tried-reassure-employees-prevent-talent-loss",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "published": "Wed, 18 Nov 2026 23:45:00 +0000",
-      "summary": "Microsoft CEO Satya Nadella says many critical infrastructures are unpatchable amid AI cyberattack fears, downplaying Outlook outage and highlighting AI’s dual impact on security.",
-      "whyItMatters": "Tech leaders must rethink patch strategies and AI defenses for resilient infrastructure.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
       "source": "SemiWiki",
       "category": "news",
       "title": "Semiconductor Market Doubling in 2026 – Last Issue",
@@ -783,21 +903,6 @@
       "related": []
     },
     {
-      "source": "SemiWiki",
-      "category": "news",
-      "title": "CTO Interview with Dr. Valerio Tenace of ChipNexus",
-      "link": "https://semiwiki.com/eda/chipnexus/376283-cto-interview-with-dr-valerio-tenace-of-chipnexus/",
-      "published": "Wed, 18 Nov 2026 20:00:27 +0000",
-      "summary": "Dr. Valerio Tenace, CTO of ChipNexus, discusses the company’s agentic AI tools for automating semiconductor and hardware design.",
-      "excerpt": "Dr. Valerio Tenace is CTO and Co-Founder of ChipNexus, developer of agentic AI software for semiconductor and hardware design, and an expert in hardware design automation and machine learning applications for electronic systems. In his role at ChipNexus, Valerio drives the technical vision and architecture behind its NEX … Read More The post CTO Interview with Dr. Valerio Tenace of ChipNexus appeared first on…",
-      "whyItMatters": "Tech leaders should learn how AI can accelerate chip design, reduce costs, and shorten time to market.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://semiwiki.com/eda/chipnexus/376283-cto-interview-with-dr-valerio-tenace-of-chipnexus/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
       "source": "MIT Technology Review",
       "category": "news",
       "title": "The AI Hype Index: AI is everywhere",
@@ -805,7 +910,8 @@
       "published": "Wed, 18 Nov 2026 14:42:44 +0000",
       "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered…",
       "excerpt": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and…",
-      "score": 90,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/11-Hype-thumb2.jpg?resize=1200,600",
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
       "clusterSize": 1,
@@ -821,7 +927,7 @@
       "excerpt": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-2-1.jpg",
       "readMinutes": 6,
-      "score": 74,
+      "score": 73,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
       "clusterSize": 1,
@@ -853,7 +959,7 @@
       "excerpt": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Copy-of-Copy-of-BH1_6183_Ben_Hider_250430.jpg?w=840",
       "readMinutes": 5,
-      "score": 89,
+      "score": 88,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
       "clusterSize": 1,
@@ -883,7 +989,7 @@
       "image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-at-3.04.41-PM.png?resize=1716%2C538&ssl=1",
       "readMinutes": 6,
       "whyItMatters": "Tech-savvy readers care because successful automation could drastically cut design cycles and costs.",
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
       "clusterSize": 2,
@@ -917,7 +1023,7 @@
       "link": "https://openai.com/business/customer-stories/sumitomo-life",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
       "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "score": 74,
+      "score": 73,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/sumitomo-life",
       "clusterSize": 1,
@@ -930,7 +1036,7 @@
       "link": "https://openai.com/index/research-acceleration-jagged-frontier",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
       "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "score": 80,
+      "score": 79,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/research-acceleration-jagged-frontier",
       "clusterSize": 1,
@@ -943,7 +1049,7 @@
       "link": "https://openai.com/index/inside-the-codex-sandbox",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
       "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "score": 74,
+      "score": 73,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/inside-the-codex-sandbox",
       "clusterSize": 1,
@@ -956,7 +1062,7 @@
       "link": "https://openai.com/index/managing-frontier-ai-risk",
       "published": "Wed, 18 Nov 2026 06:00:00 GMT",
       "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "score": 79,
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/managing-frontier-ai-risk",
       "clusterSize": 1,
@@ -973,7 +1079,7 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/11/zoom-reporturi.png",
       "readMinutes": 5,
       "whyItMatters": "Tech users should monitor Optimizely updates to protect high‑traffic sites from silent malware injection.",
-      "score": 66,
+      "score": 65,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
       "clusterSize": 1,
@@ -1005,7 +1111,7 @@
       "excerpt": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/11/01-participating-projects.png?resize=1024%2C576",
       "readMinutes": 8,
-      "score": 76,
+      "score": 75,
       "isPrimary": true,
       "clusterId": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
       "clusterSize": 1,
@@ -1018,7 +1124,7 @@
       "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "published": "Tue, 17 Nov 2026 17:45:00 GMT",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-      "score": 75,
+      "score": 74,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "clusterSize": 2,
@@ -1043,14 +1149,8 @@
       "score": 65,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
-          "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics"
-        }
-      ]
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "IEEE Spectrum",
@@ -1392,6 +1492,7 @@
       "link": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
       "published": "Tue, 03 Nov 2026 16:00:00 +0000",
       "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog.",
+      "image": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720",
       "readMinutes": 4,
       "score": 71,
       "isPrimary": true,
