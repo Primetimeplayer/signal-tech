@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-19T11:51:47.287Z",
+  "updated": "2026-11-19T19:10:04.944Z",
   "count": 10,
   "items": [
+    {
+      "source": "The Verge Reviews",
+      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "published": "2026-11-19T13:00:00.000Z",
+      "summary": "Apple’s Siri Recap on the Apple Watch Ultra 4 uses AI to ambiently listen and summarize conversations, helping users remember and stay present.",
+      "excerpt": "Siri Recap can be turned on or off manually from the wrist. Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can remember better and, hopefully, stay more present. The main…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268874_siri_recaps_AKrales_0070.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy readers care because it showcases AI’s evolving role in personal productivity and privacy implications."
+    },
     {
       "source": "The Verge Reviews",
       "title": "The iPhone Duo feels far more intuitive with Apple’s new face unlock",
@@ -91,16 +101,6 @@
       "excerpt": "Apple’s first smart display is finally here. And it’s good. | Photo: Hunter McRae for The Verge The HomeView nails everything I want from a smart display. It's superb at controlling my smart home; it's an excellent hands-free kitchen companion, a good speaker, and a gorgeous digital photo frame. It's also the first Apple smart speaker with Siri AI, which is an improvement, if still slow at times. But Apple has…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268864_Smart_home_photos_HMCRAE74.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "Tech readers value Apple’s integration and design, but may question Siri’s performance and device suitability for families."
-    },
-    {
-      "source": "The Verge Reviews",
-      "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
-      "link": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
-      "published": "2026-11-11T22:00:00.000Z",
-      "summary": "Home Assistant Connect Aux‑2 is a multi‑function box that lets users integrate non‑smart devices into their smart home setup.",
-      "excerpt": "The Aux-2 can be many things. Even a hat for your amp! | Photo: Nathan Edwards / The Verge Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-friendly. And it's working. I've…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/aux2-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It expands Home Assistant’s reach, making smart‑home control easier for tech‑savvy users who want broader device compatibility."
     }
   ]
 }
