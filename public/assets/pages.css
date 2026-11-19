@@ -3,7 +3,6 @@
    come from the same surfaces home.css gives the home page. */
 
 .site-page .page-wrap { padding-top: 24px; }
-.site-page .mast .wordmark { text-decoration: none; color: inherit; }
 .site-page .page-main { display: block; min-width: 0; }
 .site-page footer { margin-top: 40px; }
 
@@ -12,6 +11,11 @@
 @media (max-width: 800px) {
   .site-page .mast-right .mast-link { display: inline-flex !important; align-items: center; }
   .site-page .mast-right .mast-account { display: inline-flex; }
+}
+@media (max-width: 360px) {
+  .site-page .mast-row { column-gap: 8px !important; }
+  .site-page .mast-right { gap: 4px; }
+  .site-page .mast-right a.mast-link { padding-inline: 6px !important; }
 }
 .site-page .mast-link[aria-current="page"] { text-decoration: underline; text-underline-offset: 4px; }
 
