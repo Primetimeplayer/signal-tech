@@ -9462,4 +9462,20 @@ main .grid,
   body.home-page #river {
     margin-inline: 0;
   }
+
+  /* Our take issue stack: on phones the older and newer layers keep the
+     front card's full width, so all of them sit on the 8px page gutter.
+     Spread 0 keeps a layer the same width as the card; the fill uses
+     spread -1px so the 1px outline shows on the sides, as on the card.
+     Visible depth below the card stays 4/5px (layer 1) and 8/9px
+     (layer 2), and 4/5px above for the newer layer, as before. */
+  body.home-page #signalStrip.is-stack {
+    box-shadow:
+      0 5px 0 -1px var(--signal-older-1),
+      0 5px 0 0 var(--signal-older-1-edge),
+      0 9px 0 -1px var(--signal-older-2),
+      0 9px 0 0 var(--signal-older-2-edge),
+      0 -5px 0 -1px var(--signal-newer),
+      0 -5px 0 0 var(--signal-newer-edge);
+  }
 }
