@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>How to choose (and switch) an inference engine without locking your team in: a practical decision framework — Signal Tech</title>
+<meta name="description" content="A practical guide to choosing an LLM inference engine, comparing cost and latency under load, and testing a switch before you need one.">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/blog/inference-engine-decision-framework">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="How to choose (and switch) an inference engine without locking your team in: a practical decision framework — Signal Tech">
+<meta property="og:description" content="A practical guide to choosing an LLM inference engine, comparing cost and latency under load, and testing a switch before you need one.">
+<meta property="og:url" content="https://signaltechnews.com/blog/inference-engine-decision-framework">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="How to choose (and switch) an inference engine without locking your team in: a practical decision framework — Signal Tech">
+<meta name="twitter:description" content="A practical guide to choosing an LLM inference engine, comparing cost and latency under load, and testing a switch before you need one.">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://signaltechnews.com/blog/inference-engine-decision-framework#post",
+      "headline": "How to choose (and switch) an inference engine without locking your team in: a practical decision framework",
+      "description": "A practical guide to choosing an LLM inference engine, comparing cost and latency under load, and testing a switch before you need one.",
+      "datePublished": "2026-11-19",
+      "dateModified": "2026-11-19",
+      "inLanguage": "en-GB",
+      "url": "https://signaltechnews.com/blog/inference-engine-decision-framework",
+      "image": "https://signaltechnews.com/assets/og-preview.png",
+      "author": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "@id": "https://signaltechnews.com/blog#page",
+        "url": "https://signaltechnews.com/blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://signaltechnews.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://signaltechnews.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to choose (and switch) an inference engine without locking your team in: a practical decision framework",
+          "item": "https://signaltechnews.com/blog/inference-engine-decision-framework"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page blog-post">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a href="/" class="wordmark" aria-label="Signal Tech home">
+        <img class="wordmark-mark" src="/assets/wordmark-s.svg" width="30" height="30" alt="">
+        <span>Tech</span>
+      </a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <a class="mast-link" href="/blog">Blog</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main" tabindex="-1">
+    <article class="issue-article">
+      <header class="page-head">
+        <p class="page-kicker">Guide</p>
+        <h1 class="page-title">How to choose (and switch) an inference engine without locking your team in: a practical decision framework</h1>
+        <p class="page-sub">Innocent Ncube, based in Poland · <time datetime="2026-11-19">Thursday, 19 November 2026</time></p>
+      </header>
+      <div class="issue-body blog-body">
+<p>An inference engine can look like an infrastructure choice until its chat templates, streaming events, and GPU assumptions make their way into your application. If you lead a team shipping an LLM feature, choose the engine that meets your workload today and prove that you can route the same requests to a second one. That second deployment will tell you where the lock-in actually lives.</p>
+<h2>1. Write down what the workload needs</h2>
+<p>Start with one production route. A chat assistant with long prompts and short answers has different needs from a batch extraction job that can run overnight. Give each workload its own targets.</p>
+<ul>
+<li><strong>Traffic.</strong> Record typical and long-tail input and output lengths, peak concurrency, burst patterns, and how often requests share a prefix.</li>
+<li><strong>Latency.</strong> Set a p95 time-to-first-token target for streaming, a target for the gap between tokens, and an end-to-end deadline. For batch jobs, specify how much work must finish by when.</li>
+<li><strong>Correctness.</strong> List the model revision, context length, and behaviours you rely on, including JSON schema validation, tool calls, and streaming. Define what a successful response looks like.</li>
+<li><strong>Constraints.</strong> Record the hardware you can provision, where data can be processed, and who will own upgrades, capacity, and incidents.</li>
+</ul>
+<p>Treat these as gates. If a candidate can’t reliably return valid tool arguments or fit your longest supported request at target concurrency, a higher tokens-per-second result won’t get it into production.</p>
+<h2>2. Shortlist two engines</h2>
+<p>Pick a baseline and one credible alternative. Put the rest aside until you have a reason to test them.</p>
+<div class="blog-table">
+<table>
+<thead>
+<tr><th>Option</th><th>When to try it</th><th>What to verify</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>vLLM</strong></td><td>You want a baseline for shared GPU serving with an OpenAI-compatible API.</td><td>Check the exact model, quantisation, and serving features on your target accelerator. CUDA and ROCm support are a starting point. <a href="https://docs.vllm.ai/en/stable/serving/online_serving/openai_compatible_server/" rel="noopener">API docs</a> · <a href="https://docs.vllm.ai/en/stable/getting_started/installation/gpu/index.html" rel="noopener">GPU support</a></td></tr>
+<tr><td><strong>TensorRT-LLM</strong></td><td>You expect to stay on NVIDIA for this workload and have enough traffic to justify tuning for a specific GPU and precision.</td><td>Pin the release before benchmarking. NVIDIA’s current migration guide documents removal of the legacy TensorRT engine backend, so older build instructions can send you down the wrong path. <a href="https://nvidia.github.io/TensorRT-LLM/latest/legacy/tensorrt-backend-removal.html" rel="noopener">NVIDIA migration guide</a></td></tr>
+<tr><td><strong>TGI</strong></td><td>An existing deployment meets its targets and moving it today would interrupt higher-priority work.</td><td>Hugging Face puts TGI in maintenance mode and recommends alternatives such as vLLM and SGLang. Set a migration trigger if model support, fixes, or platform compatibility become a problem. <a href="https://huggingface.co/docs/text-generation-inference/en/index" rel="noopener">Hugging Face documentation</a></td></tr>
+<tr><td><strong>llama.cpp / llamafile</strong></td><td>You’re serving a quantised model locally, on a workstation, or on a small edge deployment. Use <code>llama-server</code> for a network interface or evaluate llamafile when single-file distribution matters.</td><td>Measure memory use and generation speed on the machine that will run it. Keep the GGUF file reproducible from your upstream checkpoint where licensing permits. <a href="https://github.com/ggml-org/llama.cpp" rel="noopener">llama.cpp</a> · <a href="https://github.com/mozilla-ai/llamafile" rel="noopener">llamafile</a></td></tr>
+<tr><td><strong>SGLang</strong></td><td>Your application repeatedly sends long shared prefixes, such as stable system prompts or tool definitions.</td><td>Measure prefix reuse with realistic traffic, including cold requests and concurrent tenants. Test the model and the structured outputs your application actually consumes. <a href="https://github.com/sgl-project/sglang" rel="noopener">SGLang documentation</a></td></tr>
+<tr><td><strong>Managed endpoint</strong></td><td>Your team needs to ship without owning the serving fleet, or traffic is intermittent enough to test usage-based capacity.</td><td>Check cold starts, minimum replicas, quotas, model revision controls, data retention, and what you can export. Dedicated capacity and scale-to-zero have different cost and latency profiles. <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html" rel="noopener">AWS serverless inference documentation</a></td></tr>
+</tbody>
+</table>
+</div>
+<h2>3. Compare work that meets your targets</h2>
+<p>Replay the same sanitised requests, arrival pattern, and output limits. Keep the model revision, tokenizer, and precision fixed for the first comparison where possible. If a candidate needs different weights or quantisation, record that difference and rerun the quality checks before comparing cost.</p>
+<ol>
+<li><strong>Run warm and cold tests.</strong> Include a steady load, a burst, and a cold replica. Record p95 first-token and end-to-end latency alongside errors, timeouts, and queue depth. A run built around one repeated prompt can overstate the benefit of prefix caching.</li>
+<li><strong>Count usable throughput.</strong> Increase load until the system misses a latency, quality, or error-rate target. Compare successful requests per second below that point. For extraction, count responses that pass schema validation. For tool calling, count valid tool names and arguments.</li>
+<li><strong>Price the whole run.</strong> Divide total serving cost by the number of requests that met your targets. Include idle replicas, spare capacity, managed fees, and relevant network charges. Keep operations effort visible alongside that figure. Someone still has to patch, monitor, and roll back the service.</li>
+<li><strong>Test one failure.</strong> Restart a replica under load or hit a known quota in staging. Check how quickly capacity returns and whether clients cancel, time out, or pile on retries.</li>
+</ol>
+<h2>4. Keep the parts you’ll need to switch</h2>
+<p>Use an OpenAI-compatible API as a starting point, then put a small adapter between it and your application. Keep the model alias, endpoint, credentials, and engine-specific settings behind that boundary. Write contract tests for the few behaviours you depend on, including streamed tool arguments, finish reasons, stop sequences, and errors. Matching route names makes the first call easier. Your tests establish whether the response is safe to consume.</p>
+<p>Keep three things under your control.</p>
+<ul>
+<li><strong>Model artefacts.</strong> Pin the source weights, tokenizer, chat template, and generation defaults. Keep conversion commands and checksums for GGUF files, quantised weights, and proprietary engine artefacts. If a provider won’t let you export weights or pin a revision, qualify your fallback as a model change and rerun the quality evaluation.</li>
+<li><strong>Deployment artefacts.</strong> Pin the engine image by digest and record the host driver and accelerator requirements. Use separate images where the hardware stack requires them. Keep custom CUDA kernels and vendor-specific optimisations in the serving layer, with a tested fallback for the features you need.</li>
+<li><strong>Traffic controls.</strong> Put the backend choice in configuration. Replay requests in staging, then send a small share of live traffic to the candidate. Agree on rollback thresholds before the canary. Keep in-flight streams on their original backend, and keep the old deployment warm until you’ve tested switching traffic back.</li>
+</ul>
+<h2>Decision checklist for this week</h2>
+<div class="blog-table">
+<table>
+<thead>
+<tr><th>Check</th><th>Done?</th></tr>
+</thead>
+<tbody>
+<tr><td>We chose one workload and wrote down its latency, quality, and error-rate targets.</td><td>☐</td></tr>
+<tr><td>Two candidates can handle the longest supported request and the API features we use.</td><td>☐</td></tr>
+<tr><td>We measured cost per successful request under realistic load, including idle capacity.</td><td>☐</td></tr>
+<tr><td>We know which weights, kernels, and provider features would have to change if we moved.</td><td>☐</td></tr>
+<tr><td>We can switch backends in staging and roll back without shipping application code.</td><td>☐</td></tr>
+</tbody>
+</table>
+</div>
+<h2>What to do next</h2>
+<ol>
+<li>Pick one production route and build a small, sanitised replay set.</li>
+<li>Run your current backend and one alternative through the same load and contract tests.</li>
+<li>Write a one-page decision record with the winning configuration, its dependencies, and the conditions that would trigger a switch.</li>
+<li>Assign an owner to rehearse the switch and rollback in staging before the next major model or hardware change.</li>
+</ol>
+      </div>
+      <section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Get Signal Tech every Friday</h2>
+    <p class="newsletter-note">One big story, quick hits and a Tool of the Week. Free, 5-minute read.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+    <p class="newsletter-success" id="newsletterThanks" role="status" hidden></p>
+    <p class="newsletter-alt"><a href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=blog&amp;utm_campaign=inference-engine-decision-framework" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>
+  </section>
+      <nav class="page-actions issue-nav" aria-label="More posts">
+        <a class="page-btn" rel="prev" href="/blog/ai-accelerator-portability-checklist">&larr; Previous</a>
+        <a class="page-btn" href="/blog">All posts</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/methodology">How we select</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+
+</body>
+</html>

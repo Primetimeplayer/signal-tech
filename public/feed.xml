@@ -5,13 +5,21 @@
     <link>https://signaltechnews.com/</link>
     <description>The Signal Tech newsletter, weekly digests and original blog guides: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 16 Nov 2026 23:37:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>How to choose (and switch) an inference engine without locking your team in: a practical decision framework</title>
+      <link>https://signaltechnews.com/blog/inference-engine-decision-framework</link>
+      <guid isPermaLink="true">https://signaltechnews.com/blog/inference-engine-decision-framework</guid>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Blog</category>
+      <description>A practical guide to choosing an LLM inference engine, comparing cost and latency under load, and testing a switch before you need one.</description>
+    </item>
     <item>
       <title>Signal Weekly — Nov 9–Nov 16, 2026</title>
       <link>https://signaltechnews.com/digests/2026-11-16</link>
