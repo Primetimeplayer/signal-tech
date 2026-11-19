@@ -1,327 +1,356 @@
 {
-  "updated": "2026-11-19T02:39:11.230Z",
+  "updated": "2026-11-19T09:30:18.128Z",
   "count": 20,
   "items": [
     {
-      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-      "summary": "The paper proposes Ambient LLMs, using temperature matching to enable data‑efficient supervised fine‑tuning, reducing overfitting and preserving tail knowledge.",
-      "link": "http://arxiv.org/abs/2611.23229v1",
-      "published": "2026-11-17T18:59:37Z",
+      "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
+      "summary": "The paper introduces JDPI, using contrastive prototypes to detect jailbreaks in LLMs without extra classifiers.",
+      "link": "http://arxiv.org/abs/2611.24936v1",
+      "published": "2026-11-18T18:56:12Z",
       "authors": [
-        "Giannis Daras",
-        "Marios Papachristou",
-        "Adam Klivans",
-        "Antonio Torralba",
-        "Constantinos Daskalakis"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "whyItMatters": "Tech readers care because it offers a cheaper, more robust way to adapt large models without massive new data."
-    },
-    {
-      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-      "summary": "Spool presents a low‑latency streaming inference system for hybrid vision‑language models that efficiently handles sliding windows of recent video frames.",
-      "link": "http://arxiv.org/abs/2611.23228v1",
-      "published": "2026-11-17T18:59:27Z",
-      "authors": [
-        "Rui Ning",
-        "Om Chabra",
-        "Hari Balakrishnan"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "It enables real‑time visual AI in accessibility tools and robotics, reducing computational cost while keeping up with live video."
-    },
-    {
-      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-      "summary": "StringQFT is an 18-volume textbook collection on string constructions of QFT, designed for AI-assisted theoretical physics research.",
-      "link": "http://arxiv.org/abs/2611.23225v1",
-      "published": "2026-11-17T18:58:40Z",
-      "authors": [
-        "Xingyang Yu"
-      ],
-      "categories": [
-        "hep-th",
-        "cs.AI"
-      ],
-      "whyItMatters": "It offers a comprehensive, AI-ready resource for advanced string theory and QFT studies."
-    },
-    {
-      "title": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
-      "summary": "The paper introduces a stochastic variance-reduced gradient method that guarantees near-feasible solutions for constrained convex finite-sum optimization problems.",
-      "link": "http://arxiv.org/abs/2611.23221v1",
-      "published": "2026-11-17T18:57:16Z",
-      "authors": [
-        "Zhaosong Lu",
-        "Yifeng Xiao"
-      ],
-      "categories": [
-        "math.OC",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers benefit from efficient, constraint‑respecting algorithms for large‑scale machine learning tasks."
-    },
-    {
-      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-      "summary": "The paper examines whether advanced LLM agents can autonomously self-improve using basic primitives, questioning the necessity of human guidance in their optimization.",
-      "link": "http://arxiv.org/abs/2611.23219v1",
-      "published": "2026-11-17T18:57:10Z",
-      "authors": [
-        "Shobhita Sundaram",
-        "Cansu Sancaktar",
-        "Phillip Isola"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "whyItMatters": "Understanding autonomous self-optimization informs future AI development and reduces reliance on human oversight."
-    },
-    {
-      "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
-      "summary": "The article critiques head-level bias attribution methods, showing their head maps correlate with response length rather than true bias, using Qwen-2.5-7B and Llama-3.1-8B.",
-      "link": "http://arxiv.org/abs/2611.23218v1",
-      "published": "2026-11-17T18:57:08Z",
-      "authors": [
-        "S. M Seefat Alam"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers should question bias-removal techniques that lack rigorous validation, impacting model fairness and deployment."
-    },
-    {
-      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
-      "summary": "The article examines whether higher benchmark scores in coding models translate to increased real-world productivity, using a recent export ban on Claude Fable 5 as a case study.",
-      "link": "http://arxiv.org/abs/2611.23216v1",
-      "published": "2026-11-17T18:56:42Z",
-      "authors": [
-        "Yining Hua"
-      ],
-      "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "whyItMatters": "It questions the practical value of benchmark bragging, informing developers on model selection."
-    },
-    {
-      "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
-      "summary": "ID-MAE uses a multimodal masked-diffusion autoencoder to self-supervise impairment prediction from driving data.",
-      "link": "http://arxiv.org/abs/2611.23211v1",
-      "published": "2026-11-17T18:50:22Z",
-      "authors": [
-        "John Gideon",
-        "Anshul Gupta",
-        "Megan Applegate-Kenton",
-        "Kayli Battel",
-        "Todd J Rowell",
-        "Patricio Reyes Gomez",
-        "Laporsha Dees",
-        "Emily Sumner",
-        "Avinash Balachandran",
-        "Guy Rosman"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "whyItMatters": "It reduces costly labeling, improving AI driver-assist systems’ accuracy and safety."
-    },
-    {
-      "title": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
-      "summary": "The paper introduces a distortion‑free watermarking method for black‑box generative models that preserves output quality while enabling detection.",
-      "link": "http://arxiv.org/abs/2611.23208v1",
-      "published": "2026-11-17T18:49:17Z",
-      "authors": [
-        "Aviv Yossef",
-        "Or Patashnik",
-        "Or Zamir"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CR",
-        "cs.CV"
-      ],
-      "whyItMatters": "It offers a reliable way to trace model outputs without compromising performance, crucial for accountability and IP protection."
-    },
-    {
-      "title": "Reading Scene States: Uncovering Safety Failures in Vision-Language Models",
-      "summary": "The paper reveals that vision-language models can inadvertently reveal harmful content by interpreting scene states and introduces SceneSafetyBench to test this vulnerability.",
-      "link": "http://arxiv.org/abs/2611.23206v1",
-      "published": "2026-11-17T18:48:02Z",
-      "authors": [
-        "Tongxi Wu",
-        "Yuyang Cheng",
-        "Jiacheng Xian",
-        "Menglin Yang",
-        "Kai Chen",
-        "Jian Zhang",
-        "Yang Gao"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "whyItMatters": "Tech readers should know VLMs can expose hidden dangers, impacting safety and trust in AI systems."
-    },
-    {
-      "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
-      "summary": "Fine-tuning Gemma 4 edge models on a laptop’s iGPU for MATLAB signal‑processing tasks using SFT, LoRA, and QLoRA to correct DSP errors.",
-      "link": "http://arxiv.org/abs/2611.23205v1",
-      "published": "2026-11-17T18:47:37Z",
-      "authors": [
-        "Mehmet Altan Toksöz"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.SE",
-        "eess.SP"
-      ],
-      "whyItMatters": "It enables efficient, accurate DSP coding on low‑power devices, saving time and resources for engineers."
-    },
-    {
-      "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
-      "summary": "The article introduces Agent Trust Infrastructure (ATI), a framework for verifying identity, integrity, and authorization of AI agents collaborating across organizations.",
-      "link": "http://arxiv.org/abs/2611.23202v1",
-      "published": "2026-11-17T18:44:25Z",
-      "authors": [
-        "Viet K. Nguyen",
-        "Mohammad I. Husain"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "It enables secure, accountable cross‑org AI collaboration, crucial for enterprise deployments."
-    },
-    {
-      "title": "Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency",
-      "summary": "Trajectory prediction models for automated driving are usually trained on data with a fixed sampling frequency, while positions received via vehicle-to-everything (V2X) communication arrive at 1-10 Hz. We study whether a learned predictor that uses only the observation history keeps its advantage over constant velocity (CV) and constant acceleration (CA) models when the history frequency drops…",
-      "link": "http://arxiv.org/abs/2611.23198v1",
-      "published": "2026-11-17T18:38:28Z",
-      "authors": [
-        "Nukhbala Gadzhiev",
-        "Alexander Morochko"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.RO"
-      ]
-    },
-    {
-      "title": "Structure--Residual Inductive Biases for Language Model Pretraining",
-      "summary": "Next-token prediction is relied upon to learn both predictive behavior and internal representations. We ask whether representation structure itself should be an explicit inductive bias. Motivated by the two-part coding view of Kolmogorov complexity, we study a structure--residual principle in which a representation separates structure from realization detail. We instantiate this principle in two…",
-      "link": "http://arxiv.org/abs/2611.23197v1",
-      "published": "2026-11-17T18:38:27Z",
-      "authors": [
-        "Hai Huang",
-        "Bartosz Żuk",
-        "Rassul Magauin",
-        "Jiaxin Huang",
-        "Xue Liu"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "WoRD: Diffusion-Based Posterior Inference for Online Goal Recognition",
-      "summary": "Goal recognition is the task of inferring an agent's intended goal from its observed behavior. Most existing work focuses on high-level symbolic recognition, abstracting away the continuous motion through which agents reach their goal. Methods that do reason over continuous trajectories rely on an explicit dynamics model that is hard to acquire and rarely transfers across settings. Neither…",
-      "link": "http://arxiv.org/abs/2611.23192v1",
-      "published": "2026-11-17T18:35:53Z",
-      "authors": [
-        "Almog Anschel",
-        "Sarah Keren"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.LG",
-        "cs.RO"
-      ]
-    },
-    {
-      "title": "Retrieval-Augmented Correction for Generalist Medical Image Segmentation",
-      "summary": "Automated segmentation is routinely used as the first step in quantitative image-based clinical workflows, where predicted masks are subsequently reviewed and corrected by human operators. Automated correction of the residual structural errors is currently addressed one anatomy at a time, so the number of trained correctors scales with the number of segmentation targets. We present GRACE, a…",
-      "link": "http://arxiv.org/abs/2611.23189v1",
-      "published": "2026-11-17T18:33:42Z",
-      "authors": [
-        "Vincenzo Marcianò",
-        "Xiaoming Zhang",
-        "Michela Antonelli",
-        "Sebastien Ourselin",
-        "Maria A Zuluaga"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Polarity Composition Hypothesis: Causal Evidence from Negation in NLI",
-      "summary": "We investigate how language models process negation in natural language inference (NLI). We propose the Polarity Composition Hypothesis, a high-level causal model of this computation. Behavioral evaluations show that language-model predictions largely conform to the proposed hypothesis. Using Distributed Alignment Search, we identify causally effective subspaces aligned with the variables in the…",
-      "link": "http://arxiv.org/abs/2611.23185v1",
-      "published": "2026-11-17T18:30:35Z",
-      "authors": [
-        "Nhi Hoai Doan",
-        "Tatsuya Hiraoka",
-        "Munachiso Samuel Nwadike",
-        "Kentaro Inui"
+        "Yan Qiu",
+        "Yuanyuan Li"
       ],
       "categories": [
         "cs.CL"
-      ]
+      ],
+      "whyItMatters": "It offers a lightweight, label‑efficient safety check for deploying safer AI systems."
     },
     {
-      "title": "Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models",
-      "summary": "Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and their lower hallucination rates bring no significant gain in set-level object F1 on CHAIR. We therefore ask how much of the PO gain the base model can reproduce by…",
-      "link": "http://arxiv.org/abs/2611.23179v1",
-      "published": "2026-11-17T18:24:58Z",
+      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+      "summary": "The article proposes a trait theory that identifies metacognitive calibration as the key factor determining a human reviewer's value in human‑AI decision systems.",
+      "link": "http://arxiv.org/abs/2611.24932v1",
+      "published": "2026-11-18T18:55:07Z",
       "authors": [
-        "Hansang Lee"
+        "Priyanka Sinha",
+        "Sugam Pandey"
       ],
       "categories": [
-        "cs.CV",
+        "cs.AI",
+        "cs.CE",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "whyItMatters": "Understanding calibration helps design better AI‑human collaboration, improving decision accuracy and efficiency."
+    },
+    {
+      "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+      "summary": "The article maps the AI supply chain, detailing how various organizations contribute models, data, compute, capital, and talent across the AI stack.",
+      "link": "http://arxiv.org/abs/2611.24927v1",
+      "published": "2026-11-18T18:53:58Z",
+      "authors": [
+        "Sarah H. Cen",
+        "Lindsey A. Gailmard",
+        "Joohan Kim",
+        "Rishi Bommasani",
+        "Daniel E. Ho",
+        "Percy Liang"
+      ],
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "whyItMatters": "Understanding these dependencies reveals vulnerabilities and market concentration, helping tech leaders assess risk and strategic positioning."
+    },
+    {
+      "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+      "summary": "The article discusses a new beta framework for agentic harness engineering that focuses on evolving agent harnesses based on explicit and implicit user requirements.",
+      "link": "http://arxiv.org/abs/2611.24924v1",
+      "published": "2026-11-18T18:52:13Z",
+      "authors": [
+        "Jiahang Lin",
+        "Jiahao Chen",
+        "Yiding Wang",
+        "Shichun Liu",
+        "Chengjun Pan",
+        "Shihan Dou",
+        "Honglin Guo",
+        "Yuyang Hu",
+        "Changhao Jiang",
+        "Zhenhua Han",
+        "Hang Yan",
+        "Qi Zhang",
+        "Tao Gui",
+        "Xuanjing Huang"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it promises more adaptable, user-centered AI systems that reduce narrow, brittle updates."
+    },
+    {
+      "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
+      "summary": "The paper analyzes how SGD updates in two‑layer neural nets split into teacher‑aligned signals and orthogonal noise, revealing spikes and variance inflation in generalization.",
+      "link": "http://arxiv.org/abs/2611.24908v1",
+      "published": "2026-11-18T18:43:40Z",
+      "authors": [
+        "Samet Demir",
+        "Zafer Dogan"
+      ],
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "whyItMatters": "Understanding these dynamics helps tech‑savvy readers design better training regimes and diagnose overfitting in deep models."
+    },
+    {
+      "title": "Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators",
+      "summary": "The paper introduces a framework using minimal homogeneous generators to build equivariant polynomial features for learning functions between group representations.",
+      "link": "http://arxiv.org/abs/2611.24896v1",
+      "published": "2026-11-18T18:37:02Z",
+      "authors": [
+        "Michael Liaofan Liu",
+        "Joe Kileel"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "whyItMatters": "It offers a unified, efficient method for designing symmetry-aware models in AI and physics."
+    },
+    {
+      "title": "On Evaluating User Simulators for Interactive Agents",
+      "summary": "The article discusses the lack of reliable methods to evaluate user simulators for interactive agents.",
+      "link": "http://arxiv.org/abs/2611.24892v1",
+      "published": "2026-11-18T18:34:23Z",
+      "authors": [
+        "Hengguang Zhou",
+        "I-Hung Hsu",
+        "Li Chen",
+        "Priyanshi Shrivastava",
+        "Anastasios Angelopoulos",
+        "Wei-Lin Chiang",
+        "Ion Stoica",
+        "Cho-Jui Hsieh"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "Understanding simulator quality is key for trustworthy AI agent testing."
+    },
+    {
+      "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+      "summary": "Cap-and-Track dynamically adjusts LLM inference dispatch rates to match shifting fleet capacity and variable request sizes.",
+      "link": "http://arxiv.org/abs/2611.24891v1",
+      "published": "2026-11-18T18:34:10Z",
+      "authors": [
+        "Benjamin Novotny",
+        "Doug Szeto",
+        "Chang Wang",
+        "Shicheng Chen",
+        "George Zhihua Yuan",
+        "Bob Kamma",
+        "Michael Ge",
+        "John Xin Zhou",
+        "Andrea Olgiati"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It improves efficiency and reduces latency for real‑time AI services."
+    },
+    {
+      "title": "Who are you? The Personal Imitation Game",
+      "summary": "The paper introduces the Personal Imitation Game, testing if LLMs can mimic a specific individual’s conversational style, and identifies key identity signals used by interrogators.",
+      "link": "http://arxiv.org/abs/2611.24888v1",
+      "published": "2026-11-18T18:32:14Z",
+      "authors": [
+        "Muhammad Rizky Wellyanto",
+        "Hajara-Yasmin Isa",
+        "Kexin Xue",
+        "Vishal Ravichandran",
+        "Wenpeng Lu",
+        "Jerry O. Talton",
+        "Ranjitha Kumar"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "whyItMatters": "It pushes AI toward more nuanced, personalized interactions, raising both technical and ethical implications for identity and privacy."
+    },
+    {
+      "title": "Ground, Iterate, Trace: Decomposing AI Research Ideation",
+      "summary": "The paper presents CAR, an AI framework that grounds ideas in literature, iteratively refines them, and uses explicit operators to generate novel research proposals.",
+      "link": "http://arxiv.org/abs/2611.24887v1",
+      "published": "2026-11-18T18:31:37Z",
+      "authors": [
+        "Samson Yu",
+        "Qiran Zou",
+        "Jing Yu Lim",
+        "Rushi Shah",
+        "Anirudh Goyal",
+        "Dianbo Liu"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "whyItMatters": "It offers a systematic way to automate creative research ideation, potentially accelerating scientific discovery."
+    },
+    {
+      "title": "Monoculture Robust Learning",
+      "summary": "The paper defines monoculture robustness in PAC learning to reduce shared failure modes across models using the same data.",
+      "link": "http://arxiv.org/abs/2611.24881v1",
+      "published": "2026-11-18T18:27:52Z",
+      "authors": [
+        "Lee Cohen",
+        "Jon Kleinberg",
+        "Omer Reingold"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech readers care because it promises more reliable, diverse AI systems that avoid common blind spots."
+    },
+    {
+      "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+      "summary": "Local AI agents automate the iterative simulation loop in power electronics design, reducing manual adjustments.",
+      "link": "http://arxiv.org/abs/2611.24880v1",
+      "published": "2026-11-18T18:27:40Z",
+      "authors": [
+        "Yuzhuo Li",
+        "Pasan Gunawardena",
+        "Yunwei Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.SY"
+      ],
+      "whyItMatters": "It speeds up design cycles and lowers costs for engineers working on power converters."
+    },
+    {
+      "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+      "summary": "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could be checked. From the International Stroke Trial we trained four kinds of model (logistic regression, explainable boosting machine, gradient-boosted trees…",
+      "link": "http://arxiv.org/abs/2611.24877v1",
+      "published": "2026-11-18T18:24:54Z",
+      "authors": [
+        "Zhiyu Liu",
+        "Xinyu Yang"
+      ],
+      "categories": [
+        "cs.LG",
         "cs.AI"
       ]
     },
     {
-      "title": "Déjà View: A Shared Working-Memory Model for Visual Tasks",
-      "summary": "A working-memory model must remember stimuli and use its memory flexibly to perform different tasks. Here we introduce a model of working memory for images that combines dynamic activity with temporary associations between image features. We train the model on five tasks, including remembering a sample while other images are presented, categorizing distractor images while remembering the sample…",
-      "link": "http://arxiv.org/abs/2611.23177v1",
-      "published": "2026-11-17T18:23:14Z",
+      "title": "Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation",
+      "summary": "Large-scale, multi-agent self-play trains robust driving policies effectively in simulation, but controlling these models to generate specific, safety-critical edge cases remains a key challenge. Existing goal-conditioned self-play frameworks rely primarily on static map-location goals and fail to reliably produce complex agent interactions such as aggressive tailgating or adversarial cut-offs…",
+      "link": "http://arxiv.org/abs/2611.24876v1",
+      "published": "2026-11-18T18:23:29Z",
       "authors": [
-        "Mranmay Shetty",
-        "Gabriel Kreiman"
+        "Beyazit Yalcinkaya",
+        "Ethan Pronovost",
+        "Maximilian Naumann",
+        "Marcell Vazquez-Chanlatte"
       ],
       "categories": [
-        "cs.CV",
-        "cs.LG",
-        "q-bio.NC"
+        "cs.RO",
+        "cs.LG"
       ]
     },
     {
-      "title": "Inference after coding agents",
-      "summary": "Empirical research is changing rapidly as AI coding agents are becoming increasingly proficient in every step of it, from writing code to manipulating data. We argue that while the potential of coding agents for science is vast, their use in hypothesis testing poses a substantial threat to classical inference, as these agents enable a supercharged form of selective inference. In particular, we…",
-      "link": "http://arxiv.org/abs/2611.23174v1",
-      "published": "2026-11-17T18:22:01Z",
+      "title": "TangentPDE: Learning Local Operator Responses with Sparse Finite-Difference Supervision",
+      "summary": "Neural PDE operators are often optimized through state reconstruction, which largely constrains operator values at observed inputs but does not fully characterize their sensitivity to local perturbations. A more faithful approximation of operator behavior requires not only accurate state predictions, but also correct variations along local perturbation directions. We present TangentPDE, which…",
+      "link": "http://arxiv.org/abs/2611.24873v1",
+      "published": "2026-11-18T18:23:20Z",
       "authors": [
-        "Florian Gunsilius",
-        "David Van Dijcke",
-        "Kaspar Wüthrich"
+        "Xinjian Xie",
+        "Ruxuan Chen",
+        "Jiashu Li",
+        "Tianyu Gao",
+        "Ye Wei"
       ],
       "categories": [
-        "stat.ME",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+      "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former…",
+      "link": "http://arxiv.org/abs/2611.24869v1",
+      "published": "2026-11-18T18:20:39Z",
+      "authors": [
+        "Mingliang Zhai",
+        "Chuanhao Li",
+        "Jiaming Tan",
+        "Zhen Li",
+        "Yuwei Wu",
+        "Yunde Jia",
+        "Zian Meng",
+        "Yuanyang Yin",
+        "Kaipeng Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents",
+      "summary": "Visual agents that read dense documents must ration a finite observation budget across candidate regions, yet answer accuracy conflates where an agent looks, how it adapts to the reads that remain, and how it an?swers once observation stops. We introduce budget-paired counterfactual audits, an evaluation protocol that holds public evidence and region bindings fixed while perturbing only the…",
+      "link": "http://arxiv.org/abs/2611.24867v1",
+      "published": "2026-11-18T18:20:12Z",
+      "authors": [
+        "Ruiqi Liu",
+        "Jinming Li",
+        "Mo Wang",
+        "Yang Lu",
+        "Yanlan Kang"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling",
+      "summary": "Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the judgments are hard to interpret and may not be reproducible. In this paper, we ask whether an LLM can write a readable program for each topic that replaces its per-document…",
+      "link": "http://arxiv.org/abs/2611.24849v1",
+      "published": "2026-11-18T18:09:16Z",
+      "authors": [
+        "Eugene Agichtein",
+        "Charles L. A. Clarke",
+        "Kaustubh Dhole",
+        "William Stern"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills for Mathematical LLMs",
+      "summary": "Most existing approaches enhance mathematical reasoning in large language models (LLMs) as a monolithic capability, despite the fact that different mathematical problems require different reasoning skills. Recent work has explored a more fine-grained perspective by decomposing mathematical reasoning into atomic skills and developing specialized modules for individual capabilities. However, how to…",
+      "link": "http://arxiv.org/abs/2611.24846v1",
+      "published": "2026-11-18T18:08:08Z",
+      "authors": [
+        "Jiashu Li",
+        "Tianyu Gao",
+        "Qinglong Liu",
+        "Jinping Wang",
+        "Ye Wei",
+        "Zhiqiang Gao"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Vibe-Trading: Towards Agent-Native Trading",
+      "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and available capital evolve continuously. A result…",
+      "link": "http://arxiv.org/abs/2611.24845v1",
+      "published": "2026-11-18T18:07:57Z",
+      "authors": [
+        "Haozhe Wu",
+        "Zhonghang Li",
+        "Chao Huang"
+      ],
+      "categories": [
         "cs.AI",
-        "econ.EM"
+        "cs.CL",
+        "cs.MA",
+        "q-fin.CP",
+        "q-fin.TR"
       ]
     }
   ]
