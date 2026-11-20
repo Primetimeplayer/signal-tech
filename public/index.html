@@ -110,8 +110,8 @@
   .mast{background:#fff;border-bottom:1px solid #dadce0}
   .mast-row{display:flex;align-items:center;gap:16px;min-height:64px}
   .mast-right{display:flex;align-items:center;gap:8px;flex:0 0 auto}
-  .wordmark{display:inline-flex;flex:none;align-items:center;gap:8px;margin:0;color:var(--accent);font:700 32px/1 'Space Grotesk',Inter,ui-sans-serif,system-ui,sans-serif;letter-spacing:-.04em;text-decoration:none;white-space:nowrap}
-  .wordmark-mark{display:block;width:30px;height:30px;flex:none}
+  .wordmark{display:inline-flex;flex:none;align-items:center;gap:8px;margin:0;color:var(--accent);font:750 36px/1 'Space Grotesk',Inter,ui-sans-serif,system-ui,sans-serif;letter-spacing:-.04em;text-decoration:none;white-space:nowrap}
+  .wordmark-mark{display:block;width:48px;height:48px;flex:none}
   :root[data-theme="dark"] .wordmark{color:#8ab4f8}
   .mast .tagline{margin:6px 0 2px;font-size:14px;line-height:1.45}
   .mast .search-row{display:flex;align-items:center;flex:1 1 auto;height:40px;min-height:40px;min-width:0}
@@ -176,8 +176,8 @@
   .cookie-banner .cookie-essential{background:transparent;color:inherit;border:1px solid var(--line)}
   .cookie-banner .cookie-accept{background:#185abc;color:#fff;border:1px solid #185abc}
   @media (max-width:800px){
-    .wordmark{font-size:22px}
-    .wordmark-mark{width:24px;height:24px}
+    .wordmark{font-size:26px}
+    .wordmark-mark{width:38px;height:38px}
     .menu-toggle{display:inline-flex;width:34px;height:34px}
     main .skeleton-grid{grid-template-columns:minmax(0,1fr)}
     .skeleton-card:first-child{grid-column:auto;min-height:220px}
@@ -254,8 +254,8 @@
      #topicBar #digestsNav{display:none}
    }
    @media (max-width:360px){
-     .wordmark{gap:5px;font-size:20px}
-     .wordmark-mark{width:21px;height:21px}
+     .wordmark{gap:5px;font-size:22px}
+     .wordmark-mark{width:32px;height:32px}
      .home-page .mast-row{column-gap:8px}
    }
    @media (max-width:767px){
@@ -331,16 +331,25 @@
      ties against the older mobile rules; every rule is inside a narrow-screen
      media query, so desktop rendering is untouched. -->
 
-<!-- DASHBOARD SURFACE — one white sheet, tint only where a story fades out.
-     Light mode paints the page pure white; dark mode keeps its own palette
-     because this override is scoped to the light theme. Each story then carries
-     the only tint on the page: white at the top, a faint cool blue-grey at its
-     foot. Article borders and shadows are neutralised rather than deleted so
-     spacing, corners and layout do not shift. The selector list mirrors the
-     later sheets that repaint briefing and picks cards, matching them with
-     :is() at the same specificity so this wins on source order alone. -->
+<!-- Dashboard story surfaces share their theme colors with the phone layout. -->
 <style>
   :root:not([data-theme="dark"]) { --bg: #ffffff; }
+
+  .home-page {
+    --story-surface: #ffffff;
+    --story-gradient-mid: #fafbfe;
+    --story-gradient-end: #f1f4fb;
+    --phone-story-gradient-end: #f2f6fc;
+    --phone-story-gradient-stop: 8%;
+  }
+
+  :root[data-theme="dark"] .home-page {
+    --story-surface: #303134;
+    --story-gradient-mid: #343941;
+    --story-gradient-end: #383f4e;
+    --phone-story-gradient-end: var(--story-gradient-end);
+    --phone-story-gradient-stop: 12%;
+  }
 
   /* Articles end on the gradient: no rule above the Save/Share row. */
   #feed .card .card-actions,
@@ -385,21 +394,13 @@
     inset-inline: 0;
     border-radius: inherit;
     background-image: linear-gradient(180deg,
-      #ffffff 0%,
-      #ffffff 45%,
-      #fafbfe 72%,
-      #f1f4fb 100%);
+      var(--story-surface) 0%,
+      var(--story-surface) 45%,
+      var(--story-gradient-mid) 72%,
+      var(--story-gradient-end) 100%);
     box-shadow: none !important;
     pointer-events: none;
     z-index: -1;
-  }
-
-  :root[data-theme="dark"] #feed .card::after {
-    background-image: linear-gradient(180deg,
-      rgba(138, 180, 248, 0) 0%,
-      rgba(138, 180, 248, 0) 45%,
-      rgba(138, 180, 248, 0.04) 72%,
-      rgba(138, 180, 248, 0.07) 100%);
   }
 
   /* Phone feed proportions live in home.css (max-width: 800px). This
@@ -415,7 +416,7 @@
   <style>#skeleton{display:none !important}</style>
   <div class="mast"><div class="wrap">
     <a href="/" class="wordmark" aria-label="Signal Tech home">
-      <img class="wordmark-mark" src="/assets/wordmark-s.svg?v=2" width="30" height="30" alt="">
+      <img class="wordmark-mark" src="/assets/wordmark-s.svg?v=2" width="48" height="48" alt="">
       <span>Tech</span>
     </a>
     <p class="tagline" data-i18n="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
@@ -428,7 +429,7 @@
   <div class="wrap">
     <div class="mast-row">
       <a href="/" class="wordmark" aria-label="Signal Tech home">
-        <img class="wordmark-mark" src="/assets/wordmark-s.svg?v=2" width="30" height="30" alt="">
+        <img class="wordmark-mark" src="/assets/wordmark-s.svg?v=2" width="48" height="48" alt="">
         <span>Tech</span>
       </a>
       <div class="search-row">

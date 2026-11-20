@@ -126,7 +126,7 @@
   gap: 8px;
   margin: 0;
   color: var(--accent);
-  font: 700 32px/1 'Space Grotesk', Inter, ui-sans-serif, system-ui, sans-serif;
+  font: 750 36px/1 'Space Grotesk', Inter, ui-sans-serif, system-ui, sans-serif;
   letter-spacing: -0.04em;
   text-decoration: none;
   white-space: nowrap;
@@ -134,8 +134,8 @@
 
 .wordmark-mark {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 48px;
+  height: 48px;
   flex: none;
 }
 
@@ -144,13 +144,13 @@
 }
 
 @media (max-width: 800px) {
-  .wordmark { font-size: 22px; }
-  .wordmark-mark { width: 24px; height: 24px; }
+  .wordmark { font-size: 26px; }
+  .wordmark-mark { width: 38px; height: 38px; }
 }
 
 @media (max-width: 360px) {
-  .wordmark { gap: 5px; font-size: 20px; }
-  .wordmark-mark { width: 21px; height: 21px; }
+  .wordmark { gap: 5px; font-size: 22px; }
+  .wordmark-mark { width: 32px; height: 32px; }
   .home-page .mast-row { column-gap: 8px !important; }
 }
 
@@ -2421,7 +2421,10 @@ html[data-theme="dark"] #dateFilter {
 
 html[data-theme="dark"] body,
 body.dark {
-  background: #303134 !important;
+  background-color: #303134 !important;
+  background-image:
+    radial-gradient(circle at 12% 0%, rgba(111, 168, 216, 0.08), transparent 30rem),
+    radial-gradient(circle at 88% 12%, rgba(173, 155, 212, 0.045), transparent 28rem) !important;
   color: #e8eaed !important;
 }
 
@@ -9065,8 +9068,10 @@ main .grid,
     border: 0 !important;
     border-radius: 4px !important;
     box-shadow: none !important;
-    background-color: #ffffff !important;
-    background-image: linear-gradient(0deg, #f2f6fc 0%, #ffffff 8%) !important;
+    background-color: var(--story-surface) !important;
+    background-image: linear-gradient(0deg,
+      var(--phone-story-gradient-end) 0%,
+      var(--story-surface) var(--phone-story-gradient-stop)) !important;
     box-sizing: border-box !important;
   }
 
@@ -9077,8 +9082,10 @@ main .grid,
   :root[data-theme="dark"] #main #feed .card.story-row,
   :root[data-theme="dark"] #main #feed .gn-col > .card.story-row,
   :root[data-theme="dark"] #main #feed .briefing-fill > .card.story-row {
-    background-color: transparent !important;
-    background-image: linear-gradient(0deg, rgba(138, 180, 248, 0.10) 0%, rgba(138, 180, 248, 0) 8%) !important;
+    background-color: var(--story-surface) !important;
+    background-image: linear-gradient(0deg,
+      var(--phone-story-gradient-end) 0%,
+      var(--story-surface) var(--phone-story-gradient-stop)) !important;
   }
 
   #main #feed .card > .hero-media,
