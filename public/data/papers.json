@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-19T20:46:47.524Z",
+  "updated": "2026-11-20T01:27:19.934Z",
   "count": 20,
   "items": [
     {
       "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
-      "summary": "The paper introduces JDPI, using contrastive prototypes to detect jailbreaks in LLMs without extra classifiers.",
+      "summary": "The paper proposes JDPI, using contrastive prototypes to detect jailbreaks in LLMs without extra classifiers.",
       "link": "http://arxiv.org/abs/2611.24936v1",
       "published": "2026-11-18T18:56:12Z",
       "authors": [
@@ -14,11 +14,11 @@
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "It offers a lightweight, potentially more robust safety check for deploying safer language models."
+      "whyItMatters": "It offers a lightweight, potentially more robust safety check for deploying safer AI models."
     },
     {
       "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
-      "summary": "The paper proposes a trait theory linking reviewer value in human-AI collaboration to metacognitive calibration, the match between confidence and accuracy.",
+      "summary": "The article proposes a trait theory that identifies metacognitive calibration as the key factor determining a human reviewer's value in human‑AI decision systems.",
       "link": "http://arxiv.org/abs/2611.24932v1",
       "published": "2026-11-18T18:55:07Z",
       "authors": [
@@ -31,11 +31,11 @@
         "cs.HC",
         "cs.LG"
       ],
-      "whyItMatters": "Understanding this can improve AI-human decision quality by selecting reviewers who best complement AI."
+      "whyItMatters": "Understanding this trait helps design better collaboration between AI and humans, improving decision accuracy."
     },
     {
       "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
-      "summary": "The article maps the AI supply chain, detailing how various organizations contribute models, data, compute, capital, and talent, and highlights gaps in documenting interconnections.",
+      "summary": "The article maps the AI supply chain, detailing how various organizations contribute models, data, compute, capital, and talent, and highlights their interconnections.",
       "link": "http://arxiv.org/abs/2611.24927v1",
       "published": "2026-11-18T18:53:58Z",
       "authors": [
@@ -50,11 +50,11 @@
         "cs.CY",
         "cs.AI"
       ],
-      "whyItMatters": "Understanding these links helps tech leaders spot bottlenecks, assess risks, and guide investment in AI infrastructure."
+      "whyItMatters": "Understanding these links reveals vulnerabilities and market concentration that could impact AI innovation and security."
     },
     {
       "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
-      "summary": "The article discusses a new beta approach to agentic harness engineering that focuses on evolving harnesses based on explicit and implicit user requirements.",
+      "summary": "The article discusses a new beta framework for agentic harness engineering that focuses on evolving agent harnesses based on explicit and implicit user requirements.",
       "link": "http://arxiv.org/abs/2611.24924v1",
       "published": "2026-11-18T18:52:13Z",
       "authors": [
@@ -77,11 +77,11 @@
         "cs.SE",
         "cs.AI"
       ],
-      "whyItMatters": "Tech readers should know it improves AI system adaptability and reduces narrow, ineffective updates."
+      "whyItMatters": "It offers a more comprehensive, requirement-driven approach that could improve AI system reliability and user satisfaction."
     },
     {
       "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
-      "summary": "The paper analyzes how SGD dynamics in two-layer neural networks split into teacher-aligned signal and orthogonal noise, affecting generalization.",
+      "summary": "The paper analyzes how orthogonal first-layer weights in a two-layer network trained by SGD influence generalization, decomposing dynamics into signal and noise components.",
       "link": "http://arxiv.org/abs/2611.24908v1",
       "published": "2026-11-18T18:43:40Z",
       "authors": [
@@ -92,11 +92,11 @@
         "stat.ML",
         "cs.LG"
       ],
-      "whyItMatters": "Understanding this split helps tech-savvy readers design better training regimes and diagnose overfitting."
+      "whyItMatters": "Understanding noise dynamics helps improve training stability and generalization in deep learning models."
     },
     {
       "title": "Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators",
-      "summary": "The paper introduces a framework using minimal homogeneous generators to build equivariant polynomial features for learning functions between group representations.",
+      "summary": "The paper introduces a framework for learning equivariant functions using polynomial features derived from minimal homogeneous generators.",
       "link": "http://arxiv.org/abs/2611.24896v1",
       "published": "2026-11-18T18:37:02Z",
       "authors": [
@@ -107,11 +107,11 @@
         "cs.LG",
         "stat.ML"
       ],
-      "whyItMatters": "Tech-savvy readers benefit from a unified, efficient method for designing symmetry-aware models across domains."
+      "whyItMatters": "It offers a unified, efficient approach for designing symmetry-aware models in AI."
     },
     {
       "title": "On Evaluating User Simulators for Interactive Agents",
-      "summary": "The article examines how to evaluate user simulators for interactive agents, questioning whether current frameworks detect meaningful failures and what high benchmark scores truly indicate.",
+      "summary": "The paper examines how to evaluate user simulators for interactive agents, questioning current frameworks' ability to detect meaningful failures.",
       "link": "http://arxiv.org/abs/2611.24892v1",
       "published": "2026-11-18T18:34:23Z",
       "authors": [
@@ -127,11 +127,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "Understanding simulator reliability is crucial for developing robust AI agents that perform well with real users."
+      "whyItMatters": "Tech-savvy readers need reliable metrics to trust simulated user tests."
     },
     {
       "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
-      "summary": "Cap-and-Track optimizes LLM inference dispatch by adapting to changing fleet capacity and variable request sizes, using asynchronous handling across providers and GPUs.",
+      "summary": "Cap-and-Track dynamically dispatches LLM inference requests to match shifting provider and GPU capacity, improving efficiency for Meta’s video understanding tasks.",
       "link": "http://arxiv.org/abs/2611.24891v1",
       "published": "2026-11-18T18:34:10Z",
       "authors": [
@@ -148,11 +148,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "Tech readers care because it improves efficiency and reliability of large‑model services amid dynamic resource availability."
+      "whyItMatters": "It reduces latency and resource waste for real‑time AI services."
     },
     {
       "title": "Who are you? The Personal Imitation Game",
-      "summary": "The article introduces the Personal Imitation Game, testing if LLMs can mimic a specific individual’s conversational style, using 30 participants and stylometric cues.",
+      "summary": "The paper introduces the Personal Imitation Game, testing if LLMs can mimic a specific person’s conversational style, using 30 participants as a baseline.",
       "link": "http://arxiv.org/abs/2611.24888v1",
       "published": "2026-11-18T18:32:14Z",
       "authors": [
@@ -169,11 +169,11 @@
         "cs.AI",
         "cs.CL"
       ],
-      "whyItMatters": "It highlights limits of LLMs in personalized identity replication, relevant for privacy and AI authenticity concerns."
+      "whyItMatters": "It pushes AI to capture individual identity, raising implications for privacy, authenticity, and personalized AI interactions."
     },
     {
       "title": "Ground, Iterate, Trace: Decomposing AI Research Ideation",
-      "summary": "The paper presents CAR, an AI framework that grounds research ideas in literature, iteratively refines them, and uses explicit operators to generate novel proposals.",
+      "summary": "The paper presents CAR, an AI framework that grounds research ideas in literature, iteratively refines them, and uses conceptual operators to generate novel proposals.",
       "link": "http://arxiv.org/abs/2611.24887v1",
       "published": "2026-11-18T18:31:37Z",
       "authors": [
@@ -187,11 +187,11 @@
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "It offers a systematic way to automate scientific ideation, potentially accelerating discovery for tech researchers."
+      "whyItMatters": "It offers a systematic way to automate research ideation, potentially accelerating scientific discovery for tech professionals."
     },
     {
       "title": "Monoculture Robust Learning",
-      "summary": "The paper defines monoculture robustness in PAC learning to reduce shared failure modes among models using the same data.",
+      "summary": "The paper defines monoculture robustness in PAC learning to reduce failures from models sharing data, exploring if one dataset can produce multiple accurate learners.",
       "link": "http://arxiv.org/abs/2611.24881v1",
       "published": "2026-11-18T18:27:52Z",
       "authors": [
@@ -202,11 +202,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "Tech readers care because it promises more reliable, diverse AI systems that avoid collective blind spots."
+      "whyItMatters": "Tech readers care because it promises more resilient AI systems that avoid common failure modes from shared training data."
     },
     {
       "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
-      "summary": "The article discusses using local AI agents to automate power electronics simulation loops, reducing manual design iterations.",
+      "summary": "Local AI agents automate the iterative design, simulation, and measurement loop in power electronics, reducing manual effort.",
       "link": "http://arxiv.org/abs/2611.24880v1",
       "published": "2026-11-18T18:27:40Z",
       "authors": [
@@ -218,7 +218,7 @@
         "cs.AI",
         "eess.SY"
       ],
-      "whyItMatters": "Tech-savvy readers care because it speeds up design, cuts cloud costs, and enables on-premise inference."
+      "whyItMatters": "It speeds up design cycles and cuts costs, appealing to engineers seeking faster, cheaper development."
     },
     {
       "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
