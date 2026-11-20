@@ -15,7 +15,7 @@ const inlineHomeCss = homeCss
 const pageHtml = (await readFile(path.join(root, 'index.html'), 'utf8'))
   .replace(/<link rel="preconnect"[^>]*>/g, '')
   .replace(/<link href="https:\/\/fonts\.googleapis\.com[^>]*>/, '')
-  .replace(/<link rel="stylesheet" href="assets\/home\.css"[^>]*>/, inlineHomeCss);
+  .replace(/<link rel="stylesheet" href="assets\/home\.css(?:\?[^"]*)?"[^>]*>/, inlineHomeCss);
 
 const staticStory = {
   source: 'The Verge',
