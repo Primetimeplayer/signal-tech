@@ -1,6 +1,26 @@
 {
-  "updated": "2026-11-13T08:47:53.780Z",
+  "updated": "2026-11-20T09:13:24.587Z",
   "issues": [
+    {
+      "issueNumber": 6,
+      "title": "GPT-6.2 lands. Test before you switch",
+      "date": "2026-11-20",
+      "url": "https://dailysignaltech.beehiiv.com/p/gpt-6-2-lands-test-before-you-switch",
+      "stories": [
+        {
+          "headline": "GPT-6.2 is cheaper, sharper… and divisive",
+          "whyItMatters": "OpenAI released two new models with lower costs per task."
+        },
+        {
+          "headline": "Google ships Gemini 4 Neon",
+          "whyItMatters": "Google released a new mid-priced model aimed at coding and agent work."
+        },
+        {
+          "headline": "Tool of the week: VS Code 1.147",
+          "whyItMatters": "A free VS Code update that lets a \"router\" pick the right AI model for each…"
+        }
+      ]
+    },
     {
       "issueNumber": 5,
       "title": "Gemini 4 Hydrogen: frontier-ish, budget price",

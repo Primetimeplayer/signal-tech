@@ -5,13 +5,21 @@
     <link>https://signaltechnews.com/</link>
     <description>The Signal Tech newsletter, weekly digests and original blog guides: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 19 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 07:00:00 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>Issue #6: GPT-6.2 lands. Test before you switch</title>
+      <link>https://signaltechnews.com/issues/2026-11-20</link>
+      <guid isPermaLink="true">https://signaltechnews.com/issues/2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 07:00:00 GMT</pubDate>
+      <category>Newsletter</category>
+      <description>GPT-6.2 is cheaper, sharper… and divisive: OpenAI released two new models with lower costs per task. · Google ships Gemini 4 Neon: Google released a new mid-priced model aimed at coding and agent work. · Tool of the week: VS Code 1.147: A free VS Code update that lets a &quot;router&quot; pick the right AI model for each…</description>
+    </item>
     <item>
       <title>How to choose (and switch) an inference engine without locking your team in: a practical decision framework</title>
       <link>https://signaltechnews.com/blog/inference-engine-decision-framework</link>
