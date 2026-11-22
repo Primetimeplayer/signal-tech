@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-22T08:50:49.231Z",
+  "updated": "2026-11-22T11:38:35.866Z",
   "count": 20,
   "items": [
     {
       "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-      "summary": "RL post‑training enhances diffusion transformers’ visual quality, text rendering, and compositional accuracy by learning input‑dependent transformations.",
+      "summary": "RL post‑training boosts visual quality, text rendering, and compositional accuracy in diffusion transformers by learning input‑dependent transformations.",
       "link": "http://arxiv.org/abs/2611.26627v1",
       "published": "2026-11-19T18:59:53Z",
       "authors": [
@@ -19,11 +19,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "Tech‑savvy readers care because it boosts AI image generation fidelity and controllability."
+      "whyItMatters": "Tech‑savvy readers care because it enhances AI image generation fidelity and prompt‑specific control."
     },
     {
       "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
-      "summary": "PlayCraft automates game design by using vision-based AI agents to play and refine games for mastery and engagement.",
+      "summary": "PlayCraft automates game design by using a vision-based AI agent’s play experience to refine games for mastery and engagement.",
       "link": "http://arxiv.org/abs/2611.26624v1",
       "published": "2026-11-19T18:59:34Z",
       "authors": [
@@ -33,11 +33,11 @@
         "cs.AI",
         "cs.CV"
       ],
-      "whyItMatters": "Tech-savvy readers see AI-driven iterative design as a breakthrough for rapid, engaging game creation."
+      "whyItMatters": "It offers a scalable way to create engaging games, saving designers time and improving player retention."
     },
     {
       "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
-      "summary": "TideCache is a CPU–GPU hybrid LLM serving system that allocates GPU memory to heterogeneous caches and manages cache residency across GPU and host memory.",
+      "summary": "TideCache is a CPU–GPU hybrid LLM serving system that allocates GPU memory and manages cache residency across GPU and host memory for efficient layer-wise streaming.",
       "link": "http://arxiv.org/abs/2611.26619v1",
       "published": "2026-11-19T18:58:31Z",
       "authors": [
@@ -52,11 +52,11 @@
         "cs.DC",
         "cs.LG"
       ],
-      "whyItMatters": "It boosts LLM inference speed and efficiency, enabling cost-effective, high‑throughput deployment for tech‑savvy developers."
+      "whyItMatters": "It boosts LLM inference speed and reduces memory costs, appealing to tech-savvy developers optimizing AI workloads."
     },
     {
       "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-      "summary": "The paper proposes O^2LaF, using a pretrained video diffusion transformer as a prior to learn both inverse and forward latent dynamics from visual transitions.",
+      "summary": "The paper proposes O^2LaF, using a pretrained video diffusion transformer as a prior to learn latent actions and dynamics from visual transitions.",
       "link": "http://arxiv.org/abs/2611.26617v1",
       "published": "2026-11-19T18:58:14Z",
       "authors": [
@@ -74,11 +74,11 @@
         "cs.LG",
         "cs.RO"
       ],
-      "whyItMatters": "It could accelerate self-supervised action learning by leveraging powerful generative priors."
+      "whyItMatters": "It could speed up self-supervised learning and improve action understanding in video AI."
     },
     {
       "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
-      "summary": "The paper analyzes how frontier multimodal agents like GPT-6 Astra execute low-level robot control, revealing detailed action-level successes and failures.",
+      "summary": "The paper analyzes how frontier multimodal agents like GPT-6 Astra directly control robots via low-level actions, revealing success patterns and failure points.",
       "link": "http://arxiv.org/abs/2611.26613v1",
       "published": "2026-11-19T18:57:25Z",
       "authors": [
@@ -98,11 +98,11 @@
         "cs.CL",
         "cs.CV"
       ],
-      "whyItMatters": "It helps engineers refine robot‑control models and improve safety and reliability in real‑world deployments."
+      "whyItMatters": "It helps developers improve robot control by pinpointing agent strengths and weaknesses at the action level."
     },
     {
       "title": "Bio-PM-Guided Synthetic IMU Generation",
-      "summary": "The article investigates using Bio-PM-guided synthetic data to improve IMU-based human activity recognition models.",
+      "summary": "The paper proposes a bio‑PM‑guided method to synthesize IMU data, improving human activity recognition models by augmenting limited real datasets.",
       "link": "http://arxiv.org/abs/2611.26607v1",
       "published": "2026-11-19T18:56:25Z",
       "authors": [
@@ -113,11 +113,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "Synthetic augmentation could reduce costly data collection and boost model generalization across users."
+      "whyItMatters": "Synthetic IMU augmentation can reduce costly data collection and boost model robustness across users."
     },
     {
       "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
-      "summary": "Depth Pro 2 delivers full-resolution, metric monocular depth for images and video, balancing temporal consistency and sharp boundaries in a single scalable network.",
+      "summary": "Depth Pro 2 estimates dense metric depth for images and video at full resolution, balancing temporal consistency and boundary sharpness in a single scalable network.",
       "link": "http://arxiv.org/abs/2611.26603v1",
       "published": "2026-11-19T18:55:41Z",
       "authors": [
@@ -134,7 +134,7 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It improves video depth accuracy while preserving fine detail, useful for AR, robotics, and visual effects."
+      "whyItMatters": "It offers sharper, temporally stable depth maps, improving AR/VR and autonomous vision tasks."
     },
     {
       "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
@@ -154,11 +154,11 @@
         "cs.AI",
         "cs.SE"
       ],
-      "whyItMatters": "Tech readers should know how LLMs are reshaping vulnerability detection and remediation."
+      "whyItMatters": "Tech readers should know how LLMs are reshaping security testing and patch development."
     },
     {
       "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
-      "summary": "The paper proposes a method for Active Feature Acquisition that learns a budget‑aware policy by distilling knowledge from an oracle teacher instead of using a self‑constructed utility target.",
+      "summary": "The paper proposes a method for Active Feature Acquisition that distills knowledge from an oracle teacher to train a budget‑aware feature selection policy.",
       "link": "http://arxiv.org/abs/2611.26598v1",
       "published": "2026-11-19T18:52:57Z",
       "authors": [
@@ -171,11 +171,11 @@
         "cs.LG",
         "cs.AI"
       ],
-      "whyItMatters": "It offers a more efficient way to reduce feature acquisition costs, appealing to practitioners managing expensive or sensitive data."
+      "whyItMatters": "It offers a more efficient way to reduce costly feature acquisition while maintaining predictive performance."
     },
     {
       "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
-      "summary": "PGX separates temporal and precision control from a monolithic VLA model, using classical training-free components to improve long-horizon humanoid locomotion and manipulation.",
+      "summary": "PGX splits long-horizon humanoid loco-manipulation into classical control for timing and precision, improving VLA model performance.",
       "link": "http://arxiv.org/abs/2611.26596v1",
       "published": "2026-11-19T18:52:18Z",
       "authors": [
@@ -187,11 +187,11 @@
         "cs.RO",
         "cs.AI"
       ],
-      "whyItMatters": "Tech-savvy readers care because it enables more reliable, efficient humanoid robots for complex tasks."
+      "whyItMatters": "It boosts efficiency and accuracy for complex robotic tasks, appealing to developers seeking scalable, physics-aware AI solutions."
     },
     {
       "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
-      "summary": "The paper shows that self‑consistency certification for language models fails under correlated reasoning, proposing a new anytime‑valid method that controls error rates.",
+      "summary": "The paper shows that self‑consistency certification for language models fails under correlated reasoning, proposing anytime‑valid methods that control error rates.",
       "link": "http://arxiv.org/abs/2611.26592v1",
       "published": "2026-11-19T18:47:51Z",
       "authors": [
@@ -203,7 +203,7 @@
         "cs.AI",
         "cs.LG"
       ],
-      "whyItMatters": "Tech readers need robust error control for reliable AI reasoning, especially when outputs are correlated."
+      "whyItMatters": "Tech readers need reliable error control when using LLMs for critical decision‑making."
     },
     {
       "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
@@ -219,7 +219,7 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It offers a new method to understand and improve how VLMs integrate visual and textual information."
+      "whyItMatters": "It offers a new way to interpret and debug multimodal AI, aiding transparency for tech developers."
     },
     {
       "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
