@@ -1,373 +1,359 @@
 {
-  "updated": "2026-11-23T01:49:11.816Z",
+  "updated": "2026-11-23T09:48:32.773Z",
   "count": 20,
   "items": [
     {
-      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-      "summary": "The article shows that RL fine‑tuning of diffusion transformers markedly enhances image quality, text rendering, and object composition by learning input‑dependent transformations.",
-      "link": "http://arxiv.org/abs/2611.26627v1",
-      "published": "2026-11-19T18:59:53Z",
+      "title": "Optimal Linear Regression Without a Variance",
+      "summary": "The paper presents a method to perform high‑probability linear regression when noise has only a finite α‑moment (α∈(1,2)) and covariates have limited moments, by reducing to finite‑variance algorithms.",
+      "link": "http://arxiv.org/abs/2611.27983v1",
+      "published": "2026-11-20T18:58:45Z",
       "authors": [
-        "Tuna Han Salih Meral",
-        "Kaan Oktay",
-        "Alec Helbling",
-        "Atakan Kara",
-        "Duen Horng Chau",
-        "Pinar Yanardag"
+        "Artin Tajdini",
+        "Jasper C. H. Lee",
+        "Jonathan Scarlett",
+        "Kevin Jamieson"
       ],
       "categories": [
-        "cs.CV",
+        "stat.ML",
+        "cs.AI",
+        "cs.IT",
         "cs.LG"
       ],
-      "whyItMatters": "Tech‑savvy readers care because it boosts generative AI performance for complex, prompt‑driven tasks."
+      "whyItMatters": "It enables robust regression in heavy‑tailed data, crucial for real‑world AI systems dealing with outliers."
     },
     {
-      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
-      "summary": "PlayCraft automates game design by using a vision-based AI agent to play and refine games for mastery and engagement.",
-      "link": "http://arxiv.org/abs/2611.26624v1",
-      "published": "2026-11-19T18:59:34Z",
+      "title": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
+      "summary": "The paper compares linear regression, RNN, and LSTM models for one‑day‑ahead S&P 500 forecasts using a 2006‑2025 dataset with fundamentals, macro, and technical features.",
+      "link": "http://arxiv.org/abs/2611.27978v1",
+      "published": "2026-11-20T18:57:15Z",
       "authors": [
-        "Weihao Cheng"
+        "Hari Sitaula",
+        "Joseph Opitz"
       ],
       "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "whyItMatters": "Tech-savvy readers see a new method to create engaging games without extensive human testing."
-    },
-    {
-      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
-      "summary": "TideCache is a CPU‑GPU serving system that allocates GPU memory and manages cache residency for hybrid LLMs with layer‑wise streaming.",
-      "link": "http://arxiv.org/abs/2611.26619v1",
-      "published": "2026-11-19T18:58:31Z",
-      "authors": [
-        "Jinbin Luo",
-        "Xiaozhe Yao",
-        "Shang Yang",
-        "Zhijian Liu",
-        "Song Han",
-        "Qinghao Hu"
-      ],
-      "categories": [
-        "cs.DC",
         "cs.LG"
       ],
-      "whyItMatters": "It improves LLM performance and resource efficiency, crucial for deploying large models on mixed hardware."
+      "whyItMatters": "It reveals which deep‑learning methods truly add value over simple models for market prediction."
     },
     {
-      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-      "summary": "The paper proposes O^2LaF, using a pretrained video diffusion transformer as a prior to learn latent actions and dynamics from visual transitions.",
-      "link": "http://arxiv.org/abs/2611.26617v1",
-      "published": "2026-11-19T18:58:14Z",
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "summary": "MemOnce proposes a scalable memory architecture that reduces GPU memory and computational costs for large language models in long-horizon interactions.",
+      "link": "http://arxiv.org/abs/2611.27973v1",
+      "published": "2026-11-20T18:51:29Z",
       "authors": [
-        "Yuxin Jiang",
-        "Wenqiang Sun",
-        "Jiaqi Li",
-        "Yuchao Gu",
-        "Lvmin Zhang",
-        "Ivor Tsang",
-        "Mike Zheng Shou"
+        "Chang Nie",
+        "Chaoyou Fu",
+        "Songlin Liu",
+        "Yiqing Hu",
+        "Caifeng Shan"
       ],
       "categories": [
-        "cs.CV",
-        "cs.AI",
+        "cs.CL"
+      ],
+      "whyItMatters": "It enables more efficient, continuous LLM deployments, appealing to developers seeking lower resource usage."
+    },
+    {
+      "title": "On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals",
+      "summary": "The paper outlines a comprehensive EEG feature set for classifying ADHD in youth, emphasizing standardized preprocessing, windowing, and quality documentation.",
+      "link": "http://arxiv.org/abs/2611.27970v1",
+      "published": "2026-11-20T18:51:08Z",
+      "authors": [
+        "Javier Sanchis",
+        "Álvaro Navarro",
+        "Jorge García-Carrasco",
+        "Tahar Kechadi",
+        "Juan Trujillo"
+      ],
+      "categories": [
         "cs.LG",
+        "eess.SP"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it enables reproducible, high‑accuracy ADHD diagnostics using EEG data."
+    },
+    {
+      "title": "Non-penetrating World Models",
+      "summary": "The paper introduces NoPeBench to test and shows that current interactive video world models fail to prevent object penetration, revealing hidden physical knowledge.",
+      "link": "http://arxiv.org/abs/2611.27963v1",
+      "published": "2026-11-20T18:44:57Z",
+      "authors": [
+        "Yuhang Dai",
+        "Yinwei Wu",
+        "Ziyue Lin",
+        "Han Ji",
+        "Xingyi Yang"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech-savvy readers should know these models lack reliable physics, impacting safety and realism in AI-driven simulations."
+    },
+    {
+      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+      "summary": "The article discusses training transformers that self-optimize their architecture, challenging the fixed-layer convention of traditional models.",
+      "link": "http://arxiv.org/abs/2611.27962v1",
+      "published": "2026-11-20T18:41:39Z",
+      "authors": [
+        "Kaden Zheng",
+        "Pratyusha Sharma"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech-savvy readers care because adaptive architectures could boost performance and efficiency in AI systems."
+    },
+    {
+      "title": "Ranking-Preserving Coreset Selection for Efficient Evolutionary Hyperparameter Optimization",
+      "summary": "The paper introduces a ranking‑preserving coreset method to speed up evolutionary hyperparameter optimization by training on a compact dataset that maintains configuration rankings.",
+      "link": "http://arxiv.org/abs/2611.27959v1",
+      "published": "2026-11-20T18:35:28Z",
+      "authors": [
+        "Mamoona Tasadduq",
+        "Maryam Bashir"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It cuts HPO training time, letting tech‑savvy users iterate faster and deploy models more efficiently."
+    },
+    {
+      "title": "Topology Hub Optimal Transport: Eliminating Long Context Dilution at Flash Speed",
+      "summary": "The article explains how Hub-and-spoke optimal transport improves long‑context models by replacing dense attention with a linear graph, reducing dilution and speeding inference.",
+      "link": "http://arxiv.org/abs/2611.27951v1",
+      "published": "2026-11-20T18:23:42Z",
+      "authors": [
+        "Dylan Forde"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech readers care because it offers faster, more accurate inference for large‑scale language models."
+    },
+    {
+      "title": "The Optimal Sample Complexity of Agnostic PAC Learning for Partial Concept Classes",
+      "summary": "The paper proves that agnostic PAC learning of partial concept classes with finite VC dimension requires O((d+log(1/δ))/ε²) samples and provides a deterministic learner achieving this bound.",
+      "link": "http://arxiv.org/abs/2611.27946v1",
+      "published": "2026-11-20T18:18:09Z",
+      "authors": [
+        "Liang-Yu Zou"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It gives optimal sample complexity for learning incomplete classifiers, crucial for efficient data usage in advanced ML systems."
+    },
+    {
+      "title": "BioEmu2: Scalable Emulation of Biomolecular Dynamics",
+      "summary": "BioEmu2 is a generative model that rapidly produces atomically resolved biomolecular dynamics, combining structure prediction, equilibrium sampling, and time evolution.",
+      "link": "http://arxiv.org/abs/2611.27924v1",
+      "published": "2026-11-20T17:58:47Z",
+      "authors": [
+        "Michael Gastegger",
+        "Adam E. Foster",
+        "José Jiménez-Luna",
+        "Tim Hempel",
+        "Sarah Lewis",
+        "Yu Xie",
+        "Lixin Sun",
+        "Iryna Zaporozhets",
+        "J. Thorben Frank",
+        "Yaoyi Chen",
+        "Michael Plainer",
+        "Ludwig Winkler",
+        "Pedro B. P. S. Reis",
+        "Sven H. Giese",
+        "Roberto Sordillo",
+        "Victor García Satorras",
+        "Eray Inanc",
+        "Kacper Kapuśniak",
+        "Soojung Yang",
+        "Rishwanth Raghu",
+        "Rachel Kim",
+        "Gabriel Dernbach",
+        "Deniz Gunceler",
+        "Hannes Schulz",
+        "Bonnie Kruft",
+        "Marwin Segler",
+        "Christopher M. Bishop",
+        "Cecilia Clementi",
+        "Ryota Tomioka",
+        "Frank Noé"
+      ],
+      "categories": [
+        "cs.AI",
+        "q-bio.BM"
+      ],
+      "whyItMatters": "It enables faster, large-scale simulation of biomolecular motions, accelerating drug discovery and protein engineering."
+    },
+    {
+      "title": "SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement",
+      "summary": "The paper proposes SUAF, a method to learn reward‑independent representations that capture essential statistical dependencies for zero‑shot policy improvement.",
+      "link": "http://arxiv.org/abs/2611.27919v1",
+      "published": "2026-11-20T17:53:21Z",
+      "authors": [
+        "Huaze Tang",
+        "Runqing Miao",
+        "Tianren Peng",
+        "Lam Nguyen",
+        "Chao Wang",
+        "Jairong Li",
+        "Wenbo Ding"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech‑savvy readers care because it offers a way to transfer knowledge between tasks without extra rewards, speeding up RL."
+    },
+    {
+      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+      "summary": "StereoVLM introduces binocular vision-language models that use stereo images to infer accurate metric 3D spatial relationships, overcoming ambiguity in single-view VLMs.",
+      "link": "http://arxiv.org/abs/2611.27915v1",
+      "published": "2026-11-20T17:52:02Z",
+      "authors": [
+        "Chi Yan",
+        "Guoyang Zhao",
+        "Wentao Yuan",
+        "Yixiao Ge",
+        "Yanning Zhou",
+        "Dan Xu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
         "cs.RO"
       ],
-      "whyItMatters": "It could accelerate self-supervised learning by leveraging existing generative models for action inference."
+      "whyItMatters": "Tech-savvy readers care because precise 3D reasoning enables better AR, robotics, and scene understanding."
     },
     {
-      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
-      "summary": "The paper analyzes how frontier multimodal agents like GPT-6 Astra directly control robots through low-level actions, revealing detailed success and failure patterns.",
-      "link": "http://arxiv.org/abs/2611.26613v1",
-      "published": "2026-11-19T18:57:25Z",
+      "title": "Star Panoptic Quality: Selectively Evaluating Split and Merged Instances",
+      "summary": "Detecting individual instances is crucial for many segmentation problems. However, expert instance annotations are often unavailable, so instances are approximated heuristically (e.g., as connected components of semantic maps), which can merge touching objects or split fragmented ones. Even when expert annotations exist, expert disagreement or structural delineation biases can yield split or…",
+      "link": "http://arxiv.org/abs/2611.27913v1",
+      "published": "2026-11-20T17:51:51Z",
       "authors": [
-        "Yiyang Du",
-        "Yuxuan Kuang",
-        "Qitao Zhao",
-        "Yixuan Wang",
-        "Zhanqiu Guo",
-        "Yi Xu",
-        "Xin Li",
-        "Wenbin He",
-        "Liu Ren",
-        "Chenyan Xiong"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "whyItMatters": "Understanding action-level behavior helps improve robot autonomy and safety for tech developers."
-    },
-    {
-      "title": "Bio-PM-Guided Synthetic IMU Generation",
-      "summary": "The article discusses using Bio-PM-guided synthetic data to improve IMU-based human activity recognition models.",
-      "link": "http://arxiv.org/abs/2611.26607v1",
-      "published": "2026-11-19T18:56:25Z",
-      "authors": [
-        "Deepali Singh",
-        "Deepesh Parpani",
-        "Aviral Gupta"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Synthetic augmentation can reduce costly data collection and enhance model generalization across users."
-    },
-    {
-      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
-      "summary": "Depth Pro 2 estimates dense metric depth for images and video at full resolution, balancing temporal consistency and boundary sharpness in a single scalable network.",
-      "link": "http://arxiv.org/abs/2611.26603v1",
-      "published": "2026-11-19T18:55:41Z",
-      "authors": [
-        "Peiyun Hu",
-        "Marko Mihajlovic",
-        "Lyndon Duong",
-        "Lahav Lipson",
-        "Wei Dong",
-        "Amaël Delaunoy",
-        "Stephan R. Richter",
-        "Vladlen Koltun"
+        "Erik Großkopf",
+        "Paula Tamara Buzduga",
+        "Hendrik Möller",
+        "Florian Kofler"
       ],
       "categories": [
         "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "It offers sharper, temporally stable depth maps, improving AR/VR and autonomous vision applications."
+        "cs.AI"
+      ]
     },
     {
-      "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
-      "summary": "The paper proposes a framework to evaluate how large language models help discover, validate, and patch software vulnerabilities.",
-      "link": "http://arxiv.org/abs/2611.26601v1",
-      "published": "2026-11-19T18:54:19Z",
+      "title": "Functional Depth Is Learned: Isolating the Computation That Layers Produce Only Together",
+      "summary": "Transformer performance scales with depth, but layer count merely counts the opportunities for sequential computation: layers could still behave as nearly independent refinements that barely depend on one another. We study how transformers develop functional depth during pretraining, introducing an exact inclusion-exclusion decomposition that isolates the connected component, i.e., the…",
+      "link": "http://arxiv.org/abs/2611.27911v1",
+      "published": "2026-11-20T17:50:26Z",
       "authors": [
-        "Amine Lbath",
-        "Manan Suri",
-        "Aurelien Delaitre",
-        "Vadim Okun",
-        "Massih-Reza Amini",
-        "Dinesh Manocha"
+        "JaeSeong Kim",
+        "KyungTae Lim"
       ],
       "categories": [
-        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
+      "summary": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable…",
+      "link": "http://arxiv.org/abs/2611.27910v1",
+      "published": "2026-11-20T17:48:55Z",
+      "authors": [
+        "Aadharsh Kannan",
+        "Robert Bruckner",
+        "Philip A. Bernstein"
+      ],
+      "categories": [
+        "cs.IR",
         "cs.AI",
-        "cs.SE"
-      ],
-      "whyItMatters": "Tech readers should know how LLMs are reshaping vulnerability detection and remediation."
+        "cs.DB"
+      ]
     },
     {
-      "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
-      "summary": "The paper proposes a method for Active Feature Acquisition that distills knowledge from an oracle teacher to guide feature selection under budget constraints.",
-      "link": "http://arxiv.org/abs/2611.26598v1",
-      "published": "2026-11-19T18:52:57Z",
+      "title": "Communication-Efficient Federated Learning of Latent Patient Representations from Multi-Institutional EHRs",
+      "summary": "Electronic health records (EHRs) contain rich health information for uncovering latent patient representations and clinically meaningful subgroups. Learning from EHR data across institutions is valuable because representations learned at a single site may reflect local data patterns and lack generalizability, yet pooling patient-level records across institutions is often impractical because of…",
+      "link": "http://arxiv.org/abs/2611.27900v1",
+      "published": "2026-11-20T17:38:32Z",
       "authors": [
-        "Yang Meng",
-        "Zixin Ding",
-        "Robert L. Grossman",
-        "Yuxin Chen"
+        "Zhiyu Yan",
+        "Shiao Liu",
+        "Rahul Mahajan",
+        "Anand Viswanathan",
+        "Christopher D. Anderson",
+        "Rui Duan"
       ],
       "categories": [
+        "stat.ML",
         "cs.LG",
-        "cs.AI"
-      ],
-      "whyItMatters": "It offers a more efficient, cost-aware approach to feature selection, appealing to practitioners managing expensive data acquisition."
+        "math.ST"
+      ]
     },
     {
-      "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
-      "summary": "PGX introduces a framework that separates temporal and precision control from a monolithic VLA model to improve long-horizon humanoid loco‑manipulation tasks.",
-      "link": "http://arxiv.org/abs/2611.26596v1",
-      "published": "2026-11-19T18:52:18Z",
+      "title": "The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in Web Search",
+      "summary": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX anomalies. To address this, we introduce the Dual-Tier Sentiment Framework, a novel industrial architecture for automated UX attribution. Tier 1 (Macro System)…",
+      "link": "http://arxiv.org/abs/2611.27899v1",
+      "published": "2026-11-20T17:38:26Z",
       "authors": [
-        "Kai Lu",
-        "Chenyang Ma",
-        "Ioannis Havoutis"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "whyItMatters": "It enables more reliable, precise robot control by leveraging classical methods within modern vision‑language models."
-    },
-    {
-      "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
-      "summary": "The paper shows that self‑consistency certification for language models fails under correlated reasoning, proposing a new anytime‑valid method that controls error rates.",
-      "link": "http://arxiv.org/abs/2611.26592v1",
-      "published": "2026-11-19T18:47:51Z",
-      "authors": [
-        "Terence D. Agbeyegbe",
-        "Toneukarin G. Agbeyegbe"
-      ],
-      "categories": [
-        "stat.ME",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech readers care because it improves reliable AI outputs and error guarantees in real‑world language model use."
-    },
-    {
-      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-      "summary": "The paper introduces MC‑Lens, a multimodal Jacobian tool to probe internal concept representations in vision‑language models using Global Workspace Theory.",
-      "link": "http://arxiv.org/abs/2611.26590v1",
-      "published": "2026-11-19T18:46:50Z",
-      "authors": [
-        "Jiahao Huang",
-        "Jun Wang"
+        "Yi Ding",
+        "Gaurav Kumar",
+        "Rui Min",
+        "Isabella Ye",
+        "Bhavika Goyal",
+        "Emilio Antunez",
+        "Huihui Chen",
+        "Ke Xu",
+        "Xiaowei Sun",
+        "Xin Xu",
+        "Huijie Feng",
+        "Pradyumna Narayana",
+        "Golnaz Farhadi"
       ],
       "categories": [
         "cs.AI",
-        "cs.CV",
         "cs.LG"
-      ],
-      "whyItMatters": "It offers a new way to interpret how VLMs integrate vision and language, aiding transparency and debugging for AI developers."
+      ]
     },
     {
-      "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
-      "summary": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowledge the first framework whose LLM-based Anomaly Cross-Checker examines a passing regression's traces…",
-      "link": "http://arxiv.org/abs/2611.26588v1",
-      "published": "2026-11-19T18:45:54Z",
+      "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+      "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of real ones, a multi-professional referral flow, and export to FHIR R4 with the national RNDS…",
+      "link": "http://arxiv.org/abs/2611.27895v1",
+      "published": "2026-11-20T17:35:59Z",
       "authors": [
-        "Ana E. Sanchez Villalobos",
-        "Michael D. Quinn",
-        "Aakash Tyagi",
-        "Minh D. Luu",
-        "David Kebo Houngninou"
+        "Marcio Andre de Souza Estevam"
       ],
       "categories": [
         "cs.SE",
         "cs.AI",
-        "cs.AR"
+        "cs.CL"
       ]
     },
     {
-      "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
-      "summary": "Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement, and reuse. Existing layered models represent each layer with a full-canvas or region-sized spatial latent grid, so representation size grows with the cumulative spatial extent of the layers. We present ProtoDiffusion, a latent-diffusion framework built on ProtoVAE, a multi-layer variational…",
-      "link": "http://arxiv.org/abs/2611.26586v1",
-      "published": "2026-11-19T18:45:31Z",
+      "title": "FairITR: Fairness-Aware Learning of Multicategory Individualized Treatment Rules",
+      "summary": "Individualized treatment rules (ITRs) recommend treatment decisions based on individual characteristics and can improve treatment outcomes beyond traditional one-size-fits-all strategies. However, similar to other commonly used algorithmic decision-making methods, ITRs without considering model fairness may result in unfair decisions across groups defined by sensitive attributes, such as race or…",
+      "link": "http://arxiv.org/abs/2611.27894v1",
+      "published": "2026-11-20T17:35:49Z",
       "authors": [
-        "Adrià Ciurana Lanau",
-        "Harleen Hanspal",
-        "Lusine Abrahamyan",
-        "Emilio Tylson Baixauli",
-        "Yu Cao",
-        "Danai Triantafyllidou",
-        "Stefano Zorzi",
-        "Gustavo Zanoni Felipe",
-        "Peter Griger",
-        "Stefan Sietzen",
-        "Petru-Daniel Tudosiu"
+        "Zeyu Chen",
+        "Wei Qian",
+        "Bintong Chen"
       ],
       "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Represented but misread: Post-training changes how language models read out what they represent",
-      "summary": "Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether German texts were written by a human or an AI, probes and word n-gram classifiers separated the…",
-      "link": "http://arxiv.org/abs/2611.26584v1",
-      "published": "2026-11-19T18:43:56Z",
-      "authors": [
-        "Jochen Laubrock"
-      ],
-      "categories": [
-        "cs.CL",
         "cs.LG"
       ]
     },
     {
-      "title": "Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs",
-      "summary": "Multimodal image generation systems have made rapid progress and increasingly emphasize content safety. However, their safety mechanisms tend to rely on a single modality and lack joint consideration of both visual content and text prompts, particularly in instruction-guided image editing, where the uploaded image may itself carry risk. We thus introduce EditSafetyBench, a benchmark that measures…",
-      "link": "http://arxiv.org/abs/2611.26569v1",
-      "published": "2026-11-19T18:36:19Z",
+      "title": "Speculative Decoding Is Less Speculative Than You Think",
+      "summary": "Speculative decoding accelerates language-model inference by preparing candidate continuations before the target model generates them. Its efficiency depends on how well limited drafting computation anticipates the path the target will actually follow. Anticipating this path involves two sources of uncertainty: the target model's predictions and the randomness of sampling. Yet the former requires…",
+      "link": "http://arxiv.org/abs/2611.27891v1",
+      "published": "2026-11-20T17:33:21Z",
       "authors": [
-        "Ziqing Yang",
-        "Yixin Wu",
-        "Michael Backes",
-        "Yang Zhang"
-      ],
-      "categories": [
-        "cs.CR",
-        "cs.CV",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
-      "summary": "Generative engines synthesize retrieved web pages into answers, recommendations, and rankings. Generative engine optimization (GEO) services sell visibility in these answers by publishing promotional articles on user-generated-content (UGC) platforms for paying clients. Such promotion raises concerns in medical and financial domains, where misleading advice can cause harm. To study the severity…",
-      "link": "http://arxiv.org/abs/2611.26564v1",
-      "published": "2026-11-19T18:33:42Z",
-      "authors": [
-        "Sean Tang",
-        "Peiran Wang",
-        "Ying Li",
-        "Esha Shivakumar",
-        "Tao Meng",
-        "Yuan Tian"
-      ],
-      "categories": [
-        "cs.CR",
-        "cs.AI",
-        "cs.SI"
-      ]
-    },
-    {
-      "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
-      "summary": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of a foundation model-based deep learning system for dysplasia grading, using 969 H\\&E-stained whole slide images from four institutions. Patch-level classifiers…",
-      "link": "http://arxiv.org/abs/2611.26562v1",
-      "published": "2026-11-19T18:27:59Z",
-      "authors": [
-        "Amirali Khosravi",
-        "Jaidip M. Jagtap",
-        "D. Chamil Codipilly",
-        "Catherine E. Hagen",
-        "Jason T. Lewis",
-        "Rickey E. Carter",
-        "Shahriar Faghani",
-        "Vani J. A. Konda",
-        "Fouad Otaki",
-        "Shajan Peter",
-        "Nicholas Shaheen",
-        "Sachin Wani",
-        "Prasad G. Iyer",
-        "Bradley J. Erickson"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
-      "summary": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing information consistent with task evidence from information that conflicts with it. Existing evaluations study decision-interface biases and multimodal model behavior…",
-      "link": "http://arxiv.org/abs/2611.26557v1",
-      "published": "2026-11-19T18:25:41Z",
-      "authors": [
-        "Jinzhe Li",
-        "Qi Wang",
-        "Dandan Guo",
-        "Li Liu",
-        "Yuan Wu",
-        "Yi Chang"
+        "Guanning Zeng",
+        "Andrea Zanette"
       ],
       "categories": [
         "cs.AI"
-      ]
-    },
-    {
-      "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
-      "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident or finds its root cause. Incident catalogs collect these reports, and benchmarks…",
-      "link": "http://arxiv.org/abs/2611.26553v1",
-      "published": "2026-11-19T18:23:35Z",
-      "authors": [
-        "Mengxiao Wang",
-        "Mahbub Alam",
-        "Kalyan Nakka",
-        "Nitesh Saxena"
-      ],
-      "categories": [
-        "cs.CR",
-        "cs.AI",
-        "cs.MA"
       ]
     }
   ]
