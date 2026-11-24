@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>
+  // Apply the saved theme before first paint (same key and default as home).
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('signal-theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<!-- Google tag (gtag.js). Loaded only after Accept All, including on later visits. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.loadSignalAnalytics = function () {
+    if (window.__signalGaLoaded) return;
+    window.__signalGaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-X1DTQNYD9T';
+    document.head.appendChild(script);
+    gtag('js', new Date());
+    gtag('config', 'G-X1DTQNYD9T');
+  };
+  try {
+    if (localStorage.getItem('signal_tech_cookie_consent') === 'all') window.loadSignalAnalytics();
+  } catch (e) {}
+</script>
+<title>Signal Weekly — Nov 17–Nov 24, 2026 — Signal Tech</title>
+<meta name="description" content="Signal Weekly — Nov 17–Nov 24, 2026: 8 of the week&#39;s most useful tech stories from the Signal Tech dashboard, grouped by section with the source for each.">
+<meta name="author" content="Signal Tech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://signaltechnews.com/digests/2026-11-24">
+<link rel="alternate" type="application/rss+xml" title="Signal Tech: newsletter issues and weekly digests" href="https://signaltechnews.com/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal Tech">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Signal Weekly — Nov 17–Nov 24, 2026 — Signal Tech">
+<meta property="og:description" content="Signal Weekly — Nov 17–Nov 24, 2026: 8 of the week&#39;s most useful tech stories from the Signal Tech dashboard, grouped by section with the source for each.">
+<meta property="og:url" content="https://signaltechnews.com/digests/2026-11-24">
+<meta property="og:image" content="https://signaltechnews.com/assets/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SignalTechNews">
+<meta name="twitter:title" content="Signal Weekly — Nov 17–Nov 24, 2026 — Signal Tech">
+<meta name="twitter:description" content="Signal Weekly — Nov 17–Nov 24, 2026: 8 of the week&#39;s most useful tech stories from the Signal Tech dashboard, grouped by section with the source for each.">
+<meta name="twitter:image" content="https://signaltechnews.com/assets/og-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://signaltechnews.com/#organization",
+      "name": "Signal Tech",
+      "url": "https://signaltechnews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://signaltechnews.com/assets/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://x.com/SignalTechNews",
+        "https://www.linkedin.com/company/signaltechnews",
+        "https://dailysignaltech.beehiiv.com"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://signaltechnews.com/digests/2026-11-24#article",
+      "headline": "Signal Weekly — Nov 17–Nov 24, 2026",
+      "description": "Signal Weekly — Nov 17–Nov 24, 2026: 8 of the week's most useful tech stories from the Signal Tech dashboard, grouped by section with the source for each.",
+      "datePublished": "2026-11-24T01:32:20.751Z",
+      "dateModified": "2026-11-24T01:32:20.751Z",
+      "inLanguage": "en-GB",
+      "url": "https://signaltechnews.com/digests/2026-11-24",
+      "mainEntityOfPage": "https://signaltechnews.com/digests/2026-11-24",
+      "image": "https://signaltechnews.com/assets/og-preview.png",
+      "author": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://signaltechnews.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "@id": "https://signaltechnews.com/digests#page",
+        "url": "https://signaltechnews.com/digests"
+      }
+    }
+  ]
+}
+</script>
+<link rel="icon" href="/assets/favicon.ico?v=2" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=2">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+<link rel="manifest" href="/site.webmanifest?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/home.css">
+<link rel="stylesheet" href="/assets/pages.css">
+</head>
+<body class="site-page digests-page">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a href="/" class="wordmark" aria-label="Signal Tech home">
+        <img class="wordmark-mark" src="/assets/wordmark-s.svg?v=2" width="30" height="30" alt="">
+        <span>Tech</span>
+      </a>
+      <div class="mast-right">
+        <a class="mast-link" href="/digests">Digests</a>
+        <a class="mast-link" href="/blog">Blog</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="mast-account" id="accountBtn" data-account-btn aria-label="Log in to sync saved stories" title="Sign in with Google">
+          <span class="account-pill">
+            <svg class="account-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            <span class="account-label">Log in</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <p class="tagline">Curated briefing on AI engineering, chips, and dev tools for tech leaders. Updated every 3 hours.</p>
+  </div>
+</div>
+
+<div class="wrap page-wrap">
+  <main class="page-main" id="main" tabindex="-1">
+    <header class="page-head">
+      <p class="page-kicker">Signal Weekly</p>
+      <h1 class="page-title">Signal Weekly — Nov 17–Nov 24, 2026</h1>
+      <p class="page-sub page-sub-fixed">Nov 17–Nov 24, 2026 · 8 stories</p>
+      <div class="page-actions">
+        <a class="page-btn" id="digestPrev" rel="prev" href="/digests/2026-11-23">&larr; Previous week</a>
+        <a class="page-btn" id="digestNext" rel="next" hidden>Next week &rarr;</a>
+        <button type="button" class="page-btn page-btn-primary" id="digestShare">Share</button>
+        <span class="page-status" id="digestShareStatus" role="status" aria-live="polite"></span>
+      </div>
+    </header>
+
+    <div class="digest-layout">
+      <nav class="digest-dates" aria-label="Digest archive">
+        <h2 class="digest-dates-title">Archive</h2>
+        <div class="digest-chips" id="digestList"><a class="digest-chip is-active" aria-current="page" href="/digests/2026-11-24">Nov 17–Nov 24, 2026</a><a class="digest-chip" href="/digests/2026-11-23">Nov 16–Nov 23, 2026</a><a class="digest-chip" href="/digests/2026-11-16">Nov 9–Nov 16, 2026</a><a class="digest-chip" href="/digests/2026-11-09">Nov 2–Nov 9, 2026</a><a class="digest-chip" href="/digests/2026-11-02">Oct 26–Nov 2, 2026</a><a class="digest-chip" href="/digests/2026-10-26">Oct 19–Oct 26, 2026</a><a class="digest-chip" href="/digests/2026-10-19">Oct 12–Oct 19, 2026</a><a class="digest-chip" href="/digests/2026-10-12">Oct 5–Oct 12, 2026</a><a class="digest-chip" href="/digests/2026-10-05">Sep 28–Oct 5, 2026</a><a class="digest-chip" href="/digests/2026-09-28">Sep 21–Sep 28, 2026</a></div>
+      </nav>
+      <div class="digest-content digest-content-static" id="digestContent" data-digest-id="2026-11-24">
+<div class="digest-intro"><p>This week’s tech digest spotlights AI‑powered development, market automation, and hardware safety, while also covering fresh product reviews and academic breakthroughs. The mix shows how AI is reshaping both the tools we build and the devices we use.</p></div>
+<section class="digest-section" aria-labelledby="digest-s0">
+<h2 class="digest-section-title" id="digest-s0">Tech news</h2>
+<div class="digest-grid">
+<a class="latest-card digest-card" href="https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/" target="_blank" rel="noopener noreferrer"><div class="cat">TechCrunch · Tech news</div><h3>Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes</h3><p class="digest-card-summary">Claude Ship lets developers auto‑review, fix, and approve code, cutting deployment time.</p></a>
+<a class="latest-card digest-card" href="https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/" target="_blank" rel="noopener noreferrer"><div class="cat">TechCrunch · Tech news</div><h3>Supertake raises $20M to let AI agents turn your market predictions into stock portfolios</h3><p class="digest-card-summary">Supertake’s AI trading platform turns market forecasts into ready‑to‑trade portfolios.</p></a>
+<a class="latest-card digest-card" href="https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/" target="_blank" rel="noopener noreferrer"><div class="cat">Ars Technica · Tech news</div><h3>States sue SpaceX to stop Grok from generating child sex images, revenge porn</h3><p class="digest-card-summary">Legal action against SpaceX highlights growing scrutiny of AI content safety.</p></a>
+<a class="latest-card digest-card" href="https://semiengineering.com/measuring-verification-gaps-in-llm-generated-post-quantum-hardware-lucid-eyl/" target="_blank" rel="noopener noreferrer"><div class="cat">SemiEngineering · Tech news</div><h3>Measuring Verification Gaps In LLM-Generated Post-Quantum Hardware (Lucid, EYL)</h3><p class="digest-card-summary">Study warns of risks when AI generates post‑quantum hardware evidence.</p></a>
+<a class="latest-card digest-card" href="https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754" target="_blank" rel="noopener noreferrer"><div class="cat">The Register · Tech news</div><h3>Amazon scoops up AI accelerator tech to keep chips busy at all times</h3><p class="digest-card-summary">Amazon’s new accelerator tech aims to keep AI chips running at peak efficiency.</p></a>
+</div>
+</section>
+<section class="newsletter-card page-newsletter" id="newsletterCard" aria-labelledby="newsletterTitle">
+    <h2 id="newsletterTitle">Get Signal Tech every Friday</h2>
+    <p class="newsletter-note">One big story, quick hits and a Tool of the Week. Free, 5-minute read.</p>
+    <div class="newsletter-embed">
+      <iframe src="https://embeds.beehiiv.com/272d8e40-805d-4008-b4c0-75c73e67d0ef?slim=true" data-test-id="beehiiv-embed" title="Get Signal Tech in your inbox" height="70" width="100%" frameborder="0" scrolling="no" loading="lazy"></iframe>
+      <span class="newsletter-subscribe" aria-hidden="true">Subscribe</span>
+    </div>
+    <p class="newsletter-success" id="newsletterThanks" role="status" hidden></p>
+    <p class="newsletter-alt"><a href="https://dailysignaltech.beehiiv.com/?utm_source=signaltechnews&amp;utm_medium=digest_page&amp;utm_campaign=signup_box" target="_blank" rel="noopener">Or subscribe on beehiiv &rarr;</a></p>
+  </section>
+<section class="digest-section" aria-labelledby="digest-s1">
+<h2 class="digest-section-title" id="digest-s1">AI papers</h2>
+<div class="digest-grid">
+<a class="latest-card digest-card" href="http://arxiv.org/abs/2611.27973v1" target="_blank" rel="noopener noreferrer"><div class="cat">arXiv · AI papers</div><h3>MemOnce: A Scalable Memory Architecture for Large Language Models</h3><p class="digest-card-summary">MemOnce offers a scalable memory architecture that could keep LLMs running in real‑time.</p></a>
+</div>
+</section>
+<section class="digest-section" aria-labelledby="digest-s2">
+<h2 class="digest-section-title" id="digest-s2">Reviews</h2>
+<div class="digest-grid">
+<a class="latest-card digest-card" href="https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay" target="_blank" rel="noopener noreferrer"><div class="cat">The Verge Reviews · Reviews</div><h3>Your questions about Apple HomeView’s audio, answered</h3><p class="digest-card-summary">Apple HomeView’s audio falls short, and app compatibility may limit smart‑home use.</p></a>
+<a class="latest-card digest-card" href="https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review" target="_blank" rel="noopener noreferrer"><div class="cat">The Verge Reviews · Reviews</div><h3>The Xiaomi 18 Pro proves two screens aren’t better than one</h3><p class="digest-card-summary">Dual‑screen Xiaomi 18 Pro doesn’t deliver a clear usability win over single‑screen phones.</p></a>
+</div>
+</section>
+<div class="digest-outro"><p>Stay tuned for more insights as AI continues to blur the lines between code, commerce, and everyday tech.</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-contact">Contact: <a href="mailto:SignalTech.News@gmail.com">SignalTech.News@gmail.com</a> · <a href="https://x.com/SignalTechNews" rel="me noopener">X</a> · <a href="https://www.linkedin.com/company/signaltechnews" rel="me noopener">LinkedIn</a></p>
+    <nav class="footer-legal" aria-label="Publication">
+      <a href="/issues">Newsletter archive</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="/editorial">Editorial</a>
+      <a href="/methodology">How we select</a>
+      <a href="/advertise">Advertise</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </nav>
+    <p class="footer-copy" data-i18n="copyright">© 2026 Signal Tech. All rights reserved.</p>
+  </footer>
+</div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerText" hidden>
+  <div>
+    <p class="cookie-banner-title" id="cookieBannerTitle">Cookies on Signal Tech</p>
+    <p class="cookie-banner-copy" id="cookieBannerText">Essential storage remembers your settings on this device. Analytics runs only if you allow it. Read the <a href="/privacy">Privacy Policy</a>.</p>
+  </div>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-essential" id="cookieEssential">Essential Only</button>
+    <button type="button" class="cookie-accept" id="cookieAccept">Accept All</button>
+  </div>
+</div>
+<script src="/assets/site-chrome.js" defer></script>
+<script src="/assets/digests.js" defer></script>
+</body>
+</html>
