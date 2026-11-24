@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T02:18:52.649Z",
-  "count": 99,
+  "updated": "2026-11-24T06:28:49.396Z",
+  "count": 98,
   "items": [
     {
       "source": "The Register",
@@ -11,6 +11,7 @@
       "summary": "Cisco and OpenAI propose using eBPF kernel plugins to rapidly generate compensating controls for software patches.",
       "image": "https://image.theregister.com/?imageId=1682068&width=800",
       "readMinutes": 2,
+      "whyItMatters": "Tech leaders need faster, safer patch management to reduce security risks.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
@@ -21,8 +22,86 @@
           "url": "https://openai.com/index/introducing-shirudo",
           "title": "OpenAI and Cisco introduce Shirudo"
         }
-      ],
-      "whyItMatters": "Tech leaders need faster, safer patch management to reduce security risks."
+      ]
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Anthropic says Claude solved an age-old math problem, but the written proof is 250,000 pages of slop",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+      "published": "Tue, 24 Nov 2026 00:18:17 +0000",
+      "summary": "Anthropic claims Claude solved a longstanding math problem, yet the proof spans 250,000 pages of unclear reasoning.",
+      "image": "https://image.theregister.com/?imageId=5264648&width=800",
+      "readMinutes": 4,
+      "whyItMatters": "It highlights AI’s potential yet raises concerns about explainability and trust in automated proofs.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "AI coding agents used firms’ own code under 60% of the time, study finds",
+      "link": "https://thenextweb.com/news/designverse-ai-coding-drift-report-legacy-codebases",
+      "published": "Tue, 24 Nov 2026 00:01:10 +0000",
+      "summary": "AI coding agents used a company's own code less than 60% of the time, often inventing or using public components instead.",
+      "excerpt": "AI coding agents without company context used an organisation’s own approved code in fewer than six tasks in ten. That is the main finding of new research from DesignVerse, a Bucharest-based enterprise AI startup. The rest of the time, the agents invented components or swapped in public ones. Engineers then had to find and fix […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/11/andrei-manolache-designverse-ceo-portrait-purple-studio.avif",
+      "whyItMatters": "Shows AI tools may not reliably reuse proprietary code, raising concerns for security and efficiency in enterprise development.",
+      "score": 78,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/designverse-ai-coding-drift-report-legacy-codebases",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "AI Is ‘Probably Not’ Conscious but Could Be Soon, Says Philosopher Rob Long",
+      "link": "https://www.theinformation.com/articles/ai-probably-not-conscious-soon-says-philosopher-rob-long",
+      "published": "2026-11-23T23:55:26.000Z",
+      "summary": "Philosopher Rob Long says current AI models likely lack consciousness, but they may acquire it within a few years.",
+      "excerpt": "AI models probably aren’t conscious now but “there’s a pretty good chance that they could be conscious in the next few years,” said Rob Long, a leading philosopher studying the subject, on the latest episode of AI Deep Dive. (The full episode is available here.) Figuring out whether AI models have the kind of subjective experiences that constitute consciousness is quickly becoming a conundrum for the companies that…",
+      "whyItMatters": "Understanding AI consciousness impacts ethics, regulation, and future AI design.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/ai-probably-not-conscious-soon-says-philosopher-rob-long",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
+      "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "published": "2026-11-23T23:25:01.000Z",
+      "summary": "Arion Kurtaj, who hacked Rockstar and leaked GTA VI videos, received a seven‑year sentence but was released on license.",
+      "excerpt": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game's public release last week. Prior to his sentencing, Kurtaj had already spent time in a hospital…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jason_and_Lucia_03.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Shows the legal risks of game‑industry hacking and the potential for early leaks to impact releases.",
+      "score": 92,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Ladybird, the first new browser engine in years, is now available to test",
+      "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "published": "2026-11-23T22:38:09.000Z",
+      "summary": "Ladybird, a new independent browser engine built from scratch, is now in alpha for macOS and Linux after four years of development.",
+      "excerpt": "A Windows version of Ladybird is coming in the “later stages” of the project. | Image: Ladybird Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux following more than four years of development. The release makes Ladybird the first browser in years to…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "It offers a fresh, lightweight alternative that could influence web performance and security for developers.",
+      "score": 91,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "Ars Technica",
@@ -36,27 +115,17 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-      "clusterSize": 20,
+      "clusterSize": 13,
       "related": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
-          "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal"
-        },
         {
           "source": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
           "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ"
         },
         {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
-          "title": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia"
-        },
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
-          "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO"
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/jensen-owes-job-trump",
+          "title": "Jensen Owes His Job to Trump"
         },
         {
           "source": "The Information",
@@ -84,11 +153,6 @@
           "title": "Nvidia board puts Jensen Huang back as boss"
         },
         {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
-          "title": "Inside Nvidia, Not Everyone Is Celebrating Jensen Huang’s Return"
-        },
-        {
           "source": "The Verge",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
           "title": "Trump engineered a risky comeback for Jensen Huang"
@@ -109,110 +173,11 @@
           "title": "Jensen Huang returns to applause from employees at Nvidia HQ"
         },
         {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/how-to-win-big-betting-on-jensen-huang-listen-to-trump/",
-          "title": "How to Win Big Betting on Jensen Huang? Listen to Trump"
-        },
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
-          "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock"
-        },
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
-          "title": "Jensen Huang Is Back as Nvidia CEO"
-        },
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/jensen-huang-senate-hearing-lawmakers-criticise-retur",
-          "title": "Jensen Huang faces Senate hearing as both parties attack his return"
-        },
-        {
           "source": "The Next Web",
           "url": "https://thenextweb.com/news/jensen-huang-return-reactions-musk-altman-ackman-burry",
           "title": "Musk, Altman and Ackman cheer Jensen Huang’s return as Burry scoffs"
         }
       ]
-    },
-    {
-      "source": "The Register",
-      "category": "news",
-      "title": "Anthropic says Claude solved an age-old math problem, but the written proof is 250,000 pages of slop",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
-      "published": "Tue, 24 Nov 2026 00:18:17 +0000",
-      "summary": "Anthropic claims Claude solved a longstanding math problem, yet the proof spans 250,000 pages of unclear reasoning.",
-      "image": "https://image.theregister.com/?imageId=5264648&width=800",
-      "readMinutes": 4,
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It highlights AI’s potential yet raises concerns about explainability and trust in automated proofs."
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "AI coding agents used firms’ own code under 60% of the time, study finds",
-      "link": "https://thenextweb.com/news/designverse-ai-coding-drift-report-legacy-codebases",
-      "published": "Tue, 24 Nov 2026 00:01:10 +0000",
-      "summary": "AI coding agents used a company's own code less than 60% of the time, often inventing or using public components instead.",
-      "excerpt": "AI coding agents without company context used an organisation’s own approved code in fewer than six tasks in ten. That is the main finding of new research from DesignVerse, a Bucharest-based enterprise AI startup. The rest of the time, the agents invented components or swapped in public ones. Engineers then had to find and fix […] This story continues at The Next Web",
-      "image": "https://media.thenextweb.com/2026/11/andrei-manolache-designverse-ceo-portrait-purple-studio.avif",
-      "score": 71,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/designverse-ai-coding-drift-report-legacy-codebases",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows AI tools may not reliably reuse proprietary code, raising concerns for security and efficiency in enterprise development."
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "AI Is ‘Probably Not’ Conscious but Could Be Soon, Says Philosopher Rob Long",
-      "link": "https://www.theinformation.com/articles/ai-probably-not-conscious-soon-says-philosopher-rob-long",
-      "published": "2026-11-23T23:55:26.000Z",
-      "summary": "Philosopher Rob Long says current AI models likely lack consciousness, but they may acquire it within a few years.",
-      "excerpt": "AI models probably aren’t conscious now but “there’s a pretty good chance that they could be conscious in the next few years,” said Rob Long, a leading philosopher studying the subject, on the latest episode of AI Deep Dive. (The full episode is available here.) Figuring out whether AI models have the kind of subjective experiences that constitute consciousness is quickly becoming a conundrum for the companies that…",
-      "score": 99,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/ai-probably-not-conscious-soon-says-philosopher-rob-long",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Understanding AI consciousness impacts ethics, regulation, and future AI design."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
-      "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
-      "published": "2026-11-23T23:25:01.000Z",
-      "summary": "Arion Kurtaj, who hacked Rockstar and leaked GTA VI videos, received a seven‑year sentence but was released on license.",
-      "excerpt": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game's public release last week. Prior to his sentencing, Kurtaj had already spent time in a hospital…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jason_and_Lucia_03.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 85,
-      "isPrimary": true,
-      "clusterId": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows the legal risks of game‑industry hacking and the potential for early leaks to impact releases."
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "Ladybird, the first new browser engine in years, is now available to test",
-      "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
-      "published": "2026-11-23T22:38:09.000Z",
-      "summary": "Ladybird, a new independent browser engine built from scratch, is now in alpha for macOS and Linux after four years of development.",
-      "excerpt": "A Windows version of Ladybird is coming in the “later stages” of the project. | Image: Ladybird Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux following more than four years of development. The release makes Ladybird the first browser in years to…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?quality=90&strip=all&crop=0,0,100,100",
-      "score": 85,
-      "isPrimary": true,
-      "clusterId": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It offers a fresh, lightweight alternative that could influence web performance and security for developers."
     },
     {
       "source": "TechCrunch",
@@ -243,19 +208,29 @@
       "related": []
     },
     {
-      "source": "The Information",
+      "source": "TechCrunch",
       "category": "news",
-      "title": "Jensen Owes His Job to Trump",
-      "link": "https://www.theinformation.com/articles/jensen-owes-job-trump",
-      "published": "2026-11-23T22:00:44.000Z",
-      "summary": "The article claims Trump reinstated Nvidia CEO Jensen Huang, implying the CEO now owes his position to the president.",
-      "excerpt": "If Jensen Huang was a tough taskmaster at Nvidia before, just imagine what he’s going to be like now! President Donald Trump has proclaimed Huang’s reinstatement, announced Monday morning, was vital to America’s “success and prosperity.” In other words, Huang may feel he’s untouchable. His only problem is that he now owes his job to Trump. Just imagine what the newly restored CEO’s relations with the president will…",
-      "whyItMatters": "It suggests political influence over tech leadership, raising concerns about corporate independence.",
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "link": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "published": "Mon, 23 Nov 2026 21:47:41 +0000",
+      "summary": "Jensen Huang was reinstated at Nvidia after a scandal, with Elon Musk publicly supporting the correction.",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/jensen-owes-job-trump",
-      "clusterSize": 1,
-      "related": []
+      "clusterId": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "clusterSize": 3,
+      "related": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
+          "title": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia"
+        },
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+          "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO"
+        }
+      ],
+      "whyItMatters": "Tech leaders’ endorsement signals Nvidia’s resilience and potential market impact."
     },
     {
       "source": "Ars Technica",
@@ -314,7 +289,7 @@
       "excerpt": "People protest outside the plenary ahead of the closing plenary session on the final day of the COP31 UNFCCC climate conference on November 20th in Antalya, Turkey. | Photo: Getty Images The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306098413.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "Tech leaders must balance AI infrastructure demands with global sustainability goals.",
-      "score": 92,
+      "score": 91,
       "isPrimary": true,
       "clusterId": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
       "clusterSize": 1,
@@ -345,7 +320,7 @@
       "excerpt": "Anthropic has opened Enterprise Frontier Safeguards in public beta, letting it scan for misuse across many Claude requests while companies keep their data in their own cloud storage. It answers enterprise pushback over the 30-day retention Anthropic introduced with Fable 5. Anthropic has opened a new safety system for business users of Claude in a […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/anthropic-wordmark-3d-render-purple-glass.avif",
       "whyItMatters": "It lets businesses monitor AI safety without sacrificing data control, easing compliance worries.",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
       "clusterSize": 1,
@@ -388,7 +363,8 @@
       "link": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "published": "Mon, 23 Nov 2026 19:14:46 +0000",
       "summary": "Google’s AI Mode now accesses Drive, Wallet, and Gemini to deliver more personalized answers using existing user data.",
-      "score": 98,
+      "whyItMatters": "It enhances search relevance and convenience for users deeply integrated into Google’s ecosystem.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "clusterSize": 2,
@@ -398,8 +374,7 @@
           "url": "https://thenextweb.com/news/google-ai-mode-personal-intelligence-wallet-drive-gemini",
           "title": "Google Search’s AI Mode can now read your Wallet, with Drive next"
         }
-      ],
-      "whyItMatters": "It enhances search relevance and convenience for users deeply integrated into Google’s ecosystem."
+      ]
     },
     {
       "source": "The Next Web",
@@ -410,12 +385,12 @@
       "summary": "DeepMind’s Gemini 4 AI agents discovered and formally verified cheaper quantum algorithms for fusion, chemistry, and drug design.",
       "excerpt": "Google DeepMind and Google Quantum AI used teams of Gemini 4 agents to find more efficient quantum algorithms for fusion, chemistry and drug-design problems. Each result was proved correct in the Lean theorem prover, because the circuits are too large to test on today’s computers. Google DeepMind says teams of AI agents have found faster […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/google-deepmind-quantum-algorithms-qubit-sphere.avif",
-      "score": 75,
+      "whyItMatters": "It shows AI can accelerate quantum research, potentially speeding breakthroughs in energy and pharmaceuticals.",
+      "score": 76,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It shows AI can accelerate quantum research, potentially speeding breakthroughs in energy and pharmaceuticals."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -425,12 +400,12 @@
       "published": "Mon, 23 Nov 2026 18:03:42 +0000",
       "summary": "Over 150 child safety groups urge Amazon and eBay to stop selling AI‑powered toys.",
       "excerpt": "A global coalition of more than 150 child safety groups and experts has asked Amazon and eBay to stop selling toys with built-in AI chatbots. The request came in an open letter sent on Monday to Amazon CEO Andy Jassy and eBay CEO Jamie Iannone. The campaign is led by the nonprofit Fairplay, joined by […] This story continues at The Next Web",
-      "score": 69,
+      "whyItMatters": "Tech readers should note growing parental concerns over AI in children’s products and potential regulatory pressure.",
+      "score": 76,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/child-safety-groups-amazon-ebay-ai-toys",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should note growing parental concerns over AI in children’s products and potential regulatory pressure."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -442,12 +417,28 @@
       "excerpt": "Penguin Solutions demonstrates external memory box with up to 576 GB of HBM3E and 16 TB of DDR5 inside that connects to hosts using optical links. There is a major caveat with this one as it does not seem to support existing servers and accelerators.",
       "image": "https://cdn.mos.cms.futurecdn.net/y4Btk5SJY5BAa8r7oqC7Nh-1920-80.png",
       "readMinutes": 4,
-      "score": 83,
+      "whyItMatters": "It promises higher AI accelerator bandwidth, but limited compatibility may delay practical adoption.",
+      "score": 90,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/dram/penguin-shows-off-photonic-memory-box-at-sc26-that-can-expand-ai-accelerator-capacity-over-optical-links-device-sports-up-to-576gb-of-hbm3e-customer-samples-expected-in-2027",
       "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Jensen Huang faces Senate hearing as both parties attack his return",
+      "link": "https://thenextweb.com/news/jensen-huang-senate-hearing-lawmakers-criticise-retur",
+      "published": "Mon, 23 Nov 2026 17:45:34 +0000",
+      "summary": "Nvidia CEO Jensen Huang is set to testify before the Senate Banking Committee after his board reinstated him.",
+      "excerpt": "Senate Banking Committee chair Tim Scott has called Jensen Huang to a public hearing at 10am on Thursday, 3 December, according to a notice. The hearing will come less than two weeks after Nvidia’s board reinstated him as chief executive, Politico reported. Huang had agreed to testify before his return. A spokesperson for Huang declined […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/10/us-flag-capitol-dome-washington.avif",
+      "score": 80,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/jensen-huang-senate-hearing-lawmakers-criticise-retur",
+      "clusterSize": 1,
       "related": [],
-      "whyItMatters": "It promises higher AI accelerator bandwidth, but limited compatibility may delay practical adoption."
+      "whyItMatters": "It signals regulatory scrutiny of AI hardware leadership and could impact Nvidia’s market perception."
     },
     {
       "source": "MIT Technology Review",
@@ -459,12 +450,12 @@
       "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/simulacra2a.jpg?resize=1200,600",
       "readMinutes": 4,
+      "whyItMatters": "Tech readers should note skepticism about AI sentience claims and investment risk.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should note skepticism about AI sentience claims and investment risk."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -475,12 +466,12 @@
       "summary": "Sierra, co-founded by Bret Taylor, secures $1.75B at a $30B valuation, doubling its previous value and surpassing $400M ARR with AI customer service agents.",
       "excerpt": "Sierra, the AI agent company co-founded by OpenAI chair Bret Taylor, is raising $1.75B at a $30B valuation, led by Greenoaks and Lightspeed. That is almost double the $15.8B it was valued at in May, and it says annual recurring revenue has passed $400M. Sierra, the AI customer service company led by Bret Taylor, is […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/ai-chip-brain-inside-light-bulb-purple-background.avif",
+      "whyItMatters": "Shows rapid growth and investor confidence in AI-driven customer support, impacting enterprise tech adoption.",
       "score": 75,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/sierra-1-75b-series-f-30b-valuation-ai-agents",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows rapid growth and investor confidence in AI-driven customer support, impacting enterprise tech adoption."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -488,12 +479,13 @@
       "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
       "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
       "published": "Mon, 23 Nov 2026 17:14:23 +0000",
-      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
-      "score": 97,
+      "summary": "Amazon is buying Decart’s AI optimization technology and research team for $7.5 billion.",
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It boosts Amazon’s AI infrastructure, enhancing model efficiency for its cloud services."
     },
     {
       "source": "NVIDIA Blog",
@@ -501,15 +493,16 @@
       "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
       "link": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
       "published": "Mon, 23 Nov 2026 17:00:08 +0000",
-      "summary": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some…",
+      "summary": "NVIDIA showcases holiday-themed tools and games that let users build, play, and create, encouraging hobbyists to elevate their projects with advanced tech.",
       "excerpt": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-holiday26-gfn-nv-blog-preview-1280x680-1.jpg",
       "readMinutes": 4,
-      "score": 81,
+      "score": 79,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech-savvy readers can explore NVIDIA’s creative tools to enhance gaming and design skills this season."
     },
     {
       "source": "Tom's Hardware",
@@ -517,14 +510,15 @@
       "title": "AMD's top-performing Ryzen 9850X3D is now the same price as the 9800X3D, an all-time low",
       "link": "https://www.tomshardware.com/pc-components/cpus/amds-top-performing-ryzen-9800x3d-is-down-to-its-lowest-price-ever-at-usd399-get-the-fastest-gaming-cpu-and-save-usd80-off-list-price",
       "published": "Mon, 23 Nov 2026 17:00:00 +0000",
-      "summary": "AMD's king of gaming CPUs, the Ryzen 7 9850X3D, is down to its lowest price ever at $399 ahead of Black Friday.",
+      "summary": "AMD’s Ryzen 7 9850X3D gaming CPU has dropped to $399, matching the 9800X3D price and hitting an all‑time low before Black Friday.",
       "image": "https://cdn.mos.cms.futurecdn.net/rs4t4aZAtm3YaAxSqHYj7P-1920-80.jpg",
       "readMinutes": 3,
-      "score": 83,
+      "score": 81,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/cpus/amds-top-performing-ryzen-9800x3d-is-down-to-its-lowest-price-ever-at-usd399-get-the-fastest-gaming-cpu-and-save-usd80-off-list-price",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech enthusiasts can now access top gaming performance at a historically low price, improving value for high‑end builds."
     },
     {
       "source": "The Next Web",
@@ -532,14 +526,15 @@
       "title": "AI copycats are cloning creators’ videos for millions of views, BBC finds",
       "link": "https://thenextweb.com/news/ai-reskinning-creators-videos-copied-bbc",
       "published": "Mon, 23 Nov 2026 16:58:07 +0000",
-      "summary": "Musicians, dancers and comedians are finding their videos copied by AI-generated characters, BBC Verify reported. The copies repeat the same performance, sometimes to millions more viewers. Marco Silva found accounts that copy a real…",
+      "summary": "AI tools replicate musicians, dancers, and comedians’ videos, replacing them with AI characters to reach millions of viewers, a practice known as reskinning.",
       "excerpt": "Musicians, dancers and comedians are finding their videos copied by AI-generated characters, BBC Verify reported. The copies repeat the same performance, sometimes to millions more viewers. Marco Silva found accounts that copy a real person’s clip frame by frame and swap the person for an AI character. Experts call the practice “reskinning”. Cheap AI tools […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/phone-recording-guitarist-performance-dark-hall.avif",
-      "score": 69,
+      "score": 67,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/ai-reskinning-creators-videos-copied-bbc",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech-savvy readers should know this threatens creators’ rights and could flood platforms with low-quality AI content."
     },
     {
       "source": "The Information",
@@ -547,13 +542,14 @@
       "title": "Amazon Acquires Chip Software Business from AI Startup Decart",
       "link": "https://www.theinformation.com/briefings/amazon-acquires-chip-software-business-ai-startup-decart",
       "published": "2026-11-23T16:11:22.000Z",
-      "summary": "Amazon said it is acquiring key technology and top staff from Israeli AI startup Decart, in a move designed to help Amazon run compute for AI more efficiently, including with its homegrown Trainium AI chips. Decart’s software is designed…",
+      "summary": "Amazon is buying Decart’s chip software and talent to boost AI compute efficiency on its Trainium chips.",
       "excerpt": "Amazon said it is acquiring key technology and top staff from Israeli AI startup Decart, in a move designed to help Amazon run compute for AI more efficiently, including with its homegrown Trainium AI chips. Decart’s software is designed to get more out of chips, and helps the chips run faster. ...",
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/amazon-acquires-chip-software-business-ai-startup-decart",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It enhances Amazon’s AI infrastructure, potentially lowering costs and speeding up model training."
     },
     {
       "source": "SemiWiki",
@@ -561,13 +557,14 @@
       "title": "ChipAgents Webinar – How a Multi-Agent Platform Accelerates Functional and Formal Verification",
       "link": "https://semiwiki.com/events/376394-chipagents-webinar-how-a-multi-agent-platform-accelerates-functional-and-formal-verification/",
       "published": "Mon, 23 Nov 2026 16:00:59 +0000",
-      "summary": "We all know that functional verification consumes most of the front-end design effort. Most teams face hours of planning, days of simulation and debugging, and weeks of iteration. It becomes clear that as designs grow more complex, AI…",
+      "summary": "The webinar explains how ChipAgents’ multi‑agent platform speeds up functional and formal verification for complex chip designs.",
       "excerpt": "We all know that functional verification consumes most of the front-end design effort. Most teams face hours of planning, days of simulation and debugging, and weeks of iteration. It becomes clear that as designs grow more complex, AI systems are required. Systems that can accelerate the verification cycle while improving quality… Read More The post ChipAgents Webinar – How a Multi-Agent Platform Accelerates…",
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/events/376394-chipagents-webinar-how-a-multi-agent-platform-accelerates-functional-and-formal-verification/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech teams can reduce verification time and improve design quality with AI‑driven automation."
     },
     {
       "source": "Tom's Hardware",
@@ -575,14 +572,15 @@
       "title": "Samsung Odyssey G8 G80SH 32-inch 4K OLED gaming monitor review: Color, performance and style",
       "link": "https://www.tomshardware.com/monitors/gaming-monitors/samsung-odyssey-g8-g80sh-32-inch-4k-oled-gaming-monitor-review",
       "published": "Mon, 23 Nov 2026 15:30:00 +0000",
-      "summary": "Samsung’s Odyssey G8 G80SH is a 32-inch Quantum Dot OLED with 4K resolution and 240 Hz. It delivers a huge color gamut along with smooth and responsive gaming and it supports HDR10+ with dynamic tone mapping.",
+      "summary": "Samsung’s Odyssey G8 G80SH is a 32‑inch Quantum Dot OLED 4K monitor with 240 Hz, HDR10+ and a wide color gamut for gaming.",
       "image": "https://cdn.mos.cms.futurecdn.net/DZgTGU8zU7WJiTeJFEaZD4-1920-80.jpg",
       "readMinutes": 19,
-      "score": 82,
+      "score": 81,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/monitors/gaming-monitors/samsung-odyssey-g8-g80sh-32-inch-4k-oled-gaming-monitor-review",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Its high refresh rate and color accuracy give gamers a competitive visual edge."
     },
     {
       "source": "The Information",
@@ -590,13 +588,14 @@
       "title": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute",
       "link": "https://www.theinformation.com/articles/anthropics-math-breakthrough-matters-palo-alto-networks-bought-applied-compute",
       "published": "2026-11-23T15:01:01.000Z",
-      "summary": "Silicon Valley loves a good oust-and-reinstate moment. The latest example: Nvidia CEO Jensen Huang. The chipmaker announced Monday morning that Huang, who had resigned earlier this month after reports emerged about inappropriate…",
+      "summary": "The article discusses Nvidia CEO Jensen Huang’s resignation and unexpected return amid controversy.",
       "excerpt": "Silicon Valley loves a good oust-and-reinstate moment. The latest example: Nvidia CEO Jensen Huang. The chipmaker announced Monday morning that Huang, who had resigned earlier this month after reports emerged about inappropriate relationships with a supplier and employees, would return as its president, CEO and board member. It’s not clear yet what led to his reinstatement. It seems like the U.S. government was…",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/anthropics-math-breakthrough-matters-palo-alto-networks-bought-applied-compute",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It highlights leadership volatility in major tech firms, affecting investor confidence and industry stability."
     },
     {
       "source": "The Register",
@@ -604,14 +603,15 @@
       "title": "Everything going down at once wasn't evidence of a conspiracy – but the truth may be scarier",
       "link": "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458",
       "published": "Mon, 23 Nov 2026 14:04:00 +0000",
-      "summary": "Rogue AI or nation-state hackers would be preferable to the amount of technical debt the past week of wobbling services laid bare",
+      "summary": "The article argues recent service outages reveal deep technical debt, not conspiracies, highlighting systemic fragility in tech infrastructure.",
       "image": "https://image.theregister.com/?imageId=5309241&width=800",
       "readMinutes": 24,
-      "score": 96,
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech readers should recognize how hidden debt can trigger widespread failures and security risks."
     },
     {
       "source": "The Information",
@@ -619,27 +619,14 @@
       "title": "AMD’s Valuation is Getting Ahead of Its Fundamentals",
       "link": "https://www.theinformation.com/articles/amds-valuation-getting-ahead-fundamentals",
       "published": "2026-11-23T14:00:51.000Z",
-      "summary": "AMD has been the darling of large-cap semiconductor investors this year, with its stock up 98% so far even after Friday’s big selloff. While some on Wall Street think the recent turmoil at Nvidia could be an opportunity for AMD to sell…",
+      "summary": "AMD’s stock surge has inflated its valuation beyond current fundamentals, raising concerns about overestimation amid geopolitical and financial risks.",
       "excerpt": "AMD has been the darling of large-cap semiconductor investors this year, with its stock up 98% so far even after Friday’s big selloff. While some on Wall Street think the recent turmoil at Nvidia could be an opportunity for AMD to sell more of its AI chips to customers and steal market share, its valuation is already predicated on sky-high growth expectations and doesn’t reflect the geopolitical, financing and…",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/amds-valuation-getting-ahead-fundamentals",
       "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
-      "link": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
-      "published": "Mon, 23 Nov 2026 13:11:00 +0000",
-      "summary": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.",
-      "image": "https://media.wired.com/photos/6b00bf3096143f394c42fff6/master/pass/Nvidia-Powering%20Brain-Computer-Interfaces-mary-connexus-control-unit-Science.jpg",
-      "score": 93,
-      "isPrimary": true,
-      "clusterId": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
-      "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech investors should watch for potential price corrections as growth expectations may not materialize."
     },
     {
       "source": "MIT Technology Review",
@@ -651,7 +638,7 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/08/starlink-grid-gradient.jpg?fit=1920,1280",
       "readMinutes": 4,
-      "score": 95,
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
       "clusterSize": 1,
@@ -669,21 +656,6 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "Wired",
-      "category": "news",
-      "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
-      "link": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
-      "published": "Mon, 23 Nov 2026 12:00:00 +0000",
-      "summary": "The article invites readers to ask questions about AI safety at a livestream event on December 2.",
-      "image": "https://media.wired.com/photos/6b00ca934909d8ae8eb24f03/master/pass/livestream_ama_ai_safety.jpg",
-      "whyItMatters": "It offers a chance to influence industry actions on AI risk.",
-      "score": 89,
-      "isPrimary": true,
-      "clusterId": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
       "clusterSize": 1,
       "related": []
     },
@@ -711,7 +683,8 @@
       "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
       "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-      "score": 86,
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/40q0vnGDp1zwWuJrVjXtu6/79ebb13b84e11ce1711a27adfd6ffafe/connected-intelligence-for-in-house-legal-cover.png?w=1600&h=900&fit=fill",
+      "score": 84,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "clusterSize": 2,
@@ -730,7 +703,7 @@
       "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
       "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-      "score": 86,
+      "score": 84,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "clusterSize": 1,
@@ -745,7 +718,7 @@
       "summary": "An interview with Manu Gulati, co‑founder of Velaura AI and former silicon architect at Apple, Google, Qualcomm, and NUVIA.",
       "excerpt": "Manu Gulati serves as Co-founder & Chief Development Officer at Velaura AI. Manu is an industry-renowned silicon architect and engineering leader whose work spans Apple, Google, Qualcomm, and NUVIA (the high-performance silicon company he co-founded, which was acquired by Qualcomm for approximately $1.5B). Having … Read More The post CEO Interview with Manu Gulati of Velaura AI appeared first on SemiWiki.",
       "whyItMatters": "Insights into cutting‑edge silicon design could influence future AI hardware strategies.",
-      "score": 97,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ceo-interviews/376481-ceo-interview-with-manu-gulati-of-velaura-ai/",
       "clusterSize": 1,
@@ -760,7 +733,7 @@
       "summary": "CELUS CEO Tobias Pohl discusses his AI-driven electronics design platform, its growth to 70k engineers, and his engineering background.",
       "excerpt": "Tobias Pohl is co-founder and CEO of CELUS, a Munich-based company that builds an AI-powered electronics design platform used by more than 70,000 engineers. He studied mechanical and automotive engineering at the Technical University of Munich, where he worked in an automotive research project and built software and custom… Read More The post CEO Interview with Tobias Pohl of CELUS appeared first on SemiWiki.",
       "whyItMatters": "Tech-savvy readers see how AI accelerates hardware design and the platform’s large user base signals industry impact.",
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ceo-interviews/376273-ceo-interview-with-tobias-pohl-of-celus/",
       "clusterSize": 1,
@@ -775,7 +748,7 @@
       "summary": "Dr. Sameer Pawanekar, CEO of Ramtera, discusses his company's EDA tools LVR and PRE for design rule checking and place‑and‑route.",
       "excerpt": "Dr. Sameer Pawanekar is the founder and CEO of Ramtera Inc., an EDA company building physical design and physical verification software. He is the architect and principal developer of both Ramtera products: LVR, for DRC, LVS and ERC, and PRE, for place-and-route. Sameer holds a PhD in VLSI placement and partitioning and an MTech,… Read More The post CEO Interview with Dr. Sameer Pawanekar of Ramtera appeared first…",
       "whyItMatters": "Tech leaders should note Ramtera’s advanced physical verification tools that can improve chip design efficiency.",
-      "score": 95,
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ceo-interviews/376107-ceo-interview-with-dr-sameer-pawanekar-of-ramtera/",
       "clusterSize": 1,

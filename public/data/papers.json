@@ -1,359 +1,352 @@
 {
-  "updated": "2026-11-24T02:18:53.040Z",
+  "updated": "2026-11-24T06:28:49.651Z",
   "count": 20,
   "items": [
     {
-      "title": "Optimal Linear Regression Without a Variance",
-      "summary": "The paper presents a method to perform high‑probability linear regression when noise has only finite α‑moment (α∈(1,2)) and covariates have limited moments, by reducing to finite‑variance algorithms.",
-      "link": "http://arxiv.org/abs/2611.27983v1",
-      "published": "2026-11-20T18:58:45Z",
+      "title": "PseuDRAGON: Knowledge-Guided Local LLMs for Financial-Data Pseudonymization in Closed Networks",
+      "summary": "PseuDRAGON uses knowledge‑guided local LLMs to consistently pseudonymize financial data by storing confirmed judgments and applying exact‑name lookups and learned rules.",
+      "link": "http://arxiv.org/abs/2611.30353v1",
+      "published": "2026-11-23T09:24:48Z",
       "authors": [
-        "Artin Tajdini",
-        "Jasper C. H. Lee",
-        "Jonathan Scarlett",
-        "Kevin Jamieson"
-      ],
-      "categories": [
-        "stat.ML",
-        "cs.AI",
-        "cs.IT",
-        "cs.LG"
-      ],
-      "whyItMatters": "It enables robust regression in heavy‑tailed data settings common in real‑world AI applications."
-    },
-    {
-      "title": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
-      "summary": "The paper evaluates one‑day‑ahead S&P 500 forecasts using linear regression, RNN, and LSTM on a 2006‑2025 dataset with fundamentals, macro, and technical features.",
-      "link": "http://arxiv.org/abs/2611.27978v1",
-      "published": "2026-11-20T18:57:15Z",
-      "authors": [
-        "Hari Sitaula",
-        "Joseph Opitz"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "It shows how deep learning models compare to simple baselines, guiding practitioners on model choice for financial time‑series."
-    },
-    {
-      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-      "summary": "MemOnce proposes a scalable memory architecture that replaces token-level KV caches with linear-time mechanisms, reducing GPU memory and computational costs for long-horizon LLM inference.",
-      "link": "http://arxiv.org/abs/2611.27973v1",
-      "published": "2026-11-20T18:51:29Z",
-      "authors": [
-        "Chang Nie",
-        "Chaoyou Fu",
-        "Songlin Liu",
-        "Yiqing Hu",
-        "Caifeng Shan"
-      ],
-      "categories": [
-        "cs.CL"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it enables more efficient, continuous LLM deployment on limited hardware."
-    },
-    {
-      "title": "On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals",
-      "summary": "The paper outlines a standardized EEG feature set for classifying ADHD in children and adolescents during cognitive tasks.",
-      "link": "http://arxiv.org/abs/2611.27970v1",
-      "published": "2026-11-20T18:51:08Z",
-      "authors": [
-        "Javier Sanchis",
-        "Álvaro Navarro",
-        "Jorge García-Carrasco",
-        "Tahar Kechadi",
-        "Juan Trujillo"
-      ],
-      "categories": [
-        "cs.LG",
-        "eess.SP"
-      ],
-      "whyItMatters": "Standardized features improve reproducibility and clinical utility of EEG-based ADHD diagnostics."
-    },
-    {
-      "title": "Non-penetrating World Models",
-      "summary": "The paper introduces NoPeBench to test if interactive video world models avoid object penetration, finding current open-source models fail to prevent such physical inconsistencies.",
-      "link": "http://arxiv.org/abs/2611.27963v1",
-      "published": "2026-11-20T18:44:57Z",
-      "authors": [
-        "Yuhang Dai",
-        "Yinwei Wu",
-        "Ziyue Lin",
-        "Han Ji",
-        "Xingyi Yang"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "whyItMatters": "Tech-savvy readers care because reliable physics in AI models is crucial for realistic simulations and safe real-world applications."
-    },
-    {
-      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-      "summary": "The article explores training transformers that self‑optimize their layer topology instead of using a fixed architecture.",
-      "link": "http://arxiv.org/abs/2611.27962v1",
-      "published": "2026-11-20T18:41:39Z",
-      "authors": [
-        "Kaden Zheng",
-        "Pratyusha Sharma"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "whyItMatters": "It could lead to more efficient, task‑specific models that save compute and improve performance."
-    },
-    {
-      "title": "Ranking-Preserving Coreset Selection for Efficient Evolutionary Hyperparameter Optimization",
-      "summary": "The paper introduces a ranking-preserving coreset method to speed up evolutionary hyperparameter optimization by training on a compact dataset while maintaining configuration rankings.",
-      "link": "http://arxiv.org/abs/2611.27959v1",
-      "published": "2026-11-20T18:35:28Z",
-      "authors": [
-        "Mamoona Tasadduq",
-        "Maryam Bashir"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "It reduces HPO training time, enabling faster model tuning on large datasets."
-    },
-    {
-      "title": "Topology Hub Optimal Transport: Eliminating Long Context Dilution at Flash Speed",
-      "summary": "The paper introduces a hub-and-spoke optimal transport method to improve long-context model efficiency by reducing attention matrix size and mitigating dilution.",
-      "link": "http://arxiv.org/abs/2611.27951v1",
-      "published": "2026-11-20T18:23:42Z",
-      "authors": [
-        "Dylan Forde"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech readers care because it speeds up large‑language‑model inference and enhances accuracy on long documents."
-    },
-    {
-      "title": "The Optimal Sample Complexity of Agnostic PAC Learning for Partial Concept Classes",
-      "summary": "The paper proves that for any partial concept class with finite VC dimension, a deterministic agnostic PAC learner can achieve optimal sample complexity of O((d+log(1/δ))/ε²).",
-      "link": "http://arxiv.org/abs/2611.27946v1",
-      "published": "2026-11-20T18:18:09Z",
-      "authors": [
-        "Liang-Yu Zou"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it guarantees efficient learning even when concepts are partially defined, improving algorithmic guarantees."
-    },
-    {
-      "title": "BioEmu2: Scalable Emulation of Biomolecular Dynamics",
-      "summary": "BioEmu2 is a generative model that rapidly simulates atomically resolved biomolecular dynamics, combining structure prediction, sampling, and time evolution.",
-      "link": "http://arxiv.org/abs/2611.27924v1",
-      "published": "2026-11-20T17:58:47Z",
-      "authors": [
-        "Michael Gastegger",
-        "Adam E. Foster",
-        "José Jiménez-Luna",
-        "Tim Hempel",
-        "Sarah Lewis",
-        "Yu Xie",
-        "Lixin Sun",
-        "Iryna Zaporozhets",
-        "J. Thorben Frank",
-        "Yaoyi Chen",
-        "Michael Plainer",
-        "Ludwig Winkler",
-        "Pedro B. P. S. Reis",
-        "Sven H. Giese",
-        "Roberto Sordillo",
-        "Victor García Satorras",
-        "Eray Inanc",
-        "Kacper Kapuśniak",
-        "Soojung Yang",
-        "Rishwanth Raghu",
-        "Rachel Kim",
-        "Gabriel Dernbach",
-        "Deniz Gunceler",
-        "Hannes Schulz",
-        "Bonnie Kruft",
-        "Marwin Segler",
-        "Christopher M. Bishop",
-        "Cecilia Clementi",
-        "Ryota Tomioka",
-        "Frank Noé"
+        "Gwangui Hong",
+        "Seonho An",
+        "Seonkyu Lim",
+        "KyungTae Lim",
+        "Min-Soo Kim"
       ],
       "categories": [
         "cs.AI",
-        "q-bio.BM"
+        "cs.CR"
       ],
-      "whyItMatters": "It offers orders‑of‑magnitude faster biomolecular simulations, enabling large‑scale studies of protein motions and interactions."
+      "whyItMatters": "It improves data privacy accuracy and auditability for finance teams using local AI models."
     },
     {
-      "title": "SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement",
-      "summary": "The paper investigates how reward‑independent representations in RL should capture statistical dependence, which parts to keep for policy improvement, and the impact of discarding others.",
-      "link": "http://arxiv.org/abs/2611.27919v1",
-      "published": "2026-11-20T17:53:21Z",
+      "title": "AutoClip-DPZO: Practical Private Clipping Selection for Differentially Private Zeroth-Order LLM Fine-Tuning",
+      "summary": "AutoClip-DPZO introduces a practical method for selecting the clipping threshold in differentially private zeroth-order LLM fine‑tuning, improving privacy‑utility trade‑offs.",
+      "link": "http://arxiv.org/abs/2611.30352v1",
+      "published": "2026-11-23T09:23:42Z",
       "authors": [
-        "Huaze Tang",
-        "Runqing Miao",
-        "Tianren Peng",
-        "Lam Nguyen",
-        "Chao Wang",
-        "Jairong Li",
-        "Wenbo Ding"
+        "Xinghe Chen",
+        "Haichao Sha",
+        "Zihao Wang",
+        "Xiaokui Xiao",
+        "XiaoFeng Wang",
+        "Wei Dong"
       ],
       "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "whyItMatters": "Understanding representation trade‑offs can boost zero‑shot learning and cross‑task transfer in advanced RL systems."
-    },
-    {
-      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
-      "summary": "StereoVLM introduces binocular vision-language models that use calibrated stereo images to enable precise metric 3D spatial reasoning.",
-      "link": "http://arxiv.org/abs/2611.27915v1",
-      "published": "2026-11-20T17:52:02Z",
-      "authors": [
-        "Chi Yan",
-        "Guoyang Zhao",
-        "Wentao Yuan",
-        "Yixiao Ge",
-        "Yanning Zhou",
-        "Dan Xu"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "whyItMatters": "It improves accurate 3D understanding for applications like robotics and AR, where depth precision is critical."
-    },
-    {
-      "title": "Star Panoptic Quality: Selectively Evaluating Split and Merged Instances",
-      "summary": "Detecting individual instances is crucial for many segmentation problems. However, expert instance annotations are often unavailable, so instances are approximated heuristically (e.g., as connected components of semantic maps), which can merge touching objects or split fragmented ones. Even when expert annotations exist, expert disagreement or structural delineation biases can yield split or…",
-      "link": "http://arxiv.org/abs/2611.27913v1",
-      "published": "2026-11-20T17:51:51Z",
-      "authors": [
-        "Erik Großkopf",
-        "Paula Tamara Buzduga",
-        "Hendrik Möller",
-        "Florian Kofler"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Functional Depth Is Learned: Isolating the Computation That Layers Produce Only Together",
-      "summary": "Transformer performance scales with depth, but layer count merely counts the opportunities for sequential computation: layers could still behave as nearly independent refinements that barely depend on one another. We study how transformers develop functional depth during pretraining, introducing an exact inclusion-exclusion decomposition that isolates the connected component, i.e., the…",
-      "link": "http://arxiv.org/abs/2611.27911v1",
-      "published": "2026-11-20T17:50:26Z",
-      "authors": [
-        "JaeSeong Kim",
-        "KyungTae Lim"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
-      "summary": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable…",
-      "link": "http://arxiv.org/abs/2611.27910v1",
-      "published": "2026-11-20T17:48:55Z",
-      "authors": [
-        "Aadharsh Kannan",
-        "Robert Bruckner",
-        "Philip A. Bernstein"
-      ],
-      "categories": [
-        "cs.IR",
-        "cs.AI",
-        "cs.DB"
-      ]
-    },
-    {
-      "title": "Communication-Efficient Federated Learning of Latent Patient Representations from Multi-Institutional EHRs",
-      "summary": "Electronic health records (EHRs) contain rich health information for uncovering latent patient representations and clinically meaningful subgroups. Learning from EHR data across institutions is valuable because representations learned at a single site may reflect local data patterns and lack generalizability, yet pooling patient-level records across institutions is often impractical because of…",
-      "link": "http://arxiv.org/abs/2611.27900v1",
-      "published": "2026-11-20T17:38:32Z",
-      "authors": [
-        "Zhiyu Yan",
-        "Shiao Liu",
-        "Rahul Mahajan",
-        "Anand Viswanathan",
-        "Christopher D. Anderson",
-        "Rui Duan"
-      ],
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "math.ST"
-      ]
-    },
-    {
-      "title": "The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in Web Search",
-      "summary": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX anomalies. To address this, we introduce the Dual-Tier Sentiment Framework, a novel industrial architecture for automated UX attribution. Tier 1 (Macro System)…",
-      "link": "http://arxiv.org/abs/2611.27899v1",
-      "published": "2026-11-20T17:38:26Z",
-      "authors": [
-        "Yi Ding",
-        "Gaurav Kumar",
-        "Rui Min",
-        "Isabella Ye",
-        "Bhavika Goyal",
-        "Emilio Antunez",
-        "Huihui Chen",
-        "Ke Xu",
-        "Xiaowei Sun",
-        "Xin Xu",
-        "Huijie Feng",
-        "Pradyumna Narayana",
-        "Golnaz Farhadi"
-      ],
-      "categories": [
-        "cs.AI",
+        "cs.CR",
         "cs.LG"
-      ]
+      ],
+      "whyItMatters": "Tech-savvy readers care because it enhances memory‑efficient, privacy‑preserving fine‑tuning of large language models."
     },
     {
-      "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
-      "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of real ones, a multi-professional referral flow, and export to FHIR R4 with the national RNDS…",
-      "link": "http://arxiv.org/abs/2611.27895v1",
-      "published": "2026-11-20T17:35:59Z",
+      "title": "RepoClean: Evaluating Coding Agents on Repository-Level Obsolete Code Cleanup",
+      "summary": "RepoClean evaluates how LLM agents can detect and safely remove obsolete code from entire repositories.",
+      "link": "http://arxiv.org/abs/2611.30350v1",
+      "published": "2026-11-23T09:22:53Z",
       "authors": [
-        "Marcio Andre de Souza Estevam"
+        "Hongyixuan Yuan",
+        "Qixing Zhou",
+        "Pengcheng Huang",
+        "Qingshuo Ni",
+        "Runsong Zhao",
+        "Shaokai He",
+        "Xiangpeng Li",
+        "Deqiang Ouyang"
       ],
       "categories": [
         "cs.SE",
-        "cs.AI",
+        "cs.AI"
+      ],
+      "whyItMatters": "It helps reduce maintenance costs and prevent bugs in evolving codebases."
+    },
+    {
+      "title": "Toward a Theoretical Understanding of Transformer Attention: Bayesian Estimation and Predictive Sufficiency",
+      "summary": "The paper provides a theoretical framework linking Transformer attention to Bayesian posterior estimation and conditions for accurate next-token prediction.",
+      "link": "http://arxiv.org/abs/2611.30349v1",
+      "published": "2026-11-23T09:22:43Z",
+      "authors": [
+        "Fouad B. Chedid"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It clarifies when attention truly captures probabilistic inference, guiding more principled model design."
+    },
+    {
+      "title": "FMSNO: Scaling Surface Neural Operators by Learned Flow Matching Reparametrisation",
+      "summary": "FMSNO learns a shared mapping from irregular surface meshes to a regular spherical grid, then trains a neural operator on that grid to accelerate inference.",
+      "link": "http://arxiv.org/abs/2611.30341v1",
+      "published": "2026-11-23T09:15:45Z",
+      "authors": [
+        "Vasilii Liamin",
+        "Oleg Bakhteev",
+        "Vladimir Vanovskiy"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It reduces per-geometry mapping cost, speeding up large‑mesh neural operator applications."
+    },
+    {
+      "title": "Learning Teacher Output Preferences from Final Responses for Reasoning Distillation",
+      "summary": "The paper proposes a model-agnostic method to reconstruct hidden chain-of-thought traces from final responses of large language models.",
+      "link": "http://arxiv.org/abs/2611.30338v1",
+      "published": "2026-11-23T09:14:44Z",
+      "authors": [
+        "Hongli Shen",
+        "Shaopeng Fu",
+        "Qinbo Zhang",
+        "Jian Li",
+        "Di Wang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It enables broader, easier extraction of reasoning patterns, improving transparency and potential for safer AI deployment."
+    },
+    {
+      "title": "MH-RAG-DIVE: Dynamic and Cost-Efficient Multi-Hop RAG Evaluation via Tree-Cached Dialogue Simulation",
+      "summary": "MH‑RAG‑DIVE introduces a dynamic, tree‑cached dialogue simulation for evaluating multi‑hop, multi‑turn Retrieval‑Augmented Generation systems.",
+      "link": "http://arxiv.org/abs/2611.30335v1",
+      "published": "2026-11-23T09:13:07Z",
+      "authors": [
+        "Lorenz Brehme",
+        "Daniel Hillebrand",
+        "Thomas Ströhle",
+        "Ruth Breu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "It offers a more realistic, cost‑efficient benchmark for improving conversational AI performance."
+    },
+    {
+      "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+      "summary": "The paper investigates when reasoning capabilities in small LLMs improve entity disambiguation, especially in-domain and under distribution shift.",
+      "link": "http://arxiv.org/abs/2611.30334v1",
+      "published": "2026-11-23T09:11:54Z",
+      "authors": [
+        "Samy Haffoudhi",
+        "Fabian M Suchanek",
+        "Nils Holzenberger"
+      ],
+      "categories": [
         "cs.CL"
+      ],
+      "whyItMatters": "It informs how to deploy efficient LLMs for knowledge graph tasks without heavy fine‑tuning."
+    },
+    {
+      "title": "Verifiable On-Policy Distillation",
+      "summary": "The article discusses how verifiable on‑policy distillation can supplement sparse RLVR rewards by providing dense supervision for language‑model reasoning.",
+      "link": "http://arxiv.org/abs/2611.30325v1",
+      "published": "2026-11-23T09:04:36Z",
+      "authors": [
+        "Juntong Shi",
+        "Stefano Ermon",
+        "Jure Leskovec",
+        "Minkai Xu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech‑savvy readers care because it improves training efficiency and model reliability in reinforcement learning."
+    },
+    {
+      "title": "Accuracy Is Not Evidence: Measuring and Training Evidence Dependence in Video Temporal Grounding",
+      "summary": "The paper introduces a method to assess how much video grounding models rely on specific frames by auditing with fixed-answer edits.",
+      "link": "http://arxiv.org/abs/2611.30320v1",
+      "published": "2026-11-23T09:03:10Z",
+      "authors": [
+        "Zijie Jin",
+        "Shuai Zhao",
+        "Haoran Tao",
+        "Chaomin Huang",
+        "Liwen Luo"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it reveals model biases and improves robustness in video understanding."
+    },
+    {
+      "title": "HEART: Hierarchical Expert Adaptive Refinement Transformer for ECG Representation Learning",
+      "summary": "The paper introduces HEART, a transformer that adaptively refines ECG representations by hierarchically processing heterogeneous cardiac tokens.",
+      "link": "http://arxiv.org/abs/2611.30298v1",
+      "published": "2026-11-23T08:50:50Z",
+      "authors": [
+        "Junho Song",
+        "Jong-Hwan Jang",
+        "Joon-Myoung Kwon",
+        "Yong-Yeon Jo"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "whyItMatters": "It promises more accurate, context-aware ECG analysis for clinicians and AI diagnostics."
+    },
+    {
+      "title": "Topology-Prior-Guided Regional Latent Dynamics for Transient Structural Response Prediction",
+      "summary": "The paper introduces TPLD, a surrogate model that uses topology priors and regional latent dynamics to predict complex transient structural responses efficiently.",
+      "link": "http://arxiv.org/abs/2611.30293v1",
+      "published": "2026-11-23T08:47:44Z",
+      "authors": [
+        "Yuan Zhang",
+        "Mohammad Amin Nabian",
+        "Shaotong Fu",
+        "Yiding Liu",
+        "Chengcheng Chu",
+        "Xuelin Tao",
+        "Hua Li"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "whyItMatters": "It offers faster, more accurate simulations for engineers dealing with large, heterogeneous finite element models."
+    },
+    {
+      "title": "Uncovering Separable and Composable Skill Mechanisms in Vision-Language Models",
+      "summary": "Recent work has sought to localize the internal mechanisms underlying visual reasoning skills in vision-language models. These methods largely overlook separability and composability in both mechanism identification and evaluation. We propose separability and composability as two important desiderata for skill localization. Separability requires identified mechanisms to contribute primarily to…",
+      "link": "http://arxiv.org/abs/2611.30290v1",
+      "published": "2026-11-23T08:45:46Z",
+      "authors": [
+        "Miaoyu Li",
+        "Boyang Li"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
       ]
     },
     {
-      "title": "FairITR: Fairness-Aware Learning of Multicategory Individualized Treatment Rules",
-      "summary": "Individualized treatment rules (ITRs) recommend treatment decisions based on individual characteristics and can improve treatment outcomes beyond traditional one-size-fits-all strategies. However, similar to other commonly used algorithmic decision-making methods, ITRs without considering model fairness may result in unfair decisions across groups defined by sensitive attributes, such as race or…",
-      "link": "http://arxiv.org/abs/2611.27894v1",
-      "published": "2026-11-20T17:35:49Z",
+      "title": "Temporal Leakage Distorts the TGB Node Affinity Leaderboard: A Point-in-Time Audit",
+      "summary": "Node affinity prediction in the Temporal Graph Benchmark (TGB) asks how a node's future interactions will be distributed over other nodes. On this task, methods that reuse past ground-truth labels often outperform temporal graph neural networks, and the state of the art builds on them. Such comparisons assume a point-in-time correct evaluation, in which a model receives only information available…",
+      "link": "http://arxiv.org/abs/2611.30289v1",
+      "published": "2026-11-23T08:44:40Z",
       "authors": [
-        "Zeyu Chen",
-        "Wei Qian",
-        "Bintong Chen"
+        "Yuhang Wang",
+        "Dongmei Li",
+        "Yuze Sun",
+        "Xiaolong Qu",
+        "Yanxiang Wang",
+        "Lei Yao"
       ],
       "categories": [
         "cs.LG"
       ]
     },
     {
-      "title": "Speculative Decoding Is Less Speculative Than You Think",
-      "summary": "Speculative decoding accelerates language-model inference by preparing candidate continuations before the target model generates them. Its efficiency depends on how well limited drafting computation anticipates the path the target will actually follow. Anticipating this path involves two sources of uncertainty: the target model's predictions and the randomness of sampling. Yet the former requires…",
-      "link": "http://arxiv.org/abs/2611.27891v1",
-      "published": "2026-11-20T17:33:21Z",
+      "title": "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
+      "summary": "AI agents accumulate conversations, images, and documents through long-term interactions with users. Answering later questions often requires connecting evidence across these records, yet the resulting understanding is rarely retained, allowing mistakes to recur on related questions. Existing multimodal memory methods largely focus on storing and retrieving records, with limited mechanisms for…",
+      "link": "http://arxiv.org/abs/2611.30287v1",
+      "published": "2026-11-23T08:44:23Z",
       "authors": [
-        "Guanning Zeng",
-        "Andrea Zanette"
+        "Yuxuan Chen",
+        "Changwei Lv",
+        "Yunfei Li",
+        "Zhongjing Du",
+        "Kehui Tan",
+        "Zijun Liao",
+        "Ruochong Zheng",
+        "Hao Chen",
+        "Can Deng",
+        "Zheni Zeng",
+        "Chang Liu",
+        "Jie Chen"
       ],
       "categories": [
         "cs.AI"
+      ]
+    },
+    {
+      "title": "A statistical measure of trust in generative AI",
+      "summary": "Trustworthiness is a crucial issue for generative AI, as modern models can produce convincing and confident responses even when their outputs are incomplete, unsupported, or wrong. The frequent absence of ground-truth knowledge or labels complicates verification of generative AI outputs. To address this issue, we propose a trustworthiness framework grounded in model-internal confidence calibrated…",
+      "link": "http://arxiv.org/abs/2611.30286v1",
+      "published": "2026-11-23T08:43:54Z",
+      "authors": [
+        "Alina Ermilova",
+        "Valeria Yakupova",
+        "Nikita Sushko",
+        "Andrey Lovyagin",
+        "George Ovchinnikov",
+        "Maksim G. Sharaev",
+        "Evgeny M. Mirkes",
+        "Denis Turdakov",
+        "Ivan Y. Tyukin"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Learning Heterogeneous Reasoning in Large Language Models: From Mode Compatibility to Local Bottlenecks",
+      "summary": "Post-training large language models routinely pools reasoning trajectories from diverse teachers or algorithms, yet it remains unclear whether standard supervised fine-tuning (SFT) can learn such heterogeneous strategies without explicit mode conditioning. We study the learnability and local bottlenecks of heterogeneous reasoning through a formal mixture formulation and controlled experiments. We…",
+      "link": "http://arxiv.org/abs/2611.30281v1",
+      "published": "2026-11-23T08:39:59Z",
+      "authors": [
+        "Sunbowen Li",
+        "Dandan Song",
+        "Shengkun Ma",
+        "Xuanning Cao"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Evaluating Persona Consistency in LLM User Simulators Without External Reference Annotations",
+      "summary": "Standard evaluations assess LLM-simulated personas against an external ground truth, such as community trait annotations, but that reference is unavailable when the persona is inferred only from a short, task-oriented chat. We ask how persona consistency can be evaluated without such a reference, and propose a self-anchored internal-consistency diagnostic: the persona describes itself once and…",
+      "link": "http://arxiv.org/abs/2611.30280v1",
+      "published": "2026-11-23T08:38:35Z",
+      "authors": [
+        "Anping Zhang",
+        "Yang Tan",
+        "Yipeng Liu",
+        "Clive Bai",
+        "Blaze Chen",
+        "Yang Li"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "A New Perspective on ANN-to-SNN Conversion: Hardware-Aligned Multi-Threshold Neuron Dynamics for Neuromorphic Inference",
+      "summary": "By accumulating spikes over multiple timesteps, rate coding approximates the real-valued activations of an ANN, a principle that underpins numerous ANN-to-SNN conversion methods. However, the converted SNNs typically incur loss in accuracy compared to the original ANN. Existing methods either increase a number of timesteps or introduce more complex neuronal dynamics to reduce this accuracy gap…",
+      "link": "http://arxiv.org/abs/2611.30277v1",
+      "published": "2026-11-23T08:34:22Z",
+      "authors": [
+        "Shaohong Gu",
+        "Jiyuan Zhang",
+        "Yimeng Shan",
+        "Chenxiao Dou",
+        "Wei Hua",
+        "Malu Zhang",
+        "Honglin Cao",
+        "Choonghyun Lee",
+        "Jingwei Chen"
+      ],
+      "categories": [
+        "cs.NE",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "DUET: Dual-MDL Unsupervised Entropy-Trie Segmentation for Low-Resource Languages",
+      "summary": "Morphological segmentation, the task of decomposing words into constituent morphemes, becomes particularly challenging under extreme data scarcity, a regime that can arise in language documentation and linguistic reasoning. This difficulty stems from existing approaches' reliance on annotated data, external resources, or recurring patterns that emerge only in larger corpora. To address this…",
+      "link": "http://arxiv.org/abs/2611.30273v1",
+      "published": "2026-11-23T08:30:47Z",
+      "authors": [
+        "Xiaotian Wang",
+        "Youyuan Lin",
+        "Zhan Shen",
+        "Hitomi Yanaka"
+      ],
+      "categories": [
+        "cs.CL"
       ]
     }
   ]
