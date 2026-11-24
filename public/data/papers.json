@@ -208,7 +208,7 @@
     },
     {
       "title": "Uncovering Separable and Composable Skill Mechanisms in Vision-Language Models",
-      "summary": "Recent work has sought to localize the internal mechanisms underlying visual reasoning skills in vision-language models. These methods largely overlook separability and composability in both mechanism identification and evaluation. We propose separability and composability as two important desiderata for skill localization. Separability requires identified mechanisms to contribute primarily to…",
+      "summary": "The paper argues that vision‑language models’ reasoning skills should be localized by ensuring mechanisms are separable and composable, improving interpretability.",
       "link": "http://arxiv.org/abs/2611.30290v1",
       "published": "2026-11-23T08:45:46Z",
       "authors": [
@@ -218,11 +218,12 @@
       "categories": [
         "cs.CV",
         "cs.AI"
-      ]
+      ],
+      "whyItMatters": "Tech readers care because clearer, modular skill mapping can enhance debugging, safety, and model improvement."
     },
     {
       "title": "Temporal Leakage Distorts the TGB Node Affinity Leaderboard: A Point-in-Time Audit",
-      "summary": "Node affinity prediction in the Temporal Graph Benchmark (TGB) asks how a node's future interactions will be distributed over other nodes. On this task, methods that reuse past ground-truth labels often outperform temporal graph neural networks, and the state of the art builds on them. Such comparisons assume a point-in-time correct evaluation, in which a model receives only information available…",
+      "summary": "The article exposes how temporal leakage skews the TGB node affinity leaderboard, showing that methods using past labels outperform true temporal GNNs.",
       "link": "http://arxiv.org/abs/2611.30289v1",
       "published": "2026-11-23T08:44:40Z",
       "authors": [
@@ -235,11 +236,12 @@
       ],
       "categories": [
         "cs.LG"
-      ]
+      ],
+      "whyItMatters": "It highlights evaluation flaws that could mislead researchers on graph model performance."
     },
     {
       "title": "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
-      "summary": "AI agents accumulate conversations, images, and documents through long-term interactions with users. Answering later questions often requires connecting evidence across these records, yet the resulting understanding is rarely retained, allowing mistakes to recur on related questions. Existing multimodal memory methods largely focus on storing and retrieving records, with limited mechanisms for…",
+      "summary": "The paper introduces MMMem, a system that lets AI agents consolidate multimodal experiences, improving long-term reasoning by linking evidence across conversations, images, and documents.",
       "link": "http://arxiv.org/abs/2611.30287v1",
       "published": "2026-11-23T08:44:23Z",
       "authors": [
@@ -258,11 +260,12 @@
       ],
       "categories": [
         "cs.AI"
-      ]
+      ],
+      "whyItMatters": "Tech-savvy readers care because it reduces repeated mistakes and boosts AI reliability in complex, multimodal tasks."
     },
     {
       "title": "A statistical measure of trust in generative AI",
-      "summary": "Trustworthiness is a crucial issue for generative AI, as modern models can produce convincing and confident responses even when their outputs are incomplete, unsupported, or wrong. The frequent absence of ground-truth knowledge or labels complicates verification of generative AI outputs. To address this issue, we propose a trustworthiness framework grounded in model-internal confidence calibrated…",
+      "summary": "The article introduces a framework that uses internally calibrated confidence to measure trustworthiness in generative AI outputs.",
       "link": "http://arxiv.org/abs/2611.30286v1",
       "published": "2026-11-23T08:43:54Z",
       "authors": [
@@ -278,11 +281,12 @@
       ],
       "categories": [
         "cs.AI"
-      ]
+      ],
+      "whyItMatters": "Tech-savvy readers need reliable metrics to assess AI-generated content accuracy and avoid misinformation."
     },
     {
       "title": "Learning Heterogeneous Reasoning in Large Language Models: From Mode Compatibility to Local Bottlenecks",
-      "summary": "Post-training large language models routinely pools reasoning trajectories from diverse teachers or algorithms, yet it remains unclear whether standard supervised fine-tuning (SFT) can learn such heterogeneous strategies without explicit mode conditioning. We study the learnability and local bottlenecks of heterogeneous reasoning through a formal mixture formulation and controlled experiments. We…",
+      "summary": "The paper investigates whether fine-tuned language models can learn diverse reasoning strategies without explicit conditioning, identifying learnability limits and local bottlenecks.",
       "link": "http://arxiv.org/abs/2611.30281v1",
       "published": "2026-11-23T08:39:59Z",
       "authors": [
@@ -293,11 +297,12 @@
       ],
       "categories": [
         "cs.AI"
-      ]
+      ],
+      "whyItMatters": "It informs how to improve model reasoning flexibility and robustness for complex tasks."
     },
     {
       "title": "Evaluating Persona Consistency in LLM User Simulators Without External Reference Annotations",
-      "summary": "Standard evaluations assess LLM-simulated personas against an external ground truth, such as community trait annotations, but that reference is unavailable when the persona is inferred only from a short, task-oriented chat. We ask how persona consistency can be evaluated without such a reference, and propose a self-anchored internal-consistency diagnostic: the persona describes itself once and…",
+      "summary": "The paper proposes an internal-consistency method to evaluate persona consistency in LLM user simulators when no external annotations exist.",
       "link": "http://arxiv.org/abs/2611.30280v1",
       "published": "2026-11-23T08:38:35Z",
       "authors": [
@@ -311,11 +316,12 @@
       "categories": [
         "cs.CL",
         "cs.AI"
-      ]
+      ],
+      "whyItMatters": "It enables reliable persona assessment for task-oriented chatbots without costly annotation data."
     },
     {
       "title": "A New Perspective on ANN-to-SNN Conversion: Hardware-Aligned Multi-Threshold Neuron Dynamics for Neuromorphic Inference",
-      "summary": "By accumulating spikes over multiple timesteps, rate coding approximates the real-valued activations of an ANN, a principle that underpins numerous ANN-to-SNN conversion methods. However, the converted SNNs typically incur loss in accuracy compared to the original ANN. Existing methods either increase a number of timesteps or introduce more complex neuronal dynamics to reduce this accuracy gap…",
+      "summary": "The paper proposes multi‑threshold neuron dynamics aligned with hardware to improve ANN‑to‑SNN conversion accuracy by reducing required timesteps.",
       "link": "http://arxiv.org/abs/2611.30277v1",
       "published": "2026-11-23T08:34:22Z",
       "authors": [
@@ -332,11 +338,12 @@
       "categories": [
         "cs.NE",
         "cs.AI"
-      ]
+      ],
+      "whyItMatters": "It offers faster, more accurate neuromorphic inference, appealing to developers seeking efficient hardware‑friendly SNNs."
     },
     {
       "title": "DUET: Dual-MDL Unsupervised Entropy-Trie Segmentation for Low-Resource Languages",
-      "summary": "Morphological segmentation, the task of decomposing words into constituent morphemes, becomes particularly challenging under extreme data scarcity, a regime that can arise in language documentation and linguistic reasoning. This difficulty stems from existing approaches' reliance on annotated data, external resources, or recurring patterns that emerge only in larger corpora. To address this…",
+      "summary": "DUET introduces an unsupervised method using dual-MDL entropy-trie for segmenting words in low-resource languages.",
       "link": "http://arxiv.org/abs/2611.30273v1",
       "published": "2026-11-23T08:30:47Z",
       "authors": [
@@ -347,7 +354,8 @@
       ],
       "categories": [
         "cs.CL"
-      ]
+      ],
+      "whyItMatters": "It enables morphological analysis without large annotated corpora, aiding language preservation and NLP for under‑represented languages."
     }
   ]
 }
