@@ -1,7 +1,29 @@
 {
-  "updated": "2026-11-23T22:14:30.065Z",
-  "count": 96,
+  "updated": "2026-11-24T02:18:52.649Z",
+  "count": 99,
   "items": [
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse",
+      "link": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
+      "published": "Tue, 24 Nov 2026 01:46:56 +0000",
+      "summary": "Cisco and OpenAI propose using eBPF kernel plugins to rapidly generate compensating controls for software patches.",
+      "image": "https://image.theregister.com/?imageId=1682068&width=800",
+      "readMinutes": 2,
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
+      "clusterSize": 2,
+      "related": [
+        {
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "title": "OpenAI and Cisco introduce Shirudo"
+        }
+      ],
+      "whyItMatters": "Tech leaders need faster, safer patch management to reduce security risks."
+    },
     {
       "source": "Ars Technica",
       "category": "news",
@@ -10,10 +32,11 @@
       "published": "Mon, 23 Nov 2026 15:46:18 +0000",
       "summary": "Jensen Huang has been reinstated as Nvidia’s CEO and board chair after a brief ouster.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-1024x648.jpg",
+      "whyItMatters": "His return signals leadership stability, reassuring investors and stakeholders about Nvidia’s strategic direction.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-      "clusterSize": 17,
+      "clusterSize": 20,
       "related": [
         {
           "source": "TechCrunch",
@@ -61,6 +84,16 @@
           "title": "Nvidia board puts Jensen Huang back as boss"
         },
         {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
+          "title": "Inside Nvidia, Not Everyone Is Celebrating Jensen Huang’s Return"
+        },
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+          "title": "Trump engineered a risky comeback for Jensen Huang"
+        },
+        {
           "source": "The Verge",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
           "title": "Nvidia CEO Jensen Huang is back. What happens next?"
@@ -76,14 +109,9 @@
           "title": "Jensen Huang returns to applause from employees at Nvidia HQ"
         },
         {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
-          "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return"
-        },
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
-          "title": "How Jensen Huang ended up as Nvidia CEO again"
+          "source": "Wired",
+          "url": "https://www.wired.com/story/how-to-win-big-betting-on-jensen-huang-listen-to-trump/",
+          "title": "How to Win Big Betting on Jensen Huang? Listen to Trump"
         },
         {
           "source": "Wired",
@@ -94,9 +122,97 @@
           "source": "Wired",
           "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
           "title": "Jensen Huang Is Back as Nvidia CEO"
+        },
+        {
+          "source": "The Next Web",
+          "url": "https://thenextweb.com/news/jensen-huang-senate-hearing-lawmakers-criticise-retur",
+          "title": "Jensen Huang faces Senate hearing as both parties attack his return"
+        },
+        {
+          "source": "The Next Web",
+          "url": "https://thenextweb.com/news/jensen-huang-return-reactions-musk-altman-ackman-burry",
+          "title": "Musk, Altman and Ackman cheer Jensen Huang’s return as Burry scoffs"
         }
-      ],
-      "whyItMatters": "His return signals leadership stability, reassuring investors and stakeholders about Nvidia’s strategic direction."
+      ]
+    },
+    {
+      "source": "The Register",
+      "category": "news",
+      "title": "Anthropic says Claude solved an age-old math problem, but the written proof is 250,000 pages of slop",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+      "published": "Tue, 24 Nov 2026 00:18:17 +0000",
+      "summary": "Anthropic claims Claude solved a longstanding math problem, yet the proof spans 250,000 pages of unclear reasoning.",
+      "image": "https://image.theregister.com/?imageId=5264648&width=800",
+      "readMinutes": 4,
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It highlights AI’s potential yet raises concerns about explainability and trust in automated proofs."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "AI coding agents used firms’ own code under 60% of the time, study finds",
+      "link": "https://thenextweb.com/news/designverse-ai-coding-drift-report-legacy-codebases",
+      "published": "Tue, 24 Nov 2026 00:01:10 +0000",
+      "summary": "AI coding agents used a company's own code less than 60% of the time, often inventing or using public components instead.",
+      "excerpt": "AI coding agents without company context used an organisation’s own approved code in fewer than six tasks in ten. That is the main finding of new research from DesignVerse, a Bucharest-based enterprise AI startup. The rest of the time, the agents invented components or swapped in public ones. Engineers then had to find and fix […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/11/andrei-manolache-designverse-ceo-portrait-purple-studio.avif",
+      "score": 71,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/designverse-ai-coding-drift-report-legacy-codebases",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Shows AI tools may not reliably reuse proprietary code, raising concerns for security and efficiency in enterprise development."
+    },
+    {
+      "source": "The Information",
+      "category": "news",
+      "title": "AI Is ‘Probably Not’ Conscious but Could Be Soon, Says Philosopher Rob Long",
+      "link": "https://www.theinformation.com/articles/ai-probably-not-conscious-soon-says-philosopher-rob-long",
+      "published": "2026-11-23T23:55:26.000Z",
+      "summary": "Philosopher Rob Long says current AI models likely lack consciousness, but they may acquire it within a few years.",
+      "excerpt": "AI models probably aren’t conscious now but “there’s a pretty good chance that they could be conscious in the next few years,” said Rob Long, a leading philosopher studying the subject, on the latest episode of AI Deep Dive. (The full episode is available here.) Figuring out whether AI models have the kind of subjective experiences that constitute consciousness is quickly becoming a conundrum for the companies that…",
+      "score": 99,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/ai-probably-not-conscious-soon-says-philosopher-rob-long",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Understanding AI consciousness impacts ethics, regulation, and future AI design."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
+      "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "published": "2026-11-23T23:25:01.000Z",
+      "summary": "Arion Kurtaj, who hacked Rockstar and leaked GTA VI videos, received a seven‑year sentence but was released on license.",
+      "excerpt": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game's public release last week. Prior to his sentencing, Kurtaj had already spent time in a hospital…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jason_and_Lucia_03.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "score": 85,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Shows the legal risks of game‑industry hacking and the potential for early leaks to impact releases."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "Ladybird, the first new browser engine in years, is now available to test",
+      "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "published": "2026-11-23T22:38:09.000Z",
+      "summary": "Ladybird, a new independent browser engine built from scratch, is now in alpha for macOS and Linux after four years of development.",
+      "excerpt": "A Windows version of Ladybird is coming in the “later stages” of the project. | Image: Ladybird Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux following more than four years of development. The release makes Ladybird the first browser in years to…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?quality=90&strip=all&crop=0,0,100,100",
+      "score": 85,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It offers a fresh, lightweight alternative that could influence web performance and security for developers."
     },
     {
       "source": "TechCrunch",
@@ -105,18 +221,12 @@
       "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
       "published": "Mon, 23 Nov 2026 22:05:50 +0000",
       "summary": "Anthropic introduces Claude Ship, an AI tool that lets agents review, fix, and approve code changes automatically.",
+      "whyItMatters": "Tech-savvy developers can speed deployments and reduce manual review overhead.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-          "title": "Claude AI can review pull requests and ship fixes on its own now"
-        }
-      ],
-      "whyItMatters": "Tech-savvy developers can speed deployments and reduce manual review overhead."
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -125,12 +235,12 @@
       "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
       "published": "Mon, 23 Nov 2026 22:02:05 +0000",
       "summary": "Supertake raises $20M to enable users to deploy AI agents that transform market predictions into automated stock portfolios.",
+      "whyItMatters": "Tech-savvy readers may use AI-driven trading to streamline investing and reduce manual selection.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers may use AI-driven trading to streamline investing and reduce manual selection."
+      "related": []
     },
     {
       "source": "The Information",
@@ -140,23 +250,12 @@
       "published": "2026-11-23T22:00:44.000Z",
       "summary": "The article claims Trump reinstated Nvidia CEO Jensen Huang, implying the CEO now owes his position to the president.",
       "excerpt": "If Jensen Huang was a tough taskmaster at Nvidia before, just imagine what he’s going to be like now! President Donald Trump has proclaimed Huang’s reinstatement, announced Monday morning, was vital to America’s “success and prosperity.” In other words, Huang may feel he’s untouchable. His only problem is that he now owes his job to Trump. Just imagine what the newly restored CEO’s relations with the president will…",
+      "whyItMatters": "It suggests political influence over tech leadership, raising concerns about corporate independence.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/jensen-owes-job-trump",
-      "clusterSize": 3,
-      "related": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/how-to-win-big-betting-on-jensen-huang-listen-to-trump/",
-          "title": "How to Win Big Betting on Jensen Huang? Listen to Trump"
-        },
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/jensen-huang-senate-hearing-lawmakers-criticise-retur",
-          "title": "Jensen Huang faces Senate hearing as both parties attack his return"
-        }
-      ],
-      "whyItMatters": "It suggests political influence over tech leadership, raising concerns about corporate independence."
+      "clusterSize": 1,
+      "related": []
     },
     {
       "source": "Ars Technica",
@@ -166,12 +265,12 @@
       "published": "Mon, 23 Nov 2026 21:30:44 +0000",
       "summary": "States sue SpaceX, alleging its AI Grok still produces child sexual content despite claimed screening.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
+      "whyItMatters": "Tech readers should watch for legal impacts on AI safety and content moderation policies.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch for legal impacts on AI safety and content moderation policies."
+      "related": []
     },
     {
       "source": "SemiEngineering",
@@ -182,12 +281,12 @@
       "summary": "Researchers describe a seven-stage verification workflow for LLM-generated RTL in post-quantum cryptographic hardware.",
       "excerpt": "Researchers at Lucid Motors and EYL Inc. published “From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware.” Abstract “As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware. We present our seven-stage verification-gated workflow,... » read more The post…",
       "readMinutes": 1,
+      "whyItMatters": "It highlights risks of relying on AI-generated evidence for secure hardware design.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/measuring-verification-gaps-in-llm-generated-post-quantum-hardware-lucid-eyl/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It highlights risks of relying on AI-generated evidence for secure hardware design."
+      "related": []
     },
     {
       "source": "The Register",
@@ -198,12 +297,12 @@
       "summary": "Amazon acquires an AI accelerator startup’s technology and team to enhance its chip utilization.",
       "image": "https://image.theregister.com/?imageId=5222824&width=800",
       "readMinutes": 2,
+      "whyItMatters": "It signals Amazon’s push to boost AI performance and maintain high chip efficiency.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It signals Amazon’s push to boost AI performance and maintain high chip efficiency."
+      "related": []
     },
     {
       "source": "The Verge",
@@ -214,12 +313,12 @@
       "summary": "The article discusses how the rapid growth of power-intensive AI data centers complicates the UN climate conference’s push for a clean energy transition.",
       "excerpt": "People protest outside the plenary ahead of the closing plenary session on the final day of the COP31 UNFCCC climate conference on November 20th in Antalya, Turkey. | Photo: Getty Images The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306098413.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 86,
+      "whyItMatters": "Tech leaders must balance AI infrastructure demands with global sustainability goals.",
+      "score": 92,
       "isPrimary": true,
       "clusterId": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders must balance AI infrastructure demands with global sustainability goals."
+      "related": []
     },
     {
       "source": "The Information",
@@ -229,12 +328,12 @@
       "published": "2026-11-23T21:09:26.000Z",
       "summary": "Tech stocks surged Monday, driven by Nvidia’s CEO reinstatement, boosting Nasdaq 100 by 6.8% and Nvidia shares up 31%.",
       "excerpt": "Tech stocks rallied strongly across the board on Monday, as Nvidia’s reinstatement of Jensen Huang as CEO helped reinforce confidence in the AI sector. The Nasdaq 100 index rose 6.8%. Nvidia shares jumped 31% to $164.92, taking them almost back to where they closed on Nov. 12, when he resigned ...",
+      "whyItMatters": "Shows AI leadership changes can rapidly lift market confidence and valuations.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/tech-stocks-rally-across-board",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows AI leadership changes can rapidly lift market confidence and valuations."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -245,12 +344,12 @@
       "summary": "Anthropic launched Enterprise Frontier Safeguards, a public beta that scans Claude usage for misuse while keeping client data in their own cloud, addressing retention concerns.",
       "excerpt": "Anthropic has opened Enterprise Frontier Safeguards in public beta, letting it scan for misuse across many Claude requests while companies keep their data in their own cloud storage. It answers enterprise pushback over the 30-day retention Anthropic introduced with Fable 5. Anthropic has opened a new safety system for business users of Claude in a […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/anthropic-wordmark-3d-render-purple-glass.avif",
-      "score": 78,
+      "whyItMatters": "It lets businesses monitor AI safety without sacrificing data control, easing compliance worries.",
+      "score": 84,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It lets businesses monitor AI safety without sacrificing data control, easing compliance worries."
+      "related": []
     },
     {
       "source": "The Information",
@@ -260,12 +359,12 @@
       "published": "2026-11-23T21:04:06.000Z",
       "summary": "The Trump administration added Singapore’s Megaspeed, linked to Nvidia, to its trade blacklist, restricting its access to advanced AI chips.",
       "excerpt": "The Commerce Department added the Singapore-based cloud computing and AI infrastructure company Megaspeed to its entity list, a trade blacklist that designates organizations as national security risks and limits their ability to access advanced AI chips, according to a filing on Monday. Trump ...",
+      "whyItMatters": "Tech readers should watch for supply chain disruptions and regulatory impacts on AI development.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/trump-administration-will-add-nvidia-linked-megaspeed-trade-blacklist",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch for supply chain disruptions and regulatory impacts on AI development."
+      "related": []
     },
     {
       "source": "The Information",
@@ -275,12 +374,12 @@
       "published": "2026-11-23T20:09:44.000Z",
       "summary": "AI’s growing energy demand is driving renewed interest in an old energy technology, prompting tech giants to invest in it.",
       "excerpt": "AI’s insatiable appetite for power is one of the most resonant signals in our AI Inflection Index. The theme first appeared meaningfully in our coverage in late 2021 and picked up momentum in the third quarter of 2024—well before the largest grid operators in the U.S. began reporting a surge in capacity payments. Tech giants are so desperate for electricity that they’re backing technologies long considered closer to…",
-      "score": 99,
+      "whyItMatters": "It signals a shift in power sourcing that could reshape infrastructure and cost structures for AI operations.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/ais-power-crunch-reviving-long-stalled-energy-source",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It signals a shift in power sourcing that could reshape infrastructure and cost structures for AI operations."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -288,8 +387,8 @@
       "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
       "link": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "published": "Mon, 23 Nov 2026 19:14:46 +0000",
-      "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
-      "score": 99,
+      "summary": "Google’s AI Mode now accesses Drive, Wallet, and Gemini to deliver more personalized answers using existing user data.",
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "clusterSize": 2,
@@ -299,7 +398,8 @@
           "url": "https://thenextweb.com/news/google-ai-mode-personal-intelligence-wallet-drive-gemini",
           "title": "Google Search’s AI Mode can now read your Wallet, with Drive next"
         }
-      ]
+      ],
+      "whyItMatters": "It enhances search relevance and convenience for users deeply integrated into Google’s ecosystem."
     },
     {
       "source": "The Next Web",
@@ -307,14 +407,15 @@
       "title": "DeepMind’s AI agents found cheaper quantum algorithms, and proved them",
       "link": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
       "published": "Mon, 23 Nov 2026 18:32:46 +0000",
-      "summary": "Google DeepMind and Google Quantum AI used teams of Gemini 4 agents to find more efficient quantum algorithms for fusion, chemistry and drug-design problems. Each result was proved correct in the Lean theorem prover, because the circuits…",
+      "summary": "DeepMind’s Gemini 4 AI agents discovered and formally verified cheaper quantum algorithms for fusion, chemistry, and drug design.",
       "excerpt": "Google DeepMind and Google Quantum AI used teams of Gemini 4 agents to find more efficient quantum algorithms for fusion, chemistry and drug-design problems. Each result was proved correct in the Lean theorem prover, because the circuits are too large to test on today’s computers. Google DeepMind says teams of AI agents have found faster […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/google-deepmind-quantum-algorithms-qubit-sphere.avif",
-      "score": 77,
+      "score": 75,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It shows AI can accelerate quantum research, potentially speeding breakthroughs in energy and pharmaceuticals."
     },
     {
       "source": "The Next Web",
@@ -322,13 +423,14 @@
       "title": "Over 150 child safety groups urge Amazon and eBay to drop AI toys",
       "link": "https://thenextweb.com/news/child-safety-groups-amazon-ebay-ai-toys",
       "published": "Mon, 23 Nov 2026 18:03:42 +0000",
-      "summary": "A global coalition of more than 150 child safety groups and experts has asked Amazon and eBay to stop selling toys with built-in AI chatbots. The request came in an open letter sent on Monday to Amazon CEO Andy Jassy and eBay CEO Jamie…",
+      "summary": "Over 150 child safety groups urge Amazon and eBay to stop selling AI‑powered toys.",
       "excerpt": "A global coalition of more than 150 child safety groups and experts has asked Amazon and eBay to stop selling toys with built-in AI chatbots. The request came in an open letter sent on Monday to Amazon CEO Andy Jassy and eBay CEO Jamie Iannone. The campaign is led by the nonprofit Fairplay, joined by […] This story continues at The Next Web",
-      "score": 71,
+      "score": 69,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/child-safety-groups-amazon-ebay-ai-toys",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech readers should note growing parental concerns over AI in children’s products and potential regulatory pressure."
     },
     {
       "source": "Tom's Hardware",
@@ -336,30 +438,33 @@
       "title": "Penguin shows off photonic memory box at SC26 that can expand AI accelerator capacity over optical links",
       "link": "https://www.tomshardware.com/pc-components/dram/penguin-shows-off-photonic-memory-box-at-sc26-that-can-expand-ai-accelerator-capacity-over-optical-links-device-sports-up-to-576gb-of-hbm3e-customer-samples-expected-in-2027",
       "published": "Mon, 23 Nov 2026 18:00:00 +0000",
-      "summary": "Penguin Solutions demonstrates external memory box with up to 576 GB of HBM3E and 16 TB of DDR5 inside that connects to hosts using optical links. There is a major caveat with this one as it does not seem to support existing servers and…",
+      "summary": "Penguin Solutions unveiled a photonic memory box with up to 576 GB HBM3E and 16 TB DDR5, linked via optical connections but lacking compatibility with current servers and accelerators.",
       "excerpt": "Penguin Solutions demonstrates external memory box with up to 576 GB of HBM3E and 16 TB of DDR5 inside that connects to hosts using optical links. There is a major caveat with this one as it does not seem to support existing servers and accelerators.",
       "image": "https://cdn.mos.cms.futurecdn.net/y4Btk5SJY5BAa8r7oqC7Nh-1920-80.png",
       "readMinutes": 4,
-      "score": 85,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/dram/penguin-shows-off-photonic-memory-box-at-sc26-that-can-expand-ai-accelerator-capacity-over-optical-links-device-sports-up-to-576gb-of-hbm3e-customer-samples-expected-in-2027",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It promises higher AI accelerator bandwidth, but limited compatibility may delay practical adoption."
     },
     {
-      "source": "The Next Web",
+      "source": "MIT Technology Review",
       "category": "news",
-      "title": "Musk, Altman and Ackman cheer Jensen Huang’s return as Burry scoffs",
-      "link": "https://thenextweb.com/news/jensen-huang-return-reactions-musk-altman-ackman-burry",
-      "published": "Mon, 23 Nov 2026 17:39:52 +0000",
-      "summary": "Jensen Huang’s return as Nvidia’s chief executive on Monday drew cheers from the investors who campaigned for it. Its critics were scornful. Many of them reacted on X within minutes of the board’s decision. Business Insider gathered the…",
-      "excerpt": "Jensen Huang’s return as Nvidia’s chief executive on Monday drew cheers from the investors who campaigned for it. Its critics were scornful. Many of them reacted on X within minutes of the board’s decision. Business Insider gathered the posts, along with comments from analysts and critics who wrote elsewhere. The campaigners Elon Musk had signed […] This story continues at The Next Web",
-      "image": "https://media.thenextweb.com/2026/11/jensen-huang-waves-white-house-ai-summit-2025.avif",
-      "score": 82,
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "published": "Mon, 23 Nov 2026 17:36:08 +0000",
+      "summary": "A philosopher doubts Anthropic’s claim that AI could be conscious, questioning the risk assessment.",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/simulacra2a.jpg?resize=1200,600",
+      "readMinutes": 4,
+      "score": 100,
       "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/jensen-huang-return-reactions-musk-altman-ackman-burry",
+      "clusterId": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech readers should note skepticism about AI sentience claims and investment risk."
     },
     {
       "source": "The Next Web",
@@ -367,14 +472,15 @@
       "title": "Sierra raises $1.75B at a $30B valuation for AI customer service agents",
       "link": "https://thenextweb.com/news/sierra-1-75b-series-f-30b-valuation-ai-agents",
       "published": "Mon, 23 Nov 2026 17:28:39 +0000",
-      "summary": "Sierra, the AI agent company co-founded by OpenAI chair Bret Taylor, is raising $1.75B at a $30B valuation, led by Greenoaks and Lightspeed. That is almost double the $15.8B it was valued at in May, and it says annual recurring revenue has…",
+      "summary": "Sierra, co-founded by Bret Taylor, secures $1.75B at a $30B valuation, doubling its previous value and surpassing $400M ARR with AI customer service agents.",
       "excerpt": "Sierra, the AI agent company co-founded by OpenAI chair Bret Taylor, is raising $1.75B at a $30B valuation, led by Greenoaks and Lightspeed. That is almost double the $15.8B it was valued at in May, and it says annual recurring revenue has passed $400M. Sierra, the AI customer service company led by Bret Taylor, is […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/10/ai-chip-brain-inside-light-bulb-purple-background.avif",
-      "score": 76,
+      "score": 75,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/sierra-1-75b-series-f-30b-valuation-ai-agents",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Shows rapid growth and investor confidence in AI-driven customer support, impacting enterprise tech adoption."
     },
     {
       "source": "TechCrunch",
@@ -383,7 +489,7 @@
       "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
       "published": "Mon, 23 Nov 2026 17:14:23 +0000",
       "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
-      "score": 98,
+      "score": 97,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
       "clusterSize": 1,
@@ -399,7 +505,7 @@
       "excerpt": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. […]",
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-holiday26-gfn-nv-blog-preview-1280x680-1.jpg",
       "readMinutes": 4,
-      "score": 82,
+      "score": 81,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
       "clusterSize": 1,
@@ -414,7 +520,7 @@
       "summary": "AMD's king of gaming CPUs, the Ryzen 7 9850X3D, is down to its lowest price ever at $399 ahead of Black Friday.",
       "image": "https://cdn.mos.cms.futurecdn.net/rs4t4aZAtm3YaAxSqHYj7P-1920-80.jpg",
       "readMinutes": 3,
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/cpus/amds-top-performing-ryzen-9800x3d-is-down-to-its-lowest-price-ever-at-usd399-get-the-fastest-gaming-cpu-and-save-usd80-off-list-price",
       "clusterSize": 1,
@@ -429,36 +535,9 @@
       "summary": "Musicians, dancers and comedians are finding their videos copied by AI-generated characters, BBC Verify reported. The copies repeat the same performance, sometimes to millions more viewers. Marco Silva found accounts that copy a real…",
       "excerpt": "Musicians, dancers and comedians are finding their videos copied by AI-generated characters, BBC Verify reported. The copies repeat the same performance, sometimes to millions more viewers. Marco Silva found accounts that copy a real person’s clip frame by frame and swap the person for an AI character. Experts call the practice “reskinning”. Cheap AI tools […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/phone-recording-guitarist-performance-dark-hall.avif",
-      "score": 70,
+      "score": 69,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/ai-reskinning-creators-videos-copied-bbc",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "Uber lets riders book trips that are filmed from start to finish",
-      "link": "https://thenextweb.com/news/uber-recorded-rides-pilot-video-recording-us-cities",
-      "published": "Mon, 23 Nov 2026 16:48:48 +0000",
-      "summary": "Uber is piloting Recorded Rides in Baltimore, Raleigh, Indianapolis and St. Louis, letting riders book drivers who have turned on video recording for the whole trip. The footage stays encrypted on the driver’s phone and is deleted after 14…",
-      "excerpt": "Uber is piloting Recorded Rides in Baltimore, Raleigh, Indianapolis and St. Louis, letting riders book drivers who have turned on video recording for the whole trip. The footage stays encrypted on the driver’s phone and is deleted after 14 days unless it is attached to a safety report. Uber is testing a ride option in […] This story continues at The Next Web",
-      "score": 70,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/uber-recorded-rides-pilot-video-recording-us-cities",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
-      "link": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
-      "published": "Mon, 23 Nov 2026 16:39:10 +0000",
-      "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
       "clusterSize": 1,
       "related": []
     },
@@ -470,7 +549,7 @@
       "published": "2026-11-23T16:11:22.000Z",
       "summary": "Amazon said it is acquiring key technology and top staff from Israeli AI startup Decart, in a move designed to help Amazon run compute for AI more efficiently, including with its homegrown Trainium AI chips. Decart’s software is designed…",
       "excerpt": "Amazon said it is acquiring key technology and top staff from Israeli AI startup Decart, in a move designed to help Amazon run compute for AI more efficiently, including with its homegrown Trainium AI chips. Decart’s software is designed to get more out of chips, and helps the chips run faster. ...",
-      "score": 98,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/amazon-acquires-chip-software-business-ai-startup-decart",
       "clusterSize": 1,
@@ -484,9 +563,24 @@
       "published": "Mon, 23 Nov 2026 16:00:59 +0000",
       "summary": "We all know that functional verification consumes most of the front-end design effort. Most teams face hours of planning, days of simulation and debugging, and weeks of iteration. It becomes clear that as designs grow more complex, AI…",
       "excerpt": "We all know that functional verification consumes most of the front-end design effort. Most teams face hours of planning, days of simulation and debugging, and weeks of iteration. It becomes clear that as designs grow more complex, AI systems are required. Systems that can accelerate the verification cycle while improving quality… Read More The post ChipAgents Webinar – How a Multi-Agent Platform Accelerates…",
-      "score": 98,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/events/376394-chipagents-webinar-how-a-multi-agent-platform-accelerates-functional-and-formal-verification/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "Tom's Hardware",
+      "category": "news",
+      "title": "Samsung Odyssey G8 G80SH 32-inch 4K OLED gaming monitor review: Color, performance and style",
+      "link": "https://www.tomshardware.com/monitors/gaming-monitors/samsung-odyssey-g8-g80sh-32-inch-4k-oled-gaming-monitor-review",
+      "published": "Mon, 23 Nov 2026 15:30:00 +0000",
+      "summary": "Samsung’s Odyssey G8 G80SH is a 32-inch Quantum Dot OLED with 4K resolution and 240 Hz. It delivers a huge color gamut along with smooth and responsive gaming and it supports HDR10+ with dynamic tone mapping.",
+      "image": "https://cdn.mos.cms.futurecdn.net/DZgTGU8zU7WJiTeJFEaZD4-1920-80.jpg",
+      "readMinutes": 19,
+      "score": 82,
+      "isPrimary": true,
+      "clusterId": "https://www.tomshardware.com/monitors/gaming-monitors/samsung-odyssey-g8-g80sh-32-inch-4k-oled-gaming-monitor-review",
       "clusterSize": 1,
       "related": []
     },
@@ -513,7 +607,7 @@
       "summary": "Rogue AI or nation-state hackers would be preferable to the amount of technical debt the past week of wobbling services laid bare",
       "image": "https://image.theregister.com/?imageId=5309241&width=800",
       "readMinutes": 24,
-      "score": 97,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458",
       "clusterSize": 1,
@@ -541,25 +635,25 @@
       "published": "Mon, 23 Nov 2026 13:11:00 +0000",
       "summary": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.",
       "image": "https://media.wired.com/photos/6b00bf3096143f394c42fff6/master/pass/Nvidia-Powering%20Brain-Computer-Interfaces-mary-connexus-control-unit-Science.jpg",
-      "score": 95,
+      "score": 93,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
       "clusterSize": 1,
       "related": []
     },
     {
-      "source": "The Register",
+      "source": "MIT Technology Review",
       "category": "news",
-      "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
-      "link": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
-      "published": "Mon, 23 Nov 2026 12:29:00 +0000",
-      "summary": "Microsoft reports a critical flaw in Azure API Management linked to cyberattacks on a Norwegian energy firm, urging admins to investigate and rotate secrets.",
-      "image": "https://image.theregister.com/?imageId=260104&width=800",
-      "readMinutes": 2,
-      "whyItMatters": "Tech-savvy readers should act quickly to secure Azure services and prevent potential data breaches.",
-      "score": 100,
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "link": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "published": "Mon, 23 Nov 2026 13:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation…",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/08/starlink-grid-gradient.jpg?fit=1920,1280",
+      "readMinutes": 4,
+      "score": 95,
       "isPrimary": true,
-      "clusterId": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+      "clusterId": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
       "clusterSize": 1,
       "related": []
     },
@@ -587,7 +681,7 @@
       "summary": "The article invites readers to ask questions about AI safety at a livestream event on December 2.",
       "image": "https://media.wired.com/photos/6b00ca934909d8ae8eb24f03/master/pass/livestream_ama_ai_safety.jpg",
       "whyItMatters": "It offers a chance to influence industry actions on AI risk.",
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
       "clusterSize": 1,
@@ -617,7 +711,7 @@
       "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
       "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-      "score": 87,
+      "score": 86,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "clusterSize": 2,
@@ -636,7 +730,7 @@
       "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
       "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-      "score": 87,
+      "score": 86,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "clusterSize": 1,
@@ -651,7 +745,7 @@
       "summary": "An interview with Manu Gulati, co‑founder of Velaura AI and former silicon architect at Apple, Google, Qualcomm, and NUVIA.",
       "excerpt": "Manu Gulati serves as Co-founder & Chief Development Officer at Velaura AI. Manu is an industry-renowned silicon architect and engineering leader whose work spans Apple, Google, Qualcomm, and NUVIA (the high-performance silicon company he co-founded, which was acquired by Qualcomm for approximately $1.5B). Having … Read More The post CEO Interview with Manu Gulati of Velaura AI appeared first on SemiWiki.",
       "whyItMatters": "Insights into cutting‑edge silicon design could influence future AI hardware strategies.",
-      "score": 98,
+      "score": 97,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ceo-interviews/376481-ceo-interview-with-manu-gulati-of-velaura-ai/",
       "clusterSize": 1,
@@ -666,7 +760,7 @@
       "summary": "CELUS CEO Tobias Pohl discusses his AI-driven electronics design platform, its growth to 70k engineers, and his engineering background.",
       "excerpt": "Tobias Pohl is co-founder and CEO of CELUS, a Munich-based company that builds an AI-powered electronics design platform used by more than 70,000 engineers. He studied mechanical and automotive engineering at the Technical University of Munich, where he worked in an automotive research project and built software and custom… Read More The post CEO Interview with Tobias Pohl of CELUS appeared first on SemiWiki.",
       "whyItMatters": "Tech-savvy readers see how AI accelerates hardware design and the platform’s large user base signals industry impact.",
-      "score": 97,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ceo-interviews/376273-ceo-interview-with-tobias-pohl-of-celus/",
       "clusterSize": 1,
@@ -681,7 +775,7 @@
       "summary": "Dr. Sameer Pawanekar, CEO of Ramtera, discusses his company's EDA tools LVR and PRE for design rule checking and place‑and‑route.",
       "excerpt": "Dr. Sameer Pawanekar is the founder and CEO of Ramtera Inc., an EDA company building physical design and physical verification software. He is the architect and principal developer of both Ramtera products: LVR, for DRC, LVS and ERC, and PRE, for place-and-route. Sameer holds a PhD in VLSI placement and partitioning and an MTech,… Read More The post CEO Interview with Dr. Sameer Pawanekar of Ramtera appeared first…",
       "whyItMatters": "Tech leaders should note Ramtera’s advanced physical verification tools that can improve chip design efficiency.",
-      "score": 97,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/ceo-interviews/376107-ceo-interview-with-dr-sameer-pawanekar-of-ramtera/",
       "clusterSize": 1,
@@ -1003,37 +1097,6 @@
       "score": 86,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "This smell startup says its AI nose is as good as a human’s",
-      "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-      "published": "Wed, 18 Nov 2026 10:20:30 +0000",
-      "summary": "Osmo is training an AI to recognize odors by pairing human scent descriptions with chemical data, aiming to create the first universal scent model.",
-      "excerpt": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Copy-of-Copy-of-BH1_6183_Ben_Hider_250430.jpg?w=840",
-      "readMinutes": 5,
-      "whyItMatters": "It could enable AI-driven scent recognition for health, safety, and consumer products.",
-      "score": 86,
-      "isPrimary": true,
-      "clusterId": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "OpenAI Blog",
-      "category": "news",
-      "title": "The Silent Consensus",
-      "link": "https://openai.com/index/the-silent-consensus",
-      "published": "Wed, 18 Nov 2026 10:00:00 GMT",
-      "summary": "Dean Ball discusses how advanced AI could transform society and ways to keep institutions under human control.",
-      "whyItMatters": "Tech leaders should understand AI’s societal impact and strategies to safeguard governance.",
-      "score": 72,
-      "isPrimary": true,
-      "clusterId": "https://openai.com/index/the-silent-consensus",
       "clusterSize": 1,
       "related": []
     },

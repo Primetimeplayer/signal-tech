@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-23T22:14:30.353Z",
+  "updated": "2026-11-24T02:18:53.040Z",
   "count": 20,
   "items": [
     {
       "title": "Optimal Linear Regression Without a Variance",
-      "summary": "The paper presents a method to perform high‑probability linear regression when noise has only a finite α‑moment and covariates have limited moments, by reducing the problem to finite‑variance techniques.",
+      "summary": "The paper presents a method to perform high‑probability linear regression when noise has only finite α‑moment (α∈(1,2)) and covariates have limited moments, by reducing to finite‑variance algorithms.",
       "link": "http://arxiv.org/abs/2611.27983v1",
       "published": "2026-11-20T18:58:45Z",
       "authors": [
@@ -19,11 +19,11 @@
         "cs.IT",
         "cs.LG"
       ],
-      "whyItMatters": "Tech‑savvy readers care because it enables robust regression under heavy‑tailed data, common in real‑world AI applications."
+      "whyItMatters": "It enables robust regression in heavy‑tailed data settings common in real‑world AI applications."
     },
     {
       "title": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
-      "summary": "The paper compares linear regression, RNN, and LSTM models for one‑day‑ahead S&P 500 forecasts using a 2006‑2025 dataset with fundamentals, macro, and technical features.",
+      "summary": "The paper evaluates one‑day‑ahead S&P 500 forecasts using linear regression, RNN, and LSTM on a 2006‑2025 dataset with fundamentals, macro, and technical features.",
       "link": "http://arxiv.org/abs/2611.27978v1",
       "published": "2026-11-20T18:57:15Z",
       "authors": [
@@ -33,11 +33,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "It reveals which deep‑learning methods truly outperform simple models in financial time‑series forecasting."
+      "whyItMatters": "It shows how deep learning models compare to simple baselines, guiding practitioners on model choice for financial time‑series."
     },
     {
       "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-      "summary": "MemOnce introduces a scalable memory architecture that reduces GPU memory and computation overhead for long‑horizon LLM inference.",
+      "summary": "MemOnce proposes a scalable memory architecture that replaces token-level KV caches with linear-time mechanisms, reducing GPU memory and computational costs for long-horizon LLM inference.",
       "link": "http://arxiv.org/abs/2611.27973v1",
       "published": "2026-11-20T18:51:29Z",
       "authors": [
@@ -50,11 +50,11 @@
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "It enables more efficient, continuous deployment of LLMs in real‑time applications."
+      "whyItMatters": "Tech-savvy readers care because it enables more efficient, continuous LLM deployment on limited hardware."
     },
     {
       "title": "On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals",
-      "summary": "The article outlines a standardized EEG feature set for classifying ADHD in youth during cognitive tasks.",
+      "summary": "The paper outlines a standardized EEG feature set for classifying ADHD in children and adolescents during cognitive tasks.",
       "link": "http://arxiv.org/abs/2611.27970v1",
       "published": "2026-11-20T18:51:08Z",
       "authors": [
@@ -68,11 +68,11 @@
         "cs.LG",
         "eess.SP"
       ],
-      "whyItMatters": "Consistent features improve AI diagnostics and research reproducibility in neurodevelopmental disorders."
+      "whyItMatters": "Standardized features improve reproducibility and clinical utility of EEG-based ADHD diagnostics."
     },
     {
       "title": "Non-penetrating World Models",
-      "summary": "The paper introduces NoPeBench to test and finds that current interactive video world models fail to prevent object penetration, revealing hidden physical knowledge.",
+      "summary": "The paper introduces NoPeBench to test if interactive video world models avoid object penetration, finding current open-source models fail to prevent such physical inconsistencies.",
       "link": "http://arxiv.org/abs/2611.27963v1",
       "published": "2026-11-20T18:44:57Z",
       "authors": [
@@ -86,11 +86,11 @@
         "cs.CV",
         "cs.AI"
       ],
-      "whyItMatters": "Tech-savvy readers should know these models lack reliable physics, impacting safety and realism in AI-driven simulations."
+      "whyItMatters": "Tech-savvy readers care because reliable physics in AI models is crucial for realistic simulations and safe real-world applications."
     },
     {
       "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-      "summary": "The article explores training transformers that simultaneously learn their own layer topology, challenging the fixed architecture convention.",
+      "summary": "The article explores training transformers that self‑optimize their layer topology instead of using a fixed architecture.",
       "link": "http://arxiv.org/abs/2611.27962v1",
       "published": "2026-11-20T18:41:39Z",
       "authors": [
@@ -101,11 +101,11 @@
         "cs.LG",
         "cs.AI"
       ],
-      "whyItMatters": "Tech-savvy readers may see potential for more efficient, task‑specific models and reduced manual architecture design."
+      "whyItMatters": "It could lead to more efficient, task‑specific models that save compute and improve performance."
     },
     {
       "title": "Ranking-Preserving Coreset Selection for Efficient Evolutionary Hyperparameter Optimization",
-      "summary": "The paper introduces a ranking-preserving coreset method to speed up evolutionary hyperparameter optimization by reducing training data size while keeping configuration rankings intact.",
+      "summary": "The paper introduces a ranking-preserving coreset method to speed up evolutionary hyperparameter optimization by training on a compact dataset while maintaining configuration rankings.",
       "link": "http://arxiv.org/abs/2611.27959v1",
       "published": "2026-11-20T18:35:28Z",
       "authors": [
@@ -115,11 +115,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "It cuts HPO costs, enabling faster model tuning on large datasets for tech developers."
+      "whyItMatters": "It reduces HPO training time, enabling faster model tuning on large datasets."
     },
     {
       "title": "Topology Hub Optimal Transport: Eliminating Long Context Dilution at Flash Speed",
-      "summary": "The article explains how Hub-and-Spoke Optimal Transport improves long-context models by replacing dense attention with a linear graph over windows and hubs, reducing dilution and speeding up inference.",
+      "summary": "The paper introduces a hub-and-spoke optimal transport method to improve long-context model efficiency by reducing attention matrix size and mitigating dilution.",
       "link": "http://arxiv.org/abs/2611.27951v1",
       "published": "2026-11-20T18:23:42Z",
       "authors": [
@@ -128,11 +128,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because it offers faster, more efficient large‑scale language models with less memory and computational cost."
+      "whyItMatters": "Tech readers care because it speeds up large‑language‑model inference and enhances accuracy on long documents."
     },
     {
       "title": "The Optimal Sample Complexity of Agnostic PAC Learning for Partial Concept Classes",
-      "summary": "The paper proves that for any partial concept class with finite VC dimension, a deterministic agnostic PAC learner can achieve optimal sample complexity O((d+log(1/δ))/ε²).",
+      "summary": "The paper proves that for any partial concept class with finite VC dimension, a deterministic agnostic PAC learner can achieve optimal sample complexity of O((d+log(1/δ))/ε²).",
       "link": "http://arxiv.org/abs/2611.27946v1",
       "published": "2026-11-20T18:18:09Z",
       "authors": [
@@ -141,11 +141,11 @@
       "categories": [
         "cs.LG"
       ],
-      "whyItMatters": "It guarantees efficient learning guarantees for broad classes, informing algorithm design for robust AI systems."
+      "whyItMatters": "Tech-savvy readers care because it guarantees efficient learning even when concepts are partially defined, improving algorithmic guarantees."
     },
     {
       "title": "BioEmu2: Scalable Emulation of Biomolecular Dynamics",
-      "summary": "BioEmu2 is a generative model that rapidly produces atomically resolved biomolecular dynamics, outperforming traditional MD simulations by orders of magnitude.",
+      "summary": "BioEmu2 is a generative model that rapidly simulates atomically resolved biomolecular dynamics, combining structure prediction, sampling, and time evolution.",
       "link": "http://arxiv.org/abs/2611.27924v1",
       "published": "2026-11-20T17:58:47Z",
       "authors": [
@@ -184,11 +184,11 @@
         "cs.AI",
         "q-bio.BM"
       ],
-      "whyItMatters": "It enables faster, large-scale biomolecular studies, accelerating drug discovery and protein engineering."
+      "whyItMatters": "It offers orders‑of‑magnitude faster biomolecular simulations, enabling large‑scale studies of protein motions and interactions."
     },
     {
       "title": "SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement",
-      "summary": "The paper introduces SUAF, a method for learning reward‑independent representations that capture essential statistical dependencies for zero‑shot policy improvement.",
+      "summary": "The paper investigates how reward‑independent representations in RL should capture statistical dependence, which parts to keep for policy improvement, and the impact of discarding others.",
       "link": "http://arxiv.org/abs/2611.27919v1",
       "published": "2026-11-20T17:53:21Z",
       "authors": [
@@ -204,11 +204,11 @@
         "cs.LG",
         "cs.AI"
       ],
-      "whyItMatters": "Tech‑savvy readers care because it promises faster, transferable RL without task‑specific rewards."
+      "whyItMatters": "Understanding representation trade‑offs can boost zero‑shot learning and cross‑task transfer in advanced RL systems."
     },
     {
       "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
-      "summary": "StereoVLM introduces binocular vision-language models that use calibrated stereo images to infer precise metric 3D spatial relationships, overcoming ambiguity in single-view VLMs.",
+      "summary": "StereoVLM introduces binocular vision-language models that use calibrated stereo images to enable precise metric 3D spatial reasoning.",
       "link": "http://arxiv.org/abs/2611.27915v1",
       "published": "2026-11-20T17:52:02Z",
       "authors": [
@@ -224,7 +224,7 @@
         "cs.AI",
         "cs.RO"
       ],
-      "whyItMatters": "It enables more accurate 3D reasoning for applications like robotics and AR, where exact spatial metrics are critical."
+      "whyItMatters": "It improves accurate 3D understanding for applications like robotics and AR, where depth precision is critical."
     },
     {
       "title": "Star Panoptic Quality: Selectively Evaluating Split and Merged Instances",
