@@ -1,389 +1,336 @@
 {
-  "updated": "2026-11-24T23:56:35.841Z",
+  "updated": "2026-11-25T03:10:40.503Z",
   "count": 20,
   "items": [
     {
-      "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
-      "summary": "The article explores pruning vision‑language‑action models for autonomous driving, aiming to keep scene understanding and trajectory prediction while reducing memory and compute.",
-      "link": "http://arxiv.org/abs/2611.31240v1",
-      "published": "2026-11-23T18:59:52Z",
+      "title": "EEG-Jev: A Unified Single-Pass Decision Model for EEG",
+      "summary": "EEG-Jev is a single-pass decision model that outputs calibrated probabilities for choices, propositions, and other EEG analysis tasks.",
+      "link": "http://arxiv.org/abs/2611.31875v1",
+      "published": "2026-11-24T03:29:06Z",
       "authors": [
-        "Seongchan Kim",
-        "Soowon Son",
-        "Sangoh Kim",
-        "Hyunah Ko",
-        "Eunbeen Hong",
-        "Hyunkoo Lee",
-        "Sanghyun Lee",
-        "WonJun Moon",
-        "Kihong Kim",
-        "Dongyeon Son",
-        "Woongchan Nam",
-        "Seungryong Kim"
+        "Zhifei Zhu",
+        "Hongtao Zhang",
+        "Yu Ren",
+        "Wei Zhou",
+        "Zeping Xie",
+        "Yi He"
       ],
       "categories": [
-        "cs.CV",
         "cs.LG",
-        "cs.RO"
+        "cs.AI",
+        "physics.bio-ph"
       ],
-      "whyItMatters": "Tech‑savvy readers care because efficient pruning can speed up real‑time driving systems without sacrificing safety."
+      "whyItMatters": "It streamlines EEG interpretation, improving speed and consistency for researchers and clinicians."
     },
     {
-      "title": "Let Vision-Language Models Generate Images through Their Representations",
-      "summary": "The article explores how to use pretrained vision‑language models to generate images by tapping into their internal representations.",
-      "link": "http://arxiv.org/abs/2611.31237v1",
-      "published": "2026-11-23T18:59:32Z",
+      "title": "RepoEviAgent: Scalable Synthesis of Evidence-Grounded Repository-Level Question Answering Tasks",
+      "summary": "RepoEviAgent is a framework that builds scalable, evidence‑grounded datasets for repository‑level QA by curating quality data and using specialized agents.",
+      "link": "http://arxiv.org/abs/2611.31873v1",
+      "published": "2026-11-24T03:24:30Z",
       "authors": [
-        "JB Kim",
-        "Byungwoo Jeon",
-        "Kyungmin Lee",
-        "Hyeonmo Kang",
-        "Cheonbok Park",
-        "Shinyoung Joo",
-        "Jinwoo Shin",
-        "Jeonghoon Kim"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "It could streamline multimodal AI, enabling richer image creation from text with fewer training resources."
-    },
-    {
-      "title": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming",
-      "summary": "The paper proposes a weight-space programming method to reduce the modality gap between image and text embeddings in CLIP-style dual encoders, improving retrieval performance.",
-      "link": "http://arxiv.org/abs/2611.31233v1",
-      "published": "2026-11-23T18:59:13Z",
-      "authors": [
-        "Hani Alomari",
-        "Md Atabuzzaman",
-        "Chris Thomas"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it enhances multimodal search accuracy without sacrificing model performance."
-    },
-    {
-      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
-      "summary": "The paper examines whether language models can internally track uncertainty and whether inserting uncertainty tokens effectively guides their reasoning.",
-      "link": "http://arxiv.org/abs/2611.31228v1",
-      "published": "2026-11-23T18:58:52Z",
-      "authors": [
-        "Daniel Theron"
+        "Aoqi Hu",
+        "Yueao Xing"
       ],
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "Tech-savvy readers care because it informs reliability of AI reasoning and potential for safer, self-correcting systems."
+      "whyItMatters": "It enables more accurate AI tools for developers by providing richer, structured training data on real software repositories."
     },
     {
-      "title": "How Far Can Linear Go? BiPert, a Unified Framework for Single-Cell Perturbation Modelling",
-      "summary": "BiPert presents a unified model to predict gene perturbation effects across unseen cell types using single-cell data.",
-      "link": "http://arxiv.org/abs/2611.31227v1",
-      "published": "2026-11-23T18:58:32Z",
+      "title": "Subliminal Learning Crosses Modalities",
+      "summary": "The paper demonstrates that language models can learn preferences subliminally, transferring knowledge from one model to another via seemingly meaningless data across modalities.",
+      "link": "http://arxiv.org/abs/2611.31870v1",
+      "published": "2026-11-24T03:21:35Z",
       "authors": [
-        "Abhishek Sharma",
-        "Aleksej Zelezniak"
+        "Saraswathy Amjith",
+        "Kimia Hamidieh",
+        "Antonio Torralba",
+        "Yoon Kim"
       ],
       "categories": [
         "cs.LG",
-        "q-bio.CB",
-        "q-bio.GN",
-        "q-bio.QM"
+        "cs.CL",
+        "cs.CV"
       ],
-      "whyItMatters": "It enables broader CRISPR screen insights, accelerating gene function discovery in diverse cellular contexts."
+      "whyItMatters": "It reveals hidden vulnerabilities in model training, impacting security and bias mitigation in AI systems."
     },
     {
-      "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
-      "summary": "The paper proposes a self‑supervised dataset distillation method that maximizes mutual information to preserve representation consistency across augmentations.",
-      "link": "http://arxiv.org/abs/2611.31225v1",
-      "published": "2026-11-23T18:58:27Z",
+      "title": "CALVIN-MAX: When Does a Mid-Execution Change Hurt a Robot Policy?",
+      "summary": "The paper introduces CALVIN-MAX, a benchmark to study how mid‑execution environmental changes affect robot policy performance.",
+      "link": "http://arxiv.org/abs/2611.31868v1",
+      "published": "2026-11-24T03:18:32Z",
       "authors": [
-        "Mohammad Hossein Moslemi",
-        "Mahdi Beitollahi",
-        "Zhimin Mei",
-        "Jiale Cai",
-        "Bissan Ghaddar",
-        "Boyu Wang"
+        "Sajjad Pakdamansavoji"
       ],
       "categories": [
-        "cs.CV",
-        "cs.LG"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
-      "whyItMatters": "It enables smaller, efficient SSL training sets, saving storage and compute for large‑scale representation learning."
+      "whyItMatters": "It helps designers build more robust robots that can handle unexpected shifts during tasks."
     },
     {
-      "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
-      "summary": "The article proposes a triadic agentic AI framework to translate high-level network intents into concrete optimization and control actions, addressing gaps in current intent management.",
-      "link": "http://arxiv.org/abs/2611.31223v1",
-      "published": "2026-11-23T18:57:32Z",
+      "title": "No Fixed Configuration Is Best: Context- and Cost-Aware Tuning of LLM Pipelines, with an Application to Schema Matching and Mapping",
+      "summary": "Researchers tuned numeric settings of a multi-stage LLM pipeline for schema matching, balancing accuracy and cost, and evaluated its benefits and limits across 35 tasks.",
+      "link": "http://arxiv.org/abs/2611.31864v1",
+      "published": "2026-11-24T03:07:21Z",
       "authors": [
-        "Burak Demirel",
-        "Yu Wang",
-        "Pablo Soldati"
+        "Gokhan Kirlik",
+        "Xiuwen Zheng",
+        "Anirudh Sriram"
       ],
       "categories": [
-        "cs.LG"
+        "cs.AI"
       ],
-      "whyItMatters": "Tech-savvy readers care because it enables smarter, automated network control, improving efficiency and reducing manual configuration."
+      "whyItMatters": "Shows how fine-tuning can reduce costs while modestly improving accuracy in practical AI workflows."
     },
     {
-      "title": "CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans",
-      "summary": "CTLink segments chest CT findings described in radiology reports using a text‑prompted 3D model trained on thousands of scans.",
-      "link": "http://arxiv.org/abs/2611.31222v1",
-      "published": "2026-11-23T18:57:26Z",
+      "title": "Start Where the Data Are: Statistical Priors for One-Step Generation on Manifolds",
+      "summary": "The paper proposes a statistical prior for one-step generative models on manifolds to avoid spurious samples in low-density gaps.",
+      "link": "http://arxiv.org/abs/2611.31856v1",
+      "published": "2026-11-24T02:51:37Z",
       "authors": [
-        "Mohammed Baharoon",
-        "Sung Eun Kim",
-        "Mahmoud Hussain Alabbad",
-        "Lucas Bijnens",
-        "Ali Piracha",
-        "Reem Alwasiah",
-        "Talal Yahyan",
-        "Abdulrahman Alamoudi",
-        "Mashael Alshehri",
-        "Rayan Alsager",
-        "Hannah Hancock",
-        "Anna M. Hunkemöller",
-        "Peter Youssef",
-        "Mona A. Alhammad",
-        "Afnan Aljumayan",
-        "Brecht Van Berkel",
-        "Eric Bijnens",
-        "Saud Alhussain",
-        "Maarten Steyvers",
-        "Rolf Symons",
-        "Bryan Eelen",
-        "Ayed Alaklubi",
-        "Maha Buraykan Alshammari",
-        "Amirah Fahad Alshammeri",
-        "Tomas Gilvydis",
-        "Ibrahim AlTurki",
-        "Monerah Almohideb",
-        "Ali Alburkani",
-        "Shahad Alhomaiani",
-        "Fatima Jabali",
-        "Abdulrhman Aljouie",
-        "Daesung Kim",
-        "Junha Im",
-        "Michael Moritz",
-        "Hassan R. Alomaish",
-        "Pranav Rajpurkar"
+        "Yuyao Wang",
+        "Haoliang Sun",
+        "Xiankai Lu",
+        "Xinxin Zhang",
+        "Yongshun Gong"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "whyItMatters": "Improves reliability of fast generative models for protein design and other scientific tasks."
+    },
+    {
+      "title": "Explainable Deep Learning for Malaria Parasite Detection and Species Differentiation in Thick Blood Smear Images: A Pilot Feasibility Study",
+      "summary": "The study evaluates TRACE-Mal, a deep learning system that detects and differentiates malaria parasites in thick blood smears, focusing on explanation reliability.",
+      "link": "http://arxiv.org/abs/2611.31855v1",
+      "published": "2026-11-24T02:51:33Z",
+      "authors": [
+        "Haimanot Bitew",
+        "Ayisheshim Almaw",
+        "Habtamu Zegeye",
+        "Demeke Alene"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech-savvy readers care because reliable explanations improve trust and clinical decision support in AI diagnostics."
+    },
+    {
+      "title": "Modeling Event-Conditioned Emotional Expression Response with LLM Agents in a Synthetic Social Simulation",
+      "summary": "The paper proposes using LLM agents to model how emotions influence behavior in synthetic social simulations, aiming to improve predictions in areas like emergency response.",
+      "link": "http://arxiv.org/abs/2611.31851v1",
+      "published": "2026-11-24T02:49:21Z",
+      "authors": [
+        "Rebecca Marigliano",
+        "Peter Carragher",
+        "Kathleen M. Carley"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "Emotion-aware simulations could enhance planning and response strategies in critical public health scenarios."
+    },
+    {
+      "title": "Two-Stage Post-Training for Flow-Based Embodied Foundation Models",
+      "summary": "The paper proposes a two-stage post-training approach for flow-based embodied foundation models, combining supervised fine-tuning and multi-teacher policy distillation to improve task execution.",
+      "link": "http://arxiv.org/abs/2611.31850v1",
+      "published": "2026-11-24T02:49:16Z",
+      "authors": [
+        "Jiaming Zhang",
+        "Yao Lyu",
+        "Haoning Wang",
+        "Yongjun Chen",
+        "Liping Zhang",
+        "Shengbo Eben Li"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "whyItMatters": "It offers a practical method to enhance embodied AI performance across diverse tasks, addressing common fine-tuning and reinforcement learning challenges."
+    },
+    {
+      "title": "JECT: Addressing the Context Shortcut in Joint-Embedding Predictive Learning for Chest CT",
+      "summary": "The paper tackles how joint-embedding predictive models fail to capture subtle chest CT findings like small nodules due to context shortcuts.",
+      "link": "http://arxiv.org/abs/2611.31849v1",
+      "published": "2026-11-24T02:49:12Z",
+      "authors": [
+        "Hanbin Ko",
+        "Hong-Jun Choi",
+        "Jihun Kim",
+        "Young-Gon Kim",
+        "Dongheon Lee",
+        "Chang Min Park"
       ],
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
-      "whyItMatters": "It bridges report text and imaging, improving diagnostic clarity and workflow efficiency for clinicians."
+      "whyItMatters": "Improving self‑supervised learning could enhance early lung cancer detection in radiology."
     },
     {
-      "title": "LeJEPA Features Are Not Isotropic, and Should Not Be",
-      "summary": "The article critiques SIGReg’s isotropic Gaussian regularizer in LeJEPA, proposes a better version, and shows modest performance gains on ImageNet-100.",
-      "link": "http://arxiv.org/abs/2611.31216v1",
-      "published": "2026-11-23T18:56:04Z",
+      "title": "Faithful Persona Steering under Incongruity via Dual-Stream Refinement",
+      "summary": "The paper proposes a dual‑stream refinement approach to personalize large language models, balancing stable persona traits with context‑specific quirks to avoid drift and over‑generalization.",
+      "link": "http://arxiv.org/abs/2611.31848v1",
+      "published": "2026-11-24T02:47:38Z",
       "authors": [
-        "Richeek Das",
-        "Pratik Chaudhari"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "Tech-savvy readers care because improved regularization can boost model efficiency and accuracy in vision tasks."
-    },
-    {
-      "title": "Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning",
-      "summary": "The paper introduces ActSpace-Bench, a benchmark testing vision-language models’ ability to actively explore and gather evidence for spatial reasoning tasks.",
-      "link": "http://arxiv.org/abs/2611.31215v1",
-      "published": "2026-11-23T18:55:44Z",
-      "authors": [
-        "Xiwei Liu",
-        "Yulong Li",
-        "Xuhui Li",
-        "Xinlin Zhuang",
-        "Zhixiang Lu",
-        "Haolin Yang",
-        "Jianxu Chen",
-        "Yifan Lu",
-        "Zhiran Zhang",
-        "Yutong Xie"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "whyItMatters": "It evaluates whether VLMs can autonomously seek information, a key step toward more intelligent, real-world AI systems."
-    },
-    {
-      "title": "Flood forecasting using a physics-guided conditional denoising diffusion probabilistic model",
-      "summary": "A physics-guided diffusion model predicts 30 m water-depth fields for a four-day flood forecast, reducing computational cost compared to full 2D SWE solvers.",
-      "link": "http://arxiv.org/abs/2611.31212v1",
-      "published": "2026-11-23T18:55:29Z",
-      "authors": [
-        "Omar Sallam",
-        "David Coe",
-        "Jeremy Feinstein",
-        "Hugo Torres",
-        "Sofia Sahagun Covarrubias",
-        "Eugene Yan"
-      ],
-      "categories": [
-        "physics.flu-dyn",
-        "cs.LG",
-        "physics.geo-ph"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it speeds up high-resolution flood predictions, enabling faster, more efficient emergency response."
-    },
-    {
-      "title": "Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates",
-      "summary": "The article discusses ensuring reliability of PDE solver outputs by having them return certificates, including admissible potentials, to verify results automatically.",
-      "link": "http://arxiv.org/abs/2611.31211v1",
-      "published": "2026-11-23T18:55:06Z",
-      "authors": [
-        "Konstantinos Dovelos"
-      ],
-      "categories": [
-        "cs.CE",
-        "cs.LG",
-        "math.NA"
-      ],
-      "whyItMatters": "Tech-savvy readers care because it enables trustworthy, automated simulations without manual expert inspection, improving safety and efficiency."
-    },
-    {
-      "title": "Matching Under Metric Privacy",
-      "summary": "We study how to represent and randomize points in d-dimensional Euclidean space to obtain accurate bipartite matchings under metric privacy. Given n private and n public points, we analyze local mechanisms that randomize each private point or its distances to the public points. Using the public points' affine span, we construct a smaller representation that preserves all matching costs. When a…",
-      "link": "http://arxiv.org/abs/2611.31208v1",
-      "published": "2026-11-23T18:53:25Z",
-      "authors": [
-        "Hongyi B. Hu",
-        "Dung Nguyen",
-        "M. Amin Rahimian"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.CR",
-        "cs.SI",
-        "math.PR"
-      ]
-    },
-    {
-      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
-      "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query types, evidence formats, and failure modes are encountered in the wild. Human practitioners, by…",
-      "link": "http://arxiv.org/abs/2611.31198v1",
-      "published": "2026-11-23T18:48:02Z",
-      "authors": [
-        "Rui Sun",
-        "Junhua Huang",
-        "Luca Zancato",
-        "Md Mofijul Islam",
-        "Kai-Wei Chang"
+        "Yu-An Chu",
+        "Jen-Ren Pong",
+        "Chia-Yao Yeh",
+        "Meng-Fen Chiang"
       ],
       "categories": [
         "cs.CL",
+        "cs.AI"
+      ],
+      "whyItMatters": "It offers a more nuanced, adaptable way to keep LLMs consistently aligned with complex human identities."
+    },
+    {
+      "title": "Spec-Test Coverage Gap: Detecting Overspecified Tests in SWE-Bench-Style Benchmarks",
+      "summary": "The article discusses how SWE‑Bench benchmarks use tests from original fixes that may over‑specify requirements, causing valid alternative solutions to fail, and proposes a method to detect such overspecification.",
+      "link": "http://arxiv.org/abs/2611.31839v1",
+      "published": "2026-11-24T02:33:36Z",
+      "authors": [
+        "Avi Aggarwal",
+        "Yiran Hu"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "whyItMatters": "Tech‑savvy readers care because it improves benchmark reliability and fair evaluation of coding agents."
+    },
+    {
+      "title": "Gaze World Model",
+      "summary": "Where a person looks indicates their focus of attention, and how their gaze shifts between targets reveals how that attention responds to a changing scene. Existing gaze target estimation methods largely operate frame by frame and do not model these shifts. Gaze shifts are often driven by dynamic changes in the scene, which is the kind of information world models are designed to encode. This…",
+      "link": "http://arxiv.org/abs/2611.31836v1",
+      "published": "2026-11-24T02:32:30Z",
+      "authors": [
+        "Jiawen Zhang",
+        "Houze Yang",
+        "Xu Cao",
+        "Yifan Shen",
+        "Zhongyi Zhou",
+        "Steve Wong",
+        "Ismini Lourentzou",
+        "Inki Kim",
+        "James M. Rehg"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "POISE: Curvature-Aware Critic Regularization for Smooth Actor-Critic Control",
+      "summary": "Actor-critic methods achieve high returns in robotic control, yet trained actors exhibit high-frequency action oscillations. Most smoothness methods constrain the actor, whereas PAVE regularizes the critic by separately penalizing action-gradient variation and encouraging negative action curvature. The same gradient change, however, moves the critic's preferred action farther where the critic is…",
+      "link": "http://arxiv.org/abs/2611.31835v1",
+      "published": "2026-11-24T02:31:50Z",
+      "authors": [
+        "Jeong Woon Lee",
+        "Namho Kim",
+        "Hyoseok Hwang"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Not All Interpretation Methods Are Created Equal: Tiered Evaluation of AI Interpretability",
+      "summary": "As AI transitions to sociotechnical deployments, uninterpretable models pose serious threats to reliability, public trust and contestability. However, not all interpretation methods are created equal: for interpretability to enhance deployment safety and effectiveness, interpretation methods must be evaluated in a tiered system to differentiate evidence levels of trustworthiness, rather than…",
+      "link": "http://arxiv.org/abs/2611.31833v1",
+      "published": "2026-11-24T02:31:21Z",
+      "authors": [
+        "Nicolas Sanchez",
+        "Bin Yu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ]
+    },
+    {
+      "title": "GaokaoMathGen: Chinese Gaokao Mathematics Finale Problem Generation Controlled by Latent Reasoning Structures",
+      "summary": "Generating Chinese Gaokao mathematics finale problems requires controlling not only the included skills, but also the underlying mathematical kernel and solution path. Existing LLM-based methods mainly rely on surface-level specifications, while the realized difficulty of generated problems cannot be determined directly from prompted targets. Therefore, we propose GaokaoMathGen, a framework for…",
+      "link": "http://arxiv.org/abs/2611.31823v1",
+      "published": "2026-11-24T02:18:00Z",
+      "authors": [
+        "Qian Chen",
+        "Kun Zhu",
+        "Zhongyi Wang",
+        "Ling Chen"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Exploring Multi-Player Social Games as Verifiable Training Grounds for Large Language Models",
+      "summary": "The training of socially intelligent language models often relies on large language model (LLM) judges, which are expensive, noisy, and vulnerable to reward hacking. Multi-player social games offer a natural alternative: they require open-ended communication to coordinate with teammates and infer hidden roles, while their rules provide an objective outcome which can serve as a verifiable reward…",
+      "link": "http://arxiv.org/abs/2611.31821v1",
+      "published": "2026-11-24T02:15:30Z",
+      "authors": [
+        "Keyu He",
+        "Michael Li",
+        "Jiarui Liu",
+        "Mingqian Zheng",
+        "Koichi Onoue",
+        "Tongshuang Wu",
+        "Maarten Sap"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "title": "Compressible Representations: Functional Spines in Deep Neural Networks",
+      "summary": "Deep networks embed inputs in high-dimensional representations, but how much of this capacity actually drives behavior? We introduce a framework for identifying, at each layer, the subspace of the representation that is functionally sensitive to the task. Using a matrix analogous to the Fisher information but defined over the hidden representation, we rank directions by their influence on…",
+      "link": "http://arxiv.org/abs/2611.31817v1",
+      "published": "2026-11-24T02:11:08Z",
+      "authors": [
+        "Niranjan Rajesh",
+        "Meenakshi Khosla"
+      ],
+      "categories": [
         "cs.AI",
         "cs.CV"
       ]
     },
     {
-      "title": "Learning Neurovascular Codes for EEG-to-fMRI Synthesis",
-      "summary": "In this paper, we introduce Neurovascular Codes as shared EEG representations for fMRI generation. We first train a separate EEG encoder to predict each fMRI signal, learning target-specific temporal and spectral features from the same EEG window. After training, we freeze the encoders and project their concatenated hidden features into a shared neurovascular code. Conditioned on this code…",
-      "link": "http://arxiv.org/abs/2611.31194v1",
-      "published": "2026-11-23T18:45:35Z",
+      "title": "Agentic Discovery of Soundness Bugs in Safe Rust Bindings",
+      "summary": "Rust crates confine unsafe code, such as calls into C or C++ libraries or system calls, behind safe interfaces that must uphold Rust's invariants. If an interface encodes one rule of the code beneath it too weakly, a program written in purely safe Rust can cause undefined behavior. Static analyzers and fuzzers are bound to fixed patterns or to the paths they execute. We propose LLM agents as…",
+      "link": "http://arxiv.org/abs/2611.31813v1",
+      "published": "2026-11-24T02:06:23Z",
       "authors": [
-        "Yiming Sun",
-        "Yifan Wang",
-        "Aosong Feng",
-        "Yijia Ma",
-        "Ben Cheng",
-        "Xurui Wang",
-        "Yufan He",
-        "Yucheng Tang",
-        "Qing Lyu",
-        "Daguang Xu",
-        "Pei-Fen Kuan",
-        "Mingzhou Ding",
-        "Wen Li",
-        "Chenyu You"
+        "Marius Momeu",
+        "Koushik Sen"
       ],
       "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
-      "summary": "Text-to-SQL systems often return queries that execute successfully but answer the wrong question. Detecting these errors at deployment is hard because execution correctness is defined against a gold query, which exists only in labeled data. We formulate confidence estimation for Text-to-SQL as probabilistic query validation under a latent correctness variable that is observable at calibration…",
-      "link": "http://arxiv.org/abs/2611.31190v1",
-      "published": "2026-11-23T18:42:54Z",
-      "authors": [
-        "Avinash Kumar Singh",
-        "Bhaskarjit Sarmah",
-        "Stefano Pasquali"
-      ],
-      "categories": [
+        "cs.CR",
         "cs.AI",
-        "q-fin.CP"
+        "cs.PL",
+        "cs.SE"
       ]
     },
     {
-      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
-      "summary": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agnostic interventional attribution framework in which an RL-trained agent and its pre-RL…",
-      "link": "http://arxiv.org/abs/2611.31185v1",
-      "published": "2026-11-23T18:38:53Z",
+      "title": "How Far Apart Are Two Proofs? Measuring Proof Dissimilarity in a Proof Kernel and in Lean/Mathlib",
+      "summary": "We now live in the age of machine-generated mathematics: AI systems produce research-level proofs faster than the human mathematical community can read them. Verification is only part of the challenge. We also need to know whether a \"new proof\" is indeed new, whether a thousand generated proofs contain one idea or many, and where each sits relative to human mathematics. All of these require…",
+      "link": "http://arxiv.org/abs/2611.31811v1",
+      "published": "2026-11-24T02:02:33Z",
       "authors": [
-        "Ramraj Chandradevan",
-        "Sayontan Ghosh",
-        "Vinoth Selvendran"
+        "Nikolaos Nikolaou"
       ],
       "categories": [
-        "cs.IR",
+        "cs.LO",
         "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "title": "Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions",
-      "summary": "Conversational recommenders must rank items against needs that catalogs record only in part, while users add, withdraw and reverse needs and switch between requests. LLM rankers re-read the dialogue at every turn: they are slow, and their ordering does not show which needs an item meets. We show that a conversational recommender can be built from typed decisions instead: named questions over…",
-      "link": "http://arxiv.org/abs/2611.31175v1",
-      "published": "2026-11-23T18:32:04Z",
-      "authors": [
-        "Sungchul Kim",
-        "Weixiao Huang",
-        "Mekala Raja Sekhar Reddy",
-        "Amrutha Srinivasan"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Reducing Order Sensitivity in Decision Models",
-      "summary": "Decision models are emerging as fast components of larger AI systems. Yet recent decision models, such as Jev, process options sequentially, leading to different predictions based on their ordering. Across ten open- and closed-source decision models, we find that order-sensitivity is pervasive, causing substantial accuracy degradation and unreliable decision-making. These effects become more…",
-      "link": "http://arxiv.org/abs/2611.31174v1",
-      "published": "2026-11-23T18:31:54Z",
-      "authors": [
-        "Bodong Liu",
-        "Dongyoung Go",
-        "Sofian Zalouk",
-        "Kilian Q. Weinberger"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "EEG Decoding in Context: A Framework for Tuning-Free EEG Foundation Models",
-      "summary": "Electroencephalography (EEG) decoding is a central route toward brain-computer interfaces for communication, rehabilitation, cognitive assessment, and neurological monitoring. Recent EEG foundation models have substantially advanced reusable signal representations, but their downstream use still typically requires a task-specific decoder, gradient-based adaptation, and validation-driven model…",
-      "link": "http://arxiv.org/abs/2611.31171v1",
-      "published": "2026-11-23T18:30:53Z",
-      "authors": [
-        "Hao-Run Cai",
-        "Si-Yang Liu",
-        "Han-Jia Ye",
-        "Hairong Zheng"
-      ],
-      "categories": [
         "cs.LG"
       ]
     }

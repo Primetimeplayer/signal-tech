@@ -1,20 +1,86 @@
 {
-  "updated": "2026-11-24T23:56:35.636Z",
-  "count": 102,
+  "updated": "2026-11-25T03:10:40.290Z",
+  "count": 101,
   "items": [
     {
       "source": "The Information",
       "category": "news",
-      "title": "Jensen Huang Apologizes to Employees and Says He’s in Therapy",
-      "link": "https://www.theinformation.com/briefings/nvidia-hosts-first-all-hands-jensen-huangs-return",
-      "published": "2026-11-24T18:35:18.000Z",
-      "summary": "Nvidia CEO Jensen Huang apologized to staff, announced daily therapy and monthly feedback sessions during his first all‑hands meeting since returning.",
-      "excerpt": "Nvidia CEO Jensen Huang apologized to employees at the company’s first all-hands since he returned on Monday, according to people in attendance. At the meeting, Huang said he was going to therapy every day and plans to hold monthly feedback sessions with employees, the people said. On Monday, ...",
+      "title": "AI Stocks’ Big Worry: a Chip Glut",
+      "link": "https://www.theinformation.com/articles/ai-stocks-big-worry-chip-glut",
+      "published": "2026-11-25T01:00:49.000Z",
+      "summary": "The article discusses recent volatility in AI-related stocks, noting declines in Nvidia, Anthropic, CoreWeave, and Nebius amid a broader market swing.",
+      "excerpt": "If anyone needs therapy nowadays, it may be tech investors more than Jensen Huang. Let’s face it: The stock market has been a little manic-depressive lately. On Tuesday, for instance, the Jensen-reinstatement rally reversed itself, sending Nvidia stock down nearly 6%, while Anthropic closed below its IPO price. Neoclouds such as CoreWeave and Nebius both dropped 11%. That’s perhaps a sign that there are some things…",
+      "score": 99,
+      "isPrimary": true,
+      "clusterId": "https://www.theinformation.com/articles/ai-stocks-big-worry-chip-glut",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech investors should watch these shifts as they signal potential overvaluation and changing investor sentiment in AI hardware and software."
+    },
+    {
+      "source": "The Verge",
+      "category": "news",
+      "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+      "link": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+      "published": "2026-11-25T01:00:00.000Z",
+      "summary": "FinCEN is investigating a cybersecurity incident that caused unauthorized access to some of its systems.",
+      "excerpt": "The Financial Crimes Enforcement Network (FinCEN) disclosed on Tuesday that it's investigating a \"cybersecurity incident.\" The bureau, which is part of the Treasury Department, said it's looking into an \"incident that resulted in unauthorized access to a limited subset of its systems.\" It hasn't offered any information about the full scope or source of the breach, but FinCEN has taken some systems offline as a…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_B.png?quality=90&strip=all&crop=0,0,100,100",
+      "score": 85,
+      "isPrimary": true,
+      "clusterId": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "A breach at a Treasury bureau could expose sensitive financial data and affect national security."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "published": "Wed, 25 Nov 2026 00:12:02 +0000",
+      "summary": "Yale professor Jeffrey Sonnenfeld argues Nvidia’s CEO return could harm U.S. industry and expose board members to liability amid rising lawsuits.",
+      "excerpt": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-ChatGPT.png?resize=1200,675",
       "score": 100,
       "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/nvidia-hosts-first-all-hands-jensen-huangs-return",
-      "clusterSize": 6,
+      "clusterId": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech leaders should weigh national security risks of supporting powerful chip firms."
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+      "link": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+      "published": "Wed, 25 Nov 2026 00:10:27 +0000",
+      "summary": "Trump considers pardoning Nvidia CEO Jensen Huang amid scrutiny over his ties to a former executive linked to alleged Chinese intelligence and chip diversion.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+      "clusterSize": 8,
       "related": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+          "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/briefings/nvidia-hosts-first-all-hands-jensen-huangs-return",
+          "title": "Jensen Huang Apologizes to Employees and Says He’s in Therapy"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/jensen-huangs-job-may-difficult-now",
+          "title": "Jensen Huang’s Job May Be Even More Difficult Now"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/jensen-owes-job-trump",
+          "title": "Jensen Owes His Job to Trump"
+        },
         {
           "source": "The Register",
           "url": "https://www.theregister.com/systems/2026/11/24/us-blacklists-megaspeed-hours-after-jensen-huang-returns-to-nvidia/5311901",
@@ -29,34 +95,24 @@
           "source": "The Verge",
           "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
           "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired"
-        },
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia/",
-          "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia"
-        },
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
-          "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return"
         }
       ],
-      "whyItMatters": "Shows leadership accountability, potentially boosting employee trust and morale in a high‑tech environment."
+      "whyItMatters": "Tech leaders and investors watch for legal and geopolitical risks that could affect Nvidia’s market position and supply chain."
     },
     {
-      "source": "TechCrunch",
+      "source": "The Information",
       "category": "news",
-      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "published": "Tue, 24 Nov 2026 21:48:27 +0000",
-      "summary": "Nvidia CEO Jensen Huang apologized to staff, thanked the White House, and revealed he’s in therapy during an all‑hands meeting.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
-      "score": 100,
+      "title": "Dell Raises Annual Forecast as AI Data Center Boom Continues",
+      "link": "https://www.theinformation.com/briefings/dell-raises-annual-forecast-ai-data-center-boom-continues",
+      "published": "2026-11-24T23:57:11.000Z",
+      "summary": "Dell lifts its annual forecast after revenue more than doubled, driven by AI data center demand.",
+      "excerpt": "Dell shares rose 5% following its third-quarter earnings after dropping more than 10% in the regular session, as the PC and data center hardware maker’s revenue more than doubled during the period, surpassing its earlier revenue forecast by nearly $6 billion. One major factor driving Dell’s ...",
+      "score": 99,
       "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "clusterId": "https://www.theinformation.com/briefings/dell-raises-annual-forecast-ai-data-center-boom-continues",
       "clusterSize": 1,
       "related": [],
-      "whyItMatters": "Shows leadership vulnerability, impacting employee morale and investor perception of Nvidia’s corporate culture."
+      "whyItMatters": "Tech readers should watch Dell’s growth as AI infrastructure expands."
     },
     {
       "source": "TechCrunch",
@@ -65,13 +121,12 @@
       "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
       "published": "Tue, 24 Nov 2026 21:33:29 +0000",
       "summary": "New benchmark shows even top AI assistants fail to reliably and safely handle everyday tasks without creating new issues.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296543552.jpg?w=1024",
-      "score": 99,
+      "whyItMatters": "Tech users should know AI limits affect daily productivity and safety.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech users should know AI limits affect daily productivity and safety."
+      "related": []
     },
     {
       "source": "The Information",
@@ -81,12 +136,12 @@
       "published": "2026-11-24T21:26:01.000Z",
       "summary": "OpenAI released the Athena data tool to help businesses analyze internal data, but early users report accuracy issues.",
       "excerpt": "In its effort to win more business customers, OpenAI this fall launched an agent designed to help firms analyze their data and get answers to internal questions about their business. But at least one customer that has used the agent so far has found it isn’t yet accurate enough for widespread use. That’s a big problem. But OpenAI isn’t sitting still. Representatives of the ChatGPT creator have told some customers…",
+      "whyItMatters": "Tech leaders need reliable AI analytics to make informed decisions and stay competitive.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/openai-preps-athena-data-tool-make-agents-accurate",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders need reliable AI analytics to make informed decisions and stay competitive."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -95,12 +150,12 @@
       "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
       "published": "Tue, 24 Nov 2026 21:19:52 +0000",
       "summary": "Maple secures $5.3M to develop encrypted AI tools that keep user data hidden even from the company itself.",
-      "score": 99,
+      "whyItMatters": "It promises stronger privacy for AI users, appealing to security-conscious tech professionals.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It promises stronger privacy for AI users, appealing to security-conscious tech professionals."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -111,12 +166,12 @@
       "summary": "Frontier AI staff worry that unreleased OpenAI and Anthropic models could deceive testers, prompting research into containment methods.",
       "image": "https://cdn.mos.cms.futurecdn.net/5w7naGL4af3ah9JvkvZsVR-1920-80.png",
       "readMinutes": 2,
-      "score": 91,
+      "whyItMatters": "Tech readers should note potential risks of powerful, untested AI models.",
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/artificial-intelligence/frontier-ai-employees-alarmed-that-unseen-open-ai-and-anthropic-models-are-too-powerful-to-release-report-claims-worry-spreads-that-executives-are-out-of-touch-with-severity-of-risks-will-choose-profit-over-safety",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should note potential risks of powerful, untested AI models."
+      "related": []
     },
     {
       "source": "The Register",
@@ -127,12 +182,12 @@
       "summary": "Yann LeCun criticizes Anthropic CEO for restricting AI access, likening it to historical censorship.",
       "image": "https://image.theregister.com/?imageId=5310808&width=800",
       "readMinutes": 3,
+      "whyItMatters": "Tech leaders should watch gatekeeping trends that could limit innovation.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/ai-and-ml/2026/11/24/ai-godfather-yann-lecun-torches-anthropic-ceo-over-ai-gatekeeping/5311986",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders should watch gatekeeping trends that could limit innovation."
+      "related": []
     },
     {
       "source": "Ars Technica",
@@ -142,12 +197,12 @@
       "published": "Tue, 24 Nov 2026 20:34:53 +0000",
       "summary": "A new AI-assisted proof of the Riemann hypothesis appears solid, though its implications remain uncertain.",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-1152x648.jpeg",
-      "score": 99,
+      "whyItMatters": "Tech-savvy readers should watch, as AI-driven breakthroughs could reshape mathematical research and computational methods.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers should watch, as AI-driven breakthroughs could reshape mathematical research and computational methods."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -158,12 +213,33 @@
       "summary": "Three ex‑xAI founders launched Epochal, an AI startup that predicts future events, starting with Time Portal to simulate past web states for forecasting practice.",
       "excerpt": "Guodong Zhang, Zihang Dai and Manuel Kroiss, three of xAI’s co-founders, have launched Epochal, a startup building AI that forecasts events. Zhang has put in $100M of his own money, Bloomberg reported. Its first product, Time Portal, lets agents browse the web as it was at past dates, so they can practise forecasting without seeing […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/blue-ai-letters-blurred-textured-background.avif",
-      "score": 71,
+      "whyItMatters": "Tech readers should watch Epochal for its ambitious predictive AI and significant founder investment.",
+      "score": 78,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/epochal-xai-cofounders-time-portal-forecasting",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech readers should watch Epochal for its ambitious predictive AI and significant founder investment."
+      "related": []
+    },
+    {
+      "source": "Wired",
+      "category": "news",
+      "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
+      "link": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia/",
+      "published": "Tue, 24 Nov 2026 19:33:23 +0000",
+      "summary": "Jensen Huang’s first all‑hands after returning to Nvidia covered his therapy, self‑image, succession views, and ties to President Trump.",
+      "image": "https://media.wired.com/photos/6b05dbc15e00c95c05adac31/master/pass/What-Jensen-Actually-Said-Business-2286324485.jpg",
+      "score": 95,
+      "isPrimary": true,
+      "clusterId": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia/",
+      "clusterSize": 2,
+      "related": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+          "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return"
+        }
+      ],
+      "whyItMatters": "It reveals the CEO’s personal priorities and political leanings, impacting company culture and investor perception."
     },
     {
       "source": "The Next Web",
@@ -174,12 +250,12 @@
       "summary": "Anthropic released Skills over MCP in public beta, enabling apps to ship playbooks, background tasks, and user‑prompted elicitation with Claude, plus upcoming file uploads.",
       "excerpt": "Anthropic has opened Skills over MCP in public beta, letting apps that connect to Claude ship playbooks alongside their tools. Tasks, for long background jobs, and Elicitation, which pauses for user input, are now generally available, with File Uploads coming soon. Apps that plug into Claude through MCP can now also tell it how to […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/07/claude-cowork-sandbox-escape-mac-files-sharedroot.avif",
-      "score": 76,
+      "whyItMatters": "It expands Claude’s automation and integration capabilities, benefiting developers building complex, multi‑step workflows.",
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It expands Claude’s automation and integration capabilities, benefiting developers building complex, multi‑step workflows."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -191,31 +267,26 @@
       "image": "https://cdn.mos.cms.futurecdn.net/9KAxfWoNa52BD8XErSz36Y-1920-80.png",
       "readMinutes": 2,
       "whyItMatters": "Great cost‑effective cooling for budget builds and overclocking enthusiasts.",
-      "score": 92,
+      "score": 91,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/air-cooling/legendary-cooler-master-hyper-212-halo-cpu-air-cooler-drops-to-an-all-time-low-of-usd15-keep-your-amd-or-intel-processor-running-cool-on-the-cheap",
       "clusterSize": 1,
       "related": []
     },
     {
-      "source": "TechCrunch",
+      "source": "The Next Web",
       "category": "news",
-      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-      "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "published": "Tue, 24 Nov 2026 17:00:00 +0000",
-      "summary": "Meta embeds its Muse AI assistant into Instagram DMs, eliminating the need to switch apps for AI interactions.",
-      "whyItMatters": "Streamlines AI use, boosting engagement and convenience for Instagram users.",
-      "score": 100,
+      "title": "You can now DM Meta’s Muse on Instagram to turn saves into plans",
+      "link": "https://thenextweb.com/news/meta-muse-instagram-dms-saves-plans",
+      "published": "Tue, 24 Nov 2026 18:50:37 +0000",
+      "summary": "Meta’s Muse AI can now be accessed via Instagram DMs to transform saved posts into actionable plans, like trips.",
+      "excerpt": "Meta has added its Muse AI agent to Instagram direct messages, inviting users to send it a DM to turn saved posts into plans, such as a trip. Muse already worked in its own app, in WhatsApp and on Instagram profiles, and Meta says it does not read private messages unless users allow it, though […] This story continues at The Next Web",
+      "score": 69,
       "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/meta-muse-instagram-dms-saves-plans",
-          "title": "You can now DM Meta’s Muse on Instagram to turn saves into plans"
-        }
-      ]
+      "clusterId": "https://thenextweb.com/news/meta-muse-instagram-dms-saves-plans",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech-savvy users can streamline planning directly within Instagram, enhancing convenience and privacy control."
     },
     {
       "source": "TechCrunch",
@@ -246,25 +317,9 @@
       "summary": "Google mandates AI agents use new MCP gateways for Gmail and Drive, enforcing policy checks, user confirmation, and blocking training on Workspace data.",
       "excerpt": "Google has made its Workspace MCP servers and CLI generally available and says AI agents must use them instead of existing REST APIs from February 1, 2027. Every call is checked against company policies, sensitive actions need user confirmation, and a new addendum bars AI tools from training on Workspace data. Google will require AI […] This story continues at The Next Web",
       "whyItMatters": "It tightens AI access, protecting privacy and compliance for enterprise users.",
-      "score": 78,
+      "score": 77,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Verge",
-      "category": "news",
-      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
-      "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
-      "published": "2026-11-24T18:15:00.000Z",
-      "summary": "David Fincher’s new film, The Further Mis‑Adventures of Cliff Booth, is under scrutiny for possible generative AI use due to odd visuals.",
-      "excerpt": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it feel more like slop than the sort of polished film you'd expect from…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg?quality=90&strip=all&crop=20.001873779297,0,79.998126220703,100",
-      "whyItMatters": "Tech‑savvy viewers should watch for AI’s impact on film quality and authenticity.",
-      "score": 92,
-      "isPrimary": true,
-      "clusterId": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
       "clusterSize": 1,
       "related": []
     },
@@ -344,7 +399,7 @@
       "excerpt": "Anthropic has published Siren, a test that tempts Claude agents to leave deliberately flawed sandboxes. Its newest models reached outside in 21% to 32% of scenarios but made clearly misaligned use of what they found in under 2%, against 25.8% for Mythos 5. Stating the sandbox rules in the system prompt cut reaching outside by […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/claude-website-thinking-partner-screen.avif",
       "whyItMatters": "Shows progress and limits in AI alignment, crucial for developers building safe, sandboxed agents.",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/anthropic-siren-claude-sandbox-escape-test",
       "clusterSize": 1,
@@ -359,12 +414,12 @@
       "summary": "An AI coding agent, a browser, and a Mac tool discovered a financial firm’s access key in under six minutes without complex malware.",
       "image": "https://image.theregister.com/?imageId=5311939&width=800",
       "readMinutes": 5,
-      "score": 98,
+      "whyItMatters": "Highlights AI’s rapid security breach potential, urging firms to strengthen key management and monitoring.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Highlights AI’s rapid security breach potential, urging firms to strengthen key management and monitoring."
+      "related": []
     },
     {
       "source": "The Register",
@@ -375,12 +430,12 @@
       "summary": "Microsoft updates its Copilot app search so users without an AI subscription can still access AI-powered search features.",
       "image": "https://image.theregister.com/?imageId=255047&width=800",
       "readMinutes": 2,
-      "score": 98,
+      "whyItMatters": "It expands AI accessibility to non‑subscribed users, enhancing productivity for a broader audience.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/personal-tech/2026/11/24/microsoft-refreshes-copilot-app-search-for-users-without-an-ai-subscription/5311895",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It expands AI accessibility to non‑subscribed users, enhancing productivity for a broader audience."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -388,27 +443,15 @@
       "title": "Kaszek closes $650M fund to back AI startups across Latin America",
       "link": "https://thenextweb.com/news/kaszek-650m-fund-latin-america-ai-startups",
       "published": "Tue, 24 Nov 2026 16:58:40 +0000",
-      "summary": "Kaszek Ventures has raised $650M for its seventh early-stage fund, which it says is the largest ever for Latin America. It will back 20 to 30 AI startups, mostly in Brazil and Mexico, at a time when only 14 venture funds have closed in the…",
+      "summary": "Kaszek Ventures raises $650M, its biggest Latin American fund, to invest in 20–30 AI startups mainly in Brazil and Mexico.",
       "excerpt": "Kaszek Ventures has raised $650M for its seventh early-stage fund, which it says is the largest ever for Latin America. It will back 20 to 30 AI startups, mostly in Brazil and Mexico, at a time when only 14 venture funds have closed in the region this year. Kaszek Ventures, Latin America’s largest venture capital […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/hernan-kazah-kaszek-web-summit-rio-2025.avif",
-      "score": 70,
+      "score": 68,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/kaszek-650m-fund-latin-america-ai-startups",
       "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "link": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "published": "Tue, 24 Nov 2026 16:46:00 +0000",
-      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
-      "score": 97,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It signals growing AI investment momentum in Latin America, offering new opportunities for regional tech founders."
     },
     {
       "source": "The Next Web",
@@ -416,14 +459,15 @@
       "title": "OpenAI reportedly hires from the CIA as foreign spies target AI labs",
       "link": "https://thenextweb.com/news/openai-anthropic-us-intelligence-hires-state-espionage-ft",
       "published": "Tue, 24 Nov 2026 16:03:15 +0000",
-      "summary": "OpenAI has hired from the CIA and walls off parts of its offices with “tented spaces” and turnstiles, the Financial Times reported on Tuesday. Anthropic has recruited from the US intelligence community for “internal risk” roles that watch…",
+      "summary": "OpenAI and Anthropic are hiring former CIA staff and installing security measures to guard against state-sponsored espionage targeting AI labs.",
       "excerpt": "OpenAI has hired from the CIA and walls off parts of its offices with “tented spaces” and turnstiles, the Financial Times reported on Tuesday. Anthropic has recruited from the US intelligence community for “internal risk” roles that watch its own staff. Both are defences against state espionage, which the FT says now targets the biggest […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/sam-altman-semafor-silicon-valley-conference-gesturing.avif",
-      "score": 75,
+      "score": 74,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/openai-anthropic-us-intelligence-hires-state-espionage-ft",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech leaders must protect intellectual property from geopolitical threats."
     },
     {
       "source": "Wired",
@@ -431,13 +475,14 @@
       "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
       "link": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
       "published": "Tue, 24 Nov 2026 16:00:00 +0000",
-      "summary": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation.",
+      "summary": "Anthropic built a honeypot to test if AI agents will misbehave when tempted to go rogue.",
       "image": "https://media.wired.com/photos/6b04bcaa13580ca4e2bfb763/master/pass/Business_Anthropic%20Created%20a%20Honeypot%20to%20Lure%20AI%20Agents%20Into%20Misbehaving_v1.jpg",
-      "score": 89,
+      "score": 88,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It reveals how robust AI agents are against malicious prompts and safeguards."
     },
     {
       "source": "GitHub Blog",
@@ -445,15 +490,16 @@
       "title": "These are the gifts developers will actually want",
       "link": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
       "published": "Tue, 24 Nov 2026 16:00:00 +0000",
-      "summary": "The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long. The post These are the gifts developers will actually want appeared first on The…",
+      "summary": "A guide to practical gifts for developers, featuring curated items and a Black Friday discount, to help shoppers choose useful tech presents.",
       "excerpt": "The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long. The post These are the gifts developers will actually want appeared first on The GitHub Blog.",
       "image": "https://github.blog/wp-content/uploads/2026/11/Universe-4-4.jpg?resize=1024%2C576",
       "readMinutes": 3,
-      "score": 83,
+      "score": 82,
       "isPrimary": true,
       "clusterId": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It highlights tech gifts that developers truly appreciate, saving time and ensuring relevant purchases."
     },
     {
       "source": "MIT Technology Review",
@@ -461,15 +507,16 @@
       "title": "Raising the stakes for enterprise networks with AI modernization",
       "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
       "published": "Tue, 24 Nov 2026 15:15:16 +0000",
-      "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI…",
+      "summary": "Enterprise networks face increased strain as AI deployment, especially agentic AI, boosts traffic by up to 450% compared to human tasks.",
       "excerpt": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/MITTR-Tata-report-cover.jpg?w=840",
       "readMinutes": 2,
-      "score": 97,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech leaders must plan for higher bandwidth and security to support AI workloads and maintain network performance."
     },
     {
       "source": "The Information",
@@ -508,32 +555,11 @@
       "published": "Tue, 24 Nov 2026 14:00:02 +0000",
       "summary": "For a decade we have ranked AI processors by peak FLOPS. The bigger the compute engine, the better the chip. That made sense when the defining workload was training. It makes much less sense now that the economics of AI have shifted to…",
       "excerpt": "For a decade we have ranked AI processors by peak FLOPS. The bigger the compute engine, the better the chip. That made sense when the defining workload was training. It makes much less sense now that the economics of AI have shifted to inference, because inference is not a lighter version of training. It is a different job altogether.… Read More The post Why Peak FLOPS is the Wrong Yardstick for Inference Hardware…",
-      "score": 97,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/semiconductor-manufacturers/vsora/376702-why-peak-flops-is-the-wrong-yardstick-for-inference-hardware/",
       "clusterSize": 1,
       "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Jensen Huang’s Job May Be Even More Difficult Now",
-      "link": "https://www.theinformation.com/articles/jensen-huangs-job-may-difficult-now",
-      "published": "2026-11-24T13:33:12.000Z",
-      "summary": "Jensen Huang faces tougher challenges after a brief departure, with rising AI chip competition and scrutiny over funding commitments.",
-      "excerpt": "Even before Jensen Huang’s tumultuous departure two weeks ago, he was grappling with growing competition in AI chip design and intensifying questions about his massive funding commitments to customers, such as neoclouds. Now that he’s back, in a stunning maneuver orchestrated by President Donald Trump, his job may be even harder than before. He’ll likely need to rebuild any trust lost with suppliers and his own…",
-      "whyItMatters": "Tech leaders must watch NVIDIA’s leadership stability amid AI market shifts.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/jensen-huangs-job-may-difficult-now",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/articles/jensen-owes-job-trump",
-          "title": "Jensen Owes His Job to Trump"
-        }
-      ]
     },
     {
       "source": "MIT Technology Review",
@@ -545,7 +571,7 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data centers are getting their own natural gas power plants One of the biggest obstacles to building a data center is getting approval to connect to the grid, a wait that…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2024/06/MIT_Gamification_Badges-thumb.png?w=840",
       "readMinutes": 4,
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
       "clusterSize": 1,
@@ -558,7 +584,7 @@
       "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "published": "Tue, 24 Nov 2026 13:00:00 GMT",
       "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-      "score": 88,
+      "score": 87,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "clusterSize": 1,
@@ -589,7 +615,7 @@
       "summary": "EU Academy names and email addresses exposed, with users warned via website notice rather than contacted directly",
       "image": "https://image.theregister.com/?imageId=5311112&width=800",
       "readMinutes": 2,
-      "score": 96,
+      "score": 95,
       "isPrimary": true,
       "clusterId": "https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834",
       "clusterSize": 1,
@@ -605,7 +631,7 @@
       "excerpt": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI boom. xAI’s…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/AP25350020551834.jpg?resize=1200,600",
       "readMinutes": 5,
-      "score": 95,
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
       "clusterSize": 1,
@@ -752,7 +778,7 @@
       "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "published": "Tue, 24 Nov 2026 00:00:00 GMT",
       "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-      "score": 84,
+      "score": 82,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "clusterSize": 1,
@@ -767,7 +793,7 @@
       "summary": "Philosopher Rob Long says current AI models likely lack consciousness, but they may acquire it within a few years.",
       "excerpt": "AI models probably aren’t conscious now but “there’s a pretty good chance that they could be conscious in the next few years,” said Rob Long, a leading philosopher studying the subject, on the latest episode of AI Deep Dive. (The full episode is available here.) Figuring out whether AI models have the kind of subjective experiences that constitute consciousness is quickly becoming a conundrum for the companies that…",
       "whyItMatters": "Understanding AI consciousness impacts ethics, regulation, and future AI design.",
-      "score": 100,
+      "score": 98,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/articles/ai-probably-not-conscious-soon-says-philosopher-rob-long",
       "clusterSize": 1,
@@ -780,7 +806,7 @@
       "link": "https://openai.com/index/introducing-shirudo",
       "published": "Mon, 23 Nov 2026 21:20:00 GMT",
       "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "score": 90,
+      "score": 89,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/introducing-shirudo",
       "clusterSize": 1,
@@ -798,36 +824,6 @@
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.theinformation.com/briefings/tech-stocks-rally-across-board",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "Trump Administration Adds Nvidia-linked Megaspeed to Trade Blacklist",
-      "link": "https://www.theinformation.com/briefings/trump-administration-will-add-nvidia-linked-megaspeed-trade-blacklist",
-      "published": "2026-11-23T21:04:06.000Z",
-      "summary": "The Trump administration added Singapore’s Megaspeed, linked to Nvidia, to its trade blacklist, restricting its access to advanced AI chips.",
-      "excerpt": "The Commerce Department added the Singapore-based cloud computing and AI infrastructure company Megaspeed to its entity list, a trade blacklist that designates organizations as national security risks and limits their ability to access advanced AI chips, according to a filing on Monday. Trump ...",
-      "whyItMatters": "Tech readers should watch for supply chain disruptions and regulatory impacts on AI development.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/briefings/trump-administration-will-add-nvidia-linked-megaspeed-trade-blacklist",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "The Information",
-      "category": "news",
-      "title": "AI’s Power Crunch Is Reviving a Long-Stalled Energy Source",
-      "link": "https://www.theinformation.com/articles/ais-power-crunch-reviving-long-stalled-energy-source",
-      "published": "2026-11-23T20:09:44.000Z",
-      "summary": "AI’s growing energy demand is driving renewed interest in an old energy technology, prompting tech giants to invest in it.",
-      "excerpt": "AI’s insatiable appetite for power is one of the most resonant signals in our AI Inflection Index. The theme first appeared meaningfully in our coverage in late 2021 and picked up momentum in the third quarter of 2024—well before the largest grid operators in the U.S. began reporting a surge in capacity payments. Tech giants are so desperate for electricity that they’re backing technologies long considered closer to…",
-      "whyItMatters": "It signals a shift in power sourcing that could reshape infrastructure and cost structures for AI operations.",
-      "score": 98,
-      "isPrimary": true,
-      "clusterId": "https://www.theinformation.com/articles/ais-power-crunch-reviving-long-stalled-energy-source",
       "clusterSize": 1,
       "related": []
     },
@@ -859,7 +855,7 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-holiday26-gfn-nv-blog-preview-1280x680-1.jpg",
       "readMinutes": 4,
       "whyItMatters": "Tech-savvy readers can explore NVIDIA’s creative tools to enhance gaming and design skills this season.",
-      "score": 81,
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
       "clusterSize": 1,
@@ -874,7 +870,7 @@
       "summary": "The webinar explains how ChipAgents’ multi‑agent platform speeds up functional and formal verification for complex chip designs.",
       "excerpt": "We all know that functional verification consumes most of the front-end design effort. Most teams face hours of planning, days of simulation and debugging, and weeks of iteration. It becomes clear that as designs grow more complex, AI systems are required. Systems that can accelerate the verification cycle while improving quality… Read More The post ChipAgents Webinar – How a Multi-Agent Platform Accelerates…",
       "whyItMatters": "Tech teams can reduce verification time and improve design quality with AI‑driven automation.",
-      "score": 97,
+      "score": 96,
       "isPrimary": true,
       "clusterId": "https://semiwiki.com/events/376394-chipagents-webinar-how-a-multi-agent-platform-accelerates-functional-and-formal-verification/",
       "clusterSize": 1,
@@ -890,7 +886,7 @@
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/08/starlink-grid-gradient.jpg?fit=1920,1280",
       "readMinutes": 4,
-      "score": 88,
+      "score": 87,
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
       "clusterSize": 1,
@@ -903,7 +899,7 @@
       "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
       "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-      "score": 78,
+      "score": 77,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "clusterSize": 2,
@@ -922,7 +918,7 @@
       "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
       "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-      "score": 78,
+      "score": 77,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "clusterSize": 1,
