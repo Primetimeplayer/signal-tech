@@ -5,13 +5,21 @@
     <link>https://signaltechnews.com/</link>
     <description>The Signal Tech newsletter, weekly digests and original blog guides: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 24 Nov 2026 01:58:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>How to verify an AI API rewrite</title>
+      <link>https://signaltechnews.com/blog/ai-api-rewrite-parity-checklist</link>
+      <guid isPermaLink="true">https://signaltechnews.com/blog/ai-api-rewrite-parity-checklist</guid>
+      <pubDate>Wed, 25 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Blog</category>
+      <description>A checklist for testing an AI API rewrite with scripted model replies, shadow traffic and a canary before switching clients to the new service.</description>
+    </item>
     <item>
       <title>Signal Weekly — Nov 17–Nov 24, 2026</title>
       <link>https://signaltechnews.com/digests/2026-11-24</link>
