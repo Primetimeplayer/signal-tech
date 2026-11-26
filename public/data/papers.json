@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-26T16:26:14.144Z",
+  "updated": "2026-11-26T17:03:36.905Z",
   "count": 20,
   "items": [
     {
       "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
-      "summary": "The paper evaluates how autoencoder-based AI-native communication systems perform when trained on AWGN but tested on mismatched channels, highlighting sensitivity to channel variations.",
+      "summary": "The paper explores AI-native communication using autoencoders, examining how training on AWGN channels affects performance when real-world channel conditions differ.",
       "link": "http://arxiv.org/abs/2611.34942v1",
       "published": "2026-11-25T18:59:57Z",
       "authors": [
@@ -16,11 +16,11 @@
         "cs.AI",
         "eess.SP"
       ],
-      "whyItMatters": "It informs designers about robustness challenges when deploying end‑to‑end learned radios in real‑world, variable environments."
+      "whyItMatters": "It highlights the need for robust training strategies to ensure AI-based radios work reliably in diverse, real-world environments."
     },
     {
       "title": "Tokenisation is not in APX",
-      "summary": "The paper proves tokenisation is not in APX, showing no polynomial-time algorithm can approximate it within a constant factor for various objectives and alphabets.",
+      "summary": "The paper proves tokenisation is not APX‑tractable, showing no polynomial algorithm can approximate optimal tokenisation within any constant factor, across various settings.",
       "link": "http://arxiv.org/abs/2611.34938v1",
       "published": "2026-11-25T18:59:38Z",
       "authors": [
@@ -33,11 +33,11 @@
         "cs.CL",
         "cs.LG"
       ],
-      "whyItMatters": "It highlights fundamental limits of tokenisation efficiency, crucial for NLP and compression developers."
+      "whyItMatters": "It highlights fundamental limits on efficient tokenisation, guiding researchers toward heuristic or alternative approaches."
     },
     {
       "title": "Can image generation help visual reasoning? An empirical study",
-      "summary": "The study tests if generating images aids multimodal models in answering visual questions, finding that image generation actually reduces accuracy.",
+      "summary": "The study tests if generating images aids multimodal models in visual reasoning, finding that image generation actually reduces accuracy across most tested pairs.",
       "link": "http://arxiv.org/abs/2611.34935v1",
       "published": "2026-11-25T18:59:31Z",
       "authors": [
@@ -55,11 +55,11 @@
         "cs.CL",
         "cs.CV"
       ],
-      "whyItMatters": "It shows that adding generated visuals can hurt performance, guiding future multimodal AI design."
+      "whyItMatters": "It challenges assumptions that more visual data always improves model performance, guiding future multimodal AI design."
     },
     {
       "title": "Attack Policy Selection can Mislead Monitor Evaluators",
-      "summary": "The article shows that evaluating AI monitors with different attack policy generation methods can drastically change false‑negative rates.",
+      "summary": "The article shows that evaluating AI monitors with attack-policy-generated transcripts can produce misleading false-negative rates, depending on policy generation and optimization.",
       "link": "http://arxiv.org/abs/2611.34934v1",
       "published": "2026-11-25T18:59:28Z",
       "authors": [
@@ -75,7 +75,7 @@
         "cs.LG",
         "cs.AI"
       ],
-      "whyItMatters": "Tech readers should know evaluation bias can mislead safety assessments of AI systems."
+      "whyItMatters": "Tech-savvy readers should know evaluation methods can bias safety assessments, affecting deployment decisions."
     },
     {
       "title": "A gene informed benchmark for BioScoring of pathology foundation models",
@@ -97,7 +97,7 @@
     },
     {
       "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
-      "summary": "DART mines diverse reasoning traces from rejected LLM outputs to improve solving hard math problems.",
+      "summary": "The article introduces DART, a method that mines diverse reasoning traces from rejected LLM outputs to solve hard math problems.",
       "link": "http://arxiv.org/abs/2611.34928v1",
       "published": "2026-11-25T18:59:11Z",
       "authors": [
@@ -115,11 +115,11 @@
         "cs.AI",
         "cs.LG"
       ],
-      "whyItMatters": "It boosts LLM math accuracy by exploring alternative solution paths."
+      "whyItMatters": "It improves LLM math accuracy by exploring alternative reasoning paths, useful for advanced AI research."
     },
     {
       "title": "Mixture-of-Loops Transformer",
-      "summary": "Mixture-of-Loops Transformer (MoLT) enhances looped Transformers by using Mixture-of-Loops Attention (MoLA) to pass keys and values as memory between loops.",
+      "summary": "Mixture-of-Loops Transformer (MoLT) enhances looped Transformers by using Mixture-of-Loops Attention (MoLA) to pass keys and values as memory across loops.",
       "link": "http://arxiv.org/abs/2611.34923v1",
       "published": "2026-11-25T18:58:53Z",
       "authors": [
@@ -134,11 +134,11 @@
         "cs.LG",
         "cs.CL"
       ],
-      "whyItMatters": "It improves expressivity while addressing efficiency, appealing to researchers building high-performance language models."
+      "whyItMatters": "It promises higher expressivity without sacrificing efficiency, appealing to researchers building scalable, powerful language models."
     },
     {
       "title": "μ-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
-      "summary": "μ-Bench evaluates how voice assistants handle joint tasks among multiple users in real-time, testing authority, privacy, and task constraints.",
+      "summary": "μ-Bench evaluates how voice assistants handle multiple users’ interdependent requests in real-time, testing authority, privacy, and task constraints.",
       "link": "http://arxiv.org/abs/2611.34920v1",
       "published": "2026-11-25T18:58:42Z",
       "authors": [
@@ -157,11 +157,11 @@
         "cs.CL",
         "cs.AI"
       ],
-      "whyItMatters": "It helps developers build smarter, privacy‑respecting multi‑user voice systems for shared spaces."
+      "whyItMatters": "It helps developers build more reliable, privacy‑respecting multi‑user voice interfaces."
     },
     {
       "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
-      "summary": "The paper applies Earth Observation embeddings from TerraMind to maritime domain awareness, using compressed latent-space representations to overcome data gravity limits.",
+      "summary": "The paper applies Earth Observation embeddings via TerraMind to improve maritime domain awareness by processing compressed latent-space data instead of raw Sentinel-1 images.",
       "link": "http://arxiv.org/abs/2611.34899v1",
       "published": "2026-11-25T18:51:36Z",
       "authors": [
@@ -178,11 +178,11 @@
         "cs.AI",
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because it enables faster, scalable maritime surveillance without heavy data transfer."
+      "whyItMatters": "It reduces data transfer and storage demands, enabling faster, more efficient maritime surveillance for tech-savvy operators."
     },
     {
       "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
-      "summary": "The paper estimates material properties of deformable objects from a single real video of a drop impact using a simulation-trained predictor.",
+      "summary": "The paper estimates a deformable object's material properties from a single real video of a drop impact using a simulation-trained predictor.",
       "link": "http://arxiv.org/abs/2611.34894v1",
       "published": "2026-11-25T18:47:56Z",
       "authors": [
@@ -202,11 +202,11 @@
         "cs.GR",
         "cs.LG"
       ],
-      "whyItMatters": "It enables material identification without labels, useful for robotics and virtual reality simulations."
+      "whyItMatters": "It enables material identification without labels, useful for robotics and manufacturing with limited data."
     },
     {
       "title": "Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
-      "summary": "The paper introduces hybrid decision trees that combine axis-parallel, oblique, and proximity-based splits for better interpretability and accuracy.",
+      "summary": "The paper introduces hybrid decision trees that combine traditional splits with selective case-based splits to improve accuracy while preserving interpretability.",
       "link": "http://arxiv.org/abs/2611.34887v1",
       "published": "2026-11-25T18:45:35Z",
       "authors": [
@@ -218,11 +218,11 @@
         "cs.LG",
         "cs.AI"
       ],
-      "whyItMatters": "Tech-savvy readers value models that balance explainability with performance for real-world deployments."
+      "whyItMatters": "Tech-savvy readers value models that balance explainability and performance, useful for high-stakes AI deployments."
     },
     {
       "title": "Stranger Things: When Objects Appear Without Their Typical Neighbors",
-      "summary": "The article discusses typicality bias, where AI models over-rely on context and predict objects based on neighbors rather than visual features.",
+      "summary": "The article discusses how AI models over-rely on context, leading to typicality bias when recognizing objects without their usual neighbors.",
       "link": "http://arxiv.org/abs/2611.34881v1",
       "published": "2026-11-25T18:39:28Z",
       "authors": [
@@ -236,7 +236,7 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "Tech readers should know this flaw to improve model robustness and avoid misclassifications."
+      "whyItMatters": "Understanding this bias helps improve AI robustness and reduces errors in real-world object detection."
     },
     {
       "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",

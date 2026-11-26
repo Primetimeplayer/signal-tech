@@ -1,7 +1,85 @@
 {
-  "updated": "2026-11-26T16:26:13.848Z",
-  "count": 101,
+  "updated": "2026-11-26T17:03:36.778Z",
+  "count": 103,
   "items": [
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Moonshot reportedly turns to Google and Meta models for distillation",
+      "link": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
+      "published": "Thu, 26 Nov 2026 16:55:44 +0000",
+      "summary": "Moonshot AI is distilling knowledge from Google and Meta models after OpenAI and Anthropic restricted copying, while regulatory and performance delays affect its projects.",
+      "excerpt": "Moonshot AI has begun distilling from Google and Meta models after OpenAI and Anthropic made theirs harder to copy, Reuters reported. Z.ai’s GLM-5.5 has missed its November target, and new US rules on overseas computing could push it and Moonshot’s Kimi K4 further back. Chinese AI lab Moonshot has begun distilling from Google and Meta […] This story continues at The Next Web",
+      "score": 78,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech readers should watch how model distillation shifts competitive dynamics and regulatory impacts on AI development."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Nvidia agrees to pay $290M to settle 2018 crypto mining investor lawsuit",
+      "link": "https://thenextweb.com/news/nvidia-settlement-290m-crypto-mining-shareholder-lawsuit",
+      "published": "Thu, 26 Nov 2026 16:50:37 +0000",
+      "summary": "Nvidia will pay $290M to settle a 2018 lawsuit claiming its gaming chip sales were overstated due to crypto mining demand.",
+      "excerpt": "Nvidia has agreed to pay $290 million to settle a 2018 shareholder lawsuit over how much of its gaming chip sales came from cryptocurrency miners. The investors leading the class action asked a federal judge in California to approve the deal in a filing on Tuesday, Mike Scarcella reported for Reuters. Nvidia denies any wrongdoing. […] This story continues at The Next Web",
+      "score": 84,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/nvidia-settlement-290m-crypto-mining-shareholder-lawsuit",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Shows how crypto mining pressures can impact semiconductor revenue and investor trust."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Google patent describes an AI TV channel that casts you as the star",
+      "link": "https://thenextweb.com/news/google-my-channel-patent-ai-tv-shows-starring-you",
+      "published": "Thu, 26 Nov 2026 16:43:23 +0000",
+      "summary": "Google patented a TV channel that generates personalized AI videos, casting each viewer as the lead actor.",
+      "excerpt": "Google has described a TV channel that would generate AI videos for each viewer and could cast the viewer as the lead. The idea is set out in a patent application that Google filed in May 2025. The US Patent and Trademark Office published it on 19 November. Its title is “Creating a Channel of […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/11/google-my-channel-patent-drawing-johns-channel-tv.avif",
+      "score": 72,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/google-my-channel-patent-ai-tv-shows-starring-you",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "It signals a shift toward hyper‑personalized media experiences, raising questions about content ownership and privacy."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Thousands of Nvidia B300s reportedly go up for sale after US chip rule",
+      "link": "https://thenextweb.com/news/nvidia-b300-resale-us-remote-access-rule-shenzhen",
+      "published": "Thu, 26 Nov 2026 16:34:09 +0000",
+      "summary": "After US restrictions on Chinese firms’ remote access to AI chips, sellers are offering thousands of Nvidia B300 GPUs for sale.",
+      "excerpt": "Sellers are offering an unusually large number of Nvidia graphics processors, including thousands of B300s, after the US curbed Chinese firms’ remote access to AI chips. Three people told Kai Nicol-Schwarz of CNBC on Wednesday. One of them, Jack Duhamel, is president of GPU Mart, a marketplace for AI infrastructure. He and another person said […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/11/nvidia-headquarters-santa-clara-sign-solar-canopy.avif",
+      "score": 84,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/nvidia-b300-resale-us-remote-access-rule-shenzhen",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Tech buyers may find a rare opportunity to acquire high‑performance GPUs amid supply constraints."
+    },
+    {
+      "source": "The Next Web",
+      "category": "news",
+      "title": "Anthropic’s Amodei hits back at Axios and rival CEOs over AI and free will",
+      "link": "https://thenextweb.com/news/amodei-free-will-ai-axios-vibes-rival-ceos-suleyman",
+      "published": "Thu, 26 Nov 2026 16:25:25 +0000",
+      "summary": "Anthropic CEO Dario Amodei rebuts claims that humans should surrender free will to AI, calling the idea absurd.",
+      "excerpt": "Anthropic CEO Dario Amodei says he does not want humans to hand their free will to AI. In a long post on X on Wednesday, he called the suggestion “absurd.” No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do. Dario Amodei […] This story continues at The Next Web",
+      "image": "https://media.thenextweb.com/2026/10/dario-amodei-fortune-brainstorm-tech-2023.avif",
+      "score": 78,
+      "isPrimary": true,
+      "clusterId": "https://thenextweb.com/news/amodei-free-will-ai-axios-vibes-rival-ceos-suleyman",
+      "clusterSize": 1,
+      "related": [],
+      "whyItMatters": "Highlights ongoing debate on AI autonomy and human agency, relevant for tech leaders navigating policy and ethics."
+    },
     {
       "source": "The Next Web",
       "category": "news",
@@ -11,12 +89,12 @@
       "summary": "Poland’s defence ministry will sign an AI software contract with Palantir to aid armed forces decision-making.",
       "excerpt": "Poland’s defence ministry will sign a contract with Palantir Technologies on Friday, and it will buy software that uses AI to help the armed forces make decisions, Reuters reported, citing a ministry statement. Defence minister Władysław Kosiniak-Kamysz will attend the signing at noon at the Polish Army Museum in Warsaw’s Citadel, according to the ministry’s […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/kosiniak-kamysz-speaking-pentagon-meeting.avif",
-      "score": 72,
+      "whyItMatters": "Shows growing military reliance on AI, impacting defense tech trends and geopolitical dynamics.",
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/poland-palantir-ai-software-contract",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows growing military reliance on AI, impacting defense tech trends and geopolitical dynamics."
+      "related": []
     },
     {
       "source": "TechCrunch",
@@ -48,12 +126,12 @@
       "excerpt": "The memory chip shortage is forcing companies to find supplies using non-traditional avenues, such as online listings and the gray market. Some have even taken out loans just to have enough cash to buy chips as soon as they become available.",
       "image": "https://cdn.mos.cms.futurecdn.net/pU95E8pwfvrx8dWfwg7X8M-1920-80.jpg",
       "readMinutes": 3,
-      "score": 86,
+      "whyItMatters": "Tech leaders need fast memory for AI, gaming, and data centers, making supply strategies critical for performance and cost control.",
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/dram/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history-employees-scour-ebay-contact-hundreds-of-brokers-and-snap-up-even-small-batches-of-just-5-to-12-units",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders need fast memory for AI, gaming, and data centers, making supply strategies critical for performance and cost control."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -64,12 +142,12 @@
       "summary": "The article discusses how the AI industry's move to optical interconnects is straining the concentrated indium phosphide supply chain for lasers, transceivers, and co-packaged optics.",
       "image": "https://cdn.mos.cms.futurecdn.net/veeGtgCPJNgJzwffWHN9h5-1920-80.jpg",
       "readMinutes": 10,
-      "score": 86,
+      "whyItMatters": "It highlights a critical bottleneck that could limit AI hardware scalability and performance.",
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/photonics/inside-the-indium-phosphide-squeeze-and-the-optical-boom-inp-remains-tightly-constrained-as-the-demand-from-ai-puts-the-entire-supply-chain-under-pressure",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It highlights a critical bottleneck that could limit AI hardware scalability and performance."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -80,12 +158,12 @@
       "summary": "Nvidia halts AI GPU shipments to Singapore, Malaysia, Thailand, and Indonesia, requiring export licenses for delivery.",
       "image": "https://cdn.mos.cms.futurecdn.net/YAxQQsbvwDfFaHJ7zGMocj-1920-80.jpg",
       "readMinutes": 2,
-      "score": 98,
+      "whyItMatters": "Tech leaders must navigate new export rules, impacting AI infrastructure deployment in Southeast Asia.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/tech-industry/policy/nvidia-stops-ai-gpu-shipments-to-southeast-asia-report-claims-data-centers-in-singapore-other-countries-in-trouble-as-commerce-department-requires-cloud-providers-to-obtain-export-license",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech leaders must navigate new export rules, impacting AI infrastructure deployment in Southeast Asia."
+      "related": []
     },
     {
       "source": "The Verge",
@@ -96,12 +174,12 @@
       "summary": "Rockstar Games employees rejected unionization in a vote, with only 25% supporting a formal agreement for GTA VI workers.",
       "excerpt": "Workers at Grand Theft Auto VI developer Rockstar Games won't unionize, after the vote for a formal recognition agreement failed, with only 25 percent of votes in favor of unionization. The Independent Workers Union of Great Britain (IWGB) said that Rockstar workers in the union will continue organizing even without formal recognition. Voting ran from November 12th through 26th, covering the launch of GTA VI. If…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Jason_and_Lucia_01.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 86,
+      "whyItMatters": "Shows ongoing labor tensions in the gaming industry, affecting workplace conditions and project timelines.",
+      "score": 94,
       "isPrimary": true,
       "clusterId": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows ongoing labor tensions in the gaming industry, affecting workplace conditions and project timelines."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -112,12 +190,12 @@
       "summary": "FinCEN has taken some systems offline after a cybersecurity incident that caused unauthorized access to a limited subset of its systems.",
       "excerpt": "The US Treasury’s Financial Crimes Enforcement Network (FinCEN) is investigating a cybersecurity incident and has taken some systems offline. The bureau posted an alert on its filing website on Tuesday, which The Verge first reported. “FinCEN is investigating a cybersecurity incident that resulted in unauthorized access to a limited subset of its systems. As a […] This story continues at The Next Web",
       "image": "https://media.thenextweb.com/2026/11/us-treasury-department-building-washington-seal-doors.avif",
-      "score": 72,
+      "whyItMatters": "A breach at a key financial regulator could expose sensitive data and disrupt global money‑laundering enforcement.",
+      "score": 80,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/fincen-hack-treasury-systems-offline-filing-deadlines",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "A breach at a key financial regulator could expose sensitive data and disrupt global money‑laundering enforcement."
+      "related": []
     },
     {
       "source": "The Next Web",
@@ -128,28 +206,12 @@
       "summary": "ApexFlow launches Nuvvo, a mobile ad supply intelligence platform that uses AI to improve targeting and monetization for publishers.",
       "excerpt": "Tel Aviv, Israel, November 26th, 2026, TechnologyWire Unifying its O&O app portfolio, direct publisher supply and AI-driven intelligence to deliver smarter buying opportunities. ApexFlow, a mobile advertising technology company, today announced the launch of Nuvvo, a new supply intelligence and monetization offering designed to bring greater precision to mobile advertising. Nuvvo connects an established publisher…",
       "image": "https://media.thenextweb.com/2026/11/apexflow-nuvvo-ai-powered-curated-mobile-supply-banner.avif",
-      "score": 72,
+      "whyItMatters": "Tech-savvy readers care because it promises more precise mobile ad buying and higher revenue for publishers.",
+      "score": 79,
       "isPrimary": true,
       "clusterId": "https://thenextweb.com/news/apexflow-nuvvo-ai-powered-curated-mobile-supply",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers care because it promises more precise mobile ad buying and higher revenue for publishers."
-    },
-    {
-      "source": "The Next Web",
-      "category": "news",
-      "title": "Bank of England warns AI financing is a growing threat to stability",
-      "link": "https://thenextweb.com/news/ai-financing-bank-of-england-financial-stability-hyperscaler-bonds",
-      "published": "Thu, 26 Nov 2026 15:08:58 +0000",
-      "summary": "Bank of England warns that opaque, complex AI financing is increasing global financial fragility.",
-      "excerpt": "The Bank of England says the way the AI boom is financed is making the global financial system more fragile. AI financing is taking a form that is “increasingly complex, circular and opaque”, the central bank warned. It set out the concern in its Financial Stability Report on Thursday. That makes it more likely that […] This story continues at The Next Web",
-      "image": "https://media.thenextweb.com/2026/11/google-hamina-data-centre-frozen-gulf-of-finland-dusk-1920.avif",
-      "score": 72,
-      "isPrimary": true,
-      "clusterId": "https://thenextweb.com/news/ai-financing-bank-of-england-financial-stability-hyperscaler-bonds",
-      "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy readers should monitor regulatory risks that could impact AI investment and market stability."
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -160,63 +222,12 @@
       "summary": "Thermal Grizzly released a CNC‑machined CPU delidding tool that fits in an oven to bake off the heatspreader after IHS removal.",
       "image": "https://cdn.mos.cms.futurecdn.net/WcZdaLvkZNZ5yCZw3YraBo-1920-80.jpg",
       "readMinutes": 2,
-      "score": 85,
+      "whyItMatters": "It simplifies CPU delidding, saving time and reducing risk for overclockers and repair technicians.",
+      "score": 93,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/pc-components/cooling/new-delidding-tool-helps-you-bake-your-cpu-in-the-oven-to-remove-heatspreader-delid-heat-mate-complements-delid-die-mate-reducing-mechanical-stress-on-the-cpu",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "It simplifies CPU delidding, saving time and reducing risk for overclockers and repair technicians."
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "published": "Wed, 25 Nov 2026 22:44:32 +0000",
-      "summary": "S&P may downgrade Nvidia’s credit rating to AA- due to governance and key-man risks.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
-      "whyItMatters": "It signals potential financial instability for Nvidia’s investors and partners.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "clusterSize": 4,
-      "related": [
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/articles/s-p-discovers-nvidias-governance-lapses",
-          "title": "S&P Discovers Nvidia’s Governance Lapses"
-        },
-        {
-          "source": "The Information",
-          "url": "https://www.theinformation.com/briefings/s-p-global-puts-nvidia-creditwatch-negative-due-governance-risks",
-          "title": "S&P Global Puts Nvidia on ‘CreditWatch Negative’ Due to Governance Risks"
-        },
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/nvidia-credit-rating-sp-creditwatch-governance",
-          "title": "S&P puts Nvidia’s AA credit rating on downgrade watch over governance"
-        }
-      ]
-    },
-    {
-      "source": "TechCrunch",
-      "category": "news",
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "published": "Wed, 25 Nov 2026 20:03:27 +0000",
-      "summary": "OpenAI will merge Chat and Work into a single usage meter, causing heavy users to hit limits sooner.",
-      "whyItMatters": "Tech users should monitor usage to avoid unexpected limits.",
-      "score": 100,
-      "isPrimary": true,
-      "clusterId": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "clusterSize": 2,
-      "related": [
-        {
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
-          "title": "OpenAI fixes a GPT-6.2 billing mistake, and users hit limits 40% faster"
-        }
-      ]
+      "related": []
     },
     {
       "source": "Tom's Hardware",
@@ -227,28 +238,29 @@
       "summary": "A solo developer, arkits, built a browser gallery showcasing 36 classic GPU demos.",
       "image": "https://cdn.mos.cms.futurecdn.net/RFis5f5faDsjup7Ws7gFb9-1920-80.jpg",
       "readMinutes": 3,
-      "score": 97,
+      "whyItMatters": "Shows how legacy graphics can be experienced today with modern web tech.",
+      "score": 100,
       "isPrimary": true,
       "clusterId": "https://www.tomshardware.com/video-games/retro-gaming/solo-developer-vibe-codes-a-gallery-hosting-36-classic-gpu-demos-preservation-effort-includes-3dfx-voodoo-showcases-from-1997-nvidia-bubble-and-more",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Shows how legacy graphics can be experienced today with modern web tech."
+      "related": []
     },
     {
-      "source": "Tom's Hardware",
+      "source": "MIT Technology Review",
       "category": "news",
-      "title": "CPU Price Index 2026",
-      "link": "https://www.tomshardware.com/gift-guides-seasonal-sales/lowest-cpu-prices-2026",
-      "published": "Thu, 26 Nov 2026 13:57:19 +0000",
-      "summary": "The article lists the lowest prices for the most popular CPUs in 2026.",
-      "image": "https://cdn.mos.cms.futurecdn.net/k4AKviAvaLVH4RtZZTPrdc-1920-80.png",
-      "readMinutes": 6,
-      "score": 85,
+      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "link": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "published": "Thu, 26 Nov 2026 13:10:00 +0000",
+      "summary": "New bionic hands can sense touch, improving prosthetic function.",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest…",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/vincentkilbride-mit-technology-review-ai-puzzles.jpg?w=840",
+      "readMinutes": 4,
+      "score": 99,
       "isPrimary": true,
-      "clusterId": "https://www.tomshardware.com/gift-guides-seasonal-sales/lowest-cpu-prices-2026",
+      "clusterId": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
       "clusterSize": 1,
       "related": [],
-      "whyItMatters": "It helps tech buyers find the best deals quickly."
+      "whyItMatters": "Tech-savvy readers see advances in AI-driven prosthetics."
     },
     {
       "source": "Wired",
@@ -258,12 +270,12 @@
       "published": "Thu, 26 Nov 2026 12:00:00 +0000",
       "summary": "Android Auto now integrates Gemini AI, enabling smarter navigation and conversational idea generation while driving.",
       "image": "https://media.wired.com/photos/6b0407a462601105f3183aca/master/pass/GettyImages-2171438731.jpg",
-      "score": 84,
+      "whyItMatters": "Tech-savvy users gain hands-free, AI-enhanced driving assistance and creative brainstorming on the go.",
+      "score": 92,
       "isPrimary": true,
       "clusterId": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
       "clusterSize": 1,
-      "related": [],
-      "whyItMatters": "Tech-savvy users gain hands-free, AI-enhanced driving assistance and creative brainstorming on the go."
+      "related": []
     },
     {
       "source": "The Verge",
@@ -271,14 +283,15 @@
       "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
       "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
       "published": "2026-11-26T09:54:40.000Z",
-      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of…",
+      "summary": "42 state attorneys general seek to block Character.AI from selling user chat histories amid its bankruptcy.",
       "excerpt": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "score": 84,
+      "score": 83,
       "isPrimary": true,
       "clusterId": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "It highlights legal risks for AI firms handling sensitive user data, especially involving minors."
     },
     {
       "source": "The Register",
@@ -312,20 +325,29 @@
       "related": []
     },
     {
-      "source": "The Verge",
+      "source": "TechCrunch",
       "category": "news",
-      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-      "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "published": "2026-11-26T00:04:34.000Z",
-      "summary": "Google’s Familiar Faces AI now works on Walmart’s $35 Onn Outdoor Camera Plug‑In and $77 Onn Floodlight Camera, requiring a Home Premium subscription.",
-      "excerpt": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required to access the feature. Both cameras and Google's Nest Cam…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23451196/acastro_220510_STK123_0002.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "It expands affordable smart‑home security with AI face recognition, boosting privacy and convenience for budget users.",
-      "score": 88,
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "published": "Wed, 25 Nov 2026 22:44:32 +0000",
+      "summary": "S&P may downgrade Nvidia’s credit rating to AA- due to governance and key-man risks.",
+      "whyItMatters": "It signals potential financial instability for Nvidia’s investors and partners.",
+      "score": 100,
       "isPrimary": true,
-      "clusterId": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "clusterSize": 1,
-      "related": []
+      "clusterId": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "clusterSize": 3,
+      "related": [
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/s-p-discovers-nvidias-governance-lapses",
+          "title": "S&P Discovers Nvidia’s Governance Lapses"
+        },
+        {
+          "source": "The Information",
+          "url": "https://www.theinformation.com/briefings/s-p-global-puts-nvidia-creditwatch-negative-due-governance-risks",
+          "title": "S&P Global Puts Nvidia on ‘CreditWatch Negative’ Due to Governance Risks"
+        }
+      ]
     },
     {
       "source": "SemiWiki",
@@ -364,11 +386,24 @@
       "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
       "published": "Wed, 25 Nov 2026 20:56:44 +0000",
       "summary": "FCC greenlights SpaceX's orbital AI data centers, dismissing opposition concerns.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801",
       "whyItMatters": "This could reshape data storage, latency, and regulatory frameworks for AI workloads.",
       "score": 100,
       "isPrimary": true,
       "clusterId": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+      "clusterSize": 1,
+      "related": []
+    },
+    {
+      "source": "TechCrunch",
+      "category": "news",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "published": "Wed, 25 Nov 2026 20:03:27 +0000",
+      "summary": "OpenAI will merge Chat and Work into a single usage meter, causing heavy users to hit limits sooner.",
+      "whyItMatters": "Tech users should monitor usage to avoid unexpected limits.",
+      "score": 100,
+      "isPrimary": true,
+      "clusterId": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "clusterSize": 1,
       "related": []
     },
@@ -874,13 +909,14 @@
       "title": "A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity",
       "link": "https://semiengineering.com/a-link-is-not-architecture-why-multi-die-systems-need-more-than-die-to-die-connectivity/",
       "published": "Tue, 24 Nov 2026 08:03:55 +0000",
-      "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering.",
+      "summary": "The article argues that die-to-die links alone are insufficient for multi-die systems, emphasizing broader integration and security needs.",
       "readMinutes": 3,
       "score": 92,
       "isPrimary": true,
       "clusterId": "https://semiengineering.com/a-link-is-not-architecture-why-multi-die-systems-need-more-than-die-to-die-connectivity/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech readers should understand that robust multi-die design requires more than simple links for reliable performance."
     },
     {
       "source": "OpenAI Blog",
@@ -888,12 +924,13 @@
       "title": "Clay helps sales teams win with Codex and ChatGPT",
       "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "published": "Tue, 24 Nov 2026 00:00:00 GMT",
-      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "summary": "Clay integrates ChatGPT and Codex to help sales teams research deals and generate go-to-market strategies using GPT-6 reasoning.",
       "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech-savvy readers see how AI boosts sales efficiency and strategy creation."
     },
     {
       "source": "OpenAI Blog",
@@ -901,12 +938,13 @@
       "title": "OpenAI and Cisco introduce Shirudo",
       "link": "https://openai.com/index/introducing-shirudo",
       "published": "Mon, 23 Nov 2026 21:20:00 GMT",
-      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "summary": "Shirudo is an open-source Linux runtime from OpenAI and Cisco that protects running systems during patch rollouts.",
       "score": 77,
       "isPrimary": true,
       "clusterId": "https://openai.com/index/introducing-shirudo",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech teams can secure systems during updates, reducing downtime and vulnerability exposure."
     },
     {
       "source": "MIT Technology Review",
@@ -948,7 +986,7 @@
       "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
       "link": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
       "published": "Mon, 23 Nov 2026 13:10:00 +0000",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation…",
+      "summary": "The piece discusses recent AI evaluation findings showing exponential improvement in some capabilities, yet overall model performance remains limited.",
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/08/starlink-grid-gradient.jpg?fit=1920,1280",
       "readMinutes": 4,
@@ -956,7 +994,8 @@
       "isPrimary": true,
       "clusterId": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
       "clusterSize": 1,
-      "related": []
+      "related": [],
+      "whyItMatters": "Tech readers should track AI progress to gauge realistic expectations and investment opportunities."
     },
     {
       "source": "OpenAI Blog",
@@ -964,7 +1003,7 @@
       "title": "Connected intelligence for in-house legal",
       "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "published": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "summary": "OpenAI experts discuss using AI to link business context, create reusable workflows, and enhance collaboration with outside counsel for in‑house legal teams.",
       "score": 70,
       "isPrimary": true,
       "clusterId": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
@@ -975,7 +1014,8 @@
           "url": "https://openai.com/index/perplexity-and-intelligence",
           "title": "Perplexity and Intelligence"
         }
-      ]
+      ],
+      "whyItMatters": "Tech‑savvy legal professionals can streamline operations and reduce costs with AI‑driven workflow integration."
     },
     {
       "source": "OpenAI Blog",
@@ -1004,23 +1044,6 @@
       "score": 58,
       "isPrimary": true,
       "clusterId": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-      "clusterSize": 1,
-      "related": []
-    },
-    {
-      "source": "MIT Technology Review",
-      "category": "news",
-      "title": "The most misunderstood graph in AI just got a major update",
-      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "published": "Fri, 20 Nov 2026 18:15:15 +0000",
-      "summary": "METR’s updated time horizon plot shows AI improving exponentially, yet still lagging in judgment tasks compared to coding.",
-      "excerpt": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/metr2a.jpg?resize=1200,600",
-      "readMinutes": 6,
-      "whyItMatters": "Tech readers should note AI’s uneven progress, impacting deployment decisions.",
-      "score": 86,
-      "isPrimary": true,
-      "clusterId": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
       "clusterSize": 1,
       "related": []
     },
