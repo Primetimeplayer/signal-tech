@@ -1,306 +1,325 @@
 {
-  "updated": "2026-11-26T00:41:14.396Z",
+  "updated": "2026-11-26T03:38:36.965Z",
   "count": 20,
   "items": [
     {
-      "title": "OmniAct: One Policy, One Million Embodiments",
-      "summary": "OmniAct proposes a single policy that transfers task knowledge across diverse robot embodiments while adapting to each robot’s unique capabilities.",
-      "link": "http://arxiv.org/abs/2611.33158v1",
-      "published": "2026-11-24T18:59:58Z",
+      "title": "Teaching Students to Stand on Their Own: Distilling Vision Foundation Models for Fine-Grained Few-Shot Class-Incremental Learning",
+      "summary": "The paper explores using vision foundation models to improve fine-grained few-shot class-incremental learning, reducing computational costs while maintaining performance.",
+      "link": "http://arxiv.org/abs/2611.33749v1",
+      "published": "2026-11-25T04:10:53Z",
       "authors": [
-        "Xiang Fan",
-        "Yuheng Wang",
-        "Jiayuan Yan",
-        "Bohan Fang",
-        "Wisdom Oluchi Ikezogwo",
-        "Ainaz Eftekhar",
-        "Max Argus",
-        "Jason Ren",
-        "Jiafei Duan",
-        "Ranjay Krishna"
+        "Junsu Kim",
+        "Seungryul Baek"
       ],
       "categories": [
-        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "whyItMatters": "Tech-savvy readers care because it offers efficient, scalable methods for incremental visual learning with minimal data."
+    },
+    {
+      "title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+      "summary": "The paper introduces REFORGE, an LLM-driven RTL bug repair system that uses structured context and verification feedback to ensure defect removal and behavioral preservation.",
+      "link": "http://arxiv.org/abs/2611.33748v1",
+      "published": "2026-11-25T04:08:43Z",
+      "authors": [
+        "Tanvir Hossain",
+        "Sudipta Paria",
+        "Aidan Gleason Myers",
+        "Swarup Bhunia",
+        "Tamzidul Hoque"
+      ],
+      "categories": [
         "cs.AI",
-        "cs.CV",
-        "cs.LG"
+        "cs.SE"
       ],
-      "whyItMatters": "Tech-savvy readers care because it enables scalable, adaptable robot control across varied hardware without retraining."
+      "whyItMatters": "It offers a reproducible, verifiable approach to hardware bug fixing, improving reliability and integration for AI-assisted design."
     },
     {
-      "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
-      "summary": "DiaCap is an audiovisual LLM that jointly generates transcripts, timestamps, and speaker visual descriptions for every utterance in a video.",
-      "link": "http://arxiv.org/abs/2611.33153v1",
-      "published": "2026-11-24T18:59:08Z",
+      "title": "Tells of a Lying Machine: Analyzing LLM-Generated Strategic Dialogue in Chinese Werewolf",
+      "summary": "The study examines 5,404 utterances from 150 Chinese Werewolf games played by 12 LLMs, comparing wolves and villagers to assess truthfulness.",
+      "link": "http://arxiv.org/abs/2611.33747v1",
+      "published": "2026-11-25T04:08:20Z",
       "authors": [
-        "Binfei Ji",
-        "Zhiwen Cao",
-        "Anqi Yang",
-        "Prem Seetharaman",
-        "Shuo Yang",
-        "Ratheesh Kalarot",
-        "Yingyan Celine Lin",
-        "Mingze Xu"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.MM",
-        "cs.SD"
-      ],
-      "whyItMatters": "It streamlines captioning by combining timing, diarization, and speaker identification into one model, saving time and improving accuracy."
-    },
-    {
-      "title": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
-      "summary": "BioLoom proposes scaling biomedical VLMs by leveraging the structure of scientific articles for richer supervision.",
-      "link": "http://arxiv.org/abs/2611.33151v1",
-      "published": "2026-11-24T18:59:04Z",
-      "authors": [
-        "Yuwei Yang",
-        "Xiaoxiao Sun",
-        "Alejandro Lozano",
-        "Yuan-Sen Ting",
-        "Yuhui Yuan",
-        "Liang Zheng",
-        "Serena Yeung-Levy"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "whyItMatters": "It could improve medical AI accuracy using existing literature, saving data collection effort."
-    },
-    {
-      "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
-      "summary": "CoT-Proxy distills long-horizon policies by transferring chain-of-thought from closed models via a proxy, enabling fine-tuning without direct access to internal reasoning.",
-      "link": "http://arxiv.org/abs/2611.33148v1",
-      "published": "2026-11-24T18:58:53Z",
-      "authors": [
-        "Dawid J. Kopiczko",
-        "Tijmen Blankevoort",
-        "Yuki M. Asano"
+        "Xian Cui",
+        "Gan Yang",
+        "Dongqi Han",
+        "Han Zhu",
+        "Bo Zheng",
+        "Jianhui Zheng",
+        "Xiaoyong Li"
       ],
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "It lets developers leverage powerful but opaque models to train agents more efficiently."
+      "whyItMatters": "It reveals how LLMs handle deception in role‑playing, informing AI alignment and game design."
     },
     {
-      "title": "iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction",
-      "summary": "iWAM proposes efficient proxies for future scene imagination in world-action models to improve real-time action prediction without costly future generation.",
-      "link": "http://arxiv.org/abs/2611.33141v1",
-      "published": "2026-11-24T18:56:04Z",
+      "title": "WhatIf: Counterfactual World Models over Action-Grounded Causal Graphs for Robotic Manipulation",
+      "summary": "WhatIf is a counterfactual world model that predicts outcomes of different actions in the same physical context for robotic manipulation.",
+      "link": "http://arxiv.org/abs/2611.33745v1",
+      "published": "2026-11-25T04:06:11Z",
       "authors": [
-        "Vansh Kapoor",
-        "Max Sobol Mark",
-        "Sreyas Venkataraman",
-        "Max Simchowitz",
-        "Aviral Kumar"
+        "Xu Yang",
+        "Kailai Sun",
+        "Qianchuan Zhao"
       ],
       "categories": [
-        "cs.RO",
-        "cs.CV",
+        "cs.AI"
+      ],
+      "whyItMatters": "It enables robots to evaluate action risks and benefits beyond average effects, improving decision safety and performance."
+    },
+    {
+      "title": "OrbACE: Orbital and Atomic Cluster Expansion",
+      "summary": "OrbACE combines E(3)-equivariant cluster expansions with cheap electronic-structure descriptors to build accurate interatomic potentials from limited data.",
+      "link": "http://arxiv.org/abs/2611.33743v1",
+      "published": "2026-11-25T04:04:44Z",
+      "authors": [
+        "Etinosa Osaro",
+        "Dario Rocca"
+      ],
+      "categories": [
+        "physics.chem-ph",
+        "cs.LG",
+        "physics.comp-ph"
+      ],
+      "whyItMatters": "It enables faster, more data‑efficient simulations for materials and drug discovery."
+    },
+    {
+      "title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
+      "summary": "FlashProve-Next enables clients to verify that a closed‑weight LLM API ran the claimed model, precision, and prompt without revealing internal details.",
+      "link": "http://arxiv.org/abs/2611.33741v1",
+      "published": "2026-11-25T04:01:37Z",
+      "authors": [
+        "Liang Song"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI",
         "cs.LG"
       ],
-      "whyItMatters": "It offers faster, lower‑cost control for AI agents, appealing to developers needing real‑time performance."
+      "whyItMatters": "It gives tech‑savvy users trust in AI services while preserving privacy and reducing verification costs."
     },
     {
-      "title": "BriConstrain: Geometrically Constrained Decoding for Autoregressive Brick Assembly Generation",
-      "summary": "BriConstrain limits a language model’s token choices during decoding to produce physically valid LEGO assemblies without collisions.",
-      "link": "http://arxiv.org/abs/2611.33135v1",
-      "published": "2026-11-24T18:54:38Z",
+      "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
+      "summary": "JOVE ICE proposes intent‑guided collaboration between cloud and edge devices to power AI glasses with advanced visual reasoning and proactive assistance.",
+      "link": "http://arxiv.org/abs/2611.33735v1",
+      "published": "2026-11-25T03:54:21Z",
       "authors": [
-        "Nadav Magar",
-        "Amir Hertz",
-        "Ariel Shamir",
-        "Or Patashnik"
+        "Yuyang Jin",
+        "Bingfeng Pi",
+        "Jiamei Sun",
+        "Wei Jin",
+        "Dongyang Wang",
+        "Yunpeng Li",
+        "Yan Bai",
+        "Lei Zuo"
       ],
       "categories": [
-        "cs.CV",
-        "cs.CL"
+        "cs.AI"
       ],
-      "whyItMatters": "It improves reliability of AI-generated 3D builds, useful for designers and educators using generative models."
+      "whyItMatters": "It enables faster, smarter AI glasses by offloading heavy computation to the cloud while keeping real‑time responsiveness."
     },
     {
-      "title": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit",
-      "summary": "The article discusses how tiny gradient edits can stop a small language model’s thinking loops and complement large models’ weight edits to improve reasoning performance.",
-      "link": "http://arxiv.org/abs/2611.33133v1",
-      "published": "2026-11-24T18:53:22Z",
+      "title": "CovNovBench: A Benchmark for Evaluating Time Series Foundation Models under Covariate Novelty",
+      "summary": "CovNovBench introduces a benchmark to test time‑series foundation models on how well they handle new covariate conditions for future forecasting.",
+      "link": "http://arxiv.org/abs/2611.33732v1",
+      "published": "2026-11-25T03:53:23Z",
       "authors": [
-        "Hussamuddin Syed"
+        "Wenhao Pan",
+        "Ravi Kiran Selvam",
+        "Michael W. Mahoney",
+        "Mayank Jauhari",
+        "Mengfei Cao",
+        "Dmitry Efimov",
+        "Boris N. Oreshkin"
       ],
       "categories": [
         "cs.LG",
-        "cs.CL"
+        "stat.ME"
       ],
-      "whyItMatters": "It shows low-cost fine-tuning can significantly boost small models’ accuracy, useful for resource-limited AI deployments."
+      "whyItMatters": "It helps developers assess model robustness for real‑world interventions like pricing or treatment changes."
     },
     {
-      "title": "Exploratory Midtraining for Robot Policies",
-      "summary": "The paper explores midtraining to expand robot policy coverage of low-level behaviors, bridging challenging states to progressable ones.",
-      "link": "http://arxiv.org/abs/2611.33130v1",
-      "published": "2026-11-24T18:52:34Z",
+      "title": "Asset4D-Bench: Benchmarking Coding Agents for Editable 3D and 4D Reconstruction",
+      "summary": "Asset4D-Bench evaluates coding agents on reconstructing editable 3D/4D scenes from visual references, covering image editing, video reconstruction, and from-scratch tasks.",
+      "link": "http://arxiv.org/abs/2611.33728v1",
+      "published": "2026-11-25T03:47:00Z",
       "authors": [
-        " Kshitiz",
-        "Zheyuan Hu",
-        "Robyn Wu",
-        "Yizhou Li",
-        "Yunchu Zhang",
-        "Vattanary Tevy",
-        "Kavya Tayal",
-        "Shawn Yin",
-        "Aykut Onol",
-        "Kushal Arora",
-        "Dhruv Shah",
-        "Abhishek Gupta",
-        "Zackory Erickson",
-        "Aviral Kumar"
+        "Chengyi Sun",
+        "Deyuan Liu",
+        "Lei Zhao",
+        "Jungang Li",
+        "Qi Jia"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "whyItMatters": "It gauges AI’s ability to generate interactive Blender scenes, crucial for realistic virtual production and design automation."
+    },
+    {
+      "title": "NORMCRAFT: Cultural Norm Generation for Context-Aware Language Model Alignment",
+      "summary": "NORMCRAFT introduces a modular framework that decouples cultural norm inference from response generation in LLMs, enabling context-aware alignment.",
+      "link": "http://arxiv.org/abs/2611.33726v1",
+      "published": "2026-11-25T03:44:36Z",
+      "authors": [
+        "Tangyuan Zhang",
+        "Zhuang Li",
+        "Fatemeh Shiri",
+        "Xiangyu Zhao",
+        "Junyu Yan",
+        "Xiuzhen Zhang"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "whyItMatters": "It lets developers embed nuanced social norms into models without retraining the entire system."
+    },
+    {
+      "title": "Practice Makes Fluent: Learning to Use Earlier Predictions in Looped Models",
+      "summary": "The article explores training looped models to exit earlier by improving early predictions through practice, despite shared-weight updates potentially harming final accuracy.",
+      "link": "http://arxiv.org/abs/2611.33722v1",
+      "published": "2026-11-25T03:36:01Z",
+      "authors": [
+        "Minseok seo",
+        "Hee-Seon Kim",
+        "Changick Kim"
       ],
       "categories": [
         "cs.RO",
-        "cs.LG"
+        "cs.AI"
       ],
-      "whyItMatters": "It could improve autonomous robot learning beyond human data limits."
+      "whyItMatters": "Tech readers care because it offers a way to reduce inference cost while maintaining performance."
     },
     {
-      "title": "SAG-Mem-1.0 Technical Report",
-      "summary": "SAG-Mem.0 introduces a conversational memory system that retrieves dispersed facts across sessions without costly representations, preserving source details for long-term dialogue context.",
-      "link": "http://arxiv.org/abs/2611.33124v1",
-      "published": "2026-11-24T18:51:29Z",
+      "title": "Understanding Mode Collapse in Diffusion Models under Classifier-Free Guidance",
+      "summary": "The article explains why classifier‑free guidance, key for high‑fidelity diffusion model outputs, is poorly understood and how transport equations hinder analysis.",
+      "link": "http://arxiv.org/abs/2611.33719v1",
+      "published": "2026-11-25T03:30:37Z",
       "authors": [
-        "Yuchao Wu",
-        "XingCheng Liang",
-        "Xuanze Wang",
-        "Yini Huang",
-        "Yue Wu"
+        "Daniel Pfrommer",
+        "Chenyang Yuan",
+        "Frank Permenter",
+        "Ali Jadbabaie"
       ],
       "categories": [
-        "cs.CL",
-        "cs.IR"
+        "cs.LG"
       ],
-      "whyItMatters": "It offers efficient, detail‑preserving memory for AI chatbots, improving continuity and user trust."
+      "whyItMatters": "Understanding this gap helps improve controllable generative AI and informs future model design."
     },
     {
-      "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing",
-      "summary": "MetaFORGE uses meta‑learning to refine natural‑language prompts, improving correctness and performance of LLM‑generated MPI C code.",
-      "link": "http://arxiv.org/abs/2611.33119v1",
-      "published": "2026-11-24T18:49:19Z",
+      "title": "Flipping the Coins: Training Physical Simulators through Hard Switches",
+      "summary": "Hybrid simulators embed learnable components such as neural networks in physical solvers and train them on reference trajectories. Many scientific solvers feature hard switches, such as a tripping power line, an igniting grid cell, or depolarizing brain tissue, where the loss exhibits discrete jumps across switch flips, leaving standard automatic differentiation to capture only its smooth part…",
+      "link": "http://arxiv.org/abs/2611.33716v1",
+      "published": "2026-11-25T03:28:14Z",
       "authors": [
-        "Scott Piersall",
-        "Yang Gao",
-        "Shenyang Liu",
-        "Liqiang Wang"
+        "Tianrun Gao",
+        "Ruiqi Feng",
+        "Haomin Wen",
+        "Tailin Wu",
+        "Liangqiong Qu",
+        "Xiaomeng Huang",
+        "Ruiqi Shu"
+      ],
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "KeyDeck: Multi-Paper-to-Slide Generation via Cross-Paper Synthesis and Reference-Guided Personalization",
+      "summary": "Multi-paper-to-slide generation (multi-PTSG) is the task of constructing a unified presentation from multiple research papers by selecting, organizing, and synthesizing information across sources. This task introduces two main challenges: (i) combining multiple sources into a coherent narrative requires identifying cross-paper relationships and synthesizing their content, and (ii) the desired…",
+      "link": "http://arxiv.org/abs/2611.33715v1",
+      "published": "2026-11-25T03:28:11Z",
+      "authors": [
+        "Tarik Can Ozden",
+        "Sachidanand VS",
+        "Ram Prakash Reddy Motati",
+        "Ozgur Kara",
+        "Dilek Hakkani-Tür",
+        "Junho Kim",
+        "James Matthew Rehg"
       ],
       "categories": [
         "cs.AI"
-      ],
-      "whyItMatters": "It boosts reliability of AI‑written parallel programs, a key concern for high‑performance computing developers."
-    },
-    {
-      "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
-      "summary": "The paper proposes using a lightweight draft model to generate tokens that a full LLM verifies, speeding up inference by parallelizing draft and target steps.",
-      "link": "http://arxiv.org/abs/2611.33111v1",
-      "published": "2026-11-24T18:41:59Z",
-      "authors": [
-        "Yuxing Liu",
-        "Wei Zuo",
-        "Walid Krichene",
-        "Tong Zhang",
-        "Li Zhang"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "whyItMatters": "It promises faster LLM responses with lower compute, appealing to developers needing efficient real‑time AI services."
-    },
-    {
-      "title": "Temporal Conditioning for Human Behavioral Cloning in Chess",
-      "summary": "The paper adds a time-aware transformer to chess behavioral cloning, incorporating clock time into move predictions.",
-      "link": "http://arxiv.org/abs/2611.33106v1",
-      "published": "2026-11-24T18:40:51Z",
-      "authors": [
-        "Victor Dziwniel",
-        "Tianxiang Lu"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.HC"
-      ],
-      "whyItMatters": "It improves model realism by reflecting how time pressure shapes human chess decisions."
-    },
-    {
-      "title": "Reinforcement Learning Can Be Recovered From Its Own Rollouts",
-      "summary": "Broadly speaking, reinforcement learning (RL) post-training converts compute into model capabilities by training on model-generated data. Typically, the rollouts are discarded after each update, and the knowledge acquired during RL resides in the model weights. In this work, we investigate how much of this knowledge is retained in the rollouts themselves. A natural first attempt is to replay the…",
-      "link": "http://arxiv.org/abs/2611.33102v1",
-      "published": "2026-11-24T18:38:06Z",
-      "authors": [
-        "Jiayi Sheng",
-        "Jingwen Gu",
-        "Guanning Zeng",
-        "Zhaoyi Zhou",
-        "Stefano Viel",
-        "Qianqian Wang",
-        "Fahim Tajwar",
-        "Andrea Zanette"
-      ],
-      "categories": [
-        "cs.LG"
       ]
     },
     {
-      "title": "GREMLIN: Generating Random Environments for Meta-Learning with Interacting Networks",
-      "summary": "Can randomly parameterized neural environments supply useful experience for learning a reinforcement learning algorithm? We investigate this question using DiscoRL's rule-discovery framework, replacing human-designed training games with sixteen selected neural environments. Each game combines bounded vector dynamics with a random strategy-based reward and an independent outcome reward. After…",
-      "link": "http://arxiv.org/abs/2611.33101v1",
-      "published": "2026-11-24T18:37:37Z",
+      "title": "Nepali Currency Denomination Classification Using Convolutional Neural Networks (CNNs) and MobileNetV2: An Experimental Comparison",
+      "summary": "Automated currency denomination recognition is a computer vision task with applications in cash handling, financial technology, and assistive systems. This study classifies seven Nepali currency denominations (Rs. 5, 10, 20, 50, 100, 500, and 1,000) using three configurations: a conventional convolutional neural network (CNN), MobileNetV2 with transfer learning, and MobileNetV2 with…",
+      "link": "http://arxiv.org/abs/2611.33713v1",
+      "published": "2026-11-25T03:27:43Z",
       "authors": [
-        "Octave Gaspard"
-      ],
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Delegent: A Multi-Agent Harness That Reduces Cost without Sacrificing Performance",
-      "summary": "Agents built on frontier language models are expensive. At every step, the frontier model re-reads its entire context and executes every subtask regardless of its difficulty. This paper explores the simple thesis that much of this cost can be removed by delegating easy subtasks to a small language model, or SLM, that runs on hardware one already owns. To test it, we build Delegent, a simple and…",
-      "link": "http://arxiv.org/abs/2611.33098v1",
-      "published": "2026-11-24T18:34:40Z",
-      "authors": [
-        "Lingwei Gu",
-        "Jimmy Lin"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.IR"
-      ]
-    },
-    {
-      "title": "EventDiffusion: Learning Native Event Stream Distribution from Videos",
-      "summary": "Event cameras capture asynchronous brightness changes at high temporal resolution, but scarce recordings constrain data-driven research. Sparse RGB observations cannot uniquely determine intervening events since identical frames may correspond to streams with different activity, polarities, and timing. Existing simulators largely rely on prescribed sensor dynamics and estimated brightness…",
-      "link": "http://arxiv.org/abs/2611.33096v1",
-      "published": "2026-11-24T18:32:39Z",
-      "authors": [
-        "Karthik Sundar Senthilkumar",
-        "Christopher Thirgood",
-        "Simon Hadfield"
+        "Sakar Lamichhane",
+        "Sandesh Bhatta",
+        "Aayush Adhikari",
+        "Aaron Sapkota"
       ],
       "categories": [
         "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "PowerFix: Physics-Guided Iterative Repair for LLM-Assisted Power Converter Design",
+      "summary": "Large language model (LLM) agents are increasingly being explored for automated engineering design. However, repairing power-converter designs that fail engineering validation remains challenging: the system must identify physical causes, locate responsible design variables, and resolve violations without compromising other constraints. We introduce PowerFix, a physics-guided iterative repair…",
+      "link": "http://arxiv.org/abs/2611.33712v1",
+      "published": "2026-11-25T03:27:22Z",
+      "authors": [
+        "Can Wang",
+        "Shi Qiu",
+        "Fanfan Lin"
+      ],
+      "categories": [
         "cs.AI"
       ]
     },
     {
-      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-      "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents implement quantized Qwen3.5, Gemma 3, Gemma 4, and Llama 3.2 decoders in…",
-      "link": "http://arxiv.org/abs/2611.33093v1",
-      "published": "2026-11-24T18:28:41Z",
+      "title": "P-FedSkill: A Personalized Federated Skill Learning Framework under Task Heterogeneity",
+      "summary": "Skill learning has become an important way to improve agent performance. However, agent trajectories often contain sensitive information and cannot be shared across clients, hindering collaborative skill learning. To tackle this issue, federated skill learning (FSL) has emerged as a solution by distilling trajectories into compact skill representations and uploading them to a central server for…",
+      "link": "http://arxiv.org/abs/2611.33707v1",
+      "published": "2026-11-25T03:20:47Z",
       "authors": [
-        "Guangyuan Wang",
-        "Chengran Li",
-        "Minchen Luo",
-        "Jichen Feng",
-        "Mengdi Wang",
-        "Yifan Zhang"
+        "Zehang Lin",
+        "Jiayi Ji",
+        "Rongrong Ji"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "EVA: Evidence-seeking Visual Agent for Hallucination-Resistant Multimodal Reasoning",
+      "summary": "Hallucinations in multimodal large language models (MLLMs) often arise from visual assumptions that go unchecked. Self-reflection, multi-agent debate, and counterfactual verification can reinforce erroneous conclusions when they rely on the same unverified visual assumptions. External visual tools can provide verifiable evidence, but models may select the wrong tools, supply incorrect parameters…",
+      "link": "http://arxiv.org/abs/2611.33706v1",
+      "published": "2026-11-25T03:19:42Z",
+      "authors": [
+        "Ting Lei",
+        "Yu Chen",
+        "Yang Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Sports Agent: A Self-Evolving System for Conversational Data Analytics",
+      "summary": "Conversational sports analytics requires accurate, evidence-based responses with low latency. Changes in query distributions, data resources, and model behavior can degrade static agent configurations, motivating controlled evolution guided by runtime evidence. We present Sports Agent, a self-evolving framework integrating an Agentic SQL Model for structured-data reasoning, a harness for planning…",
+      "link": "http://arxiv.org/abs/2611.33700v1",
+      "published": "2026-11-25T03:08:42Z",
+      "authors": [
+        "Chao Chen",
+        "Fuqi Lin",
+        "Ze Chen",
+        "Ziyan Liu",
+        "Chen Li",
+        "Haishu Jiang",
+        "Bo Xu",
+        "Zihan Jiang",
+        "Yue Wu",
+        "Zheng Wang",
+        "Kun Wang",
+        "Zhihang Fu",
+        "Jieping Ye"
       ],
       "categories": [
         "cs.CL",
@@ -308,44 +327,21 @@
       ]
     },
     {
-      "title": "The Radar-based Activities of Daily Living (R-ADL) Dataset",
-      "summary": "Monitoring Activities of Daily Living (ADLs) supports safety and well-being for people living at home, especially older adults, and radar sensing is gaining increasing attention in the field of activity recognition for its ability to ensure privacy in the home while also surpassing technical limitations of other sensing modalities. However, radar-based activity recognition remains constrained by…",
-      "link": "http://arxiv.org/abs/2611.33088v1",
-      "published": "2026-11-24T18:25:00Z",
+      "title": "Rethinking Sequential Locate-Then-Edit: Optimality and Stability",
+      "summary": "The Locate-Then-Edit framework enables efficient knowledge updates in large language models without requiring full retraining. Recent research has increasingly focused on sequential editing, where knowledge arrives continuously and the model is updated incrementally. However, existing sequential methods commonly suffer from catastrophic forgetting and model collapse after only a few hundred…",
+      "link": "http://arxiv.org/abs/2611.33692v1",
+      "published": "2026-11-25T02:58:13Z",
       "authors": [
-        "Dominique Regli",
-        "Brian C. Williams"
+        "Bingqing Liu",
+        "Wei Liu",
+        "Zhiying Deng",
+        "Jun Wang",
+        "Yuhua Li",
+        "Ruixuan Li"
       ],
       "categories": [
-        "cs.CV",
-        "cs.HC",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Uncertainty-Aware Candidate Generation for Entity Linking in Cyber Threat Intelligence",
-      "summary": "Entity Resolution (ER) pipelines often collapse ambiguity into early hard decisions: upstream Named Entity Recognition (NER) selects a single span and type, and downstream Entity Linking (EL) treats that choice as ground truth. This discards valuable information about the ambiguity of the underlying data (e.g., span boundary disagreement and type confusion), leading to brittle systems that fail…",
-      "link": "http://arxiv.org/abs/2611.33086v1",
-      "published": "2026-11-24T18:23:14Z",
-      "authors": [
-        "Nasser Alkhulaifi",
-        "Direnc Pekaslan",
-        "Christian Wagner"
-      ],
-      "categories": [
+        "cs.CL",
         "cs.AI"
-      ]
-    },
-    {
-      "title": "Shifter Quantization: Compact Representations for Native Integer Computation",
-      "summary": "Groupwise quantization is used in LLM quantization to improve accuracy at low bit widths, but grouping weights keeps standard integer MMA from spanning the full dot product for efficient GPU inference. We develop a new quantization method, Shifter Quantization (SQ), that reconstructs native-width integer operands by appending and shifting shared bits. To further extend the efficiency, we develop…",
-      "link": "http://arxiv.org/abs/2611.33080v1",
-      "published": "2026-11-24T18:14:52Z",
-      "authors": [
-        "Yufeng Huang"
-      ],
-      "categories": [
-        "cs.LG"
       ]
     }
   ]
