@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-25T19:25:02.446Z",
+  "updated": "2026-11-26T00:41:14.396Z",
   "count": 20,
   "items": [
     {
       "title": "OmniAct: One Policy, One Million Embodiments",
-      "summary": "OmniAct proposes a single policy that adapts to diverse robot embodiments, transferring task knowledge while accounting for morphological differences in manipulation strategies.",
+      "summary": "OmniAct proposes a single policy that transfers task knowledge across diverse robot embodiments while adapting to each robot’s unique capabilities.",
       "link": "http://arxiv.org/abs/2611.33158v1",
       "published": "2026-11-24T18:59:58Z",
       "authors": [
@@ -25,7 +25,7 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "Tech-savvy readers care because it enables scalable, adaptable robot control across varied hardware, reducing development time."
+      "whyItMatters": "Tech-savvy readers care because it enables scalable, adaptable robot control across varied hardware without retraining."
     },
     {
       "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
@@ -48,11 +48,11 @@
         "cs.MM",
         "cs.SD"
       ],
-      "whyItMatters": "It streamlines captioning by combining timing, diarization, and visual context, boosting accessibility and content analysis."
+      "whyItMatters": "It streamlines captioning by combining timing, diarization, and speaker identification into one model, saving time and improving accuracy."
     },
     {
       "title": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
-      "summary": "BioLoom proposes using scientific article structure to enhance biomedical vision-language model training.",
+      "summary": "BioLoom proposes scaling biomedical VLMs by leveraging the structure of scientific articles for richer supervision.",
       "link": "http://arxiv.org/abs/2611.33151v1",
       "published": "2026-11-24T18:59:04Z",
       "authors": [
@@ -68,11 +68,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It offers a new way to boost model performance without needing more data."
+      "whyItMatters": "It could improve medical AI accuracy using existing literature, saving data collection effort."
     },
     {
       "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
-      "summary": "CoT-Proxy distills long-horizon policies by extracting chain-of-thought from closed-model teachers via cross-format transfer.",
+      "summary": "CoT-Proxy distills long-horizon policies by transferring chain-of-thought from closed models via a proxy, enabling fine-tuning without direct access to internal reasoning.",
       "link": "http://arxiv.org/abs/2611.33148v1",
       "published": "2026-11-24T18:58:53Z",
       "authors": [
@@ -83,11 +83,11 @@
       "categories": [
         "cs.CL"
       ],
-      "whyItMatters": "Enables cheaper, transparent policy learning from proprietary models, boosting AI efficiency and accessibility."
+      "whyItMatters": "It lets developers leverage powerful but opaque models to train agents more efficiently."
     },
     {
       "title": "iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction",
-      "summary": "iWAM proposes efficient proxies for future scene imagination to enable real-time action prediction using pretrained video-generation models.",
+      "summary": "iWAM proposes efficient proxies for future scene imagination in world-action models to improve real-time action prediction without costly future generation.",
       "link": "http://arxiv.org/abs/2611.33141v1",
       "published": "2026-11-24T18:56:04Z",
       "authors": [
@@ -102,11 +102,11 @@
         "cs.CV",
         "cs.LG"
       ],
-      "whyItMatters": "It could speed up AI control systems without costly future simulation."
+      "whyItMatters": "It offers faster, lower‑cost control for AI agents, appealing to developers needing real‑time performance."
     },
     {
       "title": "BriConstrain: Geometrically Constrained Decoding for Autoregressive Brick Assembly Generation",
-      "summary": "BriConstrain limits language model token choices to avoid collisions and unattached parts when generating LEGO assemblies from text.",
+      "summary": "BriConstrain limits a language model’s token choices during decoding to produce physically valid LEGO assemblies without collisions.",
       "link": "http://arxiv.org/abs/2611.33135v1",
       "published": "2026-11-24T18:54:38Z",
       "authors": [
@@ -119,11 +119,11 @@
         "cs.CV",
         "cs.CL"
       ],
-      "whyItMatters": "It improves reliability of AI-generated designs, saving time for makers and developers."
+      "whyItMatters": "It improves reliability of AI-generated 3D builds, useful for designers and educators using generative models."
     },
     {
       "title": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit",
-      "summary": "The article shows how tiny gradient edits can dramatically improve a small language model’s reasoning, complementing large weight edits on a frontier model.",
+      "summary": "The article discusses how tiny gradient edits can stop a small language model’s thinking loops and complement large models’ weight edits to improve reasoning performance.",
       "link": "http://arxiv.org/abs/2611.33133v1",
       "published": "2026-11-24T18:53:22Z",
       "authors": [
@@ -133,11 +133,11 @@
         "cs.LG",
         "cs.CL"
       ],
-      "whyItMatters": "It reveals efficient, low‑cost ways to boost model reasoning, appealing to researchers seeking quick performance gains."
+      "whyItMatters": "It shows low-cost fine-tuning can significantly boost small models’ accuracy, useful for resource-limited AI deployments."
     },
     {
       "title": "Exploratory Midtraining for Robot Policies",
-      "summary": "The paper explores using midtraining to expand robot policy coverage of low-level behaviors, bridging challenging states to progressable ones.",
+      "summary": "The paper explores midtraining to expand robot policy coverage of low-level behaviors, bridging challenging states to progressable ones.",
       "link": "http://arxiv.org/abs/2611.33130v1",
       "published": "2026-11-24T18:52:34Z",
       "authors": [
@@ -160,11 +160,11 @@
         "cs.RO",
         "cs.LG"
       ],
-      "whyItMatters": "It could improve autonomous learning efficiency and robustness in robotics."
+      "whyItMatters": "It could improve autonomous robot learning beyond human data limits."
     },
     {
       "title": "SAG-Mem-1.0 Technical Report",
-      "summary": "SAG-Mem.1.0 introduces a new conversational memory system that retrieves complementary facts across sessions without relying on costly derived representations.",
+      "summary": "SAG-Mem.0 introduces a conversational memory system that retrieves dispersed facts across sessions without costly representations, preserving source details for long-term dialogue context.",
       "link": "http://arxiv.org/abs/2611.33124v1",
       "published": "2026-11-24T18:51:29Z",
       "authors": [
@@ -178,7 +178,7 @@
         "cs.CL",
         "cs.IR"
       ],
-      "whyItMatters": "It promises more accurate, source‑rich long‑term dialogue memory for AI applications."
+      "whyItMatters": "It offers efficient, detail‑preserving memory for AI chatbots, improving continuity and user trust."
     },
     {
       "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing",
@@ -194,11 +194,11 @@
       "categories": [
         "cs.AI"
       ],
-      "whyItMatters": "It boosts reliability of AI‑written parallel programs, saving developers time and reducing debugging effort."
+      "whyItMatters": "It boosts reliability of AI‑written parallel programs, a key concern for high‑performance computing developers."
     },
     {
       "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
-      "summary": "The paper proposes a draft‑calibration method to improve speculative decoding for LLMs by aligning draft and target token distributions to boost acceptance rates.",
+      "summary": "The paper proposes using a lightweight draft model to generate tokens that a full LLM verifies, speeding up inference by parallelizing draft and target steps.",
       "link": "http://arxiv.org/abs/2611.33111v1",
       "published": "2026-11-24T18:41:59Z",
       "authors": [
@@ -212,7 +212,7 @@
         "cs.LG",
         "cs.AI"
       ],
-      "whyItMatters": "Tech readers care because it promises faster, more efficient LLM inference with lower compute costs."
+      "whyItMatters": "It promises faster LLM responses with lower compute, appealing to developers needing efficient real‑time AI services."
     },
     {
       "title": "Temporal Conditioning for Human Behavioral Cloning in Chess",
@@ -227,7 +227,7 @@
         "cs.AI",
         "cs.HC"
       ],
-      "whyItMatters": "It improves model realism by reflecting how time pressure shapes human play."
+      "whyItMatters": "It improves model realism by reflecting how time pressure shapes human chess decisions."
     },
     {
       "title": "Reinforcement Learning Can Be Recovered From Its Own Rollouts",
