@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-26T17:03:37.053Z",
+  "updated": "2026-11-26T19:50:36.347Z",
   "count": 10,
   "items": [
+    {
+      "source": "The Verge Reviews",
+      "title": "Samsung’s R95H TV shows what RGB LED is capable of",
+      "link": "https://www.theverge.com/tech/1042613/samsung-r95h-rgb-led-tv-review",
+      "published": "2026-11-26T14:00:00.000Z",
+      "summary": "Samsung’s R95H RGB LED TV offers the widest color gamut measured this year, delivering more colors, higher brightness, and improved performance for premium displays.",
+      "excerpt": "Samsung’s premium RGB LED TV has the widest color gamut I’ve measured this year. RGB LED TVs finally became affordable in 2026, and there's always a lot of promise when new TV technologies come out. More color, higher brightness, improved performance - RGB LED TVs have a lot to prove. The Samsung R95H does a lot to deliver some of those promises. It can display more colors than other TVs I've seen so far this year…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268593_Samsung_R95H_RGB_LED_TV_JHiggins_0014.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy viewers can expect richer visuals and better color accuracy in affordable RGB LED TVs."
+    },
     {
       "source": "The Verge Reviews",
       "title": "Bambu’s five-nozzle P3C isn’t quite the 3D printer I expected",
@@ -91,16 +101,6 @@
       "excerpt": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us an impressive text-based…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "Tech readers should note its potential to streamline content creation and showcase agent usability for non‑developers."
-    },
-    {
-      "source": "The Verge Reviews",
-      "title": "I reviewed the Apple HomeView, ask me anything",
-      "link": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
-      "published": "2026-11-12T14:10:00.000Z",
-      "summary": "Apple’s $299 HomeView smart display is tested in various settings by The Verge’s senior smart‑home reviewer.",
-      "excerpt": "Getting up close and personal with the Apple HomeView. | Photo: Hunter McRae for The Verge Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen counter, bedside table, in my office, and on my…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268864_Smart_home_photos_HMCRAE102.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Readers can gauge Apple’s entry into the smart‑display market and compare it to Amazon and Google."
     }
   ]
 }
