@@ -5,13 +5,21 @@
     <link>https://signaltechnews.com/</link>
     <description>The Signal Tech newsletter, weekly digests and original blog guides: AI engineering, chips and dev tools in plain English.</description>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 25 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 07:00:00 GMT</lastBuildDate>
     <atom:link href="https://signaltechnews.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://signaltechnews.com/assets/icon-192.png</url>
       <title>Signal Tech</title>
       <link>https://signaltechnews.com/</link>
     </image>
+    <item>
+      <title>Issue #7: Claude Ship wants to approve your PRs</title>
+      <link>https://signaltechnews.com/issues/2026-11-27</link>
+      <guid isPermaLink="true">https://signaltechnews.com/issues/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 07:00:00 GMT</pubDate>
+      <category>Newsletter</category>
+      <description>Claude Ship lets AI approve your pull requests: Anthropic launched AI agents that review, fix and, if your rules allow… · Cognition releases SWE-2.1: The company behind the Devin coding agent released a much stronger model. · Tool of the week: Vite 8.4: A free update to the popular web build tool that makes its dev server harder to…</description>
+    </item>
     <item>
       <title>How to verify an AI API rewrite</title>
       <link>https://signaltechnews.com/blog/ai-api-rewrite-parity-checklist</link>

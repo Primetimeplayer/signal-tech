@@ -1,6 +1,26 @@
 {
-  "updated": "2026-11-20T09:13:24.587Z",
+  "updated": "2026-11-27T12:44:15.342Z",
   "issues": [
+    {
+      "issueNumber": 7,
+      "title": "Claude Ship wants to approve your PRs",
+      "date": "2026-11-27",
+      "url": "https://dailysignaltech.beehiiv.com/p/claude-ship-wants-to-approve-your-prs",
+      "stories": [
+        {
+          "headline": "Claude Ship lets AI approve your pull requests",
+          "whyItMatters": "Anthropic launched AI agents that review, fix and, if your rules allow…"
+        },
+        {
+          "headline": "Cognition releases SWE-2.1",
+          "whyItMatters": "The company behind the Devin coding agent released a much stronger model."
+        },
+        {
+          "headline": "Tool of the week: Vite 8.4",
+          "whyItMatters": "A free update to the popular web build tool that makes its dev server harder to…"
+        }
+      ]
+    },
     {
       "issueNumber": 6,
       "title": "GPT-6.2 lands. Test before you switch",
