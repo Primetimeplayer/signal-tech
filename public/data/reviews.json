@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-27T12:42:54.394Z",
+  "updated": "2026-11-27T23:31:16.283Z",
   "count": 10,
   "items": [
+    {
+      "source": "The Verge Reviews",
+      "title": "This gaming mouse should be a Logitech-killer, but it has one big flaw",
+      "link": "https://www.theverge.com/games/1043028/keychron-g6-he-hall-effect-magoptic-gaming-mouse-impressions",
+      "published": "2026-11-27T14:00:00.000Z",
+      "summary": "Keychron’s $90 G6 HE gaming mouse offers adjustable Hall effect clicks, aiming to rival Logitech’s pricey G Pro X2 Superstrike but has a notable flaw.",
+      "excerpt": "Every thug needs a lady, and every Hall effect mouse needs adjustable haptic vibrations. | Photo: Antonio G. Di Benedetto / The Verge When Keychron announced its $90 G6 HE gaming mouse, I immediately thought, \"Cool! A cheaper alternative to the pricey $180 Logitech G Pro X2 Superstrike.\" Logitech's innovation with the Superstrike is using magnetic Hall effect switches for a user-adjustable mouse click depth, with…",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268886_Keychron_G6_HE_gaming_mouse_ADiBenedetto_0008.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "whyItMatters": "Tech-savvy users seek affordable, customizable mice; this model could shift the market if its flaw is resolved."
+    },
     {
       "source": "The Verge Reviews",
       "title": "Samsung’s R95H TV shows what RGB LED is capable of",
@@ -91,16 +101,6 @@
       "excerpt": "Nearly 10 years after the launch of Paprika 3, the recipe-managing, pantry-organizing, grocery list-making app has gotten a big upgrade that adds more functionality to nearly every corner of the experience. I tested Paprika 4 for several weeks while it was in open beta, and the update recently launched across Android (the version I've been using), iOS, Windows, and macOS. Where Paprika 3 was a one-time purchase per…",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/paprikalead.jpg?quality=90&strip=all&crop=0,0,100,100",
       "whyItMatters": "Tech users will see new features and pay‑wall changes that affect app usage and budgeting."
-    },
-    {
-      "source": "The Verge Reviews",
-      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "published": "2026-11-13T14:00:00.000Z",
-      "summary": "Claude Duet is Anthropic’s consumer AI agent that helps users write reviews and tasks without coding, offering a new hands‑on experience.",
-      "excerpt": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us an impressive text-based…",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "whyItMatters": "Tech readers should note its potential to streamline content creation and showcase agent usability for non‑developers."
     }
   ]
 }
